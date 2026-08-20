@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: intraday-scanner
+  cancel-in-progress: false
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -35,4 +39,5 @@ jobs:
           git config user.email "actions@github.com"
           git add signals_log.csv state.json
           git diff --staged --quiet || git commit -m "Update scanner state [skip ci]"
+          git pull --rebase origin main
           git push
