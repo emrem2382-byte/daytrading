@@ -1,0 +1,38 @@
+name: Intraday Stock Scanner
+
+on:
+  schedule:
+    - cron: "*/5 8-21 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scanner
+        run: python scanner.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Save updated log/state back to the repo
+        run: |
+          git config user.name "scanner-bot"
+          git config user.email "actions@github.com"
+          git add signals_log.csv state.json
+          git diff --staged --quiet || git commit -m "Update scanner state [skip ci]"
+          git push
