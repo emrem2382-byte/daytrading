@@ -13,18 +13,11 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "UUUU",
-    "USAR",
-    "MRNA",
-    "SOFI",
-    "INFQ",
     "MP",
     "FUTU",
-    "MARA",
     "SPCX",
     "TSLA",
     "PLUG",
-    "UEC",
     "SLS",
     "RGTI",
     "VIRT",
@@ -39,10 +32,17 @@
     "PARR",
     "DAO",
     "TEM",
-    "SIND",
     "NEXA",
     "ERO",
-    "FCFS"
+    "FCFS",
+    "DNN",
+    "BGC",
+    "SCCO",
+    "BTDR",
+    "FIGR",
+    "QBTS",
+    "TRLV",
+    "CNH"
   ],
   "tracked_day": "2026-08-21"
 }
