@@ -1,15 +1,15 @@
 {
   "premarket_watchlist": [
+    "BTDR",
     "MSTR",
     "XXI",
-    "MRNA",
-    "BTDR",
-    "COIN",
-    "CRCL",
     "MARA",
-    "GLXY",
+    "MRNA",
+    "CRCL",
     "BMNR",
-    "CLSK"
+    "COIN",
+    "CLSK",
+    "GLXY"
   ],
   "last_session": "premarket"
 }
