@@ -1,6 +1,17 @@
 {
-  "premarket_watchlist": [],
-  "last_session": null,
+  "premarket_watchlist": [
+    "BTDR",
+    "MSTR",
+    "MARA",
+    "COIN",
+    "GLXY",
+    "LIME",
+    "CLSK",
+    "CRCL",
+    "XXI",
+    "BMNR"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
 }
