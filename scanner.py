@@ -1,3 +1,4 @@
+
 """
 Скенер за интрадей сигнали - самостоятелна версия за GitHub Actions.
 
@@ -36,13 +37,28 @@ logging.getLogger("yfinance").setLevel(logging.CRITICAL)
 SCREENER_CONFIG = {
     "most_actives": 15,
     "day_gainers": 25,   # "топ 25 най-качили-се за деня", като в Revolut
-    "day_losers": 15,
+    # "day_losers" премахнат умишлено - стратегията е BUY-only (bullish
+    # пресичане), няма смисъл да теглим падащи акции в пула за анализ.
 }
 
 FALLBACK_TICKERS = [
     "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA", "META",
     "NFLX", "AMD", "JPM", "V", "DIS", "BA", "KO", "PFE",
 ]
+
+# Тикъри, изключени напълно от скенера - ръчно попълвай тук при нужда
+# (напр. проблем с изпълнение в Revolut, или друга специфична причина).
+EXCLUDED_TICKERS = [
+    # "ПРИМЕР", "ДРУГ_ТИКЪР",
+]
+
+# Гоним само акции, които В МОМЕНТА растат за деня - няма смисъл да следим
+# нещо, което вече пада. 0.0 = само положителна дневна промяна.
+MIN_DAILY_CHANGE_PCT = 0.0
+
+# Таван на общия пул тикъри, които скенерът следи едновременно между
+# отделните 5-минутни пускания (пази от неограничено растене през деня).
+MAX_TRACKED_TICKERS = 30
 
 EMA_FAST = 9
 EMA_SLOW = 20
@@ -81,7 +97,8 @@ def send_telegram(text: str):
     try:
         resp = requests.post(
             url,
-            data={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML"},
+            data={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML",
+                  "disable_web_page_preview": True},
             timeout=10,
         )
         if resp.status_code != 200:
@@ -90,15 +107,99 @@ def send_telegram(text: str):
         print(f"Telegram изпращането се провали: {e}")
 
 
+# ========================= TELEGRAM СЪОБЩЕНИЯ - ФОРМАТИРАНЕ =========================
+#
+# Общ визуален стил на всички съобщения:
+#   - тънка разделителна линия ("┈┈┈") под заглавието
+#   - цените подравнени в <code> (моноширинен шрифт, изглежда като таблица)
+#   - един ред "мета" информация (час/риск) в дъно, по-дребен смислово акцент
+# Telegram HTML поддържа само: b, i, u, s, code, pre, a - никакви таблици или
+# markdown ```, затова подравняването е чрез фиксирана ширина в <code>.
+
+DIVIDER = "┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈"
+
+
+def fmt_price(value):
+    return f"${value:,.2f}"
+
+
+def build_buy_signal_message(signal, stale, duplicate):
+    risk_reward = TAKE_PROFIT_PCT / STOP_LOSS_PCT
+    lines = [
+        f"🟢 <b>BUY СИГНАЛ · {signal['ticker']}</b>",
+        DIVIDER,
+        f"Вход:  <code>{fmt_price(signal['price']):<10}</code>",
+        f"TP:    <code>{fmt_price(signal['take_profit']):<10}</code>  <i>(+{TAKE_PROFIT_PCT*100:.0f}%)</i>",
+        f"SL:    <code>{fmt_price(signal['stop_loss']):<10}</code>  <i>(-{STOP_LOSS_PCT*100:.0f}%)</i>",
+        f"R:R:   <code>1 : {risk_reward:.1f}</code>",
+        DIVIDER,
+        f"🕐 {signal['time']} NY  ·  бар отпреди {signal['data_age_min']} мин",
+    ]
+    if stale:
+        lines.append(f"⚠️ <i>Данните са над {STALE_DATA_WARNING_MIN} мин стари - провери реалната цена преди да действаш.</i>")
+    if duplicate:
+        lines.append("ℹ️ <i>Вече има отворена позиция за този тикър - не се дублира в лога.</i>")
+    return "\n".join(lines)
+
+
+def build_position_closed_message(row):
+    is_win = row["status"] == "tp_hit"
+    emoji = "✅" if is_win else "🛑"
+    label = "TAKE PROFIT" if is_win else "STOP LOSS"
+    pnl = float(row["pnl_pct"])
+    lines = [
+        f"{emoji} <b>{label} · {row['ticker']}</b>",
+        DIVIDER,
+        f"Вход:   <code>{fmt_price(float(row['entry_price'])):<10}</code>",
+        f"Изход:  <code>{fmt_price(float(row['close_price'])):<10}</code>",
+        f"P/L:    <b>{pnl:+.2f}%</b>",
+        DIVIDER,
+        f"🕐 затворена {row['close_time']} NY",
+    ]
+    return "\n".join(lines)
+
+
+def build_premarket_digest_message(movers, ny_now):
+    lines = [f"🌅 <b>ПРЕДПАЗАРНИ ЛИДЕРИ</b>  ·  {ny_now.strftime('%H:%M')} NY", DIVIDER]
+    for m in movers:
+        arrow = "🔺" if m["pct_move"] > 0 else "🔻"
+        lines.append(f"{arrow} <b>{m['ticker']}</b>   <code>{m['pct_move']:+.2f}%</code>   @ {fmt_price(m['last_price'])}")
+    return "\n".join(lines)
+
+
+def build_session_summary_message():
+    rows = read_signals_log()
+    closed = [r for r in rows if r["status"] in ("tp_hit", "sl_hit")]
+    if not closed:
+        return None
+    wins = sum(1 for r in closed if r["status"] == "tp_hit")
+    total = len(closed)
+    win_rate = wins / total * 100
+    avg_pnl = sum(float(r["pnl_pct"]) for r in closed) / total
+    open_count = sum(1 for r in rows if r["status"] == "open")
+    lines = [
+        "📊 <b>ОБОБЩЕНИЕ ЗА СЕСИЯТА</b>",
+        DIVIDER,
+        f"Затворени:  <code>{total}</code>",
+        f"Печеливши:  <code>{wins}</code>  <i>({win_rate:.1f}%)</i>",
+        f"Среден P/L: <b>{avg_pnl:+.2f}%</b>",
+        f"Отворени:   <code>{open_count}</code>",
+    ]
+    return "\n".join(lines)
+
+
 # ========================= СЪСТОЯНИЕ (state.json) =========================
 
 def load_state():
     if STATE_PATH.exists():
         try:
-            return json.loads(STATE_PATH.read_text(encoding="utf-8"))
+            state = json.loads(STATE_PATH.read_text(encoding="utf-8"))
+            state.setdefault("tracked_tickers", [])
+            state.setdefault("tracked_day", None)
+            return state
         except Exception:
             pass
-    return {"premarket_watchlist": [], "last_session": None}
+    return {"premarket_watchlist": [], "last_session": None, "tracked_tickers": [], "tracked_day": None}
 
 
 def save_state(state):
@@ -127,25 +228,55 @@ def get_market_session():
 # ========================= ОТКРИВАНЕ НА ТИКЪРИ =========================
 
 def get_trending_tickers(screener_config=None):
+    """Тегли комбиниран списък от screener-ите, маха изключените тикъри и
+    тези, които в момента ПАДАТ за деня (под MIN_DAILY_CHANGE_PCT)."""
     screener_config = screener_config or SCREENER_CONFIG
     combined, seen, any_success = [], set(), False
     for name, count in screener_config.items():
         try:
             results = yf.screen(name, count=count)
-            symbols = [q["symbol"] for q in results.get("quotes", []) if q.get("symbol")]
-            if symbols:
+            quotes = results.get("quotes", [])
+            if quotes:
                 any_success = True
-            for s in symbols:
-                if s not in seen:
-                    seen.add(s)
-                    combined.append(s)
+            for q in quotes:
+                symbol = q.get("symbol")
+                change_pct = q.get("regularMarketChangePercent")
+                if not symbol or symbol in seen or symbol in EXCLUDED_TICKERS:
+                    continue
+                if change_pct is None or change_pct < MIN_DAILY_CHANGE_PCT:
+                    continue  # пада или няма данни за промяната - прескачаме
+                seen.add(symbol)
+                combined.append(symbol)
         except Exception as e:
             print(f"Не успях да изтегля screener '{name}' ({e}) - пропускам го.")
 
     if not any_success:
         print("Всички screener-и се провалиха - ползвам резервния списък.")
-        return FALLBACK_TICKERS[:]
+        return [t for t in FALLBACK_TICKERS if t not in EXCLUDED_TICKERS]
     return combined
+
+
+def update_tracked_tickers(tracked, new_trending, max_size=MAX_TRACKED_TICKERS):
+    """Добавя нови тикъри към вече следения пул, без да маха стари, освен
+    ако не се наложи заради таван на размера - тогава маха първо тези,
+    които вече не са в текущия топ списък. Тикъри от EXCLUDED_TICKERS
+    никога не влизат и се махат, ако вече присъстват."""
+    tracked = [t for t in tracked if t not in EXCLUDED_TICKERS]
+
+    for t in new_trending:
+        if t not in tracked and t not in EXCLUDED_TICKERS:
+            tracked.append(t)
+
+    if len(tracked) > max_size:
+        excess = len(tracked) - max_size
+        removable = [t for t in tracked if t not in new_trending]
+        to_remove = removable[:excess]
+        for t in to_remove:
+            tracked.remove(t)
+        if len(tracked) > max_size:
+            tracked = tracked[-max_size:]
+
+    return tracked
 
 
 # ========================= ПРЕДПАЗАРНО ОПИПВАНЕ =========================
@@ -240,7 +371,9 @@ def analyze_ticker(ticker):
                 "price": round(entry, 2),
                 "take_profit": round(take_profit, 2),
                 "stop_loss": round(stop_loss, 2),
-                "time": datetime.now().strftime("%H:%M:%S"),
+                # Ню Йорк час, за консистентност с close_time в update_open_positions()
+                # (преди беше наивен сървърен datetime.now(), обикновено UTC на GitHub Actions).
+                "time": datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M:%S"),
                 "bar_time": bar_time.strftime("%H:%M:%S"),
                 "data_age_min": data_age_min,
             }
@@ -357,6 +490,8 @@ def main():
     if session == "closed":
         print("🔒 Пазарът е затворен - нищо за правене.")
         state["premarket_watchlist"] = []
+        state["tracked_tickers"] = []
+        state["tracked_day"] = None
         state["last_session"] = "closed"
         save_state(state)
         return
@@ -376,32 +511,37 @@ def main():
         # За да не спамим Telegram на всеки 5 мин, пращаме предпазарния
         # дайджест само веднъж на кръгъл час.
         if movers and ny_now.minute < 5:
-            lines = [f"🌅 <b>Предпазарни лидери</b> ({ny_now.strftime('%H:%M')} NY):"]
-            for m in movers:
-                arrow = "🔺" if m["pct_move"] > 0 else "🔻"
-                lines.append(f"{arrow} {m['ticker']}: {m['pct_move']:+.2f}% @ {m['last_price']}$")
-            send_telegram("\n".join(lines))
+            send_telegram(build_premarket_digest_message(movers, ny_now))
         print(f"Предпазарни лидери: {state['premarket_watchlist']}")
         return
 
     # --- session == "open" ---
     newly_closed = update_open_positions()
     for r in newly_closed:
-        emoji = "✅" if r["status"] == "tp_hit" else "❌"
-        label = "Take Profit" if r["status"] == "tp_hit" else "Stop Loss"
-        send_telegram(
-            f"{emoji} <b>{r['ticker']}</b> затворена ({label})\n"
-            f"Вход: {r['entry_price']}$ -> Изход: {r['close_price']}$ "
-            f"({float(r['pnl_pct']):+.2f}%)"
-        )
+        send_telegram(build_position_closed_message(r))
 
-    current_tickers = get_trending_tickers()
+    # Растящ пул от тикъри, пазен в state.json между отделните пускания -
+    # не сменяме списъка всеки run, а добавяме нови трендящи към вече
+    # следените (до MAX_TRACKED_TICKERS), за да не губим тикър, който е
+    # изпаднал от топ списъка точно преди да довърши пресичането си.
+    today_str = ny_now.strftime("%Y-%m-%d")
+    tracked_tickers = state.get("tracked_tickers", [])
+    if state.get("tracked_day") != today_str:
+        tracked_tickers = []  # нов ден - чист старт на пула
+
+    new_trending = get_trending_tickers()
+    tracked_tickers = update_tracked_tickers(tracked_tickers, new_trending)
+
     premarket_watchlist = state.get("premarket_watchlist", [])
     if state.get("last_session") in ("premarket", None) and premarket_watchlist:
-        current_tickers = list(dict.fromkeys(premarket_watchlist + current_tickers))
+        tracked_tickers = update_tracked_tickers(tracked_tickers, premarket_watchlist)
         print(f"🚀 Пазарът отвори - приоритет на предпазарните лидери: {premarket_watchlist}")
 
-    print(f"Проверявам {len(current_tickers)} тикъра...")
+    state["tracked_tickers"] = tracked_tickers
+    state["tracked_day"] = today_str
+    current_tickers = tracked_tickers
+
+    print(f"Проверявам {len(current_tickers)} тикъра (следени общо, таван {MAX_TRACKED_TICKERS}): {current_tickers}")
 
     any_signal = False
     for ticker in current_tickers:
@@ -410,24 +550,13 @@ def main():
             any_signal = True
             stale = signal["data_age_min"] > STALE_DATA_WARNING_MIN
             logged_id = log_new_signal(signal)
+            duplicate = logged_id is None
 
-            msg_lines = [
-                f"🟢 <b>BUY: {signal['ticker']}</b> @ {signal['price']}$",
-                f"Take Profit: {signal['take_profit']}$  |  Stop Loss: {signal['stop_loss']}$",
-                f"Последен бар: {signal['bar_time']} (отпреди {signal['data_age_min']} мин)",
-            ]
-            if stale:
-                msg_lines.append(
-                    f"⚠️ Данните са с над {STALE_DATA_WARNING_MIN} мин закъснение - "
-                    f"провери реалната цена в Revolut преди да действаш."
-                )
-            if logged_id is None:
-                msg_lines.append("(вече има отворена позиция за този тикър, не се дублира в лога)")
-
-            print("\n".join(msg_lines))
-            if logged_id is not None:
+            msg = build_buy_signal_message(signal, stale, duplicate)
+            print(msg.replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", "").replace("<code>", "").replace("</code>", ""))
+            if not duplicate:
                 # Пращаме Telegram само за НОВИ сигнали, не за дубликати.
-                send_telegram("\n".join(msg_lines))
+                send_telegram(msg)
         time.sleep(REQUEST_DELAY_SEC)
 
     if not any_signal:
@@ -436,6 +565,13 @@ def main():
     summary = win_rate_summary_text()
     if summary:
         print(summary)
+
+    # Обобщение за деня, изпратено веднъж - на последното пускане преди
+    # затваряне на пазара (16:00 NY), не на всеки 5 мин.
+    if ny_now.hour == 15 and ny_now.minute >= 55:
+        summary_msg = build_session_summary_message()
+        if summary_msg:
+            send_telegram(summary_msg)
 
     state["last_session"] = "open"
     save_state(state)
