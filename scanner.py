@@ -167,6 +167,33 @@ def build_premarket_digest_message(movers, ny_now):
     return "\n".join(lines)
 
 
+def build_premarket_change_message(movers, added, removed, ny_now):
+    """Показва само какво се е ПРОМЕНИЛО спрямо предишната проверка - нови
+    имена, влезли в топ движещите се, и такива, които вече не отговарят на
+    критериите (паднали под прага или изместени от по-силни движения)."""
+    lines = [f"🌅 <b>ПРОМЯНА В ПРЕДПАЗАРНИТЕ ЛИДЕРИ</b>  ·  {ny_now.strftime('%H:%M')} NY", DIVIDER]
+
+    if added:
+        lines.append("🆕 <b>Нови:</b>")
+        movers_by_ticker = {m["ticker"]: m for m in movers}
+        for t in added:
+            m = movers_by_ticker.get(t)
+            if m:
+                arrow = "🔺" if m["pct_move"] > 0 else "🔻"
+                lines.append(f"  {arrow} <b>{t}</b>   <code>{m['pct_move']:+.2f}%</code>   @ {fmt_price(m['last_price'])}")
+
+    if removed:
+        if added:
+            lines.append("")
+        lines.append("❌ <b>Отпаднали:</b>")
+        for t in removed:
+            lines.append(f"  • {t}")
+
+    lines.append(DIVIDER)
+    lines.append(f"📋 Пълен списък сега: {', '.join(m['ticker'] for m in movers)}")
+    return "\n".join(lines)
+
+
 def build_session_summary_message():
     rows = read_signals_log()
     closed = [r for r in rows if r["status"] in ("tp_hit", "sl_hit")]
@@ -502,17 +529,29 @@ def main():
             save_state(state)
             return
 
+        previous_watchlist = set(state.get("premarket_watchlist", []))
         candidates = get_trending_tickers()
         movers = scan_premarket_movers(candidates)
+        current_watchlist = set(m["ticker"] for m in movers)
+
+        added = [t for t in (m["ticker"] for m in movers) if t not in previous_watchlist]
+        removed = [t for t in previous_watchlist if t not in current_watchlist]
+
         state["premarket_watchlist"] = [m["ticker"] for m in movers]
         state["last_session"] = "premarket"
         save_state(state)
 
-        # За да не спамим Telegram на всеки 5 мин, пращаме предпазарния
-        # дайджест само веднъж на кръгъл час.
-        if movers and ny_now.minute < 5:
-            send_telegram(build_premarket_digest_message(movers, ny_now))
+        # Пращаме Telegram само когато списъкът РЕАЛНО се е променил (нов
+        # лидер или отпаднал) - не по часовник. Първото пускане за деня
+        # (previous_watchlist е празен) винаги праща пълния списък.
+        if movers and (added or removed):
+            if not previous_watchlist:
+                send_telegram(build_premarket_digest_message(movers, ny_now))
+            else:
+                send_telegram(build_premarket_change_message(movers, added, removed, ny_now))
         print(f"Предпазарни лидери: {state['premarket_watchlist']}")
+        if added or removed:
+            print(f"  Промяна: +{added} -{removed}")
         return
 
     # --- session == "open" ---
