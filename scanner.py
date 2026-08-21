@@ -1,4 +1,3 @@
-
 """
 Скенер за интрадей сигнали - самостоятелна версия за GitHub Actions.
 
@@ -190,7 +189,10 @@ def build_premarket_change_message(movers, added, removed, ny_now):
             lines.append(f"  • {t}")
 
     lines.append(DIVIDER)
-    lines.append(f"📋 Пълен списък сега: {', '.join(m['ticker'] for m in movers)}")
+    lines.append("📋 <b>Пълен списък сега:</b>")
+    for m in sorted(movers, key=lambda x: abs(x["pct_move"]), reverse=True):
+        arrow = "🔺" if m["pct_move"] > 0 else "🔻"
+        lines.append(f"  {arrow} {m['ticker']}   <code>{m['pct_move']:+.2f}%</code>   @ {fmt_price(m['last_price'])}")
     return "\n".join(lines)
 
 
