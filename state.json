@@ -1,6 +1,11 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "DAO",
+    "MRNA",
+    "BTDR",
+    "USAR"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
 }
