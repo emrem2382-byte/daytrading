@@ -1,9 +1,12 @@
 {
   "premarket_watchlist": [
     "DAO",
-    "MRNA",
+    "USAR",
+    "FUTU",
+    "INFQ",
+    "QUBT",
     "BTDR",
-    "USAR"
+    "RGTI"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
