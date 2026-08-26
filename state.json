@@ -1,6 +1,11 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "GENB",
+    "CDLR",
+    "OKLO",
+    "SNAP"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
 }
