@@ -1,9 +1,8 @@
 {
   "premarket_watchlist": [
-    "GENB",
-    "CDLR",
-    "OKLO",
-    "SNAP"
+    "SNAP",
+    "SMR",
+    "OKLO"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
