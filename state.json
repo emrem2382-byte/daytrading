@@ -1,41 +1,6 @@
 {
-  "premarket_watchlist": [
-    "SNAP",
-    "SMR",
-    "OKLO"
-  ],
-  "last_session": "open",
-  "tracked_tickers": [
-    "KVUE",
-    "BMNR",
-    "BZ",
-    "ANF",
-    "SMTC",
-    "TTMI",
-    "ZYME",
-    "SMMT",
-    "ACHC",
-    "CRK",
-    "DTM",
-    "WMB",
-    "AAON",
-    "VSXY",
-    "NYAX",
-    "URBN",
-    "KEP",
-    "LB",
-    "ALHC",
-    "RAL",
-    "VERA",
-    "PGEN",
-    "EQT",
-    "WSO",
-    "TRLV",
-    "BBWI",
-    "LOAR",
-    "SNAP",
-    "SMR",
-    "OKLO"
-  ],
-  "tracked_day": "2026-08-26"
+  "premarket_watchlist": [],
+  "last_session": "closed",
+  "tracked_tickers": [],
+  "tracked_day": null
 }
