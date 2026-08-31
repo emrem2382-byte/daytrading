@@ -10,8 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "NVDA",
-    "INTC",
     "SPCX",
     "SNAP",
     "NIO",
@@ -27,19 +25,21 @@
     "WFRD",
     "TS",
     "HP",
-    "NEXT",
     "BBAR",
     "GME",
     "CF",
     "EPAM",
     "ASST",
-    "SLB",
-    "APPN",
-    "TGS",
-    "VEEV",
     "AXTI",
     "PBR",
-    "BSX"
+    "BSX",
+    "ASND",
+    "ULTA",
+    "CRWD",
+    "ELF",
+    "CNH",
+    "HNGE",
+    "FRVO"
   ],
   "tracked_day": "2026-08-31"
 }
