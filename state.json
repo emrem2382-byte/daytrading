@@ -1,12 +1,14 @@
 {
   "premarket_watchlist": [
-    "PSQL",
     "NWL",
+    "PSQL",
     "PBF",
+    "ESTC",
+    "CVI",
+    "NOW",
     "DAR",
     "CHA",
-    "DOCS",
-    "CVI"
+    "DOCS"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
