@@ -1,9 +1,9 @@
 {
   "premarket_watchlist": [
     "NWL",
-    "TRLV",
     "TOP",
-    "DAR"
+    "DAR",
+    "CVI"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
