@@ -10,16 +10,8 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CRCL",
-    "F",
-    "ASND",
-    "OLLI",
-    "NVDA",
-    "INTC",
     "ELF",
     "CNH",
-    "HNGE",
-    "DE",
     "CRWD",
     "SPCX",
     "SAIC",
@@ -39,7 +31,15 @@
     "CHA",
     "STDN",
     "AXTI",
-    "AMR"
+    "AMR",
+    "PATH",
+    "BMNR",
+    "ASST",
+    "XE",
+    "BBAR",
+    "RBLX",
+    "FRVO",
+    "COIN"
   ],
   "tracked_day": "2026-08-31"
 }
