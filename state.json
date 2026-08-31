@@ -10,10 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AXTI",
-    "PATH",
-    "BMNR",
-    "ASST",
     "XE",
     "BBAR",
     "RBLX",
@@ -38,8 +34,12 @@
     "BMA",
     "BTDR",
     "ULTA",
-    "XP",
-    "INFQ"
+    "INFQ",
+    "NU",
+    "PURR",
+    "CHA",
+    "STDN",
+    "AMR"
   ],
   "tracked_day": "2026-08-31"
 }
