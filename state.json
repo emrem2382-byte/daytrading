@@ -10,9 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "IREN",
-    "TSLA",
-    "AMR",
     "XE",
     "CHA",
     "STDN",
@@ -20,7 +17,6 @@
     "RBLX",
     "BBAR",
     "GME",
-    "EPAM",
     "ASST",
     "AXTI",
     "BSX",
@@ -33,13 +29,17 @@
     "NVDA",
     "INTC",
     "AGCO",
-    "DE",
     "VEEV",
     "SPCX",
     "GGAL",
-    "CRCL",
     "BMA",
-    "XP"
+    "XP",
+    "SNAP",
+    "PURR",
+    "ABEV",
+    "XPRO",
+    "SNDK",
+    "TS"
   ],
   "tracked_day": "2026-08-31"
 }
