@@ -10,14 +10,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "XE",
-    "BBAR",
-    "RBLX",
-    "GME",
-    "PATH",
-    "ASST",
     "CRCL",
-    "BMNR",
     "F",
     "ASND",
     "OLLI",
@@ -39,7 +32,14 @@
     "SNAP",
     "IREN",
     "BTDR",
-    "XP"
+    "XP",
+    "NU",
+    "PURR",
+    "PSQL",
+    "CHA",
+    "STDN",
+    "AXTI",
+    "AMR"
   ],
   "tracked_day": "2026-08-31"
 }
