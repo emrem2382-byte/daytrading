@@ -10,9 +10,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "ASST",
     "AXTI",
-    "BSX",
     "ASND",
     "ULTA",
     "CRWD",
@@ -20,7 +18,6 @@
     "CNH",
     "HNGE",
     "NVDA",
-    "INTC",
     "AGCO",
     "VEEV",
     "SPCX",
@@ -28,7 +25,6 @@
     "BMA",
     "XP",
     "SNAP",
-    "PURR",
     "ABEV",
     "TSLA",
     "IREN",
@@ -39,7 +35,11 @@
     "CHA",
     "XE",
     "SAIC",
-    "NGL"
+    "BBAR",
+    "RBLX",
+    "GME",
+    "SAIL",
+    "FRVO"
   ],
   "tracked_day": "2026-08-31"
 }
