@@ -10,10 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BMNR",
-    "RBLX",
-    "BBAR",
-    "GME",
     "ASST",
     "AXTI",
     "BSX",
@@ -34,12 +30,16 @@
     "SNAP",
     "PURR",
     "ABEV",
-    "SNDK",
-    "TS",
     "TSLA",
     "IREN",
     "AMR",
-    "PLSE"
+    "NU",
+    "PSQL",
+    "STDN",
+    "CHA",
+    "XE",
+    "SAIC",
+    "NGL"
   ],
   "tracked_day": "2026-08-31"
 }
