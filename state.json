@@ -10,10 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CRCL",
-    "ASND",
-    "SPCX",
-    "ELF",
     "CRWD",
     "VEEV",
     "GGAL",
@@ -39,7 +35,11 @@
     "BBAR",
     "LEGN",
     "ZYME",
-    "FRVO"
+    "FRVO",
+    "NVDA",
+    "INTC",
+    "COIN",
+    "TARS"
   ],
   "tracked_day": "2026-08-31"
 }
