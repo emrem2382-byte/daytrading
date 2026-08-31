@@ -10,11 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CRWD",
-    "ELF",
-    "CNH",
-    "HNGE",
-    "NVDA",
     "AGCO",
     "VEEV",
     "SPCX",
@@ -35,11 +30,16 @@
     "RBLX",
     "GME",
     "FRVO",
-    "PURR",
     "PATH",
     "ASST",
     "CRCL",
-    "BSX"
+    "BSX",
+    "BMNR",
+    "F",
+    "ASND",
+    "ULTA",
+    "OLLI",
+    "SAIC"
   ],
   "tracked_day": "2026-08-31"
 }
