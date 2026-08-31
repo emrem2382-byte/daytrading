@@ -10,11 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AMR",
-    "NU",
-    "PSQL",
-    "STDN",
-    "CHA",
     "XE",
     "BBAR",
     "RBLX",
@@ -30,7 +25,6 @@
     "INTC",
     "ELF",
     "CNH",
-    "AXTI",
     "HNGE",
     "DE",
     "CRWD",
@@ -39,7 +33,13 @@
     "GGAL",
     "AGCO",
     "VEEV",
-    "BMA"
+    "BMA",
+    "TSLA",
+    "ABEV",
+    "SNAP",
+    "IREN",
+    "BTDR",
+    "XP"
   ],
   "tracked_day": "2026-08-31"
 }
