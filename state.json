@@ -10,10 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "SAIC",
-    "GGAL",
-    "AGCO",
-    "VEEV",
     "TSLA",
     "ABEV",
     "SNAP",
@@ -39,7 +35,11 @@
     "ASND",
     "MRNA",
     "VG",
-    "HNGE"
+    "SPCX",
+    "ELF",
+    "CRWD",
+    "CNH",
+    "INFQ"
   ],
   "tracked_day": "2026-08-31"
 }
