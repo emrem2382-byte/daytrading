@@ -10,9 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "XE",
-    "BBAR",
-    "RBLX",
     "COIN",
     "NVDA",
     "INTC",
@@ -22,7 +19,6 @@
     "SPCX",
     "ELF",
     "CRWD",
-    "SAIC",
     "VEEV",
     "GGAL",
     "AGCO",
@@ -34,12 +30,16 @@
     "BMA",
     "BTDR",
     "ULTA",
-    "INFQ",
     "NU",
     "PURR",
     "CHA",
     "STDN",
-    "AMR"
+    "PATH",
+    "BMNR",
+    "ASST",
+    "PLSE",
+    "AXTI",
+    "SLB"
   ],
   "tracked_day": "2026-08-31"
 }
