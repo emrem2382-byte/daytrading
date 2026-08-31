@@ -10,8 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "LEGN",
-    "NVDA",
     "COIN",
     "SPCX",
     "CRCL",
@@ -31,15 +29,17 @@
     "GLXY",
     "PATH",
     "STDN",
-    "WFRD",
     "HNGE",
-    "INTC",
     "BMNR",
     "ASST",
-    "ELF",
-    "OLLI",
     "MSTR",
-    "XNCR"
+    "XNCR",
+    "RBLX",
+    "XE",
+    "BTDR",
+    "BBAR",
+    "NGL",
+    "ZYME"
   ],
   "tracked_day": "2026-08-31"
 }

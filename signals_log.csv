@@ -1,1 +1,2 @@
 id,ticker,signal_time,entry_price,take_profit,stop_loss,status,close_time,close_price,pnl_pct
+1,SPCX,2026-08-31 15:54:22,142.99,150.14,140.13,open,,,
