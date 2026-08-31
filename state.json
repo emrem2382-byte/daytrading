@@ -3,7 +3,9 @@
     "PSQL",
     "NWL",
     "TOP",
-    "TRLV"
+    "DAR",
+    "TRLV",
+    "CVI"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
