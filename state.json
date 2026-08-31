@@ -1,8 +1,12 @@
 {
   "premarket_watchlist": [
+    "WAY",
+    "CHA",
     "PSQL",
+    "TOP",
     "PBF",
-    "ESTC"
+    "CVI",
+    "TRLV"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
