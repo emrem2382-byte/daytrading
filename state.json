@@ -10,10 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CRWD",
-    "VEEV",
-    "GGAL",
-    "AGCO",
     "CAR",
     "TSLA",
     "ABEV",
@@ -39,7 +35,11 @@
     "NVDA",
     "INTC",
     "COIN",
-    "TARS"
+    "SPCX",
+    "CRCL",
+    "ASND",
+    "ELF",
+    "MIR"
   ],
   "tracked_day": "2026-08-31"
 }
