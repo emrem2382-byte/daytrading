@@ -1,9 +1,7 @@
 {
   "premarket_watchlist": [
     "TRLV",
-    "PSQL",
-    "TOP",
-    "SLB"
+    "TOP"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
