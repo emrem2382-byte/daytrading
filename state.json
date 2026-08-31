@@ -10,9 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AXTI",
-    "CF",
-    "SLB",
     "CRWD",
     "ASND",
     "NVDA",
@@ -27,7 +24,6 @@
     "SMCI",
     "XE",
     "CHA",
-    "KALU",
     "STDN",
     "SAIC",
     "XPRO",
@@ -35,11 +31,15 @@
     "RBLX",
     "WFRD",
     "TS",
-    "PBR",
     "ULTA",
-    "VEEV",
     "XP",
-    "MRNA"
+    "HP",
+    "NEXT",
+    "NGL",
+    "BBAR",
+    "HNGE",
+    "VG",
+    "GME"
   ],
   "tracked_day": "2026-08-31"
 }
