@@ -10,11 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "NU",
-    "PURR",
-    "PSQL",
-    "CHA",
-    "STDN",
     "AXTI",
     "PATH",
     "BMNR",
@@ -31,15 +26,20 @@
     "SPCX",
     "ELF",
     "CRWD",
-    "CNH",
     "SAIC",
     "VEEV",
     "GGAL",
     "AGCO",
-    "FRVO",
     "CAR",
-    "PLSE",
-    "OLLI"
+    "TSLA",
+    "ABEV",
+    "SNAP",
+    "IREN",
+    "BMA",
+    "BTDR",
+    "ULTA",
+    "XP",
+    "INFQ"
   ],
   "tracked_day": "2026-08-31"
 }
