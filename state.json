@@ -1,8 +1,9 @@
 {
   "premarket_watchlist": [
     "NWL",
-    "PSQL",
     "TOP",
+    "CVI",
+    "PSQL",
     "TRLV"
   ],
   "last_session": "premarket",
