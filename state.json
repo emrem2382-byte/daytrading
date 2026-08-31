@@ -1,13 +1,11 @@
 {
   "premarket_watchlist": [
-    "NWL",
     "PSQL",
-    "PBF",
+    "NWL",
     "ESTC",
-    "CVI",
-    "NOW",
+    "PBF",
     "DAR",
-    "CHA",
+    "TRLV",
     "DOCS"
   ],
   "last_session": "premarket",
