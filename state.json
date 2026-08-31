@@ -10,8 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "PURR",
-    "CHA",
     "STDN",
     "PATH",
     "BMNR",
@@ -20,7 +18,6 @@
     "RBLX",
     "BBAR",
     "LEGN",
-    "ZYME",
     "NVDA",
     "COIN",
     "SPCX",
@@ -37,9 +34,12 @@
     "ABEV",
     "SNAP",
     "CAR",
-    "ULTA",
     "HTFL",
-    "OKTA"
+    "NU",
+    "F",
+    "MSTR",
+    "BTDR",
+    "SAIL"
   ],
   "tracked_day": "2026-08-31"
 }
