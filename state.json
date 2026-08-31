@@ -10,8 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BMNR",
-    "ASST",
     "XE",
     "RBLX",
     "BBAR",
@@ -21,7 +19,6 @@
     "SPCX",
     "CRCL",
     "ASND",
-    "ELF",
     "MIR",
     "GGAL",
     "CRWD",
@@ -31,15 +28,18 @@
     "CAR",
     "HTFL",
     "NU",
-    "MSTR",
     "SAIL",
     "PURR",
     "CHA",
     "SLB",
     "OKTA",
     "PLSE",
-    "PBR",
-    "GLXY"
+    "GLXY",
+    "PATH",
+    "STDN",
+    "WFRD",
+    "XP",
+    "HNGE"
   ],
   "tracked_day": "2026-08-31"
 }
