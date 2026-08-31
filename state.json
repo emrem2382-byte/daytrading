@@ -2,8 +2,8 @@
   "premarket_watchlist": [
     "PSQL",
     "NWL",
-    "DAR",
-    "TRLV"
+    "ESTC",
+    "PBF"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
