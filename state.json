@@ -10,12 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "PBR",
-    "WFRD",
-    "TS",
-    "PBF",
-    "NEXT",
-    "XP",
     "PBR-A",
     "HP",
     "GME",
@@ -32,14 +26,20 @@
     "SNAP",
     "NIO",
     "IREN",
-    "PURR",
     "TSLA",
-    "BMNR",
     "XNDU",
     "AMR",
-    "MEOH",
-    "DOW",
-    "BTU"
+    "BTU",
+    "SMCI",
+    "XE",
+    "CHA",
+    "KALU",
+    "STDN",
+    "SAIC",
+    "XPRO",
+    "HAL",
+    "VG",
+    "AEHR"
   ],
   "tracked_day": "2026-08-31"
 }
