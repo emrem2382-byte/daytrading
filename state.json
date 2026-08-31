@@ -1,7 +1,6 @@
 {
   "premarket_watchlist": [
-    "PSQL",
-    "ESTC"
+    "PSQL"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
