@@ -10,12 +10,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CAR",
-    "TSLA",
-    "ABEV",
-    "SNAP",
     "IREN",
-    "BMA",
     "BTDR",
     "NU",
     "PURR",
@@ -39,7 +34,12 @@
     "CRCL",
     "ASND",
     "ELF",
-    "MIR"
+    "MIR",
+    "GGAL",
+    "CRWD",
+    "AGCO",
+    "TARS",
+    "VEEV"
   ],
   "tracked_day": "2026-08-31"
 }
