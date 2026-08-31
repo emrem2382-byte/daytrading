@@ -10,11 +10,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "XP",
-    "SNAP",
-    "ABEV",
-    "TSLA",
-    "IREN",
     "AMR",
     "NU",
     "PSQL",
@@ -30,7 +25,6 @@
     "BMNR",
     "F",
     "ASND",
-    "ULTA",
     "OLLI",
     "NVDA",
     "INTC",
@@ -39,7 +33,13 @@
     "AXTI",
     "HNGE",
     "DE",
-    "CRWD"
+    "CRWD",
+    "SPCX",
+    "SAIC",
+    "GGAL",
+    "AGCO",
+    "VEEV",
+    "BMA"
   ],
   "tracked_day": "2026-08-31"
 }
