@@ -1,13 +1,9 @@
 {
   "premarket_watchlist": [
+    "HNGE",
     "BBAR",
-    "ELF",
-    "IREN",
-    "PURR",
-    "CRCL",
-    "SNDK",
-    "INTC",
-    "COIN"
+    "ASND",
+    "IREN"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
