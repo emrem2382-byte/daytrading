@@ -13,7 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "PFE",
     "FRVO",
     "CRK",
     "NVS",
@@ -21,19 +20,14 @@
     "DUOL",
     "UGP",
     "VIST",
-    "DLTR",
     "AAPL",
     "INTR",
-    "WIX",
     "STDN",
     "TAL",
-    "SPCX",
-    "NU",
     "KLRA",
     "HP",
     "ORA",
     "PCG",
-    "BWXT",
     "TDW",
     "MRNA",
     "ASH",
@@ -42,7 +36,13 @@
     "EC",
     "JAN",
     "BEKE",
-    "HWM"
+    "HWM",
+    "SMMT",
+    "IRTC",
+    "HSAI",
+    "PBR-A",
+    "GRDN",
+    "PBR"
   ],
   "tracked_day": "2026-09-01"
 }
