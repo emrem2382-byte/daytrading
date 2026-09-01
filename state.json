@@ -33,16 +33,16 @@
     "PBR",
     "BWXT",
     "PLSE",
-    "CENX",
     "CNH",
-    "BHVN",
     "EIX",
     "CHEF",
-    "JAN",
     "HRMY",
     "UGP",
     "INTR",
-    "ANDE"
+    "ANDE",
+    "BG",
+    "TDW",
+    "MOS"
   ],
   "tracked_day": "2026-09-01"
 }
