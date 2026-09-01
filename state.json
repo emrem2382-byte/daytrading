@@ -4,8 +4,12 @@
     "INTC",
     "IREN",
     "CRCL",
-    "ASND",
-    "PATH"
+    "PURR",
+    "BTDR",
+    "PATH",
+    "ELF",
+    "XE",
+    "SNDK"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
