@@ -27,10 +27,8 @@
     "HP",
     "ORA",
     "PCG",
-    "TDW",
     "MRNA",
     "EC",
-    "JAN",
     "SMMT",
     "IRTC",
     "PBR-A",
@@ -42,7 +40,9 @@
     "NUVB",
     "SPGI",
     "PLSE",
-    "CENX"
+    "CENX",
+    "CNH",
+    "BHVN"
   ],
   "tracked_day": "2026-09-01"
 }
