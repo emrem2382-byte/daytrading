@@ -1,11 +1,11 @@
 {
   "premarket_watchlist": [
     "BBAR",
-    "CRCL",
     "IREN",
-    "COIN",
+    "CRCL",
+    "PURR",
     "INTC",
-    "PURR"
+    "SNDK"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
