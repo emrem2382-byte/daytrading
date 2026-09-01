@@ -16,7 +16,6 @@
     "CRNX",
     "PFE",
     "FRVO",
-    "EGIEY",
     "CRK",
     "NVS",
     "MMED",
@@ -24,8 +23,6 @@
     "DUOL",
     "HWM",
     "TDW",
-    "UMC",
-    "ACHC",
     "SOLV",
     "ALHC",
     "LPG",
@@ -38,7 +35,14 @@
     "COIN",
     "GLXY",
     "BBAR",
-    "BMNR"
+    "BMNR",
+    "TRLV",
+    "BEKE",
+    "MNSO",
+    "UGP",
+    "VIST",
+    "DLTR",
+    "PBR"
   ],
   "tracked_day": "2026-09-01"
 }
