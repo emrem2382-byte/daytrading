@@ -1,15 +1,15 @@
 {
   "premarket_watchlist": [
-    "PURR",
     "IREN",
-    "PLSE",
-    "CRCL",
-    "INTC",
     "XE",
+    "PURR",
+    "PLSE",
+    "INTC",
+    "CRCL",
     "COIN",
-    "BMNR",
-    "BTDR",
-    "PATH"
+    "GLXY",
+    "BBAR",
+    "BMNR"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
