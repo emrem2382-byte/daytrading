@@ -33,8 +33,6 @@
     "GRDN",
     "PBR",
     "BWXT",
-    "GDDY",
-    "NUVB",
     "SPGI",
     "PLSE",
     "CENX",
@@ -42,7 +40,9 @@
     "BHVN",
     "EIX",
     "CHEF",
-    "JAN"
+    "JAN",
+    "HRMY",
+    "UGP"
   ],
   "tracked_day": "2026-09-01"
 }
