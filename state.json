@@ -18,7 +18,6 @@
     "NVS",
     "MMED",
     "DUOL",
-    "UGP",
     "VIST",
     "AAPL",
     "STDN",
@@ -34,7 +33,6 @@
     "GRDN",
     "PBR",
     "BWXT",
-    "INTR",
     "GDDY",
     "NUVB",
     "SPGI",
@@ -42,7 +40,9 @@
     "CENX",
     "CNH",
     "BHVN",
-    "EIX"
+    "EIX",
+    "CHEF",
+    "JAN"
   ],
   "tracked_day": "2026-09-01"
 }
