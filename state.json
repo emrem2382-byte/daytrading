@@ -11,7 +11,34 @@
     "BBAR",
     "BMNR"
   ],
-  "last_session": "premarket",
-  "tracked_tickers": [],
-  "tracked_day": null
+  "last_session": "open",
+  "tracked_tickers": [
+    "CRNX",
+    "PFE",
+    "FRVO",
+    "EGIEY",
+    "CRK",
+    "NVS",
+    "MMED",
+    "BHC",
+    "DUOL",
+    "HWM",
+    "TDW",
+    "UMC",
+    "ACHC",
+    "SOLV",
+    "ALHC",
+    "LPG",
+    "IREN",
+    "XE",
+    "PURR",
+    "PLSE",
+    "INTC",
+    "CRCL",
+    "COIN",
+    "GLXY",
+    "BBAR",
+    "BMNR"
+  ],
+  "tracked_day": "2026-09-01"
 }
