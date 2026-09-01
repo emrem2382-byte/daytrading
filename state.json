@@ -1,11 +1,11 @@
 {
   "premarket_watchlist": [
-    "HNGE",
     "IREN",
     "INTC",
     "CRCL",
     "SNDK",
-    "ASND"
+    "ASND",
+    "BTDR"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
