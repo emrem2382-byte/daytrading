@@ -30,7 +30,6 @@
     "MRNA",
     "EC",
     "SMMT",
-    "IRTC",
     "PBR-A",
     "GRDN",
     "PBR",
@@ -42,7 +41,8 @@
     "PLSE",
     "CENX",
     "CNH",
-    "BHVN"
+    "BHVN",
+    "EIX"
   ],
   "tracked_day": "2026-09-01"
 }
