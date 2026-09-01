@@ -20,7 +20,6 @@
     "DUOL",
     "VIST",
     "AAPL",
-    "STDN",
     "TAL",
     "KLRA",
     "HP",
@@ -33,7 +32,6 @@
     "GRDN",
     "PBR",
     "BWXT",
-    "SPGI",
     "PLSE",
     "CENX",
     "CNH",
@@ -42,7 +40,9 @@
     "CHEF",
     "JAN",
     "HRMY",
-    "UGP"
+    "UGP",
+    "INTR",
+    "ANDE"
   ],
   "tracked_day": "2026-09-01"
 }
