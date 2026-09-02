@@ -7,9 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AAL",
-    "RGC",
-    "RUN",
     "CNH",
     "NVDA",
     "NU",
@@ -34,9 +31,12 @@
     "CHRN",
     "SIRI",
     "PAGS",
-    "BVC",
-    "AUGO",
-    "DAVE"
+    "DAVE",
+    "ONDS",
+    "INTC",
+    "VRNS",
+    "SRPT",
+    "LUMN"
   ],
   "tracked_day": "2026-09-02"
 }
