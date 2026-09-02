@@ -1,6 +1,8 @@
 {
   "premarket_watchlist": [
-    "KLRA"
+    "KLRA",
+    "VIST",
+    "FRVO"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
