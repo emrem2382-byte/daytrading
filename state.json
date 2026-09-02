@@ -7,9 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "PAGS",
-    "DAVE",
-    "ONDS",
     "INTC",
     "VRNS",
     "SRPT",
@@ -31,12 +28,15 @@
     "CHTR",
     "RDDT",
     "EXK",
-    "MAAS",
-    "CHRN",
     "FOUR",
-    "SIRI",
-    "STNE",
-    "HL"
+    "HL",
+    "NVDA",
+    "NU",
+    "F",
+    "CNH",
+    "BVC",
+    "KSS",
+    "CLF"
   ],
   "tracked_day": "2026-09-02"
 }
