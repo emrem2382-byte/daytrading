@@ -8,8 +8,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "F",
-    "HL",
-    "DKNG",
     "EQX",
     "OLLI",
     "IAG",
@@ -36,7 +34,9 @@
     "TAL",
     "EXEL",
     "PLUG",
-    "PBR"
+    "PBR",
+    "INTC",
+    "HP"
   ],
   "tracked_day": "2026-09-02"
 }
