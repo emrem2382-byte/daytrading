@@ -1,42 +1,6 @@
 {
-  "premarket_watchlist": [
-    "FRVO",
-    "VIST",
-    "CF",
-    "ORA"
-  ],
-  "last_session": "open",
-  "tracked_tickers": [
-    "INTC",
-    "VRNS",
-    "SRPT",
-    "AAL",
-    "RIG",
-    "BBD",
-    "HPE",
-    "SGLD",
-    "DELL",
-    "RGC",
-    "MLYS",
-    "ASTS",
-    "KARD",
-    "GTLB",
-    "TARS",
-    "MGNI",
-    "ALNY",
-    "GPGI",
-    "CHTR",
-    "RDDT",
-    "EXK",
-    "FOUR",
-    "HL",
-    "NVDA",
-    "NU",
-    "F",
-    "CNH",
-    "BVC",
-    "KSS",
-    "CLF"
-  ],
-  "tracked_day": "2026-09-02"
+  "premarket_watchlist": [],
+  "last_session": "closed",
+  "tracked_tickers": [],
+  "tracked_day": null
 }
