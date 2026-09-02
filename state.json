@@ -7,11 +7,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "NVDA",
-    "ONDS",
     "MMED",
-    "PLUG",
-    "INTC",
     "DELL",
     "SOFI",
     "GTLB",
@@ -33,10 +29,14 @@
     "HL",
     "GPGI",
     "TLX",
-    "ZLAB",
     "XP",
-    "LUMN",
-    "SVM"
+    "F",
+    "NU",
+    "SBS",
+    "OLLI",
+    "STNE",
+    "ALGT",
+    "XRAY"
   ],
   "tracked_day": "2026-09-02"
 }
