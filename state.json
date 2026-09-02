@@ -7,11 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AUGO",
-    "NVDA",
-    "NU",
-    "F",
-    "BBD",
     "RIG",
     "SOFI",
     "SGLD",
@@ -34,9 +29,14 @@
     "CHTR",
     "SBSW",
     "SWKS",
-    "FOUR",
     "SRPT",
-    "SIRI"
+    "ONDS",
+    "INTC",
+    "AAL",
+    "RGC",
+    "RUN",
+    "MMED",
+    "CNH"
   ],
   "tracked_day": "2026-09-02"
 }
