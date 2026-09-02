@@ -1,5 +1,8 @@
 {
-  "premarket_watchlist": [],
+  "premarket_watchlist": [
+    "GRDN",
+    "ORA"
+  ],
   "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
