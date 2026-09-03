@@ -8,7 +8,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "PFG",
-    "WPP",
     "SMMT",
     "BLSH",
     "MIR",
@@ -36,7 +35,8 @@
     "FIGR",
     "CLSK",
     "PAYP",
-    "RIOT"
+    "RIOT",
+    "INTC"
   ],
   "tracked_day": "2026-09-03"
 }
