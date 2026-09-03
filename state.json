@@ -7,9 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "ASST",
-    "CIFR",
-    "HOOD",
     "MARA",
     "CLSK",
     "RIOT",
@@ -36,7 +33,10 @@
     "SNOW",
     "BULL",
     "BTDR",
-    "PURR"
+    "PURR",
+    "HCM",
+    "HSAI",
+    "GLXY"
   ],
   "tracked_day": "2026-09-03"
 }
