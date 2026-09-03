@@ -1,42 +1,6 @@
 {
-  "premarket_watchlist": [
-    "CDE",
-    "BTG",
-    "HP",
-    "PBR-A"
-  ],
-  "last_session": "open",
-  "tracked_tickers": [
-    "BULL",
-    "BTDR",
-    "PURR",
-    "HCM",
-    "HSAI",
-    "GLXY",
-    "HOOD",
-    "CIFR",
-    "ASST",
-    "MARA",
-    "CLSK",
-    "INTC",
-    "RIOT",
-    "PLTR",
-    "NU",
-    "BTG",
-    "CLS",
-    "HUT",
-    "SMMT",
-    "XXI",
-    "HPE",
-    "BLSH",
-    "PCG",
-    "MSTR",
-    "CRCL",
-    "WULF",
-    "SPCX",
-    "NVDA",
-    "TSLA",
-    "BMNR"
-  ],
-  "tracked_day": "2026-09-03"
+  "premarket_watchlist": [],
+  "last_session": "closed",
+  "tracked_tickers": [],
+  "tracked_day": null
 }
