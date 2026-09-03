@@ -7,10 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "SPCX",
-    "NVDA",
-    "TSLA",
-    "BMNR",
     "COIN",
     "FIGR",
     "SNOW",
@@ -36,7 +32,11 @@
     "XXI",
     "HPE",
     "BLSH",
-    "RGC"
+    "ONDS",
+    "PCG",
+    "MSTR",
+    "CRCL",
+    "WULF"
   ],
   "tracked_day": "2026-09-03"
 }
