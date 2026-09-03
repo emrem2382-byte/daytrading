@@ -16,7 +16,6 @@
     "NVDA",
     "SPCX",
     "TSLA",
-    "SOFI",
     "BMNR",
     "PLTR",
     "COIN",
@@ -34,9 +33,10 @@
     "ONDS",
     "FIGR",
     "CLSK",
-    "PAYP",
     "RIOT",
-    "INTC"
+    "INTC",
+    "CLS",
+    "WPP"
   ],
   "tracked_day": "2026-09-03"
 }
