@@ -1,6 +1,10 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "HRMY",
+    "CF",
+    "CDE"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
 }
