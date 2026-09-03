@@ -1,10 +1,8 @@
 {
   "premarket_watchlist": [
-    "ASTS",
     "EXK",
-    "SRPT",
     "HL",
-    "SGLD"
+    "ASTS"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
