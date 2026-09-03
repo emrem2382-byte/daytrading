@@ -7,9 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "TSLA",
-    "BMNR",
-    "PLTR",
     "COIN",
     "BULL",
     "SNOW",
@@ -36,7 +33,10 @@
     "PCG",
     "CRCL",
     "MSTR",
-    "HUT"
+    "HUT",
+    "SPCX",
+    "NVDA",
+    "NIO"
   ],
   "tracked_day": "2026-09-03"
 }
