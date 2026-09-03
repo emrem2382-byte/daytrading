@@ -7,8 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "NVDA",
-    "SPCX",
     "TSLA",
     "BMNR",
     "PLTR",
@@ -16,7 +14,6 @@
     "BULL",
     "SNOW",
     "BTDR",
-    "PURR",
     "HCM",
     "HSAI",
     "GLXY",
@@ -36,7 +33,10 @@
     "BLSH",
     "MIR",
     "ONDS",
-    "PLUG"
+    "PCG",
+    "CRCL",
+    "MSTR",
+    "HUT"
   ],
   "tracked_day": "2026-09-03"
 }
