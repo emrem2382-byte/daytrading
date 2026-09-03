@@ -7,9 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "HCM",
-    "HSAI",
-    "GLXY",
     "ASST",
     "CIFR",
     "HOOD",
@@ -23,7 +20,6 @@
     "SMMT",
     "BE",
     "BLSH",
-    "MIR",
     "PCG",
     "CRCL",
     "MSTR",
@@ -36,7 +32,11 @@
     "ONDS",
     "NIO",
     "COIN",
-    "FIGR"
+    "FIGR",
+    "SNOW",
+    "BULL",
+    "BTDR",
+    "PURR"
   ],
   "tracked_day": "2026-09-03"
 }
