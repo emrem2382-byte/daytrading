@@ -7,8 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "XXI",
-    "SMMT",
     "BE",
     "BLSH",
     "PCG",
@@ -32,11 +30,13 @@
     "ASST",
     "MARA",
     "CLSK",
-    "MIR",
-    "ONDS",
     "INTC",
     "RIOT",
-    "PLTR"
+    "PLTR",
+    "NU",
+    "BTG",
+    "CLS",
+    "HUT"
   ],
   "tracked_day": "2026-09-03"
 }
