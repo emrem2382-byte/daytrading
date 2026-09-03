@@ -7,8 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "RIOT",
-    "INTC",
     "CLS",
     "NU",
     "XXI",
@@ -35,8 +33,10 @@
     "HOOD",
     "CIFR",
     "ASST",
-    "FTAI",
-    "STUB"
+    "STUB",
+    "MARA",
+    "CLSK",
+    "MIR"
   ],
   "tracked_day": "2026-09-03"
 }
