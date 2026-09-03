@@ -7,7 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BLSH",
     "MIR",
     "CRCL",
     "MSTR",
@@ -36,7 +35,8 @@
     "CLS",
     "NU",
     "XXI",
-    "WULF"
+    "SMMT",
+    "BE"
   ],
   "tracked_day": "2026-09-03"
 }
