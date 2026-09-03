@@ -7,7 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "HOOD",
     "PFG",
     "WPP",
     "SMMT",
@@ -15,7 +14,6 @@
     "MIR",
     "NOW",
     "CRCL",
-    "SNAP",
     "MSTR",
     "NVDA",
     "SPCX",
@@ -26,17 +24,19 @@
     "BBD",
     "COIN",
     "BULL",
-    "ZETA",
-    "RNG",
-    "TRI",
     "KVYO",
-    "CRNX",
     "SNOW",
     "BTDR",
-    "WLY",
     "PURR",
     "CLS",
-    "ESTC"
+    "PCG",
+    "HCM",
+    "HSAI",
+    "GLXY",
+    "ASST",
+    "CIFR",
+    "HUBS",
+    "TEAM"
   ],
   "tracked_day": "2026-09-03"
 }
