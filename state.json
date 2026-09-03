@@ -1,8 +1,5 @@
 {
-  "premarket_watchlist": [
-    "SGLD",
-    "EXK"
-  ],
+  "premarket_watchlist": [],
   "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
