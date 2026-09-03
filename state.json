@@ -7,9 +7,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BULL",
-    "SNOW",
-    "BTDR",
     "HCM",
     "HSAI",
     "GLXY",
@@ -36,7 +33,10 @@
     "TSLA",
     "BMNR",
     "PLTR",
-    "WULF"
+    "ONDS",
+    "NIO",
+    "COIN",
+    "FIGR"
   ],
   "tracked_day": "2026-09-03"
 }
