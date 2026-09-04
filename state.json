@@ -13,7 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "KLAC",
     "COHR",
     "SMTC",
     "TTMI",
@@ -31,7 +30,6 @@
     "INTC",
     "PLUG",
     "SIMO",
-    "RGC",
     "AMC",
     "TSEM",
     "ICHR",
@@ -41,8 +39,10 @@
     "ALAB",
     "SKHY",
     "NVTS",
-    "MRVL",
-    "FORM"
+    "AEHR",
+    "BOBS",
+    "ONTO",
+    "AGCO"
   ],
   "tracked_day": "2026-09-04"
 }
