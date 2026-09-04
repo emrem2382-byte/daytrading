@@ -13,10 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "FORM",
-    "NVDA",
-    "SUNB",
-    "INTC",
     "AMC",
     "NOK",
     "ALAB",
@@ -24,13 +20,11 @@
     "COHR",
     "SITM",
     "KLAC",
-    "TER",
     "STRL",
     "SPCX",
     "MU",
     "BETA",
     "TTMI",
-    "LRCX",
     "VICR",
     "SMTC",
     "SMCI",
@@ -40,9 +34,15 @@
     "BLTE",
     "ONTO",
     "FIVE",
-    "AAOI",
-    "MXL",
-    "TSEM"
+    "COHU",
+    "UCTT",
+    "IOT",
+    "INIO",
+    "ENTG",
+    "NVMI",
+    "EQPT",
+    "VAC",
+    "PENG"
   ],
   "tracked_day": "2026-09-04"
 }
