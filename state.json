@@ -13,13 +13,8 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AEHR",
-    "COHR",
-    "SITM",
-    "KLAC",
     "STRL",
     "MU",
-    "BETA",
     "TTMI",
     "VICR",
     "SMTC",
@@ -32,7 +27,6 @@
     "FIVE",
     "COHU",
     "UCTT",
-    "IOT",
     "ENTG",
     "VAC",
     "NVDA",
@@ -40,9 +34,15 @@
     "SUNB",
     "PLUG",
     "FORM",
-    "RGC",
     "SIMO",
-    "TSEM"
+    "TSEM",
+    "AMC",
+    "NOK",
+    "AAL",
+    "ALAB",
+    "MRVL",
+    "NVMI",
+    "ACMR"
   ],
   "tracked_day": "2026-09-04"
 }
