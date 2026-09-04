@@ -13,8 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "ALAB",
-    "MRVL",
     "AEHR",
     "KLAC",
     "COHR",
@@ -35,14 +33,16 @@
     "VAC",
     "NVDA",
     "INTC",
-    "NVTS",
     "PLUG",
     "SIMO",
     "RGC",
     "AMC",
     "TSEM",
-    "FRVO",
-    "ICHR"
+    "ICHR",
+    "AAL",
+    "NOK",
+    "ENTG",
+    "CAMT"
   ],
   "tracked_day": "2026-09-04"
 }
