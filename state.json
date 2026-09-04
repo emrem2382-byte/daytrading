@@ -1,11 +1,10 @@
 {
   "premarket_watchlist": [
+    "CLS",
     "BE",
-    "HUT",
     "PURR",
     "HCM",
-    "CLS",
-    "XXI"
+    "TSLA"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
