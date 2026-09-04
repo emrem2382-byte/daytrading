@@ -13,11 +13,8 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AEHR",
     "KLAC",
     "COHR",
-    "SITM",
-    "MU",
     "SMTC",
     "TTMI",
     "SMCI",
@@ -25,7 +22,6 @@
     "SNDK",
     "AXTI",
     "FIVE",
-    "EQPT",
     "BLTE",
     "COHU",
     "ACMR",
@@ -42,7 +38,11 @@
     "AAL",
     "NOK",
     "ENTG",
-    "CAMT"
+    "ALAB",
+    "SKHY",
+    "NVTS",
+    "MRVL",
+    "FORM"
   ],
   "tracked_day": "2026-09-04"
 }
