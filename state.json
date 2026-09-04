@@ -13,8 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AXTI",
-    "BLTE",
     "COHU",
     "UCTT",
     "VAC",
@@ -29,7 +27,6 @@
     "NOK",
     "ALAB",
     "SKHY",
-    "NVTS",
     "AEHR",
     "BOBS",
     "KLAC",
@@ -42,7 +39,10 @@
     "ENTG",
     "SMCI",
     "RGC",
-    "DPC"
+    "DPC",
+    "CBRS",
+    "SNDK",
+    "MRVL"
   ],
   "tracked_day": "2026-09-04"
 }
