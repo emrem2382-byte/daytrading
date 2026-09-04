@@ -1,7 +1,10 @@
 {
   "premarket_watchlist": [
     "HCM",
-    "XXI"
+    "BE",
+    "INTC",
+    "XXI",
+    "HPE"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
