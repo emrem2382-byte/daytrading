@@ -13,7 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "TTMI",
     "SMCI",
     "CBRS",
     "SNDK",
@@ -39,10 +38,11 @@
     "BOBS",
     "RGC",
     "KLAC",
-    "PS",
     "MRVL",
-    "COHR",
-    "EQPT"
+    "EQPT",
+    "NRG",
+    "SMTC",
+    "AGCO"
   ],
   "tracked_day": "2026-09-04"
 }
