@@ -13,15 +13,11 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BLTE",
-    "ONTO",
-    "COHU",
     "UCTT",
     "ENTG",
     "VAC",
     "NVDA",
     "INTC",
-    "SUNB",
     "PLUG",
     "SIMO",
     "TSEM",
@@ -35,14 +31,18 @@
     "KLAC",
     "COHR",
     "SITM",
-    "AAOI",
     "MU",
     "SMTC",
     "TTMI",
     "BETA",
-    "STRL",
-    "RGC",
-    "BTU"
+    "SMCI",
+    "CBRS",
+    "SNDK",
+    "AXTI",
+    "FIVE",
+    "FRVO",
+    "EQPT",
+    "SOLS"
   ],
   "tracked_day": "2026-09-04"
 }
