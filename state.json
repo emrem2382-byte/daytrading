@@ -13,8 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "INTC",
-    "PLUG",
     "SIMO",
     "AMC",
     "TSEM",
@@ -42,7 +40,9 @@
     "UCTT",
     "FRVO",
     "GPI",
-    "SITM"
+    "NVDA",
+    "VAC",
+    "AGCO"
   ],
   "tracked_day": "2026-09-04"
 }
