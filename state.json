@@ -13,7 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "COHR",
     "SMTC",
     "TTMI",
     "SMCI",
@@ -35,14 +34,15 @@
     "ICHR",
     "AAL",
     "NOK",
-    "ENTG",
     "ALAB",
     "SKHY",
     "NVTS",
     "AEHR",
     "BOBS",
-    "ONTO",
-    "AGCO"
+    "RGC",
+    "KLAC",
+    "DPC",
+    "NRG"
   ],
   "tracked_day": "2026-09-04"
 }
