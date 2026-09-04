@@ -1,15 +1,15 @@
 {
   "premarket_watchlist": [
     "PURR",
-    "HCM",
     "MSTR",
-    "CRCL",
     "XXI",
+    "CRCL",
     "GLXY",
-    "BMNR",
     "ASST",
-    "COIN",
-    "BLSH"
+    "BMNR",
+    "PATH",
+    "HCM",
+    "COIN"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
