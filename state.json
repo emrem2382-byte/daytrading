@@ -1,8 +1,9 @@
 {
   "premarket_watchlist": [
     "BE",
+    "CIFR",
     "INTC",
-    "PURR"
+    "XXI"
   ],
   "last_session": "premarket",
   "tracked_tickers": [],
