@@ -13,10 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "ICHR",
-    "SNDK",
-    "FRVO",
-    "CBRS",
     "UCTT",
     "ACMR",
     "STX",
@@ -28,7 +24,6 @@
     "INTC",
     "AMC",
     "NOK",
-    "CRNX",
     "PL",
     "ALAB",
     "AEHR",
@@ -36,13 +31,18 @@
     "COHR",
     "SITM",
     "KLAC",
-    "AXTI",
     "ENTG",
     "TER",
     "STRL",
-    "BLTE",
-    "ONTO",
-    "WDC"
+    "WDC",
+    "SPCX",
+    "MU",
+    "BETA",
+    "TTMI",
+    "LRCX",
+    "VICR",
+    "SMTC",
+    "AMAT"
   ],
   "tracked_day": "2026-09-04"
 }
