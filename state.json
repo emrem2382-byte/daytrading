@@ -13,7 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "SMTC",
     "TTMI",
     "SMCI",
     "CBRS",
@@ -22,7 +21,6 @@
     "FIVE",
     "BLTE",
     "COHU",
-    "ACMR",
     "UCTT",
     "VAC",
     "NVDA",
@@ -41,8 +39,10 @@
     "BOBS",
     "RGC",
     "KLAC",
-    "DPC",
-    "NRG"
+    "PS",
+    "MRVL",
+    "COHR",
+    "EQPT"
   ],
   "tracked_day": "2026-09-04"
 }
