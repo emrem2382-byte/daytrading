@@ -13,18 +13,12 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "STRL",
-    "MU",
-    "TTMI",
-    "VICR",
-    "SMTC",
     "SMCI",
     "CBRS",
     "AXTI",
     "SNDK",
     "BLTE",
     "ONTO",
-    "FIVE",
     "COHU",
     "UCTT",
     "ENTG",
@@ -42,7 +36,13 @@
     "ALAB",
     "MRVL",
     "NVMI",
-    "ACMR"
+    "ACMR",
+    "AEHR",
+    "KLAC",
+    "COHR",
+    "SITM",
+    "AAOI",
+    "PENG"
   ],
   "tracked_day": "2026-09-04"
 }
