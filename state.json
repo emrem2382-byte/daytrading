@@ -13,8 +13,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "TSEM",
-    "AAL",
     "NOK",
     "ALAB",
     "SKHY",
@@ -32,17 +30,19 @@
     "AXTI",
     "BLTE",
     "TARS",
-    "BETA",
     "COHU",
     "UCTT",
     "GPI",
     "NVDA",
     "VAC",
-    "AGCO",
     "INTC",
     "PLUG",
     "FORM",
-    "ICHR"
+    "AMC",
+    "SIMO",
+    "BE",
+    "IREN",
+    "MRVL"
   ],
   "tracked_day": "2026-09-04"
 }
