@@ -1,6 +1,17 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "AEHR",
+    "BLTE",
+    "BE",
+    "SNDK",
+    "AXTI",
+    "CBRS",
+    "TTMI",
+    "UCTT",
+    "TARS",
+    "SIMO"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
 }
