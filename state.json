@@ -53,7 +53,6 @@
     "CIFR",
     "LGN",
     "WULF",
-    "NIO",
     "ALM",
     "CHA",
     "SSL",
@@ -63,7 +62,6 @@
     "STX",
     "RIG",
     "AGNC",
-    "FSLY",
     "IOND",
     "ASTS",
     "BVC",
@@ -72,7 +70,9 @@
     "ABM",
     "CLS",
     "AMKR",
-    "CLSK"
+    "CLSK",
+    "PHVS",
+    "TGB"
   ],
   "tracked_day": "2026-09-08"
 }
