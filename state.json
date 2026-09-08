@@ -63,16 +63,16 @@
     "RIG",
     "AGNC",
     "IOND",
-    "ASTS",
     "BVC",
-    "BILI",
     "NU",
     "ABM",
     "CLS",
     "AMKR",
     "CLSK",
     "PHVS",
-    "TGB"
+    "TGB",
+    "BRVE",
+    "HPE"
   ],
   "tracked_day": "2026-09-08"
 }
