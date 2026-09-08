@@ -45,18 +45,14 @@
     "LITE",
     "FRMI",
     "AXTI",
-    "AEHR",
     "SPCX",
     "MARA",
     "VIAV",
     "NBIS",
     "CIEN",
     "NU",
-    "MU",
     "CECO",
     "CIFR",
-    "RDW",
-    "OKLO",
     "LGN",
     "ASX",
     "BMNR",
@@ -72,7 +68,11 @@
     "BRVE",
     "OCUL",
     "FLY",
-    "SEDG"
+    "SEDG",
+    "VALE",
+    "DOCN",
+    "PDFS",
+    "HUT"
   ],
   "tracked_day": "2026-09-08"
 }
