@@ -61,18 +61,18 @@
     "STX",
     "AGNC",
     "IOND",
-    "BVC",
     "NU",
     "ABM",
-    "AMKR",
-    "CLSK",
     "PHVS",
-    "TGB",
     "BRVE",
     "HPE",
     "BBD",
     "HUT",
-    "RDW"
+    "RDW",
+    "ENPH",
+    "BILI",
+    "INIO",
+    "CLS"
   ],
   "tracked_day": "2026-09-08"
 }
