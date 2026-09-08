@@ -61,10 +61,7 @@
     "SEDG",
     "VALE",
     "DOCN",
-    "OKLO",
-    "CHRN",
     "STX",
-    "AMKR",
     "ASX",
     "RIG",
     "AGNC",
@@ -72,7 +69,10 @@
     "IOND",
     "ASTS",
     "BVC",
-    "BILI"
+    "BILI",
+    "NU",
+    "ABM",
+    "CLS"
   ],
   "tracked_day": "2026-09-08"
 }
