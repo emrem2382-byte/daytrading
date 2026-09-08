@@ -61,8 +61,6 @@
     "SEDG",
     "VALE",
     "DOCN",
-    "PDFS",
-    "HUT",
     "OKLO",
     "CHRN",
     "STX",
@@ -72,7 +70,9 @@
     "AGNC",
     "FSLY",
     "IOND",
-    "ASTS"
+    "ASTS",
+    "BVC",
+    "BILI"
   ],
   "tracked_day": "2026-09-08"
 }
