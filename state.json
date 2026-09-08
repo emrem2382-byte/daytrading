@@ -20,7 +20,6 @@
     "IONQ",
     "QBTS",
     "IREN",
-    "QCOM",
     "TSLA",
     "SKHY",
     "SEI",
@@ -37,7 +36,6 @@
     "SMR",
     "APLD",
     "FCX",
-    "SCCO",
     "SMTC",
     "SMCI",
     "KEEL",
@@ -49,11 +47,8 @@
     "LEU",
     "PS",
     "SEDG",
-    "AVAV",
     "PCG",
     "ONDS",
-    "BRVE",
-    "IOND",
     "CHA",
     "ENPH",
     "LITE",
@@ -72,7 +67,12 @@
     "PDFS",
     "NU",
     "MU",
-    "CECO"
+    "CECO",
+    "CIFR",
+    "RDW",
+    "OKLO",
+    "LGN",
+    "ASX"
   ],
   "tracked_day": "2026-09-08"
 }
