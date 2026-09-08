@@ -54,13 +54,9 @@
     "CECO",
     "CIFR",
     "LGN",
-    "BMNR",
-    "IOND",
     "WULF",
     "NIO",
-    "RIG",
     "ALM",
-    "FORM",
     "CHA",
     "SSL",
     "AMD",
@@ -72,7 +68,11 @@
     "DOCN",
     "PDFS",
     "HUT",
-    "OKLO"
+    "OKLO",
+    "CHRN",
+    "STX",
+    "AMKR",
+    "ASX"
   ],
   "tracked_day": "2026-09-08"
 }
