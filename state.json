@@ -1,6 +1,17 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "INTC",
+    "SKHY",
+    "FORM",
+    "AEHR",
+    "SMTC",
+    "ICHR",
+    "NOK",
+    "SIMO",
+    "NBIS",
+    "NVTS"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [],
   "tracked_day": null
 }
