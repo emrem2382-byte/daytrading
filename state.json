@@ -32,10 +32,8 @@
     "BE",
     "HBM",
     "CRWV",
-    "ASX",
     "GLW",
     "TGB",
-    "BG",
     "SMR",
     "APLD",
     "FCX",
@@ -43,7 +41,6 @@
     "SMTC",
     "SMCI",
     "KEEL",
-    "MU",
     "AVGO",
     "PLUG",
     "XE",
@@ -72,7 +69,10 @@
     "MARA",
     "VIAV",
     "KEP",
-    "NBIS"
+    "NBIS",
+    "CIEN",
+    "MXL",
+    "PDFS"
   ],
   "tracked_day": "2026-09-08"
 }
