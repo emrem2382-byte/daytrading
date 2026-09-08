@@ -30,7 +30,6 @@
     "INFQ",
     "SSL",
     "BE",
-    "DK",
     "HBM",
     "CRWV",
     "ASX",
@@ -42,13 +41,9 @@
     "FCX",
     "SCCO",
     "SMTC",
-    "RGC",
-    "ACMR",
     "SMCI",
     "KEEL",
     "MU",
-    "NU",
-    "HOOD",
     "AVGO",
     "PLUG",
     "XE",
@@ -72,7 +67,12 @@
     "ASTS",
     "AXTI",
     "AEHR",
-    "LIFE"
+    "LIFE",
+    "SPCX",
+    "MARA",
+    "VIAV",
+    "KEP",
+    "NBIS"
   ],
   "tracked_day": "2026-09-08"
 }
