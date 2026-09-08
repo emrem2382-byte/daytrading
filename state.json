@@ -21,7 +21,6 @@
     "QBTS",
     "IREN",
     "TSLA",
-    "SKHY",
     "SEI",
     "ROIV",
     "PHVS",
@@ -37,7 +36,6 @@
     "SMCI",
     "KEEL",
     "PLUG",
-    "XE",
     "AAOI",
     "COHR",
     "MLYS",
@@ -46,8 +44,6 @@
     "SEDG",
     "PCG",
     "ONDS",
-    "CHA",
-    "ENPH",
     "LITE",
     "FRMI",
     "ASTS",
@@ -72,7 +68,11 @@
     "ASX",
     "BMNR",
     "IOND",
-    "WULF"
+    "WULF",
+    "NIO",
+    "RIG",
+    "ALM",
+    "FORM"
   ],
   "tracked_day": "2026-09-08"
 }
