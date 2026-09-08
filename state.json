@@ -16,7 +16,6 @@
     "INTC",
     "RGTI",
     "NOK",
-    "CRNX",
     "ORCL",
     "IONQ",
     "QBTS",
@@ -35,14 +34,12 @@
     "HBM",
     "CRWV",
     "ASX",
-    "KEP",
     "GLW",
     "TGB",
     "BG",
     "SMR",
     "APLD",
     "FCX",
-    "NBIS",
     "SCCO",
     "SMTC",
     "RGC",
@@ -72,7 +69,10 @@
     "ENPH",
     "LITE",
     "FRMI",
-    "ASTS"
+    "ASTS",
+    "AXTI",
+    "AEHR",
+    "LIFE"
   ],
   "tracked_day": "2026-09-08"
 }
