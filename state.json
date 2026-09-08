@@ -54,7 +54,6 @@
     "CECO",
     "CIFR",
     "LGN",
-    "ASX",
     "BMNR",
     "IOND",
     "WULF",
@@ -72,7 +71,8 @@
     "VALE",
     "DOCN",
     "PDFS",
-    "HUT"
+    "HUT",
+    "OKLO"
   ],
   "tracked_day": "2026-09-08"
 }
