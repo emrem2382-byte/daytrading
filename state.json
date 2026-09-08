@@ -23,7 +23,6 @@
     "TSLA",
     "SEI",
     "ROIV",
-    "PHVS",
     "ERO",
     "INFQ",
     "BE",
@@ -62,7 +61,6 @@
     "VALE",
     "DOCN",
     "STX",
-    "ASX",
     "RIG",
     "AGNC",
     "FSLY",
@@ -72,7 +70,9 @@
     "BILI",
     "NU",
     "ABM",
-    "CLS"
+    "CLS",
+    "AMKR",
+    "CLSK"
   ],
   "tracked_day": "2026-09-08"
 }
