@@ -15,6 +15,10 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    # Ако нещо увисне (напр. Yahoo не отговаря), тази граница спира run-а сам,
+    # вместо да виси с часове и да блокира следващите пускания в опашката
+    # (concurrency-групата чака да свърши текущия, преди да пусне следващия).
+    timeout-minutes: 8
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -23,6 +27,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"  # кешира pip пакетите между пусканията -- при ~3600 пускания/месец спестява реално време на всяко
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -41,3 +46,13 @@ jobs:
           git diff --staged --quiet || git commit -m "Update scanner state [skip ci]"
           git pull --rebase origin main
           git push
+
+      # Праща известие в Telegram, само ако някоя предишна стъпка се провали
+      # (напр. scanner.py гръмне с грешка, timeout-а удари, git push се провали).
+      # Без това, ако скенерът спре да работи, може да не разбереш дни наред.
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="⚠️ Intraday Stock Scanner: run се провали (${{ github.run_id }}). Провери Actions лога." > /dev/null
