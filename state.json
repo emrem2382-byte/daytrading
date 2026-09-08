@@ -50,7 +50,6 @@
     "VIAV",
     "NBIS",
     "CIEN",
-    "NU",
     "CECO",
     "CIFR",
     "LGN",
@@ -59,10 +58,6 @@
     "ALM",
     "CHA",
     "SSL",
-    "AMD",
-    "BRVE",
-    "OCUL",
-    "FLY",
     "SEDG",
     "VALE",
     "DOCN",
@@ -72,7 +67,12 @@
     "CHRN",
     "STX",
     "AMKR",
-    "ASX"
+    "ASX",
+    "RIG",
+    "AGNC",
+    "FSLY",
+    "IOND",
+    "ASTS"
   ],
   "tracked_day": "2026-09-08"
 }
