@@ -34,7 +34,6 @@
     "SMCI",
     "KEEL",
     "PLUG",
-    "AAOI",
     "COHR",
     "MLYS",
     "LEU",
@@ -60,19 +59,20 @@
     "VALE",
     "DOCN",
     "STX",
-    "RIG",
     "AGNC",
     "IOND",
     "BVC",
     "NU",
     "ABM",
-    "CLS",
     "AMKR",
     "CLSK",
     "PHVS",
     "TGB",
     "BRVE",
-    "HPE"
+    "HPE",
+    "BBD",
+    "HUT",
+    "RDW"
   ],
   "tracked_day": "2026-09-08"
 }
