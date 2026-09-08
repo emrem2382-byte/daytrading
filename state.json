@@ -29,7 +29,6 @@
     "BE",
     "CRWV",
     "GLW",
-    "TGB",
     "SMR",
     "APLD",
     "SMTC",
@@ -45,10 +44,8 @@
     "ONDS",
     "LITE",
     "FRMI",
-    "ASTS",
     "AXTI",
     "AEHR",
-    "LIFE",
     "SPCX",
     "MARA",
     "VIAV",
@@ -72,7 +69,10 @@
     "CHA",
     "SSL",
     "AMD",
-    "BRVE"
+    "BRVE",
+    "OCUL",
+    "FLY",
+    "SEDG"
   ],
   "tracked_day": "2026-09-08"
 }
