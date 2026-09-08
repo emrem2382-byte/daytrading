@@ -41,7 +41,6 @@
     "MLYS",
     "LEU",
     "PS",
-    "SEDG",
     "PCG",
     "ONDS",
     "LITE",
@@ -53,11 +52,8 @@
     "SPCX",
     "MARA",
     "VIAV",
-    "KEP",
     "NBIS",
     "CIEN",
-    "MXL",
-    "PDFS",
     "NU",
     "MU",
     "CECO",
@@ -72,7 +68,11 @@
     "NIO",
     "RIG",
     "ALM",
-    "FORM"
+    "FORM",
+    "CHA",
+    "SSL",
+    "AMD",
+    "BRVE"
   ],
   "tracked_day": "2026-09-08"
 }
