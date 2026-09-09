@@ -128,7 +128,23 @@
     "NAT",
     "CAPR",
     "NTLA",
-    "EVGO"
+    "EVGO",
+    "PATH",
+    "MU",
+    "BAC",
+    "DDOG",
+    "RAL",
+    "VG",
+    "GME",
+    "HPQ",
+    "COHR",
+    "YSG",
+    "PEB",
+    "JELD",
+    "IVR",
+    "GNK",
+    "AKAN",
+    "NTST"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
@@ -137,7 +153,7 @@
     }
   },
   "ticker_sources": {
-    "NOK": "most_actives+day_gainers",
+    "NOK": "most_actives",
     "META": "most_actives+day_gainers",
     "ASO": "day_gainers",
     "TNGX": "day_gainers",
@@ -171,7 +187,7 @@
     "CLS": "day_gainers",
     "VCYT": "day_gainers",
     "NESR": "day_gainers",
-    "MRVL": "day_gainers",
+    "MRVL": "most_actives+day_gainers",
     "HMY": "day_gainers",
     "SSMR": "day_gainers",
     "SYY": "day_gainers",
@@ -237,6 +253,22 @@
     "NAT": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
-    "EVGO": "most_shorted_stocks"
+    "EVGO": "most_shorted_stocks",
+    "PATH": "most_actives",
+    "MU": "most_actives+day_gainers",
+    "BAC": "most_actives",
+    "DDOG": "day_gainers",
+    "RAL": "day_gainers",
+    "VG": "day_gainers",
+    "GME": "day_gainers",
+    "HPQ": "day_gainers",
+    "COHR": "day_gainers",
+    "YSG": "small_cap_gainers",
+    "PEB": "aggressive_small_caps",
+    "JELD": "aggressive_small_caps",
+    "IVR": "aggressive_small_caps",
+    "GNK": "aggressive_small_caps",
+    "AKAN": "most_shorted_stocks",
+    "NTST": "most_shorted_stocks"
   }
 }
