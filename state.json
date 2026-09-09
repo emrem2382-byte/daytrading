@@ -174,21 +174,19 @@
     "MCHX",
     "WDC",
     "COHU",
-    "ASPSZ"
+    "ASPSZ",
+    "AMR"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
     "IAG": {
       "start_bar": "2026-09-09T11:50:00-04:00"
     },
-    "MLYS": {
-      "start_bar": "2026-09-09T11:50:00-04:00"
-    },
     "PEB": {
       "start_bar": "2026-09-09T11:50:00-04:00"
     },
-    "PSLV": {
-      "start_bar": "2026-09-09T11:50:00-04:00"
+    "TSLA": {
+      "start_bar": "2026-09-09T12:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -340,6 +338,7 @@
     "MCHX": "small_cap_gainers",
     "WDC": "day_gainers",
     "COHU": "day_gainers",
-    "ASPSZ": "small_cap_gainers"
+    "ASPSZ": "small_cap_gainers",
+    "AMR": "day_gainers"
   }
 }
