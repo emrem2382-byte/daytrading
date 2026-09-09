@@ -176,10 +176,33 @@
     "COHU",
     "ASPSZ",
     "AMR",
-    "ACHC"
+    "ACHC",
+    "PURR",
+    "CF",
+    "GFR",
+    "AMBQ"
   ],
   "tracked_day": "2026-09-09",
-  "pending_bull": {},
+  "pending_bull": {
+    "URGN": {
+      "start_bar": "2026-09-09T12:30:00-04:00"
+    },
+    "GPRK": {
+      "start_bar": "2026-09-09T12:30:00-04:00"
+    },
+    "SMMT": {
+      "start_bar": "2026-09-09T12:35:00-04:00"
+    },
+    "RAL": {
+      "start_bar": "2026-09-09T12:35:00-04:00"
+    },
+    "HPQ": {
+      "start_bar": "2026-09-09T12:35:00-04:00"
+    },
+    "BAK": {
+      "start_bar": "2026-09-09T12:35:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "META": "most_actives+day_gainers",
@@ -223,7 +246,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "aggressive_small_caps",
-    "SIG": "small_cap_gainers",
+    "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -331,6 +354,10 @@
     "COHU": "day_gainers",
     "ASPSZ": "small_cap_gainers",
     "AMR": "day_gainers",
-    "ACHC": "day_gainers"
+    "ACHC": "day_gainers",
+    "PURR": "day_gainers",
+    "CF": "day_gainers",
+    "GFR": "small_cap_gainers",
+    "AMBQ": "small_cap_gainers"
   }
 }
