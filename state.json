@@ -191,27 +191,21 @@
     "TNK",
     "BLLN",
     "THC",
-    "ENHA"
+    "ENHA",
+    "MTSI",
+    "GBLI",
+    "JACK"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "LBGJ": {
-      "start_bar": "2026-09-09T13:40:00-04:00"
-    },
-    "GPRK": {
-      "start_bar": "2026-09-09T13:50:00-04:00"
-    },
-    "AEHR": {
-      "start_bar": "2026-09-09T13:50:00-04:00"
-    },
-    "INSP": {
-      "start_bar": "2026-09-09T13:45:00-04:00"
-    },
-    "FRPT": {
-      "start_bar": "2026-09-09T13:50:00-04:00"
-    },
     "GCL": {
       "start_bar": "2026-09-09T13:50:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-09-09T14:15:00-04:00"
+    },
+    "CLBK": {
+      "start_bar": "2026-09-09T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -257,7 +251,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "small_cap_gainers+aggressive_small_caps",
-    "SIG": "small_cap_gainers",
+    "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -380,6 +374,9 @@
     "TNK": "day_gainers",
     "BLLN": "day_gainers",
     "THC": "day_gainers",
-    "ENHA": "small_cap_gainers"
+    "ENHA": "small_cap_gainers",
+    "MTSI": "day_gainers",
+    "GBLI": "small_cap_gainers",
+    "JACK": "most_shorted_stocks"
   }
 }
