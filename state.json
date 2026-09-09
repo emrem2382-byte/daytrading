@@ -148,7 +148,18 @@
     "PLBL",
     "BAK",
     "MMLP",
-    "CLBK"
+    "CLBK",
+    "RIG",
+    "ZS",
+    "PLSE",
+    "FICO",
+    "FFIV",
+    "OGC",
+    "PSLV",
+    "HCA",
+    "FROG",
+    "INSP",
+    "LBGJ"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {},
@@ -274,6 +285,17 @@
     "YQ": "small_cap_gainers",
     "BAK": "small_cap_gainers",
     "MMLP": "small_cap_gainers",
-    "CLBK": "aggressive_small_caps"
+    "CLBK": "aggressive_small_caps",
+    "RIG": "most_actives",
+    "ZS": "day_gainers",
+    "PLSE": "day_gainers",
+    "FICO": "day_gainers",
+    "FFIV": "day_gainers",
+    "OGC": "day_gainers",
+    "PSLV": "day_gainers",
+    "HCA": "day_gainers",
+    "FROG": "day_gainers",
+    "INSP": "small_cap_gainers",
+    "LBGJ": "most_shorted_stocks"
   }
 }
