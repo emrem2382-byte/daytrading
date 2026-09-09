@@ -205,14 +205,17 @@
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "JELD": {
-      "start_bar": "2026-09-09T15:25:00-04:00"
-    },
     "LAC": {
       "start_bar": "2026-09-09T15:35:00-04:00"
     },
     "BBBYW": {
       "start_bar": "2026-09-09T15:30:00-04:00"
+    },
+    "HRI": {
+      "start_bar": "2026-09-09T15:45:00-04:00"
+    },
+    "TSLA": {
+      "start_bar": "2026-09-09T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -280,7 +283,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
-    "NFE": "small_cap_gainers+aggressive_small_caps",
+    "NFE": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
