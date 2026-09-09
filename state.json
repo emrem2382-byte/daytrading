@@ -199,18 +199,20 @@
     "AAPL",
     "MKC-V",
     "GETY",
-    "YPF"
+    "YPF",
+    "IBM",
+    "LAB"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "WBX": {
-      "start_bar": "2026-09-09T14:50:00-04:00"
-    },
     "JELD": {
       "start_bar": "2026-09-09T15:25:00-04:00"
     },
-    "INSM": {
-      "start_bar": "2026-09-09T15:25:00-04:00"
+    "LAC": {
+      "start_bar": "2026-09-09T15:35:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-09-09T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -255,8 +257,8 @@
     "EFXT": "day_gainers",
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
-    "LAC": "aggressive_small_caps",
-    "SIG": "day_gainers",
+    "LAC": "small_cap_gainers+aggressive_small_caps",
+    "SIG": "small_cap_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -278,7 +280,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers+aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
@@ -387,6 +389,8 @@
     "AAPL": "most_actives",
     "MKC-V": "day_gainers",
     "GETY": "aggressive_small_caps",
-    "YPF": "day_gainers"
+    "YPF": "day_gainers",
+    "IBM": "day_gainers",
+    "LAB": "small_cap_gainers"
   }
 }
