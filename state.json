@@ -189,19 +189,12 @@
     "BRAG",
     "ASPSW",
     "TNK",
-    "BLLN"
+    "BLLN",
+    "THC",
+    "ENHA"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "DOCN": {
-      "start_bar": "2026-09-09T13:40:00-04:00"
-    },
-    "SLB": {
-      "start_bar": "2026-09-09T13:40:00-04:00"
-    },
-    "EVMN": {
-      "start_bar": "2026-09-09T13:40:00-04:00"
-    },
     "LBGJ": {
       "start_bar": "2026-09-09T13:40:00-04:00"
     },
@@ -215,6 +208,9 @@
       "start_bar": "2026-09-09T13:45:00-04:00"
     },
     "FRPT": {
+      "start_bar": "2026-09-09T13:50:00-04:00"
+    },
+    "GCL": {
       "start_bar": "2026-09-09T13:50:00-04:00"
     }
   },
@@ -382,6 +378,8 @@
     "BRAG": "small_cap_gainers",
     "ASPSW": "small_cap_gainers",
     "TNK": "day_gainers",
-    "BLLN": "day_gainers"
+    "BLLN": "day_gainers",
+    "THC": "day_gainers",
+    "ENHA": "small_cap_gainers"
   }
 }
