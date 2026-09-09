@@ -187,24 +187,25 @@
     "BHVN",
     "HMH",
     "BRAG",
-    "ASPSW"
+    "ASPSW",
+    "TNK"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "SSMR": {
-      "start_bar": "2026-09-09T13:25:00-04:00"
+    "DOCN": {
+      "start_bar": "2026-09-09T13:40:00-04:00"
     },
-    "EFXT": {
-      "start_bar": "2026-09-09T13:20:00-04:00"
+    "SLB": {
+      "start_bar": "2026-09-09T13:40:00-04:00"
     },
-    "IQ": {
-      "start_bar": "2026-09-09T13:25:00-04:00"
+    "EVMN": {
+      "start_bar": "2026-09-09T13:40:00-04:00"
     },
-    "WDS": {
-      "start_bar": "2026-09-09T13:25:00-04:00"
+    "BAK": {
+      "start_bar": "2026-09-09T13:40:00-04:00"
     },
-    "VG": {
-      "start_bar": "2026-09-09T13:25:00-04:00"
+    "LBGJ": {
+      "start_bar": "2026-09-09T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -249,7 +250,7 @@
     "EFXT": "day_gainers",
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
-    "LAC": "aggressive_small_caps",
+    "LAC": "small_cap_gainers+aggressive_small_caps",
     "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
@@ -369,6 +370,7 @@
     "BHVN": "day_gainers",
     "HMH": "small_cap_gainers",
     "BRAG": "small_cap_gainers",
-    "ASPSW": "small_cap_gainers"
+    "ASPSW": "small_cap_gainers",
+    "TNK": "day_gainers"
   }
 }
