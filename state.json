@@ -206,17 +206,11 @@
     "WBX": {
       "start_bar": "2026-09-09T14:50:00-04:00"
     },
-    "CLSK": {
-      "start_bar": "2026-09-09T15:10:00-04:00"
+    "JELD": {
+      "start_bar": "2026-09-09T15:25:00-04:00"
     },
-    "MLYS": {
-      "start_bar": "2026-09-09T15:10:00-04:00"
-    },
-    "TSLA": {
-      "start_bar": "2026-09-09T15:10:00-04:00"
-    },
-    "SMMT": {
-      "start_bar": "2026-09-09T15:10:00-04:00"
+    "INSM": {
+      "start_bar": "2026-09-09T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -262,7 +256,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "aggressive_small_caps",
-    "SIG": "small_cap_gainers",
+    "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
