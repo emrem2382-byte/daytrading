@@ -171,15 +171,24 @@
     "KNSA",
     "WGS",
     "GOLD",
-    "MCHX"
+    "MCHX",
+    "WDC",
+    "COHU",
+    "ASPSZ"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "AVO": {
-      "start_bar": "2026-09-09T11:35:00-04:00"
+    "IAG": {
+      "start_bar": "2026-09-09T11:50:00-04:00"
     },
-    "AAL": {
-      "start_bar": "2026-09-09T11:35:00-04:00"
+    "MLYS": {
+      "start_bar": "2026-09-09T11:50:00-04:00"
+    },
+    "PEB": {
+      "start_bar": "2026-09-09T11:50:00-04:00"
+    },
+    "PSLV": {
+      "start_bar": "2026-09-09T11:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -328,6 +337,9 @@
     "KNSA": "day_gainers",
     "WGS": "day_gainers",
     "GOLD": "small_cap_gainers",
-    "MCHX": "small_cap_gainers"
+    "MCHX": "small_cap_gainers",
+    "WDC": "day_gainers",
+    "COHU": "day_gainers",
+    "ASPSZ": "small_cap_gainers"
   }
 }
