@@ -144,14 +144,14 @@
     "IVR",
     "GNK",
     "AKAN",
-    "NTST"
+    "NTST",
+    "PLBL",
+    "BAK",
+    "MMLP",
+    "CLBK"
   ],
   "tracked_day": "2026-09-09",
-  "pending_bull": {
-    "GWH": {
-      "start_bar": "2026-09-09T09:55:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "NOK": "most_actives",
     "META": "most_actives+day_gainers",
@@ -194,8 +194,8 @@
     "EFXT": "day_gainers",
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
-    "LAC": "small_cap_gainers+aggressive_small_caps",
-    "SIG": "day_gainers",
+    "LAC": "aggressive_small_caps",
+    "SIG": "small_cap_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -234,7 +234,7 @@
     "SNAP": "most_actives",
     "VALE": "most_actives",
     "BMNR": "most_actives",
-    "AMD": "most_actives+day_gainers",
+    "AMD": "most_actives",
     "SRPT": "day_gainers",
     "AEHR": "day_gainers",
     "ALAB": "day_gainers",
@@ -269,6 +269,11 @@
     "IVR": "aggressive_small_caps",
     "GNK": "aggressive_small_caps",
     "AKAN": "most_shorted_stocks",
-    "NTST": "most_shorted_stocks"
+    "NTST": "most_shorted_stocks",
+    "PLBL": "day_gainers",
+    "YQ": "small_cap_gainers",
+    "BAK": "small_cap_gainers",
+    "MMLP": "small_cap_gainers",
+    "CLBK": "aggressive_small_caps"
   }
 }
