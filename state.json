@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "YQ",
-    "EVMN",
-    "SSL",
-    "NOK",
-    "GWH",
-    "SEI",
-    "DFSC",
-    "FIGR",
-    "LAC",
-    "MLYS",
-    "ABM",
-    "GCL",
-    "XE",
-    "EOSE",
-    "IQ"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "NOK",
     "META",
