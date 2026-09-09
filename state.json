@@ -165,7 +165,8 @@
     "FRPT",
     "SID",
     "BAND",
-    "EBON"
+    "EBON",
+    "EVH"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
@@ -216,7 +217,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "aggressive_small_caps",
-    "SIG": "small_cap_gainers",
+    "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -249,13 +250,13 @@
     "BYND": "most_shorted_stocks",
     "BOXL": "most_shorted_stocks",
     "CLSK": "most_shorted_stocks",
-    "MARA": "most_shorted_stocks",
+    "MARA": "most_actives+most_shorted_stocks",
     "INTC": "most_actives",
     "TSLA": "most_actives",
     "SNAP": "most_actives",
     "VALE": "most_actives",
     "BMNR": "most_actives",
-    "AMD": "most_actives",
+    "AMD": "day_gainers",
     "SRPT": "day_gainers",
     "AEHR": "day_gainers",
     "ALAB": "day_gainers",
@@ -276,7 +277,7 @@
     "NTLA": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "PATH": "most_actives",
-    "MU": "most_actives+day_gainers",
+    "MU": "day_gainers",
     "BAC": "most_actives",
     "DDOG": "day_gainers",
     "RAL": "day_gainers",
@@ -313,6 +314,7 @@
     "FIGR": "day_gainers",
     "SID": "small_cap_gainers",
     "BAND": "small_cap_gainers",
-    "EBON": "small_cap_gainers"
+    "EBON": "small_cap_gainers",
+    "EVH": "aggressive_small_caps"
   }
 }
