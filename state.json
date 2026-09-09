@@ -201,21 +201,18 @@
     "GETY",
     "YPF",
     "IBM",
-    "LAB"
+    "LAB",
+    "CLMT",
+    "UMC",
+    "ACVA"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "LAC": {
-      "start_bar": "2026-09-09T15:35:00-04:00"
-    },
-    "BBBYW": {
-      "start_bar": "2026-09-09T15:30:00-04:00"
-    },
     "HRI": {
       "start_bar": "2026-09-09T15:45:00-04:00"
     },
-    "TSLA": {
-      "start_bar": "2026-09-09T15:45:00-04:00"
+    "VALE": {
+      "start_bar": "2026-09-09T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -283,7 +280,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
@@ -394,6 +391,9 @@
     "GETY": "aggressive_small_caps",
     "YPF": "day_gainers",
     "IBM": "day_gainers",
-    "LAB": "small_cap_gainers"
+    "LAB": "small_cap_gainers",
+    "CLMT": "day_gainers",
+    "UMC": "day_gainers",
+    "ACVA": "small_cap_gainers"
   }
 }
