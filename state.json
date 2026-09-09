@@ -194,18 +194,13 @@
     "ENHA",
     "MTSI",
     "GBLI",
-    "JACK"
+    "JACK",
+    "YRD"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "GCL": {
-      "start_bar": "2026-09-09T13:50:00-04:00"
-    },
-    "BBBYW": {
-      "start_bar": "2026-09-09T14:15:00-04:00"
-    },
-    "CLBK": {
-      "start_bar": "2026-09-09T14:20:00-04:00"
+    "AMBA": {
+      "start_bar": "2026-09-09T14:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -251,7 +246,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "small_cap_gainers+aggressive_small_caps",
-    "SIG": "day_gainers",
+    "SIG": "small_cap_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -377,6 +372,7 @@
     "ENHA": "small_cap_gainers",
     "MTSI": "day_gainers",
     "GBLI": "small_cap_gainers",
-    "JACK": "most_shorted_stocks"
+    "JACK": "most_shorted_stocks",
+    "YRD": "small_cap_gainers"
   }
 }
