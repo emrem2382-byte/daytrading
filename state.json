@@ -168,10 +168,20 @@
     "EBON",
     "EVH",
     "INSM",
-    "KNSA"
+    "KNSA",
+    "WGS",
+    "GOLD",
+    "MCHX"
   ],
   "tracked_day": "2026-09-09",
-  "pending_bull": {},
+  "pending_bull": {
+    "AVO": {
+      "start_bar": "2026-09-09T11:35:00-04:00"
+    },
+    "AAL": {
+      "start_bar": "2026-09-09T11:35:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "META": "most_actives+day_gainers",
@@ -315,6 +325,9 @@
     "EBON": "small_cap_gainers",
     "EVH": "aggressive_small_caps",
     "INSM": "day_gainers",
-    "KNSA": "day_gainers"
+    "KNSA": "day_gainers",
+    "WGS": "day_gainers",
+    "GOLD": "small_cap_gainers",
+    "MCHX": "small_cap_gainers"
   }
 }
