@@ -2,5 +2,7 @@
   "premarket_watchlist": [],
   "last_session": "closed",
   "tracked_tickers": [],
-  "tracked_day": null
+  "tracked_day": null,
+  "pending_bull": {},
+  "ticker_sources": {}
 }
