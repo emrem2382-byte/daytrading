@@ -166,14 +166,12 @@
     "SID",
     "BAND",
     "EBON",
-    "EVH"
+    "EVH",
+    "INSM",
+    "KNSA"
   ],
   "tracked_day": "2026-09-09",
-  "pending_bull": {
-    "AXTI": {
-      "start_bar": "2026-09-09T10:55:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "NOK": "most_actives",
     "META": "most_actives+day_gainers",
@@ -217,7 +215,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "aggressive_small_caps",
-    "SIG": "day_gainers",
+    "SIG": "small_cap_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -277,7 +275,7 @@
     "NTLA": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "PATH": "most_actives",
-    "MU": "day_gainers",
+    "MU": "most_actives",
     "BAC": "most_actives",
     "DDOG": "day_gainers",
     "RAL": "day_gainers",
@@ -315,6 +313,8 @@
     "SID": "small_cap_gainers",
     "BAND": "small_cap_gainers",
     "EBON": "small_cap_gainers",
-    "EVH": "aggressive_small_caps"
+    "EVH": "aggressive_small_caps",
+    "INSM": "day_gainers",
+    "KNSA": "day_gainers"
   }
 }
