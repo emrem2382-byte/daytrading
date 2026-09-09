@@ -198,12 +198,25 @@
     "YRD",
     "AAPL",
     "MKC-V",
-    "GETY"
+    "GETY",
+    "YPF"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
     "WBX": {
       "start_bar": "2026-09-09T14:50:00-04:00"
+    },
+    "CLSK": {
+      "start_bar": "2026-09-09T15:10:00-04:00"
+    },
+    "MLYS": {
+      "start_bar": "2026-09-09T15:10:00-04:00"
+    },
+    "TSLA": {
+      "start_bar": "2026-09-09T15:10:00-04:00"
+    },
+    "SMMT": {
+      "start_bar": "2026-09-09T15:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -248,8 +261,8 @@
     "EFXT": "day_gainers",
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
-    "LAC": "small_cap_gainers+aggressive_small_caps",
-    "SIG": "day_gainers",
+    "LAC": "aggressive_small_caps",
+    "SIG": "small_cap_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -379,6 +392,7 @@
     "YRD": "small_cap_gainers",
     "AAPL": "most_actives",
     "MKC-V": "day_gainers",
-    "GETY": "aggressive_small_caps"
+    "GETY": "aggressive_small_caps",
+    "YPF": "day_gainers"
   }
 }
