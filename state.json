@@ -159,10 +159,20 @@
     "HCA",
     "FROG",
     "INSP",
-    "LBGJ"
+    "LBGJ",
+    "AAL",
+    "LITE",
+    "FRPT",
+    "SID",
+    "BAND",
+    "EBON"
   ],
   "tracked_day": "2026-09-09",
-  "pending_bull": {},
+  "pending_bull": {
+    "AXTI": {
+      "start_bar": "2026-09-09T10:55:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "META": "most_actives+day_gainers",
@@ -198,7 +208,7 @@
     "CLS": "day_gainers",
     "VCYT": "day_gainers",
     "NESR": "day_gainers",
-    "MRVL": "most_actives+day_gainers",
+    "MRVL": "day_gainers",
     "HMY": "day_gainers",
     "SSMR": "day_gainers",
     "SYY": "day_gainers",
@@ -296,6 +306,13 @@
     "HCA": "day_gainers",
     "FROG": "day_gainers",
     "INSP": "small_cap_gainers",
-    "LBGJ": "most_shorted_stocks"
+    "LBGJ": "most_shorted_stocks",
+    "AAL": "most_actives",
+    "LITE": "day_gainers",
+    "FRPT": "day_gainers",
+    "FIGR": "day_gainers",
+    "SID": "small_cap_gainers",
+    "BAND": "small_cap_gainers",
+    "EBON": "small_cap_gainers"
   }
 }
