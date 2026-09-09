@@ -182,15 +182,29 @@
     "GFR",
     "AMBQ",
     "SOUN",
-    "HPE"
+    "HPE",
+    "PENN",
+    "BHVN",
+    "HMH",
+    "BRAG",
+    "ASPSW"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "VALE": {
-      "start_bar": "2026-09-09T13:10:00-04:00"
+    "SSMR": {
+      "start_bar": "2026-09-09T13:25:00-04:00"
     },
-    "YSG": {
-      "start_bar": "2026-09-09T13:10:00-04:00"
+    "EFXT": {
+      "start_bar": "2026-09-09T13:20:00-04:00"
+    },
+    "IQ": {
+      "start_bar": "2026-09-09T13:25:00-04:00"
+    },
+    "WDS": {
+      "start_bar": "2026-09-09T13:25:00-04:00"
+    },
+    "VG": {
+      "start_bar": "2026-09-09T13:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -236,7 +250,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "aggressive_small_caps",
-    "SIG": "small_cap_gainers",
+    "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -350,6 +364,11 @@
     "GFR": "small_cap_gainers",
     "AMBQ": "small_cap_gainers",
     "SOUN": "most_shorted_stocks",
-    "HPE": "day_gainers"
+    "HPE": "day_gainers",
+    "PENN": "day_gainers",
+    "BHVN": "day_gainers",
+    "HMH": "small_cap_gainers",
+    "BRAG": "small_cap_gainers",
+    "ASPSW": "small_cap_gainers"
   }
 }
