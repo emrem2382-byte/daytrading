@@ -19,6 +19,7 @@ workflow-ът автоматично commit-ва обратно в repo-то с�
 отделни акции статистически "успяват" по-рядко, когато целият пазар е слаб.
 """
 import csv
+import io
 import json
 import logging
 import os
@@ -26,6 +27,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+import mplfinance as mpf
 import pandas as pd
 import requests
 import yfinance as yf
@@ -174,6 +176,25 @@ def send_telegram(text: str):
             print(f"Telegram грешка ({resp.status_code}): {resp.text}")
     except Exception as e:
         print(f"Telegram изпращането се провали: {e}")
+def send_telegram_photo(photo_png: bytes, caption: str = ""):
+    """Праща PNG снимка (графика) в Telegram, с текст под нея (caption).
+    Ако токенът/chat_id липсват, само отбелязва в конзолата -- същия fallback
+    като send_telegram()."""
+    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
+        print("[Telegram изключен - липсват TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID] (снимка пропусната)")
+        return
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
+    try:
+        resp = requests.post(
+            url,
+            data={"chat_id": TELEGRAM_CHAT_ID, "caption": caption, "parse_mode": "HTML"},
+            files={"photo": ("chart.png", photo_png, "image/png")},
+            timeout=20,
+        )
+        if resp.status_code != 200:
+            print(f"Telegram снимка грешка ({resp.status_code}): {resp.text}")
+    except Exception as e:
+        print(f"Telegram снимка изпращането се провали: {e}")
 # ========================= TELEGRAM СЪОБЩЕНИЯ - ФОРМАТИРАНЕ =========================
 DIVIDER = "┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈"
 def fmt_price(value):
@@ -375,6 +396,62 @@ def scan_premarket_movers(tickers, top_n=None, min_pct_move=None):
         time.sleep(REQUEST_DELAY_SEC)
     return top_candidates
 # ========================= АНАЛИЗ НА ТИКЪР =========================
+def _add_indicators(data):
+    """Добавя EMA_fast/EMA_slow/VolAvg/VWAP колони към копие на данните.
+    Споделена между evaluate_ticker() (сигнала) и generate_chart_png()
+    (графиката за Telegram) -- смятани по абсолютно същия начин и на двете
+    места, за да не се разминават."""
+    data = data.copy()
+    data["EMA_fast"] = data["Close"].ewm(span=EMA_FAST).mean()
+    data["EMA_slow"] = data["Close"].ewm(span=EMA_SLOW).mean()
+    data["VolAvg"] = data["Volume"].rolling(20).mean().shift(1)
+    trading_day = data.index.date
+    pv = data["Close"] * data["Volume"]
+    data["VWAP"] = pv.groupby(trading_day).cumsum() / data["Volume"].groupby(trading_day).cumsum()
+    return data
+# ========================= ГРАФИКА ЗА TELEGRAM =========================
+def generate_chart_png(ticker, data, *, entry_price=None, take_profit=None,
+                        stop_loss=None, exit_price=None, max_bars=78):
+    """Прави candlestick графика (свещи + обем + EMA9/EMA20 + VWAP) от вече
+    изтеглени OHLCV данни и я връща като PNG bytes, готови за Telegram
+    sendPhoto. max_bars=78 ~= една цяла редовна сесия (6.5 часа / 5 мин) --
+    достатъчно контекст, без да е претрупано.
+
+    entry_price/take_profit/stop_loss/exit_price (по избор): хоризонтални
+    линии върху графиката за визуална справка -- вход, цели, и (ако вече е
+    затворена) реалната цена на изход.
+
+    Връща None при грешка (никога не хвърля изключение) -- извикващият код
+    трябва да продължи с обикновено текстово съобщение, ако графиката се
+    провали.
+    """
+    try:
+        if data.empty or len(data) < EMA_SLOW + 1:
+            return None
+        plot_data = _add_indicators(data).tail(max_bars)
+        addplots = [
+            mpf.make_addplot(plot_data["EMA_fast"], color="#1f77b4", width=1.1),
+            mpf.make_addplot(plot_data["EMA_slow"], color="#ff7f0e", width=1.1),
+            mpf.make_addplot(plot_data["VWAP"], color="#9467bd", width=1.0, linestyle="--"),
+        ]
+        hlines_values, hlines_colors = [], []
+        for value, color in [(entry_price, "gray"), (take_profit, "green"),
+                              (stop_loss, "red"), (exit_price, "black")]:
+            if value:
+                hlines_values.append(value)
+                hlines_colors.append(color)
+        hlines = dict(hlines=hlines_values, colors=hlines_colors, linestyle="-.", linewidths=1.0) if hlines_values else None
+        buf = io.BytesIO()
+        mpf.plot(
+            plot_data, type="candle", volume=True, addplot=addplots, hlines=hlines,
+            style="yahoo", figsize=(9, 6), title=ticker,
+            savefig=dict(fname=buf, dpi=110, bbox_inches="tight"),
+        )
+        buf.seek(0)
+        return buf.read()
+    except Exception as e:
+        print(f"Грешка при генериране на графика за {ticker}: {e}")
+        return None
 def _build_signal_dict(ticker, last, bar_time):
     entry = float(last["Close"])
     take_profit = entry * (1 + TAKE_PROFIT_PCT)
@@ -413,13 +490,7 @@ def evaluate_ticker(ticker, data, pending=None):
     try:
         if data.empty or len(data) < EMA_SLOW + 1:
             return pending, None
-        data = data.copy()
-        data["EMA_fast"] = data["Close"].ewm(span=EMA_FAST).mean()
-        data["EMA_slow"] = data["Close"].ewm(span=EMA_SLOW).mean()
-        data["VolAvg"] = data["Volume"].rolling(20).mean().shift(1)
-        trading_day = data.index.date
-        pv = data["Close"] * data["Volume"]
-        data["VWAP"] = pv.groupby(trading_day).cumsum() / data["Volume"].groupby(trading_day).cumsum()
+        data = _add_indicators(data)
         last = data.iloc[-1]
         prev = data.iloc[-2]
         bar_time = data.index[-1]
@@ -522,7 +593,8 @@ def log_new_signal(signal, source=""):
     return new_id
 def update_open_positions():
     """Проверява отворените позиции (с ЕДНА групова заявка за всички
-    отворени тикъри едновременно) и връща новозатворените ТОЗИ РЪН."""
+    отворени тикъри едновременно) и връща новозатворените ТОЗИ РЪН, заедно с
+    данните им (за графиката в Telegram) като (row, data) двойки."""
     rows = read_signals_log()
     open_rows = [r for r in rows if r["status"] == "open"]
     newly_closed = []
@@ -545,11 +617,11 @@ def update_open_positions():
         if current_price >= tp:
             r.update(status="tp_hit", close_price=round(current_price, 2), close_time=now_str,
                       pnl_pct=round((current_price - entry) / entry * 100, 2))
-            newly_closed.append(r)
+            newly_closed.append((r, data))
         elif current_price <= sl:
             r.update(status="sl_hit", close_price=round(current_price, 2), close_time=now_str,
                       pnl_pct=round((current_price - entry) / entry * 100, 2))
-            newly_closed.append(r)
+            newly_closed.append((r, data))
     write_signals_log(rows)
     return newly_closed
 def win_rate_summary_text():
@@ -606,8 +678,17 @@ def main():
         return
     # --- session == "open" ---
     newly_closed = update_open_positions()
-    for r in newly_closed:
-        send_telegram(build_position_closed_message(r))
+    for r, closed_data in newly_closed:
+        closed_msg = build_position_closed_message(r)
+        closed_chart = generate_chart_png(
+            r["ticker"], closed_data,
+            entry_price=float(r["entry_price"]), take_profit=float(r["take_profit"]),
+            stop_loss=float(r["stop_loss"]), exit_price=float(r["close_price"]),
+        )
+        if closed_chart:
+            send_telegram_photo(closed_chart, caption=closed_msg)
+        else:
+            send_telegram(closed_msg)
     today_str = ny_now.strftime("%Y-%m-%d")
     # ВАЖНО (#4): tracked_tickers вече се ПРЕНАСЯ от предишния цикъл/ден
     # директно от state -- вече не се нулира на нов ден. update_tracked_tickers()
@@ -674,7 +755,12 @@ def main():
             msg = build_buy_signal_message(signal, stale, duplicate)
             print(msg.replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", "").replace("<code>", "").replace("</code>", ""))
             if not duplicate:
-                send_telegram(msg)
+                chart = generate_chart_png(ticker, data, entry_price=signal["price"],
+                                            take_profit=signal["take_profit"], stop_loss=signal["stop_loss"])
+                if chart:
+                    send_telegram_photo(chart, caption=msg)
+                else:
+                    send_telegram(msg)  # графиката се провали -- поне текстовото известие да мине
     state["pending_bull"] = pending_bull
     if not any_signal:
         print("Няма сигнали в момента.")
