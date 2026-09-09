@@ -195,12 +195,14 @@
     "MTSI",
     "GBLI",
     "JACK",
-    "YRD"
+    "YRD",
+    "AAPL",
+    "MKC-V"
   ],
   "tracked_day": "2026-09-09",
   "pending_bull": {
-    "AMBA": {
-      "start_bar": "2026-09-09T14:35:00-04:00"
+    "XE": {
+      "start_bar": "2026-09-09T14:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -222,7 +224,7 @@
     "AGIO": "day_gainers",
     "GTES": "day_gainers",
     "AKAM": "day_gainers",
-    "SKHY": "day_gainers",
+    "SKHY": "most_actives+day_gainers",
     "AXTI": "day_gainers",
     "HRI": "day_gainers",
     "EQNR": "day_gainers",
@@ -246,7 +248,7 @@
     "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "small_cap_gainers+aggressive_small_caps",
-    "SIG": "small_cap_gainers",
+    "SIG": "day_gainers",
     "INBX": "small_cap_gainers",
     "AVO": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -373,6 +375,8 @@
     "MTSI": "day_gainers",
     "GBLI": "small_cap_gainers",
     "JACK": "most_shorted_stocks",
-    "YRD": "small_cap_gainers"
+    "YRD": "small_cap_gainers",
+    "AAPL": "most_actives",
+    "MKC-V": "day_gainers"
   }
 }
