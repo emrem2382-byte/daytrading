@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "ASO",
-    "TEST",
     "SLDPW",
     "KLXER",
     "VISN",
@@ -267,20 +266,17 @@
     "LDI",
     "WTI",
     "EGHT",
-    "IQMXW"
+    "IQMXW",
+    "JILL"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "GRPN": {
-      "start_bar": "2026-09-10T11:45:00-04:00"
-    },
-    "NET": {
-      "start_bar": "2026-09-10T11:45:00-04:00"
+    "GOOGL": {
+      "start_bar": "2026-09-10T12:10:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
-    "TEST": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "KLXER": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
@@ -290,7 +286,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "small_cap_gainers",
     "LAR": "aggressive_small_caps",
-    "NFE": "small_cap_gainers+aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
@@ -430,7 +426,7 @@
     "PM": "day_gainers",
     "HUM": "day_gainers",
     "WLTH": "small_cap_gainers",
-    "GPRO": "small_cap_gainers+aggressive_small_caps",
+    "GPRO": "aggressive_small_caps",
     "TROX": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "INDI": "most_shorted_stocks",
@@ -520,6 +516,7 @@
     "LDI": "small_cap_gainers",
     "WTI": "small_cap_gainers",
     "EGHT": "small_cap_gainers",
-    "IQMXW": "small_cap_gainers"
+    "IQMXW": "small_cap_gainers",
+    "JILL": "small_cap_gainers"
   }
 }
