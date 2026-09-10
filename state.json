@@ -271,20 +271,29 @@
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "INNV": {
-      "start_bar": "2026-09-10T14:45:00-04:00"
-    },
     "GNK": {
       "start_bar": "2026-09-10T14:45:00-04:00"
     },
-    "CLMT": {
-      "start_bar": "2026-09-10T14:45:00-04:00"
+    "TSLA": {
+      "start_bar": "2026-09-10T14:55:00-04:00"
+    },
+    "NTLA": {
+      "start_bar": "2026-09-10T14:55:00-04:00"
+    },
+    "HPE": {
+      "start_bar": "2026-09-10T14:55:00-04:00"
+    },
+    "VEON": {
+      "start_bar": "2026-09-10T14:55:00-04:00"
+    },
+    "APP": {
+      "start_bar": "2026-09-10T14:55:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
     "KOS": "aggressive_small_caps",
-    "NFE": "small_cap_gainers+aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "BRNX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "TSLA": "most_actives",
@@ -311,7 +320,7 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "MU": "most_actives",
     "BAC": "most_actives",
     "DDOG": "day_gainers",
@@ -417,7 +426,7 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "INDI": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "F": "most_actives+day_gainers",
+    "F": "most_actives",
     "WBD": "most_actives",
     "CHTR": "day_gainers",
     "NTSK": "day_gainers",
@@ -431,7 +440,7 @@
     "CABO": "small_cap_gainers",
     "LESL": "small_cap_gainers",
     "NDLS": "small_cap_gainers",
-    "TYRA": "small_cap_gainers+aggressive_small_caps",
+    "TYRA": "aggressive_small_caps",
     "PCG": "most_actives",
     "T": "most_actives",
     "CMCSA": "most_actives",
