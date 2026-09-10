@@ -23,9 +23,6 @@
     "NFE",
     "BRNX",
     "XRX",
-    "FIGR",
-    "MLYS",
-    "ABM",
     "GCL",
     "XE",
     "EOSE",
@@ -267,27 +264,21 @@
     "VVX",
     "ANGX",
     "SAM",
-    "AHT-PD"
+    "AHT-PD",
+    "TRMK",
+    "ICLR",
+    "TRAD-UN"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
     "LOCL": {
       "start_bar": "2026-09-10T13:05:00-04:00"
     },
-    "NAT": {
-      "start_bar": "2026-09-10T13:50:00-04:00"
+    "VALE": {
+      "start_bar": "2026-09-10T14:20:00-04:00"
     },
-    "WDC": {
-      "start_bar": "2026-09-10T13:50:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-09-10T13:50:00-04:00"
-    },
-    "FRPT": {
-      "start_bar": "2026-09-10T14:00:00-04:00"
-    },
-    "CABO": {
-      "start_bar": "2026-09-10T14:00:00-04:00"
+    "AMR": {
+      "start_bar": "2026-09-10T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -355,7 +346,6 @@
     "AAL": "most_actives",
     "LITE": "day_gainers",
     "FRPT": "day_gainers",
-    "FIGR": "day_gainers",
     "SID": "small_cap_gainers",
     "BAND": "small_cap_gainers",
     "EBON": "small_cap_gainers",
@@ -534,6 +524,9 @@
     "VVX": "day_gainers",
     "ANGX": "small_cap_gainers",
     "SAM": "small_cap_gainers",
-    "AHT-PD": "small_cap_gainers"
+    "AHT-PD": "small_cap_gainers",
+    "TRMK": "day_gainers",
+    "ICLR": "day_gainers",
+    "TRAD-UN": "small_cap_gainers"
   }
 }
