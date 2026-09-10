@@ -20,7 +20,6 @@
   "tracked_tickers": [
     "ASO",
     "KOS",
-    "ANGX",
     "NFE",
     "BRNX",
     "XRX",
@@ -267,34 +266,22 @@
     "TTWO",
     "OLMA",
     "VISN",
-    "NOG"
+    "NOG",
+    "AMBA"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "TSLA": {
-      "start_bar": "2026-09-10T13:25:00-04:00"
-    },
-    "VALE": {
-      "start_bar": "2026-09-10T13:30:00-04:00"
-    },
     "LOCL": {
       "start_bar": "2026-09-10T13:05:00-04:00"
     },
-    "MKC-V": {
-      "start_bar": "2026-09-10T13:20:00-04:00"
-    },
-    "GETY": {
-      "start_bar": "2026-09-10T13:25:00-04:00"
-    },
-    "YPF": {
+    "YQ": {
       "start_bar": "2026-09-10T13:30:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
     "KOS": "aggressive_small_caps",
-    "ANGX": "small_cap_gainers",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "BRNX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
@@ -445,11 +432,11 @@
     "CABO": "small_cap_gainers",
     "LESL": "small_cap_gainers",
     "NDLS": "small_cap_gainers",
-    "TYRA": "small_cap_gainers+aggressive_small_caps",
+    "TYRA": "aggressive_small_caps",
     "PCG": "most_actives",
     "T": "most_actives",
     "CMCSA": "most_actives",
-    "ITUB": "most_actives+day_gainers",
+    "ITUB": "most_actives",
     "BBD": "most_actives",
     "RXRX": "most_shorted_stocks",
     "NU": "most_actives",
@@ -532,6 +519,7 @@
     "TTWO": "day_gainers",
     "OLMA": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
-    "NOG": "day_gainers"
+    "NOG": "day_gainers",
+    "AMBA": "day_gainers"
   }
 }
