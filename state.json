@@ -249,24 +249,24 @@
     "CABO",
     "LESL",
     "NDLS",
-    "TYRA"
+    "TYRA",
+    "PCG",
+    "T",
+    "CMCSA",
+    "ITUB",
+    "BBD",
+    "RXRX"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "NET": {
-      "start_bar": "2026-09-10T09:45:00-04:00"
-    },
-    "GPRO": {
-      "start_bar": "2026-09-10T09:45:00-04:00"
-    },
-    "EVH": {
-      "start_bar": "2026-09-10T09:55:00-04:00"
-    },
     "NDLS": {
       "start_bar": "2026-09-10T09:45:00-04:00"
     },
-    "TYRA": {
-      "start_bar": "2026-09-10T09:55:00-04:00"
+    "ABM": {
+      "start_bar": "2026-09-10T10:10:00-04:00"
+    },
+    "YRD": {
+      "start_bar": "2026-09-10T10:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -461,7 +461,7 @@
     "SB": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "MOH": "day_gainers",
     "UI": "day_gainers",
     "OSCR": "day_gainers",
@@ -493,6 +493,12 @@
     "CABO": "small_cap_gainers",
     "LESL": "small_cap_gainers",
     "NDLS": "small_cap_gainers",
-    "TYRA": "aggressive_small_caps"
+    "TYRA": "aggressive_small_caps",
+    "PCG": "most_actives",
+    "T": "most_actives",
+    "CMCSA": "most_actives",
+    "ITUB": "most_actives",
+    "BBD": "most_actives",
+    "RXRX": "most_shorted_stocks"
   }
 }
