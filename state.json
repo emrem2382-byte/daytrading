@@ -19,8 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "ASO",
-    "MRVL",
-    "HMY",
     "SSMR",
     "SYY",
     "EFXT",
@@ -267,30 +265,30 @@
     "RFL",
     "BARK",
     "XRXDW",
-    "ULCC"
+    "ULCC",
+    "SSL",
+    "META"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "TSLA": {
-      "start_bar": "2026-09-10T10:40:00-04:00"
-    },
-    "MARA": {
-      "start_bar": "2026-09-10T10:50:00-04:00"
-    },
     "RAL": {
       "start_bar": "2026-09-10T10:50:00-04:00"
     },
-    "HPQ": {
-      "start_bar": "2026-09-10T10:50:00-04:00"
+    "ALAB": {
+      "start_bar": "2026-09-10T11:00:00-04:00"
     },
-    "SOFI": {
-      "start_bar": "2026-09-10T10:50:00-04:00"
+    "NAT": {
+      "start_bar": "2026-09-10T11:05:00-04:00"
+    },
+    "JELD": {
+      "start_bar": "2026-09-10T11:05:00-04:00"
+    },
+    "COHU": {
+      "start_bar": "2026-09-10T11:00:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
-    "MRVL": "day_gainers",
-    "HMY": "day_gainers",
     "SSMR": "day_gainers",
     "SYY": "day_gainers",
     "EFXT": "day_gainers",
@@ -319,7 +317,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "small_cap_gainers",
     "LAR": "aggressive_small_caps",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
@@ -459,12 +457,12 @@
     "PM": "day_gainers",
     "HUM": "day_gainers",
     "WLTH": "small_cap_gainers",
-    "GPRO": "small_cap_gainers+aggressive_small_caps",
+    "GPRO": "aggressive_small_caps",
     "TROX": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "INDI": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "F": "most_actives+day_gainers",
+    "F": "most_actives",
     "WBD": "most_actives",
     "CHTR": "day_gainers",
     "NTSK": "day_gainers",
@@ -478,7 +476,7 @@
     "CABO": "small_cap_gainers",
     "LESL": "small_cap_gainers",
     "NDLS": "small_cap_gainers",
-    "TYRA": "small_cap_gainers+aggressive_small_caps",
+    "TYRA": "aggressive_small_caps",
     "PCG": "most_actives",
     "T": "most_actives",
     "CMCSA": "most_actives",
@@ -529,6 +527,8 @@
     "RFL": "small_cap_gainers",
     "BARK": "small_cap_gainers",
     "XRXDW": "small_cap_gainers",
-    "ULCC": "aggressive_small_caps"
+    "ULCC": "aggressive_small_caps",
+    "SSL": "day_gainers",
+    "META": "day_gainers"
   }
 }
