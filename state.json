@@ -216,48 +216,36 @@
     "CSTE",
     "SB",
     "COUR",
-    "GENI"
+    "GENI",
+    "SPCX",
+    "MOH",
+    "UI",
+    "OSCR",
+    "CVI",
+    "PAYP",
+    "BSP",
+    "BKD",
+    "CASY",
+    "SRAD",
+    "PM",
+    "HUM",
+    "WLTH",
+    "GPRO",
+    "TROX",
+    "ONDS",
+    "INDI",
+    "OCGN"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "SSL": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
+    "NET": {
+      "start_bar": "2026-09-10T09:45:00-04:00"
     },
-    "EFXT": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
+    "RXO": {
+      "start_bar": "2026-09-10T09:45:00-04:00"
     },
-    "JILL": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "KOS": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "GPRK": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "NTST": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "HMH": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "AVAV": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "ELV": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "CNC": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "IOND": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "BG": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
-    },
-    "SB": {
-      "start_bar": "2026-09-10T09:30:00-04:00"
+    "GPRO": {
+      "start_bar": "2026-09-10T09:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -451,6 +439,24 @@
     "CSTE": "small_cap_gainers",
     "SB": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
-    "GENI": "aggressive_small_caps"
+    "GENI": "aggressive_small_caps",
+    "SPCX": "most_actives",
+    "MOH": "day_gainers",
+    "UI": "day_gainers",
+    "OSCR": "day_gainers",
+    "CVI": "day_gainers",
+    "PAYP": "day_gainers",
+    "BSP": "day_gainers",
+    "BKD": "day_gainers",
+    "CASY": "day_gainers",
+    "SRAD": "day_gainers",
+    "PM": "day_gainers",
+    "HUM": "day_gainers",
+    "WLTH": "small_cap_gainers",
+    "GPRO": "aggressive_small_caps",
+    "TROX": "aggressive_small_caps",
+    "ONDS": "most_shorted_stocks",
+    "INDI": "most_shorted_stocks",
+    "OCGN": "most_shorted_stocks"
   }
 }
