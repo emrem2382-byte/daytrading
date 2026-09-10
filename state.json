@@ -264,44 +264,28 @@
     "GRPN",
     "HTZ",
     "BBAI",
-    "AI"
+    "AI",
+    "GOOGL",
+    "AMZN"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "ABM": {
-      "start_bar": "2026-09-10T10:10:00-04:00"
-    },
     "VCYT": {
       "start_bar": "2026-09-10T10:25:00-04:00"
     },
-    "VISN": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
+    "AMBA": {
+      "start_bar": "2026-09-10T10:35:00-04:00"
     },
-    "GH": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
+    "CLS": {
+      "start_bar": "2026-09-10T10:40:00-04:00"
     },
-    "ONDS": {
-      "start_bar": "2026-09-10T10:20:00-04:00"
-    },
-    "INDI": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
-    },
-    "ITUB": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
-    },
-    "RXRX": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
-    },
-    "HTZ": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
-    },
-    "AI": {
-      "start_bar": "2026-09-10T10:25:00-04:00"
+    "TSLA": {
+      "start_bar": "2026-09-10T10:40:00-04:00"
     }
   },
   "ticker_sources": {
     "NOK": "most_actives",
-    "META": "most_actives+day_gainers",
+    "META": "day_gainers",
     "ASO": "day_gainers",
     "TNGX": "day_gainers",
     "SSL": "day_gainers",
@@ -364,7 +348,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
@@ -538,6 +522,8 @@
     "GRPN": "most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
-    "AI": "most_shorted_stocks"
+    "AI": "most_shorted_stocks",
+    "GOOGL": "most_actives",
+    "AMZN": "most_actives"
   }
 }
