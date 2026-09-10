@@ -24,7 +24,6 @@
     "BRNX",
     "XRX",
     "SNAP",
-    "VALE",
     "BMNR",
     "AMD",
     "SRPT",
@@ -267,15 +266,13 @@
     "EBS",
     "UXIN",
     "DFSC",
-    "TGS"
+    "TGS",
+    "SPTX"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
     "XRX": {
       "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "ENHA": {
-      "start_bar": "2026-09-10T15:05:00-04:00"
     },
     "ACVA": {
       "start_bar": "2026-09-10T15:10:00-04:00"
@@ -294,6 +291,21 @@
     },
     "DUOL": {
       "start_bar": "2026-09-10T15:10:00-04:00"
+    },
+    "FICO": {
+      "start_bar": "2026-09-10T15:20:00-04:00"
+    },
+    "UMC": {
+      "start_bar": "2026-09-10T15:20:00-04:00"
+    },
+    "UI": {
+      "start_bar": "2026-09-10T15:20:00-04:00"
+    },
+    "NET": {
+      "start_bar": "2026-09-10T15:20:00-04:00"
+    },
+    "ICLR": {
+      "start_bar": "2026-09-10T15:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -303,7 +315,6 @@
     "BRNX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "SNAP": "most_actives",
-    "VALE": "most_actives",
     "BMNR": "most_actives",
     "AMD": "day_gainers",
     "SRPT": "day_gainers",
@@ -546,6 +557,7 @@
     "EBS": "small_cap_gainers",
     "UXIN": "small_cap_gainers",
     "DFSC": "most_shorted_stocks",
-    "TGS": "day_gainers"
+    "TGS": "day_gainers",
+    "SPTX": "small_cap_gainers"
   }
 }
