@@ -234,18 +234,39 @@
     "TROX",
     "ONDS",
     "INDI",
-    "OCGN"
+    "OCGN",
+    "F",
+    "WBD",
+    "CHTR",
+    "NTSK",
+    "RDDT",
+    "CALM",
+    "MDB",
+    "RBRK",
+    "OII",
+    "GTLB",
+    "TRMD",
+    "CABO",
+    "LESL",
+    "NDLS",
+    "TYRA"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
     "NET": {
       "start_bar": "2026-09-10T09:45:00-04:00"
     },
-    "RXO": {
-      "start_bar": "2026-09-10T09:45:00-04:00"
-    },
     "GPRO": {
       "start_bar": "2026-09-10T09:45:00-04:00"
+    },
+    "EVH": {
+      "start_bar": "2026-09-10T09:55:00-04:00"
+    },
+    "NDLS": {
+      "start_bar": "2026-09-10T09:45:00-04:00"
+    },
+    "TYRA": {
+      "start_bar": "2026-09-10T09:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -313,7 +334,7 @@
     "METC": "aggressive_small_caps",
     "ANGX": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
-    "NFE": "small_cap_gainers",
+    "NFE": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
@@ -440,7 +461,7 @@
     "SB": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives",
+    "SPCX": "most_actives+day_gainers",
     "MOH": "day_gainers",
     "UI": "day_gainers",
     "OSCR": "day_gainers",
@@ -455,8 +476,23 @@
     "WLTH": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "TROX": "aggressive_small_caps",
-    "ONDS": "most_shorted_stocks",
+    "ONDS": "most_actives+most_shorted_stocks",
     "INDI": "most_shorted_stocks",
-    "OCGN": "most_shorted_stocks"
+    "OCGN": "most_shorted_stocks",
+    "F": "most_actives",
+    "WBD": "most_actives",
+    "CHTR": "day_gainers",
+    "NTSK": "day_gainers",
+    "RDDT": "day_gainers",
+    "CALM": "day_gainers",
+    "MDB": "day_gainers",
+    "RBRK": "day_gainers",
+    "OII": "day_gainers",
+    "GTLB": "day_gainers",
+    "TRMD": "day_gainers",
+    "CABO": "small_cap_gainers",
+    "LESL": "small_cap_gainers",
+    "NDLS": "small_cap_gainers",
+    "TYRA": "aggressive_small_caps"
   }
 }
