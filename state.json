@@ -276,13 +276,22 @@
     },
     "GRPN": {
       "start_bar": "2026-09-10T12:40:00-04:00"
+    },
+    "GWH": {
+      "start_bar": "2026-09-10T12:40:00-04:00"
+    },
+    "EOSE": {
+      "start_bar": "2026-09-10T12:50:00-04:00"
+    },
+    "THC": {
+      "start_bar": "2026-09-10T12:50:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
     "KOS": "aggressive_small_caps",
     "ANGX": "small_cap_gainers",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -318,7 +327,7 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "MU": "most_actives",
     "BAC": "most_actives",
     "DDOG": "day_gainers",
