@@ -270,23 +270,7 @@
     "META"
   ],
   "tracked_day": "2026-09-10",
-  "pending_bull": {
-    "RAL": {
-      "start_bar": "2026-09-10T10:50:00-04:00"
-    },
-    "ALAB": {
-      "start_bar": "2026-09-10T11:00:00-04:00"
-    },
-    "NAT": {
-      "start_bar": "2026-09-10T11:05:00-04:00"
-    },
-    "JELD": {
-      "start_bar": "2026-09-10T11:05:00-04:00"
-    },
-    "COHU": {
-      "start_bar": "2026-09-10T11:00:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "ASO": "day_gainers",
     "SSMR": "day_gainers",
