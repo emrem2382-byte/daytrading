@@ -21,9 +21,7 @@
     "ASO",
     "KOS",
     "ANGX",
-    "LAR",
     "NFE",
-    "WOLF",
     "KPTI",
     "DFSC",
     "LENZ",
@@ -267,21 +265,24 @@
     "EXPE",
     "NEXT",
     "ADV",
-    "AHT-PH"
+    "AHT-PH",
+    "SHAZ",
+    "RVII"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "ACHC": {
-      "start_bar": "2026-09-10T12:25:00-04:00"
+    "TRMD": {
+      "start_bar": "2026-09-10T12:40:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-09-10T12:40:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
     "KOS": "aggressive_small_caps",
     "ANGX": "small_cap_gainers",
-    "LAR": "aggressive_small_caps",
-    "NFE": "small_cap_gainers+aggressive_small_caps",
-    "WOLF": "most_shorted_stocks",
+    "NFE": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "DFSC": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -317,7 +318,7 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
-    "PATH": "most_actives",
+    "PATH": "most_actives+day_gainers",
     "MU": "most_actives",
     "BAC": "most_actives",
     "DDOG": "day_gainers",
@@ -517,6 +518,8 @@
     "EXPE": "day_gainers",
     "NEXT": "day_gainers",
     "ADV": "small_cap_gainers",
-    "AHT-PH": "small_cap_gainers"
+    "AHT-PH": "small_cap_gainers",
+    "SHAZ": "day_gainers",
+    "RVII": "small_cap_gainers"
   }
 }
