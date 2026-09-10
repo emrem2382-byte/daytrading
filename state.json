@@ -24,8 +24,6 @@
     "NFE",
     "BRNX",
     "XRX",
-    "BYND",
-    "BOXL",
     "CLSK",
     "MARA",
     "YQ",
@@ -267,32 +265,32 @@
     "UBER",
     "SITM",
     "CRUS",
-    "TTWO"
+    "TTWO",
+    "OLMA",
+    "VISN"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "GWH": {
-      "start_bar": "2026-09-10T12:40:00-04:00"
+    "AAL": {
+      "start_bar": "2026-09-10T13:15:00-04:00"
     },
-    "EOSE": {
-      "start_bar": "2026-09-10T12:50:00-04:00"
+    "SOUN": {
+      "start_bar": "2026-09-10T13:15:00-04:00"
     },
-    "THC": {
-      "start_bar": "2026-09-10T12:50:00-04:00"
+    "BBAI": {
+      "start_bar": "2026-09-10T13:15:00-04:00"
     },
-    "EVH": {
-      "start_bar": "2026-09-10T12:55:00-04:00"
+    "VISN": {
+      "start_bar": "2026-09-10T13:15:00-04:00"
     }
   },
   "ticker_sources": {
     "ASO": "day_gainers",
     "KOS": "aggressive_small_caps",
     "ANGX": "small_cap_gainers",
-    "NFE": "small_cap_gainers+aggressive_small_caps",
+    "NFE": "aggressive_small_caps",
     "BRNX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
-    "BYND": "most_shorted_stocks",
-    "BOXL": "most_shorted_stocks",
     "CLSK": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
     "INTC": "most_actives",
@@ -423,7 +421,7 @@
     "PM": "day_gainers",
     "HUM": "day_gainers",
     "WLTH": "small_cap_gainers",
-    "GPRO": "small_cap_gainers+aggressive_small_caps",
+    "GPRO": "aggressive_small_caps",
     "TROX": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "INDI": "most_shorted_stocks",
@@ -526,6 +524,8 @@
     "UBER": "most_actives",
     "SITM": "day_gainers",
     "CRUS": "day_gainers",
-    "TTWO": "day_gainers"
+    "TTWO": "day_gainers",
+    "OLMA": "small_cap_gainers",
+    "VISN": "aggressive_small_caps"
   }
 }

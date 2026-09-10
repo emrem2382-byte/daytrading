@@ -5,3 +5,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 4,BAK,small_cap_gainers,2026-09-09 13:52:09,2.04,2.14,1.99,sl_hit,2026-09-09 14:22:10,1.98,-2.94
 5,KLXER,small_cap_gainers,2026-09-09 15:14:53,0.13,0.14,0.13,sl_hit,2026-09-09 15:57:26,0.13,-0.0
 6,KLXER,small_cap_gainers,2026-09-10 10:25:32,0.13,0.14,0.13,sl_hit,2026-09-10 10:40:48,0.13,-3.08
+7,FOUR,day_gainers,2026-09-10 13:18:12,43.03,45.18,42.17,open,,,
