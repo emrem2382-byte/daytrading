@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "YQ",
-    "BRNX",
-    "FORM",
-    "SID",
-    "KLXER",
-    "MXL",
-    "BBBYW",
-    "LAR",
-    "MRVL",
-    "ALAB",
-    "UMC",
-    "SKHY",
-    "VG",
-    "DOCN",
-    "INTC"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "ASO",
     "KOS",
