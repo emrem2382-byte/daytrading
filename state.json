@@ -19,10 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "ASO",
-    "SSMR",
-    "SYY",
-    "EFXT",
-    "SLB",
     "PTEN",
     "LAC",
     "SIG",
@@ -267,16 +263,23 @@
     "XRXDW",
     "ULCC",
     "SSL",
-    "META"
+    "META",
+    "NET",
+    "FSLY",
+    "AKAM",
+    "DOCN"
   ],
   "tracked_day": "2026-09-10",
-  "pending_bull": {},
+  "pending_bull": {
+    "COUR": {
+      "start_bar": "2026-09-10T11:35:00-04:00"
+    },
+    "AI": {
+      "start_bar": "2026-09-10T11:35:00-04:00"
+    }
+  },
   "ticker_sources": {
     "ASO": "day_gainers",
-    "SSMR": "day_gainers",
-    "SYY": "day_gainers",
-    "EFXT": "day_gainers",
-    "SLB": "day_gainers",
     "PTEN": "day_gainers",
     "LAC": "small_cap_gainers+aggressive_small_caps",
     "SIG": "small_cap_gainers",
@@ -513,6 +516,10 @@
     "XRXDW": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
     "SSL": "day_gainers",
-    "META": "day_gainers"
+    "META": "day_gainers",
+    "NET": "day_gainers",
+    "FSLY": "day_gainers",
+    "AKAM": "day_gainers",
+    "DOCN": "day_gainers"
   }
 }
