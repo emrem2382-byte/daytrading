@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "YQ",
+    "BRNX",
+    "LAR",
+    "KLXER",
+    "FORM",
+    "MXL",
+    "BBBYW",
+    "MRVL",
+    "ALAB",
+    "UMC",
+    "DOCN",
+    "SKHY",
+    "NAT",
+    "MTSI",
+    "INTC"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "NOK",
     "META",
