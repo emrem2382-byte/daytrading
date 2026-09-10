@@ -24,8 +24,6 @@
     "BRNX",
     "XRX",
     "SNAP",
-    "AMD",
-    "SRPT",
     "AEHR",
     "ALAB",
     "ARM",
@@ -267,22 +265,12 @@
     "DFSC",
     "TGS",
     "SPTX",
-    "OI"
+    "OI",
+    "CACI",
+    "RVLV"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "FICO": {
-      "start_bar": "2026-09-10T15:20:00-04:00"
-    },
-    "UI": {
-      "start_bar": "2026-09-10T15:20:00-04:00"
-    },
-    "NET": {
-      "start_bar": "2026-09-10T15:20:00-04:00"
-    },
-    "ICLR": {
-      "start_bar": "2026-09-10T15:20:00-04:00"
-    },
     "COHU": {
       "start_bar": "2026-09-10T15:30:00-04:00"
     },
@@ -291,6 +279,39 @@
     },
     "CRESY": {
       "start_bar": "2026-09-10T15:30:00-04:00"
+    },
+    "PEPG": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "GME": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "RIG": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "FFIV": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "CNC": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "DBI": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "CASY": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "WLTH": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "WBD": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "CHTR": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
+    },
+    "STNE": {
+      "start_bar": "2026-09-10T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -299,9 +320,7 @@
     "NFE": "small_cap_gainers+aggressive_small_caps",
     "BRNX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
-    "SNAP": "most_actives",
-    "AMD": "day_gainers",
-    "SRPT": "day_gainers",
+    "SNAP": "most_actives+day_gainers",
     "AEHR": "day_gainers",
     "ALAB": "day_gainers",
     "ARM": "day_gainers",
@@ -543,6 +562,8 @@
     "DFSC": "most_shorted_stocks",
     "TGS": "day_gainers",
     "SPTX": "small_cap_gainers",
-    "OI": "aggressive_small_caps"
+    "OI": "aggressive_small_caps",
+    "CACI": "day_gainers",
+    "RVLV": "small_cap_gainers"
   }
 }
