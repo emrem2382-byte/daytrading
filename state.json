@@ -271,47 +271,26 @@
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "COHU": {
-      "start_bar": "2026-09-10T15:30:00-04:00"
-    },
-    "HUM": {
-      "start_bar": "2026-09-10T15:30:00-04:00"
-    },
-    "CRESY": {
-      "start_bar": "2026-09-10T15:30:00-04:00"
-    },
-    "PEPG": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
     "GME": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
-    "RIG": {
       "start_bar": "2026-09-10T15:40:00-04:00"
     },
     "FFIV": {
       "start_bar": "2026-09-10T15:40:00-04:00"
     },
-    "CNC": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
-    "DBI": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
-    "CASY": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
-    "WLTH": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
-    "WBD": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
-    },
     "CHTR": {
       "start_bar": "2026-09-10T15:40:00-04:00"
     },
-    "STNE": {
-      "start_bar": "2026-09-10T15:40:00-04:00"
+    "SMMT": {
+      "start_bar": "2026-09-10T15:50:00-04:00"
+    },
+    "GNK": {
+      "start_bar": "2026-09-10T15:50:00-04:00"
+    },
+    "NXST": {
+      "start_bar": "2026-09-10T15:50:00-04:00"
+    },
+    "BWIN": {
+      "start_bar": "2026-09-10T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -445,7 +424,7 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "INDI": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "F": "most_actives+day_gainers",
+    "F": "most_actives",
     "WBD": "most_actives",
     "CHTR": "day_gainers",
     "NTSK": "day_gainers",
