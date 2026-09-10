@@ -24,7 +24,6 @@
     "BRNX",
     "XRX",
     "SNAP",
-    "BMNR",
     "AMD",
     "SRPT",
     "AEHR",
@@ -267,35 +266,12 @@
     "UXIN",
     "DFSC",
     "TGS",
-    "SPTX"
+    "SPTX",
+    "OI"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "XRX": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "ACVA": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "PM": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "CABO": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "ERAS": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "SAIL": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
-    "DUOL": {
-      "start_bar": "2026-09-10T15:10:00-04:00"
-    },
     "FICO": {
-      "start_bar": "2026-09-10T15:20:00-04:00"
-    },
-    "UMC": {
       "start_bar": "2026-09-10T15:20:00-04:00"
     },
     "UI": {
@@ -306,6 +282,15 @@
     },
     "ICLR": {
       "start_bar": "2026-09-10T15:20:00-04:00"
+    },
+    "COHU": {
+      "start_bar": "2026-09-10T15:30:00-04:00"
+    },
+    "HUM": {
+      "start_bar": "2026-09-10T15:30:00-04:00"
+    },
+    "CRESY": {
+      "start_bar": "2026-09-10T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -315,7 +300,6 @@
     "BRNX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "SNAP": "most_actives",
-    "BMNR": "most_actives",
     "AMD": "day_gainers",
     "SRPT": "day_gainers",
     "AEHR": "day_gainers",
@@ -336,7 +320,7 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "MU": "most_actives",
     "BAC": "most_actives",
     "DDOG": "day_gainers",
@@ -558,6 +542,7 @@
     "UXIN": "small_cap_gainers",
     "DFSC": "most_shorted_stocks",
     "TGS": "day_gainers",
-    "SPTX": "small_cap_gainers"
+    "SPTX": "small_cap_gainers",
+    "OI": "aggressive_small_caps"
   }
 }
