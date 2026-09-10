@@ -16,7 +16,7 @@
     "DOCN",
     "INTC"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
     "NOK",
     "META",
@@ -204,15 +204,60 @@
     "LAB",
     "CLMT",
     "UMC",
-    "ACVA"
+    "ACVA",
+    "GRAB",
+    "AVAV",
+    "ELV",
+    "CNC",
+    "IOND",
+    "BG",
+    "DBI",
+    "VIOT",
+    "CSTE",
+    "SB",
+    "COUR",
+    "GENI"
   ],
-  "tracked_day": "2026-09-09",
+  "tracked_day": "2026-09-10",
   "pending_bull": {
-    "HRI": {
-      "start_bar": "2026-09-09T15:45:00-04:00"
+    "SSL": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
     },
-    "VALE": {
-      "start_bar": "2026-09-09T15:55:00-04:00"
+    "EFXT": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "JILL": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "KOS": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "GPRK": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "NTST": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "HMH": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "AVAV": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "ELV": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "CNC": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "IOND": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "BG": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
+    },
+    "SB": {
+      "start_bar": "2026-09-10T09:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -394,6 +439,18 @@
     "LAB": "small_cap_gainers",
     "CLMT": "day_gainers",
     "UMC": "day_gainers",
-    "ACVA": "small_cap_gainers"
+    "ACVA": "small_cap_gainers",
+    "GRAB": "most_actives",
+    "AVAV": "day_gainers",
+    "ELV": "day_gainers",
+    "CNC": "day_gainers",
+    "IOND": "day_gainers",
+    "BG": "day_gainers",
+    "DBI": "small_cap_gainers",
+    "VIOT": "small_cap_gainers",
+    "CSTE": "small_cap_gainers",
+    "SB": "aggressive_small_caps",
+    "COUR": "aggressive_small_caps",
+    "GENI": "aggressive_small_caps"
   }
 }
