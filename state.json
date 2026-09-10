@@ -255,18 +255,48 @@
     "CMCSA",
     "ITUB",
     "BBD",
-    "RXRX"
+    "RXRX",
+    "NU",
+    "SOFI",
+    "JOBY",
+    "JBLU",
+    "OLN",
+    "GRPN",
+    "HTZ",
+    "BBAI",
+    "AI"
   ],
   "tracked_day": "2026-09-10",
   "pending_bull": {
-    "NDLS": {
-      "start_bar": "2026-09-10T09:45:00-04:00"
-    },
     "ABM": {
       "start_bar": "2026-09-10T10:10:00-04:00"
     },
-    "YRD": {
-      "start_bar": "2026-09-10T10:05:00-04:00"
+    "VCYT": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "VISN": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "GH": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "ONDS": {
+      "start_bar": "2026-09-10T10:20:00-04:00"
+    },
+    "INDI": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "ITUB": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "RXRX": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
+    },
+    "AI": {
+      "start_bar": "2026-09-10T10:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -499,6 +529,15 @@
     "CMCSA": "most_actives",
     "ITUB": "most_actives",
     "BBD": "most_actives",
-    "RXRX": "most_shorted_stocks"
+    "RXRX": "most_shorted_stocks",
+    "NU": "most_actives",
+    "SOFI": "most_actives",
+    "JOBY": "most_actives",
+    "JBLU": "aggressive_small_caps",
+    "OLN": "aggressive_small_caps",
+    "GRPN": "most_shorted_stocks",
+    "HTZ": "most_shorted_stocks",
+    "BBAI": "most_shorted_stocks",
+    "AI": "most_shorted_stocks"
   }
 }
