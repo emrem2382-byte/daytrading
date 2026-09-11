@@ -34,13 +34,8 @@
     "BBAI",
     "IREN",
     "ULCC",
-    "AKAM",
-    "DOCN",
-    "KVUE",
     "SWKS",
-    "VIST",
     "QRVO",
-    "FOUR",
     "MAAS",
     "GDDY",
     "BVC",
@@ -266,21 +261,32 @@
     "CHPT",
     "NKTX",
     "DHX",
-    "GRPN"
+    "GRPN",
+    "MWH",
+    "AVEX",
+    "MEI",
+    "GCL",
+    "CAPR"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
     "IREN": {
       "start_bar": "2026-09-11T11:30:00-04:00"
     },
-    "BAK": {
-      "start_bar": "2026-09-11T11:30:00-04:00"
-    },
     "AEHR": {
       "start_bar": "2026-09-11T11:30:00-04:00"
     },
-    "JELD": {
-      "start_bar": "2026-09-11T11:25:00-04:00"
+    "PBR": {
+      "start_bar": "2026-09-11T11:40:00-04:00"
+    },
+    "CRI": {
+      "start_bar": "2026-09-11T11:40:00-04:00"
+    },
+    "SPCX": {
+      "start_bar": "2026-09-11T11:40:00-04:00"
+    },
+    "MU": {
+      "start_bar": "2026-09-11T11:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -304,13 +310,8 @@
     "BBAI": "most_shorted_stocks",
     "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
-    "AKAM": "day_gainers",
-    "DOCN": "day_gainers",
-    "KVUE": "most_actives",
     "SWKS": "day_gainers",
-    "VIST": "day_gainers",
     "QRVO": "day_gainers",
-    "FOUR": "day_gainers",
     "MAAS": "day_gainers",
     "GDDY": "day_gainers",
     "BVC": "day_gainers",
@@ -419,11 +420,11 @@
     "CCCC": "most_shorted_stocks",
     "CLSK": "day_gainers+most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
-    "NVAX": "small_cap_gainers+most_shorted_stocks",
+    "NVAX": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "PHVS": "day_gainers",
     "AEHR": "day_gainers",
     "SPSC": "day_gainers",
@@ -471,7 +472,7 @@
     "PLCE": "small_cap_gainers",
     "CMPS": "aggressive_small_caps",
     "MU": "most_actives",
-    "WULF": "most_actives+day_gainers",
+    "WULF": "day_gainers",
     "KEEL": "most_actives",
     "FPS": "day_gainers",
     "CLS": "day_gainers",
@@ -531,6 +532,11 @@
     "CHPT": "small_cap_gainers",
     "NKTX": "small_cap_gainers",
     "DHX": "small_cap_gainers",
-    "GRPN": "most_shorted_stocks"
+    "GRPN": "most_shorted_stocks",
+    "MWH": "day_gainers",
+    "AVEX": "small_cap_gainers",
+    "MEI": "small_cap_gainers",
+    "GCL": "small_cap_gainers",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks"
   }
 }
