@@ -29,18 +29,11 @@
     "ACVA",
     "COUR",
     "GENI",
-    "OCGN",
     "JBLU",
     "BBAI",
     "IREN",
     "ULCC",
     "SWKS",
-    "QRVO",
-    "EGHT",
-    "IQMXW",
-    "JILL",
-    "PBR",
-    "MNDY",
     "EXPE",
     "NEXT",
     "ADV",
@@ -266,24 +259,22 @@
     "CINT",
     "BETA",
     "NPWR",
-    "INSG"
+    "INSG",
+    "SIMO",
+    "HTFL",
+    "ALXO",
+    "CCM",
+    "AHT-PG",
+    "PNAQ-UN",
+    "HTZ"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "AMBA": {
-      "start_bar": "2026-09-11T12:05:00-04:00"
+    "COUR": {
+      "start_bar": "2026-09-11T12:20:00-04:00"
     },
-    "AUR": {
-      "start_bar": "2026-09-11T12:05:00-04:00"
-    },
-    "RIVN": {
-      "start_bar": "2026-09-11T12:05:00-04:00"
-    },
-    "GLXY": {
-      "start_bar": "2026-09-11T12:05:00-04:00"
-    },
-    "ONDS": {
-      "start_bar": "2026-09-11T12:05:00-04:00"
+    "SOS": {
+      "start_bar": "2026-09-11T12:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -302,18 +293,11 @@
     "ACVA": "small_cap_gainers",
     "COUR": "aggressive_small_caps",
     "GENI": "aggressive_small_caps",
-    "OCGN": "most_shorted_stocks",
     "JBLU": "aggressive_small_caps",
     "BBAI": "most_shorted_stocks",
     "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
-    "QRVO": "day_gainers",
-    "EGHT": "small_cap_gainers",
-    "IQMXW": "small_cap_gainers",
-    "JILL": "small_cap_gainers",
-    "PBR": "most_actives",
-    "MNDY": "day_gainers",
     "EXPE": "day_gainers",
     "NEXT": "day_gainers",
     "ADV": "small_cap_gainers",
@@ -381,7 +365,7 @@
     "NVT": "day_gainers",
     "RXT": "small_cap_gainers",
     "BW": "small_cap_gainers",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
@@ -414,7 +398,7 @@
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
-    "SMCI": "most_actives+day_gainers",
+    "SMCI": "most_actives",
     "PHVS": "day_gainers",
     "AEHR": "day_gainers",
     "SPSC": "day_gainers",
@@ -534,6 +518,13 @@
     "CINT": "small_cap_gainers",
     "BETA": "day_gainers",
     "NPWR": "small_cap_gainers",
-    "INSG": "small_cap_gainers"
+    "INSG": "small_cap_gainers",
+    "SIMO": "day_gainers",
+    "HTFL": "day_gainers",
+    "ALXO": "small_cap_gainers",
+    "CCM": "small_cap_gainers",
+    "AHT-PG": "small_cap_gainers",
+    "PNAQ-UN": "small_cap_gainers",
+    "HTZ": "most_shorted_stocks"
   }
 }
