@@ -36,19 +36,7 @@
     "JBLU",
     "HTZ",
     "BBAI",
-    "AI",
     "IREN",
-    "DUOL",
-    "XP",
-    "CE",
-    "BAH",
-    "VSAT",
-    "RDNT",
-    "INTR",
-    "PAGS",
-    "VEON",
-    "STNE",
-    "APP",
     "LFST",
     "KTOS",
     "COLD",
@@ -266,18 +254,36 @@
     "GLOO",
     "SILC",
     "TROX",
-    "JACK"
+    "JACK",
+    "JOBY",
+    "VSH",
+    "IOND",
+    "SG",
+    "PLTK",
+    "VPG",
+    "BBBYW",
+    "ASPSZ",
+    "JELD",
+    "TYRA",
+    "VNET",
+    "RXRX"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "HTZ": {
-      "start_bar": "2026-09-11T10:35:00-04:00"
-    },
     "GDDY": {
       "start_bar": "2026-09-11T10:35:00-04:00"
     },
-    "NEXT": {
-      "start_bar": "2026-09-11T10:35:00-04:00"
+    "LDI": {
+      "start_bar": "2026-09-11T10:45:00-04:00"
+    },
+    "FOA": {
+      "start_bar": "2026-09-11T10:45:00-04:00"
+    },
+    "MYGN": {
+      "start_bar": "2026-09-11T10:45:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-09-11T10:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -303,19 +309,7 @@
     "JBLU": "aggressive_small_caps",
     "HTZ": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
-    "AI": "most_shorted_stocks",
     "IREN": "most_actives",
-    "DUOL": "day_gainers",
-    "XP": "day_gainers",
-    "CE": "day_gainers",
-    "BAH": "day_gainers",
-    "VSAT": "day_gainers",
-    "RDNT": "day_gainers",
-    "INTR": "day_gainers",
-    "PAGS": "day_gainers",
-    "VEON": "day_gainers",
-    "STNE": "day_gainers",
-    "APP": "day_gainers",
     "LFST": "day_gainers",
     "KTOS": "day_gainers",
     "COLD": "day_gainers",
@@ -410,7 +404,7 @@
     "SMTC": "day_gainers",
     "URBN": "day_gainers",
     "FLEX": "day_gainers",
-    "MARA": "most_actives+day_gainers+most_shorted_stocks",
+    "MARA": "most_actives+most_shorted_stocks",
     "AUR": "day_gainers",
     "VIAV": "day_gainers",
     "CECO": "day_gainers",
@@ -420,7 +414,7 @@
     "NVT": "day_gainers",
     "RXT": "small_cap_gainers",
     "BW": "small_cap_gainers",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
@@ -528,6 +522,18 @@
     "GLOO": "small_cap_gainers",
     "SILC": "small_cap_gainers",
     "TROX": "aggressive_small_caps",
-    "JACK": "most_shorted_stocks"
+    "JACK": "most_shorted_stocks",
+    "JOBY": "most_actives",
+    "VSH": "day_gainers",
+    "IOND": "day_gainers",
+    "SG": "small_cap_gainers",
+    "PLTK": "small_cap_gainers",
+    "VPG": "small_cap_gainers",
+    "BBBYW": "small_cap_gainers",
+    "ASPSZ": "small_cap_gainers",
+    "JELD": "aggressive_small_caps",
+    "TYRA": "aggressive_small_caps",
+    "VNET": "aggressive_small_caps",
+    "RXRX": "most_shorted_stocks"
   }
 }
