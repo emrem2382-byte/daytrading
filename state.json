@@ -40,11 +40,8 @@
     "NOK",
     "BMNR",
     "DELL",
-    "SEI",
-    "IBRX",
     "MXL",
     "HIMX",
-    "SMTC",
     "FLEX",
     "MARA",
     "AUR",
@@ -266,21 +263,30 @@
     "ANGX",
     "SWKS",
     "CANG",
-    "KURA"
+    "KURA",
+    "BBWI",
+    "AAON",
+    "OPENW"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
     "OPTU": {
       "start_bar": "2026-09-11T14:45:00-04:00"
     },
-    "SOS": {
-      "start_bar": "2026-09-11T14:40:00-04:00"
-    },
-    "IOND": {
-      "start_bar": "2026-09-11T14:50:00-04:00"
-    },
     "JELD": {
       "start_bar": "2026-09-11T14:50:00-04:00"
+    },
+    "UAMY": {
+      "start_bar": "2026-09-11T15:00:00-04:00"
+    },
+    "MYGN": {
+      "start_bar": "2026-09-11T14:55:00-04:00"
+    },
+    "AVEX": {
+      "start_bar": "2026-09-11T15:00:00-04:00"
+    },
+    "GNK": {
+      "start_bar": "2026-09-11T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -310,11 +316,8 @@
     "NOK": "most_actives",
     "BMNR": "most_actives",
     "DELL": "day_gainers",
-    "SEI": "day_gainers",
-    "IBRX": "day_gainers",
     "MXL": "day_gainers",
     "HIMX": "day_gainers",
-    "SMTC": "day_gainers",
     "FLEX": "day_gainers",
     "MARA": "most_actives+most_shorted_stocks",
     "AUR": "day_gainers",
@@ -531,6 +534,9 @@
     "ANGX": "aggressive_small_caps",
     "SWKS": "day_gainers",
     "CANG": "small_cap_gainers",
-    "KURA": "aggressive_small_caps"
+    "KURA": "aggressive_small_caps",
+    "BBWI": "day_gainers",
+    "AAON": "day_gainers",
+    "OPENW": "small_cap_gainers"
   }
 }
