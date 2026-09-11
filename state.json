@@ -38,9 +38,6 @@
     "ANGX",
     "CRMT",
     "EBS",
-    "UXIN",
-    "DFSC",
-    "TGS",
     "SPTX",
     "OI",
     "CACI",
@@ -266,29 +263,20 @@
     "HPP",
     "AOSL",
     "CMCO",
-    "TASK"
+    "TASK",
+    "VOYG",
+    "SITM",
+    "HLLY"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "WOLF": {
-      "start_bar": "2026-09-11T13:10:00-04:00"
-    },
-    "BRSL": {
-      "start_bar": "2026-09-11T13:10:00-04:00"
-    },
     "EBS": {
       "start_bar": "2026-09-11T13:20:00-04:00"
     },
     "HYMC": {
       "start_bar": "2026-09-11T13:25:00-04:00"
     },
-    "CECO": {
-      "start_bar": "2026-09-11T13:20:00-04:00"
-    },
     "QUBT": {
-      "start_bar": "2026-09-11T13:25:00-04:00"
-    },
-    "EPRX": {
       "start_bar": "2026-09-11T13:25:00-04:00"
     },
     "PLCE": {
@@ -296,6 +284,18 @@
     },
     "AVEX": {
       "start_bar": "2026-09-11T13:25:00-04:00"
+    },
+    "ORCL": {
+      "start_bar": "2026-09-11T13:35:00-04:00"
+    },
+    "UAMY": {
+      "start_bar": "2026-09-11T13:35:00-04:00"
+    },
+    "KEEL": {
+      "start_bar": "2026-09-11T13:35:00-04:00"
+    },
+    "AI": {
+      "start_bar": "2026-09-11T13:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -323,9 +323,6 @@
     "ANGX": "aggressive_small_caps",
     "CRMT": "small_cap_gainers",
     "EBS": "small_cap_gainers",
-    "UXIN": "small_cap_gainers",
-    "DFSC": "most_shorted_stocks",
-    "TGS": "day_gainers",
     "SPTX": "small_cap_gainers",
     "OI": "aggressive_small_caps",
     "CACI": "day_gainers",
@@ -546,6 +543,9 @@
     "HPP": "small_cap_gainers",
     "AOSL": "small_cap_gainers",
     "CMCO": "small_cap_gainers",
-    "TASK": "small_cap_gainers"
+    "TASK": "small_cap_gainers",
+    "VOYG": "day_gainers",
+    "SITM": "day_gainers",
+    "HLLY": "small_cap_gainers"
   }
 }
