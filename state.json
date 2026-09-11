@@ -2,15 +2,18 @@
   "premarket_watchlist": [
     "CRMT",
     "IHRT",
+    "RDNT",
     "MAAS",
-    "BAK",
     "VIST",
-    "CHTR",
     "KOS",
-    "FUBO",
+    "CHTR",
+    "BAK",
     "JBLU",
-    "MYGN",
-    "SPCX"
+    "SNAP",
+    "VEON",
+    "FUBO",
+    "INDI",
+    "MYGN"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
