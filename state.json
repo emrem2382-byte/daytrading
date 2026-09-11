@@ -44,12 +44,7 @@
     "HIMX",
     "FLEX",
     "MARA",
-    "CECO",
-    "MRVL",
-    "AXTI",
     "CIFR",
-    "NVT",
-    "RXT",
     "BW",
     "WOLF",
     "ATEC",
@@ -266,15 +261,32 @@
     "AAON",
     "OPENW",
     "WF",
-    "OPK"
+    "OPK",
+    "AUR",
+    "SII",
+    "LGN",
+    "ENOV",
+    "GOLD"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
     "NAT": {
       "start_bar": "2026-09-11T15:15:00-04:00"
     },
-    "LFTO": {
-      "start_bar": "2026-09-11T15:10:00-04:00"
+    "GENI": {
+      "start_bar": "2026-09-11T15:25:00-04:00"
+    },
+    "TEN": {
+      "start_bar": "2026-09-11T15:25:00-04:00"
+    },
+    "FPS": {
+      "start_bar": "2026-09-11T15:25:00-04:00"
+    },
+    "GLOO": {
+      "start_bar": "2026-09-11T15:25:00-04:00"
+    },
+    "GOLD": {
+      "start_bar": "2026-09-11T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -308,12 +320,7 @@
     "HIMX": "day_gainers",
     "FLEX": "day_gainers",
     "MARA": "most_actives+most_shorted_stocks",
-    "CECO": "day_gainers",
-    "MRVL": "day_gainers",
-    "AXTI": "day_gainers",
     "CIFR": "most_actives+day_gainers",
-    "NVT": "day_gainers",
-    "RXT": "small_cap_gainers",
     "BW": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "ATEC": "small_cap_gainers",
@@ -525,6 +532,11 @@
     "AAON": "day_gainers",
     "OPENW": "small_cap_gainers",
     "WF": "day_gainers",
-    "OPK": "small_cap_gainers"
+    "OPK": "small_cap_gainers",
+    "AUR": "most_actives",
+    "SII": "day_gainers",
+    "LGN": "day_gainers",
+    "ENOV": "small_cap_gainers",
+    "GOLD": "small_cap_gainers"
   }
 }
