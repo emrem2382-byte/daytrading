@@ -38,10 +38,7 @@
     "ANGX",
     "CRMT",
     "EBS",
-    "SPTX",
     "OI",
-    "CACI",
-    "RVLV",
     "ORCL",
     "INTC",
     "NVDA",
@@ -266,36 +263,27 @@
     "TASK",
     "VOYG",
     "SITM",
-    "HLLY"
+    "HLLY",
+    "LUMN",
+    "UEIC",
+    "AHT-PD"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "EBS": {
-      "start_bar": "2026-09-11T13:20:00-04:00"
-    },
-    "HYMC": {
-      "start_bar": "2026-09-11T13:25:00-04:00"
-    },
-    "QUBT": {
-      "start_bar": "2026-09-11T13:25:00-04:00"
-    },
-    "PLCE": {
-      "start_bar": "2026-09-11T13:20:00-04:00"
-    },
-    "AVEX": {
-      "start_bar": "2026-09-11T13:25:00-04:00"
-    },
     "ORCL": {
       "start_bar": "2026-09-11T13:35:00-04:00"
     },
     "UAMY": {
       "start_bar": "2026-09-11T13:35:00-04:00"
     },
-    "KEEL": {
-      "start_bar": "2026-09-11T13:35:00-04:00"
-    },
     "AI": {
       "start_bar": "2026-09-11T13:35:00-04:00"
+    },
+    "ANET": {
+      "start_bar": "2026-09-11T13:45:00-04:00"
+    },
+    "GLOO": {
+      "start_bar": "2026-09-11T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -323,10 +311,7 @@
     "ANGX": "aggressive_small_caps",
     "CRMT": "small_cap_gainers",
     "EBS": "small_cap_gainers",
-    "SPTX": "small_cap_gainers",
     "OI": "aggressive_small_caps",
-    "CACI": "day_gainers",
-    "RVLV": "small_cap_gainers",
     "ORCL": "most_actives",
     "INTC": "most_actives",
     "NVDA": "most_actives",
@@ -392,7 +377,7 @@
     "CCCC": "most_shorted_stocks",
     "CLSK": "day_gainers+most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
-    "NVAX": "small_cap_gainers+most_shorted_stocks",
+    "NVAX": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
@@ -546,6 +531,9 @@
     "TASK": "small_cap_gainers",
     "VOYG": "day_gainers",
     "SITM": "day_gainers",
-    "HLLY": "small_cap_gainers"
+    "HLLY": "small_cap_gainers",
+    "LUMN": "day_gainers",
+    "UEIC": "small_cap_gainers",
+    "AHT-PD": "small_cap_gainers"
   }
 }
