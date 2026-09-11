@@ -34,8 +34,6 @@
     "IREN",
     "ULCC",
     "SWKS",
-    "EXPE",
-    "NEXT",
     "ADV",
     "AHT-PH",
     "SHAZ",
@@ -266,17 +264,12 @@
     "CCM",
     "AHT-PG",
     "PNAQ-UN",
-    "HTZ"
+    "HTZ",
+    "QRVO",
+    "ON"
   ],
   "tracked_day": "2026-09-11",
-  "pending_bull": {
-    "COUR": {
-      "start_bar": "2026-09-11T12:20:00-04:00"
-    },
-    "SOS": {
-      "start_bar": "2026-09-11T12:00:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "KOS": "aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
@@ -298,8 +291,6 @@
     "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
-    "EXPE": "day_gainers",
-    "NEXT": "day_gainers",
     "ADV": "small_cap_gainers",
     "AHT-PH": "small_cap_gainers",
     "SHAZ": "day_gainers",
@@ -525,6 +516,8 @@
     "CCM": "small_cap_gainers",
     "AHT-PG": "small_cap_gainers",
     "PNAQ-UN": "small_cap_gainers",
-    "HTZ": "most_shorted_stocks"
+    "HTZ": "most_shorted_stocks",
+    "QRVO": "day_gainers",
+    "ON": "day_gainers"
   }
 }
