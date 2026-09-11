@@ -35,8 +35,6 @@
     "ULCC",
     "SWKS",
     "SITM",
-    "CRUS",
-    "TTWO",
     "OLMA",
     "VISN",
     "NOG",
@@ -266,15 +264,26 @@
     "ABEV",
     "SYNA",
     "DFH",
-    "CLBK"
+    "CLBK",
+    "XRXDW",
+    "GNK"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "TTWO": {
-      "start_bar": "2026-09-11T12:45:00-04:00"
-    },
     "OPEN": {
       "start_bar": "2026-09-11T12:45:00-04:00"
+    },
+    "IREN": {
+      "start_bar": "2026-09-11T12:55:00-04:00"
+    },
+    "CDNL": {
+      "start_bar": "2026-09-11T12:55:00-04:00"
+    },
+    "DFNS": {
+      "start_bar": "2026-09-11T12:55:00-04:00"
+    },
+    "NVTS": {
+      "start_bar": "2026-09-11T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -299,8 +308,6 @@
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
     "SITM": "day_gainers",
-    "CRUS": "day_gainers",
-    "TTWO": "day_gainers",
     "OLMA": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "NOG": "day_gainers",
@@ -327,7 +334,7 @@
     "NVDA": "most_actives",
     "ATAI": "most_actives",
     "NOK": "most_actives",
-    "BMNR": "most_actives+day_gainers",
+    "BMNR": "most_actives",
     "DELL": "day_gainers",
     "SEI": "day_gainers",
     "BE": "day_gainers",
@@ -358,7 +365,7 @@
     "NVT": "day_gainers",
     "RXT": "small_cap_gainers",
     "BW": "small_cap_gainers",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
@@ -387,7 +394,7 @@
     "CCCC": "most_shorted_stocks",
     "CLSK": "day_gainers+most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
-    "NVAX": "small_cap_gainers+most_shorted_stocks",
+    "NVAX": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
@@ -525,6 +532,8 @@
     "ABEV": "most_actives",
     "SYNA": "day_gainers",
     "DFH": "small_cap_gainers",
-    "CLBK": "aggressive_small_caps"
+    "CLBK": "aggressive_small_caps",
+    "XRXDW": "small_cap_gainers",
+    "GNK": "aggressive_small_caps"
   }
 }
