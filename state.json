@@ -36,9 +36,6 @@
     "ULCC",
     "SWKS",
     "QRVO",
-    "PI",
-    "LDI",
-    "WTI",
     "EGHT",
     "IQMXW",
     "JILL",
@@ -266,24 +263,27 @@
     "LOT",
     "SCSC",
     "SEAT",
-    "CINT"
+    "CINT",
+    "BETA",
+    "NPWR",
+    "INSG"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "CRI": {
-      "start_bar": "2026-09-11T11:40:00-04:00"
+    "AMBA": {
+      "start_bar": "2026-09-11T12:05:00-04:00"
     },
-    "WTI": {
-      "start_bar": "2026-09-11T11:50:00-04:00"
+    "AUR": {
+      "start_bar": "2026-09-11T12:05:00-04:00"
     },
-    "SOS": {
-      "start_bar": "2026-09-11T11:45:00-04:00"
+    "RIVN": {
+      "start_bar": "2026-09-11T12:05:00-04:00"
     },
-    "LYNX": {
-      "start_bar": "2026-09-11T11:50:00-04:00"
+    "GLXY": {
+      "start_bar": "2026-09-11T12:05:00-04:00"
     },
-    "RXRX": {
-      "start_bar": "2026-09-11T11:55:00-04:00"
+    "ONDS": {
+      "start_bar": "2026-09-11T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -309,9 +309,6 @@
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
     "QRVO": "day_gainers",
-    "PI": "day_gainers",
-    "LDI": "small_cap_gainers",
-    "WTI": "small_cap_gainers",
     "EGHT": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
     "JILL": "small_cap_gainers",
@@ -505,7 +502,7 @@
     "TYRA": "aggressive_small_caps",
     "VNET": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
-    "ONDS": "most_shorted_stocks",
+    "ONDS": "most_actives+most_shorted_stocks",
     "LFTO": "day_gainers",
     "EQPT": "day_gainers",
     "CCOI": "small_cap_gainers",
@@ -534,6 +531,9 @@
     "LOT": "small_cap_gainers",
     "SCSC": "small_cap_gainers",
     "SEAT": "small_cap_gainers",
-    "CINT": "small_cap_gainers"
+    "CINT": "small_cap_gainers",
+    "BETA": "day_gainers",
+    "NPWR": "small_cap_gainers",
+    "INSG": "small_cap_gainers"
   }
 }
