@@ -21,7 +21,6 @@
     "EVGO",
     "HPQ",
     "BAND",
-    "SOUN",
     "HPE",
     "AAPL",
     "ACVA",
@@ -34,7 +33,6 @@
     "VISN",
     "CRMT",
     "EBS",
-    "OI",
     "INTC",
     "NVDA",
     "NOK",
@@ -266,27 +264,23 @@
     "SII",
     "LGN",
     "ENOV",
-    "GOLD"
+    "GOLD",
+    "PATH",
+    "M"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "NAT": {
-      "start_bar": "2026-09-11T15:15:00-04:00"
-    },
-    "GENI": {
-      "start_bar": "2026-09-11T15:25:00-04:00"
-    },
     "TEN": {
-      "start_bar": "2026-09-11T15:25:00-04:00"
-    },
-    "FPS": {
       "start_bar": "2026-09-11T15:25:00-04:00"
     },
     "GLOO": {
       "start_bar": "2026-09-11T15:25:00-04:00"
     },
-    "GOLD": {
+    "VACI": {
       "start_bar": "2026-09-11T15:25:00-04:00"
+    },
+    "VYX": {
+      "start_bar": "2026-09-11T15:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -297,7 +291,6 @@
     "HPQ": "day_gainers",
     "BAK": "small_cap_gainers",
     "BAND": "small_cap_gainers",
-    "SOUN": "most_shorted_stocks",
     "HPE": "most_actives+day_gainers",
     "AAPL": "most_actives",
     "ACVA": "small_cap_gainers",
@@ -310,7 +303,6 @@
     "VISN": "aggressive_small_caps",
     "CRMT": "small_cap_gainers",
     "EBS": "small_cap_gainers",
-    "OI": "aggressive_small_caps",
     "INTC": "most_actives",
     "NVDA": "most_actives",
     "NOK": "most_actives",
@@ -537,6 +529,8 @@
     "SII": "day_gainers",
     "LGN": "day_gainers",
     "ENOV": "small_cap_gainers",
-    "GOLD": "small_cap_gainers"
+    "GOLD": "small_cap_gainers",
+    "PATH": "most_actives",
+    "M": "day_gainers"
   }
 }
