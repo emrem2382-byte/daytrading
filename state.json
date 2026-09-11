@@ -47,11 +47,6 @@
     "ATEC",
     "EROC",
     "CRSR",
-    "CDNL",
-    "SVCO",
-    "AARD",
-    "FLX",
-    "CNL",
     "MGX",
     "FOA",
     "WBX",
@@ -266,18 +261,29 @@
     "PATH",
     "M",
     "ALKT",
-    "MSC"
+    "MSC",
+    "KHC",
+    "IREN",
+    "TLYS",
+    "KE",
+    "OCGN"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "VYX": {
-      "start_bar": "2026-09-11T15:35:00-04:00"
-    },
     "IESC": {
       "start_bar": "2026-09-11T15:45:00-04:00"
     },
-    "NPWR": {
-      "start_bar": "2026-09-11T15:45:00-04:00"
+    "CRSR": {
+      "start_bar": "2026-09-11T15:55:00-04:00"
+    },
+    "HOOD": {
+      "start_bar": "2026-09-11T15:55:00-04:00"
+    },
+    "REF": {
+      "start_bar": "2026-09-11T15:55:00-04:00"
+    },
+    "MWH": {
+      "start_bar": "2026-09-11T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -314,11 +320,6 @@
     "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
-    "CDNL": "small_cap_gainers",
-    "SVCO": "small_cap_gainers",
-    "AARD": "small_cap_gainers",
-    "FLX": "small_cap_gainers",
-    "CNL": "small_cap_gainers",
     "MGX": "small_cap_gainers",
     "FOA": "small_cap_gainers",
     "WBX": "small_cap_gainers",
@@ -528,6 +529,11 @@
     "PATH": "most_actives",
     "M": "day_gainers",
     "ALKT": "day_gainers",
-    "MSC": "small_cap_gainers"
+    "MSC": "small_cap_gainers",
+    "KHC": "most_actives",
+    "IREN": "most_actives",
+    "TLYS": "small_cap_gainers",
+    "KE": "small_cap_gainers",
+    "OCGN": "most_shorted_stocks"
   }
 }
