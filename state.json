@@ -31,7 +31,6 @@
     "BBAI",
     "IREN",
     "ULCC",
-    "SWKS",
     "VISN",
     "CRMT",
     "EBS",
@@ -43,12 +42,7 @@
     "DELL",
     "SEI",
     "IBRX",
-    "WF",
-    "LGN",
-    "HYMC",
     "MXL",
-    "VFC",
-    "PBF",
     "WRBY",
     "DNTH",
     "HIMX",
@@ -266,29 +260,16 @@
     "CMTL",
     "BDC",
     "RVII",
-    "NTGR"
+    "NTGR",
+    "CHRN",
+    "IOVA",
+    "CPRI",
+    "ALTG",
+    "WPRT",
+    "ANGX"
   ],
   "tracked_day": "2026-09-11",
-  "pending_bull": {
-    "DNTH": {
-      "start_bar": "2026-09-11T14:05:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-09-11T14:25:00-04:00"
-    },
-    "KOS": {
-      "start_bar": "2026-09-11T14:25:00-04:00"
-    },
-    "MRNA": {
-      "start_bar": "2026-09-11T14:25:00-04:00"
-    },
-    "JILL": {
-      "start_bar": "2026-09-11T14:20:00-04:00"
-    },
-    "RVII": {
-      "start_bar": "2026-09-11T14:20:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "KOS": "aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
@@ -307,7 +288,6 @@
     "BBAI": "most_shorted_stocks",
     "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
-    "SWKS": "day_gainers",
     "VISN": "aggressive_small_caps",
     "CRMT": "small_cap_gainers",
     "EBS": "small_cap_gainers",
@@ -319,12 +299,7 @@
     "DELL": "day_gainers",
     "SEI": "day_gainers",
     "IBRX": "day_gainers",
-    "WF": "day_gainers",
-    "LGN": "day_gainers",
-    "HYMC": "day_gainers",
     "MXL": "day_gainers",
-    "VFC": "day_gainers",
-    "PBF": "day_gainers",
     "WRBY": "day_gainers",
     "DNTH": "day_gainers",
     "HIMX": "day_gainers",
@@ -537,6 +512,12 @@
     "CMTL": "small_cap_gainers",
     "BDC": "day_gainers",
     "RVII": "small_cap_gainers",
-    "NTGR": "small_cap_gainers"
+    "NTGR": "small_cap_gainers",
+    "CHRN": "day_gainers",
+    "IOVA": "day_gainers",
+    "CPRI": "small_cap_gainers",
+    "ALTG": "small_cap_gainers",
+    "WPRT": "small_cap_gainers",
+    "ANGX": "aggressive_small_caps"
   }
 }
