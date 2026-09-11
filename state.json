@@ -22,7 +22,6 @@
     "HPQ",
     "BAND",
     "GOLD",
-    "PURR",
     "SOUN",
     "HPE",
     "AAPL",
@@ -39,15 +38,12 @@
     "CRMT",
     "EBS",
     "OI",
-    "ORCL",
     "INTC",
     "NVDA",
-    "ATAI",
     "NOK",
     "BMNR",
     "DELL",
     "SEI",
-    "BE",
     "IBRX",
     "BBWI",
     "AXSM",
@@ -266,24 +262,34 @@
     "HLLY",
     "LUMN",
     "UEIC",
-    "AHT-PD"
+    "AHT-PD",
+    "INSP",
+    "EXTR",
+    "SOC",
+    "LOCL"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "ORCL": {
-      "start_bar": "2026-09-11T13:35:00-04:00"
-    },
-    "UAMY": {
-      "start_bar": "2026-09-11T13:35:00-04:00"
-    },
-    "AI": {
-      "start_bar": "2026-09-11T13:35:00-04:00"
-    },
-    "ANET": {
-      "start_bar": "2026-09-11T13:45:00-04:00"
-    },
     "GLOO": {
       "start_bar": "2026-09-11T13:45:00-04:00"
+    },
+    "SMCI": {
+      "start_bar": "2026-09-11T13:50:00-04:00"
+    },
+    "PHVS": {
+      "start_bar": "2026-09-11T13:50:00-04:00"
+    },
+    "FIX": {
+      "start_bar": "2026-09-11T13:50:00-04:00"
+    },
+    "LYNX": {
+      "start_bar": "2026-09-11T13:45:00-04:00"
+    },
+    "ARW": {
+      "start_bar": "2026-09-11T13:50:00-04:00"
+    },
+    "GNK": {
+      "start_bar": "2026-09-11T13:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -291,11 +297,10 @@
     "SNAP": "most_actives+day_gainers",
     "NAT": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
-    "HPQ": "most_actives+day_gainers",
+    "HPQ": "day_gainers",
     "BAK": "small_cap_gainers",
     "BAND": "small_cap_gainers",
     "GOLD": "small_cap_gainers",
-    "PURR": "day_gainers",
     "SOUN": "most_shorted_stocks",
     "HPE": "most_actives+day_gainers",
     "AAPL": "most_actives",
@@ -312,15 +317,12 @@
     "CRMT": "small_cap_gainers",
     "EBS": "small_cap_gainers",
     "OI": "aggressive_small_caps",
-    "ORCL": "most_actives",
     "INTC": "most_actives",
     "NVDA": "most_actives",
-    "ATAI": "most_actives",
     "NOK": "most_actives",
     "BMNR": "most_actives",
     "DELL": "day_gainers",
     "SEI": "day_gainers",
-    "BE": "day_gainers",
     "IBRX": "day_gainers",
     "BBWI": "day_gainers",
     "AXSM": "day_gainers",
@@ -338,7 +340,7 @@
     "SMTC": "day_gainers",
     "URBN": "day_gainers",
     "FLEX": "day_gainers",
-    "MARA": "most_actives+day_gainers+most_shorted_stocks",
+    "MARA": "most_actives+most_shorted_stocks",
     "AUR": "day_gainers",
     "VIAV": "day_gainers",
     "CECO": "day_gainers",
@@ -534,6 +536,10 @@
     "HLLY": "small_cap_gainers",
     "LUMN": "day_gainers",
     "UEIC": "small_cap_gainers",
-    "AHT-PD": "small_cap_gainers"
+    "AHT-PD": "small_cap_gainers",
+    "INSP": "day_gainers",
+    "EXTR": "day_gainers",
+    "SOC": "small_cap_gainers",
+    "LOCL": "small_cap_gainers"
   }
 }
