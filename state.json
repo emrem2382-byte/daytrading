@@ -35,14 +35,7 @@
     "ULCC",
     "SWKS",
     "VISN",
-    "VVX",
     "ANGX",
-    "SAM",
-    "AHT-PD",
-    "TRMK",
-    "ICLR",
-    "TRAD-UN",
-    "BKV",
     "CRMT",
     "EBS",
     "UXIN",
@@ -266,30 +259,43 @@
     "HDB",
     "FOUR",
     "JILL",
-    "GPRO"
+    "GPRO",
+    "AADX",
+    "ADTN",
+    "EAF",
+    "HPP",
+    "AOSL",
+    "CMCO",
+    "TASK"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
     "WOLF": {
       "start_bar": "2026-09-11T13:10:00-04:00"
     },
-    "CRSR": {
-      "start_bar": "2026-09-11T13:10:00-04:00"
-    },
     "BRSL": {
       "start_bar": "2026-09-11T13:10:00-04:00"
     },
-    "AEMD": {
-      "start_bar": "2026-09-11T13:05:00-04:00"
+    "EBS": {
+      "start_bar": "2026-09-11T13:20:00-04:00"
     },
-    "NIO": {
-      "start_bar": "2026-09-11T13:10:00-04:00"
+    "HYMC": {
+      "start_bar": "2026-09-11T13:25:00-04:00"
     },
-    "AMBQ": {
-      "start_bar": "2026-09-11T13:05:00-04:00"
+    "CECO": {
+      "start_bar": "2026-09-11T13:20:00-04:00"
     },
-    "T": {
-      "start_bar": "2026-09-11T13:10:00-04:00"
+    "QUBT": {
+      "start_bar": "2026-09-11T13:25:00-04:00"
+    },
+    "EPRX": {
+      "start_bar": "2026-09-11T13:25:00-04:00"
+    },
+    "PLCE": {
+      "start_bar": "2026-09-11T13:20:00-04:00"
+    },
+    "AVEX": {
+      "start_bar": "2026-09-11T13:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -301,7 +307,7 @@
     "BAK": "small_cap_gainers",
     "BAND": "small_cap_gainers",
     "GOLD": "small_cap_gainers",
-    "PURR": "most_actives+day_gainers",
+    "PURR": "day_gainers",
     "SOUN": "most_shorted_stocks",
     "HPE": "most_actives+day_gainers",
     "AAPL": "most_actives",
@@ -314,14 +320,7 @@
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
     "VISN": "aggressive_small_caps",
-    "VVX": "day_gainers",
     "ANGX": "aggressive_small_caps",
-    "SAM": "small_cap_gainers",
-    "AHT-PD": "small_cap_gainers",
-    "TRMK": "day_gainers",
-    "ICLR": "day_gainers",
-    "TRAD-UN": "small_cap_gainers",
-    "BKV": "day_gainers",
     "CRMT": "small_cap_gainers",
     "EBS": "small_cap_gainers",
     "UXIN": "small_cap_gainers",
@@ -396,7 +395,7 @@
     "CCCC": "most_shorted_stocks",
     "CLSK": "day_gainers+most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
-    "NVAX": "most_shorted_stocks",
+    "NVAX": "small_cap_gainers+most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
@@ -540,6 +539,13 @@
     "HDB": "day_gainers",
     "FOUR": "day_gainers",
     "JILL": "small_cap_gainers",
-    "GPRO": "aggressive_small_caps"
+    "GPRO": "aggressive_small_caps",
+    "AADX": "day_gainers",
+    "ADTN": "small_cap_gainers",
+    "EAF": "small_cap_gainers",
+    "HPP": "small_cap_gainers",
+    "AOSL": "small_cap_gainers",
+    "CMCO": "small_cap_gainers",
+    "TASK": "small_cap_gainers"
   }
 }
