@@ -1,6 +1,18 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "CRMT",
+    "IHRT",
+    "MAAS",
+    "BAK",
+    "VIST",
+    "CHTR",
+    "KOS",
+    "FUBO",
+    "JBLU",
+    "MYGN",
+    "SPCX"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "ASO",
     "KOS",
