@@ -20,7 +20,6 @@
     "NAT",
     "EVGO",
     "HPQ",
-    "INSP",
     "BAND",
     "GOLD",
     "PURR",
@@ -34,12 +33,7 @@
     "JBLU",
     "BBAI",
     "IREN",
-    "XRXDW",
     "ULCC",
-    "SSL",
-    "META",
-    "NET",
-    "FSLY",
     "AKAM",
     "DOCN",
     "KVUE",
@@ -266,21 +260,27 @@
     "NRGV",
     "REAL",
     "AEHL",
-    "AI"
+    "AI",
+    "GRAB",
+    "STLA",
+    "CHPT",
+    "NKTX",
+    "DHX",
+    "GRPN"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "SOUN": {
-      "start_bar": "2026-09-11T11:15:00-04:00"
+    "IREN": {
+      "start_bar": "2026-09-11T11:30:00-04:00"
     },
-    "META": {
-      "start_bar": "2026-09-11T11:15:00-04:00"
+    "BAK": {
+      "start_bar": "2026-09-11T11:30:00-04:00"
     },
-    "SAM": {
-      "start_bar": "2026-09-11T11:10:00-04:00"
+    "AEHR": {
+      "start_bar": "2026-09-11T11:30:00-04:00"
     },
-    "KSS": {
-      "start_bar": "2026-09-11T11:15:00-04:00"
+    "JELD": {
+      "start_bar": "2026-09-11T11:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -290,7 +290,6 @@
     "EVGO": "most_shorted_stocks",
     "HPQ": "most_actives+day_gainers",
     "BAK": "small_cap_gainers",
-    "INSP": "day_gainers",
     "BAND": "small_cap_gainers",
     "GOLD": "small_cap_gainers",
     "PURR": "most_actives+day_gainers",
@@ -304,12 +303,7 @@
     "JBLU": "aggressive_small_caps",
     "BBAI": "most_shorted_stocks",
     "IREN": "most_actives",
-    "XRXDW": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
-    "SSL": "day_gainers",
-    "META": "day_gainers",
-    "NET": "day_gainers",
-    "FSLY": "day_gainers",
     "AKAM": "day_gainers",
     "DOCN": "day_gainers",
     "KVUE": "most_actives",
@@ -425,7 +419,7 @@
     "CCCC": "most_shorted_stocks",
     "CLSK": "day_gainers+most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
-    "NVAX": "most_shorted_stocks",
+    "NVAX": "small_cap_gainers+most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
@@ -531,6 +525,12 @@
     "NRGV": "small_cap_gainers",
     "REAL": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
-    "AI": "most_shorted_stocks"
+    "AI": "most_shorted_stocks",
+    "GRAB": "most_actives",
+    "STLA": "most_actives",
+    "CHPT": "small_cap_gainers",
+    "NKTX": "small_cap_gainers",
+    "DHX": "small_cap_gainers",
+    "GRPN": "most_shorted_stocks"
   }
 }

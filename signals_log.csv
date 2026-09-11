@@ -7,3 +7,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 6,KLXER,small_cap_gainers,2026-09-10 10:25:32,0.13,0.14,0.13,sl_hit,2026-09-10 10:40:48,0.13,-3.08
 7,FOUR,day_gainers,2026-09-10 13:18:12,43.03,45.18,42.17,tp_hit,2026-09-11 10:59:35,45.29,5.26
 8,MLYS,,2026-09-10 13:30:23,30.2,31.71,29.6,sl_hit,2026-09-10 14:59:38,29.51,-2.28
+9,SAM,small_cap_gainers,2026-09-11 11:30:44,171.63,180.22,168.2,open,,,
