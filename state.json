@@ -34,11 +34,7 @@
     "IREN",
     "ULCC",
     "SWKS",
-    "SITM",
-    "OLMA",
     "VISN",
-    "NOG",
-    "AMBA",
     "VVX",
     "ANGX",
     "SAM",
@@ -266,24 +262,34 @@
     "DFH",
     "CLBK",
     "XRXDW",
-    "GNK"
+    "GNK",
+    "HDB",
+    "FOUR",
+    "JILL",
+    "GPRO"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "OPEN": {
-      "start_bar": "2026-09-11T12:45:00-04:00"
+    "WOLF": {
+      "start_bar": "2026-09-11T13:10:00-04:00"
     },
-    "IREN": {
-      "start_bar": "2026-09-11T12:55:00-04:00"
+    "CRSR": {
+      "start_bar": "2026-09-11T13:10:00-04:00"
     },
-    "CDNL": {
-      "start_bar": "2026-09-11T12:55:00-04:00"
+    "BRSL": {
+      "start_bar": "2026-09-11T13:10:00-04:00"
     },
-    "DFNS": {
-      "start_bar": "2026-09-11T12:55:00-04:00"
+    "AEMD": {
+      "start_bar": "2026-09-11T13:05:00-04:00"
     },
-    "NVTS": {
-      "start_bar": "2026-09-11T12:55:00-04:00"
+    "NIO": {
+      "start_bar": "2026-09-11T13:10:00-04:00"
+    },
+    "AMBQ": {
+      "start_bar": "2026-09-11T13:05:00-04:00"
+    },
+    "T": {
+      "start_bar": "2026-09-11T13:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -307,11 +313,7 @@
     "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
-    "SITM": "day_gainers",
-    "OLMA": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
-    "NOG": "day_gainers",
-    "AMBA": "day_gainers",
     "VVX": "day_gainers",
     "ANGX": "aggressive_small_caps",
     "SAM": "small_cap_gainers",
@@ -534,6 +536,10 @@
     "DFH": "small_cap_gainers",
     "CLBK": "aggressive_small_caps",
     "XRXDW": "small_cap_gainers",
-    "GNK": "aggressive_small_caps"
+    "GNK": "aggressive_small_caps",
+    "HDB": "day_gainers",
+    "FOUR": "day_gainers",
+    "JILL": "small_cap_gainers",
+    "GPRO": "aggressive_small_caps"
   }
 }
