@@ -21,7 +21,6 @@
     "EVGO",
     "HPQ",
     "BAND",
-    "GOLD",
     "SOUN",
     "HPE",
     "AAPL",
@@ -44,9 +43,7 @@
     "DELL",
     "SEI",
     "IBRX",
-    "STRL",
     "WF",
-    "NG",
     "LGN",
     "HYMC",
     "MXL",
@@ -266,27 +263,30 @@
     "LOCL",
     "BE",
     "UCTT",
-    "CMTL"
+    "CMTL",
+    "BDC",
+    "RVII",
+    "NTGR"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "HPQ": {
-      "start_bar": "2026-09-11T14:05:00-04:00"
-    },
-    "BBAI": {
-      "start_bar": "2026-09-11T14:05:00-04:00"
-    },
-    "LGN": {
-      "start_bar": "2026-09-11T14:05:00-04:00"
-    },
     "DNTH": {
       "start_bar": "2026-09-11T14:05:00-04:00"
     },
-    "UPWK": {
-      "start_bar": "2026-09-11T14:05:00-04:00"
+    "NVDA": {
+      "start_bar": "2026-09-11T14:25:00-04:00"
     },
-    "IOND": {
-      "start_bar": "2026-09-11T14:05:00-04:00"
+    "KOS": {
+      "start_bar": "2026-09-11T14:25:00-04:00"
+    },
+    "MRNA": {
+      "start_bar": "2026-09-11T14:25:00-04:00"
+    },
+    "JILL": {
+      "start_bar": "2026-09-11T14:20:00-04:00"
+    },
+    "RVII": {
+      "start_bar": "2026-09-11T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -297,7 +297,6 @@
     "HPQ": "day_gainers",
     "BAK": "small_cap_gainers",
     "BAND": "small_cap_gainers",
-    "GOLD": "small_cap_gainers",
     "SOUN": "most_shorted_stocks",
     "HPE": "most_actives+day_gainers",
     "AAPL": "most_actives",
@@ -320,9 +319,7 @@
     "DELL": "day_gainers",
     "SEI": "day_gainers",
     "IBRX": "day_gainers",
-    "STRL": "day_gainers",
     "WF": "day_gainers",
-    "NG": "day_gainers",
     "LGN": "day_gainers",
     "HYMC": "day_gainers",
     "MXL": "day_gainers",
@@ -344,7 +341,7 @@
     "NVT": "day_gainers",
     "RXT": "small_cap_gainers",
     "BW": "small_cap_gainers",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
@@ -377,7 +374,7 @@
     "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "PHVS": "day_gainers",
     "AEHR": "day_gainers",
     "SPSC": "day_gainers",
@@ -537,6 +534,9 @@
     "LOCL": "small_cap_gainers",
     "BE": "day_gainers",
     "UCTT": "day_gainers",
-    "CMTL": "small_cap_gainers"
+    "CMTL": "small_cap_gainers",
+    "BDC": "day_gainers",
+    "RVII": "small_cap_gainers",
+    "NTGR": "small_cap_gainers"
   }
 }
