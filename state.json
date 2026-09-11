@@ -28,7 +28,6 @@
     "GENI",
     "JBLU",
     "BBAI",
-    "IREN",
     "ULCC",
     "VISN",
     "CRMT",
@@ -48,7 +47,6 @@
     "ATEC",
     "EROC",
     "CRSR",
-    "SST",
     "CDNL",
     "SVCO",
     "AARD",
@@ -266,21 +264,20 @@
     "ENOV",
     "GOLD",
     "PATH",
-    "M"
+    "M",
+    "ALKT",
+    "MSC"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "TEN": {
-      "start_bar": "2026-09-11T15:25:00-04:00"
-    },
-    "GLOO": {
-      "start_bar": "2026-09-11T15:25:00-04:00"
-    },
-    "VACI": {
-      "start_bar": "2026-09-11T15:25:00-04:00"
-    },
     "VYX": {
       "start_bar": "2026-09-11T15:35:00-04:00"
+    },
+    "IESC": {
+      "start_bar": "2026-09-11T15:45:00-04:00"
+    },
+    "NPWR": {
+      "start_bar": "2026-09-11T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -298,7 +295,6 @@
     "GENI": "aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "BBAI": "most_shorted_stocks",
-    "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
     "CRMT": "small_cap_gainers",
@@ -318,7 +314,6 @@
     "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
-    "SST": "small_cap_gainers",
     "CDNL": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
     "AARD": "small_cap_gainers",
@@ -531,6 +526,8 @@
     "ENOV": "small_cap_gainers",
     "GOLD": "small_cap_gainers",
     "PATH": "most_actives",
-    "M": "day_gainers"
+    "M": "day_gainers",
+    "ALKT": "day_gainers",
+    "MSC": "small_cap_gainers"
   }
 }
