@@ -44,8 +44,6 @@
     "HIMX",
     "FLEX",
     "MARA",
-    "AUR",
-    "VIAV",
     "CECO",
     "MRVL",
     "AXTI",
@@ -266,27 +264,17 @@
     "KURA",
     "BBWI",
     "AAON",
-    "OPENW"
+    "OPENW",
+    "WF",
+    "OPK"
   ],
   "tracked_day": "2026-09-11",
   "pending_bull": {
-    "OPTU": {
-      "start_bar": "2026-09-11T14:45:00-04:00"
+    "NAT": {
+      "start_bar": "2026-09-11T15:15:00-04:00"
     },
-    "JELD": {
-      "start_bar": "2026-09-11T14:50:00-04:00"
-    },
-    "UAMY": {
-      "start_bar": "2026-09-11T15:00:00-04:00"
-    },
-    "MYGN": {
-      "start_bar": "2026-09-11T14:55:00-04:00"
-    },
-    "AVEX": {
-      "start_bar": "2026-09-11T15:00:00-04:00"
-    },
-    "GNK": {
-      "start_bar": "2026-09-11T14:55:00-04:00"
+    "LFTO": {
+      "start_bar": "2026-09-11T15:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -320,8 +308,6 @@
     "HIMX": "day_gainers",
     "FLEX": "day_gainers",
     "MARA": "most_actives+most_shorted_stocks",
-    "AUR": "day_gainers",
-    "VIAV": "day_gainers",
     "CECO": "day_gainers",
     "MRVL": "day_gainers",
     "AXTI": "day_gainers",
@@ -537,6 +523,8 @@
     "KURA": "aggressive_small_caps",
     "BBWI": "day_gainers",
     "AAON": "day_gainers",
-    "OPENW": "small_cap_gainers"
+    "OPENW": "small_cap_gainers",
+    "WF": "day_gainers",
+    "OPK": "small_cap_gainers"
   }
 }
