@@ -1,21 +1,6 @@
 {
-  "premarket_watchlist": [
-    "CRMT",
-    "IHRT",
-    "RDNT",
-    "MAAS",
-    "VIST",
-    "KOS",
-    "CHTR",
-    "BAK",
-    "JBLU",
-    "SNAP",
-    "VEON",
-    "FUBO",
-    "INDI",
-    "MYGN"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "NAT",
     "EVGO",
