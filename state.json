@@ -34,11 +34,6 @@
     "IREN",
     "ULCC",
     "SWKS",
-    "ADV",
-    "AHT-PH",
-    "SHAZ",
-    "RVII",
-    "UBER",
     "SITM",
     "CRUS",
     "TTWO",
@@ -266,10 +261,22 @@
     "PNAQ-UN",
     "HTZ",
     "QRVO",
-    "ON"
+    "ON",
+    "KVUE",
+    "ABEV",
+    "SYNA",
+    "DFH",
+    "CLBK"
   ],
   "tracked_day": "2026-09-11",
-  "pending_bull": {},
+  "pending_bull": {
+    "TTWO": {
+      "start_bar": "2026-09-11T12:45:00-04:00"
+    },
+    "OPEN": {
+      "start_bar": "2026-09-11T12:45:00-04:00"
+    }
+  },
   "ticker_sources": {
     "KOS": "aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
@@ -291,11 +298,6 @@
     "IREN": "most_actives",
     "ULCC": "aggressive_small_caps",
     "SWKS": "day_gainers",
-    "ADV": "small_cap_gainers",
-    "AHT-PH": "small_cap_gainers",
-    "SHAZ": "day_gainers",
-    "RVII": "small_cap_gainers",
-    "UBER": "most_actives",
     "SITM": "day_gainers",
     "CRUS": "day_gainers",
     "TTWO": "day_gainers",
@@ -325,7 +327,7 @@
     "NVDA": "most_actives",
     "ATAI": "most_actives",
     "NOK": "most_actives",
-    "BMNR": "most_actives",
+    "BMNR": "most_actives+day_gainers",
     "DELL": "day_gainers",
     "SEI": "day_gainers",
     "BE": "day_gainers",
@@ -518,6 +520,11 @@
     "PNAQ-UN": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
     "QRVO": "day_gainers",
-    "ON": "day_gainers"
+    "ON": "day_gainers",
+    "KVUE": "most_actives",
+    "ABEV": "most_actives",
+    "SYNA": "day_gainers",
+    "DFH": "small_cap_gainers",
+    "CLBK": "aggressive_small_caps"
   }
 }
