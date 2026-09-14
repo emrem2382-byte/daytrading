@@ -23,11 +23,6 @@
     "BLSH",
     "COIN",
     "GLOO",
-    "IOND",
-    "SG",
-    "PLTK",
-    "VPG",
-    "BBBYW",
     "ASPSZ",
     "JELD",
     "TYRA",
@@ -267,12 +262,20 @@
     "BALY",
     "VACI-UN",
     "VSECU",
-    "BBAI"
+    "BBAI",
+    "AVAV",
+    "TYL",
+    "PRGS",
+    "AARD",
+    "RDWR"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "BETA": {
-      "start_bar": "2026-09-14T10:30:00-04:00"
+    "LFTO": {
+      "start_bar": "2026-09-14T10:45:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-14T10:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -289,11 +292,6 @@
     "BLSH": "day_gainers",
     "COIN": "day_gainers",
     "GLOO": "small_cap_gainers",
-    "IOND": "day_gainers",
-    "SG": "small_cap_gainers",
-    "PLTK": "small_cap_gainers",
-    "VPG": "small_cap_gainers",
-    "BBBYW": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
     "JELD": "aggressive_small_caps",
     "TYRA": "small_cap_gainers",
@@ -525,6 +523,11 @@
     "BALY": "small_cap_gainers",
     "VACI-UN": "small_cap_gainers",
     "VSECU": "small_cap_gainers",
-    "BBAI": "most_shorted_stocks"
+    "BBAI": "most_shorted_stocks",
+    "AVAV": "day_gainers",
+    "TYL": "day_gainers",
+    "PRGS": "small_cap_gainers",
+    "AARD": "small_cap_gainers",
+    "RDWR": "small_cap_gainers"
   }
 }
