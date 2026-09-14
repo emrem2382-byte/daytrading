@@ -28,9 +28,6 @@
     "GRPN",
     "CAPR",
     "KVUE",
-    "LOCL",
-    "BE",
-    "UCTT",
     "CMTL",
     "BDC",
     "RVII",
@@ -267,14 +264,13 @@
     "SOFI",
     "GRDN",
     "PACB",
-    "EXFY"
+    "EXFY",
+    "TTAN",
+    "CLOV",
+    "XXI"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {
-    "OPENZ": {
-      "start_bar": "2026-09-14T13:50:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -294,9 +290,6 @@
     "GRPN": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "LOCL": "small_cap_gainers",
-    "BE": "day_gainers",
-    "UCTT": "day_gainers",
     "CMTL": "small_cap_gainers",
     "BDC": "day_gainers",
     "RVII": "small_cap_gainers",
@@ -525,6 +518,9 @@
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
     "PACB": "small_cap_gainers",
-    "EXFY": "small_cap_gainers"
+    "EXFY": "small_cap_gainers",
+    "TTAN": "day_gainers",
+    "CLOV": "day_gainers",
+    "XXI": "small_cap_gainers"
   }
 }
