@@ -30,7 +30,6 @@
     "KVUE",
     "CLBK",
     "GPRO",
-    "UEIC",
     "AHT-PD",
     "INSP",
     "EXTR",
@@ -267,13 +266,11 @@
     "LAC",
     "KSS",
     "ULCC",
-    "JACK"
+    "JACK",
+    "GSHD"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "AEMD": {
-      "start_bar": "2026-09-14T11:55:00-04:00"
-    },
     "NTGR": {
       "start_bar": "2026-09-14T12:45:00-04:00"
     },
@@ -288,6 +285,9 @@
     },
     "CHKP": {
       "start_bar": "2026-09-14T12:45:00-04:00"
+    },
+    "GLOO": {
+      "start_bar": "2026-09-14T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -311,7 +311,6 @@
     "KVUE": "most_actives",
     "CLBK": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "UEIC": "small_cap_gainers",
     "AHT-PD": "small_cap_gainers",
     "INSP": "day_gainers",
     "EXTR": "day_gainers",
@@ -540,6 +539,7 @@
     "LAC": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
-    "JACK": "most_shorted_stocks"
+    "JACK": "most_shorted_stocks",
+    "GSHD": "small_cap_gainers"
   }
 }
