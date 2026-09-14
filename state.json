@@ -24,8 +24,6 @@
     "AI",
     "CAPR",
     "KVUE",
-    "ANGX",
-    "SWKS",
     "CANG",
     "KURA",
     "BBWI",
@@ -267,24 +265,20 @@
     "CRCL",
     "TWST",
     "FOSL",
-    "RGP"
+    "RGP",
+    "IOVA",
+    "CERT"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "NICE": {
-      "start_bar": "2026-09-14T15:25:00-04:00"
+    "ALKT": {
+      "start_bar": "2026-09-14T15:40:00-04:00"
     },
-    "VIA": {
-      "start_bar": "2026-09-14T15:25:00-04:00"
+    "QLYS": {
+      "start_bar": "2026-09-14T15:40:00-04:00"
     },
-    "LUNG": {
-      "start_bar": "2026-09-14T15:25:00-04:00"
-    },
-    "AVAV": {
-      "start_bar": "2026-09-14T15:25:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-09-14T15:25:00-04:00"
+    "STKE": {
+      "start_bar": "2026-09-14T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -300,10 +294,8 @@
     "TYRA": "small_cap_gainers",
     "RXRX": "small_cap_gainers+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "ANGX": "aggressive_small_caps",
-    "SWKS": "day_gainers",
     "CANG": "small_cap_gainers",
     "KURA": "aggressive_small_caps",
     "BBWI": "day_gainers",
@@ -537,6 +529,8 @@
     "CRCL": "day_gainers",
     "TWST": "day_gainers",
     "FOSL": "small_cap_gainers",
-    "RGP": "small_cap_gainers"
+    "RGP": "small_cap_gainers",
+    "IOVA": "day_gainers",
+    "CERT": "small_cap_gainers"
   }
 }
