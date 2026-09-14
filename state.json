@@ -19,15 +19,11 @@
   "last_session": "open",
   "tracked_tickers": [
     "COIN",
-    "GLOO",
     "TYRA",
     "RXRX",
     "AI",
     "CAPR",
     "KVUE",
-    "CPRI",
-    "ALTG",
-    "WPRT",
     "ANGX",
     "SWKS",
     "CANG",
@@ -267,30 +263,28 @@
     "SDGR",
     "ONDS",
     "TMDX",
-    "GRPN"
+    "GRPN",
+    "CRCL",
+    "TWST",
+    "FOSL",
+    "RGP"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "OCGN": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
+    "NICE": {
+      "start_bar": "2026-09-14T15:25:00-04:00"
     },
-    "MORN": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
+    "VIA": {
+      "start_bar": "2026-09-14T15:25:00-04:00"
     },
-    "VRSK": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
+    "LUNG": {
+      "start_bar": "2026-09-14T15:25:00-04:00"
     },
-    "OPENZ": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
+    "AVAV": {
+      "start_bar": "2026-09-14T15:25:00-04:00"
     },
-    "WAY": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
-    },
-    "BBAI": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
-    },
-    "EMBC": {
-      "start_bar": "2026-09-14T15:10:00-04:00"
+    "DNA": {
+      "start_bar": "2026-09-14T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -303,15 +297,11 @@
     "WOLF": "most_shorted_stocks",
     "EROC": "small_cap_gainers",
     "COIN": "day_gainers",
-    "GLOO": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
     "RXRX": "small_cap_gainers+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "CPRI": "small_cap_gainers",
-    "ALTG": "small_cap_gainers",
-    "WPRT": "small_cap_gainers",
     "ANGX": "aggressive_small_caps",
     "SWKS": "day_gainers",
     "CANG": "small_cap_gainers",
@@ -543,6 +533,10 @@
     "SDGR": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "TMDX": "day_gainers",
-    "GRPN": "most_shorted_stocks"
+    "GRPN": "most_shorted_stocks",
+    "CRCL": "day_gainers",
+    "TWST": "day_gainers",
+    "FOSL": "small_cap_gainers",
+    "RGP": "small_cap_gainers"
   }
 }
