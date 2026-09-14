@@ -29,7 +29,6 @@
     "CAPR",
     "KVUE",
     "GPRO",
-    "AHT-PD",
     "INSP",
     "EXTR",
     "SOC",
@@ -267,10 +266,21 @@
     "ULCC",
     "JACK",
     "GSHD",
-    "XRX"
+    "XRX",
+    "TDOC"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {},
+  "pending_bull": {
+    "LENZ": {
+      "start_bar": "2026-09-14T13:25:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-14T13:25:00-04:00"
+    },
+    "GENI": {
+      "start_bar": "2026-09-14T13:25:00-04:00"
+    }
+  },
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -291,7 +301,6 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "AHT-PD": "small_cap_gainers",
     "INSP": "day_gainers",
     "EXTR": "day_gainers",
     "SOC": "small_cap_gainers",
@@ -521,6 +530,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "most_shorted_stocks"
+    "XRX": "most_shorted_stocks",
+    "TDOC": "small_cap_gainers"
   }
 }
