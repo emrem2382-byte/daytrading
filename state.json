@@ -28,7 +28,6 @@
     "GRPN",
     "CAPR",
     "KVUE",
-    "CLBK",
     "GPRO",
     "AHT-PD",
     "INSP",
@@ -267,29 +266,11 @@
     "KSS",
     "ULCC",
     "JACK",
-    "GSHD"
+    "GSHD",
+    "XRX"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {
-    "NTGR": {
-      "start_bar": "2026-09-14T12:45:00-04:00"
-    },
-    "SWKS": {
-      "start_bar": "2026-09-14T12:45:00-04:00"
-    },
-    "FLWS": {
-      "start_bar": "2026-09-14T12:45:00-04:00"
-    },
-    "CIFR": {
-      "start_bar": "2026-09-14T12:45:00-04:00"
-    },
-    "CHKP": {
-      "start_bar": "2026-09-14T12:45:00-04:00"
-    },
-    "GLOO": {
-      "start_bar": "2026-09-14T12:55:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -307,9 +288,8 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "CLBK": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
     "AHT-PD": "small_cap_gainers",
     "INSP": "day_gainers",
@@ -540,6 +520,7 @@
     "KSS": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
-    "GSHD": "small_cap_gainers"
+    "GSHD": "small_cap_gainers",
+    "XRX": "most_shorted_stocks"
   }
 }
