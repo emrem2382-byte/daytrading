@@ -22,19 +22,6 @@
     "CRI",
     "BLSH",
     "COIN",
-    "GCTS",
-    "AMRC",
-    "LYNX",
-    "REF",
-    "AMBQ",
-    "GCO",
-    "TSAT",
-    "AUDC",
-    "APYX",
-    "LANV",
-    "T",
-    "CDW",
-    "MOD",
     "AVT",
     "ARW",
     "SANM",
@@ -267,12 +254,31 @@
     "LUNG",
     "SKIL",
     "AIFU",
-    "KOS"
+    "KOS",
+    "SEDG",
+    "PS",
+    "CHKP",
+    "SM",
+    "FSLY",
+    "ASST",
+    "EVTL",
+    "OMDA",
+    "KMDA",
+    "SPTX",
+    "AVLN",
+    "NAT",
+    "GENI"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "AUR": {
-      "start_bar": "2026-09-14T09:45:00-04:00"
+    "ALXO": {
+      "start_bar": "2026-09-14T10:15:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-09-14T10:15:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-09-14T10:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -288,19 +294,6 @@
     "CRI": "aggressive_small_caps",
     "BLSH": "day_gainers",
     "COIN": "day_gainers",
-    "GCTS": "small_cap_gainers",
-    "AMRC": "small_cap_gainers",
-    "LYNX": "small_cap_gainers",
-    "REF": "small_cap_gainers",
-    "AMBQ": "small_cap_gainers",
-    "GCO": "small_cap_gainers",
-    "TSAT": "small_cap_gainers",
-    "AUDC": "small_cap_gainers",
-    "APYX": "small_cap_gainers",
-    "LANV": "small_cap_gainers",
-    "T": "most_actives",
-    "CDW": "day_gainers",
-    "MOD": "day_gainers",
     "AVT": "day_gainers",
     "ARW": "day_gainers",
     "SANM": "day_gainers",
@@ -525,6 +518,19 @@
     "LUNG": "small_cap_gainers",
     "SKIL": "small_cap_gainers",
     "AIFU": "small_cap_gainers",
-    "KOS": "aggressive_small_caps"
+    "KOS": "aggressive_small_caps",
+    "SEDG": "day_gainers",
+    "PS": "day_gainers",
+    "CHKP": "day_gainers",
+    "SM": "day_gainers",
+    "FSLY": "day_gainers",
+    "ASST": "day_gainers",
+    "EVTL": "small_cap_gainers",
+    "OMDA": "small_cap_gainers",
+    "KMDA": "small_cap_gainers",
+    "SPTX": "small_cap_gainers",
+    "AVLN": "small_cap_gainers",
+    "NAT": "aggressive_small_caps",
+    "GENI": "aggressive_small_caps"
   }
 }
