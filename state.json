@@ -24,9 +24,7 @@
     "AI",
     "CAPR",
     "KVUE",
-    "CANG",
     "KURA",
-    "BBWI",
     "AAON",
     "OPENW",
     "WF",
@@ -267,7 +265,9 @@
     "FOSL",
     "RGP",
     "IOVA",
-    "CERT"
+    "CERT",
+    "ORIC",
+    "GDRX"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
@@ -279,6 +279,18 @@
     },
     "STKE": {
       "start_bar": "2026-09-14T15:40:00-04:00"
+    },
+    "OPK": {
+      "start_bar": "2026-09-14T15:50:00-04:00"
+    },
+    "FDS": {
+      "start_bar": "2026-09-14T15:50:00-04:00"
+    },
+    "STRZ": {
+      "start_bar": "2026-09-14T15:50:00-04:00"
+    },
+    "GWRE": {
+      "start_bar": "2026-09-14T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -294,11 +306,9 @@
     "TYRA": "small_cap_gainers",
     "RXRX": "small_cap_gainers+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "CANG": "small_cap_gainers",
     "KURA": "aggressive_small_caps",
-    "BBWI": "day_gainers",
     "AAON": "day_gainers",
     "OPENW": "small_cap_gainers",
     "WF": "day_gainers",
@@ -531,6 +541,8 @@
     "FOSL": "small_cap_gainers",
     "RGP": "small_cap_gainers",
     "IOVA": "day_gainers",
-    "CERT": "small_cap_gainers"
+    "CERT": "small_cap_gainers",
+    "ORIC": "small_cap_gainers",
+    "GDRX": "small_cap_gainers"
   }
 }
