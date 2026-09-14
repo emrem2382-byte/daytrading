@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "AEHL",
-    "GCL",
-    "NOK",
-    "MXL",
-    "HPE",
-    "OPTU",
-    "VICR",
-    "BW",
-    "OPENW",
-    "EROC",
-    "WOLF",
-    "CIFR",
-    "SIMO",
-    "INTC",
-    "BE"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "COIN",
     "TYRA",
