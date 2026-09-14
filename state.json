@@ -19,19 +19,11 @@
   "last_session": "open",
   "tracked_tickers": [
     "NIO",
-    "BLSH",
     "COIN",
     "GLOO",
     "TYRA",
     "RXRX",
     "ONDS",
-    "OPFI",
-    "SNX",
-    "CABO",
-    "PLUG",
-    "F",
-    "POWI",
-    "WING",
     "NRGV",
     "REAL",
     "AEHL",
@@ -267,17 +259,18 @@
     "CTSH",
     "ZIP",
     "SMWB",
-    "FDMT"
+    "FDMT",
+    "IOT",
+    "CABA",
+    "LZ",
+    "BL",
+    "LTGO",
+    "GRABW",
+    "CRI",
+    "VBIO"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {
-    "GRAB": {
-      "start_bar": "2026-09-14T10:50:00-04:00"
-    },
-    "REAL": {
-      "start_bar": "2026-09-14T11:00:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -288,19 +281,11 @@
     "WOLF": "most_shorted_stocks",
     "EROC": "small_cap_gainers",
     "NIO": "most_actives",
-    "BLSH": "day_gainers",
     "COIN": "day_gainers",
     "GLOO": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
-    "OPFI": "small_cap_gainers",
-    "SNX": "small_cap_gainers",
-    "CABO": "small_cap_gainers",
-    "PLUG": "most_actives",
-    "F": "most_actives",
-    "POWI": "day_gainers",
-    "WING": "day_gainers",
     "NRGV": "small_cap_gainers",
     "REAL": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
@@ -528,6 +513,14 @@
     "CTSH": "day_gainers",
     "ZIP": "small_cap_gainers",
     "SMWB": "small_cap_gainers",
-    "FDMT": "small_cap_gainers"
+    "FDMT": "small_cap_gainers",
+    "IOT": "day_gainers",
+    "CABA": "small_cap_gainers",
+    "LZ": "small_cap_gainers",
+    "BL": "small_cap_gainers",
+    "LTGO": "small_cap_gainers",
+    "GRABW": "small_cap_gainers",
+    "CRI": "aggressive_small_caps",
+    "VBIO": "most_shorted_stocks"
   }
 }
