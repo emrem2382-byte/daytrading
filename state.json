@@ -25,7 +25,6 @@
     "AI",
     "CAPR",
     "KVUE",
-    "IOVA",
     "CPRI",
     "ALTG",
     "WPRT",
@@ -267,18 +266,31 @@
     "ATEN",
     "SDGR",
     "ONDS",
-    "TMDX"
+    "TMDX",
+    "GRPN"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "OPK": {
-      "start_bar": "2026-09-14T14:55:00-04:00"
+    "OCGN": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
     },
-    "PYXS": {
-      "start_bar": "2026-09-14T14:55:00-04:00"
+    "MORN": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
     },
-    "GO": {
-      "start_bar": "2026-09-14T14:55:00-04:00"
+    "VRSK": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
+    },
+    "OPENZ": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
+    },
+    "WAY": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
+    },
+    "BBAI": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
+    },
+    "EMBC": {
+      "start_bar": "2026-09-14T15:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -297,7 +309,6 @@
     "AI": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "IOVA": "day_gainers",
     "CPRI": "small_cap_gainers",
     "ALTG": "small_cap_gainers",
     "WPRT": "small_cap_gainers",
@@ -341,7 +352,7 @@
     "DFTX": "day_gainers",
     "TLX": "day_gainers",
     "BWIN": "day_gainers",
-    "RUM": "most_actives+day_gainers",
+    "RUM": "day_gainers",
     "SAIL": "day_gainers",
     "BNTX": "day_gainers",
     "CRWD": "day_gainers",
@@ -365,7 +376,7 @@
     "FLWS": "small_cap_gainers",
     "OPENL": "small_cap_gainers",
     "AUROW": "small_cap_gainers",
-    "SOUN": "most_actives+most_shorted_stocks",
+    "SOUN": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "SLS": "most_shorted_stocks",
@@ -531,6 +542,7 @@
     "ATEN": "small_cap_gainers",
     "SDGR": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
-    "TMDX": "day_gainers"
+    "TMDX": "day_gainers",
+    "GRPN": "most_shorted_stocks"
   }
 }
