@@ -27,17 +27,7 @@
     "AI",
     "GRPN",
     "CAPR",
-    "HTFL",
-    "ALXO",
-    "CCM",
-    "AHT-PG",
-    "PNAQ-UN",
-    "HTZ",
-    "QRVO",
-    "ON",
     "KVUE",
-    "ABEV",
-    "SYNA",
     "DFH",
     "CLBK",
     "XRXDW",
@@ -267,42 +257,28 @@
     "CCCC",
     "GRAB",
     "VOR",
-    "LAR"
+    "LAR",
+    "SPCX",
+    "SMR",
+    "HIMS",
+    "GTM",
+    "DXC",
+    "PHAT",
+    "CNXC",
+    "TRAX",
+    "DHX",
+    "NVAX"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "JILL": {
-      "start_bar": "2026-09-14T11:50:00-04:00"
-    },
-    "CHRN": {
-      "start_bar": "2026-09-14T11:45:00-04:00"
-    },
-    "LENZ": {
-      "start_bar": "2026-09-14T11:50:00-04:00"
-    },
-    "INTC": {
-      "start_bar": "2026-09-14T11:50:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-09-14T11:50:00-04:00"
-    },
-    "GNK": {
-      "start_bar": "2026-09-14T11:55:00-04:00"
-    },
-    "ADTN": {
-      "start_bar": "2026-09-14T11:55:00-04:00"
-    },
-    "HPP": {
-      "start_bar": "2026-09-14T11:55:00-04:00"
-    },
-    "WOLF": {
-      "start_bar": "2026-09-14T11:55:00-04:00"
-    },
-    "CVE": {
-      "start_bar": "2026-09-14T12:00:00-04:00"
-    },
     "AEMD": {
       "start_bar": "2026-09-14T11:55:00-04:00"
+    },
+    "ALTG": {
+      "start_bar": "2026-09-14T12:00:00-04:00"
+    },
+    "CPIX": {
+      "start_bar": "2026-09-14T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -318,22 +294,12 @@
     "COIN": "day_gainers",
     "GLOO": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
-    "RXRX": "most_shorted_stocks",
+    "RXRX": "small_cap_gainers+most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
-    "HTFL": "day_gainers",
-    "ALXO": "small_cap_gainers",
-    "CCM": "small_cap_gainers",
-    "AHT-PG": "small_cap_gainers",
-    "PNAQ-UN": "small_cap_gainers",
-    "HTZ": "most_shorted_stocks",
-    "QRVO": "day_gainers",
-    "ON": "day_gainers",
     "KVUE": "most_actives",
-    "ABEV": "most_actives",
-    "SYNA": "day_gainers",
     "DFH": "small_cap_gainers",
     "CLBK": "aggressive_small_caps",
     "XRXDW": "small_cap_gainers",
@@ -480,7 +446,7 @@
     "FUN": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
-    "EVGO": "most_shorted_stocks",
+    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "AAPL": "most_actives",
     "NFLX": "most_actives",
@@ -555,6 +521,16 @@
     "CCCC": "most_shorted_stocks",
     "GRAB": "most_actives",
     "VOR": "small_cap_gainers",
-    "LAR": "aggressive_small_caps"
+    "LAR": "aggressive_small_caps",
+    "SPCX": "most_actives",
+    "SMR": "most_actives",
+    "HIMS": "day_gainers",
+    "GTM": "small_cap_gainers",
+    "DXC": "small_cap_gainers",
+    "PHAT": "small_cap_gainers",
+    "CNXC": "small_cap_gainers",
+    "TRAX": "small_cap_gainers",
+    "DHX": "small_cap_gainers",
+    "NVAX": "most_shorted_stocks"
   }
 }
