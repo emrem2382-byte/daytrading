@@ -18,7 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "NIO",
     "COIN",
     "GLOO",
     "TYRA",
@@ -267,10 +266,27 @@
     "EXFY",
     "TTAN",
     "CLOV",
-    "XXI"
+    "XXI",
+    "FUBO"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {},
+  "pending_bull": {
+    "RVII": {
+      "start_bar": "2026-09-14T14:20:00-04:00"
+    },
+    "MXL": {
+      "start_bar": "2026-09-14T14:25:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-09-14T14:20:00-04:00"
+    },
+    "SM": {
+      "start_bar": "2026-09-14T14:25:00-04:00"
+    },
+    "CRI": {
+      "start_bar": "2026-09-14T14:25:00-04:00"
+    }
+  },
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -280,7 +296,6 @@
     "BW": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "EROC": "small_cap_gainers",
-    "NIO": "most_actives",
     "COIN": "day_gainers",
     "GLOO": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
@@ -521,6 +536,7 @@
     "EXFY": "small_cap_gainers",
     "TTAN": "day_gainers",
     "CLOV": "day_gainers",
-    "XXI": "small_cap_gainers"
+    "XXI": "small_cap_gainers",
+    "FUBO": "small_cap_gainers"
   }
 }
