@@ -16,61 +16,8 @@
     "INTC",
     "BE"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
-    "NAT",
-    "EVGO",
-    "HPQ",
-    "BAND",
-    "HPE",
-    "AAPL",
-    "ACVA",
-    "COUR",
-    "GENI",
-    "JBLU",
-    "BBAI",
-    "ULCC",
-    "VISN",
-    "CRMT",
-    "EBS",
-    "INTC",
-    "NVDA",
-    "NOK",
-    "BMNR",
-    "DELL",
-    "MXL",
-    "HIMX",
-    "FLEX",
-    "MARA",
-    "CIFR",
-    "BW",
-    "WOLF",
-    "ATEC",
-    "EROC",
-    "CRSR",
-    "MGX",
-    "FOA",
-    "WBX",
-    "VACI",
-    "AAC-UN",
-    "FLNC",
-    "ORC",
-    "UAMY",
-    "TMC",
-    "KSS",
-    "ORCL-PD",
-    "BRSL",
-    "AEMD",
-    "VBIO",
-    "SERV",
-    "EOSE",
-    "CCCC",
-    "CLSK",
-    "DFNS",
-    "NVAX",
-    "QUBT",
-    "IHRT",
-    "KOS",
     "BAK",
     "SNAP",
     "MYGN",
@@ -267,81 +214,150 @@
     "IREN",
     "TLYS",
     "KE",
-    "OCGN"
+    "OCGN",
+    "VG",
+    "ATAI",
+    "VTRS",
+    "KEY",
+    "MRK",
+    "ET",
+    "DV",
+    "CMG",
+    "PSLV",
+    "AIG",
+    "O",
+    "CLX",
+    "FISV",
+    "RELX",
+    "DFTX",
+    "TLX",
+    "BWIN",
+    "RUM",
+    "SAIL",
+    "BNTX",
+    "CRWD",
+    "PANW",
+    "S",
+    "HUBS",
+    "FRSH",
+    "NOW",
+    "FDS",
+    "ADBE",
+    "HCM",
+    "ZS",
+    "KVYO",
+    "ACN",
+    "GSK",
+    "LKNCY",
+    "NICE",
+    "SAP",
+    "OKTA",
+    "VET",
+    "FLWS",
+    "OPENL",
+    "AUROW",
+    "SOUN",
+    "LENZ",
+    "NTLA",
+    "SLS",
+    "NOK",
+    "MXL",
+    "HPE",
+    "BW",
+    "EROC",
+    "WOLF",
+    "CIFR",
+    "INTC"
   ],
-  "tracked_day": "2026-09-11",
+  "tracked_day": "2026-09-14",
   "pending_bull": {
-    "IESC": {
-      "start_bar": "2026-09-11T15:45:00-04:00"
+    "GEMI": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
     },
-    "CRSR": {
-      "start_bar": "2026-09-11T15:55:00-04:00"
+    "ASST": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
     },
-    "HOOD": {
-      "start_bar": "2026-09-11T15:55:00-04:00"
+    "CRCL": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
     },
-    "REF": {
-      "start_bar": "2026-09-11T15:55:00-04:00"
+    "COIN": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
     },
-    "MWH": {
-      "start_bar": "2026-09-11T15:55:00-04:00"
+    "T": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "TYRA": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "OPFI": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "CABO": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "CAPR": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "NPWR": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "KVUE": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "CLBK": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "FOUR": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "KHC": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "VTRS": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "MRK": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "O": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "RUM": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "BNTX": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "S": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "HUBS": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "NOW": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "NICE": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "OKTA": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-14T09:30:00-04:00"
     }
   },
   "ticker_sources": {
-    "KOS": "aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
-    "NAT": "aggressive_small_caps",
-    "EVGO": "most_shorted_stocks",
-    "HPQ": "day_gainers",
     "BAK": "small_cap_gainers",
-    "BAND": "small_cap_gainers",
     "HPE": "most_actives+day_gainers",
-    "AAPL": "most_actives",
-    "ACVA": "small_cap_gainers",
-    "COUR": "aggressive_small_caps",
-    "GENI": "aggressive_small_caps",
-    "JBLU": "aggressive_small_caps",
-    "BBAI": "most_shorted_stocks",
-    "ULCC": "aggressive_small_caps",
-    "VISN": "aggressive_small_caps",
-    "CRMT": "small_cap_gainers",
-    "EBS": "small_cap_gainers",
     "INTC": "most_actives",
-    "NVDA": "most_actives",
     "NOK": "most_actives",
-    "BMNR": "most_actives",
-    "DELL": "day_gainers",
     "MXL": "day_gainers",
-    "HIMX": "day_gainers",
-    "FLEX": "day_gainers",
-    "MARA": "most_actives+most_shorted_stocks",
     "CIFR": "most_actives+day_gainers",
     "BW": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
-    "ATEC": "small_cap_gainers",
     "EROC": "small_cap_gainers",
-    "CRSR": "small_cap_gainers",
-    "MGX": "small_cap_gainers",
-    "FOA": "small_cap_gainers",
-    "WBX": "small_cap_gainers",
-    "VACI": "small_cap_gainers",
-    "AAC-UN": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
-    "ORC": "aggressive_small_caps",
-    "UAMY": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
-    "KSS": "aggressive_small_caps",
-    "ORCL-PD": "aggressive_small_caps",
-    "BRSL": "aggressive_small_caps",
-    "AEMD": "most_shorted_stocks",
-    "VBIO": "most_shorted_stocks",
-    "SERV": "most_shorted_stocks",
-    "EOSE": "most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
-    "CLSK": "day_gainers+most_shorted_stocks",
-    "DFNS": "most_shorted_stocks",
-    "NVAX": "most_shorted_stocks",
-    "QUBT": "most_shorted_stocks",
     "TSLA": "most_actives",
     "NIO": "most_actives",
     "SMCI": "most_actives+day_gainers",
@@ -429,7 +445,7 @@
     "BBBYW": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
     "JELD": "aggressive_small_caps",
-    "TYRA": "aggressive_small_caps",
+    "TYRA": "small_cap_gainers",
     "VNET": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
@@ -457,7 +473,7 @@
     "AVEX": "small_cap_gainers",
     "MEI": "small_cap_gainers",
     "GCL": "small_cap_gainers",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "LOT": "small_cap_gainers",
     "SCSC": "small_cap_gainers",
     "SEAT": "small_cap_gainers",
@@ -525,7 +541,7 @@
     "AUR": "most_actives",
     "SII": "day_gainers",
     "LGN": "day_gainers",
-    "ENOV": "small_cap_gainers",
+    "ENOV": "aggressive_small_caps",
     "GOLD": "small_cap_gainers",
     "PATH": "most_actives",
     "M": "day_gainers",
@@ -535,6 +551,51 @@
     "IREN": "most_actives",
     "TLYS": "small_cap_gainers",
     "KE": "small_cap_gainers",
-    "OCGN": "most_shorted_stocks"
+    "OCGN": "most_shorted_stocks",
+    "VG": "most_actives",
+    "ATAI": "most_actives",
+    "VTRS": "most_actives",
+    "KEY": "most_actives",
+    "MRK": "most_actives",
+    "ET": "most_actives",
+    "DV": "most_actives",
+    "CMG": "most_actives",
+    "PSLV": "most_actives",
+    "AIG": "most_actives",
+    "O": "most_actives",
+    "CLX": "most_actives",
+    "FISV": "most_actives+day_gainers",
+    "RELX": "most_actives",
+    "DFTX": "day_gainers",
+    "TLX": "day_gainers",
+    "BWIN": "day_gainers",
+    "RUM": "day_gainers",
+    "SAIL": "day_gainers",
+    "BNTX": "day_gainers",
+    "CRWD": "day_gainers",
+    "PANW": "day_gainers",
+    "S": "day_gainers",
+    "HUBS": "day_gainers",
+    "FRSH": "day_gainers",
+    "NOW": "day_gainers",
+    "FDS": "day_gainers",
+    "ADBE": "day_gainers",
+    "HCM": "day_gainers",
+    "ZS": "day_gainers",
+    "KVYO": "day_gainers",
+    "ACN": "day_gainers",
+    "GSK": "day_gainers",
+    "LKNCY": "day_gainers",
+    "NICE": "day_gainers",
+    "SAP": "day_gainers",
+    "OKTA": "day_gainers",
+    "VET": "day_gainers",
+    "FLWS": "small_cap_gainers",
+    "OPENL": "small_cap_gainers",
+    "AUROW": "small_cap_gainers",
+    "SOUN": "most_shorted_stocks",
+    "LENZ": "most_shorted_stocks",
+    "NTLA": "most_shorted_stocks",
+    "SLS": "most_shorted_stocks"
   }
 }
