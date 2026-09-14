@@ -22,15 +22,10 @@
     "GLOO",
     "TYRA",
     "RXRX",
-    "ONDS",
     "AI",
     "GRPN",
     "CAPR",
     "KVUE",
-    "CMTL",
-    "BDC",
-    "RVII",
-    "NTGR",
     "CHRN",
     "IOVA",
     "CPRI",
@@ -267,26 +262,15 @@
     "TTAN",
     "CLOV",
     "XXI",
-    "FUBO"
+    "FUBO",
+    "W",
+    "BRZE",
+    "EIKN",
+    "ATEN",
+    "SDGR"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {
-    "RVII": {
-      "start_bar": "2026-09-14T14:20:00-04:00"
-    },
-    "MXL": {
-      "start_bar": "2026-09-14T14:25:00-04:00"
-    },
-    "FUN": {
-      "start_bar": "2026-09-14T14:20:00-04:00"
-    },
-    "SM": {
-      "start_bar": "2026-09-14T14:25:00-04:00"
-    },
-    "CRI": {
-      "start_bar": "2026-09-14T14:25:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -300,15 +284,10 @@
     "GLOO": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
     "RXRX": "small_cap_gainers+most_shorted_stocks",
-    "ONDS": "most_actives+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "CMTL": "small_cap_gainers",
-    "BDC": "day_gainers",
-    "RVII": "small_cap_gainers",
-    "NTGR": "small_cap_gainers",
     "CHRN": "day_gainers",
     "IOVA": "day_gainers",
     "CPRI": "small_cap_gainers",
@@ -537,6 +516,11 @@
     "TTAN": "day_gainers",
     "CLOV": "day_gainers",
     "XXI": "small_cap_gainers",
-    "FUBO": "small_cap_gainers"
+    "FUBO": "small_cap_gainers",
+    "W": "day_gainers",
+    "BRZE": "day_gainers",
+    "EIKN": "small_cap_gainers",
+    "ATEN": "small_cap_gainers",
+    "SDGR": "small_cap_gainers"
   }
 }
