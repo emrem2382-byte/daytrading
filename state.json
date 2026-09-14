@@ -27,9 +27,6 @@
     "AI",
     "GRPN",
     "CAPR",
-    "NPWR",
-    "INSG",
-    "SIMO",
     "HTFL",
     "ALXO",
     "CCM",
@@ -267,7 +264,10 @@
     "PMVP",
     "JBLU",
     "AEMD",
-    "CCCC"
+    "CCCC",
+    "GRAB",
+    "VOR",
+    "LAR"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
@@ -277,9 +277,6 @@
     "CHRN": {
       "start_bar": "2026-09-14T11:45:00-04:00"
     },
-    "AIG": {
-      "start_bar": "2026-09-14T11:50:00-04:00"
-    },
     "LENZ": {
       "start_bar": "2026-09-14T11:50:00-04:00"
     },
@@ -288,6 +285,24 @@
     },
     "BMNR": {
       "start_bar": "2026-09-14T11:50:00-04:00"
+    },
+    "GNK": {
+      "start_bar": "2026-09-14T11:55:00-04:00"
+    },
+    "ADTN": {
+      "start_bar": "2026-09-14T11:55:00-04:00"
+    },
+    "HPP": {
+      "start_bar": "2026-09-14T11:55:00-04:00"
+    },
+    "WOLF": {
+      "start_bar": "2026-09-14T11:55:00-04:00"
+    },
+    "CVE": {
+      "start_bar": "2026-09-14T12:00:00-04:00"
+    },
+    "AEMD": {
+      "start_bar": "2026-09-14T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -305,12 +320,9 @@
     "TYRA": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
-    "AI": "most_shorted_stocks",
+    "AI": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
-    "NPWR": "small_cap_gainers",
-    "INSG": "small_cap_gainers",
-    "SIMO": "day_gainers",
     "HTFL": "day_gainers",
     "ALXO": "small_cap_gainers",
     "CCM": "small_cap_gainers",
@@ -372,7 +384,7 @@
     "LGN": "day_gainers",
     "ENOV": "aggressive_small_caps",
     "GOLD": "small_cap_gainers",
-    "PATH": "most_actives",
+    "PATH": "most_actives+day_gainers",
     "M": "day_gainers",
     "ALKT": "day_gainers",
     "MSC": "small_cap_gainers",
@@ -397,7 +409,7 @@
     "RELX": "day_gainers",
     "DFTX": "day_gainers",
     "TLX": "day_gainers",
-    "BWIN": "most_actives+day_gainers",
+    "BWIN": "day_gainers",
     "RUM": "most_actives+day_gainers",
     "SAIL": "day_gainers",
     "BNTX": "day_gainers",
@@ -540,6 +552,9 @@
     "PMVP": "small_cap_gainers",
     "JBLU": "aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
-    "CCCC": "most_shorted_stocks"
+    "CCCC": "most_shorted_stocks",
+    "GRAB": "most_actives",
+    "VOR": "small_cap_gainers",
+    "LAR": "aggressive_small_caps"
   }
 }
