@@ -23,10 +23,8 @@
     "TYRA",
     "RXRX",
     "AI",
-    "GRPN",
     "CAPR",
     "KVUE",
-    "CHRN",
     "IOVA",
     "CPRI",
     "ALTG",
@@ -267,10 +265,22 @@
     "BRZE",
     "EIKN",
     "ATEN",
-    "SDGR"
+    "SDGR",
+    "ONDS",
+    "TMDX"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {},
+  "pending_bull": {
+    "OPK": {
+      "start_bar": "2026-09-14T14:55:00-04:00"
+    },
+    "PYXS": {
+      "start_bar": "2026-09-14T14:55:00-04:00"
+    },
+    "GO": {
+      "start_bar": "2026-09-14T14:55:00-04:00"
+    }
+  },
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -285,10 +295,8 @@
     "TYRA": "small_cap_gainers",
     "RXRX": "small_cap_gainers+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
-    "GRPN": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "CHRN": "day_gainers",
     "IOVA": "day_gainers",
     "CPRI": "small_cap_gainers",
     "ALTG": "small_cap_gainers",
@@ -307,7 +315,7 @@
     "LGN": "day_gainers",
     "ENOV": "aggressive_small_caps",
     "GOLD": "small_cap_gainers",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "M": "day_gainers",
     "ALKT": "day_gainers",
     "MSC": "small_cap_gainers",
@@ -521,6 +529,8 @@
     "BRZE": "day_gainers",
     "EIKN": "small_cap_gainers",
     "ATEN": "small_cap_gainers",
-    "SDGR": "small_cap_gainers"
+    "SDGR": "small_cap_gainers",
+    "ONDS": "most_actives+most_shorted_stocks",
+    "TMDX": "day_gainers"
   }
 }
