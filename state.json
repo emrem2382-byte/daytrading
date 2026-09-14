@@ -22,16 +22,7 @@
     "CRI",
     "BLSH",
     "COIN",
-    "AVT",
-    "ARW",
-    "SANM",
-    "SMCIP",
     "GLOO",
-    "SILC",
-    "TROX",
-    "JACK",
-    "JOBY",
-    "VSH",
     "IOND",
     "SG",
     "PLTK",
@@ -267,18 +258,21 @@
     "SPTX",
     "AVLN",
     "NAT",
-    "GENI"
+    "GENI",
+    "SLDE",
+    "AVPT",
+    "RXT",
+    "EFOR",
+    "TBI",
+    "BALY",
+    "VACI-UN",
+    "VSECU",
+    "BBAI"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "ALXO": {
-      "start_bar": "2026-09-14T10:15:00-04:00"
-    },
-    "HTZ": {
-      "start_bar": "2026-09-14T10:15:00-04:00"
-    },
-    "OCGN": {
-      "start_bar": "2026-09-14T10:15:00-04:00"
+    "BETA": {
+      "start_bar": "2026-09-14T10:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -294,16 +288,7 @@
     "CRI": "aggressive_small_caps",
     "BLSH": "day_gainers",
     "COIN": "day_gainers",
-    "AVT": "day_gainers",
-    "ARW": "day_gainers",
-    "SANM": "day_gainers",
-    "SMCIP": "small_cap_gainers",
     "GLOO": "small_cap_gainers",
-    "SILC": "small_cap_gainers",
-    "TROX": "aggressive_small_caps",
-    "JACK": "most_shorted_stocks",
-    "JOBY": "most_actives",
-    "VSH": "day_gainers",
     "IOND": "day_gainers",
     "SG": "small_cap_gainers",
     "PLTK": "small_cap_gainers",
@@ -438,7 +423,7 @@
     "RUM": "most_actives+day_gainers",
     "SAIL": "day_gainers",
     "BNTX": "day_gainers",
-    "CRWD": "day_gainers",
+    "CRWD": "most_actives+day_gainers",
     "PANW": "day_gainers",
     "S": "day_gainers",
     "HUBS": "day_gainers",
@@ -531,6 +516,15 @@
     "SPTX": "small_cap_gainers",
     "AVLN": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "GENI": "aggressive_small_caps"
+    "GENI": "aggressive_small_caps",
+    "SLDE": "day_gainers",
+    "AVPT": "day_gainers",
+    "RXT": "small_cap_gainers",
+    "EFOR": "small_cap_gainers",
+    "TBI": "small_cap_gainers",
+    "BALY": "small_cap_gainers",
+    "VACI-UN": "small_cap_gainers",
+    "VSECU": "small_cap_gainers",
+    "BBAI": "most_shorted_stocks"
   }
 }
