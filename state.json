@@ -25,18 +25,8 @@
     "RXRX",
     "ONDS",
     "AI",
-    "DHX",
     "GRPN",
-    "MWH",
-    "AVEX",
-    "MEI",
-    "GCL",
     "CAPR",
-    "LOT",
-    "SCSC",
-    "SEAT",
-    "CINT",
-    "BETA",
     "NPWR",
     "INSG",
     "SIMO",
@@ -267,18 +257,37 @@
     "EMBC",
     "WBTN",
     "LU",
-    "EOSE"
+    "EOSE",
+    "AAL",
+    "BSP",
+    "BLSH",
+    "OCTV",
+    "ACRS",
+    "GO",
+    "PMVP",
+    "JBLU",
+    "AEMD",
+    "CCCC"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "MEI": {
-      "start_bar": "2026-09-14T11:35:00-04:00"
+    "JILL": {
+      "start_bar": "2026-09-14T11:50:00-04:00"
     },
-    "HDB": {
-      "start_bar": "2026-09-14T11:35:00-04:00"
+    "CHRN": {
+      "start_bar": "2026-09-14T11:45:00-04:00"
     },
-    "KURA": {
-      "start_bar": "2026-09-14T11:30:00-04:00"
+    "AIG": {
+      "start_bar": "2026-09-14T11:50:00-04:00"
+    },
+    "LENZ": {
+      "start_bar": "2026-09-14T11:50:00-04:00"
+    },
+    "INTC": {
+      "start_bar": "2026-09-14T11:50:00-04:00"
+    },
+    "BMNR": {
+      "start_bar": "2026-09-14T11:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -297,18 +306,8 @@
     "RXRX": "most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
     "AI": "most_shorted_stocks",
-    "DHX": "small_cap_gainers",
     "GRPN": "most_shorted_stocks",
-    "MWH": "day_gainers",
-    "AVEX": "small_cap_gainers",
-    "MEI": "small_cap_gainers",
-    "GCL": "small_cap_gainers",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
-    "LOT": "small_cap_gainers",
-    "SCSC": "small_cap_gainers",
-    "SEAT": "small_cap_gainers",
-    "CINT": "small_cap_gainers",
-    "BETA": "day_gainers",
     "NPWR": "small_cap_gainers",
     "INSG": "small_cap_gainers",
     "SIMO": "day_gainers",
@@ -373,7 +372,7 @@
     "LGN": "day_gainers",
     "ENOV": "aggressive_small_caps",
     "GOLD": "small_cap_gainers",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "M": "day_gainers",
     "ALKT": "day_gainers",
     "MSC": "small_cap_gainers",
@@ -531,6 +530,16 @@
     "EMBC": "small_cap_gainers",
     "WBTN": "small_cap_gainers",
     "LU": "small_cap_gainers",
-    "EOSE": "most_shorted_stocks"
+    "EOSE": "most_shorted_stocks",
+    "AAL": "most_actives",
+    "BSP": "day_gainers",
+    "BLSH": "day_gainers",
+    "OCTV": "day_gainers",
+    "ACRS": "small_cap_gainers",
+    "GO": "small_cap_gainers",
+    "PMVP": "small_cap_gainers",
+    "JBLU": "aggressive_small_caps",
+    "AEMD": "most_shorted_stocks",
+    "CCCC": "most_shorted_stocks"
   }
 }
