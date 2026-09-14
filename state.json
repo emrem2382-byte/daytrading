@@ -28,8 +28,6 @@
     "GRPN",
     "CAPR",
     "KVUE",
-    "EXTR",
-    "SOC",
     "LOCL",
     "BE",
     "UCTT",
@@ -267,12 +265,14 @@
     "XRX",
     "TDOC",
     "SOFI",
-    "GRDN"
+    "GRDN",
+    "PACB",
+    "EXFY"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "PHAT": {
-      "start_bar": "2026-09-14T13:40:00-04:00"
+    "OPENZ": {
+      "start_bar": "2026-09-14T13:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -294,8 +294,6 @@
     "GRPN": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "EXTR": "day_gainers",
-    "SOC": "small_cap_gainers",
     "LOCL": "small_cap_gainers",
     "BE": "day_gainers",
     "UCTT": "day_gainers",
@@ -525,6 +523,8 @@
     "XRX": "most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
-    "GRDN": "day_gainers"
+    "GRDN": "day_gainers",
+    "PACB": "small_cap_gainers",
+    "EXFY": "small_cap_gainers"
   }
 }
