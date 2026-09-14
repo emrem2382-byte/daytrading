@@ -24,14 +24,7 @@
     "TYRA",
     "RXRX",
     "ONDS",
-    "NRGV",
-    "REAL",
-    "AEHL",
     "AI",
-    "GRAB",
-    "STLA",
-    "CHPT",
-    "NKTX",
     "DHX",
     "GRPN",
     "MWH",
@@ -267,10 +260,27 @@
     "LTGO",
     "GRABW",
     "CRI",
-    "VBIO"
+    "VBIO",
+    "IQ",
+    "NABL",
+    "GEMI",
+    "EMBC",
+    "WBTN",
+    "LU",
+    "EOSE"
   ],
   "tracked_day": "2026-09-14",
-  "pending_bull": {},
+  "pending_bull": {
+    "MEI": {
+      "start_bar": "2026-09-14T11:35:00-04:00"
+    },
+    "HDB": {
+      "start_bar": "2026-09-14T11:35:00-04:00"
+    },
+    "KURA": {
+      "start_bar": "2026-09-14T11:30:00-04:00"
+    }
+  },
   "ticker_sources": {
     "HPE": "most_actives+day_gainers",
     "INTC": "most_actives",
@@ -286,14 +296,7 @@
     "TYRA": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
-    "NRGV": "small_cap_gainers",
-    "REAL": "small_cap_gainers",
-    "AEHL": "most_shorted_stocks",
     "AI": "most_shorted_stocks",
-    "GRAB": "most_actives",
-    "STLA": "most_actives",
-    "CHPT": "small_cap_gainers",
-    "NKTX": "small_cap_gainers",
     "DHX": "small_cap_gainers",
     "GRPN": "most_shorted_stocks",
     "MWH": "day_gainers",
@@ -370,7 +373,7 @@
     "LGN": "day_gainers",
     "ENOV": "aggressive_small_caps",
     "GOLD": "small_cap_gainers",
-    "PATH": "most_actives",
+    "PATH": "most_actives+day_gainers",
     "M": "day_gainers",
     "ALKT": "day_gainers",
     "MSC": "small_cap_gainers",
@@ -521,6 +524,13 @@
     "LTGO": "small_cap_gainers",
     "GRABW": "small_cap_gainers",
     "CRI": "aggressive_small_caps",
-    "VBIO": "most_shorted_stocks"
+    "VBIO": "most_shorted_stocks",
+    "IQ": "small_cap_gainers",
+    "NABL": "small_cap_gainers",
+    "GEMI": "small_cap_gainers",
+    "EMBC": "small_cap_gainers",
+    "WBTN": "small_cap_gainers",
+    "LU": "small_cap_gainers",
+    "EOSE": "most_shorted_stocks"
   }
 }
