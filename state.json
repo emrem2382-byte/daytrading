@@ -28,12 +28,7 @@
     "GRPN",
     "CAPR",
     "KVUE",
-    "DFH",
     "CLBK",
-    "XRXDW",
-    "GNK",
-    "HDB",
-    "FOUR",
     "JILL",
     "GPRO",
     "AADX",
@@ -267,18 +262,29 @@
     "CNXC",
     "TRAX",
     "DHX",
-    "NVAX"
+    "NVAX",
+    "OPEN",
+    "RWT",
+    "CXM",
+    "MYGN",
+    "PZZA"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
     "AEMD": {
       "start_bar": "2026-09-14T11:55:00-04:00"
     },
-    "ALTG": {
-      "start_bar": "2026-09-14T12:00:00-04:00"
-    },
     "CPIX": {
       "start_bar": "2026-09-14T12:15:00-04:00"
+    },
+    "BE": {
+      "start_bar": "2026-09-14T12:30:00-04:00"
+    },
+    "KEY": {
+      "start_bar": "2026-09-14T12:30:00-04:00"
+    },
+    "SM": {
+      "start_bar": "2026-09-14T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -300,12 +306,7 @@
     "GRPN": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "DFH": "small_cap_gainers",
     "CLBK": "aggressive_small_caps",
-    "XRXDW": "small_cap_gainers",
-    "GNK": "aggressive_small_caps",
-    "HDB": "day_gainers",
-    "FOUR": "day_gainers",
     "JILL": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "AADX": "day_gainers",
@@ -379,7 +380,7 @@
     "RUM": "most_actives+day_gainers",
     "SAIL": "day_gainers",
     "BNTX": "day_gainers",
-    "CRWD": "most_actives+day_gainers",
+    "CRWD": "day_gainers",
     "PANW": "day_gainers",
     "S": "day_gainers",
     "HUBS": "day_gainers",
@@ -531,6 +532,11 @@
     "CNXC": "small_cap_gainers",
     "TRAX": "small_cap_gainers",
     "DHX": "small_cap_gainers",
-    "NVAX": "most_shorted_stocks"
+    "NVAX": "most_shorted_stocks",
+    "OPEN": "most_actives",
+    "RWT": "small_cap_gainers",
+    "CXM": "small_cap_gainers",
+    "MYGN": "small_cap_gainers",
+    "PZZA": "small_cap_gainers"
   }
 }
