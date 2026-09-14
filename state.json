@@ -28,8 +28,6 @@
     "GRPN",
     "CAPR",
     "KVUE",
-    "GPRO",
-    "INSP",
     "EXTR",
     "SOC",
     "LOCL",
@@ -267,18 +265,14 @@
     "JACK",
     "GSHD",
     "XRX",
-    "TDOC"
+    "TDOC",
+    "SOFI",
+    "GRDN"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "LENZ": {
-      "start_bar": "2026-09-14T13:25:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-09-14T13:25:00-04:00"
-    },
-    "GENI": {
-      "start_bar": "2026-09-14T13:25:00-04:00"
+    "PHAT": {
+      "start_bar": "2026-09-14T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -298,10 +292,8 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "AI": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "KVUE": "most_actives",
-    "GPRO": "aggressive_small_caps",
-    "INSP": "day_gainers",
     "EXTR": "day_gainers",
     "SOC": "small_cap_gainers",
     "LOCL": "small_cap_gainers",
@@ -531,6 +523,8 @@
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
     "XRX": "most_shorted_stocks",
-    "TDOC": "small_cap_gainers"
+    "TDOC": "small_cap_gainers",
+    "SOFI": "most_actives",
+    "GRDN": "day_gainers"
   }
 }
