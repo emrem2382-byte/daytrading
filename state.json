@@ -22,18 +22,6 @@
     "CRI",
     "BLSH",
     "COIN",
-    "BKKT",
-    "EPRX",
-    "PLCE",
-    "CMPS",
-    "MU",
-    "WULF",
-    "KEEL",
-    "FPS",
-    "CLS",
-    "FIX",
-    "VYX",
-    "UPWK",
     "GCTS",
     "AMRC",
     "LYNX",
@@ -267,17 +255,23 @@
     "OI",
     "OLN",
     "EVGO",
-    "QUBT"
+    "QUBT",
+    "AAPL",
+    "NFLX",
+    "WAY",
+    "SPOT",
+    "NET",
+    "FTNT",
+    "LOPE",
+    "GLOB",
+    "LUNG",
+    "SKIL",
+    "AIFU",
+    "KOS"
   ],
   "tracked_day": "2026-09-14",
   "pending_bull": {
-    "APYX": {
-      "start_bar": "2026-09-14T09:35:00-04:00"
-    },
     "AUR": {
-      "start_bar": "2026-09-14T09:45:00-04:00"
-    },
-    "NTLA": {
       "start_bar": "2026-09-14T09:45:00-04:00"
     }
   },
@@ -294,18 +288,6 @@
     "CRI": "aggressive_small_caps",
     "BLSH": "day_gainers",
     "COIN": "day_gainers",
-    "BKKT": "small_cap_gainers",
-    "EPRX": "small_cap_gainers",
-    "PLCE": "small_cap_gainers",
-    "CMPS": "aggressive_small_caps",
-    "MU": "most_actives",
-    "WULF": "day_gainers",
-    "KEEL": "most_actives",
-    "FPS": "day_gainers",
-    "CLS": "day_gainers",
-    "FIX": "day_gainers",
-    "VYX": "small_cap_gainers",
-    "UPWK": "small_cap_gainers",
     "GCTS": "small_cap_gainers",
     "AMRC": "small_cap_gainers",
     "LYNX": "small_cap_gainers",
@@ -531,6 +513,18 @@
     "OI": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
-    "QUBT": "most_shorted_stocks"
+    "QUBT": "most_shorted_stocks",
+    "AAPL": "most_actives",
+    "NFLX": "most_actives",
+    "WAY": "day_gainers",
+    "SPOT": "day_gainers",
+    "NET": "day_gainers",
+    "FTNT": "day_gainers",
+    "LOPE": "day_gainers",
+    "GLOB": "small_cap_gainers",
+    "LUNG": "small_cap_gainers",
+    "SKIL": "small_cap_gainers",
+    "AIFU": "small_cap_gainers",
+    "KOS": "aggressive_small_caps"
   }
 }
