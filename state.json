@@ -26,10 +26,7 @@
     "KOS",
     "SM",
     "NAT",
-    "GRABW",
     "VBIO",
-    "WBTN",
-    "LU",
     "EOSE",
     "AAL",
     "BSP",
@@ -267,33 +264,27 @@
     "HAIN",
     "SPRU",
     "INTC",
-    "MOBI"
+    "MOBI",
+    "KVUE",
+    "FFIV",
+    "UTMD"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "DUOL": {
-      "start_bar": "2026-09-15T15:15:00-04:00"
+    "QRVO": {
+      "start_bar": "2026-09-15T15:40:00-04:00"
     },
-    "XXI": {
-      "start_bar": "2026-09-15T15:15:00-04:00"
+    "AAOI": {
+      "start_bar": "2026-09-15T15:40:00-04:00"
     },
-    "SMR": {
-      "start_bar": "2026-09-15T15:25:00-04:00"
+    "MU": {
+      "start_bar": "2026-09-15T15:40:00-04:00"
     },
-    "TTAN": {
-      "start_bar": "2026-09-15T15:25:00-04:00"
+    "SU": {
+      "start_bar": "2026-09-15T15:40:00-04:00"
     },
-    "CRCL": {
-      "start_bar": "2026-09-15T15:25:00-04:00"
-    },
-    "COHR": {
-      "start_bar": "2026-09-15T15:25:00-04:00"
-    },
-    "CRSR": {
-      "start_bar": "2026-09-15T15:25:00-04:00"
-    },
-    "TWLO": {
-      "start_bar": "2026-09-15T15:25:00-04:00"
+    "S": {
+      "start_bar": "2026-09-15T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -307,10 +298,7 @@
     "KOS": "aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "GRABW": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "WBTN": "small_cap_gainers",
-    "LU": "small_cap_gainers",
     "EOSE": "most_shorted_stocks",
     "AAL": "most_actives",
     "BSP": "day_gainers",
@@ -546,6 +534,9 @@
     "HAIN": "aggressive_small_caps",
     "SPRU": "small_cap_gainers",
     "INTC": "most_actives",
-    "MOBI": "small_cap_gainers"
+    "MOBI": "small_cap_gainers",
+    "KVUE": "most_actives",
+    "FFIV": "day_gainers",
+    "UTMD": "small_cap_gainers"
   }
 }
