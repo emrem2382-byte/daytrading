@@ -285,6 +285,15 @@
     },
     "S": {
       "start_bar": "2026-09-15T15:40:00-04:00"
+    },
+    "VAL": {
+      "start_bar": "2026-09-15T15:50:00-04:00"
+    },
+    "DAR": {
+      "start_bar": "2026-09-15T15:50:00-04:00"
+    },
+    "BLSM": {
+      "start_bar": "2026-09-15T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -341,7 +350,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "small_cap_gainers+most_shorted_stocks",
+    "XRX": "most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
