@@ -27,9 +27,6 @@
     "KOS",
     "SM",
     "NAT",
-    "AVAV",
-    "TYL",
-    "PRGS",
     "AARD",
     "RDWR",
     "CVE",
@@ -267,7 +264,10 @@
     "EAF",
     "ADPT",
     "RUM",
-    "BWMX"
+    "BWMX",
+    "SDRL",
+    "SD",
+    "EVCM"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
@@ -277,8 +277,14 @@
     "HBAN": {
       "start_bar": "2026-09-15T13:40:00-04:00"
     },
-    "CRSR": {
-      "start_bar": "2026-09-15T13:35:00-04:00"
+    "VBIO": {
+      "start_bar": "2026-09-15T13:50:00-04:00"
+    },
+    "ORIC": {
+      "start_bar": "2026-09-15T13:50:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-09-15T13:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -293,9 +299,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "AVAV": "day_gainers",
-    "TYL": "day_gainers",
-    "PRGS": "small_cap_gainers",
     "AARD": "small_cap_gainers",
     "RDWR": "small_cap_gainers",
     "CVE": "most_actives",
@@ -531,6 +534,9 @@
     "EAF": "small_cap_gainers",
     "ADPT": "day_gainers",
     "RUM": "day_gainers",
-    "BWMX": "small_cap_gainers"
+    "BWMX": "small_cap_gainers",
+    "SDRL": "day_gainers",
+    "SD": "small_cap_gainers",
+    "EVCM": "small_cap_gainers"
   }
 }
