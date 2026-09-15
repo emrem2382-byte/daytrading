@@ -21,11 +21,6 @@
     "TLX",
     "NOK",
     "INTC",
-    "SES",
-    "PYXS",
-    "HAIN",
-    "DBI",
-    "OPENZ",
     "ALLT",
     "EVCM",
     "STKE",
@@ -267,15 +262,29 @@
     "MAAS",
     "CTRE",
     "FTRE",
-    "RUN"
+    "RUN",
+    "WGS",
+    "DK",
+    "TENB",
+    "ECVT",
+    "CRT"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "LTGO": {
-      "start_bar": "2026-09-15T10:45:00-04:00"
+    "CVLT": {
+      "start_bar": "2026-09-15T11:15:00-04:00"
     },
-    "EXFY": {
-      "start_bar": "2026-09-15T10:55:00-04:00"
+    "SMWB": {
+      "start_bar": "2026-09-15T11:15:00-04:00"
+    },
+    "LZ": {
+      "start_bar": "2026-09-15T11:15:00-04:00"
+    },
+    "DUOL": {
+      "start_bar": "2026-09-15T11:15:00-04:00"
+    },
+    "BRZE": {
+      "start_bar": "2026-09-15T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -284,11 +293,6 @@
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "SES": "small_cap_gainers",
-    "PYXS": "small_cap_gainers",
-    "HAIN": "small_cap_gainers",
-    "DBI": "small_cap_gainers",
-    "OPENZ": "small_cap_gainers",
     "ALLT": "small_cap_gainers",
     "EVCM": "small_cap_gainers",
     "STKE": "small_cap_gainers",
@@ -512,7 +516,7 @@
     "CDR-PC": "small_cap_gainers",
     "IVR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
-    "KPTI": "small_cap_gainers+most_shorted_stocks",
+    "KPTI": "most_shorted_stocks",
     "INIO": "day_gainers",
     "ECO": "day_gainers",
     "CIEN": "day_gainers",
@@ -528,6 +532,11 @@
     "MAAS": "day_gainers",
     "CTRE": "day_gainers",
     "FTRE": "small_cap_gainers",
-    "RUN": "most_shorted_stocks"
+    "RUN": "most_shorted_stocks",
+    "WGS": "day_gainers",
+    "DK": "day_gainers",
+    "TENB": "day_gainers",
+    "ECVT": "small_cap_gainers",
+    "CRT": "small_cap_gainers"
   }
 }
