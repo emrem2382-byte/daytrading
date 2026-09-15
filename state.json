@@ -27,8 +27,6 @@
     "KOS",
     "SM",
     "NAT",
-    "TBI",
-    "BALY",
     "VACI-UN",
     "VSECU",
     "BBAI",
@@ -267,7 +265,9 @@
     "ALMR",
     "GMAB",
     "LKFT",
-    "TMC"
+    "TMC",
+    "GFR",
+    "EAF"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
@@ -276,6 +276,12 @@
     },
     "P": {
       "start_bar": "2026-09-15T13:15:00-04:00"
+    },
+    "WFC": {
+      "start_bar": "2026-09-15T13:25:00-04:00"
+    },
+    "ACP": {
+      "start_bar": "2026-09-15T13:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -290,8 +296,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "TBI": "small_cap_gainers",
-    "BALY": "small_cap_gainers",
     "VACI-UN": "small_cap_gainers",
     "VSECU": "small_cap_gainers",
     "BBAI": "most_shorted_stocks",
@@ -528,6 +532,8 @@
     "ALMR": "day_gainers",
     "GMAB": "day_gainers",
     "LKFT": "small_cap_gainers",
-    "TMC": "aggressive_small_caps"
+    "TMC": "aggressive_small_caps",
+    "GFR": "small_cap_gainers",
+    "EAF": "small_cap_gainers"
   }
 }
