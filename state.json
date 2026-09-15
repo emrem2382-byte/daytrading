@@ -20,16 +20,12 @@
   "tracked_tickers": [
     "TLX",
     "NOK",
-    "INTC",
     "VISN",
     "WAY",
     "SKIL",
     "KOS",
     "SM",
     "NAT",
-    "CVLT",
-    "GWRE",
-    "CTSH",
     "ZIP",
     "SMWB",
     "FDMT",
@@ -267,34 +263,37 @@
     "EVCM",
     "WHD",
     "SNUS-PH",
-    "WOLF"
+    "WOLF",
+    "SSL",
+    "CNDT",
+    "SQNS",
+    "BRKRP"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "VBIO": {
-      "start_bar": "2026-09-15T13:50:00-04:00"
-    },
-    "ORIC": {
-      "start_bar": "2026-09-15T13:50:00-04:00"
-    },
-    "AMD": {
-      "start_bar": "2026-09-15T13:50:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-09-15T14:00:00-04:00"
-    },
-    "DELL": {
-      "start_bar": "2026-09-15T14:00:00-04:00"
-    },
-    "VIOT": {
-      "start_bar": "2026-09-15T14:00:00-04:00"
-    },
     "AIXI": {
       "start_bar": "2026-09-15T14:00:00-04:00"
+    },
+    "AEMD": {
+      "start_bar": "2026-09-15T14:15:00-04:00"
+    },
+    "DHX": {
+      "start_bar": "2026-09-15T14:20:00-04:00"
+    },
+    "CXM": {
+      "start_bar": "2026-09-15T14:20:00-04:00"
+    },
+    "TDOC": {
+      "start_bar": "2026-09-15T14:20:00-04:00"
+    },
+    "AXTI": {
+      "start_bar": "2026-09-15T14:20:00-04:00"
+    },
+    "KPTI": {
+      "start_bar": "2026-09-15T14:15:00-04:00"
     }
   },
   "ticker_sources": {
-    "INTC": "most_actives",
     "NOK": "most_actives",
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
@@ -305,9 +304,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "CVLT": "day_gainers",
-    "GWRE": "day_gainers",
-    "CTSH": "day_gainers",
     "ZIP": "small_cap_gainers",
     "SMWB": "small_cap_gainers",
     "FDMT": "small_cap_gainers",
@@ -367,7 +363,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "most_shorted_stocks",
+    "XRX": "small_cap_gainers+most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
@@ -543,6 +539,10 @@
     "EVCM": "small_cap_gainers",
     "WHD": "day_gainers",
     "SNUS-PH": "small_cap_gainers",
-    "WOLF": "most_shorted_stocks"
+    "WOLF": "most_shorted_stocks",
+    "SSL": "day_gainers",
+    "CNDT": "small_cap_gainers",
+    "SQNS": "small_cap_gainers",
+    "BRKRP": "small_cap_gainers"
   }
 }
