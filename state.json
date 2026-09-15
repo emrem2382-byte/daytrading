@@ -21,10 +21,6 @@
     "TLX",
     "NOK",
     "INTC",
-    "ALLT",
-    "EVCM",
-    "STKE",
-    "STRZ",
     "CPIX",
     "VISN",
     "COUR",
@@ -267,24 +263,40 @@
     "DK",
     "TENB",
     "ECVT",
-    "CRT"
+    "CRT",
+    "CNH",
+    "SU",
+    "PBR",
+    "CRSR"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "CVLT": {
-      "start_bar": "2026-09-15T11:15:00-04:00"
-    },
     "SMWB": {
-      "start_bar": "2026-09-15T11:15:00-04:00"
-    },
-    "LZ": {
       "start_bar": "2026-09-15T11:15:00-04:00"
     },
     "DUOL": {
       "start_bar": "2026-09-15T11:15:00-04:00"
     },
-    "BRZE": {
-      "start_bar": "2026-09-15T11:15:00-04:00"
+    "PRGS": {
+      "start_bar": "2026-09-15T11:30:00-04:00"
+    },
+    "RDWR": {
+      "start_bar": "2026-09-15T11:30:00-04:00"
+    },
+    "IOT": {
+      "start_bar": "2026-09-15T11:25:00-04:00"
+    },
+    "LTGO": {
+      "start_bar": "2026-09-15T11:25:00-04:00"
+    },
+    "ONDS": {
+      "start_bar": "2026-09-15T11:30:00-04:00"
+    },
+    "CBRS": {
+      "start_bar": "2026-09-15T11:30:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-09-15T11:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -293,10 +305,6 @@
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "ALLT": "small_cap_gainers",
-    "EVCM": "small_cap_gainers",
-    "STKE": "small_cap_gainers",
-    "STRZ": "small_cap_gainers",
     "CPIX": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
@@ -422,7 +430,7 @@
     "EIKN": "small_cap_gainers",
     "ATEN": "small_cap_gainers",
     "SDGR": "small_cap_gainers",
-    "ONDS": "most_shorted_stocks",
+    "ONDS": "most_actives+most_shorted_stocks",
     "TMDX": "day_gainers",
     "GRPN": "most_shorted_stocks",
     "CRCL": "day_gainers",
@@ -537,6 +545,10 @@
     "DK": "day_gainers",
     "TENB": "day_gainers",
     "ECVT": "small_cap_gainers",
-    "CRT": "small_cap_gainers"
+    "CRT": "small_cap_gainers",
+    "CNH": "day_gainers",
+    "SU": "day_gainers",
+    "PBR": "day_gainers",
+    "CRSR": "small_cap_gainers"
   }
 }
