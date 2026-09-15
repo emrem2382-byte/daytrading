@@ -28,8 +28,6 @@
     "NAT",
     "GRABW",
     "VBIO",
-    "GEMI",
-    "EMBC",
     "WBTN",
     "LU",
     "EOSE",
@@ -267,7 +265,9 @@
     "AZTA",
     "VACI-UN",
     "HAIN",
-    "SPRU"
+    "SPRU",
+    "INTC",
+    "MOBI"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
@@ -276,6 +276,24 @@
     },
     "XXI": {
       "start_bar": "2026-09-15T15:15:00-04:00"
+    },
+    "SMR": {
+      "start_bar": "2026-09-15T15:25:00-04:00"
+    },
+    "TTAN": {
+      "start_bar": "2026-09-15T15:25:00-04:00"
+    },
+    "CRCL": {
+      "start_bar": "2026-09-15T15:25:00-04:00"
+    },
+    "COHR": {
+      "start_bar": "2026-09-15T15:25:00-04:00"
+    },
+    "CRSR": {
+      "start_bar": "2026-09-15T15:25:00-04:00"
+    },
+    "TWLO": {
+      "start_bar": "2026-09-15T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -291,8 +309,6 @@
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "GEMI": "small_cap_gainers",
-    "EMBC": "small_cap_gainers",
     "WBTN": "small_cap_gainers",
     "LU": "small_cap_gainers",
     "EOSE": "most_shorted_stocks",
@@ -528,6 +544,8 @@
     "AZTA": "small_cap_gainers",
     "VACI-UN": "small_cap_gainers",
     "HAIN": "aggressive_small_caps",
-    "SPRU": "small_cap_gainers"
+    "SPRU": "small_cap_gainers",
+    "INTC": "most_actives",
+    "MOBI": "small_cap_gainers"
   }
 }
