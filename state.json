@@ -21,13 +21,9 @@
     "TLX",
     "NOK",
     "INTC",
-    "CPIX",
     "VISN",
     "COUR",
-    "FUN",
     "OI",
-    "OLN",
-    "EVGO",
     "QUBT",
     "AAPL",
     "NFLX",
@@ -267,36 +263,28 @@
     "CNH",
     "SU",
     "PBR",
-    "CRSR"
+    "CRSR",
+    "NAVN",
+    "RMD",
+    "QLYS",
+    "BAK"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "SMWB": {
-      "start_bar": "2026-09-15T11:15:00-04:00"
-    },
-    "DUOL": {
-      "start_bar": "2026-09-15T11:15:00-04:00"
-    },
-    "PRGS": {
-      "start_bar": "2026-09-15T11:30:00-04:00"
-    },
     "RDWR": {
       "start_bar": "2026-09-15T11:30:00-04:00"
     },
-    "IOT": {
-      "start_bar": "2026-09-15T11:25:00-04:00"
+    "TRAX": {
+      "start_bar": "2026-09-15T11:45:00-04:00"
     },
-    "LTGO": {
-      "start_bar": "2026-09-15T11:25:00-04:00"
+    "TWST": {
+      "start_bar": "2026-09-15T11:40:00-04:00"
     },
-    "ONDS": {
-      "start_bar": "2026-09-15T11:30:00-04:00"
+    "DELL": {
+      "start_bar": "2026-09-15T11:45:00-04:00"
     },
-    "CBRS": {
-      "start_bar": "2026-09-15T11:30:00-04:00"
-    },
-    "AMD": {
-      "start_bar": "2026-09-15T11:30:00-04:00"
+    "BE": {
+      "start_bar": "2026-09-15T11:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -305,13 +293,9 @@
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "CPIX": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
-    "FUN": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
-    "OLN": "aggressive_small_caps",
-    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "AAPL": "most_actives",
     "NFLX": "most_actives",
@@ -549,6 +533,10 @@
     "CNH": "day_gainers",
     "SU": "day_gainers",
     "PBR": "day_gainers",
-    "CRSR": "small_cap_gainers"
+    "CRSR": "small_cap_gainers",
+    "NAVN": "day_gainers",
+    "RMD": "day_gainers",
+    "QLYS": "day_gainers",
+    "BAK": "small_cap_gainers"
   }
 }
