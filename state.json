@@ -22,10 +22,7 @@
     "NOK",
     "INTC",
     "VISN",
-    "COUR",
-    "NFLX",
     "WAY",
-    "SPOT",
     "NET",
     "FTNT",
     "LOPE",
@@ -267,18 +264,15 @@
     "BAK",
     "VERA",
     "DOCU",
-    "DINO"
+    "DINO",
+    "CE",
+    "GH",
+    "SLDPW"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "TRAX": {
-      "start_bar": "2026-09-15T11:45:00-04:00"
-    },
     "EMBC": {
       "start_bar": "2026-09-15T11:55:00-04:00"
-    },
-    "FROG": {
-      "start_bar": "2026-09-15T11:50:00-04:00"
     },
     "ANGI": {
       "start_bar": "2026-09-15T11:55:00-04:00"
@@ -291,6 +285,9 @@
     },
     "GDRX": {
       "start_bar": "2026-09-15T11:55:00-04:00"
+    },
+    "EIKN": {
+      "start_bar": "2026-09-15T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -300,10 +297,7 @@
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
     "VISN": "aggressive_small_caps",
-    "COUR": "aggressive_small_caps",
-    "NFLX": "most_actives",
     "WAY": "day_gainers",
-    "SPOT": "day_gainers",
     "NET": "day_gainers",
     "FTNT": "day_gainers",
     "LOPE": "day_gainers",
@@ -543,6 +537,9 @@
     "BAK": "small_cap_gainers",
     "VERA": "day_gainers",
     "DOCU": "day_gainers",
-    "DINO": "day_gainers"
+    "DINO": "day_gainers",
+    "CE": "day_gainers",
+    "GH": "day_gainers",
+    "SLDPW": "small_cap_gainers"
   }
 }
