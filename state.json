@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
     "OPENW",
-    "OPENL",
-    "CERT",
-    "AEMD",
-    "EXFY",
-    "ACRS",
+    "OPENZ",
+    "TYRA",
     "ALLT",
-    "EMBC",
-    "RBRK",
-    "ASAN",
-    "CXM",
-    "CRCL",
-    "HUBS",
-    "RBLX",
-    "TYRA"
+    "ZIP",
+    "CERT",
+    "TRI",
+    "SAIL",
+    "EXFY",
+    "BMNR",
+    "NTSK",
+    "GWRE",
+    "BLSH",
+    "EVGO",
+    "BL"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
