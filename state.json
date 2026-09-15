@@ -22,12 +22,6 @@
     "NOK",
     "WOLF",
     "INTC",
-    "TRI",
-    "ASAN",
-    "APPN",
-    "INTU",
-    "COCO",
-    "VIA",
     "MORN",
     "IT",
     "HURN",
@@ -267,15 +261,24 @@
     "CDR-PC",
     "IVR",
     "PERI",
-    "KPTI"
+    "KPTI",
+    "INIO",
+    "ECO",
+    "CIEN",
+    "NE",
+    "WTI",
+    "LITB"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
     "WOLF": {
       "start_bar": "2026-09-15T10:20:00-04:00"
     },
-    "EVTL": {
-      "start_bar": "2026-09-15T10:20:00-04:00"
+    "OI": {
+      "start_bar": "2026-09-15T10:35:00-04:00"
+    },
+    "INIO": {
+      "start_bar": "2026-09-15T10:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -285,12 +288,6 @@
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "TRI": "day_gainers",
-    "ASAN": "day_gainers",
-    "APPN": "day_gainers",
-    "INTU": "day_gainers",
-    "COCO": "day_gainers",
-    "VIA": "day_gainers",
     "MORN": "day_gainers",
     "IT": "day_gainers",
     "HURN": "day_gainers",
@@ -328,7 +325,7 @@
     "LUNG": "small_cap_gainers",
     "SKIL": "small_cap_gainers",
     "AIFU": "small_cap_gainers",
-    "KOS": "small_cap_gainers+aggressive_small_caps",
+    "KOS": "aggressive_small_caps",
     "SEDG": "day_gainers",
     "PS": "day_gainers",
     "CHKP": "day_gainers",
@@ -528,6 +525,12 @@
     "CDR-PC": "small_cap_gainers",
     "IVR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
-    "KPTI": "most_shorted_stocks"
+    "KPTI": "most_shorted_stocks",
+    "INIO": "day_gainers",
+    "ECO": "day_gainers",
+    "CIEN": "day_gainers",
+    "NE": "day_gainers",
+    "WTI": "small_cap_gainers",
+    "LITB": "small_cap_gainers"
   }
 }
