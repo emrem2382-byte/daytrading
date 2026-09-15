@@ -27,9 +27,6 @@
     "KOS",
     "SM",
     "NAT",
-    "VACI-UN",
-    "VSECU",
-    "BBAI",
     "AVAV",
     "TYL",
     "PRGS",
@@ -267,21 +264,21 @@
     "LKFT",
     "TMC",
     "GFR",
-    "EAF"
+    "EAF",
+    "ADPT",
+    "RUM",
+    "BWMX"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "GRPN": {
-      "start_bar": "2026-09-15T13:15:00-04:00"
+    "PRIM": {
+      "start_bar": "2026-09-15T13:40:00-04:00"
     },
-    "P": {
-      "start_bar": "2026-09-15T13:15:00-04:00"
+    "HBAN": {
+      "start_bar": "2026-09-15T13:40:00-04:00"
     },
-    "WFC": {
-      "start_bar": "2026-09-15T13:25:00-04:00"
-    },
-    "ACP": {
-      "start_bar": "2026-09-15T13:25:00-04:00"
+    "CRSR": {
+      "start_bar": "2026-09-15T13:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -296,9 +293,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "VACI-UN": "small_cap_gainers",
-    "VSECU": "small_cap_gainers",
-    "BBAI": "most_shorted_stocks",
     "AVAV": "day_gainers",
     "TYL": "day_gainers",
     "PRGS": "small_cap_gainers",
@@ -367,7 +361,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "small_cap_gainers+most_shorted_stocks",
+    "XRX": "most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
@@ -534,6 +528,9 @@
     "LKFT": "small_cap_gainers",
     "TMC": "aggressive_small_caps",
     "GFR": "small_cap_gainers",
-    "EAF": "small_cap_gainers"
+    "EAF": "small_cap_gainers",
+    "ADPT": "day_gainers",
+    "RUM": "day_gainers",
+    "BWMX": "small_cap_gainers"
   }
 }
