@@ -27,10 +27,6 @@
     "KOS",
     "SM",
     "NAT",
-    "SLDE",
-    "AVPT",
-    "RXT",
-    "EFOR",
     "TBI",
     "BALY",
     "VACI-UN",
@@ -267,15 +263,19 @@
     "MFP",
     "AUROW",
     "EVGO",
-    "QUBT"
+    "QUBT",
+    "ALMR",
+    "GMAB",
+    "LKFT",
+    "TMC"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "GO": {
-      "start_bar": "2026-09-15T12:50:00-04:00"
+    "GRPN": {
+      "start_bar": "2026-09-15T13:15:00-04:00"
     },
-    "JBLU": {
-      "start_bar": "2026-09-15T13:00:00-04:00"
+    "P": {
+      "start_bar": "2026-09-15T13:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -290,10 +290,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "SLDE": "day_gainers",
-    "AVPT": "day_gainers",
-    "RXT": "small_cap_gainers",
-    "EFOR": "small_cap_gainers",
     "TBI": "small_cap_gainers",
     "BALY": "small_cap_gainers",
     "VACI-UN": "small_cap_gainers",
@@ -528,6 +524,10 @@
     "MFP": "small_cap_gainers",
     "AUROW": "small_cap_gainers",
     "EVGO": "most_shorted_stocks",
-    "QUBT": "most_shorted_stocks"
+    "QUBT": "most_shorted_stocks",
+    "ALMR": "day_gainers",
+    "GMAB": "day_gainers",
+    "LKFT": "small_cap_gainers",
+    "TMC": "aggressive_small_caps"
   }
 }
