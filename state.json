@@ -20,23 +20,8 @@
   "tracked_tickers": [
     "TLX",
     "NOK",
-    "MXL",
-    "EROC",
     "WOLF",
-    "CIFR",
     "INTC",
-    "GOOGL",
-    "BMNR",
-    "IONQ",
-    "XE",
-    "QLYS",
-    "MNDY",
-    "NTSK",
-    "WIX",
-    "RBRK",
-    "TENB",
-    "MH",
-    "SMMT",
     "TRI",
     "ASAN",
     "APPN",
@@ -267,45 +252,39 @@
     "VOYG",
     "INSW",
     "WHF",
-    "HTZ"
+    "HTZ",
+    "HBAN",
+    "MU",
+    "BRKR",
+    "HPE",
+    "VAL",
+    "RDNT",
+    "CRC",
+    "DAR",
+    "REF",
+    "SDHC",
+    "NAZ",
+    "CDR-PC",
+    "IVR",
+    "PERI",
+    "KPTI"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "IONQ": {
-      "start_bar": "2026-09-15T09:50:00-04:00"
+    "WOLF": {
+      "start_bar": "2026-09-15T10:20:00-04:00"
     },
-    "SPTX": {
-      "start_bar": "2026-09-15T09:55:00-04:00"
-    },
-    "EFOR": {
-      "start_bar": "2026-09-15T10:00:00-04:00"
-    },
-    "GRDN": {
-      "start_bar": "2026-09-15T10:00:00-04:00"
+    "EVTL": {
+      "start_bar": "2026-09-15T10:20:00-04:00"
     }
   },
   "ticker_sources": {
     "INTC": "most_actives",
     "NOK": "most_actives+day_gainers",
-    "MXL": "day_gainers",
-    "CIFR": "most_actives+day_gainers",
     "WOLF": "most_shorted_stocks",
-    "EROC": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "GOOGL": "most_actives",
-    "BMNR": "most_actives",
-    "IONQ": "most_actives",
-    "XE": "day_gainers",
-    "QLYS": "day_gainers",
-    "MNDY": "day_gainers",
-    "NTSK": "day_gainers",
-    "WIX": "day_gainers",
-    "RBRK": "day_gainers",
-    "TENB": "day_gainers",
-    "MH": "day_gainers",
-    "SMMT": "day_gainers",
     "TRI": "day_gainers",
     "ASAN": "day_gainers",
     "APPN": "day_gainers",
@@ -349,7 +328,7 @@
     "LUNG": "small_cap_gainers",
     "SKIL": "small_cap_gainers",
     "AIFU": "small_cap_gainers",
-    "KOS": "aggressive_small_caps",
+    "KOS": "small_cap_gainers+aggressive_small_caps",
     "SEDG": "day_gainers",
     "PS": "day_gainers",
     "CHKP": "day_gainers",
@@ -476,7 +455,7 @@
     "DELL": "day_gainers",
     "P": "day_gainers",
     "MUR": "day_gainers",
-    "RKLB": "day_gainers",
+    "RKLB": "most_actives",
     "CAI": "day_gainers",
     "CVI": "day_gainers",
     "CRGY": "day_gainers",
@@ -534,6 +513,21 @@
     "VOYG": "day_gainers",
     "INSW": "day_gainers",
     "WHF": "small_cap_gainers",
-    "HTZ": "most_shorted_stocks"
+    "HTZ": "most_shorted_stocks",
+    "HBAN": "most_actives",
+    "MU": "most_actives",
+    "BRKR": "day_gainers",
+    "HPE": "day_gainers",
+    "VAL": "day_gainers",
+    "RDNT": "day_gainers",
+    "CRC": "day_gainers",
+    "DAR": "day_gainers",
+    "REF": "small_cap_gainers",
+    "SDHC": "small_cap_gainers",
+    "NAZ": "small_cap_gainers",
+    "CDR-PC": "small_cap_gainers",
+    "IVR": "aggressive_small_caps",
+    "PERI": "aggressive_small_caps",
+    "KPTI": "most_shorted_stocks"
   }
 }
