@@ -27,9 +27,6 @@
     "KOS",
     "SM",
     "NAT",
-    "AARD",
-    "RDWR",
-    "CVE",
     "CVLT",
     "GWRE",
     "CTSH",
@@ -267,16 +264,13 @@
     "BWMX",
     "SDRL",
     "SD",
-    "EVCM"
+    "EVCM",
+    "WHD",
+    "SNUS-PH",
+    "WOLF"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "PRIM": {
-      "start_bar": "2026-09-15T13:40:00-04:00"
-    },
-    "HBAN": {
-      "start_bar": "2026-09-15T13:40:00-04:00"
-    },
     "VBIO": {
       "start_bar": "2026-09-15T13:50:00-04:00"
     },
@@ -285,6 +279,18 @@
     },
     "AMD": {
       "start_bar": "2026-09-15T13:50:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-09-15T14:00:00-04:00"
+    },
+    "DELL": {
+      "start_bar": "2026-09-15T14:00:00-04:00"
+    },
+    "VIOT": {
+      "start_bar": "2026-09-15T14:00:00-04:00"
+    },
+    "AIXI": {
+      "start_bar": "2026-09-15T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -299,9 +305,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "AARD": "small_cap_gainers",
-    "RDWR": "small_cap_gainers",
-    "CVE": "most_actives",
     "CVLT": "day_gainers",
     "GWRE": "day_gainers",
     "CTSH": "day_gainers",
@@ -537,6 +540,9 @@
     "BWMX": "small_cap_gainers",
     "SDRL": "day_gainers",
     "SD": "small_cap_gainers",
-    "EVCM": "small_cap_gainers"
+    "EVCM": "small_cap_gainers",
+    "WHD": "day_gainers",
+    "SNUS-PH": "small_cap_gainers",
+    "WOLF": "most_shorted_stocks"
   }
 }
