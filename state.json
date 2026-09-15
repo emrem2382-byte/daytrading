@@ -28,7 +28,6 @@
     "NAT",
     "GRABW",
     "VBIO",
-    "NABL",
     "GEMI",
     "EMBC",
     "WBTN",
@@ -267,30 +266,16 @@
     "CDE",
     "AZTA",
     "VACI-UN",
-    "HAIN"
+    "HAIN",
+    "SPRU"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "NKTX": {
-      "start_bar": "2026-09-15T14:45:00-04:00"
+    "DUOL": {
+      "start_bar": "2026-09-15T15:15:00-04:00"
     },
-    "JACK": {
-      "start_bar": "2026-09-15T14:45:00-04:00"
-    },
-    "EMBC": {
-      "start_bar": "2026-09-15T14:55:00-04:00"
-    },
-    "EOSE": {
-      "start_bar": "2026-09-15T14:55:00-04:00"
-    },
-    "XRX": {
-      "start_bar": "2026-09-15T14:55:00-04:00"
-    },
-    "DAVE": {
-      "start_bar": "2026-09-15T14:55:00-04:00"
-    },
-    "DK": {
-      "start_bar": "2026-09-15T14:55:00-04:00"
+    "XXI": {
+      "start_bar": "2026-09-15T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -306,7 +291,6 @@
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "NABL": "small_cap_gainers",
     "GEMI": "small_cap_gainers",
     "EMBC": "small_cap_gainers",
     "WBTN": "small_cap_gainers",
@@ -353,7 +337,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "most_shorted_stocks",
+    "XRX": "small_cap_gainers+most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
@@ -543,6 +527,7 @@
     "CDE": "most_actives",
     "AZTA": "small_cap_gainers",
     "VACI-UN": "small_cap_gainers",
-    "HAIN": "aggressive_small_caps"
+    "HAIN": "aggressive_small_caps",
+    "SPRU": "small_cap_gainers"
   }
 }
