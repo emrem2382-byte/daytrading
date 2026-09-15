@@ -26,8 +26,6 @@
     "KOS",
     "SM",
     "NAT",
-    "ZIP",
-    "SMWB",
     "FDMT",
     "IOT",
     "CABA",
@@ -267,7 +265,9 @@
     "SSL",
     "CNDT",
     "SQNS",
-    "BRKRP"
+    "BRKRP",
+    "T",
+    "TBN"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
@@ -279,18 +279,6 @@
     },
     "DHX": {
       "start_bar": "2026-09-15T14:20:00-04:00"
-    },
-    "CXM": {
-      "start_bar": "2026-09-15T14:20:00-04:00"
-    },
-    "TDOC": {
-      "start_bar": "2026-09-15T14:20:00-04:00"
-    },
-    "AXTI": {
-      "start_bar": "2026-09-15T14:20:00-04:00"
-    },
-    "KPTI": {
-      "start_bar": "2026-09-15T14:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -301,11 +289,9 @@
     "VISN": "aggressive_small_caps",
     "WAY": "day_gainers",
     "SKIL": "small_cap_gainers",
-    "KOS": "small_cap_gainers+aggressive_small_caps",
+    "KOS": "aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "ZIP": "small_cap_gainers",
-    "SMWB": "small_cap_gainers",
     "FDMT": "small_cap_gainers",
     "IOT": "day_gainers",
     "CABA": "small_cap_gainers",
@@ -363,7 +349,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "small_cap_gainers+most_shorted_stocks",
+    "XRX": "most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
@@ -543,6 +529,8 @@
     "SSL": "day_gainers",
     "CNDT": "small_cap_gainers",
     "SQNS": "small_cap_gainers",
-    "BRKRP": "small_cap_gainers"
+    "BRKRP": "small_cap_gainers",
+    "T": "most_actives",
+    "TBN": "small_cap_gainers"
   }
 }
