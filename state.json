@@ -20,12 +20,7 @@
   "tracked_tickers": [
     "TLX",
     "NOK",
-    "WOLF",
     "INTC",
-    "MORN",
-    "IT",
-    "HURN",
-    "VRSK",
     "CHWY",
     "RBLX",
     "BAH",
@@ -267,31 +262,28 @@
     "CIEN",
     "NE",
     "WTI",
-    "LITB"
+    "LITB",
+    "CSQR",
+    "ILMN",
+    "MIDD",
+    "TMO",
+    "DGX"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "WOLF": {
-      "start_bar": "2026-09-15T10:20:00-04:00"
-    },
     "OI": {
       "start_bar": "2026-09-15T10:35:00-04:00"
     },
-    "INIO": {
-      "start_bar": "2026-09-15T10:35:00-04:00"
+    "LTGO": {
+      "start_bar": "2026-09-15T10:45:00-04:00"
     }
   },
   "ticker_sources": {
     "INTC": "most_actives",
-    "NOK": "most_actives+day_gainers",
-    "WOLF": "most_shorted_stocks",
+    "NOK": "most_actives",
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "MORN": "day_gainers",
-    "IT": "day_gainers",
-    "HURN": "day_gainers",
-    "VRSK": "day_gainers",
     "CHWY": "day_gainers",
     "RBLX": "day_gainers",
     "BAH": "day_gainers",
@@ -491,7 +483,7 @@
     "SEI": "day_gainers",
     "WFC": "day_gainers",
     "AXTI": "day_gainers",
-    "RIG": "day_gainers",
+    "RIG": "most_actives+day_gainers",
     "APA": "day_gainers",
     "BAND": "small_cap_gainers",
     "GWH": "small_cap_gainers",
@@ -525,12 +517,17 @@
     "CDR-PC": "small_cap_gainers",
     "IVR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
-    "KPTI": "most_shorted_stocks",
+    "KPTI": "small_cap_gainers+most_shorted_stocks",
     "INIO": "day_gainers",
     "ECO": "day_gainers",
     "CIEN": "day_gainers",
     "NE": "day_gainers",
     "WTI": "small_cap_gainers",
-    "LITB": "small_cap_gainers"
+    "LITB": "small_cap_gainers",
+    "CSQR": "day_gainers",
+    "ILMN": "day_gainers",
+    "MIDD": "day_gainers",
+    "TMO": "day_gainers",
+    "DGX": "day_gainers"
   }
 }
