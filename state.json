@@ -23,9 +23,6 @@
     "INTC",
     "VISN",
     "COUR",
-    "OI",
-    "QUBT",
-    "AAPL",
     "NFLX",
     "WAY",
     "SPOT",
@@ -267,24 +264,33 @@
     "NAVN",
     "RMD",
     "QLYS",
-    "BAK"
+    "BAK",
+    "VERA",
+    "DOCU",
+    "DINO"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "RDWR": {
-      "start_bar": "2026-09-15T11:30:00-04:00"
-    },
     "TRAX": {
       "start_bar": "2026-09-15T11:45:00-04:00"
     },
-    "TWST": {
-      "start_bar": "2026-09-15T11:40:00-04:00"
+    "EMBC": {
+      "start_bar": "2026-09-15T11:55:00-04:00"
     },
-    "DELL": {
-      "start_bar": "2026-09-15T11:45:00-04:00"
+    "FROG": {
+      "start_bar": "2026-09-15T11:50:00-04:00"
     },
-    "BE": {
-      "start_bar": "2026-09-15T11:45:00-04:00"
+    "ANGI": {
+      "start_bar": "2026-09-15T11:55:00-04:00"
+    },
+    "W": {
+      "start_bar": "2026-09-15T11:55:00-04:00"
+    },
+    "ORIC": {
+      "start_bar": "2026-09-15T11:55:00-04:00"
+    },
+    "GDRX": {
+      "start_bar": "2026-09-15T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -295,9 +301,6 @@
     "TLX": "day_gainers",
     "VISN": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
-    "OI": "aggressive_small_caps",
-    "QUBT": "most_shorted_stocks",
-    "AAPL": "most_actives",
     "NFLX": "most_actives",
     "WAY": "day_gainers",
     "SPOT": "day_gainers",
@@ -537,6 +540,9 @@
     "NAVN": "day_gainers",
     "RMD": "day_gainers",
     "QLYS": "day_gainers",
-    "BAK": "small_cap_gainers"
+    "BAK": "small_cap_gainers",
+    "VERA": "day_gainers",
+    "DOCU": "day_gainers",
+    "DINO": "day_gainers"
   }
 }
