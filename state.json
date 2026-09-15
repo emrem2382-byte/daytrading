@@ -19,20 +19,8 @@
   "last_session": "open",
   "tracked_tickers": [
     "TLX",
-    "SAP",
-    "OKTA",
-    "VET",
-    "FLWS",
-    "OPENL",
-    "AUROW",
-    "SOUN",
-    "LENZ",
-    "NTLA",
-    "SLS",
     "NOK",
     "MXL",
-    "HPE",
-    "BW",
     "EROC",
     "WOLF",
     "CIFR",
@@ -267,51 +255,45 @@
     "BBBYW",
     "CLBK",
     "ACP",
-    "AIXI"
+    "AIXI",
+    "TSLA",
+    "SMCI",
+    "SMTC",
+    "LIME",
+    "RGEN",
+    "MRVL",
+    "AMD",
+    "VSH",
+    "VOYG",
+    "INSW",
+    "WHF",
+    "HTZ"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
-    "MXL": {
-      "start_bar": "2026-09-15T09:40:00-04:00"
-    },
-    "HPE": {
-      "start_bar": "2026-09-15T09:40:00-04:00"
-    },
-    "AVAV": {
-      "start_bar": "2026-09-15T09:40:00-04:00"
-    },
-    "ZIP": {
-      "start_bar": "2026-09-15T09:40:00-04:00"
-    },
-    "EOSE": {
-      "start_bar": "2026-09-15T09:40:00-04:00"
-    },
     "IONQ": {
       "start_bar": "2026-09-15T09:50:00-04:00"
+    },
+    "SPTX": {
+      "start_bar": "2026-09-15T09:55:00-04:00"
+    },
+    "EFOR": {
+      "start_bar": "2026-09-15T10:00:00-04:00"
+    },
+    "GRDN": {
+      "start_bar": "2026-09-15T10:00:00-04:00"
     }
   },
   "ticker_sources": {
-    "HPE": "day_gainers",
     "INTC": "most_actives",
     "NOK": "most_actives+day_gainers",
     "MXL": "day_gainers",
     "CIFR": "most_actives+day_gainers",
-    "BW": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "EROC": "small_cap_gainers",
     "TYRA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "TLX": "day_gainers",
-    "SAP": "day_gainers",
-    "OKTA": "day_gainers",
-    "VET": "day_gainers",
-    "FLWS": "small_cap_gainers",
-    "OPENL": "small_cap_gainers",
-    "AUROW": "small_cap_gainers",
-    "SOUN": "most_shorted_stocks",
-    "LENZ": "most_shorted_stocks",
-    "NTLA": "most_shorted_stocks",
-    "SLS": "most_shorted_stocks",
     "GOOGL": "most_actives",
     "BMNR": "most_actives",
     "IONQ": "most_actives",
@@ -540,6 +522,18 @@
     "BBBYW": "small_cap_gainers",
     "CLBK": "aggressive_small_caps",
     "ACP": "aggressive_small_caps",
-    "AIXI": "most_shorted_stocks"
+    "AIXI": "most_shorted_stocks",
+    "TSLA": "most_actives",
+    "SMCI": "most_actives",
+    "SMTC": "day_gainers",
+    "LIME": "day_gainers",
+    "RGEN": "day_gainers",
+    "MRVL": "day_gainers",
+    "AMD": "day_gainers",
+    "VSH": "day_gainers",
+    "VOYG": "day_gainers",
+    "INSW": "day_gainers",
+    "WHF": "small_cap_gainers",
+    "HTZ": "most_shorted_stocks"
   }
 }
