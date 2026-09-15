@@ -25,9 +25,6 @@
     "WAY",
     "SKIL",
     "KOS",
-    "SEDG",
-    "PS",
-    "CHKP",
     "SM",
     "FSLY",
     "ASST",
@@ -267,7 +264,10 @@
     "BLLN",
     "COUR",
     "ENOV",
-    "OI"
+    "OI",
+    "MRCY",
+    "AADX",
+    "BORR"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
@@ -286,11 +286,20 @@
     "IOVA": {
       "start_bar": "2026-09-15T12:25:00-04:00"
     },
-    "CBRS": {
-      "start_bar": "2026-09-15T12:25:00-04:00"
+    "AAL": {
+      "start_bar": "2026-09-15T12:35:00-04:00"
     },
-    "VOYG": {
-      "start_bar": "2026-09-15T12:20:00-04:00"
+    "PHAT": {
+      "start_bar": "2026-09-15T12:35:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-09-15T12:35:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-09-15T12:35:00-04:00"
+    },
+    "FOSL": {
+      "start_bar": "2026-09-15T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -303,9 +312,6 @@
     "WAY": "day_gainers",
     "SKIL": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
-    "SEDG": "day_gainers",
-    "PS": "day_gainers",
-    "CHKP": "day_gainers",
     "SM": "day_gainers",
     "FSLY": "day_gainers",
     "ASST": "day_gainers",
@@ -543,6 +549,9 @@
     "BLLN": "day_gainers",
     "COUR": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
-    "OI": "aggressive_small_caps"
+    "OI": "aggressive_small_caps",
+    "MRCY": "day_gainers",
+    "AADX": "day_gainers",
+    "BORR": "small_cap_gainers"
   }
 }
