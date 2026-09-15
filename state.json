@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "OPENW",
-    "OPENZ",
-    "TYRA",
-    "ALLT",
-    "ZIP",
-    "CERT",
-    "TRI",
-    "SAIL",
-    "EXFY",
-    "BMNR",
-    "NTSK",
-    "GWRE",
-    "BLSH",
-    "EVGO",
-    "BL"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "TLX",
     "NOK",
