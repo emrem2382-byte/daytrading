@@ -26,12 +26,7 @@
     "SKIL",
     "KOS",
     "SM",
-    "OMDA",
-    "KMDA",
-    "SPTX",
-    "AVLN",
     "NAT",
-    "GENI",
     "SLDE",
     "AVPT",
     "RXT",
@@ -267,12 +262,20 @@
     "BORR",
     "MAIR",
     "TWLO",
-    "UEIC"
+    "UEIC",
+    "S",
+    "MFP",
+    "AUROW",
+    "EVGO",
+    "QUBT"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
     "GO": {
       "start_bar": "2026-09-15T12:50:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-09-15T13:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -286,12 +289,7 @@
     "SKIL": "small_cap_gainers",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "SM": "day_gainers",
-    "OMDA": "small_cap_gainers",
-    "KMDA": "small_cap_gainers",
-    "SPTX": "small_cap_gainers",
-    "AVLN": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "GENI": "aggressive_small_caps",
     "SLDE": "day_gainers",
     "AVPT": "day_gainers",
     "RXT": "small_cap_gainers",
@@ -369,7 +367,7 @@
     "ULCC": "aggressive_small_caps",
     "JACK": "most_shorted_stocks",
     "GSHD": "small_cap_gainers",
-    "XRX": "most_shorted_stocks",
+    "XRX": "small_cap_gainers+most_shorted_stocks",
     "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
@@ -525,6 +523,11 @@
     "BORR": "small_cap_gainers",
     "MAIR": "day_gainers",
     "TWLO": "day_gainers",
-    "UEIC": "small_cap_gainers"
+    "UEIC": "small_cap_gainers",
+    "S": "day_gainers",
+    "MFP": "small_cap_gainers",
+    "AUROW": "small_cap_gainers",
+    "EVGO": "most_shorted_stocks",
+    "QUBT": "most_shorted_stocks"
   }
 }
