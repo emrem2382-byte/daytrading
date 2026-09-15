@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "OPENW",
+    "OPENL",
+    "CERT",
+    "AEMD",
+    "EXFY",
+    "ACRS",
+    "ALLT",
+    "EMBC",
+    "RBRK",
+    "ASAN",
+    "CXM",
+    "CRCL",
+    "HUBS",
+    "RBLX",
+    "TYRA"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "COIN",
     "TYRA",
