@@ -16,39 +16,8 @@
     "EVGO",
     "BL"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
-    "COIN",
-    "TYRA",
-    "RXRX",
-    "AI",
-    "CAPR",
-    "KVUE",
-    "KURA",
-    "AAON",
-    "OPENW",
-    "WF",
-    "OPK",
-    "AUR",
-    "SII",
-    "LGN",
-    "ENOV",
-    "GOLD",
-    "PATH",
-    "M",
-    "ALKT",
-    "MSC",
-    "KHC",
-    "IREN",
-    "TLYS",
-    "KE",
-    "OCGN",
-    "VG",
-    "ATAI",
-    "VTRS",
-    "KEY",
-    "MRK",
-    "ET",
     "DV",
     "CMG",
     "PSLV",
@@ -267,72 +236,71 @@
     "IOVA",
     "CERT",
     "ORIC",
-    "GDRX"
+    "GDRX",
+    "NVDA",
+    "SNAP",
+    "FPS",
+    "SWKS",
+    "TXG",
+    "DAVE",
+    "QRVO",
+    "DELL",
+    "P",
+    "MUR",
+    "RKLB",
+    "CAI",
+    "CVI",
+    "CRGY",
+    "QCOM",
+    "FIVN",
+    "RVTY",
+    "CBRS",
+    "COHR",
+    "TEM",
+    "VIOT",
+    "VRA",
+    "CANG",
+    "SNUS-PI",
+    "AHT-PH",
+    "FLNC",
+    "MLCO",
+    "NSLR",
+    "QDEL",
+    "OPENW",
+    "TYRA"
   ],
-  "tracked_day": "2026-09-14",
+  "tracked_day": "2026-09-15",
   "pending_bull": {
-    "ALKT": {
-      "start_bar": "2026-09-14T15:40:00-04:00"
+    "MXL": {
+      "start_bar": "2026-09-15T09:40:00-04:00"
     },
-    "QLYS": {
-      "start_bar": "2026-09-14T15:40:00-04:00"
+    "HPE": {
+      "start_bar": "2026-09-15T09:40:00-04:00"
     },
-    "STKE": {
-      "start_bar": "2026-09-14T15:40:00-04:00"
+    "AVLN": {
+      "start_bar": "2026-09-15T09:35:00-04:00"
     },
-    "OPK": {
-      "start_bar": "2026-09-14T15:50:00-04:00"
+    "AVAV": {
+      "start_bar": "2026-09-15T09:40:00-04:00"
     },
-    "FDS": {
-      "start_bar": "2026-09-14T15:50:00-04:00"
+    "ZIP": {
+      "start_bar": "2026-09-15T09:40:00-04:00"
     },
-    "STRZ": {
-      "start_bar": "2026-09-14T15:50:00-04:00"
-    },
-    "GWRE": {
-      "start_bar": "2026-09-14T15:50:00-04:00"
+    "EOSE": {
+      "start_bar": "2026-09-15T09:40:00-04:00"
     }
   },
   "ticker_sources": {
-    "HPE": "most_actives+day_gainers",
+    "HPE": "day_gainers",
     "INTC": "most_actives",
-    "NOK": "most_actives",
+    "NOK": "most_actives+day_gainers",
     "MXL": "day_gainers",
     "CIFR": "most_actives+day_gainers",
     "BW": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "EROC": "small_cap_gainers",
-    "COIN": "day_gainers",
     "TYRA": "small_cap_gainers",
-    "RXRX": "small_cap_gainers+most_shorted_stocks",
-    "AI": "small_cap_gainers+most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
-    "KVUE": "most_actives",
-    "KURA": "aggressive_small_caps",
-    "AAON": "day_gainers",
     "OPENW": "small_cap_gainers",
-    "WF": "day_gainers",
-    "OPK": "small_cap_gainers",
-    "AUR": "most_actives",
-    "SII": "day_gainers",
-    "LGN": "day_gainers",
-    "ENOV": "aggressive_small_caps",
-    "GOLD": "small_cap_gainers",
-    "PATH": "most_actives",
-    "M": "day_gainers",
-    "ALKT": "day_gainers",
-    "MSC": "small_cap_gainers",
-    "KHC": "most_actives",
-    "IREN": "most_actives",
-    "TLYS": "small_cap_gainers",
-    "KE": "small_cap_gainers",
-    "OCGN": "most_shorted_stocks",
-    "VG": "most_actives",
-    "ATAI": "most_actives",
-    "VTRS": "most_actives",
-    "KEY": "most_actives",
-    "MRK": "most_actives",
-    "ET": "most_actives",
     "DV": "most_actives",
     "CMG": "most_actives",
     "PSLV": "most_actives",
@@ -533,7 +501,7 @@
     "EIKN": "small_cap_gainers",
     "ATEN": "small_cap_gainers",
     "SDGR": "small_cap_gainers",
-    "ONDS": "most_actives+most_shorted_stocks",
+    "ONDS": "most_shorted_stocks",
     "TMDX": "day_gainers",
     "GRPN": "most_shorted_stocks",
     "CRCL": "day_gainers",
@@ -543,6 +511,35 @@
     "IOVA": "day_gainers",
     "CERT": "small_cap_gainers",
     "ORIC": "small_cap_gainers",
-    "GDRX": "small_cap_gainers"
+    "GDRX": "small_cap_gainers",
+    "NVDA": "most_actives",
+    "SNAP": "most_actives+day_gainers",
+    "FPS": "day_gainers",
+    "SWKS": "day_gainers",
+    "TXG": "day_gainers",
+    "DAVE": "day_gainers",
+    "QRVO": "day_gainers",
+    "DELL": "day_gainers",
+    "P": "day_gainers",
+    "MUR": "day_gainers",
+    "RKLB": "day_gainers",
+    "CAI": "day_gainers",
+    "CVI": "day_gainers",
+    "CRGY": "day_gainers",
+    "QCOM": "day_gainers",
+    "FIVN": "day_gainers",
+    "RVTY": "day_gainers",
+    "CBRS": "day_gainers",
+    "COHR": "day_gainers",
+    "TEM": "day_gainers",
+    "VIOT": "small_cap_gainers",
+    "VRA": "small_cap_gainers",
+    "CANG": "small_cap_gainers",
+    "SNUS-PI": "small_cap_gainers",
+    "AHT-PH": "small_cap_gainers",
+    "FLNC": "aggressive_small_caps",
+    "MLCO": "aggressive_small_caps",
+    "NSLR": "aggressive_small_caps",
+    "QDEL": "aggressive_small_caps"
   }
 }
