@@ -12,7 +12,7 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 11,ANET,day_gainers,2026-09-11 13:55:03,199.1,209.06,195.12,sl_hit,2026-09-14 09:31:58,186.95,-6.1
 12,LENZ,most_shorted_stocks,2026-09-14 12:17:38,4.52,4.75,4.43,sl_hit,2026-09-15 09:40:45,4.39,-2.88
 13,RDWR,small_cap_gainers,2026-09-14 14:06:34,29.79,31.28,29.19,open,,,
-14,BL,small_cap_gainers,2026-09-14 15:12:49,30.18,31.69,29.58,open,,,
+14,BL,small_cap_gainers,2026-09-14 15:12:49,30.18,31.69,29.58,sl_hit,2026-09-15 09:53:32,29.49,-2.29
 15,OCGN,most_shorted_stocks,2026-09-14 15:28:52,1.05,1.1,1.03,sl_hit,2026-09-15 09:40:45,1.02,-2.67
 16,GRPN,most_shorted_stocks,2026-09-14 15:28:53,18.92,19.87,18.54,open,,,
 17,ALLT,small_cap_gainers,2026-09-14 15:42:00,8.47,8.89,8.3,sl_hit,2026-09-15 09:40:45,8.02,-5.37
