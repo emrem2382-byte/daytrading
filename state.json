@@ -26,10 +26,6 @@
     "KOS",
     "SM",
     "NAT",
-    "FDMT",
-    "IOT",
-    "CABA",
-    "LZ",
     "BL",
     "LTGO",
     "GRABW",
@@ -267,7 +263,11 @@
     "SQNS",
     "BRKRP",
     "T",
-    "TBN"
+    "TBN",
+    "CXW",
+    "AESI",
+    "BLSM",
+    "GCLWW"
   ],
   "tracked_day": "2026-09-15",
   "pending_bull": {
@@ -277,8 +277,17 @@
     "AEMD": {
       "start_bar": "2026-09-15T14:15:00-04:00"
     },
-    "DHX": {
-      "start_bar": "2026-09-15T14:20:00-04:00"
+    "LTGO": {
+      "start_bar": "2026-09-15T14:45:00-04:00"
+    },
+    "NKTX": {
+      "start_bar": "2026-09-15T14:45:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-09-15T14:45:00-04:00"
+    },
+    "RIG": {
+      "start_bar": "2026-09-15T14:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -292,10 +301,6 @@
     "KOS": "aggressive_small_caps",
     "SM": "day_gainers",
     "NAT": "aggressive_small_caps",
-    "FDMT": "small_cap_gainers",
-    "IOT": "day_gainers",
-    "CABA": "small_cap_gainers",
-    "LZ": "small_cap_gainers",
     "BL": "small_cap_gainers",
     "LTGO": "small_cap_gainers",
     "GRABW": "small_cap_gainers",
@@ -531,6 +536,10 @@
     "SQNS": "small_cap_gainers",
     "BRKRP": "small_cap_gainers",
     "T": "most_actives",
-    "TBN": "small_cap_gainers"
+    "TBN": "small_cap_gainers",
+    "CXW": "day_gainers",
+    "AESI": "small_cap_gainers",
+    "BLSM": "small_cap_gainers",
+    "GCLWW": "small_cap_gainers"
   }
 }
