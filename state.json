@@ -28,8 +28,6 @@
     "NVAX",
     "KSS",
     "XRX",
-    "SOFI",
-    "GRDN",
     "PACB",
     "EXFY",
     "TTAN",
@@ -267,27 +265,14 @@
     "SKIL",
     "ORC",
     "NAT",
-    "VBIO"
+    "VBIO",
+    "DBRG",
+    "ANGX"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "HOS": {
-      "start_bar": "2026-09-16T09:45:00-04:00"
-    },
-    "GH": {
-      "start_bar": "2026-09-16T09:45:00-04:00"
-    },
-    "CWH": {
-      "start_bar": "2026-09-16T09:45:00-04:00"
-    },
-    "W": {
-      "start_bar": "2026-09-16T09:55:00-04:00"
-    },
-    "BBBYW": {
-      "start_bar": "2026-09-16T09:55:00-04:00"
-    },
-    "VNET": {
-      "start_bar": "2026-09-16T09:55:00-04:00"
+    "CRT": {
+      "start_bar": "2026-09-16T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -305,8 +290,6 @@
     "NVAX": "most_shorted_stocks",
     "KSS": "aggressive_small_caps",
     "XRX": "most_shorted_stocks",
-    "SOFI": "most_actives",
-    "GRDN": "day_gainers",
     "PACB": "small_cap_gainers",
     "EXFY": "small_cap_gainers",
     "TTAN": "day_gainers",
@@ -540,6 +523,8 @@
     "SKIL": "small_cap_gainers",
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
-    "VBIO": "most_shorted_stocks"
+    "VBIO": "most_shorted_stocks",
+    "DBRG": "most_actives",
+    "ANGX": "aggressive_small_caps"
   }
 }
