@@ -36,9 +36,6 @@
     "BRKR",
     "KPTI",
     "RUN",
-    "CRSR",
-    "NAVN",
-    "RMD",
     "QLYS",
     "BAK",
     "VERA",
@@ -267,15 +264,24 @@
     "PGEN",
     "LAB",
     "EPAC",
-    "TEAD"
+    "TEAD",
+    "WGS",
+    "OPCH",
+    "VSTS"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "BWMX": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
+    "CE": {
+      "start_bar": "2026-09-16T14:40:00-04:00"
     },
-    "CTNM": {
-      "start_bar": "2026-09-16T14:25:00-04:00"
+    "MRCY": {
+      "start_bar": "2026-09-16T14:45:00-04:00"
+    },
+    "NTLA": {
+      "start_bar": "2026-09-16T14:40:00-04:00"
+    },
+    "AXSM": {
+      "start_bar": "2026-09-16T14:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -299,9 +305,6 @@
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
     "RUN": "most_shorted_stocks",
-    "CRSR": "small_cap_gainers",
-    "NAVN": "day_gainers",
-    "RMD": "day_gainers",
     "QLYS": "day_gainers",
     "BAK": "small_cap_gainers",
     "VERA": "day_gainers",
@@ -405,7 +408,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -501,7 +504,7 @@
     "GLOO": "small_cap_gainers",
     "GENI": "aggressive_small_caps",
     "PS": "day_gainers",
-    "COAG": "day_gainers",
+    "COAG": "small_cap_gainers",
     "EBS": "small_cap_gainers",
     "CRMT": "small_cap_gainers",
     "MDLN": "day_gainers",
@@ -528,6 +531,9 @@
     "PGEN": "day_gainers",
     "LAB": "small_cap_gainers",
     "EPAC": "small_cap_gainers",
-    "TEAD": "small_cap_gainers"
+    "TEAD": "small_cap_gainers",
+    "WGS": "day_gainers",
+    "OPCH": "day_gainers",
+    "VSTS": "small_cap_gainers"
   }
 }
