@@ -282,6 +282,18 @@
     },
     "OUST": {
       "start_bar": "2026-09-16T12:45:00-04:00"
+    },
+    "VIST": {
+      "start_bar": "2026-09-16T12:55:00-04:00"
+    },
+    "ENOV": {
+      "start_bar": "2026-09-16T12:55:00-04:00"
+    },
+    "TSEM": {
+      "start_bar": "2026-09-16T12:55:00-04:00"
+    },
+    "RXT": {
+      "start_bar": "2026-09-16T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -390,7 +402,7 @@
     "VACI-UN": "small_cap_gainers",
     "HAIN": "aggressive_small_caps",
     "SPRU": "small_cap_gainers",
-    "INTC": "most_actives+day_gainers",
+    "INTC": "most_actives",
     "MOBI": "small_cap_gainers",
     "KVUE": "most_actives",
     "FFIV": "day_gainers",
@@ -438,7 +450,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
