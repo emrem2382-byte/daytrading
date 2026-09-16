@@ -37,8 +37,6 @@
     "TSLA",
     "SMTC",
     "BRKR",
-    "CDR-PC",
-    "IVR",
     "PERI",
     "KPTI",
     "INIO",
@@ -267,21 +265,23 @@
     "TAC",
     "GOSS",
     "GLOO",
-    "GENI"
+    "GENI",
+    "PS",
+    "COAG"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "CCCC": {
-      "start_bar": "2026-09-16T12:30:00-04:00"
+    "NE": {
+      "start_bar": "2026-09-16T12:45:00-04:00"
     },
-    "AADX": {
-      "start_bar": "2026-09-16T12:30:00-04:00"
+    "WTI": {
+      "start_bar": "2026-09-16T12:45:00-04:00"
     },
-    "GFR": {
-      "start_bar": "2026-09-16T12:30:00-04:00"
+    "VIAV": {
+      "start_bar": "2026-09-16T12:45:00-04:00"
     },
-    "RUM": {
-      "start_bar": "2026-09-16T12:30:00-04:00"
+    "OUST": {
+      "start_bar": "2026-09-16T12:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -306,8 +306,6 @@
     "TSLA": "most_actives",
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
-    "CDR-PC": "small_cap_gainers",
-    "IVR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
     "INIO": "day_gainers",
@@ -440,7 +438,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -518,7 +516,7 @@
     "CTNM": "small_cap_gainers",
     "SENS": "small_cap_gainers",
     "APMD": "small_cap_gainers",
-    "PRLB": "small_cap_gainers",
+    "PRLB": "day_gainers",
     "LAC": "aggressive_small_caps",
     "AMRX": "day_gainers",
     "XMTR": "day_gainers",
@@ -534,6 +532,8 @@
     "TAC": "day_gainers",
     "GOSS": "small_cap_gainers",
     "GLOO": "small_cap_gainers",
-    "GENI": "aggressive_small_caps"
+    "GENI": "aggressive_small_caps",
+    "PS": "day_gainers",
+    "COAG": "small_cap_gainers"
   }
 }
