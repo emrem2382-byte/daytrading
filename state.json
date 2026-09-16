@@ -38,7 +38,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "DGX",
     "VIST",
     "MAAS",
     "CTRE",
@@ -267,45 +266,16 @@
     "AIFU",
     "IPHA",
     "EAT",
-    "POWL"
+    "POWL",
+    "FIVN"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "SNUS-PI": {
-      "start_bar": "2026-09-16T13:05:00-04:00"
-    },
-    "RMD": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
-    },
-    "HAIN": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
-    },
-    "SPRU": {
-      "start_bar": "2026-09-16T13:15:00-04:00"
-    },
-    "KVUE": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
-    },
-    "F": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
-    },
-    "OUST": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
-    },
-    "WGS": {
-      "start_bar": "2026-09-16T13:30:00-04:00"
-    },
-    "TENB": {
-      "start_bar": "2026-09-16T13:30:00-04:00"
-    },
-    "DOCU": {
-      "start_bar": "2026-09-16T13:30:00-04:00"
-    },
-    "GH": {
-      "start_bar": "2026-09-16T13:30:00-04:00"
-    },
     "TBN": {
       "start_bar": "2026-09-16T13:30:00-04:00"
+    },
+    "CNDT": {
+      "start_bar": "2026-09-16T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -331,7 +301,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "DGX": "day_gainers",
     "VIST": "day_gainers",
     "MAAS": "day_gainers",
     "CTRE": "day_gainers",
@@ -457,13 +426,13 @@
     "KSS": "aggressive_small_caps",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GRAB": "most_actives",
     "AAL": "most_actives",
     "ORCL": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "day_gainers",
+    "WULF": "most_actives+day_gainers",
     "F": "most_actives",
     "QNT": "day_gainers",
     "LITE": "day_gainers",
@@ -558,6 +527,7 @@
     "AIFU": "small_cap_gainers",
     "IPHA": "small_cap_gainers",
     "EAT": "day_gainers",
-    "POWL": "day_gainers"
+    "POWL": "day_gainers",
+    "FIVN": "day_gainers"
   }
 }
