@@ -37,10 +37,6 @@
     "ACP",
     "TSLA",
     "SMTC",
-    "VOYG",
-    "INSW",
-    "WHF",
-    "HTZ",
     "HBAN",
     "MU",
     "BRKR",
@@ -267,7 +263,11 @@
     "SENS",
     "APMD",
     "PRLB",
-    "LAC"
+    "LAC",
+    "AMRX",
+    "XMTR",
+    "CHRN",
+    "NFE"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
@@ -282,6 +282,9 @@
     },
     "LKFT": {
       "start_bar": "2026-09-16T11:45:00-04:00"
+    },
+    "ANGX": {
+      "start_bar": "2026-09-16T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -306,10 +309,6 @@
     "ACP": "aggressive_small_caps",
     "TSLA": "most_actives",
     "SMTC": "day_gainers",
-    "VOYG": "day_gainers",
-    "INSW": "day_gainers",
-    "WHF": "small_cap_gainers",
-    "HTZ": "most_shorted_stocks",
     "HBAN": "most_actives",
     "MU": "most_actives",
     "BRKR": "day_gainers",
@@ -455,7 +454,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "small_cap_gainers+most_shorted_stocks",
+    "CAPR": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -534,6 +533,10 @@
     "SENS": "small_cap_gainers",
     "APMD": "small_cap_gainers",
     "PRLB": "small_cap_gainers",
-    "LAC": "aggressive_small_caps"
+    "LAC": "aggressive_small_caps",
+    "AMRX": "day_gainers",
+    "XMTR": "day_gainers",
+    "CHRN": "day_gainers",
+    "NFE": "small_cap_gainers"
   }
 }
