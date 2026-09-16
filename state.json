@@ -38,13 +38,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "INIO",
-    "CIEN",
-    "NE",
-    "WTI",
-    "LITB",
-    "CSQR",
-    "ILMN",
     "MIDD",
     "TMO",
     "DGX",
@@ -267,7 +260,14 @@
     "PS",
     "COAG",
     "EBS",
-    "CRMT"
+    "CRMT",
+    "MDLN",
+    "MYGN",
+    "XERS",
+    "ADIG",
+    "LESL",
+    "AIFU",
+    "IPHA"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
@@ -279,6 +279,30 @@
     },
     "SNUS-PI": {
       "start_bar": "2026-09-16T13:05:00-04:00"
+    },
+    "RMD": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
+    },
+    "AZTA": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
+    },
+    "HAIN": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
+    },
+    "SPRU": {
+      "start_bar": "2026-09-16T13:15:00-04:00"
+    },
+    "KVUE": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
+    },
+    "F": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
+    },
+    "OUST": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
+    },
+    "SABR": {
+      "start_bar": "2026-09-16T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -304,13 +328,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "INIO": "day_gainers",
-    "CIEN": "day_gainers",
-    "NE": "day_gainers",
-    "WTI": "small_cap_gainers",
-    "LITB": "small_cap_gainers",
-    "CSQR": "day_gainers",
-    "ILMN": "day_gainers",
     "MIDD": "day_gainers",
     "TMO": "day_gainers",
     "DGX": "day_gainers",
@@ -445,7 +462,7 @@
     "ORCL": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "most_actives+day_gainers",
+    "WULF": "day_gainers",
     "F": "most_actives",
     "QNT": "day_gainers",
     "LITE": "day_gainers",
@@ -531,6 +548,13 @@
     "PS": "day_gainers",
     "COAG": "day_gainers",
     "EBS": "small_cap_gainers",
-    "CRMT": "small_cap_gainers"
+    "CRMT": "small_cap_gainers",
+    "MDLN": "day_gainers",
+    "MYGN": "small_cap_gainers",
+    "XERS": "small_cap_gainers",
+    "ADIG": "small_cap_gainers",
+    "LESL": "small_cap_gainers",
+    "AIFU": "small_cap_gainers",
+    "IPHA": "small_cap_gainers"
   }
 }
