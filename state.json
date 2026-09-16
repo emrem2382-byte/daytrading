@@ -38,9 +38,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "VIST",
-    "MAAS",
-    "CTRE",
     "FTRE",
     "RUN",
     "WGS",
@@ -267,15 +264,27 @@
     "IPHA",
     "EAT",
     "POWL",
-    "FIVN"
+    "FIVN",
+    "ECO",
+    "RH",
+    "PLCE"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
     "TBN": {
       "start_bar": "2026-09-16T13:30:00-04:00"
     },
-    "CNDT": {
-      "start_bar": "2026-09-16T13:45:00-04:00"
+    "INTC": {
+      "start_bar": "2026-09-16T13:55:00-04:00"
+    },
+    "TSEM": {
+      "start_bar": "2026-09-16T13:55:00-04:00"
+    },
+    "APLD": {
+      "start_bar": "2026-09-16T13:55:00-04:00"
+    },
+    "CRDO": {
+      "start_bar": "2026-09-16T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -301,9 +310,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "VIST": "day_gainers",
-    "MAAS": "day_gainers",
-    "CTRE": "day_gainers",
     "FTRE": "small_cap_gainers",
     "RUN": "most_shorted_stocks",
     "WGS": "day_gainers",
@@ -420,7 +426,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -528,6 +534,9 @@
     "IPHA": "small_cap_gainers",
     "EAT": "day_gainers",
     "POWL": "day_gainers",
-    "FIVN": "day_gainers"
+    "FIVN": "day_gainers",
+    "ECO": "day_gainers",
+    "RH": "day_gainers",
+    "PLCE": "small_cap_gainers"
   }
 }
