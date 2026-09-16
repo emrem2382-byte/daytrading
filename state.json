@@ -31,17 +31,11 @@
     "QDEL",
     "SEI",
     "AXTI",
-    "CLBK",
     "ACP",
-    "TSLA",
     "SMTC",
     "BRKR",
     "KPTI",
     "RUN",
-    "CRT",
-    "CNH",
-    "SU",
-    "PBR",
     "CRSR",
     "NAVN",
     "RMD",
@@ -267,36 +261,21 @@
     "PURR",
     "FRMI",
     "FOSL",
-    "PNTG"
+    "PNTG",
+    "RVTY",
+    "MTD",
+    "PGEN",
+    "LAB",
+    "EPAC",
+    "TEAD"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "SEI": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
-    },
-    "TSLA": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
-    },
-    "AADX": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
-    },
     "BWMX": {
       "start_bar": "2026-09-16T14:10:00-04:00"
     },
-    "UMC": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
-    },
-    "XTND": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
-    },
-    "BRCC": {
-      "start_bar": "2026-09-16T14:05:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-09-16T14:10:00-04:00"
+    "CTNM": {
+      "start_bar": "2026-09-16T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -312,20 +291,14 @@
     "FPS": "day_gainers",
     "COHR": "day_gainers",
     "CANG": "small_cap_gainers",
-    "QDEL": "small_cap_gainers+aggressive_small_caps",
+    "QDEL": "aggressive_small_caps",
     "SEI": "day_gainers",
     "AXTI": "day_gainers",
-    "CLBK": "aggressive_small_caps",
     "ACP": "aggressive_small_caps",
-    "TSLA": "most_actives",
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
     "RUN": "most_shorted_stocks",
-    "CRT": "small_cap_gainers",
-    "CNH": "day_gainers",
-    "SU": "day_gainers",
-    "PBR": "day_gainers",
     "CRSR": "small_cap_gainers",
     "NAVN": "day_gainers",
     "RMD": "day_gainers",
@@ -384,7 +357,7 @@
     "VACI-UN": "small_cap_gainers",
     "HAIN": "aggressive_small_caps",
     "SPRU": "small_cap_gainers",
-    "INTC": "most_actives",
+    "INTC": "most_actives+day_gainers",
     "MOBI": "small_cap_gainers",
     "KVUE": "most_actives",
     "FFIV": "day_gainers",
@@ -432,7 +405,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -510,7 +483,7 @@
     "CTNM": "small_cap_gainers",
     "SENS": "small_cap_gainers",
     "APMD": "small_cap_gainers",
-    "PRLB": "day_gainers",
+    "PRLB": "small_cap_gainers",
     "LAC": "aggressive_small_caps",
     "AMRX": "day_gainers",
     "XMTR": "day_gainers",
@@ -549,6 +522,12 @@
     "PURR": "day_gainers",
     "FRMI": "day_gainers",
     "FOSL": "small_cap_gainers",
-    "PNTG": "small_cap_gainers"
+    "PNTG": "small_cap_gainers",
+    "RVTY": "day_gainers",
+    "MTD": "day_gainers",
+    "PGEN": "day_gainers",
+    "LAB": "small_cap_gainers",
+    "EPAC": "small_cap_gainers",
+    "TEAD": "small_cap_gainers"
   }
 }
