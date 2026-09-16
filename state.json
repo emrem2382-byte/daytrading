@@ -30,7 +30,6 @@
     "COHR",
     "CANG",
     "QDEL",
-    "ATAI",
     "SEI",
     "AXTI",
     "CLBK",
@@ -38,10 +37,6 @@
     "TSLA",
     "SMTC",
     "BRKR",
-    "DAR",
-    "REF",
-    "SDHC",
-    "NAZ",
     "CDR-PC",
     "IVR",
     "PERI",
@@ -267,15 +262,26 @@
     "AXON",
     "CHDN",
     "NEOG",
-    "EMPD"
+    "EMPD",
+    "LQDA",
+    "TAC",
+    "GOSS",
+    "GLOO",
+    "GENI"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "KRMN": {
-      "start_bar": "2026-09-16T12:15:00-04:00"
+    "CCCC": {
+      "start_bar": "2026-09-16T12:30:00-04:00"
     },
-    "DBRG": {
-      "start_bar": "2026-09-16T12:15:00-04:00"
+    "AADX": {
+      "start_bar": "2026-09-16T12:30:00-04:00"
+    },
+    "GFR": {
+      "start_bar": "2026-09-16T12:30:00-04:00"
+    },
+    "RUM": {
+      "start_bar": "2026-09-16T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -293,7 +299,6 @@
     "COHR": "day_gainers",
     "CANG": "small_cap_gainers",
     "QDEL": "aggressive_small_caps",
-    "ATAI": "most_actives",
     "SEI": "day_gainers",
     "AXTI": "day_gainers",
     "CLBK": "aggressive_small_caps",
@@ -301,10 +306,6 @@
     "TSLA": "most_actives",
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
-    "DAR": "day_gainers",
-    "REF": "small_cap_gainers",
-    "SDHC": "small_cap_gainers",
-    "NAZ": "small_cap_gainers",
     "CDR-PC": "small_cap_gainers",
     "IVR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
@@ -439,7 +440,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -528,6 +529,11 @@
     "AXON": "day_gainers",
     "CHDN": "day_gainers",
     "NEOG": "day_gainers",
-    "EMPD": "small_cap_gainers"
+    "EMPD": "small_cap_gainers",
+    "LQDA": "day_gainers",
+    "TAC": "day_gainers",
+    "GOSS": "small_cap_gainers",
+    "GLOO": "small_cap_gainers",
+    "GENI": "aggressive_small_caps"
   }
 }
