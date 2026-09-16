@@ -31,10 +31,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "BFLY",
-    "KRMN",
-    "BLLN",
-    "COUR",
     "ENOV",
     "OI",
     "MRCY",
@@ -267,7 +263,11 @@
     "EW",
     "HONA",
     "CPIX",
-    "ASPSW"
+    "ASPSW",
+    "CNM",
+    "URGN",
+    "IESC",
+    "KCHP"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {},
@@ -287,10 +287,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "BFLY": "day_gainers",
-    "KRMN": "day_gainers",
-    "BLLN": "day_gainers",
-    "COUR": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "MRCY": "day_gainers",
@@ -382,7 +378,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -521,6 +517,10 @@
     "EW": "day_gainers",
     "HONA": "day_gainers",
     "CPIX": "small_cap_gainers",
-    "ASPSW": "small_cap_gainers"
+    "ASPSW": "small_cap_gainers",
+    "CNM": "day_gainers",
+    "URGN": "day_gainers",
+    "IESC": "day_gainers",
+    "KCHP": "small_cap_gainers"
   }
 }
