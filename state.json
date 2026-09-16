@@ -37,13 +37,7 @@
     "ACP",
     "TSLA",
     "SMTC",
-    "HBAN",
-    "MU",
     "BRKR",
-    "HPE",
-    "VAL",
-    "RDNT",
-    "CRC",
     "DAR",
     "REF",
     "SDHC",
@@ -267,24 +261,21 @@
     "AMRX",
     "XMTR",
     "CHRN",
-    "NFE"
+    "NFE",
+    "RKT",
+    "DHT",
+    "AXON",
+    "CHDN",
+    "NEOG",
+    "EMPD"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "DAR": {
-      "start_bar": "2026-09-16T11:50:00-04:00"
+    "KRMN": {
+      "start_bar": "2026-09-16T12:15:00-04:00"
     },
-    "ILMN": {
-      "start_bar": "2026-09-16T11:50:00-04:00"
-    },
-    "OI": {
-      "start_bar": "2026-09-16T11:50:00-04:00"
-    },
-    "LKFT": {
-      "start_bar": "2026-09-16T11:45:00-04:00"
-    },
-    "ANGX": {
-      "start_bar": "2026-09-16T11:55:00-04:00"
+    "DBRG": {
+      "start_bar": "2026-09-16T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -309,13 +300,7 @@
     "ACP": "aggressive_small_caps",
     "TSLA": "most_actives",
     "SMTC": "day_gainers",
-    "HBAN": "most_actives",
-    "MU": "most_actives",
     "BRKR": "day_gainers",
-    "HPE": "day_gainers",
-    "VAL": "day_gainers",
-    "RDNT": "day_gainers",
-    "CRC": "day_gainers",
     "DAR": "day_gainers",
     "REF": "small_cap_gainers",
     "SDHC": "small_cap_gainers",
@@ -537,6 +522,12 @@
     "AMRX": "day_gainers",
     "XMTR": "day_gainers",
     "CHRN": "day_gainers",
-    "NFE": "small_cap_gainers"
+    "NFE": "small_cap_gainers",
+    "RKT": "most_actives",
+    "DHT": "day_gainers",
+    "AXON": "day_gainers",
+    "CHDN": "day_gainers",
+    "NEOG": "day_gainers",
+    "EMPD": "small_cap_gainers"
   }
 }
