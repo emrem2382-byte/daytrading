@@ -27,9 +27,6 @@
     "TRAX",
     "NVAX",
     "XRX",
-    "EXFY",
-    "TTAN",
-    "CLOV",
     "XXI",
     "FUBO",
     "W",
@@ -267,24 +264,18 @@
     "DBRG",
     "ANGX",
     "CAPR",
-    "BBAI"
+    "BBAI",
+    "HEPS",
+    "KSS",
+    "DAIC"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "NVAX": {
-      "start_bar": "2026-09-16T10:25:00-04:00"
+    "CSQR": {
+      "start_bar": "2026-09-16T10:40:00-04:00"
     },
-    "FUBO": {
-      "start_bar": "2026-09-16T10:25:00-04:00"
-    },
-    "CANG": {
-      "start_bar": "2026-09-16T10:20:00-04:00"
-    },
-    "RUM": {
-      "start_bar": "2026-09-16T10:25:00-04:00"
-    },
-    "CAPR": {
-      "start_bar": "2026-09-16T10:25:00-04:00"
+    "DK": {
+      "start_bar": "2026-09-16T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -301,9 +292,6 @@
     "TRAX": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
-    "EXFY": "small_cap_gainers",
-    "TTAN": "day_gainers",
-    "CLOV": "day_gainers",
     "XXI": "small_cap_gainers",
     "FUBO": "small_cap_gainers",
     "W": "day_gainers",
@@ -537,6 +525,9 @@
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
-    "BBAI": "most_shorted_stocks"
+    "BBAI": "most_shorted_stocks",
+    "HEPS": "aggressive_small_caps",
+    "KSS": "aggressive_small_caps",
+    "DAIC": "most_shorted_stocks"
   }
 }
