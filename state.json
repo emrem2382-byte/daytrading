@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "VBIO",
+    "NOK",
+    "EAF",
+    "CIEN",
+    "REF",
+    "FPS",
+    "MUR",
+    "FTRE",
+    "CCCC",
+    "TLX",
+    "DINO",
+    "KOS",
+    "CDE",
+    "PBF",
+    "SPRU"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "TLX",
     "NOK",
