@@ -21,22 +21,16 @@
     "NOK",
     "PMVP",
     "CCCC",
-    "NVAX",
-    "XRX",
     "GRPN",
     "FPS",
     "COHR",
     "CANG",
     "QDEL",
-    "SEI",
     "AXTI",
     "ACP",
     "SMTC",
     "BRKR",
     "KPTI",
-    "QLYS",
-    "BAK",
-    "VERA",
     "DOCU",
     "DINO",
     "CE",
@@ -267,15 +261,18 @@
     "OPCH",
     "VSTS",
     "TSLA",
-    "VATE"
+    "VATE",
+    "JKHY",
+    "CHEF",
+    "YETI",
+    "ADMA",
+    "PFGC",
+    "JBLU"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "APMD": {
-      "start_bar": "2026-09-16T14:55:00-04:00"
-    },
-    "CHRN": {
-      "start_bar": "2026-09-16T14:50:00-04:00"
+    "LESL": {
+      "start_bar": "2026-09-16T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -284,22 +281,16 @@
     "SM": "day_gainers",
     "PMVP": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "NVAX": "most_shorted_stocks",
-    "XRX": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "FPS": "day_gainers",
     "COHR": "day_gainers",
     "CANG": "small_cap_gainers",
     "QDEL": "aggressive_small_caps",
-    "SEI": "day_gainers",
     "AXTI": "day_gainers",
     "ACP": "aggressive_small_caps",
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "QLYS": "day_gainers",
-    "BAK": "small_cap_gainers",
-    "VERA": "day_gainers",
     "DOCU": "day_gainers",
     "DINO": "day_gainers",
     "CE": "day_gainers",
@@ -352,7 +343,7 @@
     "VACI-UN": "small_cap_gainers",
     "HAIN": "aggressive_small_caps",
     "SPRU": "small_cap_gainers",
-    "INTC": "most_actives+day_gainers",
+    "INTC": "most_actives",
     "MOBI": "small_cap_gainers",
     "KVUE": "most_actives",
     "FFIV": "day_gainers",
@@ -528,6 +519,12 @@
     "OPCH": "day_gainers",
     "VSTS": "small_cap_gainers",
     "TSLA": "most_actives",
-    "VATE": "small_cap_gainers"
+    "VATE": "small_cap_gainers",
+    "JKHY": "day_gainers",
+    "CHEF": "day_gainers",
+    "YETI": "day_gainers",
+    "ADMA": "day_gainers",
+    "PFGC": "day_gainers",
+    "JBLU": "aggressive_small_caps"
   }
 }
