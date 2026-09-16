@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "NOK",
-    "PMVP",
     "CCCC",
     "GRPN",
     "FPS",
@@ -31,9 +30,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "ENOV",
-    "OI",
-    "MRCY",
     "AADX",
     "BORR",
     "MAIR",
@@ -267,15 +263,31 @@
     "CNM",
     "URGN",
     "IESC",
-    "KCHP"
+    "KCHP",
+    "SEI",
+    "ANGI",
+    "NVAX",
+    "OCGN"
   ],
   "tracked_day": "2026-09-16",
-  "pending_bull": {},
+  "pending_bull": {
+    "KPTI": {
+      "start_bar": "2026-09-16T15:40:00-04:00"
+    },
+    "RVTY": {
+      "start_bar": "2026-09-16T15:40:00-04:00"
+    },
+    "URGN": {
+      "start_bar": "2026-09-16T15:40:00-04:00"
+    },
+    "ANGI": {
+      "start_bar": "2026-09-16T15:40:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "TLX": "day_gainers",
     "SM": "day_gainers",
-    "PMVP": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "FPS": "day_gainers",
@@ -287,9 +299,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "ENOV": "aggressive_small_caps",
-    "OI": "aggressive_small_caps",
-    "MRCY": "day_gainers",
     "AADX": "day_gainers",
     "BORR": "small_cap_gainers",
     "MAIR": "day_gainers",
@@ -378,7 +387,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -521,6 +530,10 @@
     "CNM": "day_gainers",
     "URGN": "day_gainers",
     "IESC": "day_gainers",
-    "KCHP": "small_cap_gainers"
+    "KCHP": "small_cap_gainers",
+    "SEI": "day_gainers",
+    "ANGI": "small_cap_gainers",
+    "NVAX": "most_shorted_stocks",
+    "OCGN": "most_shorted_stocks"
   }
 }
