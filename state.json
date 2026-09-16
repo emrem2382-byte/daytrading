@@ -21,16 +21,13 @@
     "NOK",
     "PMVP",
     "JBLU",
-    "AEMD",
     "CCCC",
     "LAR",
     "NVAX",
     "XRX",
     "GRPN",
     "TWST",
-    "NVDA",
     "FPS",
-    "DELL",
     "COHR",
     "VRA",
     "CANG",
@@ -267,42 +264,36 @@
     "VACI",
     "CORZW",
     "KLXER",
-    "KURA"
+    "KURA",
+    "ARM",
+    "TRAX",
+    "SNUS-PI"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "MRCY": {
-      "start_bar": "2026-09-16T11:05:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-09-16T11:05:00-04:00"
-    },
     "EVCM": {
       "start_bar": "2026-09-16T11:05:00-04:00"
     },
-    "CNDT": {
-      "start_bar": "2026-09-16T11:05:00-04:00"
+    "DGX": {
+      "start_bar": "2026-09-16T11:25:00-04:00"
     },
-    "AZTA": {
-      "start_bar": "2026-09-16T11:05:00-04:00"
+    "DK": {
+      "start_bar": "2026-09-16T11:20:00-04:00"
     }
   },
   "ticker_sources": {
-    "NOK": "most_actives",
+    "NOK": "most_actives+day_gainers",
     "TLX": "day_gainers",
     "SM": "day_gainers",
     "PMVP": "small_cap_gainers",
-    "JBLU": "small_cap_gainers+aggressive_small_caps",
-    "AEMD": "most_shorted_stocks",
+    "JBLU": "aggressive_small_caps",
     "CCCC": "most_shorted_stocks",
     "LAR": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "TWST": "day_gainers",
-    "NVDA": "most_actives",
     "FPS": "day_gainers",
-    "DELL": "day_gainers",
     "COHR": "day_gainers",
     "VRA": "small_cap_gainers",
     "CANG": "small_cap_gainers",
@@ -356,7 +347,7 @@
     "CDR-PC": "small_cap_gainers",
     "IVR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
-    "KPTI": "small_cap_gainers+most_shorted_stocks",
+    "KPTI": "most_shorted_stocks",
     "INIO": "day_gainers",
     "ECO": "day_gainers",
     "CIEN": "day_gainers",
@@ -444,7 +435,7 @@
     "KVUE": "most_actives",
     "FFIV": "day_gainers",
     "UTMD": "small_cap_gainers",
-    "CIFR": "most_actives+day_gainers",
+    "CIFR": "day_gainers",
     "WOR": "day_gainers",
     "TSEM": "day_gainers",
     "CORZ": "day_gainers",
@@ -480,14 +471,14 @@
     "NTLA": "most_shorted_stocks",
     "CLSK": "most_shorted_stocks",
     "SLS": "most_shorted_stocks",
-    "MARA": "most_actives+most_shorted_stocks",
+    "MARA": "most_shorted_stocks",
     "SKIL": "small_cap_gainers",
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "most_shorted_stocks",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -537,6 +528,9 @@
     "VACI": "small_cap_gainers",
     "CORZW": "small_cap_gainers",
     "KLXER": "small_cap_gainers",
-    "KURA": "aggressive_small_caps"
+    "KURA": "aggressive_small_caps",
+    "ARM": "day_gainers",
+    "TRAX": "small_cap_gainers",
+    "SNUS-PI": "small_cap_gainers"
   }
 }
