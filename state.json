@@ -31,11 +31,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "DOCU",
-    "DINO",
-    "CE",
-    "GH",
-    "SLDPW",
     "BFLY",
     "KRMN",
     "BLLN",
@@ -267,14 +262,15 @@
     "YETI",
     "ADMA",
     "PFGC",
-    "JBLU"
+    "JBLU",
+    "STVN",
+    "EW",
+    "HONA",
+    "CPIX",
+    "ASPSW"
   ],
   "tracked_day": "2026-09-16",
-  "pending_bull": {
-    "LESL": {
-      "start_bar": "2026-09-16T15:05:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "NOK": "most_actives",
     "TLX": "day_gainers",
@@ -291,11 +287,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "DOCU": "day_gainers",
-    "DINO": "day_gainers",
-    "CE": "day_gainers",
-    "GH": "day_gainers",
-    "SLDPW": "small_cap_gainers",
     "BFLY": "day_gainers",
     "KRMN": "day_gainers",
     "BLLN": "day_gainers",
@@ -391,7 +382,7 @@
     "VBIO": "most_shorted_stocks",
     "DBRG": "most_actives",
     "ANGX": "aggressive_small_caps",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
@@ -525,6 +516,11 @@
     "YETI": "day_gainers",
     "ADMA": "day_gainers",
     "PFGC": "day_gainers",
-    "JBLU": "aggressive_small_caps"
+    "JBLU": "aggressive_small_caps",
+    "STVN": "day_gainers",
+    "EW": "day_gainers",
+    "HONA": "day_gainers",
+    "CPIX": "small_cap_gainers",
+    "ASPSW": "small_cap_gainers"
   }
 }
