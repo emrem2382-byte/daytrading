@@ -37,10 +37,8 @@
     "TSLA",
     "SMTC",
     "BRKR",
-    "PERI",
     "KPTI",
     "INIO",
-    "ECO",
     "CIEN",
     "NE",
     "WTI",
@@ -267,33 +265,20 @@
     "GLOO",
     "GENI",
     "PS",
-    "COAG"
+    "COAG",
+    "EBS",
+    "CRMT"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "NE": {
-      "start_bar": "2026-09-16T12:45:00-04:00"
+    "BAK": {
+      "start_bar": "2026-09-16T13:10:00-04:00"
     },
-    "WTI": {
-      "start_bar": "2026-09-16T12:45:00-04:00"
+    "MRCY": {
+      "start_bar": "2026-09-16T13:10:00-04:00"
     },
-    "VIAV": {
-      "start_bar": "2026-09-16T12:45:00-04:00"
-    },
-    "OUST": {
-      "start_bar": "2026-09-16T12:45:00-04:00"
-    },
-    "VIST": {
-      "start_bar": "2026-09-16T12:55:00-04:00"
-    },
-    "ENOV": {
-      "start_bar": "2026-09-16T12:55:00-04:00"
-    },
-    "TSEM": {
-      "start_bar": "2026-09-16T12:55:00-04:00"
-    },
-    "RXT": {
-      "start_bar": "2026-09-16T12:55:00-04:00"
+    "SNUS-PI": {
+      "start_bar": "2026-09-16T13:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -318,10 +303,8 @@
     "TSLA": "most_actives",
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
-    "PERI": "aggressive_small_caps",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
     "INIO": "day_gainers",
-    "ECO": "day_gainers",
     "CIEN": "day_gainers",
     "NE": "day_gainers",
     "WTI": "small_cap_gainers",
@@ -546,6 +529,8 @@
     "GLOO": "small_cap_gainers",
     "GENI": "aggressive_small_caps",
     "PS": "day_gainers",
-    "COAG": "small_cap_gainers"
+    "COAG": "day_gainers",
+    "EBS": "small_cap_gainers",
+    "CRMT": "small_cap_gainers"
   }
 }
