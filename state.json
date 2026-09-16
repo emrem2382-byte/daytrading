@@ -38,8 +38,6 @@
     "SMTC",
     "BRKR",
     "KPTI",
-    "MIDD",
-    "TMO",
     "DGX",
     "VIST",
     "MAAS",
@@ -267,23 +265,16 @@
     "ADIG",
     "LESL",
     "AIFU",
-    "IPHA"
+    "IPHA",
+    "EAT",
+    "POWL"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "BAK": {
-      "start_bar": "2026-09-16T13:10:00-04:00"
-    },
-    "MRCY": {
-      "start_bar": "2026-09-16T13:10:00-04:00"
-    },
     "SNUS-PI": {
       "start_bar": "2026-09-16T13:05:00-04:00"
     },
     "RMD": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
-    },
-    "AZTA": {
       "start_bar": "2026-09-16T13:20:00-04:00"
     },
     "HAIN": {
@@ -301,8 +292,20 @@
     "OUST": {
       "start_bar": "2026-09-16T13:20:00-04:00"
     },
-    "SABR": {
-      "start_bar": "2026-09-16T13:20:00-04:00"
+    "WGS": {
+      "start_bar": "2026-09-16T13:30:00-04:00"
+    },
+    "TENB": {
+      "start_bar": "2026-09-16T13:30:00-04:00"
+    },
+    "DOCU": {
+      "start_bar": "2026-09-16T13:30:00-04:00"
+    },
+    "GH": {
+      "start_bar": "2026-09-16T13:30:00-04:00"
+    },
+    "TBN": {
+      "start_bar": "2026-09-16T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -319,7 +322,7 @@
     "FPS": "day_gainers",
     "COHR": "day_gainers",
     "CANG": "small_cap_gainers",
-    "QDEL": "aggressive_small_caps",
+    "QDEL": "small_cap_gainers+aggressive_small_caps",
     "SEI": "day_gainers",
     "AXTI": "day_gainers",
     "CLBK": "aggressive_small_caps",
@@ -328,8 +331,6 @@
     "SMTC": "day_gainers",
     "BRKR": "day_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "MIDD": "day_gainers",
-    "TMO": "day_gainers",
     "DGX": "day_gainers",
     "VIST": "day_gainers",
     "MAAS": "day_gainers",
@@ -555,6 +556,8 @@
     "ADIG": "small_cap_gainers",
     "LESL": "small_cap_gainers",
     "AIFU": "small_cap_gainers",
-    "IPHA": "small_cap_gainers"
+    "IPHA": "small_cap_gainers",
+    "EAT": "day_gainers",
+    "POWL": "day_gainers"
   }
 }
