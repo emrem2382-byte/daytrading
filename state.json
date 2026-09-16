@@ -27,11 +27,7 @@
     "TRAX",
     "NVAX",
     "KSS",
-    "ULCC",
-    "JACK",
-    "GSHD",
     "XRX",
-    "TDOC",
     "SOFI",
     "GRDN",
     "PACB",
@@ -267,7 +263,11 @@
     "SLS",
     "MARA",
     "TLX",
-    "SM"
+    "SM",
+    "SKIL",
+    "ORC",
+    "NAT",
+    "VBIO"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
@@ -279,6 +279,15 @@
     },
     "CWH": {
       "start_bar": "2026-09-16T09:45:00-04:00"
+    },
+    "W": {
+      "start_bar": "2026-09-16T09:55:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-09-16T09:55:00-04:00"
+    },
+    "VNET": {
+      "start_bar": "2026-09-16T09:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -295,11 +304,7 @@
     "TRAX": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "KSS": "aggressive_small_caps",
-    "ULCC": "aggressive_small_caps",
-    "JACK": "most_shorted_stocks",
-    "GSHD": "small_cap_gainers",
     "XRX": "most_shorted_stocks",
-    "TDOC": "small_cap_gainers",
     "SOFI": "most_actives",
     "GRDN": "day_gainers",
     "PACB": "small_cap_gainers",
@@ -531,6 +536,10 @@
     "NTLA": "most_shorted_stocks",
     "CLSK": "most_shorted_stocks",
     "SLS": "most_shorted_stocks",
-    "MARA": "most_shorted_stocks"
+    "MARA": "most_shorted_stocks",
+    "SKIL": "small_cap_gainers",
+    "ORC": "aggressive_small_caps",
+    "NAT": "aggressive_small_caps",
+    "VBIO": "most_shorted_stocks"
   }
 }
