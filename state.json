@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
-    "VBIO",
     "NOK",
-    "EAF",
-    "CIEN",
-    "REF",
     "FPS",
-    "MUR",
+    "CIEN",
+    "EAF",
+    "REF",
+    "TENB",
     "FTRE",
     "CCCC",
     "TLX",
-    "DINO",
-    "KOS",
-    "CDE",
+    "MUR",
     "PBF",
-    "SPRU"
+    "SM",
+    "CDE",
+    "DINO",
+    "APA"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
