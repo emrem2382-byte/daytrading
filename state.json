@@ -27,7 +27,6 @@
     "TRAX",
     "NVAX",
     "XRX",
-    "XXI",
     "FUBO",
     "W",
     "BRZE",
@@ -267,15 +266,22 @@
     "BBAI",
     "HEPS",
     "KSS",
-    "DAIC"
+    "DAIC",
+    "OLN"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "CSQR": {
-      "start_bar": "2026-09-16T10:40:00-04:00"
+    "PBF": {
+      "start_bar": "2026-09-16T10:55:00-04:00"
     },
-    "DK": {
-      "start_bar": "2026-09-16T10:40:00-04:00"
+    "CE": {
+      "start_bar": "2026-09-16T10:55:00-04:00"
+    },
+    "PPTA": {
+      "start_bar": "2026-09-16T10:55:00-04:00"
+    },
+    "VBIO": {
+      "start_bar": "2026-09-16T10:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -292,7 +298,6 @@
     "TRAX": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
-    "XXI": "small_cap_gainers",
     "FUBO": "small_cap_gainers",
     "W": "day_gainers",
     "BRZE": "day_gainers",
@@ -528,6 +533,7 @@
     "BBAI": "most_shorted_stocks",
     "HEPS": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
-    "DAIC": "most_shorted_stocks"
+    "DAIC": "most_shorted_stocks",
+    "OLN": "aggressive_small_caps"
   }
 }
