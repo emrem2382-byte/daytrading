@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "NOK",
-    "FPS",
-    "CIEN",
-    "EAF",
-    "REF",
-    "TENB",
-    "FTRE",
-    "CCCC",
-    "TLX",
-    "MUR",
-    "PBF",
-    "SM",
-    "CDE",
-    "DINO",
-    "APA"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "NOK",
     "CCCC",
