@@ -33,20 +33,10 @@
     "ATAI",
     "SEI",
     "AXTI",
-    "BAND",
-    "GWH",
-    "BBBYW",
     "CLBK",
     "ACP",
-    "AIXI",
     "TSLA",
-    "SMCI",
     "SMTC",
-    "LIME",
-    "RGEN",
-    "MRVL",
-    "AMD",
-    "VSH",
     "VOYG",
     "INSW",
     "WHF",
@@ -267,24 +257,31 @@
     "YQ",
     "ARL",
     "ASBH",
-    "AEMD"
+    "AEMD",
+    "IOVA",
+    "TWST",
+    "FRO",
+    "VRA",
+    "OPTU",
+    "CTNM",
+    "SENS",
+    "APMD",
+    "PRLB",
+    "LAC"
   ],
   "tracked_day": "2026-09-16",
   "pending_bull": {
-    "EVCM": {
-      "start_bar": "2026-09-16T11:05:00-04:00"
+    "DAR": {
+      "start_bar": "2026-09-16T11:50:00-04:00"
     },
-    "DGX": {
-      "start_bar": "2026-09-16T11:25:00-04:00"
+    "ILMN": {
+      "start_bar": "2026-09-16T11:50:00-04:00"
     },
-    "MAIR": {
-      "start_bar": "2026-09-16T11:35:00-04:00"
+    "OI": {
+      "start_bar": "2026-09-16T11:50:00-04:00"
     },
-    "KVUE": {
-      "start_bar": "2026-09-16T11:35:00-04:00"
-    },
-    "ORC": {
-      "start_bar": "2026-09-16T11:35:00-04:00"
+    "LKFT": {
+      "start_bar": "2026-09-16T11:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -305,20 +302,10 @@
     "ATAI": "most_actives",
     "SEI": "day_gainers",
     "AXTI": "day_gainers",
-    "BAND": "small_cap_gainers",
-    "GWH": "small_cap_gainers",
-    "BBBYW": "small_cap_gainers",
     "CLBK": "aggressive_small_caps",
     "ACP": "aggressive_small_caps",
-    "AIXI": "most_shorted_stocks",
     "TSLA": "most_actives",
-    "SMCI": "most_actives",
     "SMTC": "day_gainers",
-    "LIME": "day_gainers",
-    "RGEN": "day_gainers",
-    "MRVL": "day_gainers",
-    "AMD": "day_gainers",
-    "VSH": "day_gainers",
     "VOYG": "day_gainers",
     "INSW": "day_gainers",
     "WHF": "small_cap_gainers",
@@ -478,7 +465,7 @@
     "GRAB": "most_actives",
     "AAL": "most_actives",
     "ORCL": "most_actives",
-    "IREN": "most_actives+day_gainers",
+    "IREN": "most_actives",
     "KEEL": "most_actives",
     "WULF": "most_actives+day_gainers",
     "F": "most_actives",
@@ -537,6 +524,16 @@
     "YQ": "small_cap_gainers",
     "ARL": "small_cap_gainers",
     "ASBH": "small_cap_gainers",
-    "AEMD": "most_shorted_stocks"
+    "AEMD": "most_shorted_stocks",
+    "IOVA": "day_gainers",
+    "TWST": "day_gainers",
+    "FRO": "day_gainers",
+    "VRA": "small_cap_gainers",
+    "OPTU": "small_cap_gainers",
+    "CTNM": "small_cap_gainers",
+    "SENS": "small_cap_gainers",
+    "APMD": "small_cap_gainers",
+    "PRLB": "small_cap_gainers",
+    "LAC": "aggressive_small_caps"
   }
 }
