@@ -47,7 +47,6 @@
     "NBIS",
     "RXT",
     "EROC",
-    "YSS",
     "NVDA",
     "SRFM",
     "AEMD",
@@ -58,11 +57,6 @@
     "PURR",
     "TSLA",
     "JBLU",
-    "HONA",
-    "CPIX",
-    "ASPSW",
-    "CNM",
-    "URGN",
     "IESC",
     "KCHP",
     "SEI",
@@ -267,12 +261,24 @@
     "EVEX",
     "ADIG",
     "CWH",
-    "PMT"
+    "PMT",
+    "OPEN",
+    "CAI",
+    "GRAL",
+    "NG",
+    "BYND",
+    "LENZ"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "VBIO": {
-      "start_bar": "2026-09-17T10:50:00-04:00"
+    "GPRO": {
+      "start_bar": "2026-09-17T11:25:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-09-17T11:20:00-04:00"
+    },
+    "SOFI": {
+      "start_bar": "2026-09-17T11:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -307,7 +313,6 @@
     "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
-    "YSS": "small_cap_gainers",
     "NVDA": "most_actives",
     "SRFM": "small_cap_gainers",
     "AEMD": "most_shorted_stocks",
@@ -318,11 +323,6 @@
     "PURR": "most_actives+day_gainers",
     "TSLA": "most_actives",
     "JBLU": "aggressive_small_caps",
-    "HONA": "day_gainers",
-    "CPIX": "small_cap_gainers",
-    "ASPSW": "small_cap_gainers",
-    "CNM": "day_gainers",
-    "URGN": "day_gainers",
     "IESC": "day_gainers",
     "KCHP": "small_cap_gainers",
     "SEI": "day_gainers",
@@ -525,6 +525,12 @@
     "EVEX": "small_cap_gainers",
     "ADIG": "small_cap_gainers",
     "CWH": "aggressive_small_caps",
-    "PMT": "aggressive_small_caps"
+    "PMT": "aggressive_small_caps",
+    "OPEN": "most_actives",
+    "CAI": "day_gainers",
+    "GRAL": "day_gainers",
+    "NG": "day_gainers",
+    "BYND": "small_cap_gainers",
+    "LENZ": "most_shorted_stocks"
   }
 }
