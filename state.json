@@ -57,11 +57,8 @@
     "PURR",
     "TSLA",
     "JBLU",
-    "ANGI",
     "NVAX",
     "OCGN",
-    "AUPH",
-    "MRX",
     "ATRA",
     "ENOV",
     "XRX",
@@ -267,15 +264,24 @@
     "LENZ",
     "ILMN",
     "YSS",
-    "CERT"
+    "CERT",
+    "SMTC",
+    "TCPC",
+    "CMTG"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "GPRO": {
-      "start_bar": "2026-09-17T11:25:00-04:00"
+    "WOLF": {
+      "start_bar": "2026-09-17T11:50:00-04:00"
     },
-    "SOFI": {
-      "start_bar": "2026-09-17T11:25:00-04:00"
+    "AEHL": {
+      "start_bar": "2026-09-17T11:50:00-04:00"
+    },
+    "VBIO": {
+      "start_bar": "2026-09-17T11:50:00-04:00"
+    },
+    "NBIS": {
+      "start_bar": "2026-09-17T11:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -284,7 +290,7 @@
     "ACP": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "INTC": "most_actives+day_gainers",
     "CIFR": "most_actives",
@@ -306,7 +312,7 @@
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "most_actives",
+    "WULF": "most_actives+day_gainers",
     "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
@@ -320,11 +326,8 @@
     "PURR": "most_actives+day_gainers",
     "TSLA": "most_actives",
     "JBLU": "aggressive_small_caps",
-    "ANGI": "small_cap_gainers",
     "NVAX": "small_cap_gainers+most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "AUPH": "day_gainers",
-    "MRX": "small_cap_gainers",
     "ATRA": "small_cap_gainers",
     "ENOV": "aggressive_small_caps",
     "XRX": "most_shorted_stocks",
@@ -379,7 +382,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers+aggressive_small_caps",
+    "ULCC": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -528,6 +531,9 @@
     "LENZ": "most_shorted_stocks",
     "ILMN": "day_gainers",
     "YSS": "small_cap_gainers",
-    "CERT": "small_cap_gainers"
+    "CERT": "small_cap_gainers",
+    "SMTC": "day_gainers",
+    "TCPC": "small_cap_gainers",
+    "CMTG": "small_cap_gainers"
   }
 }
