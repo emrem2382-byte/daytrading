@@ -33,3 +33,6 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 32,HTZ,most_shorted_stocks,2026-09-17 15:44:10,1.88,1.97,1.84,open,,,
 33,SG,small_cap_gainers,2026-09-17 15:44:11,6.93,7.27,6.79,open,,,
 34,CSIQ,aggressive_small_caps,2026-09-17 15:44:12,11.91,12.51,11.67,open,,,
+35,PURR,day_gainers,2026-09-17 15:53:16,12.81,13.45,12.55,open,,,
+36,CMPS,day_gainers,2026-09-17 15:53:17,15.03,15.78,14.73,open,,,
+37,ILMN,day_gainers,2026-09-17 15:53:18,243.75,255.94,238.88,open,,,
