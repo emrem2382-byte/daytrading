@@ -70,9 +70,6 @@
     "SECZ",
     "SANA",
     "ABSI",
-    "HAWK",
-    "CDXS",
-    "JELD",
     "NEXA",
     "GSIT",
     "MEC",
@@ -267,15 +264,27 @@
     "ANNX",
     "NABL",
     "AMBA",
-    "MYGN"
+    "MYGN",
+    "KRSA",
+    "DOCN",
+    "OXSQ"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
     "RGR": {
       "start_bar": "2026-09-17T13:40:00-04:00"
     },
-    "RARE": {
-      "start_bar": "2026-09-17T13:45:00-04:00"
+    "CIFR": {
+      "start_bar": "2026-09-17T13:55:00-04:00"
+    },
+    "RXRX": {
+      "start_bar": "2026-09-17T13:55:00-04:00"
+    },
+    "PLUG": {
+      "start_bar": "2026-09-17T13:55:00-04:00"
+    },
+    "YSS": {
+      "start_bar": "2026-09-17T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -333,9 +342,6 @@
     "SECZ": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
-    "HAWK": "small_cap_gainers",
-    "CDXS": "small_cap_gainers",
-    "JELD": "small_cap_gainers",
     "NEXA": "small_cap_gainers",
     "GSIT": "small_cap_gainers",
     "MEC": "small_cap_gainers",
@@ -481,7 +487,7 @@
     "IRWD": "small_cap_gainers",
     "CLM": "aggressive_small_caps",
     "GETY": "aggressive_small_caps",
-    "CSIQ": "small_cap_gainers+aggressive_small_caps",
+    "CSIQ": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
     "F": "most_actives",
@@ -528,6 +534,9 @@
     "ANNX": "small_cap_gainers",
     "NABL": "small_cap_gainers",
     "AMBA": "day_gainers",
-    "MYGN": "small_cap_gainers"
+    "MYGN": "small_cap_gainers",
+    "KRSA": "day_gainers",
+    "DOCN": "day_gainers",
+    "OXSQ": "aggressive_small_caps"
   }
 }
