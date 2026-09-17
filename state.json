@@ -57,13 +57,7 @@
     "LAC",
     "GLOO",
     "PURR",
-    "TEAD",
-    "WGS",
-    "OPCH",
-    "VSTS",
     "TSLA",
-    "VATE",
-    "JKHY",
     "CHEF",
     "YETI",
     "ADMA",
@@ -267,10 +261,20 @@
     "GETY",
     "CSIQ",
     "LAR",
-    "PERI"
+    "PERI",
+    "F",
+    "ARM",
+    "PLSE",
+    "RARE",
+    "VIOT",
+    "GRPN"
   ],
   "tracked_day": "2026-09-17",
-  "pending_bull": {},
+  "pending_bull": {
+    "VBIO": {
+      "start_bar": "2026-09-17T10:50:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "QDEL": "aggressive_small_caps",
@@ -313,13 +317,7 @@
     "LAC": "aggressive_small_caps",
     "GLOO": "small_cap_gainers",
     "PURR": "most_actives+day_gainers",
-    "TEAD": "small_cap_gainers",
-    "WGS": "day_gainers",
-    "OPCH": "day_gainers",
-    "VSTS": "small_cap_gainers",
     "TSLA": "most_actives",
-    "VATE": "small_cap_gainers",
-    "JKHY": "day_gainers",
     "CHEF": "day_gainers",
     "YETI": "day_gainers",
     "ADMA": "day_gainers",
@@ -521,6 +519,12 @@
     "GETY": "aggressive_small_caps",
     "CSIQ": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
-    "PERI": "aggressive_small_caps"
+    "PERI": "aggressive_small_caps",
+    "F": "most_actives",
+    "ARM": "day_gainers",
+    "PLSE": "day_gainers",
+    "RARE": "small_cap_gainers",
+    "VIOT": "small_cap_gainers",
+    "GRPN": "most_shorted_stocks"
   }
 }
