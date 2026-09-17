@@ -39,7 +39,6 @@
     "CAPR",
     "BBAI",
     "DAIC",
-    "OLN",
     "SPCX",
     "IREN",
     "KEEL",
@@ -267,7 +266,8 @@
     "ASBH",
     "BKSY",
     "VET",
-    "ALMR"
+    "ALMR",
+    "BBD"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
@@ -279,6 +279,24 @@
     },
     "BHVN": {
       "start_bar": "2026-09-17T14:55:00-04:00"
+    },
+    "SPCX": {
+      "start_bar": "2026-09-17T15:05:00-04:00"
+    },
+    "SECZ": {
+      "start_bar": "2026-09-17T15:05:00-04:00"
+    },
+    "HCAT": {
+      "start_bar": "2026-09-17T15:05:00-04:00"
+    },
+    "EOSE": {
+      "start_bar": "2026-09-17T15:05:00-04:00"
+    },
+    "AI": {
+      "start_bar": "2026-09-17T15:05:00-04:00"
+    },
+    "GETY": {
+      "start_bar": "2026-09-17T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -294,7 +312,7 @@
     "CORZ": "day_gainers",
     "UMC": "day_gainers",
     "MXL": "day_gainers",
-    "GPRO": "aggressive_small_caps",
+    "GPRO": "small_cap_gainers+aggressive_small_caps",
     "VNET": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
     "RXRX": "small_cap_gainers+most_shorted_stocks",
@@ -302,10 +320,9 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
-    "OLN": "aggressive_small_caps",
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
@@ -350,7 +367,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers",
+    "ULCC": "small_cap_gainers+aggressive_small_caps",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -468,7 +485,7 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers+aggressive_small_caps",
+    "KURA": "small_cap_gainers",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
@@ -531,6 +548,7 @@
     "ASBH": "small_cap_gainers",
     "BKSY": "small_cap_gainers",
     "VET": "aggressive_small_caps",
-    "ALMR": "day_gainers"
+    "ALMR": "day_gainers",
+    "BBD": "most_actives"
   }
 }
