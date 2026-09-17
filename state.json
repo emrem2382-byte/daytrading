@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "SRFM",
+    "IPHA",
+    "LVWR",
+    "CIFR",
+    "CORZ",
+    "WULF",
+    "AEHL",
+    "NOK",
+    "EROC",
+    "CLSK",
+    "IESC",
+    "CANG",
+    "XTND",
+    "INIO",
+    "KEEL"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "NOK",
     "CCCC",
