@@ -22,3 +22,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 21,TLX,day_gainers,2026-09-17 09:47:35,12.6,13.23,12.35,open,,,
 22,XE,day_gainers,2026-09-17 09:47:40,16.32,17.14,15.99,sl_hit,2026-09-17 10:30:33,15.96,-2.21
 23,RGR,small_cap_gainers,2026-09-17 09:47:41,39.1,41.05,38.32,open,,,
+24,CRF,aggressive_small_caps,2026-09-17 12:19:11,6.12,6.43,6.0,open,,,
