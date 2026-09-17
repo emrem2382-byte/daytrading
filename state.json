@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
     "SRFM",
-    "IPHA",
-    "LVWR",
+    "INIO",
     "CIFR",
+    "VBIO",
+    "LVWR",
     "CORZ",
     "WULF",
-    "AEHL",
-    "NOK",
-    "EROC",
-    "CLSK",
-    "IESC",
-    "CANG",
     "XTND",
-    "INIO",
-    "KEEL"
+    "AEHL",
+    "CANG",
+    "KEEL",
+    "NOK",
+    "DOCN",
+    "MTSI",
+    "UMC"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
