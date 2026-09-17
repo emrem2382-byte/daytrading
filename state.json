@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "SRFM",
-    "INIO",
-    "CIFR",
-    "VBIO",
-    "LVWR",
-    "CORZ",
-    "WULF",
-    "XTND",
-    "AEHL",
-    "CANG",
-    "KEEL",
-    "NOK",
-    "DOCN",
-    "MTSI",
-    "UMC"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "NOK",
     "QDEL",
