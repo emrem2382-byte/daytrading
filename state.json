@@ -271,20 +271,14 @@
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "EVGO": {
-      "start_bar": "2026-09-17T14:40:00-04:00"
+    "ORC": {
+      "start_bar": "2026-09-17T14:55:00-04:00"
     },
-    "EIKN": {
-      "start_bar": "2026-09-17T14:40:00-04:00"
+    "DFNS": {
+      "start_bar": "2026-09-17T14:55:00-04:00"
     },
-    "AMZN": {
-      "start_bar": "2026-09-17T14:40:00-04:00"
-    },
-    "HPE": {
-      "start_bar": "2026-09-17T14:40:00-04:00"
-    },
-    "RGNX": {
-      "start_bar": "2026-09-17T14:40:00-04:00"
+    "BHVN": {
+      "start_bar": "2026-09-17T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -308,7 +302,7 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
@@ -356,7 +350,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "aggressive_small_caps",
+    "ULCC": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -474,7 +468,7 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers",
+    "KURA": "small_cap_gainers+aggressive_small_caps",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
