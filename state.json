@@ -62,7 +62,6 @@
     "XRX",
     "GNRC",
     "VICR",
-    "MGNI",
     "XE",
     "SVM",
     "ACMR",
@@ -267,10 +266,15 @@
     "APLD",
     "BKKT",
     "SHAZ",
-    "VRA"
+    "VRA",
+    "XXI"
   ],
   "tracked_day": "2026-09-17",
-  "pending_bull": {},
+  "pending_bull": {
+    "ADIG": {
+      "start_bar": "2026-09-17T12:55:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "QDEL": "aggressive_small_caps",
@@ -292,14 +296,14 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "most_actives",
+    "WULF": "most_actives+day_gainers",
     "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
@@ -318,7 +322,6 @@
     "XRX": "most_shorted_stocks",
     "GNRC": "day_gainers",
     "VICR": "day_gainers",
-    "MGNI": "day_gainers",
     "XE": "day_gainers",
     "SVM": "day_gainers",
     "ACMR": "day_gainers",
@@ -358,7 +361,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers",
+    "ULCC": "small_cap_gainers+aggressive_small_caps",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -476,15 +479,15 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers+aggressive_small_caps",
+    "KURA": "small_cap_gainers",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
     "IRWD": "small_cap_gainers",
     "CLM": "aggressive_small_caps",
     "GETY": "aggressive_small_caps",
-    "CSIQ": "small_cap_gainers+aggressive_small_caps",
-    "LAR": "small_cap_gainers+aggressive_small_caps",
+    "CSIQ": "small_cap_gainers",
+    "LAR": "small_cap_gainers",
     "PERI": "aggressive_small_caps",
     "F": "most_actives",
     "ARM": "day_gainers",
@@ -521,6 +524,7 @@
     "APLD": "day_gainers",
     "BKKT": "small_cap_gainers",
     "SHAZ": "day_gainers",
-    "VRA": "small_cap_gainers"
+    "VRA": "small_cap_gainers",
+    "XXI": "small_cap_gainers"
   }
 }
