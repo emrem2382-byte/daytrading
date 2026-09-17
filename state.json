@@ -70,10 +70,6 @@
     "SECZ",
     "SANA",
     "ABSI",
-    "GSIT",
-    "MEC",
-    "FLX",
-    "PRLD",
     "SILC",
     "HCAT",
     "TSAT",
@@ -267,54 +263,22 @@
     "KRSA",
     "DOCN",
     "OXSQ",
-    "CHRN"
+    "CHRN",
+    "CRBU",
+    "ASBH",
+    "BKSY",
+    "VET"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "RXRX": {
-      "start_bar": "2026-09-17T13:55:00-04:00"
+    "AIXI": {
+      "start_bar": "2026-09-17T14:20:00-04:00"
     },
-    "PLUG": {
-      "start_bar": "2026-09-17T13:55:00-04:00"
+    "ADIG": {
+      "start_bar": "2026-09-17T14:25:00-04:00"
     },
-    "YSS": {
-      "start_bar": "2026-09-17T13:55:00-04:00"
-    },
-    "NTLA": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "WULF": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "TWST": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "AEVA": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "LUNR": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "VERA": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "CMPS": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "EDIT": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "CRSP": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "RARE": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "SMR": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
-    },
-    "CWH": {
-      "start_bar": "2026-09-17T14:05:00-04:00"
+    "RIOT": {
+      "start_bar": "2026-09-17T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -338,14 +302,14 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "most_actives",
+    "WULF": "most_actives+day_gainers",
     "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
@@ -354,7 +318,7 @@
     "AEMD": "most_shorted_stocks",
     "TWST": "day_gainers",
     "OPTU": "aggressive_small_caps",
-    "LAC": "small_cap_gainers+aggressive_small_caps",
+    "LAC": "aggressive_small_caps",
     "GLOO": "small_cap_gainers",
     "PURR": "day_gainers",
     "TSLA": "most_actives",
@@ -372,10 +336,6 @@
     "SECZ": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
-    "GSIT": "small_cap_gainers",
-    "MEC": "small_cap_gainers",
-    "FLX": "small_cap_gainers",
-    "PRLD": "small_cap_gainers",
     "SILC": "small_cap_gainers",
     "HCAT": "small_cap_gainers",
     "TSAT": "small_cap_gainers",
@@ -391,7 +351,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers+aggressive_small_caps",
+    "ULCC": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -509,7 +469,7 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers",
+    "KURA": "aggressive_small_caps",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
@@ -567,6 +527,10 @@
     "KRSA": "day_gainers",
     "DOCN": "day_gainers",
     "OXSQ": "aggressive_small_caps",
-    "CHRN": "day_gainers"
+    "CHRN": "day_gainers",
+    "CRBU": "small_cap_gainers",
+    "ASBH": "small_cap_gainers",
+    "BKSY": "small_cap_gainers",
+    "VET": "aggressive_small_caps"
   }
 }
