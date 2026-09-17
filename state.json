@@ -57,9 +57,6 @@
     "PURR",
     "TSLA",
     "JBLU",
-    "IESC",
-    "KCHP",
-    "SEI",
     "ANGI",
     "NVAX",
     "OCGN",
@@ -267,15 +264,15 @@
     "GRAL",
     "NG",
     "BYND",
-    "LENZ"
+    "LENZ",
+    "ILMN",
+    "YSS",
+    "CERT"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
     "GPRO": {
       "start_bar": "2026-09-17T11:25:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-09-17T11:20:00-04:00"
     },
     "SOFI": {
       "start_bar": "2026-09-17T11:25:00-04:00"
@@ -287,7 +284,7 @@
     "ACP": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "INTC": "most_actives+day_gainers",
     "CIFR": "most_actives",
@@ -302,7 +299,7 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
@@ -323,9 +320,6 @@
     "PURR": "most_actives+day_gainers",
     "TSLA": "most_actives",
     "JBLU": "aggressive_small_caps",
-    "IESC": "day_gainers",
-    "KCHP": "small_cap_gainers",
-    "SEI": "day_gainers",
     "ANGI": "small_cap_gainers",
     "NVAX": "small_cap_gainers+most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
@@ -478,7 +472,7 @@
     "CDE": "day_gainers",
     "SSMR": "day_gainers",
     "SABR": "small_cap_gainers",
-    "BHVN": "small_cap_gainers",
+    "BHVN": "day_gainers",
     "EDIT": "small_cap_gainers",
     "CRNC": "small_cap_gainers",
     "GCTS": "small_cap_gainers",
@@ -503,7 +497,7 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers",
+    "KURA": "small_cap_gainers+aggressive_small_caps",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
@@ -531,6 +525,9 @@
     "GRAL": "day_gainers",
     "NG": "day_gainers",
     "BYND": "small_cap_gainers",
-    "LENZ": "most_shorted_stocks"
+    "LENZ": "most_shorted_stocks",
+    "ILMN": "day_gainers",
+    "YSS": "small_cap_gainers",
+    "CERT": "small_cap_gainers"
   }
 }
