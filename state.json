@@ -64,9 +64,6 @@
     "VICR",
     "XE",
     "SVM",
-    "CLS",
-    "FND",
-    "AADX",
     "TE",
     "TSHA",
     "NRGV",
@@ -267,34 +264,18 @@
     "XXI",
     "RIOT",
     "CTKB",
-    "GENI"
+    "GENI",
+    "NVTS",
+    "ANNX",
+    "NABL"
   ],
   "tracked_day": "2026-09-17",
-  "pending_bull": {
-    "ADIG": {
-      "start_bar": "2026-09-17T12:55:00-04:00"
-    },
-    "NOK": {
-      "start_bar": "2026-09-17T13:05:00-04:00"
-    },
-    "EROC": {
-      "start_bar": "2026-09-17T13:05:00-04:00"
-    },
-    "AADX": {
-      "start_bar": "2026-09-17T13:05:00-04:00"
-    },
-    "COHR": {
-      "start_bar": "2026-09-17T13:05:00-04:00"
-    },
-    "CDE": {
-      "start_bar": "2026-09-17T13:05:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
     "NOK": "most_actives",
     "QDEL": "aggressive_small_caps",
     "ACP": "aggressive_small_caps",
-    "EVGO": "most_shorted_stocks",
+    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TMC": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
@@ -327,7 +308,7 @@
     "AEMD": "most_shorted_stocks",
     "TWST": "day_gainers",
     "OPTU": "aggressive_small_caps",
-    "LAC": "small_cap_gainers+aggressive_small_caps",
+    "LAC": "aggressive_small_caps",
     "GLOO": "small_cap_gainers",
     "PURR": "day_gainers",
     "TSLA": "most_actives",
@@ -339,9 +320,6 @@
     "VICR": "day_gainers",
     "XE": "day_gainers",
     "SVM": "day_gainers",
-    "CLS": "day_gainers",
-    "FND": "day_gainers",
-    "AADX": "day_gainers",
     "TE": "small_cap_gainers",
     "TSHA": "small_cap_gainers",
     "NRGV": "small_cap_gainers",
@@ -540,6 +518,9 @@
     "XXI": "small_cap_gainers",
     "RIOT": "day_gainers",
     "CTKB": "small_cap_gainers",
-    "GENI": "aggressive_small_caps"
+    "GENI": "aggressive_small_caps",
+    "NVTS": "day_gainers",
+    "ANNX": "small_cap_gainers",
+    "NABL": "small_cap_gainers"
   }
 }
