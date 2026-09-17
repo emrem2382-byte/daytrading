@@ -59,7 +59,6 @@
     "JBLU",
     "NVAX",
     "OCGN",
-    "ATRA",
     "ENOV",
     "XRX",
     "ATAI",
@@ -267,7 +266,8 @@
     "CERT",
     "SMTC",
     "TCPC",
-    "CMTG"
+    "CMTG",
+    "JKS"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
@@ -282,6 +282,12 @@
     },
     "NBIS": {
       "start_bar": "2026-09-17T11:50:00-04:00"
+    },
+    "CIEN": {
+      "start_bar": "2026-09-17T12:00:00-04:00"
+    },
+    "CRD-B": {
+      "start_bar": "2026-09-17T12:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -305,14 +311,14 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "most_actives+day_gainers",
+    "WULF": "most_actives",
     "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
@@ -328,7 +334,6 @@
     "JBLU": "aggressive_small_caps",
     "NVAX": "small_cap_gainers+most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "ATRA": "small_cap_gainers",
     "ENOV": "aggressive_small_caps",
     "XRX": "most_shorted_stocks",
     "ATAI": "most_actives",
@@ -382,7 +387,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers",
+    "ULCC": "small_cap_gainers+aggressive_small_caps",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -500,14 +505,14 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers+aggressive_small_caps",
+    "KURA": "small_cap_gainers",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
     "IRWD": "small_cap_gainers",
     "CLM": "aggressive_small_caps",
     "GETY": "aggressive_small_caps",
-    "CSIQ": "aggressive_small_caps",
+    "CSIQ": "small_cap_gainers",
     "LAR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
     "F": "most_actives",
@@ -534,6 +539,7 @@
     "CERT": "small_cap_gainers",
     "SMTC": "day_gainers",
     "TCPC": "small_cap_gainers",
-    "CMTG": "small_cap_gainers"
+    "CMTG": "small_cap_gainers",
+    "JKS": "small_cap_gainers"
   }
 }
