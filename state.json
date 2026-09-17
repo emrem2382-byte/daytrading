@@ -42,7 +42,6 @@
     "SPCX",
     "IREN",
     "KEEL",
-    "NBIS",
     "RXT",
     "EROC",
     "NVDA",
@@ -68,8 +67,6 @@
     "SECZ",
     "SANA",
     "ABSI",
-    "RGR",
-    "AARD",
     "FOIL",
     "MTR",
     "CRD-B",
@@ -267,43 +264,31 @@
     "BBD",
     "BETA",
     "OLN",
-    "HLN"
+    "HLN",
+    "WULF",
+    "TH",
+    "CCOI"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "NBIS": {
-      "start_bar": "2026-09-17T15:20:00-04:00"
-    },
-    "AMPX": {
-      "start_bar": "2026-09-17T15:20:00-04:00"
-    },
-    "PBLS": {
-      "start_bar": "2026-09-17T15:20:00-04:00"
-    },
-    "SG": {
-      "start_bar": "2026-09-17T15:20:00-04:00"
-    },
     "GNRC": {
-      "start_bar": "2026-09-17T15:30:00-04:00"
-    },
-    "HTZ": {
       "start_bar": "2026-09-17T15:30:00-04:00"
     },
     "LENZ": {
       "start_bar": "2026-09-17T15:30:00-04:00"
     },
-    "AMD": {
-      "start_bar": "2026-09-17T15:30:00-04:00"
-    },
     "GENI": {
       "start_bar": "2026-09-17T15:30:00-04:00"
+    },
+    "PURR": {
+      "start_bar": "2026-09-17T15:40:00-04:00"
     }
   },
   "ticker_sources": {
     "NOK": "most_actives",
     "QDEL": "aggressive_small_caps",
     "ACP": "aggressive_small_caps",
-    "EVGO": "small_cap_gainers+most_shorted_stocks",
+    "EVGO": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TMC": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
@@ -326,7 +311,6 @@
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
     "NVDA": "most_actives",
@@ -352,8 +336,6 @@
     "SECZ": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
-    "RGR": "small_cap_gainers",
-    "AARD": "small_cap_gainers",
     "FOIL": "small_cap_gainers",
     "MTR": "small_cap_gainers",
     "CRD-B": "small_cap_gainers",
@@ -419,7 +401,7 @@
     "ASPN": "small_cap_gainers",
     "AMBQ": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "MARA": "most_actives+most_shorted_stocks",
+    "MARA": "most_actives",
     "SOFI": "most_actives",
     "GRAB": "most_actives",
     "SNAP": "most_actives",
@@ -482,7 +464,7 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers+aggressive_small_caps",
+    "KURA": "aggressive_small_caps",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
@@ -549,6 +531,9 @@
     "BBD": "most_actives",
     "BETA": "day_gainers",
     "OLN": "aggressive_small_caps",
-    "HLN": "most_actives"
+    "HLN": "most_actives",
+    "WULF": "most_actives",
+    "TH": "day_gainers",
+    "CCOI": "small_cap_gainers"
   }
 }
