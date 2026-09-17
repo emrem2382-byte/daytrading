@@ -19,3 +19,6 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 18,DK,day_gainers,2026-09-16 11:39:23,78.35,82.27,76.78,open,,,
 19,TSEM,day_gainers,2026-09-16 14:10:36,204.73,214.97,200.64,sl_hit,2026-09-16 14:56:20,199.72,-2.45
 20,SNUS-PI,small_cap_gainers,2026-09-17 09:33:55,25.28,26.55,24.78,open,,,
+21,TLX,day_gainers,2026-09-17 09:47:35,12.6,13.23,12.35,open,,,
+22,XE,day_gainers,2026-09-17 09:47:40,16.32,17.14,15.99,open,,,
+23,RGR,small_cap_gainers,2026-09-17 09:47:41,39.1,41.05,38.32,open,,,
