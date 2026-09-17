@@ -65,13 +65,11 @@
     "XE",
     "SVM",
     "TE",
-    "TSHA",
     "NRGV",
     "BW",
     "SECZ",
     "SANA",
     "ABSI",
-    "BKSY",
     "HAWK",
     "CDXS",
     "JELD",
@@ -267,15 +265,24 @@
     "GENI",
     "NVTS",
     "ANNX",
-    "NABL"
+    "NABL",
+    "AMBA",
+    "MYGN"
   ],
   "tracked_day": "2026-09-17",
-  "pending_bull": {},
+  "pending_bull": {
+    "NKE": {
+      "start_bar": "2026-09-17T13:30:00-04:00"
+    },
+    "HL": {
+      "start_bar": "2026-09-17T13:30:00-04:00"
+    }
+  },
   "ticker_sources": {
     "NOK": "most_actives",
     "QDEL": "aggressive_small_caps",
     "ACP": "aggressive_small_caps",
-    "EVGO": "small_cap_gainers+most_shorted_stocks",
+    "EVGO": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "TMC": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
@@ -292,7 +299,7 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
@@ -321,13 +328,11 @@
     "XE": "day_gainers",
     "SVM": "day_gainers",
     "TE": "small_cap_gainers",
-    "TSHA": "small_cap_gainers",
     "NRGV": "small_cap_gainers",
     "BW": "small_cap_gainers",
     "SECZ": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
-    "BKSY": "small_cap_gainers",
     "HAWK": "small_cap_gainers",
     "CDXS": "small_cap_gainers",
     "JELD": "small_cap_gainers",
@@ -351,7 +356,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers+aggressive_small_caps",
+    "ULCC": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -469,15 +474,15 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "small_cap_gainers",
+    "KURA": "small_cap_gainers+aggressive_small_caps",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
     "IRWD": "small_cap_gainers",
     "CLM": "aggressive_small_caps",
     "GETY": "aggressive_small_caps",
-    "CSIQ": "small_cap_gainers",
-    "LAR": "small_cap_gainers",
+    "CSIQ": "small_cap_gainers+aggressive_small_caps",
+    "LAR": "small_cap_gainers+aggressive_small_caps",
     "PERI": "aggressive_small_caps",
     "F": "most_actives",
     "ARM": "day_gainers",
@@ -521,6 +526,8 @@
     "GENI": "aggressive_small_caps",
     "NVTS": "day_gainers",
     "ANNX": "small_cap_gainers",
-    "NABL": "small_cap_gainers"
+    "NABL": "small_cap_gainers",
+    "AMBA": "day_gainers",
+    "MYGN": "small_cap_gainers"
   }
 }
