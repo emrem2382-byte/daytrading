@@ -271,11 +271,11 @@
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "NKE": {
-      "start_bar": "2026-09-17T13:30:00-04:00"
+    "RGR": {
+      "start_bar": "2026-09-17T13:40:00-04:00"
     },
-    "HL": {
-      "start_bar": "2026-09-17T13:30:00-04:00"
+    "RARE": {
+      "start_bar": "2026-09-17T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -482,7 +482,7 @@
     "CLM": "aggressive_small_caps",
     "GETY": "aggressive_small_caps",
     "CSIQ": "small_cap_gainers+aggressive_small_caps",
-    "LAR": "small_cap_gainers+aggressive_small_caps",
+    "LAR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
     "F": "most_actives",
     "ARM": "day_gainers",
