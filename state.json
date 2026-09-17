@@ -70,7 +70,6 @@
     "SECZ",
     "SANA",
     "ABSI",
-    "SILC",
     "HCAT",
     "TSAT",
     "RGR",
@@ -267,18 +266,25 @@
     "CRBU",
     "ASBH",
     "BKSY",
-    "VET"
+    "VET",
+    "ALMR"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "AIXI": {
-      "start_bar": "2026-09-17T14:20:00-04:00"
+    "EVGO": {
+      "start_bar": "2026-09-17T14:40:00-04:00"
     },
-    "ADIG": {
-      "start_bar": "2026-09-17T14:25:00-04:00"
+    "EIKN": {
+      "start_bar": "2026-09-17T14:40:00-04:00"
     },
-    "RIOT": {
-      "start_bar": "2026-09-17T14:25:00-04:00"
+    "AMZN": {
+      "start_bar": "2026-09-17T14:40:00-04:00"
+    },
+    "HPE": {
+      "start_bar": "2026-09-17T14:40:00-04:00"
+    },
+    "RGNX": {
+      "start_bar": "2026-09-17T14:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -302,14 +308,14 @@
     "ORC": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "CAPR": "small_cap_gainers+most_shorted_stocks",
+    "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "OLN": "aggressive_small_caps",
     "SPCX": "most_actives",
     "IREN": "most_actives",
     "KEEL": "most_actives",
-    "WULF": "most_actives+day_gainers",
+    "WULF": "most_actives",
     "NBIS": "most_actives",
     "RXT": "small_cap_gainers",
     "EROC": "small_cap_gainers",
@@ -336,7 +342,6 @@
     "SECZ": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
-    "SILC": "small_cap_gainers",
     "HCAT": "small_cap_gainers",
     "TSAT": "small_cap_gainers",
     "RGR": "small_cap_gainers",
@@ -351,7 +356,7 @@
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "CRF": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers",
+    "ULCC": "aggressive_small_caps",
     "FUN": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "SERV": "most_shorted_stocks",
@@ -469,7 +474,7 @@
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
-    "KURA": "aggressive_small_caps",
+    "KURA": "small_cap_gainers",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
@@ -531,6 +536,7 @@
     "CRBU": "small_cap_gainers",
     "ASBH": "small_cap_gainers",
     "BKSY": "small_cap_gainers",
-    "VET": "aggressive_small_caps"
+    "VET": "aggressive_small_caps",
+    "ALMR": "day_gainers"
   }
 }
