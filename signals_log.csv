@@ -27,3 +27,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 26,MRNA,day_gainers,2026-09-17 14:09:18,158.76,166.7,155.59,open,,,
 27,FDMT,small_cap_gainers,2026-09-17 14:43:35,14.5,15.23,14.21,open,,,
 28,EVGO,most_shorted_stocks,2026-09-17 14:56:54,1.46,1.53,1.43,open,,,
+29,LAC,aggressive_small_caps,2026-09-17 15:22:03,2.91,3.06,2.86,open,,,

@@ -69,8 +69,6 @@
     "SECZ",
     "SANA",
     "ABSI",
-    "HCAT",
-    "TSAT",
     "RGR",
     "AARD",
     "FOIL",
@@ -267,36 +265,32 @@
     "BKSY",
     "VET",
     "ALMR",
-    "BBD"
+    "BBD",
+    "BETA",
+    "OLN"
   ],
   "tracked_day": "2026-09-17",
   "pending_bull": {
-    "ORC": {
-      "start_bar": "2026-09-17T14:55:00-04:00"
-    },
-    "DFNS": {
-      "start_bar": "2026-09-17T14:55:00-04:00"
-    },
-    "BHVN": {
-      "start_bar": "2026-09-17T14:55:00-04:00"
-    },
-    "SPCX": {
-      "start_bar": "2026-09-17T15:05:00-04:00"
-    },
-    "SECZ": {
-      "start_bar": "2026-09-17T15:05:00-04:00"
-    },
-    "HCAT": {
-      "start_bar": "2026-09-17T15:05:00-04:00"
-    },
-    "EOSE": {
-      "start_bar": "2026-09-17T15:05:00-04:00"
-    },
-    "AI": {
-      "start_bar": "2026-09-17T15:05:00-04:00"
-    },
     "GETY": {
       "start_bar": "2026-09-17T15:05:00-04:00"
+    },
+    "NBIS": {
+      "start_bar": "2026-09-17T15:20:00-04:00"
+    },
+    "RGR": {
+      "start_bar": "2026-09-17T15:15:00-04:00"
+    },
+    "AMPX": {
+      "start_bar": "2026-09-17T15:20:00-04:00"
+    },
+    "ZYME": {
+      "start_bar": "2026-09-17T15:20:00-04:00"
+    },
+    "PBLS": {
+      "start_bar": "2026-09-17T15:20:00-04:00"
+    },
+    "SG": {
+      "start_bar": "2026-09-17T15:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,8 +347,6 @@
     "SECZ": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
-    "HCAT": "small_cap_gainers",
-    "TSAT": "small_cap_gainers",
     "RGR": "small_cap_gainers",
     "AARD": "small_cap_gainers",
     "FOIL": "small_cap_gainers",
@@ -549,6 +541,8 @@
     "BKSY": "small_cap_gainers",
     "VET": "aggressive_small_caps",
     "ALMR": "day_gainers",
-    "BBD": "most_actives"
+    "BBD": "most_actives",
+    "BETA": "day_gainers",
+    "OLN": "aggressive_small_caps"
   }
 }
