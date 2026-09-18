@@ -30,13 +30,6 @@
     "CCCC",
     "MARA",
     "AMZN",
-    "AUGO",
-    "VERA",
-    "VOYG",
-    "AVAV",
-    "IONQ",
-    "HPE",
-    "IQ",
     "DDD",
     "ZYME",
     "SVCO",
@@ -267,7 +260,14 @@
     "YETI",
     "ONTO",
     "CANG",
-    "MOBI"
+    "MOBI",
+    "SOFI",
+    "AERO",
+    "SOC",
+    "ADCT",
+    "LUXE",
+    "COUR",
+    "OCGN"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
@@ -276,6 +276,12 @@
     },
     "CORZ": {
       "start_bar": "2026-09-18T10:35:00-04:00"
+    },
+    "KURA": {
+      "start_bar": "2026-09-18T10:45:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-09-18T10:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -294,13 +300,6 @@
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
-    "AUGO": "day_gainers",
-    "VERA": "day_gainers",
-    "VOYG": "day_gainers",
-    "AVAV": "day_gainers",
-    "IONQ": "day_gainers",
-    "HPE": "day_gainers",
-    "IQ": "small_cap_gainers",
     "DDD": "small_cap_gainers",
     "ZYME": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
@@ -527,6 +526,13 @@
     "YETI": "day_gainers",
     "ONTO": "day_gainers",
     "CANG": "small_cap_gainers",
-    "MOBI": "small_cap_gainers"
+    "MOBI": "small_cap_gainers",
+    "SOFI": "most_actives",
+    "AERO": "day_gainers",
+    "SOC": "small_cap_gainers",
+    "ADCT": "small_cap_gainers",
+    "LUXE": "small_cap_gainers",
+    "COUR": "aggressive_small_caps",
+    "OCGN": "most_shorted_stocks"
   }
 }
