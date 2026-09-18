@@ -28,8 +28,6 @@
     "MARA",
     "AMZN",
     "BLSH",
-    "KPTI",
-    "RGNX",
     "KSS",
     "CLSK",
     "QBTS",
@@ -267,19 +265,12 @@
     "FIP",
     "OPENZ",
     "EHTH",
-    "EVH"
+    "EVH",
+    "VSAT",
+    "TSQ"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "GRPN": {
-      "start_bar": "2026-09-18T13:25:00-04:00"
-    },
-    "BILI": {
-      "start_bar": "2026-09-18T13:25:00-04:00"
-    },
-    "BMI": {
-      "start_bar": "2026-09-18T13:20:00-04:00"
-    },
     "PMT": {
       "start_bar": "2026-09-18T13:35:00-04:00"
     },
@@ -288,6 +279,12 @@
     },
     "FIGR": {
       "start_bar": "2026-09-18T13:35:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-09-18T13:40:00-04:00"
+    },
+    "LENZ": {
+      "start_bar": "2026-09-18T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -304,8 +301,6 @@
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
-    "KPTI": "most_shorted_stocks",
-    "RGNX": "small_cap_gainers",
     "KSS": "aggressive_small_caps",
     "CLSK": "day_gainers+most_shorted_stocks",
     "QBTS": "day_gainers",
@@ -539,6 +534,8 @@
     "FIP": "small_cap_gainers",
     "OPENZ": "small_cap_gainers",
     "EHTH": "small_cap_gainers",
-    "EVH": "aggressive_small_caps"
+    "EVH": "aggressive_small_caps",
+    "VSAT": "day_gainers",
+    "TSQ": "small_cap_gainers"
   }
 }
