@@ -28,7 +28,6 @@
     "BLSH",
     "CLSK",
     "GEMI",
-    "PERI",
     "F",
     "ARM",
     "PLSE",
@@ -267,13 +266,11 @@
     "SG",
     "CSHR",
     "PSQH",
-    "KURA"
+    "KURA",
+    "CDXS"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "PATH": {
-      "start_bar": "2026-09-18T14:45:00-04:00"
-    },
     "WOLF": {
       "start_bar": "2026-09-18T14:55:00-04:00"
     },
@@ -282,6 +279,27 @@
     },
     "ONTO": {
       "start_bar": "2026-09-18T14:55:00-04:00"
+    },
+    "CMTG": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
+    },
+    "ON": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
+    },
+    "INTC": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
+    },
+    "MXL": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
+    },
+    "GDS": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
+    },
+    "LVWR": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
+    },
+    "LIFE": {
+      "start_bar": "2026-09-18T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -298,7 +316,6 @@
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "PERI": "aggressive_small_caps",
     "F": "most_actives",
     "ARM": "day_gainers",
     "PLSE": "day_gainers",
@@ -533,6 +550,7 @@
     "SG": "small_cap_gainers",
     "CSHR": "small_cap_gainers",
     "PSQH": "small_cap_gainers",
-    "KURA": "aggressive_small_caps"
+    "KURA": "aggressive_small_caps",
+    "CDXS": "small_cap_gainers"
   }
 }
