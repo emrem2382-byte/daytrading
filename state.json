@@ -23,15 +23,12 @@
     "SECZ",
     "VISN",
     "AIXI",
-    "DFNS",
     "BMNR",
     "COHR",
     "CCCC",
     "MARA",
     "AMZN",
-    "AYA",
     "BLSH",
-    "PBLS",
     "ASTS",
     "CMPS",
     "AG",
@@ -267,18 +264,27 @@
     "AAL",
     "CRK",
     "ASPSZ",
-    "EVGO"
+    "EVGO",
+    "TOP",
+    "ALVO",
+    "LIFE"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "KPTI": {
-      "start_bar": "2026-09-18T11:10:00-04:00"
-    },
-    "GETY": {
-      "start_bar": "2026-09-18T11:10:00-04:00"
-    },
     "NXTC": {
       "start_bar": "2026-09-18T11:10:00-04:00"
+    },
+    "VISN": {
+      "start_bar": "2026-09-18T11:25:00-04:00"
+    },
+    "AAPL": {
+      "start_bar": "2026-09-18T11:25:00-04:00"
+    },
+    "LESL": {
+      "start_bar": "2026-09-18T11:25:00-04:00"
+    },
+    "MGN": {
+      "start_bar": "2026-09-18T11:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -290,15 +296,12 @@
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "AIXI": "most_shorted_stocks",
-    "DFNS": "most_shorted_stocks",
     "BMNR": "most_actives+day_gainers",
     "COHR": "day_gainers",
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
-    "AYA": "day_gainers",
     "BLSH": "day_gainers",
-    "PBLS": "day_gainers",
     "ASTS": "day_gainers",
     "CMPS": "day_gainers",
     "AG": "day_gainers",
@@ -326,7 +329,7 @@
     "SVRA": "small_cap_gainers",
     "RGNX": "small_cap_gainers",
     "KSS": "aggressive_small_caps",
-    "CLSK": "most_shorted_stocks",
+    "CLSK": "day_gainers+most_shorted_stocks",
     "QBTS": "day_gainers",
     "CROX": "day_gainers",
     "PACB": "small_cap_gainers",
@@ -422,7 +425,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "day_gainers",
+    "IQMX": "small_cap_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -530,6 +533,9 @@
     "AAL": "most_actives",
     "CRK": "day_gainers",
     "ASPSZ": "small_cap_gainers",
-    "EVGO": "most_shorted_stocks"
+    "EVGO": "most_shorted_stocks",
+    "TOP": "day_gainers",
+    "ALVO": "day_gainers",
+    "LIFE": "day_gainers"
   }
 }
