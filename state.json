@@ -20,52 +20,21 @@
   "tracked_tickers": [
     "CIFR",
     "VNET",
-    "RXRX",
     "NTLA",
     "NAT",
     "VBIO",
-    "BBAI",
-    "SPCX",
-    "LAC",
     "PURR",
     "SECZ",
     "VISN",
     "UAMY",
-    "CLBK",
-    "ONDS",
     "SERV",
-    "SOUN",
     "AIXI",
-    "EOSE",
     "DFNS",
-    "AI",
-    "CORZ",
     "BMNR",
-    "TEM",
     "SITM",
-    "FRVO",
-    "GENB",
-    "FPS",
     "GLW",
-    "BFLY",
-    "RDW",
     "FORM",
-    "GFS",
     "COHR",
-    "ORA",
-    "SNDK",
-    "RGTI",
-    "OKLO",
-    "MRNA",
-    "FLY",
-    "WDAY",
-    "AEHR",
-    "PENG",
-    "HIMX",
-    "LCID",
-    "LAES",
-    "AMPX",
-    "SDGR",
     "BTGO",
     "SLDP",
     "MRVI",
@@ -267,128 +236,48 @@
     "DAIC",
     "AEHL",
     "STLA",
-    "SRFM"
+    "SRFM",
+    "NVDA",
+    "INTC",
+    "NOK",
+    "GOOG",
+    "TSLA",
+    "AVGO",
+    "IREN",
+    "CSCO",
+    "AAUC",
+    "TRMD",
+    "FIGR",
+    "AAOI",
+    "LRCX",
+    "BABA",
+    "MXL",
+    "CRDO",
+    "AXTI",
+    "BULL",
+    "BILI",
+    "GDS",
+    "LVWR",
+    "MG",
+    "SOS",
+    "MSC",
+    "NXTC",
+    "BWMX",
+    "AUROW",
+    "ORC",
+    "TBLA",
+    "SB",
+    "MGN"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "CIFR": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "SPCX": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "SECZ": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "EOSE": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "SITM": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "GLW": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "FORM": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "ORA": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "AMPX": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "BTGO": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "AVEX": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "AMSC": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
     "OPENW": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "CCCC": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "MARA": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "SOFI": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "AVAV": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "BLSH": {
       "start_bar": "2026-09-18T09:30:00-04:00"
     },
     "SSMR": {
       "start_bar": "2026-09-18T09:30:00-04:00"
     },
     "CLSK": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "GEMI": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "GRAL": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "SMTC": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "AMD": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "HL": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "APLD": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "BKKT": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "XXI": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "NVTS": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "KRMN": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "KC": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "ZLAB": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "HIMS": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "MSTR": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "ON": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "SYNA": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "MTSI": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "CBRS": {
-      "start_bar": "2026-09-18T09:30:00-04:00"
-    },
-    "DSP": {
       "start_bar": "2026-09-18T09:30:00-04:00"
     },
     "SKIL": {
@@ -399,60 +288,44 @@
     },
     "BHV": {
       "start_bar": "2026-09-18T09:30:00-04:00"
+    },
+    "SERV": {
+      "start_bar": "2026-09-18T09:45:00-04:00"
+    },
+    "EIKN": {
+      "start_bar": "2026-09-18T09:40:00-04:00"
+    },
+    "HPE": {
+      "start_bar": "2026-09-18T09:45:00-04:00"
+    },
+    "GWH": {
+      "start_bar": "2026-09-18T09:40:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-09-18T09:45:00-04:00"
     }
   },
   "ticker_sources": {
     "CIFR": "day_gainers",
-    "CORZ": "day_gainers",
     "VNET": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
-    "RXRX": "most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
     "VBIO": "most_shorted_stocks",
-    "BBAI": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
-    "SPCX": "most_actives",
     "SRFM": "small_cap_gainers",
-    "LAC": "aggressive_small_caps",
-    "PURR": "day_gainers",
+    "PURR": "most_actives+day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "UAMY": "aggressive_small_caps",
-    "CLBK": "aggressive_small_caps",
-    "ONDS": "most_shorted_stocks",
     "SERV": "most_shorted_stocks",
-    "SOUN": "most_shorted_stocks",
     "AIXI": "most_shorted_stocks",
-    "EOSE": "most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
-    "AI": "most_shorted_stocks",
-    "BMNR": "day_gainers",
-    "TEM": "day_gainers",
+    "BMNR": "most_actives+day_gainers",
     "SITM": "day_gainers",
-    "FRVO": "day_gainers",
-    "GENB": "day_gainers",
-    "FPS": "day_gainers",
     "GLW": "day_gainers",
-    "BFLY": "day_gainers",
-    "RDW": "day_gainers",
     "FORM": "day_gainers",
-    "GFS": "day_gainers",
     "COHR": "day_gainers",
-    "ORA": "day_gainers",
-    "SNDK": "day_gainers",
-    "RGTI": "day_gainers",
-    "OKLO": "day_gainers",
-    "MRNA": "day_gainers",
-    "FLY": "day_gainers",
-    "WDAY": "day_gainers",
-    "AEHR": "day_gainers",
-    "PENG": "day_gainers",
-    "HIMX": "day_gainers",
-    "LCID": "small_cap_gainers",
-    "LAES": "small_cap_gainers",
-    "AMPX": "small_cap_gainers",
-    "SDGR": "day_gainers",
     "BTGO": "small_cap_gainers",
     "SLDP": "small_cap_gainers",
     "MRVI": "small_cap_gainers",
@@ -468,7 +341,7 @@
     "ASPN": "small_cap_gainers",
     "AMBQ": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "MARA": "day_gainers",
+    "MARA": "most_actives+day_gainers",
     "SOFI": "most_actives",
     "GRAB": "most_actives",
     "SNAP": "most_actives",
@@ -619,9 +492,9 @@
     "GLXY": "day_gainers",
     "ZLAB": "day_gainers",
     "HIMS": "day_gainers",
-    "MSTR": "day_gainers",
+    "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "day_gainers",
+    "IQMX": "small_cap_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -650,6 +523,37 @@
     "DSX": "aggressive_small_caps",
     "LESL": "aggressive_small_caps",
     "PRGO": "aggressive_small_caps",
-    "WOLF": "most_shorted_stocks"
+    "WOLF": "most_shorted_stocks",
+    "NVDA": "most_actives",
+    "INTC": "most_actives",
+    "NOK": "most_actives",
+    "GOOG": "most_actives",
+    "TSLA": "most_actives",
+    "AVGO": "most_actives+day_gainers",
+    "IREN": "most_actives",
+    "CSCO": "most_actives",
+    "AAUC": "day_gainers",
+    "TRMD": "day_gainers",
+    "FIGR": "day_gainers",
+    "AAOI": "day_gainers",
+    "LRCX": "day_gainers",
+    "BABA": "day_gainers",
+    "MXL": "day_gainers",
+    "CRDO": "day_gainers",
+    "AXTI": "day_gainers",
+    "BULL": "day_gainers",
+    "BILI": "day_gainers",
+    "GDS": "day_gainers",
+    "LVWR": "small_cap_gainers",
+    "MG": "small_cap_gainers",
+    "SOS": "small_cap_gainers",
+    "MSC": "small_cap_gainers",
+    "NXTC": "small_cap_gainers",
+    "BWMX": "small_cap_gainers",
+    "AUROW": "small_cap_gainers",
+    "ORC": "aggressive_small_caps",
+    "TBLA": "aggressive_small_caps",
+    "SB": "aggressive_small_caps",
+    "MGN": "most_shorted_stocks"
   }
 }
