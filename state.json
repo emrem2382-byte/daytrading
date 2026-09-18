@@ -28,11 +28,6 @@
     "BLSH",
     "CLSK",
     "GEMI",
-    "F",
-    "ARM",
-    "PLSE",
-    "RARE",
-    "VIOT",
     "GRPN",
     "PATH",
     "SMR",
@@ -267,39 +262,32 @@
     "CSHR",
     "PSQH",
     "KURA",
-    "CDXS"
+    "CDXS",
+    "ANVS",
+    "STTK",
+    "EIKN",
+    "VIP",
+    "CCCC"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "WOLF": {
-      "start_bar": "2026-09-18T14:55:00-04:00"
-    },
-    "FORM": {
-      "start_bar": "2026-09-18T14:55:00-04:00"
-    },
-    "ONTO": {
-      "start_bar": "2026-09-18T14:55:00-04:00"
-    },
-    "CMTG": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
-    },
-    "ON": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
-    },
-    "INTC": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
-    },
-    "MXL": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
-    },
-    "GDS": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
-    },
     "LVWR": {
       "start_bar": "2026-09-18T15:05:00-04:00"
     },
-    "LIFE": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
+    "BBD": {
+      "start_bar": "2026-09-18T15:20:00-04:00"
+    },
+    "FND": {
+      "start_bar": "2026-09-18T15:20:00-04:00"
+    },
+    "DSX": {
+      "start_bar": "2026-09-18T15:15:00-04:00"
+    },
+    "ALVO": {
+      "start_bar": "2026-09-18T15:15:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-09-18T15:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -316,11 +304,6 @@
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "F": "most_actives",
-    "ARM": "day_gainers",
-    "PLSE": "day_gainers",
-    "RARE": "small_cap_gainers",
-    "VIOT": "small_cap_gainers",
     "GRPN": "most_shorted_stocks",
     "PATH": "most_actives",
     "SMR": "most_actives+day_gainers",
@@ -396,7 +379,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "day_gainers",
+    "IQMX": "small_cap_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -480,7 +463,7 @@
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
-    "CIFR": "most_actives+day_gainers",
+    "CIFR": "day_gainers",
     "BRVE": "day_gainers",
     "SIMO": "day_gainers",
     "BBWI": "day_gainers",
@@ -551,6 +534,11 @@
     "CSHR": "small_cap_gainers",
     "PSQH": "small_cap_gainers",
     "KURA": "aggressive_small_caps",
-    "CDXS": "small_cap_gainers"
+    "CDXS": "small_cap_gainers",
+    "ANVS": "small_cap_gainers",
+    "STTK": "small_cap_gainers",
+    "EIKN": "small_cap_gainers",
+    "VIP": "small_cap_gainers",
+    "CCCC": "most_shorted_stocks"
   }
 }
