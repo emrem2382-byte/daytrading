@@ -29,8 +29,6 @@
     "AMZN",
     "BLSH",
     "KPTI",
-    "FSLY",
-    "IOVA",
     "IBRX",
     "INFQ",
     "SG",
@@ -267,13 +265,12 @@
     "ZVIA",
     "SST",
     "KEEL",
-    "MERC"
+    "MERC",
+    "MOLN",
+    "ENOV"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "ARM": {
-      "start_bar": "2026-09-18T12:30:00-04:00"
-    },
     "SPCE": {
       "start_bar": "2026-09-18T12:40:00-04:00"
     },
@@ -292,15 +289,42 @@
     "STLA": {
       "start_bar": "2026-09-18T12:40:00-04:00"
     },
-    "MSC": {
-      "start_bar": "2026-09-18T12:35:00-04:00"
-    },
     "T": {
       "start_bar": "2026-09-18T12:40:00-04:00"
+    },
+    "IBRX": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "ACRS": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "LAR": {
+      "start_bar": "2026-09-18T12:45:00-04:00"
+    },
+    "ADIG": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "TCPC": {
+      "start_bar": "2026-09-18T12:45:00-04:00"
+    },
+    "OXSQ": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "WULF": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "NOK": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "CRDO": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "GLOO": {
+      "start_bar": "2026-09-18T12:50:00-04:00"
     }
   },
   "ticker_sources": {
-    "VNET": "aggressive_small_caps",
+    "VNET": "small_cap_gainers+aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
@@ -314,8 +338,6 @@
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "KPTI": "most_shorted_stocks",
-    "FSLY": "day_gainers",
-    "IOVA": "day_gainers",
     "IBRX": "day_gainers",
     "INFQ": "day_gainers",
     "SG": "small_cap_gainers",
@@ -548,6 +570,8 @@
     "ZVIA": "small_cap_gainers",
     "SST": "small_cap_gainers",
     "KEEL": "most_actives",
-    "MERC": "small_cap_gainers"
+    "MERC": "small_cap_gainers",
+    "MOLN": "small_cap_gainers",
+    "ENOV": "aggressive_small_caps"
   }
 }
