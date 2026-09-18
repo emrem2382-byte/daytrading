@@ -29,8 +29,6 @@
     "AMZN",
     "BLSH",
     "CLSK",
-    "QBTS",
-    "CROX",
     "PACB",
     "CHPT",
     "ALHC",
@@ -267,16 +265,12 @@
     "EVH",
     "VSAT",
     "TSQ",
-    "WDC"
+    "WDC",
+    "STRK",
+    "SERV"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "LENZ": {
-      "start_bar": "2026-09-18T13:40:00-04:00"
-    },
-    "INTC": {
-      "start_bar": "2026-09-18T13:50:00-04:00"
-    },
     "TSLA": {
       "start_bar": "2026-09-18T13:50:00-04:00"
     },
@@ -285,6 +279,9 @@
     },
     "MTZ": {
       "start_bar": "2026-09-18T13:50:00-04:00"
+    },
+    "INSP": {
+      "start_bar": "2026-09-18T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -292,7 +289,7 @@
     "AEHL": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
-    "PURR": "most_actives+day_gainers",
+    "PURR": "day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "BMNR": "most_actives+day_gainers",
@@ -302,8 +299,6 @@
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
-    "QBTS": "day_gainers",
-    "CROX": "day_gainers",
     "PACB": "small_cap_gainers",
     "CHPT": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
@@ -397,7 +392,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "day_gainers",
+    "IQMX": "small_cap_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -536,6 +531,8 @@
     "EVH": "aggressive_small_caps",
     "VSAT": "day_gainers",
     "TSQ": "small_cap_gainers",
-    "WDC": "day_gainers"
+    "WDC": "day_gainers",
+    "STRK": "small_cap_gainers",
+    "SERV": "most_shorted_stocks"
   }
 }
