@@ -271,9 +271,6 @@
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "IBRX": {
-      "start_bar": "2026-09-18T11:40:00-04:00"
-    },
     "BUR": {
       "start_bar": "2026-09-18T11:50:00-04:00"
     },
@@ -503,7 +500,7 @@
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
-    "CIFR": "day_gainers",
+    "CIFR": "most_actives+day_gainers",
     "BRVE": "day_gainers",
     "SIMO": "day_gainers",
     "BBWI": "day_gainers",
