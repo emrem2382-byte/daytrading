@@ -27,7 +27,6 @@
     "BLSH",
     "CLSK",
     "GEMI",
-    "EVEX",
     "ADIG",
     "CWH",
     "PMT",
@@ -267,12 +266,16 @@
     "APMD",
     "HBAN",
     "NRGV",
-    "CORZW"
+    "CORZW",
+    "RBBN"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "CANG": {
-      "start_bar": "2026-09-18T15:30:00-04:00"
+    "SMTC": {
+      "start_bar": "2026-09-18T15:45:00-04:00"
+    },
+    "NOK": {
+      "start_bar": "2026-09-18T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -288,7 +291,6 @@
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "EVEX": "small_cap_gainers",
     "ADIG": "small_cap_gainers",
     "CWH": "aggressive_small_caps",
     "PMT": "aggressive_small_caps",
@@ -368,7 +370,7 @@
     "MTSI": "day_gainers",
     "CBRS": "day_gainers",
     "GWH": "small_cap_gainers",
-    "DSP": "small_cap_gainers",
+    "DSP": "small_cap_gainers+aggressive_small_caps",
     "LZM": "small_cap_gainers",
     "UP": "small_cap_gainers",
     "CURV": "small_cap_gainers",
@@ -442,7 +444,7 @@
     "GLOO": "small_cap_gainers",
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
-    "RXRX": "most_shorted_stocks",
+    "RXRX": "small_cap_gainers+most_shorted_stocks",
     "CIFR": "day_gainers",
     "BRVE": "day_gainers",
     "SIMO": "day_gainers",
@@ -524,6 +526,7 @@
     "APMD": "small_cap_gainers",
     "HBAN": "most_actives",
     "NRGV": "small_cap_gainers",
-    "CORZW": "small_cap_gainers"
+    "CORZW": "small_cap_gainers",
+    "RBBN": "small_cap_gainers"
   }
 }
