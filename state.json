@@ -20,24 +20,16 @@
   "tracked_tickers": [
     "VNET",
     "NAT",
-    "VBIO",
     "PURR",
     "SECZ",
     "VISN",
-    "SERV",
     "AIXI",
     "DFNS",
     "BMNR",
     "COHR",
     "CCCC",
     "MARA",
-    "AAL",
-    "NKE",
-    "RIG",
     "AMZN",
-    "ORCL",
-    "LUNR",
-    "ALAB",
     "AUGO",
     "VERA",
     "VOYG",
@@ -267,47 +259,41 @@
     "GLOO",
     "NXH",
     "UAMY",
-    "RXRX"
+    "RXRX",
+    "CIFR",
+    "BRVE",
+    "SIMO",
+    "BBWI",
+    "YETI",
+    "ONTO",
+    "CANG",
+    "MOBI"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "DDD": {
-      "start_bar": "2026-09-18T10:20:00-04:00"
+    "APLD": {
+      "start_bar": "2026-09-18T10:35:00-04:00"
     },
-    "DSX": {
-      "start_bar": "2026-09-18T10:20:00-04:00"
-    },
-    "T": {
-      "start_bar": "2026-09-18T10:20:00-04:00"
-    },
-    "UAMY": {
-      "start_bar": "2026-09-18T10:20:00-04:00"
+    "CORZ": {
+      "start_bar": "2026-09-18T10:35:00-04:00"
     }
   },
   "ticker_sources": {
     "VNET": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
-    "VBIO": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
     "PURR": "most_actives+day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
-    "SERV": "most_shorted_stocks",
     "AIXI": "most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
     "BMNR": "most_actives+day_gainers",
     "COHR": "day_gainers",
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
-    "AAL": "most_actives",
-    "NKE": "most_actives",
-    "RIG": "most_actives",
     "AMZN": "most_actives",
-    "ORCL": "most_actives",
-    "LUNR": "day_gainers",
-    "ALAB": "day_gainers",
     "AUGO": "day_gainers",
     "VERA": "day_gainers",
     "VOYG": "day_gainers",
@@ -533,6 +519,14 @@
     "GLOO": "small_cap_gainers",
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
-    "RXRX": "most_shorted_stocks"
+    "RXRX": "most_shorted_stocks",
+    "CIFR": "most_actives",
+    "BRVE": "day_gainers",
+    "SIMO": "day_gainers",
+    "BBWI": "day_gainers",
+    "YETI": "day_gainers",
+    "ONTO": "day_gainers",
+    "CANG": "small_cap_gainers",
+    "MOBI": "small_cap_gainers"
   }
 }
