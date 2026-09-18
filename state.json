@@ -28,8 +28,6 @@
     "BLSH",
     "CLSK",
     "GEMI",
-    "CSIQ",
-    "LAR",
     "PERI",
     "F",
     "ARM",
@@ -267,18 +265,23 @@
     "PRPL",
     "SIND",
     "SG",
-    "CSHR"
+    "CSHR",
+    "PSQH",
+    "KURA"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "AMZN": {
-      "start_bar": "2026-09-18T14:35:00-04:00"
-    },
     "PATH": {
       "start_bar": "2026-09-18T14:45:00-04:00"
     },
-    "NAT": {
-      "start_bar": "2026-09-18T14:45:00-04:00"
+    "WOLF": {
+      "start_bar": "2026-09-18T14:55:00-04:00"
+    },
+    "FORM": {
+      "start_bar": "2026-09-18T14:55:00-04:00"
+    },
+    "ONTO": {
+      "start_bar": "2026-09-18T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -286,7 +289,7 @@
     "AEHL": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
-    "PURR": "most_actives+day_gainers",
+    "PURR": "day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "BMNR": "most_actives+day_gainers",
@@ -295,8 +298,6 @@
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "CSIQ": "aggressive_small_caps",
-    "LAR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
     "F": "most_actives",
     "ARM": "day_gainers",
@@ -378,7 +379,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "small_cap_gainers",
+    "IQMX": "day_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -462,7 +463,7 @@
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
-    "CIFR": "day_gainers",
+    "CIFR": "most_actives+day_gainers",
     "BRVE": "day_gainers",
     "SIMO": "day_gainers",
     "BBWI": "day_gainers",
@@ -530,6 +531,8 @@
     "PRPL": "small_cap_gainers",
     "SIND": "day_gainers",
     "SG": "small_cap_gainers",
-    "CSHR": "small_cap_gainers"
+    "CSHR": "small_cap_gainers",
+    "PSQH": "small_cap_gainers",
+    "KURA": "aggressive_small_caps"
   }
 }
