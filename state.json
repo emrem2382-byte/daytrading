@@ -18,20 +18,17 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CIFR",
     "VNET",
     "NAT",
     "VBIO",
     "PURR",
     "SECZ",
     "VISN",
-    "UAMY",
     "SERV",
     "AIXI",
     "DFNS",
     "BMNR",
     "COHR",
-    "AEVA",
     "IMSR",
     "EIKN",
     "CDNL",
@@ -267,28 +264,21 @@
     "CORZ",
     "CSTE",
     "CCM",
-    "EBON"
+    "EBON",
+    "MU",
+    "IMOS",
+    "STKE"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "SERV": {
-      "start_bar": "2026-09-18T09:45:00-04:00"
-    },
-    "GWH": {
-      "start_bar": "2026-09-18T09:40:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-09-18T09:45:00-04:00"
-    },
-    "VBIO": {
-      "start_bar": "2026-09-18T09:45:00-04:00"
-    },
     "BYND": {
       "start_bar": "2026-09-18T09:55:00-04:00"
+    },
+    "GRAL": {
+      "start_bar": "2026-09-18T10:05:00-04:00"
     }
   },
   "ticker_sources": {
-    "CIFR": "day_gainers",
     "VNET": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
@@ -298,13 +288,11 @@
     "PURR": "most_actives+day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
-    "UAMY": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
     "AIXI": "most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
     "BMNR": "most_actives+day_gainers",
     "COHR": "day_gainers",
-    "AEVA": "small_cap_gainers",
     "IMSR": "small_cap_gainers",
     "EIKN": "small_cap_gainers",
     "CDNL": "small_cap_gainers",
@@ -372,7 +360,7 @@
     "SVRA": "small_cap_gainers",
     "RGNX": "small_cap_gainers",
     "KSS": "aggressive_small_caps",
-    "CLSK": "day_gainers+most_shorted_stocks",
+    "CLSK": "most_shorted_stocks",
     "QBTS": "day_gainers",
     "CROX": "day_gainers",
     "PACB": "small_cap_gainers",
@@ -492,12 +480,12 @@
     "IMSRW": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "ANGX": "aggressive_small_caps",
+    "ANGX": "small_cap_gainers+aggressive_small_caps",
     "PAL": "aggressive_small_caps",
     "DSX": "aggressive_small_caps",
     "LESL": "aggressive_small_caps",
     "PRGO": "aggressive_small_caps",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "NVDA": "most_actives",
     "INTC": "most_actives",
     "NOK": "most_actives",
@@ -536,6 +524,9 @@
     "CORZ": "day_gainers",
     "CSTE": "small_cap_gainers",
     "CCM": "small_cap_gainers",
-    "EBON": "small_cap_gainers"
+    "EBON": "small_cap_gainers",
+    "MU": "most_actives",
+    "IMOS": "day_gainers",
+    "STKE": "small_cap_gainers"
   }
 }
