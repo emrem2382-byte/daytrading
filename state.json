@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "DAIC",
+    "MYGN",
+    "PURR",
+    "AEMD",
+    "AEHL",
+    "SECZ",
+    "BLSH",
+    "STLA",
+    "SEI",
+    "CLBK",
+    "BTGO",
+    "BMNR",
+    "TRVG",
+    "NRGV",
+    "RARE"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "NOK",
     "QDEL",
