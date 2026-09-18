@@ -28,11 +28,6 @@
     "MARA",
     "AMZN",
     "BLSH",
-    "CDE",
-    "SSMR",
-    "SABR",
-    "BHVN",
-    "EDIT",
     "CRNC",
     "GCTS",
     "FDMT",
@@ -267,21 +262,23 @@
     "NGVC",
     "XRXDW",
     "NAT",
-    "DFNS"
+    "DFNS",
+    "EVTL",
+    "OPENW",
+    "AMTD",
+    "AIXI",
+    "NTLA"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "BUR": {
-      "start_bar": "2026-09-18T11:50:00-04:00"
+    "GCTS": {
+      "start_bar": "2026-09-18T12:10:00-04:00"
     },
-    "BBD": {
-      "start_bar": "2026-09-18T11:50:00-04:00"
+    "OSCR": {
+      "start_bar": "2026-09-18T12:15:00-04:00"
     },
-    "CRWV": {
-      "start_bar": "2026-09-18T11:50:00-04:00"
-    },
-    "SRFM": {
-      "start_bar": "2026-09-18T11:50:00-04:00"
+    "OPENW": {
+      "start_bar": "2026-09-18T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -298,11 +295,6 @@
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
-    "CDE": "most_actives",
-    "SSMR": "day_gainers",
-    "SABR": "small_cap_gainers",
-    "BHVN": "day_gainers",
-    "EDIT": "small_cap_gainers",
     "CRNC": "small_cap_gainers",
     "GCTS": "small_cap_gainers",
     "FDMT": "small_cap_gainers",
@@ -416,7 +408,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "day_gainers",
+    "IQMX": "small_cap_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -445,7 +437,7 @@
     "DSX": "aggressive_small_caps",
     "LESL": "aggressive_small_caps",
     "PRGO": "aggressive_small_caps",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "NVDA": "most_actives",
     "INTC": "most_actives",
     "NOK": "most_actives",
@@ -500,7 +492,7 @@
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
-    "CIFR": "most_actives+day_gainers",
+    "CIFR": "day_gainers",
     "BRVE": "day_gainers",
     "SIMO": "day_gainers",
     "BBWI": "day_gainers",
@@ -533,6 +525,11 @@
     "NGVC": "small_cap_gainers",
     "XRXDW": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "DFNS": "most_shorted_stocks"
+    "DFNS": "most_shorted_stocks",
+    "EVTL": "small_cap_gainers",
+    "OPENW": "small_cap_gainers",
+    "AMTD": "small_cap_gainers",
+    "AIXI": "most_shorted_stocks",
+    "NTLA": "most_shorted_stocks"
   }
 }
