@@ -30,13 +30,7 @@
     "CCCC",
     "MARA",
     "AMZN",
-    "DDD",
-    "ZYME",
-    "SVCO",
-    "KOS",
-    "NU",
     "HBAN",
-    "RIVN",
     "TXG",
     "HYMC",
     "AYA",
@@ -267,21 +261,30 @@
     "ADCT",
     "LUXE",
     "COUR",
-    "OCGN"
+    "OCGN",
+    "SBET",
+    "BTGO",
+    "QNCX",
+    "VBIO",
+    "NVAX",
+    "AI"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "APLD": {
-      "start_bar": "2026-09-18T10:35:00-04:00"
-    },
-    "CORZ": {
-      "start_bar": "2026-09-18T10:35:00-04:00"
-    },
     "KURA": {
       "start_bar": "2026-09-18T10:45:00-04:00"
     },
     "OCGN": {
       "start_bar": "2026-09-18T10:45:00-04:00"
+    },
+    "OLMA": {
+      "start_bar": "2026-09-18T10:55:00-04:00"
+    },
+    "IRWD": {
+      "start_bar": "2026-09-18T10:55:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-09-18T10:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -300,13 +303,7 @@
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
-    "DDD": "small_cap_gainers",
-    "ZYME": "small_cap_gainers",
-    "SVCO": "small_cap_gainers",
-    "KOS": "aggressive_small_caps",
-    "NU": "most_actives",
     "HBAN": "most_actives",
-    "RIVN": "most_actives",
     "TXG": "day_gainers",
     "HYMC": "day_gainers",
     "AYA": "day_gainers",
@@ -470,7 +467,7 @@
     "NOK": "most_actives",
     "GOOG": "most_actives",
     "TSLA": "most_actives",
-    "AVGO": "most_actives+day_gainers",
+    "AVGO": "most_actives",
     "IREN": "most_actives",
     "CSCO": "most_actives",
     "AAUC": "day_gainers",
@@ -533,6 +530,12 @@
     "ADCT": "small_cap_gainers",
     "LUXE": "small_cap_gainers",
     "COUR": "aggressive_small_caps",
-    "OCGN": "most_shorted_stocks"
+    "OCGN": "most_shorted_stocks",
+    "SBET": "day_gainers",
+    "BTGO": "small_cap_gainers",
+    "QNCX": "small_cap_gainers",
+    "VBIO": "most_shorted_stocks",
+    "NVAX": "most_shorted_stocks",
+    "AI": "most_shorted_stocks"
   }
 }
