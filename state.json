@@ -23,16 +23,11 @@
     "SECZ",
     "VISN",
     "BMNR",
-    "COHR",
     "CCCC",
     "MARA",
     "AMZN",
     "BLSH",
     "CLSK",
-    "PACB",
-    "CHPT",
-    "ALHC",
-    "KURA",
     "GEMI",
     "OLMA",
     "ACRS",
@@ -267,21 +262,26 @@
     "TSQ",
     "WDC",
     "STRK",
-    "SERV"
+    "SERV",
+    "SSMR",
+    "BIOX",
+    "TMC",
+    "KPTI",
+    "QUBT"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "TSLA": {
-      "start_bar": "2026-09-18T13:50:00-04:00"
+    "T": {
+      "start_bar": "2026-09-18T14:20:00-04:00"
     },
-    "AXTI": {
-      "start_bar": "2026-09-18T13:50:00-04:00"
+    "NXH": {
+      "start_bar": "2026-09-18T14:20:00-04:00"
     },
-    "MTZ": {
-      "start_bar": "2026-09-18T13:50:00-04:00"
+    "NAT": {
+      "start_bar": "2026-09-18T14:20:00-04:00"
     },
-    "INSP": {
-      "start_bar": "2026-09-18T14:00:00-04:00"
+    "BIOX": {
+      "start_bar": "2026-09-18T14:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -289,20 +289,15 @@
     "AEHL": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
-    "PURR": "day_gainers",
+    "PURR": "most_actives+day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "BMNR": "most_actives+day_gainers",
-    "COHR": "day_gainers",
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
-    "PACB": "small_cap_gainers",
-    "CHPT": "small_cap_gainers",
-    "ALHC": "small_cap_gainers",
-    "KURA": "aggressive_small_caps",
     "GEMI": "small_cap_gainers",
     "OLMA": "small_cap_gainers",
     "ACRS": "small_cap_gainers",
@@ -533,6 +528,11 @@
     "TSQ": "small_cap_gainers",
     "WDC": "day_gainers",
     "STRK": "small_cap_gainers",
-    "SERV": "most_shorted_stocks"
+    "SERV": "most_shorted_stocks",
+    "SSMR": "day_gainers",
+    "BIOX": "small_cap_gainers",
+    "TMC": "aggressive_small_caps",
+    "KPTI": "most_shorted_stocks",
+    "QUBT": "most_shorted_stocks"
   }
 }
