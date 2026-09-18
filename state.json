@@ -28,9 +28,6 @@
     "MARA",
     "AMZN",
     "BLSH",
-    "CRNC",
-    "GCTS",
-    "FDMT",
     "DNA",
     "KPTI",
     "CRSP",
@@ -267,18 +264,30 @@
     "OPENW",
     "AMTD",
     "AIXI",
-    "NTLA"
+    "NTLA",
+    "RML",
+    "ZVIA",
+    "SST"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "GCTS": {
-      "start_bar": "2026-09-18T12:10:00-04:00"
+    "ARM": {
+      "start_bar": "2026-09-18T12:30:00-04:00"
     },
-    "OSCR": {
-      "start_bar": "2026-09-18T12:15:00-04:00"
+    "CTKB": {
+      "start_bar": "2026-09-18T12:20:00-04:00"
     },
-    "OPENW": {
-      "start_bar": "2026-09-18T12:05:00-04:00"
+    "CNDT": {
+      "start_bar": "2026-09-18T12:25:00-04:00"
+    },
+    "CBRS": {
+      "start_bar": "2026-09-18T12:30:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-09-18T12:30:00-04:00"
+    },
+    "XRXDW": {
+      "start_bar": "2026-09-18T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -295,9 +304,6 @@
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
-    "CRNC": "small_cap_gainers",
-    "GCTS": "small_cap_gainers",
-    "FDMT": "small_cap_gainers",
     "DNA": "small_cap_gainers",
     "KPTI": "small_cap_gainers+most_shorted_stocks",
     "CRSP": "day_gainers",
@@ -408,7 +414,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "small_cap_gainers",
+    "IQMX": "day_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -530,6 +536,9 @@
     "OPENW": "small_cap_gainers",
     "AMTD": "small_cap_gainers",
     "AIXI": "most_shorted_stocks",
-    "NTLA": "most_shorted_stocks"
+    "NTLA": "most_shorted_stocks",
+    "RML": "day_gainers",
+    "ZVIA": "small_cap_gainers",
+    "SST": "small_cap_gainers"
   }
 }
