@@ -29,7 +29,6 @@
     "MARA",
     "AMZN",
     "BLSH",
-    "ASTS",
     "CMPS",
     "AG",
     "ABCL",
@@ -267,24 +266,19 @@
     "EVGO",
     "TOP",
     "ALVO",
-    "LIFE"
+    "LIFE",
+    "CTNM"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "NXTC": {
-      "start_bar": "2026-09-18T11:10:00-04:00"
-    },
-    "VISN": {
-      "start_bar": "2026-09-18T11:25:00-04:00"
-    },
-    "AAPL": {
-      "start_bar": "2026-09-18T11:25:00-04:00"
-    },
     "LESL": {
       "start_bar": "2026-09-18T11:25:00-04:00"
     },
-    "MGN": {
-      "start_bar": "2026-09-18T11:25:00-04:00"
+    "CCCC": {
+      "start_bar": "2026-09-18T11:35:00-04:00"
+    },
+    "IBRX": {
+      "start_bar": "2026-09-18T11:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -302,7 +296,6 @@
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
-    "ASTS": "day_gainers",
     "CMPS": "day_gainers",
     "AG": "day_gainers",
     "ABCL": "day_gainers",
@@ -425,7 +418,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "small_cap_gainers",
+    "IQMX": "day_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -509,7 +502,7 @@
     "NXH": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
     "RXRX": "most_shorted_stocks",
-    "CIFR": "most_actives",
+    "CIFR": "day_gainers",
     "BRVE": "day_gainers",
     "SIMO": "day_gainers",
     "BBWI": "day_gainers",
@@ -536,6 +529,7 @@
     "EVGO": "most_shorted_stocks",
     "TOP": "day_gainers",
     "ALVO": "day_gainers",
-    "LIFE": "day_gainers"
+    "LIFE": "day_gainers",
+    "CTNM": "small_cap_gainers"
   }
 }
