@@ -29,8 +29,6 @@
     "AMZN",
     "BLSH",
     "KPTI",
-    "IBRX",
-    "INFQ",
     "SG",
     "SPCE",
     "BUR",
@@ -267,39 +265,14 @@
     "KEEL",
     "MERC",
     "MOLN",
-    "ENOV"
+    "ENOV",
+    "HTFL",
+    "JACK"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "SPCE": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "LEU": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "HLN": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "RUM": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "ON": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "STLA": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "T": {
-      "start_bar": "2026-09-18T12:40:00-04:00"
-    },
-    "IBRX": {
-      "start_bar": "2026-09-18T12:50:00-04:00"
-    },
     "ACRS": {
       "start_bar": "2026-09-18T12:50:00-04:00"
-    },
-    "LAR": {
-      "start_bar": "2026-09-18T12:45:00-04:00"
     },
     "ADIG": {
       "start_bar": "2026-09-18T12:50:00-04:00"
@@ -321,6 +294,15 @@
     },
     "GLOO": {
       "start_bar": "2026-09-18T12:50:00-04:00"
+    },
+    "CLM": {
+      "start_bar": "2026-09-18T13:00:00-04:00"
+    },
+    "CBRS": {
+      "start_bar": "2026-09-18T13:00:00-04:00"
+    },
+    "STEM": {
+      "start_bar": "2026-09-18T12:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -338,8 +320,6 @@
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "KPTI": "most_shorted_stocks",
-    "IBRX": "day_gainers",
-    "INFQ": "day_gainers",
     "SG": "small_cap_gainers",
     "SPCE": "small_cap_gainers",
     "BUR": "small_cap_gainers",
@@ -572,6 +552,8 @@
     "KEEL": "most_actives",
     "MERC": "small_cap_gainers",
     "MOLN": "small_cap_gainers",
-    "ENOV": "aggressive_small_caps"
+    "ENOV": "aggressive_small_caps",
+    "HTFL": "day_gainers",
+    "JACK": "most_shorted_stocks"
   }
 }
