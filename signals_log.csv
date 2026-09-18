@@ -37,3 +37,5 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 36,CMPS,day_gainers,2026-09-17 15:53:17,15.03,15.78,14.73,open,,,
 37,ILMN,day_gainers,2026-09-17 15:53:18,243.75,255.94,238.88,sl_hit,2026-09-18 13:26:23,237.91,-2.4
 38,SMTC,day_gainers,2026-09-18 09:46:11,183.8,192.99,180.12,open,,,
+39,CHRN,day_gainers,2026-09-18 14:35:30,20.4,21.42,19.99,open,,,
+40,ASBH,small_cap_gainers,2026-09-18 14:35:33,17.8,18.69,17.44,open,,,
