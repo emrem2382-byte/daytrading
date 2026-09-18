@@ -39,3 +39,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 38,SMTC,day_gainers,2026-09-18 09:46:11,183.8,192.99,180.12,open,,,
 39,CHRN,day_gainers,2026-09-18 14:35:30,20.4,21.42,19.99,open,,,
 40,ASBH,small_cap_gainers,2026-09-18 14:35:33,17.8,18.69,17.44,open,,,
+41,STEM,small_cap_gainers,2026-09-18 14:46:52,4.61,4.84,4.52,open,,,

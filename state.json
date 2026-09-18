@@ -28,9 +28,6 @@
     "BLSH",
     "CLSK",
     "GEMI",
-    "IRWD",
-    "CLM",
-    "GETY",
     "CSIQ",
     "LAR",
     "PERI",
@@ -267,24 +264,21 @@
     "QUBT",
     "COHR",
     "BMEA",
-    "PRPL"
+    "PRPL",
+    "SIND",
+    "SG",
+    "CSHR"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "NXH": {
-      "start_bar": "2026-09-18T14:20:00-04:00"
-    },
     "AMZN": {
       "start_bar": "2026-09-18T14:35:00-04:00"
     },
-    "BBD": {
-      "start_bar": "2026-09-18T14:35:00-04:00"
+    "PATH": {
+      "start_bar": "2026-09-18T14:45:00-04:00"
     },
-    "STEM": {
-      "start_bar": "2026-09-18T14:30:00-04:00"
-    },
-    "STKE": {
-      "start_bar": "2026-09-18T14:30:00-04:00"
+    "NAT": {
+      "start_bar": "2026-09-18T14:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -301,9 +295,6 @@
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "IRWD": "small_cap_gainers",
-    "CLM": "aggressive_small_caps",
-    "GETY": "aggressive_small_caps",
     "CSIQ": "aggressive_small_caps",
     "LAR": "aggressive_small_caps",
     "PERI": "aggressive_small_caps",
@@ -536,6 +527,9 @@
     "QUBT": "most_shorted_stocks",
     "COHR": "day_gainers",
     "BMEA": "small_cap_gainers",
-    "PRPL": "small_cap_gainers"
+    "PRPL": "small_cap_gainers",
+    "SIND": "day_gainers",
+    "SG": "small_cap_gainers",
+    "CSHR": "small_cap_gainers"
   }
 }
