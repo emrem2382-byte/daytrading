@@ -28,9 +28,7 @@
     "MARA",
     "AMZN",
     "BLSH",
-    "DNA",
     "KPTI",
-    "CRSP",
     "FSLY",
     "IOVA",
     "IBRX",
@@ -267,27 +265,38 @@
     "NTLA",
     "RML",
     "ZVIA",
-    "SST"
+    "SST",
+    "KEEL",
+    "MERC"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
     "ARM": {
       "start_bar": "2026-09-18T12:30:00-04:00"
     },
-    "CTKB": {
-      "start_bar": "2026-09-18T12:20:00-04:00"
+    "SPCE": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
     },
-    "CNDT": {
-      "start_bar": "2026-09-18T12:25:00-04:00"
+    "LEU": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
     },
-    "CBRS": {
-      "start_bar": "2026-09-18T12:30:00-04:00"
+    "HLN": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
     },
-    "NVAX": {
-      "start_bar": "2026-09-18T12:30:00-04:00"
+    "RUM": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
     },
-    "XRXDW": {
-      "start_bar": "2026-09-18T12:20:00-04:00"
+    "ON": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
+    },
+    "STLA": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
+    },
+    "MSC": {
+      "start_bar": "2026-09-18T12:35:00-04:00"
+    },
+    "T": {
+      "start_bar": "2026-09-18T12:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -304,9 +313,7 @@
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
-    "DNA": "small_cap_gainers",
-    "KPTI": "small_cap_gainers+most_shorted_stocks",
-    "CRSP": "day_gainers",
+    "KPTI": "most_shorted_stocks",
     "FSLY": "day_gainers",
     "IOVA": "day_gainers",
     "IBRX": "day_gainers",
@@ -414,7 +421,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "day_gainers",
+    "IQMX": "small_cap_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -539,6 +546,8 @@
     "NTLA": "most_shorted_stocks",
     "RML": "day_gainers",
     "ZVIA": "small_cap_gainers",
-    "SST": "small_cap_gainers"
+    "SST": "small_cap_gainers",
+    "KEEL": "most_actives",
+    "MERC": "small_cap_gainers"
   }
 }
