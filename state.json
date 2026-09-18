@@ -24,11 +24,9 @@
     "VISN",
     "BMNR",
     "MARA",
-    "AMZN",
     "BLSH",
     "CLSK",
     "GEMI",
-    "GRPN",
     "PATH",
     "SMR",
     "INIO",
@@ -267,27 +265,23 @@
     "STTK",
     "EIKN",
     "VIP",
-    "CCCC"
+    "CCCC",
+    "PLSE",
+    "APMD"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "LVWR": {
-      "start_bar": "2026-09-18T15:05:00-04:00"
-    },
     "BBD": {
       "start_bar": "2026-09-18T15:20:00-04:00"
     },
     "FND": {
       "start_bar": "2026-09-18T15:20:00-04:00"
     },
-    "DSX": {
-      "start_bar": "2026-09-18T15:15:00-04:00"
-    },
-    "ALVO": {
-      "start_bar": "2026-09-18T15:15:00-04:00"
-    },
     "CCCC": {
       "start_bar": "2026-09-18T15:20:00-04:00"
+    },
+    "CANG": {
+      "start_bar": "2026-09-18T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -295,16 +289,14 @@
     "AEHL": "most_shorted_stocks",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
-    "PURR": "day_gainers",
+    "PURR": "most_actives+day_gainers",
     "SECZ": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "BMNR": "most_actives+day_gainers",
     "MARA": "most_actives+day_gainers",
-    "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "GRPN": "most_shorted_stocks",
     "PATH": "most_actives",
     "SMR": "most_actives+day_gainers",
     "INIO": "day_gainers",
@@ -539,6 +531,8 @@
     "STTK": "small_cap_gainers",
     "EIKN": "small_cap_gainers",
     "VIP": "small_cap_gainers",
-    "CCCC": "most_shorted_stocks"
+    "CCCC": "most_shorted_stocks",
+    "PLSE": "day_gainers",
+    "APMD": "small_cap_gainers"
   }
 }
