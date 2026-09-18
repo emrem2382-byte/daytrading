@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "DAIC",
-    "AEHL",
-    "MYGN",
-    "PURR",
-    "AIXI",
-    "BLSH",
-    "STLA",
-    "SECZ",
-    "BMNR",
-    "BTGO",
-    "CLBK",
-    "SRFM",
-    "CCOI",
-    "DFNS",
-    "RARE"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "VNET",
     "PURR",
