@@ -29,8 +29,6 @@
     "AMZN",
     "BLSH",
     "KPTI",
-    "VIR",
-    "SVRA",
     "RGNX",
     "KSS",
     "CLSK",
@@ -267,13 +265,12 @@
     "JACK",
     "CLBK",
     "FIP",
-    "OPENZ"
+    "OPENZ",
+    "EHTH",
+    "EVH"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "NVTS": {
-      "start_bar": "2026-09-18T13:15:00-04:00"
-    },
     "GRPN": {
       "start_bar": "2026-09-18T13:25:00-04:00"
     },
@@ -282,6 +279,15 @@
     },
     "BMI": {
       "start_bar": "2026-09-18T13:20:00-04:00"
+    },
+    "PMT": {
+      "start_bar": "2026-09-18T13:35:00-04:00"
+    },
+    "HIMS": {
+      "start_bar": "2026-09-18T13:35:00-04:00"
+    },
+    "FIGR": {
+      "start_bar": "2026-09-18T13:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -299,8 +305,6 @@
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "KPTI": "most_shorted_stocks",
-    "VIR": "small_cap_gainers",
-    "SVRA": "small_cap_gainers",
     "RGNX": "small_cap_gainers",
     "KSS": "aggressive_small_caps",
     "CLSK": "day_gainers+most_shorted_stocks",
@@ -399,7 +403,7 @@
     "HIMS": "day_gainers",
     "MSTR": "most_actives+day_gainers",
     "LITE": "day_gainers",
-    "IQMX": "small_cap_gainers",
+    "IQMX": "day_gainers",
     "COIN": "day_gainers",
     "ON": "day_gainers",
     "SYNA": "day_gainers",
@@ -423,7 +427,7 @@
     "IMSRW": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "ANGX": "aggressive_small_caps",
+    "ANGX": "small_cap_gainers+aggressive_small_caps",
     "PAL": "aggressive_small_caps",
     "DSX": "aggressive_small_caps",
     "LESL": "aggressive_small_caps",
@@ -533,6 +537,8 @@
     "JACK": "most_shorted_stocks",
     "CLBK": "aggressive_small_caps",
     "FIP": "small_cap_gainers",
-    "OPENZ": "small_cap_gainers"
+    "OPENZ": "small_cap_gainers",
+    "EHTH": "small_cap_gainers",
+    "EVH": "aggressive_small_caps"
   }
 }
