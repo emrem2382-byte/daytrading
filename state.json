@@ -29,8 +29,6 @@
     "AMZN",
     "BLSH",
     "KPTI",
-    "SPCE",
-    "BUR",
     "VIR",
     "SVRA",
     "RGNX",
@@ -267,21 +265,23 @@
     "ENOV",
     "HTFL",
     "JACK",
-    "CLBK"
+    "CLBK",
+    "FIP",
+    "OPENZ"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "STEM": {
-      "start_bar": "2026-09-18T12:45:00-04:00"
-    },
     "NVTS": {
       "start_bar": "2026-09-18T13:15:00-04:00"
     },
-    "NABL": {
-      "start_bar": "2026-09-18T13:10:00-04:00"
+    "GRPN": {
+      "start_bar": "2026-09-18T13:25:00-04:00"
     },
-    "FIGR": {
-      "start_bar": "2026-09-18T13:15:00-04:00"
+    "BILI": {
+      "start_bar": "2026-09-18T13:25:00-04:00"
+    },
+    "BMI": {
+      "start_bar": "2026-09-18T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -299,8 +299,6 @@
     "AMZN": "most_actives",
     "BLSH": "day_gainers",
     "KPTI": "most_shorted_stocks",
-    "SPCE": "small_cap_gainers",
-    "BUR": "small_cap_gainers",
     "VIR": "small_cap_gainers",
     "SVRA": "small_cap_gainers",
     "RGNX": "small_cap_gainers",
@@ -425,7 +423,7 @@
     "IMSRW": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "ANGX": "small_cap_gainers+aggressive_small_caps",
+    "ANGX": "aggressive_small_caps",
     "PAL": "aggressive_small_caps",
     "DSX": "aggressive_small_caps",
     "LESL": "aggressive_small_caps",
@@ -437,7 +435,7 @@
     "GOOG": "most_actives",
     "TSLA": "most_actives",
     "AVGO": "most_actives",
-    "IREN": "most_actives",
+    "IREN": "most_actives+day_gainers",
     "CSCO": "most_actives",
     "AAUC": "day_gainers",
     "TRMD": "day_gainers",
@@ -533,6 +531,8 @@
     "ENOV": "aggressive_small_caps",
     "HTFL": "day_gainers",
     "JACK": "most_shorted_stocks",
-    "CLBK": "aggressive_small_caps"
+    "CLBK": "aggressive_small_caps",
+    "FIP": "small_cap_gainers",
+    "OPENZ": "small_cap_gainers"
   }
 }
