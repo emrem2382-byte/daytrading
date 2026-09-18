@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "VNET",
-    "NAT",
     "PURR",
     "SECZ",
     "VISN",
@@ -30,9 +29,6 @@
     "CCCC",
     "MARA",
     "AMZN",
-    "HBAN",
-    "TXG",
-    "HYMC",
     "AYA",
     "BLSH",
     "PBLS",
@@ -267,30 +263,27 @@
     "QNCX",
     "VBIO",
     "NVAX",
-    "AI"
+    "AI",
+    "AAL",
+    "CRK",
+    "ASPSZ",
+    "EVGO"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "KURA": {
-      "start_bar": "2026-09-18T10:45:00-04:00"
+    "KPTI": {
+      "start_bar": "2026-09-18T11:10:00-04:00"
     },
-    "OCGN": {
-      "start_bar": "2026-09-18T10:45:00-04:00"
+    "GETY": {
+      "start_bar": "2026-09-18T11:10:00-04:00"
     },
-    "OLMA": {
-      "start_bar": "2026-09-18T10:55:00-04:00"
-    },
-    "IRWD": {
-      "start_bar": "2026-09-18T10:55:00-04:00"
-    },
-    "NVAX": {
-      "start_bar": "2026-09-18T10:55:00-04:00"
+    "NXTC": {
+      "start_bar": "2026-09-18T11:10:00-04:00"
     }
   },
   "ticker_sources": {
     "VNET": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
-    "NAT": "aggressive_small_caps",
     "DAIC": "most_shorted_stocks",
     "SRFM": "small_cap_gainers",
     "PURR": "most_actives+day_gainers",
@@ -303,9 +296,6 @@
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
     "AMZN": "most_actives",
-    "HBAN": "most_actives",
-    "TXG": "day_gainers",
-    "HYMC": "day_gainers",
     "AYA": "day_gainers",
     "BLSH": "day_gainers",
     "PBLS": "day_gainers",
@@ -536,6 +526,10 @@
     "QNCX": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "NVAX": "most_shorted_stocks",
-    "AI": "most_shorted_stocks"
+    "AI": "most_shorted_stocks",
+    "AAL": "most_actives",
+    "CRK": "day_gainers",
+    "ASPSZ": "small_cap_gainers",
+    "EVGO": "most_shorted_stocks"
   }
 }
