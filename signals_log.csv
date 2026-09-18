@@ -24,7 +24,7 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 23,RGR,small_cap_gainers,2026-09-17 09:47:41,39.1,41.05,38.32,open,,,
 24,CRF,aggressive_small_caps,2026-09-17 12:19:11,6.12,6.43,6.0,open,,,
 25,FLX,small_cap_gainers,2026-09-17 12:33:18,1.06,1.11,1.04,sl_hit,2026-09-17 13:09:16,1.03,-2.36
-26,MRNA,day_gainers,2026-09-17 14:09:18,158.76,166.7,155.59,open,,,
+26,MRNA,day_gainers,2026-09-17 14:09:18,158.76,166.7,155.59,sl_hit,2026-09-18 10:23:33,153.89,-3.07
 27,FDMT,small_cap_gainers,2026-09-17 14:43:35,14.5,15.23,14.21,tp_hit,2026-09-18 09:45:49,15.28,5.38
 28,EVGO,most_shorted_stocks,2026-09-17 14:56:54,1.46,1.53,1.43,sl_hit,2026-09-18 10:08:00,1.41,-3.08
 29,LAC,aggressive_small_caps,2026-09-17 15:22:03,2.91,3.06,2.86,sl_hit,2026-09-18 09:45:49,2.84,-2.58

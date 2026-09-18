@@ -29,20 +29,8 @@
     "DFNS",
     "BMNR",
     "COHR",
-    "IMSR",
-    "EIKN",
-    "CDNL",
-    "AVEX",
-    "AMSC",
-    "OPENW",
-    "ANVS",
-    "ASPN",
-    "AMBQ",
     "CCCC",
     "MARA",
-    "SOFI",
-    "GRAB",
-    "SNAP",
     "AAL",
     "NKE",
     "RIG",
@@ -267,15 +255,33 @@
     "EBON",
     "MU",
     "IMOS",
-    "STKE"
+    "STKE",
+    "T",
+    "STDN",
+    "TWST",
+    "INSP",
+    "FORM",
+    "MTZ",
+    "AMAT",
+    "STX",
+    "GLOO",
+    "NXH",
+    "UAMY",
+    "RXRX"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "BYND": {
-      "start_bar": "2026-09-18T09:55:00-04:00"
+    "DDD": {
+      "start_bar": "2026-09-18T10:20:00-04:00"
     },
-    "GRAL": {
-      "start_bar": "2026-09-18T10:05:00-04:00"
+    "DSX": {
+      "start_bar": "2026-09-18T10:20:00-04:00"
+    },
+    "T": {
+      "start_bar": "2026-09-18T10:20:00-04:00"
+    },
+    "UAMY": {
+      "start_bar": "2026-09-18T10:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -293,20 +299,8 @@
     "DFNS": "most_shorted_stocks",
     "BMNR": "most_actives+day_gainers",
     "COHR": "day_gainers",
-    "IMSR": "small_cap_gainers",
-    "EIKN": "small_cap_gainers",
-    "CDNL": "small_cap_gainers",
-    "AVEX": "small_cap_gainers",
-    "AMSC": "small_cap_gainers",
-    "OPENW": "small_cap_gainers",
-    "ANVS": "small_cap_gainers",
-    "ASPN": "small_cap_gainers",
-    "AMBQ": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "MARA": "most_actives+day_gainers",
-    "SOFI": "most_actives",
-    "GRAB": "most_actives",
-    "SNAP": "most_actives",
     "AAL": "most_actives",
     "NKE": "most_actives",
     "RIG": "most_actives",
@@ -527,6 +521,18 @@
     "EBON": "small_cap_gainers",
     "MU": "most_actives",
     "IMOS": "day_gainers",
-    "STKE": "small_cap_gainers"
+    "STKE": "small_cap_gainers",
+    "T": "most_actives",
+    "STDN": "day_gainers",
+    "TWST": "day_gainers",
+    "INSP": "day_gainers",
+    "FORM": "day_gainers",
+    "MTZ": "day_gainers",
+    "AMAT": "day_gainers",
+    "STX": "day_gainers",
+    "GLOO": "small_cap_gainers",
+    "NXH": "small_cap_gainers",
+    "UAMY": "aggressive_small_caps",
+    "RXRX": "most_shorted_stocks"
   }
 }
