@@ -27,9 +27,6 @@
     "BLSH",
     "CLSK",
     "GEMI",
-    "PATH",
-    "SMR",
-    "INIO",
     "EVEX",
     "ADIG",
     "CWH",
@@ -267,19 +264,13 @@
     "VIP",
     "CCCC",
     "PLSE",
-    "APMD"
+    "APMD",
+    "HBAN",
+    "NRGV",
+    "CORZW"
   ],
   "tracked_day": "2026-09-18",
   "pending_bull": {
-    "BBD": {
-      "start_bar": "2026-09-18T15:20:00-04:00"
-    },
-    "FND": {
-      "start_bar": "2026-09-18T15:20:00-04:00"
-    },
-    "CCCC": {
-      "start_bar": "2026-09-18T15:20:00-04:00"
-    },
     "CANG": {
       "start_bar": "2026-09-18T15:30:00-04:00"
     }
@@ -297,9 +288,6 @@
     "BLSH": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
     "GEMI": "small_cap_gainers",
-    "PATH": "most_actives",
-    "SMR": "most_actives+day_gainers",
-    "INIO": "day_gainers",
     "EVEX": "small_cap_gainers",
     "ADIG": "small_cap_gainers",
     "CWH": "aggressive_small_caps",
@@ -533,6 +521,9 @@
     "VIP": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "PLSE": "day_gainers",
-    "APMD": "small_cap_gainers"
+    "APMD": "small_cap_gainers",
+    "HBAN": "most_actives",
+    "NRGV": "small_cap_gainers",
+    "CORZW": "small_cap_gainers"
   }
 }
