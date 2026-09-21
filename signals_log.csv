@@ -16,12 +16,12 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 15,OCGN,most_shorted_stocks,2026-09-14 15:28:52,1.05,1.1,1.03,sl_hit,2026-09-15 09:40:45,1.02,-2.67
 16,GRPN,most_shorted_stocks,2026-09-14 15:28:53,18.92,19.87,18.54,sl_hit,2026-09-15 12:39:38,18.36,-2.96
 17,ALLT,small_cap_gainers,2026-09-14 15:42:00,8.47,8.89,8.3,sl_hit,2026-09-15 09:40:45,8.02,-5.37
-18,DK,day_gainers,2026-09-16 11:39:23,78.35,82.27,76.78,open,,,
+18,DK,day_gainers,2026-09-16 11:39:23,78.35,82.27,76.78,sl_hit,2026-09-21 15:57:42,74.32,-5.14
 19,TSEM,day_gainers,2026-09-16 14:10:36,204.73,214.97,200.64,sl_hit,2026-09-16 14:56:20,199.72,-2.45
 20,SNUS-PI,small_cap_gainers,2026-09-17 09:33:55,25.28,26.55,24.78,open,,,
 21,TLX,day_gainers,2026-09-17 09:47:35,12.6,13.23,12.35,sl_hit,2026-09-21 11:04:46,11.3,-10.32
 22,XE,day_gainers,2026-09-17 09:47:40,16.32,17.14,15.99,sl_hit,2026-09-17 10:30:33,15.96,-2.21
-23,RGR,small_cap_gainers,2026-09-17 09:47:41,39.1,41.05,38.32,open,,,
+23,RGR,small_cap_gainers,2026-09-17 09:47:41,39.1,41.05,38.32,tp_hit,2026-09-21 15:57:42,41.45,6.01
 24,CRF,aggressive_small_caps,2026-09-17 12:19:11,6.12,6.43,6.0,open,,,
 25,FLX,small_cap_gainers,2026-09-17 12:33:18,1.06,1.11,1.04,sl_hit,2026-09-17 13:09:16,1.03,-2.36
 26,MRNA,day_gainers,2026-09-17 14:09:18,158.76,166.7,155.59,sl_hit,2026-09-18 10:23:33,153.89,-3.07
@@ -37,10 +37,10 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 36,CMPS,day_gainers,2026-09-17 15:53:17,15.03,15.78,14.73,open,,,
 37,ILMN,day_gainers,2026-09-17 15:53:18,243.75,255.94,238.88,sl_hit,2026-09-18 13:26:23,237.91,-2.4
 38,SMTC,day_gainers,2026-09-18 09:46:11,183.8,192.99,180.12,sl_hit,2026-09-21 11:04:46,179.74,-2.21
-39,CHRN,day_gainers,2026-09-18 14:35:30,20.4,21.42,19.99,open,,,
+39,CHRN,day_gainers,2026-09-18 14:35:30,20.4,21.42,19.99,tp_hit,2026-09-21 15:57:42,21.74,6.57
 40,ASBH,small_cap_gainers,2026-09-18 14:35:33,17.8,18.69,17.44,open,,,
-41,STEM,small_cap_gainers,2026-09-18 14:46:52,4.61,4.84,4.52,open,,,
-42,PRGO,aggressive_small_caps,2026-09-18 15:07:45,13.39,14.06,13.12,open,,,
+41,STEM,small_cap_gainers,2026-09-18 14:46:52,4.61,4.84,4.52,sl_hit,2026-09-21 15:57:42,4.41,-4.23
+42,PRGO,aggressive_small_caps,2026-09-18 15:07:45,13.39,14.06,13.12,tp_hit,2026-09-21 15:57:42,14.1,5.34
 43,FORM,day_gainers,2026-09-18 15:20:46,116.22,122.04,113.9,open,,,
 44,OLN,aggressive_small_caps,2026-09-18 15:50:02,16.84,17.69,16.51,sl_hit,2026-09-21 11:04:46,16.43,-2.43
 45,AAL,most_actives,2026-09-18 15:50:06,13.02,13.68,12.76,open,,,
@@ -51,3 +51,7 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 50,LUXE,small_cap_gainers,2026-09-18 15:58:35,10.05,10.55,9.85,sl_hit,2026-09-21 11:04:46,9.73,-3.18
 51,NVAX,most_shorted_stocks,2026-09-18 15:58:37,10.13,10.64,9.93,open,,,
 52,EVH,aggressive_small_caps,2026-09-18 15:58:38,3.68,3.86,3.61,open,,,
+53,HLN,most_actives,2026-09-21 15:58:11,9.36,9.83,9.18,open,,,
+54,IQMX,day_gainers,2026-09-21 15:58:17,10.25,10.76,10.04,open,,,
+55,RKLB,day_gainers,2026-09-21 15:58:18,69.91,73.41,68.51,open,,,
+56,ARHS,small_cap_gainers,2026-09-21 15:58:19,8.72,9.16,8.55,open,,,
