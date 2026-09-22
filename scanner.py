@@ -73,9 +73,18 @@ MIN_DAILY_CHANGE_PCT = 0.0
 MAX_TRACKED_TICKERS = 250
 EMA_FAST = 9
 EMA_SLOW = 20
-VOLUME_MULTIPLIER = 1.5
-TAKE_PROFIT_PCT = 0.05
-STOP_LOSS_PCT = 0.02
+VOLUME_MULTIPLIER = 3.0
+TAKE_PROFIT_PCT = 0.02
+STOP_LOSS_PCT = 0.01
+# По-строги филтри, добавени след бектест на 60 дни 5-минутни данни (виж
+# bt_dt2.py/grid.py в scratch-а): обем 1.5x + таргет 5%/стоп 2% нямаше
+# преднина пред случайно влизане (средно -0.26%/сделка). Тази комбинация
+# (по-висок обем, минимална цена, изисква вече осезаем дневен ръст, по-тесен
+# таргет/стоп) беше единствената от 160 тествани, положителна И в двете
+# половини на периода -- но само леко (+0.16..+0.29%/сделка ПРЕДИ такси),
+# така че пак не е доказана печеливша, само по-малко зле от предишната.
+MIN_SIGNAL_PRICE = 5.0
+MIN_INTRADAY_CHANGE_PCT = 0.03  # текуща цена спрямо предходното дневно затваряне
 # Обемно "изчакване" след пресичане (както в crypto бота) -- по-старата логика
 # изискваше EMA пресичане И обем И VWAP на ЕДНА и съща свещ, което пропускаше
 # реални пробиви, когато обемът потвърждава 1-2 свещи по-късно. Сега: свещ 1
@@ -408,6 +417,11 @@ def _add_indicators(data):
     trading_day = data.index.date
     pv = data["Close"] * data["Volume"]
     data["VWAP"] = pv.groupby(trading_day).cumsum() / data["Volume"].groupby(trading_day).cumsum()
+    # PrevClose: предходното дневно затваряне -- нужно за MIN_INTRADAY_CHANGE_PCT
+    # филтъра (текущата цена да е вече осезаемо над вчерашното затваряне, не
+    # само над днешния VWAP).
+    daily_close = data["Close"].groupby(trading_day).last()
+    data["PrevClose"] = pd.Series(trading_day, index=data.index).map(daily_close.shift(1))
     return data
 # ========================= ГРАФИКА ЗА TELEGRAM =========================
 def generate_chart_png(ticker, data, *, entry_price=None, take_profit=None,
@@ -499,6 +513,12 @@ def evaluate_ticker(ticker, data, pending=None):
         crossed_up_now = prev["EMA_fast"] <= prev["EMA_slow"] and is_bullish
         volume_ok = pd.notna(last["VolAvg"]) and last["Volume"] > VOLUME_MULTIPLIER * last["VolAvg"]
         above_vwap = last["Close"] > last["VWAP"]
+        price_ok = last["Close"] >= MIN_SIGNAL_PRICE
+        day_change_ok = (pd.notna(last["PrevClose"]) and last["PrevClose"] > 0
+                          and last["Close"] / last["PrevClose"] - 1 >= MIN_INTRADAY_CHANGE_PCT)
+        # Двата нови филтъра важат заедно с обема/VWAP -- сигналът трябва да
+        # мине и през четирите, за да се потвърди (виж бектеста по-горе).
+        volume_ok = volume_ok and price_ok and day_change_ok
 
         if not is_bullish:
             # Трендът вече е мечи -- всяко чакане отпада, трябва ново пресичане.
