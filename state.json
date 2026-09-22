@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "SOS",
-    "VLN",
-    "SECZ",
-    "IMSR",
-    "ADCT",
-    "TROX",
-    "SOFI",
-    "AXTI",
-    "SHOP",
-    "GRAB",
-    "ULCC",
-    "ADAM",
-    "GRAL",
-    "YSS",
-    "INTC"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "IREN",
     "ORC",
