@@ -268,24 +268,47 @@ def build_premarket_change_message(movers, added, removed, ny_now):
         arrow = "🔺" if m["pct_move"] > 0 else "🔻"
         lines.append(f"  {arrow} {m['ticker']}   <code>{m['pct_move']:+.2f}%</code>   @ {fmt_price(m['last_price'])}")
     return "\n".join(lines)
-def build_session_summary_message():
-    rows = read_signals_log()
-    closed = [r for r in rows if r["status"] in ("tp_hit", "sl_hit")]
-    if not closed:
+# ID на последния сигнал, логнат ПРЕДИ затягането на правилата на 22.09.2026
+# (обем 1.5x, таргет +5%/стоп -2% -- вижте commit "Затягане на сигнала...").
+# Използва се, за да не се смесва статистиката на новите настройки със
+# старите, доказано губещи резултати в дневния отчет по-долу.
+NEW_RULES_START_ID = 56
+def _closed_stats(rows):
+    if not rows:
         return None
-    wins = sum(1 for r in closed if r["status"] == "tp_hit")
-    total = len(closed)
-    win_rate = wins / total * 100
-    avg_pnl = sum(float(r["pnl_pct"]) for r in closed) / total
-    open_count = sum(1 for r in rows if r["status"] == "open")
-    lines = [
-        "📊 <b>ОБОБЩЕНИЕ ЗА СЕСИЯТА</b>",
-        DIVIDER,
-        f"Затворени:  <code>{total}</code>",
-        f"Печеливши:  <code>{wins}</code>  <i>({win_rate:.1f}%)</i>",
-        f"Среден P/L: <b>{avg_pnl:+.2f}%</b>",
-        f"Отворени:   <code>{open_count}</code>",
-    ]
+    wins = sum(1 for r in rows if r["status"] == "tp_hit")
+    total = len(rows)
+    avg_pnl = sum(float(r["pnl_pct"]) for r in rows) / total
+    return dict(total=total, wins=wins, win_rate=wins / total * 100, avg_pnl=avg_pnl)
+def build_session_summary_message(ny_now=None):
+    """Дневно обобщение, пращано в Telegram при затваряне на пазара (виж main()).
+    Разделя статистиката на "днес" и "от новите настройки насам" (след
+    NEW_RULES_START_ID) -- старите широки таргет/стоп сигнали отпреди 22.09
+    вече не се броят в никое от двете, за да не размиват картината."""
+    ny_now = ny_now or datetime.now(ZoneInfo("America/New_York"))
+    today = ny_now.strftime("%Y-%m-%d")
+    rows = read_signals_log()
+    new_rows = [r for r in rows if int(r["id"]) > NEW_RULES_START_ID]
+    closed_new = [r for r in new_rows if r["status"] in ("tp_hit", "sl_hit")]
+    closed_today = [r for r in closed_new if r["close_time"][:10] == today]
+    opened_today = sum(1 for r in new_rows if r["signal_time"][:10] == today)
+    open_count = sum(1 for r in new_rows if r["status"] == "open")
+    if not closed_new and not opened_today:
+        return None
+    lines = ["📊 <b>ДНЕВЕН ОТЧЕТ</b>", DIVIDER, f"Нови сигнали днес: <code>{opened_today}</code>"]
+    st = _closed_stats(closed_today)
+    if st:
+        lines.append(f"Затворени днес: <code>{st['total']}</code>  "
+                      f"<i>({st['wins']} печеливши, {st['win_rate']:.0f}%)</i>  "
+                      f"среден P/L <b>{st['avg_pnl']:+.2f}%</b>")
+    else:
+        lines.append("Затворени днес: <code>0</code>")
+    lines.append(DIVIDER)
+    st_all = _closed_stats(closed_new)
+    if st_all:
+        lines.append(f"От новите правила (22.09+): <code>{st_all['total']}</code> затворени, "
+                      f"<i>{st_all['win_rate']:.0f}% печеливши</i>, среден P/L <b>{st_all['avg_pnl']:+.2f}%</b>")
+    lines.append(f"Отворени в момента: <code>{open_count}</code>")
     return "\n".join(lines)
 # ========================= СЪСТОЯНИЕ (state.json) =========================
 def load_state():
@@ -788,7 +811,7 @@ def main():
     if summary:
         print(summary)
     if ny_now.hour == 15 and ny_now.minute >= 55:
-        summary_msg = build_session_summary_message()
+        summary_msg = build_session_summary_message(ny_now)
         if summary_msg:
             send_telegram(summary_msg)
     state["last_session"] = "open"
