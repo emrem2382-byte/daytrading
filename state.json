@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "SOS",
+    "VLN",
+    "SECZ",
+    "IMSR",
+    "ADCT",
+    "TROX",
+    "SOFI",
+    "AXTI",
+    "SHOP",
+    "GRAB",
+    "ULCC",
+    "ADAM",
+    "GRAL",
+    "YSS",
+    "INTC"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "VNET",
     "SECZ",
