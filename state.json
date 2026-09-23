@@ -18,10 +18,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "IREN",
-    "ORC",
     "MGN",
-    "SNDK",
     "RXRX",
     "SOFI",
     "ADCT",
@@ -300,38 +297,61 @@
     "RUN",
     "XPON",
     "RSKD",
-    "CDE"
+    "CDE",
+    "IONQ",
+    "WOR",
+    "QNT",
+    "MAAS",
+    "IRTC",
+    "LKFT",
+    "NWCL",
+    "PBF",
+    "DELL",
+    "GPK",
+    "DINO",
+    "NNBR",
+    "SST",
+    "TBI",
+    "BXC",
+    "ASPSW",
+    "ASPSZ",
+    "IMSRW",
+    "IQMXW",
+    "PAL"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
     "OCGN": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
-    "KURA": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
     "ANVS": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "GRPN": {
-      "start_bar": "2026-09-22T15:55:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "SOUN": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "CE": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
     "OPENL": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
-    "AEHL": {
-      "start_bar": "2026-09-22T15:55:00-04:00"
-    },
     "KOS": {
+      "start_bar": "2026-09-23T09:30:00-04:00"
+    },
+    "MGN": {
+      "start_bar": "2026-09-23T09:30:00-04:00"
+    },
+    "TSQ": {
+      "start_bar": "2026-09-23T09:30:00-04:00"
+    },
+    "SG": {
+      "start_bar": "2026-09-23T09:35:00-04:00"
+    },
+    "PLSE": {
+      "start_bar": "2026-09-23T09:30:00-04:00"
+    },
+    "NWCL": {
+      "start_bar": "2026-09-23T09:35:00-04:00"
+    },
+    "DINO": {
+      "start_bar": "2026-09-23T09:35:00-04:00"
+    },
+    "PAL": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     }
   },
@@ -340,12 +360,9 @@
     "GRAL": "day_gainers",
     "YSS": "small_cap_gainers",
     "INTC": "most_actives",
-    "IREN": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
-    "ORC": "aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "SNDK": "day_gainers",
     "RXRX": "most_actives+most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
@@ -616,6 +633,26 @@
     "NFE": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "RUN": "most_shorted_stocks",
-    "XPON": "most_shorted_stocks"
+    "XPON": "most_shorted_stocks",
+    "IONQ": "most_actives+day_gainers",
+    "WOR": "day_gainers",
+    "QNT": "day_gainers",
+    "MAAS": "day_gainers",
+    "IRTC": "day_gainers",
+    "LKFT": "day_gainers",
+    "NWCL": "day_gainers",
+    "PBF": "day_gainers",
+    "DELL": "day_gainers",
+    "GPK": "day_gainers",
+    "DINO": "day_gainers",
+    "NNBR": "small_cap_gainers",
+    "SST": "small_cap_gainers",
+    "TBI": "small_cap_gainers",
+    "BXC": "small_cap_gainers",
+    "ASPSW": "small_cap_gainers",
+    "ASPSZ": "small_cap_gainers",
+    "IMSRW": "small_cap_gainers",
+    "IQMXW": "small_cap_gainers",
+    "PAL": "aggressive_small_caps"
   }
 }
