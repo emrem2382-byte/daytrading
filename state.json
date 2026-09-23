@@ -19,8 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "QUBT",
-    "HBAN",
-    "NRGV",
     "CORZW",
     "RBBN",
     "ONDS",
@@ -317,29 +315,25 @@
     "LOT",
     "AM",
     "FIRY",
-    "DSX"
+    "DSX",
+    "KLXER",
+    "VBIO"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "ENOV": {
-      "start_bar": "2026-09-23T10:25:00-04:00"
-    },
-    "ONON": {
-      "start_bar": "2026-09-23T10:30:00-04:00"
-    },
-    "NFLX": {
-      "start_bar": "2026-09-23T10:30:00-04:00"
-    },
     "LOT": {
       "start_bar": "2026-09-23T10:25:00-04:00"
-    },
-    "BHE": {
-      "start_bar": "2026-09-23T10:30:00-04:00"
     },
     "TV": {
       "start_bar": "2026-09-23T10:35:00-04:00"
     },
     "DSX": {
+      "start_bar": "2026-09-23T10:40:00-04:00"
+    },
+    "VICR": {
+      "start_bar": "2026-09-23T10:40:00-04:00"
+    },
+    "MAAS": {
       "start_bar": "2026-09-23T10:40:00-04:00"
     }
   },
@@ -351,8 +345,6 @@
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "HBAN": "most_actives",
-    "NRGV": "small_cap_gainers",
     "CORZW": "small_cap_gainers",
     "RBBN": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
@@ -641,6 +633,8 @@
     "LOT": "small_cap_gainers",
     "AM": "day_gainers",
     "FIRY": "small_cap_gainers",
-    "DSX": "aggressive_small_caps"
+    "DSX": "aggressive_small_caps",
+    "KLXER": "small_cap_gainers",
+    "VBIO": "most_shorted_stocks"
   }
 }
