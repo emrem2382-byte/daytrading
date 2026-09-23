@@ -18,13 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "TSQ",
-    "WDC",
-    "STRK",
-    "SERV",
-    "SSMR",
-    "BIOX",
-    "TMC",
     "KPTI",
     "QUBT",
     "COHR",
@@ -317,36 +310,25 @@
     "AR",
     "SNOW",
     "PBR",
-    "STRR"
+    "STRR",
+    "HPE",
+    "SSL",
+    "DVN",
+    "UHS",
+    "AVAV",
+    "LU",
+    "RXRX"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "GME": {
-      "start_bar": "2026-09-23T09:45:00-04:00"
-    },
-    "NWCL": {
-      "start_bar": "2026-09-23T09:40:00-04:00"
-    },
-    "SST": {
-      "start_bar": "2026-09-23T09:40:00-04:00"
-    },
     "RIG": {
-      "start_bar": "2026-09-23T09:50:00-04:00"
-    },
-    "DBRG": {
-      "start_bar": "2026-09-23T09:45:00-04:00"
-    },
-    "TSQ": {
-      "start_bar": "2026-09-23T09:50:00-04:00"
-    },
-    "DUOL": {
       "start_bar": "2026-09-23T09:50:00-04:00"
     },
     "SILC": {
       "start_bar": "2026-09-23T09:50:00-04:00"
     },
-    "FUN": {
-      "start_bar": "2026-09-23T09:55:00-04:00"
+    "AMBQ": {
+      "start_bar": "2026-09-23T10:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,13 +338,6 @@
     "INTC": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
-    "TSQ": "small_cap_gainers",
-    "WDC": "day_gainers",
-    "STRK": "small_cap_gainers",
-    "SERV": "most_shorted_stocks",
-    "SSMR": "day_gainers",
-    "BIOX": "small_cap_gainers",
-    "TMC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "QUBT": "most_actives+most_shorted_stocks",
     "COHR": "day_gainers",
@@ -394,7 +369,7 @@
     "SPCX": "most_actives",
     "SMCI": "most_actives",
     "PSKY": "most_actives",
-    "META": "most_actives",
+    "META": "most_actives+day_gainers",
     "NKE": "most_actives",
     "GRAB": "most_actives",
     "SNAP": "most_actives",
@@ -488,7 +463,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "most_actives+day_gainers",
     "ONON": "most_actives+day_gainers",
@@ -596,7 +571,7 @@
     "KLRA": "small_cap_gainers",
     "EMBC": "small_cap_gainers",
     "RYAM": "small_cap_gainers",
-    "BAND": "small_cap_gainers",
+    "BAND": "day_gainers+small_cap_gainers",
     "PYXS": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
@@ -647,6 +622,13 @@
     "AR": "day_gainers",
     "SNOW": "day_gainers",
     "PBR": "day_gainers",
-    "STRR": "small_cap_gainers"
+    "STRR": "small_cap_gainers",
+    "HPE": "day_gainers",
+    "SSL": "day_gainers",
+    "DVN": "day_gainers",
+    "UHS": "day_gainers",
+    "AVAV": "day_gainers",
+    "LU": "small_cap_gainers",
+    "RXRX": "most_shorted_stocks"
   }
 }
