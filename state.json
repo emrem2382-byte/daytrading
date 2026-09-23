@@ -20,7 +20,6 @@
   "tracked_tickers": [
     "QUBT",
     "META",
-    "MX",
     "TSAT",
     "SILC",
     "BBBYW",
@@ -317,7 +316,8 @@
     "LBRT",
     "RRC",
     "JACK",
-    "ARW"
+    "ARW",
+    "FRSH"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
@@ -335,6 +335,9 @@
     },
     "BLLN": {
       "start_bar": "2026-09-23T12:00:00-04:00"
+    },
+    "DINO": {
+      "start_bar": "2026-09-23T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,7 +349,6 @@
     "SOS": "aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
-    "MX": "small_cap_gainers",
     "TSAT": "small_cap_gainers",
     "SILC": "small_cap_gainers",
     "BBBYW": "small_cap_gainers",
@@ -635,6 +637,7 @@
     "LBRT": "day_gainers",
     "RRC": "day_gainers",
     "JACK": "most_shorted_stocks",
-    "ARW": "day_gainers"
+    "ARW": "day_gainers",
+    "FRSH": "day_gainers"
   }
 }
