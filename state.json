@@ -23,7 +23,6 @@
     "SMCI",
     "META",
     "NKE",
-    "GRAB",
     "AMC",
     "ARM",
     "LUNR",
@@ -317,21 +316,13 @@
     "DDOG",
     "EFXT",
     "HUBS",
-    "EGHT"
+    "EGHT",
+    "XRXDW"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
     "KLXER": {
       "start_bar": "2026-09-23T10:45:00-04:00"
-    },
-    "VBIO": {
-      "start_bar": "2026-09-23T10:45:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
-    },
-    "TTMI": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
     },
     "CXT": {
       "start_bar": "2026-09-23T10:50:00-04:00"
@@ -343,9 +334,6 @@
       "start_bar": "2026-09-23T10:50:00-04:00"
     },
     "QCOM": {
-      "start_bar": "2026-09-23T11:00:00-04:00"
-    },
-    "GPRO": {
       "start_bar": "2026-09-23T11:00:00-04:00"
     },
     "OUST": {
@@ -368,6 +356,27 @@
     },
     "SNOW": {
       "start_bar": "2026-09-23T11:00:00-04:00"
+    },
+    "PATH": {
+      "start_bar": "2026-09-23T11:05:00-04:00"
+    },
+    "P": {
+      "start_bar": "2026-09-23T11:05:00-04:00"
+    },
+    "CNXC": {
+      "start_bar": "2026-09-23T11:05:00-04:00"
+    },
+    "KEEL": {
+      "start_bar": "2026-09-23T11:05:00-04:00"
+    },
+    "SST": {
+      "start_bar": "2026-09-23T11:00:00-04:00"
+    },
+    "BXC": {
+      "start_bar": "2026-09-23T11:05:00-04:00"
+    },
+    "AI": {
+      "start_bar": "2026-09-23T11:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -382,7 +391,6 @@
     "SMCI": "most_actives",
     "META": "most_actives",
     "NKE": "most_actives",
-    "GRAB": "most_actives",
     "AMC": "most_actives",
     "ARM": "day_gainers",
     "LUNR": "day_gainers",
@@ -668,6 +676,7 @@
     "DDOG": "day_gainers",
     "EFXT": "day_gainers",
     "HUBS": "day_gainers",
-    "EGHT": "small_cap_gainers"
+    "EGHT": "small_cap_gainers",
+    "XRXDW": "small_cap_gainers"
   }
 }
