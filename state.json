@@ -21,7 +21,6 @@
     "QUBT",
     "META",
     "GPRO",
-    "PLBL",
     "VYX",
     "LAES",
     "NXDR",
@@ -317,13 +316,11 @@
     "DH",
     "DCO",
     "DPC",
-    "BELFB"
+    "BELFB",
+    "AMBA"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "VISN": {
-      "start_bar": "2026-09-23T14:35:00-04:00"
-    },
     "KVYO": {
       "start_bar": "2026-09-23T14:45:00-04:00"
     },
@@ -339,8 +336,11 @@
     "RGTI": {
       "start_bar": "2026-09-23T14:50:00-04:00"
     },
-    "TEAD": {
-      "start_bar": "2026-09-23T14:45:00-04:00"
+    "AEMD": {
+      "start_bar": "2026-09-23T14:50:00-04:00"
+    },
+    "ABSI": {
+      "start_bar": "2026-09-23T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,7 +353,6 @@
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "PLBL": "day_gainers",
     "VYX": "small_cap_gainers",
     "LAES": "small_cap_gainers",
     "NXDR": "small_cap_gainers",
@@ -368,7 +367,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
@@ -641,6 +640,7 @@
     "DH": "small_cap_gainers",
     "DCO": "day_gainers",
     "DPC": "day_gainers",
-    "BELFB": "day_gainers"
+    "BELFB": "day_gainers",
+    "AMBA": "day_gainers"
   }
 }
