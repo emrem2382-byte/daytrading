@@ -21,8 +21,6 @@
     "QUBT",
     "META",
     "GPRO",
-    "NU",
-    "PATH",
     "PLBL",
     "NICE",
     "TWLO",
@@ -317,24 +315,17 @@
     "FPS",
     "AIFU",
     "SEI",
-    "GEO"
+    "GEO",
+    "XPO",
+    "CRM"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "BRSL": {
-      "start_bar": "2026-09-23T12:40:00-04:00"
-    },
     "TEAD": {
       "start_bar": "2026-09-23T12:35:00-04:00"
     },
-    "TLYS": {
-      "start_bar": "2026-09-23T12:40:00-04:00"
-    },
     "OPENL": {
       "start_bar": "2026-09-23T12:40:00-04:00"
-    },
-    "GCTS": {
-      "start_bar": "2026-09-23T12:45:00-04:00"
     },
     "NFLX": {
       "start_bar": "2026-09-23T12:50:00-04:00"
@@ -343,6 +334,18 @@
       "start_bar": "2026-09-23T12:55:00-04:00"
     },
     "CDNS": {
+      "start_bar": "2026-09-23T12:55:00-04:00"
+    },
+    "TWLO": {
+      "start_bar": "2026-09-23T13:00:00-04:00"
+    },
+    "IRTC": {
+      "start_bar": "2026-09-23T12:55:00-04:00"
+    },
+    "MSFT": {
+      "start_bar": "2026-09-23T12:55:00-04:00"
+    },
+    "ENOV": {
       "start_bar": "2026-09-23T12:55:00-04:00"
     }
   },
@@ -356,8 +359,6 @@
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "NU": "most_actives",
-    "PATH": "most_actives",
     "PLBL": "day_gainers",
     "NICE": "day_gainers",
     "TWLO": "day_gainers",
@@ -533,7 +534,7 @@
     "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
-    "PLTR": "most_actives",
+    "PLTR": "most_actives+day_gainers",
     "DOCU": "day_gainers",
     "MEI": "small_cap_gainers",
     "TSLA": "most_actives",
@@ -644,6 +645,8 @@
     "FPS": "day_gainers",
     "AIFU": "small_cap_gainers",
     "SEI": "day_gainers",
-    "GEO": "day_gainers"
+    "GEO": "day_gainers",
+    "XPO": "day_gainers",
+    "CRM": "day_gainers"
   }
 }
