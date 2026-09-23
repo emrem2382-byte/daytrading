@@ -20,9 +20,6 @@
   "tracked_tickers": [
     "QUBT",
     "META",
-    "TSAT",
-    "SILC",
-    "BBBYW",
     "CFND",
     "WBX",
     "FENG",
@@ -317,26 +314,26 @@
     "RRC",
     "JACK",
     "ARW",
-    "FRSH"
+    "FRSH",
+    "BFAM",
+    "TRI",
+    "DAIC"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "APP": {
-      "start_bar": "2026-09-23T11:55:00-04:00"
-    },
-    "TASK": {
-      "start_bar": "2026-09-23T11:50:00-04:00"
-    },
-    "TBI": {
-      "start_bar": "2026-09-23T11:50:00-04:00"
-    },
-    "CAI": {
-      "start_bar": "2026-09-23T11:55:00-04:00"
-    },
     "BLLN": {
       "start_bar": "2026-09-23T12:00:00-04:00"
     },
     "DINO": {
+      "start_bar": "2026-09-23T12:05:00-04:00"
+    },
+    "ESRT": {
+      "start_bar": "2026-09-23T12:10:00-04:00"
+    },
+    "SBH": {
+      "start_bar": "2026-09-23T12:05:00-04:00"
+    },
+    "DAIC": {
       "start_bar": "2026-09-23T12:05:00-04:00"
     }
   },
@@ -349,9 +346,6 @@
     "SOS": "aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
-    "TSAT": "small_cap_gainers",
-    "SILC": "small_cap_gainers",
-    "BBBYW": "small_cap_gainers",
     "CFND": "small_cap_gainers",
     "WBX": "small_cap_gainers",
     "FENG": "small_cap_gainers",
@@ -638,6 +632,9 @@
     "RRC": "day_gainers",
     "JACK": "most_shorted_stocks",
     "ARW": "day_gainers",
-    "FRSH": "day_gainers"
+    "FRSH": "day_gainers",
+    "BFAM": "day_gainers",
+    "TRI": "day_gainers",
+    "DAIC": "most_shorted_stocks"
   }
 }
