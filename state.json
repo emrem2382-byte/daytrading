@@ -21,7 +21,6 @@
     "QUBT",
     "META",
     "GPRO",
-    "HTZ",
     "EOSE",
     "BBAI",
     "AUR",
@@ -317,21 +316,16 @@
     "ZBRA",
     "PRDO",
     "CNXN",
-    "COUR"
+    "COUR",
+    "FPS"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "AZO": {
-      "start_bar": "2026-09-23T12:25:00-04:00"
-    },
     "METC": {
       "start_bar": "2026-09-23T12:25:00-04:00"
     },
     "BBBYW": {
       "start_bar": "2026-09-23T12:20:00-04:00"
-    },
-    "HTZ": {
-      "start_bar": "2026-09-23T12:30:00-04:00"
     },
     "CGC": {
       "start_bar": "2026-09-23T12:25:00-04:00"
@@ -342,13 +336,19 @@
     "EMBC": {
       "start_bar": "2026-09-23T12:30:00-04:00"
     },
-    "PYXS": {
-      "start_bar": "2026-09-23T12:30:00-04:00"
-    },
     "CDE": {
       "start_bar": "2026-09-23T12:30:00-04:00"
     },
     "PCG": {
+      "start_bar": "2026-09-23T12:35:00-04:00"
+    },
+    "APP": {
+      "start_bar": "2026-09-23T12:40:00-04:00"
+    },
+    "BRSL": {
+      "start_bar": "2026-09-23T12:40:00-04:00"
+    },
+    "TEAD": {
       "start_bar": "2026-09-23T12:35:00-04:00"
     }
   },
@@ -359,10 +359,9 @@
     "INTC": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
-    "QUBT": "most_shorted_stocks",
+    "QUBT": "day_gainers+most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "HTZ": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "AUR": "most_actives",
@@ -397,7 +396,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "small_cap_gainers+aggressive_small_caps",
+    "FLNC": "aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
@@ -650,6 +649,7 @@
     "ZBRA": "day_gainers",
     "PRDO": "day_gainers",
     "CNXN": "day_gainers",
-    "COUR": "aggressive_small_caps"
+    "COUR": "aggressive_small_caps",
+    "FPS": "day_gainers"
   }
 }
