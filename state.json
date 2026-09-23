@@ -316,16 +316,34 @@
     "E",
     "CLF",
     "VECO",
-    "DH",
-    "BBAI"
+    "BBAI",
+    "DH"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "SLS": {
-      "start_bar": "2026-09-23T13:50:00-04:00"
+    "XPOF": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
     },
-    "SFNC": {
-      "start_bar": "2026-09-23T13:50:00-04:00"
+    "BTU": {
+      "start_bar": "2026-09-23T14:00:00-04:00"
+    },
+    "BHE": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "CNXC": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "SVCO": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "AYA": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "TSLA": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "NNE": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
     },
     "GPRO": {
       "start_bar": "2026-09-23T14:05:00-04:00"
@@ -336,16 +354,19 @@
     "LEN": {
       "start_bar": "2026-09-23T14:05:00-04:00"
     },
-    "PAL": {
-      "start_bar": "2026-09-23T14:00:00-04:00"
+    "PACB": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
     },
-    "TSLA": {
+    "PAL": {
       "start_bar": "2026-09-23T14:00:00-04:00"
     },
     "ATRC": {
       "start_bar": "2026-09-23T14:05:00-04:00"
     },
     "SSL": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
+    },
+    "NKE": {
       "start_bar": "2026-09-23T14:05:00-04:00"
     },
     "INIO": {
@@ -488,7 +509,7 @@
     "KLRA": "small_cap_gainers",
     "EMBC": "small_cap_gainers",
     "RYAM": "small_cap_gainers",
-    "BAND": "day_gainers+small_cap_gainers",
+    "BAND": "small_cap_gainers",
     "PYXS": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
@@ -649,7 +670,7 @@
     "E": "day_gainers",
     "CLF": "day_gainers",
     "VECO": "day_gainers",
-    "DH": "small_cap_gainers",
-    "BBAI": "most_shorted_stocks"
+    "BBAI": "most_shorted_stocks",
+    "DH": "small_cap_gainers"
   }
 }
