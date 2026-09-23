@@ -22,7 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "RXT",
     "SPCE",
     "VYX",
     "LAES",
@@ -317,54 +316,37 @@
     "VECO",
     "BBAI",
     "DH",
-    "DCO"
+    "DCO",
+    "DPC"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "GPRO": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "IBRX": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "LEN": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "PACB": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "PAL": {
-      "start_bar": "2026-09-23T14:00:00-04:00"
-    },
-    "ATRC": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "SSL": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "INIO": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "MORN": {
-      "start_bar": "2026-09-23T14:05:00-04:00"
-    },
-    "BA": {
-      "start_bar": "2026-09-23T14:10:00-04:00"
-    },
     "FOSL": {
       "start_bar": "2026-09-23T14:15:00-04:00"
     },
     "OPENL": {
       "start_bar": "2026-09-23T14:10:00-04:00"
     },
-    "TTC": {
-      "start_bar": "2026-09-23T14:15:00-04:00"
-    },
     "CHKP": {
       "start_bar": "2026-09-23T14:10:00-04:00"
     },
     "COUR": {
       "start_bar": "2026-09-23T14:15:00-04:00"
+    },
+    "RARE": {
+      "start_bar": "2026-09-23T14:20:00-04:00"
+    },
+    "CWH": {
+      "start_bar": "2026-09-23T14:15:00-04:00"
+    },
+    "PBF": {
+      "start_bar": "2026-09-23T14:15:00-04:00"
+    },
+    "DINO": {
+      "start_bar": "2026-09-23T14:20:00-04:00"
+    },
+    "IREN": {
+      "start_bar": "2026-09-23T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -378,7 +360,6 @@
     "META": "most_actives",
     "GPRO": "small_cap_gainers+aggressive_small_caps",
     "PLBL": "day_gainers",
-    "RXT": "small_cap_gainers",
     "SPCE": "small_cap_gainers",
     "VYX": "small_cap_gainers",
     "LAES": "small_cap_gainers",
@@ -394,7 +375,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
@@ -665,6 +646,7 @@
     "VECO": "day_gainers",
     "BBAI": "most_shorted_stocks",
     "DH": "small_cap_gainers",
-    "DCO": "day_gainers"
+    "DCO": "day_gainers",
+    "DPC": "day_gainers"
   }
 }
