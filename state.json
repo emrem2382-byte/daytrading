@@ -21,7 +21,6 @@
     "QUBT",
     "META",
     "GPRO",
-    "XERS",
     "GCTS",
     "EAF",
     "TASK",
@@ -317,36 +316,16 @@
     "CLS",
     "ADCT",
     "PLBL",
-    "U"
+    "U",
+    "LTH"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "RGC": {
-      "start_bar": "2026-09-23T15:20:00-04:00"
-    },
-    "NOW": {
-      "start_bar": "2026-09-23T15:25:00-04:00"
-    },
-    "HUBS": {
-      "start_bar": "2026-09-23T15:25:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-23T15:25:00-04:00"
-    },
-    "AAON": {
-      "start_bar": "2026-09-23T15:25:00-04:00"
-    },
     "ARQT": {
       "start_bar": "2026-09-23T15:30:00-04:00"
     },
     "RSKD": {
       "start_bar": "2026-09-23T15:30:00-04:00"
-    },
-    "VBIO": {
-      "start_bar": "2026-09-23T15:30:00-04:00"
-    },
-    "OKTA": {
-      "start_bar": "2026-09-23T15:25:00-04:00"
     },
     "PSKY": {
       "start_bar": "2026-09-23T15:30:00-04:00"
@@ -365,6 +344,21 @@
     },
     "NNE": {
       "start_bar": "2026-09-23T15:35:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-23T15:35:00-04:00"
+    },
+    "AVT": {
+      "start_bar": "2026-09-23T15:40:00-04:00"
+    },
+    "CRK": {
+      "start_bar": "2026-09-23T15:35:00-04:00"
+    },
+    "PFE": {
+      "start_bar": "2026-09-23T15:40:00-04:00"
+    },
+    "PLBL": {
+      "start_bar": "2026-09-23T15:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -377,7 +371,6 @@
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "XERS": "small_cap_gainers",
     "GCTS": "small_cap_gainers",
     "EAF": "small_cap_gainers",
     "TASK": "small_cap_gainers",
@@ -665,6 +658,7 @@
     "CLS": "day_gainers",
     "ADCT": "small_cap_gainers",
     "PLBL": "day_gainers",
-    "U": "day_gainers"
+    "U": "day_gainers",
+    "LTH": "day_gainers"
   }
 }
