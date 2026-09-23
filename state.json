@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "CTKB",
+    "ANVS",
+    "SRFM",
+    "NMRA",
+    "LEN-B",
+    "AYA",
+    "ERO",
+    "RSKD",
+    "DNA",
+    "HYMC",
+    "CDE",
+    "EVTL",
+    "MUX",
+    "TLX",
+    "JELD"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "IREN",
     "ORC",
