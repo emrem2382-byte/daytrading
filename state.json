@@ -22,7 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "OUST",
     "LFTO",
     "P",
     "RNG",
@@ -317,7 +316,8 @@
     "XPO",
     "CRM",
     "CXW",
-    "CCM"
+    "CCM",
+    "CASY"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
@@ -327,8 +327,23 @@
     "DSP": {
       "start_bar": "2026-09-23T13:15:00-04:00"
     },
-    "VLN": {
+    "GCTS": {
       "start_bar": "2026-09-23T13:20:00-04:00"
+    },
+    "LU": {
+      "start_bar": "2026-09-23T13:20:00-04:00"
+    },
+    "MORN": {
+      "start_bar": "2026-09-23T13:20:00-04:00"
+    },
+    "DDOG": {
+      "start_bar": "2026-09-23T13:25:00-04:00"
+    },
+    "SFNC": {
+      "start_bar": "2026-09-23T13:20:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-23T13:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -342,7 +357,6 @@
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
-    "OUST": "day_gainers",
     "LFTO": "day_gainers",
     "P": "day_gainers",
     "RNG": "day_gainers",
@@ -629,6 +643,7 @@
     "XPO": "day_gainers",
     "CRM": "day_gainers",
     "CXW": "day_gainers",
-    "CCM": "small_cap_gainers"
+    "CCM": "small_cap_gainers",
+    "CASY": "day_gainers"
   }
 }
