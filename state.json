@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "QUBT",
-    "APMD",
     "HBAN",
     "NRGV",
     "CORZW",
@@ -317,13 +316,11 @@
     "ENOV",
     "LOT",
     "AM",
-    "FIRY"
+    "FIRY",
+    "DSX"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "FLWS": {
-      "start_bar": "2026-09-23T10:20:00-04:00"
-    },
     "ENOV": {
       "start_bar": "2026-09-23T10:25:00-04:00"
     },
@@ -336,14 +333,14 @@
     "LOT": {
       "start_bar": "2026-09-23T10:25:00-04:00"
     },
-    "KSS": {
-      "start_bar": "2026-09-23T10:35:00-04:00"
-    },
-    "FUN": {
-      "start_bar": "2026-09-23T10:35:00-04:00"
-    },
     "BHE": {
       "start_bar": "2026-09-23T10:30:00-04:00"
+    },
+    "TV": {
+      "start_bar": "2026-09-23T10:35:00-04:00"
+    },
+    "DSX": {
+      "start_bar": "2026-09-23T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,9 +349,8 @@
     "YSS": "small_cap_gainers",
     "INTC": "most_actives",
     "AXTI": "day_gainers",
-    "SOS": "small_cap_gainers+aggressive_small_caps",
-    "QUBT": "most_actives+most_shorted_stocks",
-    "APMD": "small_cap_gainers",
+    "SOS": "aggressive_small_caps",
+    "QUBT": "most_shorted_stocks",
     "HBAN": "most_actives",
     "NRGV": "small_cap_gainers",
     "CORZW": "small_cap_gainers",
@@ -644,6 +640,7 @@
     "ENOV": "aggressive_small_caps",
     "LOT": "small_cap_gainers",
     "AM": "day_gainers",
-    "FIRY": "small_cap_gainers"
+    "FIRY": "small_cap_gainers",
+    "DSX": "aggressive_small_caps"
   }
 }
