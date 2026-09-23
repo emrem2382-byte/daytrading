@@ -5,16 +5,16 @@
     "SRFM",
     "RSKD",
     "LEN-B",
+    "HYMC",
     "DNA",
     "CDE",
-    "EVTL",
     "ERO",
-    "HYMC",
+    "EVTL",
     "NMRA",
     "MUX",
     "TLX",
-    "HL",
-    "TRAX"
+    "TRAX",
+    "HL"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
