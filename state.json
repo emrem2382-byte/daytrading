@@ -19,15 +19,8 @@
   "last_session": "open",
   "tracked_tickers": [
     "QUBT",
-    "ONDS",
     "META",
     "MRNA",
-    "AKAM",
-    "FLY",
-    "NN",
-    "RMBS",
-    "FSLY",
-    "ALAB",
     "LSCC",
     "INFQ",
     "OKLO",
@@ -317,15 +310,19 @@
     "IR",
     "BHFAP",
     "BA",
-    "SBXD"
+    "SBXD",
+    "SMCI",
+    "NKE",
+    "LOPE",
+    "ACMR",
+    "IOND",
+    "SM",
+    "MUR"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
     "BXC": {
       "start_bar": "2026-09-23T11:05:00-04:00"
-    },
-    "AKAM": {
-      "start_bar": "2026-09-23T11:20:00-04:00"
     },
     "MNRO": {
       "start_bar": "2026-09-23T11:15:00-04:00"
@@ -338,6 +335,36 @@
     },
     "ATRC": {
       "start_bar": "2026-09-23T11:15:00-04:00"
+    },
+    "TUYA": {
+      "start_bar": "2026-09-23T11:20:00-04:00"
+    },
+    "IMSR": {
+      "start_bar": "2026-09-23T11:20:00-04:00"
+    },
+    "BBAI": {
+      "start_bar": "2026-09-23T11:25:00-04:00"
+    },
+    "FOSL": {
+      "start_bar": "2026-09-23T11:20:00-04:00"
+    },
+    "TGB": {
+      "start_bar": "2026-09-23T11:25:00-04:00"
+    },
+    "XRX": {
+      "start_bar": "2026-09-23T11:25:00-04:00"
+    },
+    "BAND": {
+      "start_bar": "2026-09-23T11:20:00-04:00"
+    },
+    "RUN": {
+      "start_bar": "2026-09-23T11:25:00-04:00"
+    },
+    "LKFT": {
+      "start_bar": "2026-09-23T11:20:00-04:00"
+    },
+    "TSLA": {
+      "start_bar": "2026-09-23T11:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,15 +375,8 @@
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
     "QUBT": "day_gainers+most_shorted_stocks",
-    "ONDS": "most_actives+most_shorted_stocks",
     "META": "most_actives",
     "MRNA": "most_actives",
-    "AKAM": "day_gainers",
-    "FLY": "day_gainers",
-    "NN": "day_gainers",
-    "RMBS": "day_gainers",
-    "FSLY": "day_gainers",
-    "ALAB": "day_gainers",
     "LSCC": "day_gainers",
     "INFQ": "day_gainers",
     "OKLO": "day_gainers",
@@ -494,7 +514,7 @@
     "HLLY": "small_cap_gainers",
     "NMRA": "small_cap_gainers",
     "DNA": "small_cap_gainers",
-    "JELD": "small_cap_gainers+aggressive_small_caps",
+    "JELD": "aggressive_small_caps",
     "FDMT": "small_cap_gainers",
     "VLN": "small_cap_gainers",
     "ASPN": "small_cap_gainers",
@@ -638,6 +658,13 @@
     "IR": "day_gainers",
     "BHFAP": "day_gainers",
     "BA": "day_gainers",
-    "SBXD": "small_cap_gainers"
+    "SBXD": "small_cap_gainers",
+    "SMCI": "most_actives",
+    "NKE": "most_actives",
+    "LOPE": "day_gainers",
+    "ACMR": "day_gainers",
+    "IOND": "day_gainers",
+    "SM": "day_gainers",
+    "MUR": "day_gainers"
   }
 }
