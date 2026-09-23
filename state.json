@@ -19,8 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "QUBT",
-    "CCCC",
-    "PLSE",
     "APMD",
     "HBAN",
     "NRGV",
@@ -317,13 +315,12 @@
     "ICE",
     "TEAD",
     "ENOV",
-    "LOT"
+    "LOT",
+    "AM",
+    "FIRY"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "T": {
-      "start_bar": "2026-09-23T10:20:00-04:00"
-    },
     "FLWS": {
       "start_bar": "2026-09-23T10:20:00-04:00"
     },
@@ -338,6 +335,15 @@
     },
     "LOT": {
       "start_bar": "2026-09-23T10:25:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-09-23T10:35:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-09-23T10:35:00-04:00"
+    },
+    "BHE": {
+      "start_bar": "2026-09-23T10:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,8 +354,6 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_actives+most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
-    "PLSE": "day_gainers",
     "APMD": "small_cap_gainers",
     "HBAN": "most_actives",
     "NRGV": "small_cap_gainers",
@@ -372,7 +376,7 @@
     "AMC": "most_actives",
     "ARM": "day_gainers",
     "LUNR": "day_gainers",
-    "MRNA": "most_actives+day_gainers",
+    "MRNA": "most_actives",
     "USAR": "day_gainers",
     "AMRX": "day_gainers",
     "RDW": "day_gainers",
@@ -638,6 +642,8 @@
     "ICE": "day_gainers",
     "TEAD": "small_cap_gainers",
     "ENOV": "aggressive_small_caps",
-    "LOT": "small_cap_gainers"
+    "LOT": "small_cap_gainers",
+    "AM": "day_gainers",
+    "FIRY": "small_cap_gainers"
   }
 }
