@@ -19,12 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "COUR",
-    "VBIO",
-    "DFNS",
-    "EVTL",
-    "AIXI",
-    "NTLA",
-    "MERC",
     "MOLN",
     "ENOV",
     "HTFL",
@@ -317,36 +311,48 @@
     "VEEV",
     "CDNS",
     "TEAM",
-    "AI"
+    "AI",
+    "RGTI",
+    "QBTS",
+    "KVYO",
+    "PLTR",
+    "DOCU",
+    "MEI"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
     "ANVS": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
-    "KOS": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
     "TSQ": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "PLSE": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
     "DINO": {
       "start_bar": "2026-09-23T09:35:00-04:00"
     },
-    "PAL": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-09-23T09:40:00-04:00"
-    },
-    "VBIO": {
-      "start_bar": "2026-09-23T09:35:00-04:00"
-    },
     "OLN": {
       "start_bar": "2026-09-23T09:35:00-04:00"
+    },
+    "VSAT": {
+      "start_bar": "2026-09-23T09:45:00-04:00"
+    },
+    "ELME": {
+      "start_bar": "2026-09-23T09:40:00-04:00"
+    },
+    "GME": {
+      "start_bar": "2026-09-23T09:45:00-04:00"
+    },
+    "SVCO": {
+      "start_bar": "2026-09-23T09:45:00-04:00"
+    },
+    "MAAS": {
+      "start_bar": "2026-09-23T09:45:00-04:00"
+    },
+    "NWCL": {
+      "start_bar": "2026-09-23T09:40:00-04:00"
+    },
+    "SST": {
+      "start_bar": "2026-09-23T09:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -355,14 +361,8 @@
     "YSS": "small_cap_gainers",
     "INTC": "most_actives",
     "AXTI": "day_gainers",
-    "SOS": "small_cap_gainers+aggressive_small_caps",
+    "SOS": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
-    "VBIO": "most_shorted_stocks",
-    "DFNS": "most_shorted_stocks",
-    "EVTL": "small_cap_gainers",
-    "AIXI": "most_shorted_stocks",
-    "NTLA": "most_shorted_stocks",
-    "MERC": "small_cap_gainers",
     "MOLN": "small_cap_gainers",
     "ENOV": "aggressive_small_caps",
     "HTFL": "day_gainers",
@@ -402,7 +402,7 @@
     "NRGV": "small_cap_gainers",
     "CORZW": "small_cap_gainers",
     "RBBN": "small_cap_gainers",
-    "ONDS": "most_actives+most_shorted_stocks",
+    "ONDS": "most_shorted_stocks",
     "ENTG": "day_gainers",
     "TYRA": "small_cap_gainers",
     "AMBQ": "small_cap_gainers",
@@ -647,6 +647,12 @@
     "VEEV": "day_gainers",
     "CDNS": "day_gainers",
     "TEAM": "day_gainers",
-    "AI": "most_shorted_stocks"
+    "AI": "most_shorted_stocks",
+    "RGTI": "most_actives",
+    "QBTS": "most_actives",
+    "KVYO": "day_gainers",
+    "PLTR": "day_gainers",
+    "DOCU": "day_gainers",
+    "MEI": "small_cap_gainers"
   }
 }
