@@ -321,26 +321,8 @@
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "BP": {
-      "start_bar": "2026-09-23T15:05:00-04:00"
-    },
     "TNGX": {
       "start_bar": "2026-09-23T15:10:00-04:00"
-    },
-    "SRRK": {
-      "start_bar": "2026-09-23T15:05:00-04:00"
-    },
-    "RCUS": {
-      "start_bar": "2026-09-23T15:05:00-04:00"
-    },
-    "EFXT": {
-      "start_bar": "2026-09-23T15:05:00-04:00"
-    },
-    "QUBT": {
-      "start_bar": "2026-09-23T15:15:00-04:00"
-    },
-    "ADAM": {
-      "start_bar": "2026-09-23T15:15:00-04:00"
     },
     "CTMX": {
       "start_bar": "2026-09-23T15:15:00-04:00"
@@ -353,6 +335,12 @@
     },
     "VIAV": {
       "start_bar": "2026-09-23T15:15:00-04:00"
+    },
+    "VERA": {
+      "start_bar": "2026-09-23T15:20:00-04:00"
+    },
+    "GENI": {
+      "start_bar": "2026-09-23T15:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -641,7 +629,7 @@
     "CXW": "day_gainers",
     "CCM": "small_cap_gainers",
     "CASY": "day_gainers",
-    "FSLY": "day_gainers",
+    "FSLY": "most_actives+day_gainers",
     "SUN": "day_gainers",
     "TWLO": "day_gainers",
     "E": "day_gainers",
