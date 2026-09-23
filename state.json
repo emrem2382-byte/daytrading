@@ -18,12 +18,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "KPTI",
     "QUBT",
-    "COHR",
-    "BMEA",
-    "PRPL",
-    "SIND",
     "SG",
     "CSHR",
     "PSQH",
@@ -317,17 +312,19 @@
     "UHS",
     "AVAV",
     "LU",
-    "RXRX"
+    "RXRX",
+    "IREN",
+    "HLN",
+    "AVEX",
+    "LGO",
+    "NVAX"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "RIG": {
-      "start_bar": "2026-09-23T09:50:00-04:00"
-    },
-    "SILC": {
-      "start_bar": "2026-09-23T09:50:00-04:00"
-    },
     "AMBQ": {
+      "start_bar": "2026-09-23T10:00:00-04:00"
+    },
+    "BBBYW": {
       "start_bar": "2026-09-23T10:00:00-04:00"
     }
   },
@@ -338,12 +335,7 @@
     "INTC": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
-    "KPTI": "most_shorted_stocks",
-    "QUBT": "most_actives+most_shorted_stocks",
-    "COHR": "day_gainers",
-    "BMEA": "small_cap_gainers",
-    "PRPL": "small_cap_gainers",
-    "SIND": "day_gainers",
+    "QUBT": "most_actives+day_gainers+most_shorted_stocks",
     "SG": "small_cap_gainers",
     "CSHR": "small_cap_gainers",
     "PSQH": "small_cap_gainers",
@@ -369,7 +361,7 @@
     "SPCX": "most_actives",
     "SMCI": "most_actives",
     "PSKY": "most_actives",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "NKE": "most_actives",
     "GRAB": "most_actives",
     "SNAP": "most_actives",
@@ -377,7 +369,7 @@
     "AMC": "most_actives",
     "ARM": "day_gainers",
     "LUNR": "day_gainers",
-    "MRNA": "day_gainers",
+    "MRNA": "most_actives+day_gainers",
     "USAR": "day_gainers",
     "AMRX": "day_gainers",
     "RDW": "day_gainers",
@@ -609,7 +601,7 @@
     "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
-    "PLTR": "most_actives+day_gainers",
+    "PLTR": "most_actives",
     "DOCU": "day_gainers",
     "MEI": "small_cap_gainers",
     "TSLA": "most_actives",
@@ -629,6 +621,11 @@
     "UHS": "day_gainers",
     "AVAV": "day_gainers",
     "LU": "small_cap_gainers",
-    "RXRX": "most_shorted_stocks"
+    "RXRX": "most_shorted_stocks",
+    "IREN": "most_actives",
+    "HLN": "most_actives",
+    "AVEX": "small_cap_gainers",
+    "LGO": "small_cap_gainers",
+    "NVAX": "most_shorted_stocks"
   }
 }
