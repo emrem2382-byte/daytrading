@@ -22,7 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "LCID",
     "SID",
     "RXT",
     "SPCE",
@@ -317,66 +316,40 @@
     "E",
     "CLF",
     "VECO",
+    "DH",
     "BBAI"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "PLUG": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "FDMT": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "AVT": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "HL": {
-      "start_bar": "2026-09-23T13:50:00-04:00"
-    },
     "SLS": {
       "start_bar": "2026-09-23T13:50:00-04:00"
-    },
-    "RCUS": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
     },
     "SFNC": {
       "start_bar": "2026-09-23T13:50:00-04:00"
     },
-    "GRAB": {
-      "start_bar": "2026-09-23T13:50:00-04:00"
+    "GPRO": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
     },
-    "LBRT": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
+    "IBRX": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
     },
-    "XPOF": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
+    "LEN": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
     },
-    "BTU": {
+    "PAL": {
       "start_bar": "2026-09-23T14:00:00-04:00"
-    },
-    "BHE": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "CNXC": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "SVCO": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "AYA": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "VERA": {
-      "start_bar": "2026-09-23T14:00:00-04:00"
-    },
-    "EMBC": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
     },
     "TSLA": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
+      "start_bar": "2026-09-23T14:00:00-04:00"
     },
-    "NNE": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
+    "ATRC": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
+    },
+    "SSL": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
+    },
+    "INIO": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -390,7 +363,6 @@
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
-    "LCID": "small_cap_gainers",
     "SID": "small_cap_gainers",
     "RXT": "small_cap_gainers",
     "SPCE": "small_cap_gainers",
@@ -677,6 +649,7 @@
     "E": "day_gainers",
     "CLF": "day_gainers",
     "VECO": "day_gainers",
+    "DH": "small_cap_gainers",
     "BBAI": "most_shorted_stocks"
   }
 }
