@@ -21,11 +21,6 @@
     "QUBT",
     "META",
     "GPRO",
-    "GCTS",
-    "EAF",
-    "TASK",
-    "FOSL",
-    "CRNC",
     "MNRO",
     "XPOF",
     "TWI",
@@ -317,23 +312,16 @@
     "ADCT",
     "PLBL",
     "U",
-    "LTH"
+    "LTH",
+    "BETA",
+    "RRR",
+    "RBRK",
+    "FROG",
+    "ILMN"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "GT": {
-      "start_bar": "2026-09-23T15:35:00-04:00"
-    },
-    "DELL": {
-      "start_bar": "2026-09-23T15:35:00-04:00"
-    },
     "OPENL": {
-      "start_bar": "2026-09-23T15:35:00-04:00"
-    },
-    "AVT": {
-      "start_bar": "2026-09-23T15:40:00-04:00"
-    },
-    "CRK": {
       "start_bar": "2026-09-23T15:35:00-04:00"
     },
     "PFE": {
@@ -350,6 +338,21 @@
     },
     "MUR": {
       "start_bar": "2026-09-23T15:45:00-04:00"
+    },
+    "ESTA": {
+      "start_bar": "2026-09-23T15:50:00-04:00"
+    },
+    "BRSL": {
+      "start_bar": "2026-09-23T15:50:00-04:00"
+    },
+    "NAT": {
+      "start_bar": "2026-09-23T15:50:00-04:00"
+    },
+    "CAI": {
+      "start_bar": "2026-09-23T15:50:00-04:00"
+    },
+    "APPN": {
+      "start_bar": "2026-09-23T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -362,11 +365,6 @@
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "GCTS": "small_cap_gainers",
-    "EAF": "small_cap_gainers",
-    "TASK": "small_cap_gainers",
-    "FOSL": "small_cap_gainers",
-    "CRNC": "small_cap_gainers",
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
@@ -650,6 +648,11 @@
     "ADCT": "small_cap_gainers",
     "PLBL": "day_gainers",
     "U": "day_gainers",
-    "LTH": "day_gainers"
+    "LTH": "day_gainers",
+    "BETA": "day_gainers",
+    "RRR": "day_gainers",
+    "RBRK": "day_gainers",
+    "FROG": "day_gainers",
+    "ILMN": "day_gainers"
   }
 }
