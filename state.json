@@ -22,7 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "ESRT",
     "LCID",
     "SID",
     "RXT",
@@ -317,41 +316,18 @@
     "TWLO",
     "E",
     "CLF",
-    "VECO"
+    "VECO",
+    "BBAI"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "PYXS": {
-      "start_bar": "2026-09-23T13:35:00-04:00"
-    },
-    "HLLY": {
-      "start_bar": "2026-09-23T13:35:00-04:00"
-    },
-    "PLTR": {
-      "start_bar": "2026-09-23T13:40:00-04:00"
-    },
     "PLUG": {
       "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "FIGR": {
-      "start_bar": "2026-09-23T13:40:00-04:00"
     },
     "FDMT": {
       "start_bar": "2026-09-23T13:45:00-04:00"
     },
-    "INTC": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "KEEL": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "IRTC": {
-      "start_bar": "2026-09-23T13:40:00-04:00"
-    },
     "AVT": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
-    "ESRT": {
       "start_bar": "2026-09-23T13:45:00-04:00"
     },
     "HL": {
@@ -360,26 +336,47 @@
     "SLS": {
       "start_bar": "2026-09-23T13:50:00-04:00"
     },
-    "RGTI": {
-      "start_bar": "2026-09-23T13:50:00-04:00"
-    },
-    "DOCU": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
     "RCUS": {
       "start_bar": "2026-09-23T13:45:00-04:00"
     },
     "SFNC": {
       "start_bar": "2026-09-23T13:50:00-04:00"
     },
-    "BSY": {
-      "start_bar": "2026-09-23T13:45:00-04:00"
-    },
     "GRAB": {
       "start_bar": "2026-09-23T13:50:00-04:00"
     },
     "LBRT": {
       "start_bar": "2026-09-23T13:45:00-04:00"
+    },
+    "XPOF": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "BTU": {
+      "start_bar": "2026-09-23T14:00:00-04:00"
+    },
+    "BHE": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "CNXC": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "SVCO": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "AYA": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "VERA": {
+      "start_bar": "2026-09-23T14:00:00-04:00"
+    },
+    "EMBC": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "TSLA": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
+    },
+    "NNE": {
+      "start_bar": "2026-09-23T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -393,7 +390,6 @@
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
-    "ESRT": "small_cap_gainers",
     "LCID": "small_cap_gainers",
     "SID": "small_cap_gainers",
     "RXT": "small_cap_gainers",
@@ -412,7 +408,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
@@ -680,6 +676,7 @@
     "TWLO": "day_gainers",
     "E": "day_gainers",
     "CLF": "day_gainers",
-    "VECO": "day_gainers"
+    "VECO": "day_gainers",
+    "BBAI": "most_shorted_stocks"
   }
 }
