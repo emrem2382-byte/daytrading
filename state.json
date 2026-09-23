@@ -19,9 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "QUBT",
-    "SG",
-    "CSHR",
-    "PSQH",
     "KURA",
     "CDXS",
     "ANVS",
@@ -317,15 +314,21 @@
     "HLN",
     "AVEX",
     "LGO",
-    "NVAX"
+    "NVAX",
+    "MSFT",
+    "RCUS",
+    "TTC"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "AMBQ": {
-      "start_bar": "2026-09-23T10:00:00-04:00"
-    },
     "BBBYW": {
       "start_bar": "2026-09-23T10:00:00-04:00"
+    },
+    "SST": {
+      "start_bar": "2026-09-23T10:05:00-04:00"
+    },
+    "HLN": {
+      "start_bar": "2026-09-23T10:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -336,9 +339,6 @@
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
     "QUBT": "most_actives+day_gainers+most_shorted_stocks",
-    "SG": "small_cap_gainers",
-    "CSHR": "small_cap_gainers",
-    "PSQH": "small_cap_gainers",
     "KURA": "aggressive_small_caps",
     "CDXS": "small_cap_gainers",
     "ANVS": "small_cap_gainers",
@@ -365,7 +365,7 @@
     "NKE": "most_actives",
     "GRAB": "most_actives",
     "SNAP": "most_actives",
-    "RKLB": "day_gainers",
+    "RKLB": "most_actives",
     "AMC": "most_actives",
     "ARM": "day_gainers",
     "LUNR": "day_gainers",
@@ -455,7 +455,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "small_cap_gainers+aggressive_small_caps",
+    "FLNC": "aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "most_actives+day_gainers",
     "ONON": "most_actives+day_gainers",
@@ -626,6 +626,9 @@
     "HLN": "most_actives",
     "AVEX": "small_cap_gainers",
     "LGO": "small_cap_gainers",
-    "NVAX": "most_shorted_stocks"
+    "NVAX": "most_shorted_stocks",
+    "MSFT": "most_actives",
+    "RCUS": "day_gainers",
+    "TTC": "day_gainers"
   }
 }
