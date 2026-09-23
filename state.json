@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "CTKB",
-    "ANVS",
-    "SRFM",
-    "RSKD",
-    "AEHL",
-    "LEN-B",
-    "AEMD",
-    "HYMC",
-    "STTK",
-    "CDE",
-    "DNA",
-    "MGN",
-    "ERO",
-    "EVTL",
-    "AYA"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "QUBT",
     "META",
