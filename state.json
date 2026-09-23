@@ -19,10 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "COUR",
-    "MOLN",
-    "ENOV",
-    "HTFL",
-    "JACK",
     "CLBK",
     "FIP",
     "OPENZ",
@@ -317,32 +313,21 @@
     "KVYO",
     "PLTR",
     "DOCU",
-    "MEI"
+    "MEI",
+    "TSLA",
+    "VG",
+    "ATRC",
+    "GRABW"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "ANVS": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "TSQ": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
     "DINO": {
-      "start_bar": "2026-09-23T09:35:00-04:00"
-    },
-    "OLN": {
       "start_bar": "2026-09-23T09:35:00-04:00"
     },
     "VSAT": {
       "start_bar": "2026-09-23T09:45:00-04:00"
     },
-    "ELME": {
-      "start_bar": "2026-09-23T09:40:00-04:00"
-    },
     "GME": {
-      "start_bar": "2026-09-23T09:45:00-04:00"
-    },
-    "SVCO": {
       "start_bar": "2026-09-23T09:45:00-04:00"
     },
     "MAAS": {
@@ -353,6 +338,12 @@
     },
     "SST": {
       "start_bar": "2026-09-23T09:40:00-04:00"
+    },
+    "RIG": {
+      "start_bar": "2026-09-23T09:50:00-04:00"
+    },
+    "DBRG": {
+      "start_bar": "2026-09-23T09:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,10 +354,6 @@
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
-    "MOLN": "small_cap_gainers",
-    "ENOV": "aggressive_small_caps",
-    "HTFL": "day_gainers",
-    "JACK": "most_shorted_stocks",
     "CLBK": "aggressive_small_caps",
     "FIP": "small_cap_gainers+aggressive_small_caps",
     "OPENZ": "small_cap_gainers",
@@ -381,7 +368,7 @@
     "BIOX": "small_cap_gainers",
     "TMC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
-    "QUBT": "most_shorted_stocks",
+    "QUBT": "most_actives+most_shorted_stocks",
     "COHR": "day_gainers",
     "BMEA": "small_cap_gainers",
     "PRPL": "small_cap_gainers",
@@ -651,8 +638,12 @@
     "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
-    "PLTR": "day_gainers",
+    "PLTR": "most_actives+day_gainers",
     "DOCU": "day_gainers",
-    "MEI": "small_cap_gainers"
+    "MEI": "small_cap_gainers",
+    "TSLA": "most_actives",
+    "VG": "day_gainers",
+    "ATRC": "day_gainers",
+    "GRABW": "small_cap_gainers"
   }
 }
