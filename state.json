@@ -20,16 +20,8 @@
   "tracked_tickers": [
     "QUBT",
     "ONDS",
-    "SMCI",
     "META",
-    "NKE",
-    "AMC",
-    "ARM",
-    "LUNR",
     "MRNA",
-    "USAR",
-    "AMRX",
-    "RDW",
     "AKAM",
     "FLY",
     "NN",
@@ -317,66 +309,35 @@
     "EFXT",
     "HUBS",
     "EGHT",
-    "XRXDW"
+    "XRXDW",
+    "APA",
+    "AVT",
+    "MYRG",
+    "SFNC",
+    "IR",
+    "BHFAP",
+    "BA",
+    "SBXD"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "KLXER": {
-      "start_bar": "2026-09-23T10:45:00-04:00"
-    },
-    "CXT": {
-      "start_bar": "2026-09-23T10:50:00-04:00"
-    },
-    "LEN-B": {
-      "start_bar": "2026-09-23T10:50:00-04:00"
-    },
-    "BBW": {
-      "start_bar": "2026-09-23T10:50:00-04:00"
-    },
-    "QCOM": {
-      "start_bar": "2026-09-23T11:00:00-04:00"
-    },
-    "OUST": {
-      "start_bar": "2026-09-23T11:00:00-04:00"
-    },
-    "RNG": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
-    },
-    "NOVT": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
-    },
-    "JELD": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
-    },
-    "AXTI": {
-      "start_bar": "2026-09-23T11:00:00-04:00"
-    },
-    "RYAM": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
-    },
-    "SNOW": {
-      "start_bar": "2026-09-23T11:00:00-04:00"
-    },
-    "PATH": {
-      "start_bar": "2026-09-23T11:05:00-04:00"
-    },
-    "P": {
-      "start_bar": "2026-09-23T11:05:00-04:00"
-    },
-    "CNXC": {
-      "start_bar": "2026-09-23T11:05:00-04:00"
-    },
-    "KEEL": {
-      "start_bar": "2026-09-23T11:05:00-04:00"
-    },
-    "SST": {
-      "start_bar": "2026-09-23T11:00:00-04:00"
-    },
     "BXC": {
       "start_bar": "2026-09-23T11:05:00-04:00"
     },
-    "AI": {
-      "start_bar": "2026-09-23T11:05:00-04:00"
+    "AKAM": {
+      "start_bar": "2026-09-23T11:20:00-04:00"
+    },
+    "MNRO": {
+      "start_bar": "2026-09-23T11:15:00-04:00"
+    },
+    "BTU": {
+      "start_bar": "2026-09-23T11:15:00-04:00"
+    },
+    "RGC": {
+      "start_bar": "2026-09-23T11:15:00-04:00"
+    },
+    "ATRC": {
+      "start_bar": "2026-09-23T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -388,16 +349,8 @@
     "SOS": "aggressive_small_caps",
     "QUBT": "day_gainers+most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
-    "SMCI": "most_actives",
     "META": "most_actives",
-    "NKE": "most_actives",
-    "AMC": "most_actives",
-    "ARM": "day_gainers",
-    "LUNR": "day_gainers",
     "MRNA": "most_actives",
-    "USAR": "day_gainers",
-    "AMRX": "day_gainers",
-    "RDW": "day_gainers",
     "AKAM": "day_gainers",
     "FLY": "day_gainers",
     "NN": "day_gainers",
@@ -480,10 +433,10 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "most_actives+day_gainers",
-    "ONON": "most_actives+day_gainers",
+    "ONON": "day_gainers",
     "PCG": "most_actives",
     "HL": "most_actives",
     "RIG": "most_actives",
@@ -633,7 +586,7 @@
     "VG": "day_gainers",
     "ATRC": "day_gainers",
     "GRABW": "small_cap_gainers",
-    "CRWV": "most_actives+day_gainers",
+    "CRWV": "most_actives",
     "YPF": "day_gainers",
     "NOW": "day_gainers",
     "AR": "day_gainers",
@@ -677,6 +630,14 @@
     "EFXT": "day_gainers",
     "HUBS": "day_gainers",
     "EGHT": "small_cap_gainers",
-    "XRXDW": "small_cap_gainers"
+    "XRXDW": "small_cap_gainers",
+    "APA": "day_gainers",
+    "AVT": "day_gainers",
+    "MYRG": "day_gainers",
+    "SFNC": "day_gainers",
+    "IR": "day_gainers",
+    "BHFAP": "day_gainers",
+    "BA": "day_gainers",
+    "SBXD": "small_cap_gainers"
   }
 }
