@@ -22,7 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "TWLO",
     "OUST",
     "LFTO",
     "P",
@@ -317,12 +316,19 @@
     "GEO",
     "XPO",
     "CRM",
-    "CXW"
+    "CXW",
+    "CCM"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
     "SAIC": {
       "start_bar": "2026-09-23T13:10:00-04:00"
+    },
+    "DSP": {
+      "start_bar": "2026-09-23T13:15:00-04:00"
+    },
+    "VLN": {
+      "start_bar": "2026-09-23T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -332,11 +338,10 @@
     "INTC": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
-    "QUBT": "most_shorted_stocks",
+    "QUBT": "day_gainers+most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
-    "TWLO": "day_gainers",
     "OUST": "day_gainers",
     "LFTO": "day_gainers",
     "P": "day_gainers",
@@ -623,6 +628,7 @@
     "GEO": "day_gainers",
     "XPO": "day_gainers",
     "CRM": "day_gainers",
-    "CXW": "day_gainers"
+    "CXW": "day_gainers",
+    "CCM": "small_cap_gainers"
   }
 }
