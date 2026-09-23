@@ -20,8 +20,6 @@
   "tracked_tickers": [
     "QUBT",
     "META",
-    "MRNA",
-    "ARHS",
     "ELME",
     "HUYA",
     "BLSM",
@@ -317,24 +315,14 @@
     "WEX",
     "APPN",
     "CRK",
-    "SLDPW"
+    "SLDPW",
+    "GRAB",
+    "MNDY"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "BBAI": {
-      "start_bar": "2026-09-23T11:25:00-04:00"
-    },
-    "FOSL": {
-      "start_bar": "2026-09-23T11:20:00-04:00"
-    },
     "TGB": {
       "start_bar": "2026-09-23T11:25:00-04:00"
-    },
-    "XRX": {
-      "start_bar": "2026-09-23T11:25:00-04:00"
-    },
-    "BAND": {
-      "start_bar": "2026-09-23T11:20:00-04:00"
     },
     "AMR": {
       "start_bar": "2026-09-23T11:25:00-04:00"
@@ -367,8 +355,6 @@
     "SOS": "aggressive_small_caps",
     "QUBT": "day_gainers+most_shorted_stocks",
     "META": "most_actives",
-    "MRNA": "most_actives",
-    "ARHS": "small_cap_gainers",
     "ELME": "small_cap_gainers",
     "HUYA": "small_cap_gainers",
     "BLSM": "small_cap_gainers",
@@ -656,6 +642,8 @@
     "WEX": "day_gainers",
     "APPN": "day_gainers",
     "CRK": "day_gainers",
-    "SLDPW": "small_cap_gainers"
+    "SLDPW": "small_cap_gainers",
+    "GRAB": "most_actives",
+    "MNDY": "day_gainers"
   }
 }
