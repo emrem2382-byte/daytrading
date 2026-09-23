@@ -22,11 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "LFTO",
-    "P",
-    "RNG",
-    "QXO",
-    "APP",
     "SES",
     "ESRT",
     "LCID",
@@ -317,22 +312,15 @@
     "CRM",
     "CXW",
     "CCM",
-    "CASY"
+    "CASY",
+    "FSLY",
+    "SUN",
+    "TWLO",
+    "E",
+    "CLF"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "SHOP": {
-      "start_bar": "2026-09-23T13:30:00-04:00"
-    },
-    "SRRK": {
-      "start_bar": "2026-09-23T13:30:00-04:00"
-    },
-    "MAAS": {
-      "start_bar": "2026-09-23T13:25:00-04:00"
-    },
-    "BP": {
-      "start_bar": "2026-09-23T13:30:00-04:00"
-    },
     "VLN": {
       "start_bar": "2026-09-23T13:30:00-04:00"
     },
@@ -348,9 +336,6 @@
     "DVN": {
       "start_bar": "2026-09-23T13:35:00-04:00"
     },
-    "UHS": {
-      "start_bar": "2026-09-23T13:30:00-04:00"
-    },
     "SMCI": {
       "start_bar": "2026-09-23T13:35:00-04:00"
     },
@@ -359,6 +344,30 @@
     },
     "PLTR": {
       "start_bar": "2026-09-23T13:40:00-04:00"
+    },
+    "PLUG": {
+      "start_bar": "2026-09-23T13:45:00-04:00"
+    },
+    "FIGR": {
+      "start_bar": "2026-09-23T13:40:00-04:00"
+    },
+    "FDMT": {
+      "start_bar": "2026-09-23T13:45:00-04:00"
+    },
+    "INTC": {
+      "start_bar": "2026-09-23T13:45:00-04:00"
+    },
+    "KEEL": {
+      "start_bar": "2026-09-23T13:45:00-04:00"
+    },
+    "IRTC": {
+      "start_bar": "2026-09-23T13:40:00-04:00"
+    },
+    "AVT": {
+      "start_bar": "2026-09-23T13:45:00-04:00"
+    },
+    "EQNR": {
+      "start_bar": "2026-09-23T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,11 +381,6 @@
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
-    "LFTO": "day_gainers",
-    "P": "day_gainers",
-    "RNG": "day_gainers",
-    "QXO": "day_gainers",
-    "APP": "day_gainers",
     "SES": "small_cap_gainers",
     "ESRT": "small_cap_gainers",
     "LCID": "small_cap_gainers",
@@ -659,6 +663,11 @@
     "CRM": "day_gainers",
     "CXW": "day_gainers",
     "CCM": "small_cap_gainers",
-    "CASY": "day_gainers"
+    "CASY": "day_gainers",
+    "FSLY": "day_gainers",
+    "SUN": "day_gainers",
+    "TWLO": "day_gainers",
+    "E": "day_gainers",
+    "CLF": "day_gainers"
   }
 }
