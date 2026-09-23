@@ -321,20 +321,8 @@
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "BLLN": {
-      "start_bar": "2026-09-23T12:00:00-04:00"
-    },
-    "DINO": {
-      "start_bar": "2026-09-23T12:05:00-04:00"
-    },
     "ESRT": {
       "start_bar": "2026-09-23T12:10:00-04:00"
-    },
-    "SBH": {
-      "start_bar": "2026-09-23T12:05:00-04:00"
-    },
-    "DAIC": {
-      "start_bar": "2026-09-23T12:05:00-04:00"
     },
     "QXO": {
       "start_bar": "2026-09-23T12:15:00-04:00"
@@ -346,6 +334,12 @@
       "start_bar": "2026-09-23T12:10:00-04:00"
     },
     "PBF": {
+      "start_bar": "2026-09-23T12:15:00-04:00"
+    },
+    "MPWR": {
+      "start_bar": "2026-09-23T12:15:00-04:00"
+    },
+    "FLX": {
       "start_bar": "2026-09-23T12:15:00-04:00"
     }
   },
@@ -405,7 +399,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
