@@ -51,7 +51,7 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 50,LUXE,small_cap_gainers,2026-09-18 15:58:35,10.05,10.55,9.85,sl_hit,2026-09-21 11:04:46,9.73,-3.18
 51,NVAX,most_shorted_stocks,2026-09-18 15:58:37,10.13,10.64,9.93,tp_hit,2026-09-22 13:36:44,10.87,7.31
 52,EVH,aggressive_small_caps,2026-09-18 15:58:38,3.68,3.86,3.61,open,,,
-53,HLN,most_actives,2026-09-21 15:58:11,9.36,9.83,9.18,open,,,
+53,HLN,most_actives,2026-09-21 15:58:11,9.36,9.83,9.18,sl_hit,2026-09-23 11:35:05,9.18,-1.98
 54,IQMX,day_gainers,2026-09-21 15:58:17,10.25,10.76,10.04,tp_hit,2026-09-22 13:36:44,10.78,5.22
 55,RKLB,day_gainers,2026-09-21 15:58:18,69.91,73.41,68.51,tp_hit,2026-09-23 10:05:04,73.57,5.24
 56,ARHS,small_cap_gainers,2026-09-21 15:58:19,8.72,9.16,8.55,tp_hit,2026-09-22 13:36:44,9.23,5.79
