@@ -18,14 +18,8 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "MGN",
-    "RXRX",
-    "SOFI",
-    "ADCT",
     "COUR",
-    "OCGN",
     "VBIO",
-    "NVAX",
     "DFNS",
     "EVTL",
     "AIXI",
@@ -317,42 +311,42 @@
     "ASPSZ",
     "IMSRW",
     "IQMXW",
-    "PAL"
+    "PAL",
+    "CAI",
+    "WDFC",
+    "VEEV",
+    "CDNS",
+    "TEAM",
+    "AI"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "OCGN": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
     "ANVS": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "OPENL": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
     "KOS": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
-    "MGN": {
-      "start_bar": "2026-09-23T09:30:00-04:00"
-    },
     "TSQ": {
       "start_bar": "2026-09-23T09:30:00-04:00"
     },
-    "SG": {
-      "start_bar": "2026-09-23T09:35:00-04:00"
-    },
     "PLSE": {
       "start_bar": "2026-09-23T09:30:00-04:00"
-    },
-    "NWCL": {
-      "start_bar": "2026-09-23T09:35:00-04:00"
     },
     "DINO": {
       "start_bar": "2026-09-23T09:35:00-04:00"
     },
     "PAL": {
       "start_bar": "2026-09-23T09:30:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-23T09:40:00-04:00"
+    },
+    "VBIO": {
+      "start_bar": "2026-09-23T09:35:00-04:00"
+    },
+    "OLN": {
+      "start_bar": "2026-09-23T09:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -362,14 +356,8 @@
     "INTC": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
-    "MGN": "most_shorted_stocks",
-    "RXRX": "most_actives+most_shorted_stocks",
-    "SOFI": "most_actives",
-    "ADCT": "small_cap_gainers",
     "COUR": "aggressive_small_caps",
-    "OCGN": "most_shorted_stocks",
     "VBIO": "most_shorted_stocks",
-    "NVAX": "most_shorted_stocks",
     "DFNS": "most_shorted_stocks",
     "EVTL": "small_cap_gainers",
     "AIXI": "most_shorted_stocks",
@@ -616,7 +604,7 @@
     "AYA": "day_gainers",
     "VERA": "day_gainers",
     "FORM": "day_gainers",
-    "GENI": "small_cap_gainers+aggressive_small_caps",
+    "GENI": "aggressive_small_caps",
     "CTMX": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ORIC": "small_cap_gainers",
@@ -653,6 +641,12 @@
     "ASPSZ": "small_cap_gainers",
     "IMSRW": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "PAL": "aggressive_small_caps"
+    "PAL": "aggressive_small_caps",
+    "CAI": "day_gainers",
+    "WDFC": "day_gainers",
+    "VEEV": "day_gainers",
+    "CDNS": "day_gainers",
+    "TEAM": "day_gainers",
+    "AI": "most_shorted_stocks"
   }
 }
