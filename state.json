@@ -321,12 +321,6 @@
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "SAIC": {
-      "start_bar": "2026-09-23T13:10:00-04:00"
-    },
-    "DSP": {
-      "start_bar": "2026-09-23T13:15:00-04:00"
-    },
     "GCTS": {
       "start_bar": "2026-09-23T13:20:00-04:00"
     },
@@ -336,14 +330,23 @@
     "MORN": {
       "start_bar": "2026-09-23T13:20:00-04:00"
     },
-    "DDOG": {
-      "start_bar": "2026-09-23T13:25:00-04:00"
-    },
     "SFNC": {
       "start_bar": "2026-09-23T13:20:00-04:00"
     },
     "GRAB": {
       "start_bar": "2026-09-23T13:25:00-04:00"
+    },
+    "SHOP": {
+      "start_bar": "2026-09-23T13:30:00-04:00"
+    },
+    "SRRK": {
+      "start_bar": "2026-09-23T13:30:00-04:00"
+    },
+    "MAAS": {
+      "start_bar": "2026-09-23T13:25:00-04:00"
+    },
+    "BP": {
+      "start_bar": "2026-09-23T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,7 +356,7 @@
     "INTC": "most_actives",
     "AXTI": "day_gainers",
     "SOS": "aggressive_small_caps",
-    "QUBT": "day_gainers+most_shorted_stocks",
+    "QUBT": "most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
