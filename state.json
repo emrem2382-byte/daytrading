@@ -20,15 +20,10 @@
   "tracked_tickers": [
     "QUBT",
     "ONDS",
-    "WBD",
-    "SPCX",
     "SMCI",
-    "PSKY",
     "META",
     "NKE",
     "GRAB",
-    "SNAP",
-    "RKLB",
     "AMC",
     "ARM",
     "LUNR",
@@ -317,13 +312,15 @@
     "PANW",
     "OKTA",
     "CNF",
-    "NNE"
+    "NNE",
+    "CRWD",
+    "DDOG",
+    "EFXT",
+    "HUBS",
+    "EGHT"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "TV": {
-      "start_bar": "2026-09-23T10:35:00-04:00"
-    },
     "KLXER": {
       "start_bar": "2026-09-23T10:45:00-04:00"
     },
@@ -331,9 +328,6 @@
       "start_bar": "2026-09-23T10:45:00-04:00"
     },
     "GRAB": {
-      "start_bar": "2026-09-23T10:55:00-04:00"
-    },
-    "INFQ": {
       "start_bar": "2026-09-23T10:55:00-04:00"
     },
     "TTMI": {
@@ -347,6 +341,33 @@
     },
     "BBW": {
       "start_bar": "2026-09-23T10:50:00-04:00"
+    },
+    "QCOM": {
+      "start_bar": "2026-09-23T11:00:00-04:00"
+    },
+    "GPRO": {
+      "start_bar": "2026-09-23T11:00:00-04:00"
+    },
+    "OUST": {
+      "start_bar": "2026-09-23T11:00:00-04:00"
+    },
+    "RNG": {
+      "start_bar": "2026-09-23T10:55:00-04:00"
+    },
+    "NOVT": {
+      "start_bar": "2026-09-23T10:55:00-04:00"
+    },
+    "JELD": {
+      "start_bar": "2026-09-23T10:55:00-04:00"
+    },
+    "AXTI": {
+      "start_bar": "2026-09-23T11:00:00-04:00"
+    },
+    "RYAM": {
+      "start_bar": "2026-09-23T10:55:00-04:00"
+    },
+    "SNOW": {
+      "start_bar": "2026-09-23T11:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,15 +379,10 @@
     "SOS": "aggressive_small_caps",
     "QUBT": "day_gainers+most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
-    "WBD": "most_actives",
-    "SPCX": "most_actives",
     "SMCI": "most_actives",
-    "PSKY": "most_actives",
     "META": "most_actives",
     "NKE": "most_actives",
     "GRAB": "most_actives",
-    "SNAP": "most_actives",
-    "RKLB": "most_actives",
     "AMC": "most_actives",
     "ARM": "day_gainers",
     "LUNR": "day_gainers",
@@ -647,6 +663,11 @@
     "PANW": "day_gainers",
     "OKTA": "day_gainers",
     "CNF": "small_cap_gainers",
-    "NNE": "most_shorted_stocks"
+    "NNE": "most_shorted_stocks",
+    "CRWD": "day_gainers",
+    "DDOG": "day_gainers",
+    "EFXT": "day_gainers",
+    "HUBS": "day_gainers",
+    "EGHT": "small_cap_gainers"
   }
 }
