@@ -22,7 +22,6 @@
     "META",
     "GPRO",
     "PLBL",
-    "SPCE",
     "VYX",
     "LAES",
     "NXDR",
@@ -317,27 +316,19 @@
     "BBAI",
     "DH",
     "DCO",
-    "DPC"
+    "DPC",
+    "BELFB"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
     "FOSL": {
       "start_bar": "2026-09-23T14:15:00-04:00"
     },
-    "OPENL": {
-      "start_bar": "2026-09-23T14:10:00-04:00"
-    },
     "COUR": {
       "start_bar": "2026-09-23T14:15:00-04:00"
     },
     "RARE": {
       "start_bar": "2026-09-23T14:20:00-04:00"
-    },
-    "CWH": {
-      "start_bar": "2026-09-23T14:15:00-04:00"
-    },
-    "PBF": {
-      "start_bar": "2026-09-23T14:15:00-04:00"
     },
     "DINO": {
       "start_bar": "2026-09-23T14:20:00-04:00"
@@ -359,6 +350,15 @@
     },
     "TALO": {
       "start_bar": "2026-09-23T14:25:00-04:00"
+    },
+    "TROX": {
+      "start_bar": "2026-09-23T14:25:00-04:00"
+    },
+    "ORIC": {
+      "start_bar": "2026-09-23T14:30:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-09-23T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,7 +372,6 @@
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
     "PLBL": "day_gainers",
-    "SPCE": "small_cap_gainers",
     "VYX": "small_cap_gainers",
     "LAES": "small_cap_gainers",
     "NXDR": "small_cap_gainers",
@@ -659,6 +658,7 @@
     "BBAI": "most_shorted_stocks",
     "DH": "small_cap_gainers",
     "DCO": "day_gainers",
-    "DPC": "day_gainers"
+    "DPC": "day_gainers",
+    "BELFB": "day_gainers"
   }
 }
