@@ -321,21 +321,6 @@
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "FOSL": {
-      "start_bar": "2026-09-23T14:15:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-09-23T14:15:00-04:00"
-    },
-    "RARE": {
-      "start_bar": "2026-09-23T14:20:00-04:00"
-    },
-    "DINO": {
-      "start_bar": "2026-09-23T14:20:00-04:00"
-    },
-    "IREN": {
-      "start_bar": "2026-09-23T14:20:00-04:00"
-    },
     "AEMD": {
       "start_bar": "2026-09-23T14:20:00-04:00"
     },
@@ -351,14 +336,20 @@
     "TALO": {
       "start_bar": "2026-09-23T14:25:00-04:00"
     },
-    "TROX": {
-      "start_bar": "2026-09-23T14:25:00-04:00"
-    },
     "ORIC": {
       "start_bar": "2026-09-23T14:30:00-04:00"
     },
     "TEAD": {
       "start_bar": "2026-09-23T14:25:00-04:00"
+    },
+    "LAES": {
+      "start_bar": "2026-09-23T14:30:00-04:00"
+    },
+    "SPRO": {
+      "start_bar": "2026-09-23T14:30:00-04:00"
+    },
+    "KOS": {
+      "start_bar": "2026-09-23T14:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -386,7 +377,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
@@ -532,7 +523,7 @@
     "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
-    "PLTR": "most_actives+day_gainers",
+    "PLTR": "most_actives",
     "DOCU": "day_gainers",
     "MEI": "small_cap_gainers",
     "TSLA": "most_actives",
