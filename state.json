@@ -21,8 +21,6 @@
     "QUBT",
     "META",
     "GPRO",
-    "LAES",
-    "NXDR",
     "DSP",
     "EDIT",
     "XERS",
@@ -317,18 +315,14 @@
     "DPC",
     "BELFB",
     "AMBA",
-    "SANM"
+    "SANM",
+    "CLS",
+    "ADCT"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "TNGX": {
-      "start_bar": "2026-09-23T15:10:00-04:00"
-    },
     "CTMX": {
       "start_bar": "2026-09-23T15:15:00-04:00"
-    },
-    "ASPSW": {
-      "start_bar": "2026-09-23T15:10:00-04:00"
     },
     "RGTI": {
       "start_bar": "2026-09-23T15:15:00-04:00"
@@ -341,6 +335,27 @@
     },
     "GENI": {
       "start_bar": "2026-09-23T15:20:00-04:00"
+    },
+    "EAF": {
+      "start_bar": "2026-09-23T15:20:00-04:00"
+    },
+    "RGC": {
+      "start_bar": "2026-09-23T15:20:00-04:00"
+    },
+    "QBTS": {
+      "start_bar": "2026-09-23T15:25:00-04:00"
+    },
+    "NOW": {
+      "start_bar": "2026-09-23T15:25:00-04:00"
+    },
+    "HUBS": {
+      "start_bar": "2026-09-23T15:25:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-23T15:25:00-04:00"
+    },
+    "AAON": {
+      "start_bar": "2026-09-23T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,8 +368,6 @@
     "QUBT": "most_shorted_stocks",
     "META": "most_actives",
     "GPRO": "aggressive_small_caps",
-    "LAES": "small_cap_gainers",
-    "NXDR": "small_cap_gainers",
     "DSP": "aggressive_small_caps",
     "EDIT": "small_cap_gainers",
     "XERS": "small_cap_gainers",
@@ -641,6 +654,8 @@
     "DPC": "day_gainers",
     "BELFB": "day_gainers",
     "AMBA": "day_gainers",
-    "SANM": "day_gainers"
+    "SANM": "day_gainers",
+    "CLS": "day_gainers",
+    "ADCT": "small_cap_gainers"
   }
 }
