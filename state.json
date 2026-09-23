@@ -21,16 +21,6 @@
     "QUBT",
     "META",
     "MRNA",
-    "LSCC",
-    "INFQ",
-    "OKLO",
-    "FIVN",
-    "NET",
-    "TTMI",
-    "NXST",
-    "LION",
-    "HHH",
-    "DUOL",
     "QCOM",
     "TE",
     "TUYA",
@@ -317,23 +307,21 @@
     "ACMR",
     "IOND",
     "SM",
-    "MUR"
+    "MUR",
+    "TALO",
+    "VIAV",
+    "BSY",
+    "MGY",
+    "CHKP",
+    "NSIT",
+    "DT",
+    "CRGY",
+    "OVV",
+    "ICUI"
   ],
   "tracked_day": "2026-09-23",
   "pending_bull": {
-    "BXC": {
-      "start_bar": "2026-09-23T11:05:00-04:00"
-    },
     "MNRO": {
-      "start_bar": "2026-09-23T11:15:00-04:00"
-    },
-    "BTU": {
-      "start_bar": "2026-09-23T11:15:00-04:00"
-    },
-    "RGC": {
-      "start_bar": "2026-09-23T11:15:00-04:00"
-    },
-    "ATRC": {
       "start_bar": "2026-09-23T11:15:00-04:00"
     },
     "TUYA": {
@@ -363,7 +351,13 @@
     "LKFT": {
       "start_bar": "2026-09-23T11:20:00-04:00"
     },
-    "TSLA": {
+    "AMR": {
+      "start_bar": "2026-09-23T11:25:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-23T11:30:00-04:00"
+    },
+    "YPF": {
       "start_bar": "2026-09-23T11:25:00-04:00"
     }
   },
@@ -377,16 +371,6 @@
     "QUBT": "day_gainers+most_shorted_stocks",
     "META": "most_actives",
     "MRNA": "most_actives",
-    "LSCC": "day_gainers",
-    "INFQ": "day_gainers",
-    "OKLO": "day_gainers",
-    "FIVN": "day_gainers",
-    "NET": "day_gainers",
-    "TTMI": "day_gainers",
-    "NXST": "day_gainers",
-    "LION": "day_gainers",
-    "HHH": "day_gainers",
-    "DUOL": "day_gainers",
     "QCOM": "day_gainers",
     "TE": "small_cap_gainers",
     "TUYA": "aggressive_small_caps",
@@ -665,6 +649,16 @@
     "ACMR": "day_gainers",
     "IOND": "day_gainers",
     "SM": "day_gainers",
-    "MUR": "day_gainers"
+    "MUR": "day_gainers",
+    "TALO": "day_gainers",
+    "VIAV": "day_gainers",
+    "BSY": "day_gainers",
+    "MGY": "day_gainers",
+    "CHKP": "day_gainers",
+    "NSIT": "day_gainers",
+    "DT": "day_gainers",
+    "CRGY": "day_gainers",
+    "OVV": "day_gainers",
+    "ICUI": "day_gainers"
   }
 }
