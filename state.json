@@ -327,22 +327,10 @@
     "BTU": {
       "start_bar": "2026-09-23T14:00:00-04:00"
     },
-    "BHE": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "CNXC": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
     "SVCO": {
       "start_bar": "2026-09-23T13:55:00-04:00"
     },
     "AYA": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "TSLA": {
-      "start_bar": "2026-09-23T13:55:00-04:00"
-    },
-    "NNE": {
       "start_bar": "2026-09-23T13:55:00-04:00"
     },
     "GPRO": {
@@ -371,6 +359,15 @@
     },
     "INIO": {
       "start_bar": "2026-09-23T14:05:00-04:00"
+    },
+    "TROX": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
+    },
+    "MORN": {
+      "start_bar": "2026-09-23T14:05:00-04:00"
+    },
+    "BA": {
+      "start_bar": "2026-09-23T14:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -401,7 +398,7 @@
     "MNRO": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "TWI": "small_cap_gainers",
-    "FLNC": "small_cap_gainers+aggressive_small_caps",
+    "FLNC": "aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
     "VKTX": "day_gainers",
     "ONON": "day_gainers",
@@ -547,7 +544,7 @@
     "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
-    "PLTR": "most_actives+day_gainers",
+    "PLTR": "most_actives",
     "DOCU": "day_gainers",
     "MEI": "small_cap_gainers",
     "TSLA": "most_actives",
