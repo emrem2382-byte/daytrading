@@ -324,23 +324,26 @@
     "BHFAP": {
       "start_bar": "2026-09-24T12:50:00-04:00"
     },
-    "ALMR": {
-      "start_bar": "2026-09-24T12:55:00-04:00"
-    },
     "KD": {
-      "start_bar": "2026-09-24T13:00:00-04:00"
-    },
-    "VLO": {
       "start_bar": "2026-09-24T13:00:00-04:00"
     },
     "TRVG": {
       "start_bar": "2026-09-24T13:00:00-04:00"
+    },
+    "ORC": {
+      "start_bar": "2026-09-24T13:15:00-04:00"
+    },
+    "TBLA": {
+      "start_bar": "2026-09-24T13:10:00-04:00"
+    },
+    "QGEN": {
+      "start_bar": "2026-09-24T13:10:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "aggressive_small_caps",
-    "IONQ": "most_actives+day_gainers",
+    "IONQ": "most_actives",
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "ENOV": "aggressive_small_caps",
@@ -556,7 +559,7 @@
     "NTAP": "day_gainers",
     "MTD": "day_gainers",
     "GBLI": "small_cap_gainers",
-    "SOS": "aggressive_small_caps",
+    "SOS": "small_cap_gainers+aggressive_small_caps",
     "ACDC": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "RIVN": "most_actives",
