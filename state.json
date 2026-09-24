@@ -321,9 +321,6 @@
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "CRK": {
-      "start_bar": "2026-09-24T14:00:00-04:00"
-    },
     "LLY": {
       "start_bar": "2026-09-24T14:10:00-04:00"
     },
@@ -353,13 +350,28 @@
     },
     "VNET": {
       "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "ICUI": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "MARA": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "ASST": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "TARS": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives",
+    "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "EFXT": "day_gainers",
