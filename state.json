@@ -25,7 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "ACMR",
     "IOND",
     "SM",
     "MUR",
@@ -317,13 +316,11 @@
     "NVAX",
     "RVMD",
     "KOD",
-    "HPE"
+    "HPE",
+    "BRKRP"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "RMBS": {
-      "start_bar": "2026-09-24T14:35:00-04:00"
-    },
     "CHKP": {
       "start_bar": "2026-09-24T14:40:00-04:00"
     },
@@ -342,13 +339,25 @@
     "QGEN": {
       "start_bar": "2026-09-24T14:45:00-04:00"
     },
-    "OPENZ": {
-      "start_bar": "2026-09-24T14:40:00-04:00"
-    },
     "GPOR": {
       "start_bar": "2026-09-24T14:40:00-04:00"
     },
-    "DUOL": {
+    "DT": {
+      "start_bar": "2026-09-24T14:55:00-04:00"
+    },
+    "APPN": {
+      "start_bar": "2026-09-24T14:55:00-04:00"
+    },
+    "DAIC": {
+      "start_bar": "2026-09-24T14:50:00-04:00"
+    },
+    "FSLY": {
+      "start_bar": "2026-09-24T14:55:00-04:00"
+    },
+    "SANM": {
+      "start_bar": "2026-09-24T14:50:00-04:00"
+    },
+    "RRR": {
       "start_bar": "2026-09-24T14:50:00-04:00"
     }
   },
@@ -360,7 +369,6 @@
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "ACMR": "day_gainers",
     "IOND": "day_gainers",
     "SM": "day_gainers",
     "MUR": "day_gainers",
@@ -652,6 +660,7 @@
     "NVAX": "most_shorted_stocks",
     "RVMD": "day_gainers",
     "KOD": "day_gainers",
-    "HPE": "day_gainers"
+    "HPE": "day_gainers",
+    "BRKRP": "small_cap_gainers"
   }
 }
