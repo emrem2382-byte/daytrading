@@ -24,9 +24,6 @@
     "CRWV",
     "LU",
     "VBIO",
-    "APA",
-    "AVT",
-    "MYRG",
     "SFNC",
     "IR",
     "BHFAP",
@@ -317,34 +314,13 @@
     "HIMS",
     "GME",
     "SRFM",
-    "SLS"
+    "SLS",
+    "NKTR",
+    "PBYI",
+    "CAPR"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "AAON": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "SRPT": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "NU": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "MTD": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "VNET": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
-    "MARA": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
-    "ASST": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
     "TARS": {
       "start_bar": "2026-09-24T14:20:00-04:00"
     },
@@ -353,9 +329,6 @@
     },
     "SANM": {
       "start_bar": "2026-09-24T14:25:00-04:00"
-    },
-    "IVR": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
     },
     "CLSK": {
       "start_bar": "2026-09-24T14:25:00-04:00"
@@ -367,15 +340,6 @@
       "start_bar": "2026-09-24T14:20:00-04:00"
     },
     "ACMR": {
-      "start_bar": "2026-09-24T14:30:00-04:00"
-    },
-    "RBRK": {
-      "start_bar": "2026-09-24T14:30:00-04:00"
-    },
-    "BAC": {
-      "start_bar": "2026-09-24T14:25:00-04:00"
-    },
-    "BMNR": {
       "start_bar": "2026-09-24T14:30:00-04:00"
     },
     "PRGO": {
@@ -395,9 +359,6 @@
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "APA": "day_gainers",
-    "AVT": "day_gainers",
-    "MYRG": "day_gainers",
     "SFNC": "day_gainers",
     "IR": "day_gainers",
     "BHFAP": "day_gainers",
@@ -688,6 +649,9 @@
     "HIMS": "day_gainers",
     "GME": "day_gainers",
     "SRFM": "small_cap_gainers",
-    "SLS": "most_shorted_stocks"
+    "SLS": "most_shorted_stocks",
+    "NKTR": "day_gainers",
+    "PBYI": "small_cap_gainers",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks"
   }
 }
