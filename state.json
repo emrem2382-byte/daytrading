@@ -24,7 +24,6 @@
     "CRWV",
     "LU",
     "VBIO",
-    "PANW",
     "OKTA",
     "CNF",
     "NNE",
@@ -317,18 +316,13 @@
     "ANF",
     "OPENZ",
     "BRVE",
-    "QBTS"
+    "QBTS",
+    "ACHR"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "XRXDW": {
       "start_bar": "2026-09-24T13:35:00-04:00"
-    },
-    "BFAM": {
-      "start_bar": "2026-09-24T13:40:00-04:00"
-    },
-    "TALO": {
-      "start_bar": "2026-09-24T13:40:00-04:00"
     },
     "AMBA": {
       "start_bar": "2026-09-24T13:45:00-04:00"
@@ -337,6 +331,33 @@
       "start_bar": "2026-09-24T13:55:00-04:00"
     },
     "NAT": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "EFXT": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "CRK": {
+      "start_bar": "2026-09-24T14:00:00-04:00"
+    },
+    "RRC": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "GPOR": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "DG": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "INVA": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "RMBS": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "BRKR": {
       "start_bar": "2026-09-24T13:55:00-04:00"
     }
   },
@@ -347,7 +368,6 @@
     "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "PANW": "day_gainers",
     "OKTA": "day_gainers",
     "CNF": "small_cap_gainers",
     "NNE": "most_shorted_stocks",
@@ -640,6 +660,7 @@
     "ANF": "day_gainers",
     "OPENZ": "small_cap_gainers",
     "BRVE": "day_gainers",
-    "QBTS": "day_gainers"
+    "QBTS": "day_gainers",
+    "ACHR": "most_actives"
   }
 }
