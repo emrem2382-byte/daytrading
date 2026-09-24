@@ -23,7 +23,6 @@
     "IONQ",
     "CRWV",
     "LU",
-    "FIRY",
     "DSX",
     "KLXER",
     "VBIO",
@@ -317,29 +316,21 @@
     "NAT",
     "MYGN",
     "VSAT",
-    "LCUT"
+    "LCUT",
+    "GRABW"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "BETA": {
       "start_bar": "2026-09-24T13:20:00-04:00"
     },
-    "MPC": {
-      "start_bar": "2026-09-24T13:20:00-04:00"
-    },
-    "SECZ": {
-      "start_bar": "2026-09-24T13:20:00-04:00"
-    },
     "KPTI": {
       "start_bar": "2026-09-24T13:25:00-04:00"
-    },
-    "OPENL": {
-      "start_bar": "2026-09-24T13:20:00-04:00"
     },
     "ACDC": {
       "start_bar": "2026-09-24T13:20:00-04:00"
     },
-    "CMCSA": {
+    "LQDA": {
       "start_bar": "2026-09-24T13:30:00-04:00"
     }
   },
@@ -349,7 +340,6 @@
     "IONQ": "most_actives+day_gainers",
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
-    "FIRY": "small_cap_gainers",
     "DSX": "aggressive_small_caps",
     "KLXER": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
@@ -643,6 +633,7 @@
     "NAT": "aggressive_small_caps",
     "MYGN": "small_cap_gainers",
     "VSAT": "day_gainers",
-    "LCUT": "small_cap_gainers"
+    "LCUT": "small_cap_gainers",
+    "GRABW": "small_cap_gainers"
   }
 }
