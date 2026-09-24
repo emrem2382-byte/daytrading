@@ -23,7 +23,6 @@
     "IONQ",
     "CRWV",
     "LU",
-    "ENOV",
     "LOT",
     "AM",
     "FIRY",
@@ -317,27 +316,28 @@
     "AEHL",
     "SONO",
     "NYAX",
-    "NAT"
+    "NAT",
+    "MYGN"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "BHFAP": {
       "start_bar": "2026-09-24T12:50:00-04:00"
     },
-    "KD": {
-      "start_bar": "2026-09-24T13:00:00-04:00"
-    },
-    "TRVG": {
-      "start_bar": "2026-09-24T13:00:00-04:00"
-    },
-    "ORC": {
-      "start_bar": "2026-09-24T13:15:00-04:00"
-    },
     "TBLA": {
       "start_bar": "2026-09-24T13:10:00-04:00"
     },
     "QGEN": {
       "start_bar": "2026-09-24T13:10:00-04:00"
+    },
+    "BETA": {
+      "start_bar": "2026-09-24T13:20:00-04:00"
+    },
+    "MPC": {
+      "start_bar": "2026-09-24T13:20:00-04:00"
+    },
+    "SECZ": {
+      "start_bar": "2026-09-24T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,7 +346,6 @@
     "IONQ": "most_actives",
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
-    "ENOV": "aggressive_small_caps",
     "LOT": "small_cap_gainers",
     "AM": "day_gainers",
     "FIRY": "small_cap_gainers",
@@ -561,7 +560,7 @@
     "GBLI": "small_cap_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "ACDC": "aggressive_small_caps",
-    "ONDS": "most_actives+most_shorted_stocks",
+    "ONDS": "most_actives+day_gainers+most_shorted_stocks",
     "RIVN": "most_actives",
     "CHRN": "day_gainers",
     "CIFR": "most_actives",
@@ -640,6 +639,7 @@
     "AEHL": "most_shorted_stocks",
     "SONO": "day_gainers",
     "NYAX": "small_cap_gainers",
-    "NAT": "aggressive_small_caps"
+    "NAT": "aggressive_small_caps",
+    "MYGN": "small_cap_gainers"
   }
 }
