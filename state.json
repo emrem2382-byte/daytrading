@@ -19,12 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "DNA",
-    "FLX",
-    "SVCO",
-    "BRSL",
-    "ADAM",
-    "TROX",
-    "CWH",
     "OLN",
     "AEHL",
     "LENZ",
@@ -317,7 +311,13 @@
     "BRKR",
     "RVTY",
     "TRVG",
-    "YQ"
+    "YQ",
+    "IMOS",
+    "ALVO",
+    "LLY",
+    "ADPT",
+    "MRP",
+    "OPENL"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -327,17 +327,20 @@
     "CDNS": {
       "start_bar": "2026-09-24T09:50:00-04:00"
     },
-    "FUN": {
-      "start_bar": "2026-09-24T09:50:00-04:00"
-    },
-    "INVA": {
-      "start_bar": "2026-09-24T09:50:00-04:00"
-    },
     "TEAD": {
       "start_bar": "2026-09-24T09:50:00-04:00"
     },
-    "TWLO": {
-      "start_bar": "2026-09-24T09:50:00-04:00"
+    "AXTI": {
+      "start_bar": "2026-09-24T10:05:00-04:00"
+    },
+    "VBIO": {
+      "start_bar": "2026-09-24T10:05:00-04:00"
+    },
+    "DAIC": {
+      "start_bar": "2026-09-24T10:05:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-24T10:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -349,12 +352,6 @@
     "SOS": "aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "FLX": "small_cap_gainers",
-    "SVCO": "small_cap_gainers",
-    "BRSL": "aggressive_small_caps",
-    "ADAM": "aggressive_small_caps",
-    "TROX": "aggressive_small_caps",
-    "CWH": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -638,6 +635,12 @@
     "BRKR": "day_gainers",
     "RVTY": "day_gainers",
     "TRVG": "small_cap_gainers",
-    "YQ": "small_cap_gainers"
+    "YQ": "small_cap_gainers",
+    "IMOS": "day_gainers",
+    "ALVO": "day_gainers",
+    "LLY": "day_gainers",
+    "ADPT": "day_gainers",
+    "MRP": "day_gainers",
+    "OPENL": "small_cap_gainers"
   }
 }
