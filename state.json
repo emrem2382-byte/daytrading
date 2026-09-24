@@ -24,10 +24,6 @@
     "CRWV",
     "LU",
     "VBIO",
-    "SFNC",
-    "IR",
-    "BHFAP",
-    "BA",
     "SBXD",
     "SMCI",
     "NKE",
@@ -317,39 +313,40 @@
     "SLS",
     "NKTR",
     "PBYI",
-    "CAPR"
+    "CAPR",
+    "CORT",
+    "ERAS",
+    "SJT",
+    "NVAX"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "TARS": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
-    "WEX": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
-    "SANM": {
-      "start_bar": "2026-09-24T14:25:00-04:00"
-    },
-    "CLSK": {
-      "start_bar": "2026-09-24T14:25:00-04:00"
-    },
-    "NTRA": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
-    "NMM": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
     "ACMR": {
       "start_bar": "2026-09-24T14:30:00-04:00"
     },
     "PRGO": {
       "start_bar": "2026-09-24T14:30:00-04:00"
     },
-    "BFH": {
-      "start_bar": "2026-09-24T14:25:00-04:00"
-    },
     "OPTU": {
       "start_bar": "2026-09-24T14:25:00-04:00"
+    },
+    "LOPE": {
+      "start_bar": "2026-09-24T14:35:00-04:00"
+    },
+    "CXW": {
+      "start_bar": "2026-09-24T14:35:00-04:00"
+    },
+    "RBRK": {
+      "start_bar": "2026-09-24T14:35:00-04:00"
+    },
+    "DUOL": {
+      "start_bar": "2026-09-24T14:40:00-04:00"
+    },
+    "RMBS": {
+      "start_bar": "2026-09-24T14:35:00-04:00"
+    },
+    "TMC": {
+      "start_bar": "2026-09-24T14:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,10 +356,6 @@
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "SFNC": "day_gainers",
-    "IR": "day_gainers",
-    "BHFAP": "day_gainers",
-    "BA": "day_gainers",
     "SBXD": "small_cap_gainers",
     "SMCI": "most_actives",
     "NKE": "most_actives",
@@ -652,6 +645,10 @@
     "SLS": "most_shorted_stocks",
     "NKTR": "day_gainers",
     "PBYI": "small_cap_gainers",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks"
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "CORT": "day_gainers",
+    "ERAS": "day_gainers",
+    "SJT": "small_cap_gainers",
+    "NVAX": "most_shorted_stocks"
   }
 }
