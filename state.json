@@ -25,10 +25,7 @@
     "GRABW",
     "CRWV",
     "LU",
-    "AVEX",
-    "LGO",
     "NVAX",
-    "MSFT",
     "RCUS",
     "TTC",
     "SAIC",
@@ -317,80 +314,23 @@
     "ASTS",
     "LUNR",
     "BKSY",
-    "GPMT"
+    "GPMT",
+    "MOG-A",
+    "RXRX",
+    "VERA"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "LOCL": {
-      "start_bar": "2026-09-24T11:50:00-04:00"
-    },
-    "NVAX": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "AVT": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "SFNC": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "ARW": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
-    "VECO": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "DPC": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "FUN": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "KNF": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "RMBS": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "PACB": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "QUBT": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "TMC": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
     "NTRA": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "NU": {
       "start_bar": "2026-09-24T12:25:00-04:00"
     },
     "NEO": {
       "start_bar": "2026-09-24T12:25:00-04:00"
     },
-    "TEM": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "NVO": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "CIFR": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "GRAL": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
     "ENOV": {
       "start_bar": "2026-09-24T12:25:00-04:00"
     },
     "BFAM": {
-      "start_bar": "2026-09-24T12:30:00-04:00"
-    },
-    "PFE": {
       "start_bar": "2026-09-24T12:30:00-04:00"
     },
     "BELFB": {
@@ -411,11 +351,29 @@
     "ANGX": {
       "start_bar": "2026-09-24T12:35:00-04:00"
     },
-    "TRVG": {
-      "start_bar": "2026-09-24T12:30:00-04:00"
-    },
     "WAT": {
       "start_bar": "2026-09-24T12:35:00-04:00"
+    },
+    "INIO": {
+      "start_bar": "2026-09-24T12:35:00-04:00"
+    },
+    "TRI": {
+      "start_bar": "2026-09-24T12:35:00-04:00"
+    },
+    "DAIC": {
+      "start_bar": "2026-09-24T12:35:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-09-24T12:35:00-04:00"
+    },
+    "TWST": {
+      "start_bar": "2026-09-24T12:40:00-04:00"
+    },
+    "ICLR": {
+      "start_bar": "2026-09-24T12:35:00-04:00"
+    },
+    "MTD": {
+      "start_bar": "2026-09-24T12:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -426,10 +384,7 @@
     "GRABW": "small_cap_gainers",
     "CRWV": "most_actives",
     "LU": "small_cap_gainers",
-    "AVEX": "small_cap_gainers",
-    "LGO": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
-    "MSFT": "most_actives",
     "RCUS": "day_gainers",
     "TTC": "day_gainers",
     "SAIC": "day_gainers",
@@ -571,7 +526,7 @@
     "RVMDW": "small_cap_gainers",
     "TUYA": "aggressive_small_caps",
     "INVA": "aggressive_small_caps",
-    "KSS": "aggressive_small_caps",
+    "KSS": "day_gainers+aggressive_small_caps",
     "CLBK": "aggressive_small_caps",
     "OI": "aggressive_small_caps",
     "FIP": "aggressive_small_caps",
@@ -718,6 +673,9 @@
     "ASTS": "day_gainers",
     "LUNR": "day_gainers",
     "BKSY": "small_cap_gainers",
-    "GPMT": "small_cap_gainers"
+    "GPMT": "small_cap_gainers",
+    "MOG-A": "day_gainers",
+    "RXRX": "most_shorted_stocks",
+    "VERA": "most_shorted_stocks"
   }
 }
