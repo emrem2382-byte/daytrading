@@ -20,7 +20,6 @@
   "tracked_tickers": [
     "SECZ",
     "GRAL",
-    "INTC",
     "KOS",
     "NAT",
     "RSKD",
@@ -317,18 +316,13 @@
     "RIG",
     "KNDI",
     "MUSA",
-    "GTN-A"
+    "GTN-A",
+    "VNOM"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
-    },
-    "GPOR": {
-      "start_bar": "2026-09-24T11:10:00-04:00"
-    },
-    "APPN": {
-      "start_bar": "2026-09-24T11:20:00-04:00"
     },
     "FUN": {
       "start_bar": "2026-09-24T11:20:00-04:00"
@@ -341,15 +335,11 @@
     },
     "SANM": {
       "start_bar": "2026-09-24T11:20:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-09-24T11:25:00-04:00"
     }
   },
   "ticker_sources": {
     "SECZ": "day_gainers",
     "GRAL": "day_gainers",
-    "INTC": "most_actives",
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
@@ -552,7 +542,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -646,6 +636,7 @@
     "RIG": "most_actives",
     "KNDI": "small_cap_gainers",
     "MUSA": "day_gainers",
-    "GTN-A": "small_cap_gainers"
+    "GTN-A": "small_cap_gainers",
+    "VNOM": "day_gainers"
   }
 }
