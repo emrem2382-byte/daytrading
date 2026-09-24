@@ -18,10 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "PACB",
-    "FEAM",
-    "CAPR",
-    "CGC",
     "CTKB",
     "METC",
     "HLLY",
@@ -317,48 +313,25 @@
     "BZUN",
     "CSTE",
     "MCHX",
-    "KPTI"
+    "KPTI",
+    "VCYT",
+    "SPRU",
+    "DWSN",
+    "SB"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "FLX": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
     "SVCO": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "T": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "VZ": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "CRWV": {
       "start_bar": "2026-09-24T09:35:00-04:00"
     },
     "UHS": {
       "start_bar": "2026-09-24T09:35:00-04:00"
     },
-    "NVAX": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
     "ENOV": {
       "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "PRDO": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "NBIS": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "CDNA": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "VG": {
-      "start_bar": "2026-09-24T09:40:00-04:00"
     },
     "DVN": {
       "start_bar": "2026-09-24T09:40:00-04:00"
@@ -381,11 +354,17 @@
     "GEO": {
       "start_bar": "2026-09-24T09:45:00-04:00"
     },
-    "TWLO": {
-      "start_bar": "2026-09-24T09:45:00-04:00"
+    "AXTI": {
+      "start_bar": "2026-09-24T09:50:00-04:00"
     },
-    "BB": {
-      "start_bar": "2026-09-24T09:45:00-04:00"
+    "CDNS": {
+      "start_bar": "2026-09-24T09:50:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-09-24T09:50:00-04:00"
+    },
+    "INVA": {
+      "start_bar": "2026-09-24T09:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -396,10 +375,6 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "PACB": "small_cap_gainers",
-    "FEAM": "small_cap_gainers",
-    "CAPR": "small_cap_gainers+most_shorted_stocks",
-    "CGC": "small_cap_gainers",
     "CTKB": "small_cap_gainers",
     "METC": "small_cap_gainers",
     "HLLY": "small_cap_gainers",
@@ -686,6 +661,10 @@
     "BZUN": "small_cap_gainers",
     "CSTE": "small_cap_gainers",
     "MCHX": "small_cap_gainers",
-    "KPTI": "most_shorted_stocks"
+    "KPTI": "most_shorted_stocks",
+    "VCYT": "day_gainers",
+    "SPRU": "small_cap_gainers",
+    "DWSN": "small_cap_gainers",
+    "SB": "aggressive_small_caps"
   }
 }
