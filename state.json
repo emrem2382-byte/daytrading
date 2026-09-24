@@ -26,7 +26,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "DELL",
     "GPK",
     "DINO",
     "NNBR",
@@ -317,7 +316,8 @@
     "LPG",
     "OPENW",
     "RIG",
-    "KNDI"
+    "KNDI",
+    "MUSA"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -332,6 +332,15 @@
     },
     "GPOR": {
       "start_bar": "2026-09-24T11:10:00-04:00"
+    },
+    "APPN": {
+      "start_bar": "2026-09-24T11:20:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-09-24T11:20:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-24T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -343,7 +352,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "DELL": "day_gainers",
     "GPK": "day_gainers",
     "DINO": "day_gainers",
     "NNBR": "small_cap_gainers",
@@ -441,7 +449,7 @@
     "CRGY": "day_gainers",
     "OVV": "day_gainers",
     "ICUI": "day_gainers",
-    "PSKY": "most_actives",
+    "PSKY": "day_gainers",
     "VIA": "day_gainers",
     "INIO": "day_gainers",
     "EQNR": "day_gainers",
@@ -542,7 +550,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives",
+    "META": "most_actives+day_gainers",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -634,6 +642,7 @@
     "LPG": "day_gainers",
     "OPENW": "small_cap_gainers",
     "RIG": "most_actives",
-    "KNDI": "small_cap_gainers"
+    "KNDI": "small_cap_gainers",
+    "MUSA": "day_gainers"
   }
 }
