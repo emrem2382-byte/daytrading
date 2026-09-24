@@ -23,7 +23,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "ASPSZ",
     "IMSRW",
     "IQMXW",
     "PAL",
@@ -317,7 +316,8 @@
     "HBB",
     "XPON",
     "FANG",
-    "PBF"
+    "PBF",
+    "LIFE"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -332,6 +332,18 @@
     },
     "BMNR": {
       "start_bar": "2026-09-24T11:40:00-04:00"
+    },
+    "U": {
+      "start_bar": "2026-09-24T11:45:00-04:00"
+    },
+    "SPCX": {
+      "start_bar": "2026-09-24T11:50:00-04:00"
+    },
+    "CRCL": {
+      "start_bar": "2026-09-24T11:50:00-04:00"
+    },
+    "CLBK": {
+      "start_bar": "2026-09-24T11:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -340,7 +352,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "ASPSZ": "small_cap_gainers",
     "IMSRW": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
     "PAL": "aggressive_small_caps",
@@ -531,7 +542,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -634,6 +645,7 @@
     "HBB": "small_cap_gainers",
     "XPON": "most_shorted_stocks",
     "FANG": "day_gainers",
-    "PBF": "day_gainers"
+    "PBF": "day_gainers",
+    "LIFE": "day_gainers"
   }
 }
