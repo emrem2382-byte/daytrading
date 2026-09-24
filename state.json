@@ -321,16 +321,7 @@
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "ANGX": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
     "MNDY": {
-      "start_bar": "2026-09-24T15:25:00-04:00"
-    },
-    "DPC": {
-      "start_bar": "2026-09-24T15:25:00-04:00"
-    },
-    "NU": {
       "start_bar": "2026-09-24T15:25:00-04:00"
     },
     "OCTV": {
@@ -345,9 +336,6 @@
     "FIGS": {
       "start_bar": "2026-09-24T15:35:00-04:00"
     },
-    "JBLU": {
-      "start_bar": "2026-09-24T15:35:00-04:00"
-    },
     "OPENL": {
       "start_bar": "2026-09-24T15:30:00-04:00"
     },
@@ -356,13 +344,25 @@
     },
     "UFPT": {
       "start_bar": "2026-09-24T15:30:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-09-24T15:40:00-04:00"
+    },
+    "SOUN": {
+      "start_bar": "2026-09-24T15:40:00-04:00"
+    },
+    "FLY": {
+      "start_bar": "2026-09-24T15:40:00-04:00"
+    },
+    "ACHR": {
+      "start_bar": "2026-09-24T15:40:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives",
+    "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
@@ -464,7 +464,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
