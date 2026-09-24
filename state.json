@@ -25,7 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "INIO",
     "EQNR",
     "WEX",
     "APPN",
@@ -317,29 +316,12 @@
     "NC",
     "DFNS",
     "PS",
-    "TRIP"
+    "TRIP",
+    "NNE"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "KRMN": {
-      "start_bar": "2026-09-24T15:15:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
-    "TBLA": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
     "ANGX": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
-    "DUOL": {
-      "start_bar": "2026-09-24T15:15:00-04:00"
-    },
-    "LLY": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
-    "FANG": {
       "start_bar": "2026-09-24T15:20:00-04:00"
     },
     "MNDY": {
@@ -356,6 +338,24 @@
     },
     "PLBL": {
       "start_bar": "2026-09-24T15:25:00-04:00"
+    },
+    "PRDO": {
+      "start_bar": "2026-09-24T15:35:00-04:00"
+    },
+    "FIGS": {
+      "start_bar": "2026-09-24T15:35:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-09-24T15:35:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-24T15:30:00-04:00"
+    },
+    "PL": {
+      "start_bar": "2026-09-24T15:35:00-04:00"
+    },
+    "UFPT": {
+      "start_bar": "2026-09-24T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -366,7 +366,6 @@
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "INIO": "day_gainers",
     "EQNR": "day_gainers",
     "WEX": "day_gainers",
     "APPN": "day_gainers",
@@ -658,6 +657,7 @@
     "NC": "small_cap_gainers",
     "DFNS": "most_shorted_stocks",
     "PS": "day_gainers",
-    "TRIP": "small_cap_gainers"
+    "TRIP": "small_cap_gainers",
+    "NNE": "most_shorted_stocks"
   }
 }
