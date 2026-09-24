@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "AIFU",
-    "SNX",
-    "LU",
-    "VBIO",
-    "LGO",
-    "VICR",
-    "ACMR",
-    "VECO",
-    "JACK",
-    "PLBL",
-    "AAON",
-    "FORM",
-    "FPS",
-    "QUBT",
-    "FRSH"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "KOS",
     "RSKD",
