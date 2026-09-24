@@ -25,8 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "PSKY",
-    "VIA",
     "INIO",
     "EQNR",
     "WEX",
@@ -317,30 +315,17 @@
     "XENE",
     "RGEN",
     "NC",
-    "DFNS"
+    "DFNS",
+    "PS",
+    "TRIP"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "EQNR": {
-      "start_bar": "2026-09-24T15:15:00-04:00"
-    },
-    "FLX": {
-      "start_bar": "2026-09-24T15:10:00-04:00"
-    },
     "KRMN": {
-      "start_bar": "2026-09-24T15:15:00-04:00"
-    },
-    "SRFM": {
       "start_bar": "2026-09-24T15:15:00-04:00"
     },
     "GRAB": {
       "start_bar": "2026-09-24T15:20:00-04:00"
-    },
-    "SUN": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
-    "E": {
-      "start_bar": "2026-09-24T15:15:00-04:00"
     },
     "TBLA": {
       "start_bar": "2026-09-24T15:20:00-04:00"
@@ -357,9 +342,6 @@
     "FANG": {
       "start_bar": "2026-09-24T15:20:00-04:00"
     },
-    "VIA": {
-      "start_bar": "2026-09-24T15:25:00-04:00"
-    },
     "MNDY": {
       "start_bar": "2026-09-24T15:25:00-04:00"
     },
@@ -369,20 +351,21 @@
     "NU": {
       "start_bar": "2026-09-24T15:25:00-04:00"
     },
-    "WTI": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
+    "OCTV": {
+      "start_bar": "2026-09-24T15:30:00-04:00"
+    },
+    "PLBL": {
+      "start_bar": "2026-09-24T15:25:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives+day_gainers",
+    "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "PSKY": "day_gainers",
-    "VIA": "day_gainers",
     "INIO": "day_gainers",
     "EQNR": "day_gainers",
     "WEX": "day_gainers",
@@ -673,6 +656,8 @@
     "XENE": "day_gainers",
     "RGEN": "day_gainers",
     "NC": "small_cap_gainers",
-    "DFNS": "most_shorted_stocks"
+    "DFNS": "most_shorted_stocks",
+    "PS": "day_gainers",
+    "TRIP": "small_cap_gainers"
   }
 }
