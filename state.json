@@ -22,7 +22,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "GRABW",
     "CRWV",
     "LU",
     "NVAX",
@@ -317,29 +316,12 @@
     "AUROW",
     "NET",
     "NFE",
-    "AEHL"
+    "AEHL",
+    "SONO"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "BELFB": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
-    "ANGX": {
-      "start_bar": "2026-09-24T12:35:00-04:00"
-    },
-    "INIO": {
-      "start_bar": "2026-09-24T12:35:00-04:00"
-    },
-    "IVR": {
-      "start_bar": "2026-09-24T12:35:00-04:00"
-    },
-    "TWST": {
-      "start_bar": "2026-09-24T12:40:00-04:00"
-    },
     "MTD": {
-      "start_bar": "2026-09-24T12:40:00-04:00"
-    },
-    "GAB": {
       "start_bar": "2026-09-24T12:40:00-04:00"
     },
     "TARS": {
@@ -351,8 +333,17 @@
     "FRVO": {
       "start_bar": "2026-09-24T12:50:00-04:00"
     },
-    "AEHL": {
-      "start_bar": "2026-09-24T12:45:00-04:00"
+    "BHFAP": {
+      "start_bar": "2026-09-24T12:50:00-04:00"
+    },
+    "GDDY": {
+      "start_bar": "2026-09-24T12:50:00-04:00"
+    },
+    "RVTY": {
+      "start_bar": "2026-09-24T12:50:00-04:00"
+    },
+    "ALMR": {
+      "start_bar": "2026-09-24T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,7 +351,6 @@
     "KOS": "aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "GRABW": "small_cap_gainers",
     "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
@@ -655,6 +645,7 @@
     "AUROW": "small_cap_gainers",
     "NET": "day_gainers",
     "NFE": "aggressive_small_caps",
-    "AEHL": "most_shorted_stocks"
+    "AEHL": "most_shorted_stocks",
+    "SONO": "day_gainers"
   }
 }
