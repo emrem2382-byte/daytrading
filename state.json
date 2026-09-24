@@ -26,8 +26,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "NWCL",
-    "PBF",
     "DELL",
     "GPK",
     "DINO",
@@ -317,7 +315,9 @@
     "KLXE",
     "T",
     "LPG",
-    "OPENW"
+    "OPENW",
+    "RIG",
+    "KNDI"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -327,14 +327,11 @@
     "BBBYW": {
       "start_bar": "2026-09-24T10:45:00-04:00"
     },
-    "DT": {
-      "start_bar": "2026-09-24T11:00:00-04:00"
-    },
-    "NOW": {
-      "start_bar": "2026-09-24T11:10:00-04:00"
-    },
     "SAIC": {
       "start_bar": "2026-09-24T11:05:00-04:00"
+    },
+    "GPOR": {
+      "start_bar": "2026-09-24T11:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,8 +343,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "NWCL": "day_gainers",
-    "PBF": "day_gainers",
     "DELL": "day_gainers",
     "GPK": "day_gainers",
     "DINO": "day_gainers",
@@ -637,6 +632,8 @@
     "KLXE": "small_cap_gainers",
     "T": "most_actives",
     "LPG": "day_gainers",
-    "OPENW": "small_cap_gainers"
+    "OPENW": "small_cap_gainers",
+    "RIG": "most_actives",
+    "KNDI": "small_cap_gainers"
   }
 }
