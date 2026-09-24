@@ -327,27 +327,24 @@
     "BFAM": {
       "start_bar": "2026-09-24T13:40:00-04:00"
     },
-    "CASY": {
-      "start_bar": "2026-09-24T13:40:00-04:00"
-    },
-    "CMCSA": {
-      "start_bar": "2026-09-24T13:40:00-04:00"
-    },
-    "TUYA": {
-      "start_bar": "2026-09-24T13:35:00-04:00"
-    },
     "TALO": {
       "start_bar": "2026-09-24T13:40:00-04:00"
     },
     "AMBA": {
       "start_bar": "2026-09-24T13:45:00-04:00"
+    },
+    "VBIO": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
+    },
+    "NAT": {
+      "start_bar": "2026-09-24T13:55:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives+day_gainers",
+    "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "PANW": "day_gainers",
