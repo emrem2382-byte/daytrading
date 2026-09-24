@@ -24,11 +24,7 @@
     "IONQ",
     "GRABW",
     "CRWV",
-    "AVAV",
     "LU",
-    "RXRX",
-    "IREN",
-    "HLN",
     "AVEX",
     "LGO",
     "NVAX",
@@ -317,7 +313,11 @@
     "UFPT",
     "SECZ",
     "LUXE",
-    "BALY"
+    "BALY",
+    "ASTS",
+    "LUNR",
+    "BKSY",
+    "GPMT"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -327,32 +327,11 @@
     "MYRG": {
       "start_bar": "2026-09-24T12:15:00-04:00"
     },
-    "ICUI": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
-    "IOVA": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
-    "DG": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
-    "BB": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
     "ALVO": {
       "start_bar": "2026-09-24T12:15:00-04:00"
     },
-    "ONDS": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
-    "RXRX": {
-      "start_bar": "2026-09-24T12:20:00-04:00"
-    },
     "NVAX": {
       "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "TTC": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
     },
     "AVT": {
       "start_bar": "2026-09-24T12:20:00-04:00"
@@ -399,14 +378,8 @@
     "DWSN": {
       "start_bar": "2026-09-24T12:15:00-04:00"
     },
-    "MANU": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
     "AMD": {
       "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "AZO": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
     },
     "BRKR": {
       "start_bar": "2026-09-24T12:20:00-04:00"
@@ -426,17 +399,11 @@
     "FEAM": {
       "start_bar": "2026-09-24T12:15:00-04:00"
     },
-    "LQDA": {
-      "start_bar": "2026-09-24T12:15:00-04:00"
-    },
     "XPO": {
       "start_bar": "2026-09-24T12:20:00-04:00"
     },
     "ADCT": {
       "start_bar": "2026-09-24T12:20:00-04:00"
-    },
-    "SNX": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
     },
     "QUBT": {
       "start_bar": "2026-09-24T12:25:00-04:00"
@@ -462,9 +429,6 @@
     "NVO": {
       "start_bar": "2026-09-24T12:25:00-04:00"
     },
-    "MTD": {
-      "start_bar": "2026-09-24T12:25:00-04:00"
-    },
     "CIFR": {
       "start_bar": "2026-09-24T12:25:00-04:00"
     },
@@ -473,6 +437,21 @@
     },
     "GRAL": {
       "start_bar": "2026-09-24T12:20:00-04:00"
+    },
+    "ENOV": {
+      "start_bar": "2026-09-24T12:25:00-04:00"
+    },
+    "BFAM": {
+      "start_bar": "2026-09-24T12:30:00-04:00"
+    },
+    "PFE": {
+      "start_bar": "2026-09-24T12:30:00-04:00"
+    },
+    "BELFB": {
+      "start_bar": "2026-09-24T12:25:00-04:00"
+    },
+    "STRZ": {
+      "start_bar": "2026-09-24T12:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -482,11 +461,7 @@
     "IONQ": "most_actives+day_gainers",
     "GRABW": "small_cap_gainers",
     "CRWV": "most_actives",
-    "AVAV": "day_gainers",
     "LU": "small_cap_gainers",
-    "RXRX": "most_shorted_stocks",
-    "IREN": "most_actives",
-    "HLN": "most_actives",
     "AVEX": "small_cap_gainers",
     "LGO": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
@@ -618,7 +593,7 @@
     "SPCX": "most_actives",
     "P": "day_gainers",
     "FRVO": "day_gainers",
-    "NBIS": "most_actives+day_gainers",
+    "NBIS": "day_gainers",
     "IOVA": "day_gainers",
     "KNF": "day_gainers",
     "HTFL": "day_gainers",
@@ -775,6 +750,10 @@
     "UFPT": "day_gainers",
     "SECZ": "day_gainers",
     "LUXE": "small_cap_gainers",
-    "BALY": "small_cap_gainers"
+    "BALY": "small_cap_gainers",
+    "ASTS": "day_gainers",
+    "LUNR": "day_gainers",
+    "BKSY": "small_cap_gainers",
+    "GPMT": "small_cap_gainers"
   }
 }
