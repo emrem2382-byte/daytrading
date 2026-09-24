@@ -27,7 +27,6 @@
     "XPON",
     "RSKD",
     "IONQ",
-    "MAAS",
     "IRTC",
     "LKFT",
     "NWCL",
@@ -317,7 +316,8 @@
     "GOSS",
     "BFH",
     "VLO",
-    "SLDE"
+    "SLDE",
+    "KLXE"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -325,9 +325,6 @@
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
     "BBBYW": {
-      "start_bar": "2026-09-24T10:45:00-04:00"
-    },
-    "OPENL": {
       "start_bar": "2026-09-24T10:45:00-04:00"
     },
     "HPE": {
@@ -347,7 +344,6 @@
     "NAT": "aggressive_small_caps",
     "XPON": "most_shorted_stocks",
     "IONQ": "most_actives",
-    "MAAS": "day_gainers",
     "IRTC": "day_gainers",
     "LKFT": "day_gainers",
     "NWCL": "day_gainers",
@@ -637,6 +633,7 @@
     "GOSS": "small_cap_gainers",
     "BFH": "day_gainers",
     "VLO": "day_gainers",
-    "SLDE": "day_gainers"
+    "SLDE": "day_gainers",
+    "KLXE": "small_cap_gainers"
   }
 }
