@@ -18,12 +18,10 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "SECZ",
     "KOS",
     "NAT",
     "RSKD",
     "IONQ",
-    "CDNS",
     "TEAM",
     "AI",
     "RGTI",
@@ -317,19 +315,12 @@
     "WLTH",
     "LOCL",
     "CRT",
-    "OPTU"
+    "OPTU",
+    "SAIL",
+    "SES"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "SPCX": {
-      "start_bar": "2026-09-24T11:50:00-04:00"
-    },
-    "CRCL": {
-      "start_bar": "2026-09-24T11:50:00-04:00"
-    },
-    "CLBK": {
-      "start_bar": "2026-09-24T11:50:00-04:00"
-    },
     "CRWD": {
       "start_bar": "2026-09-24T11:55:00-04:00"
     },
@@ -350,15 +341,16 @@
     },
     "ACDC": {
       "start_bar": "2026-09-24T11:55:00-04:00"
+    },
+    "LOCL": {
+      "start_bar": "2026-09-24T11:50:00-04:00"
     }
   },
   "ticker_sources": {
-    "SECZ": "day_gainers",
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "CDNS": "day_gainers",
     "TEAM": "day_gainers",
     "AI": "most_shorted_stocks",
     "RGTI": "most_actives",
@@ -652,6 +644,8 @@
     "WLTH": "small_cap_gainers",
     "LOCL": "small_cap_gainers",
     "CRT": "small_cap_gainers",
-    "OPTU": "small_cap_gainers"
+    "OPTU": "small_cap_gainers",
+    "SAIL": "day_gainers",
+    "SES": "small_cap_gainers"
   }
 }
