@@ -22,9 +22,6 @@
     "SECZ",
     "GRAL",
     "INTC",
-    "EMBC",
-    "RYAM",
-    "BAND",
     "PYXS",
     "KOS",
     "VISN",
@@ -317,7 +314,10 @@
     "RIVN",
     "CHRN",
     "CIFR",
-    "MMLP"
+    "MMLP",
+    "WIX",
+    "PPLI",
+    "FEAM"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -326,9 +326,6 @@
     },
     "XRXDW": {
       "start_bar": "2026-09-24T10:05:00-04:00"
-    },
-    "ACDC": {
-      "start_bar": "2026-09-24T10:15:00-04:00"
     },
     "CLBK": {
       "start_bar": "2026-09-24T10:20:00-04:00"
@@ -342,9 +339,6 @@
     "PLTR": {
       "start_bar": "2026-09-24T10:25:00-04:00"
     },
-    "XPO": {
-      "start_bar": "2026-09-24T10:25:00-04:00"
-    },
     "CRM": {
       "start_bar": "2026-09-24T10:25:00-04:00"
     },
@@ -353,6 +347,21 @@
     },
     "SOS": {
       "start_bar": "2026-09-24T10:20:00-04:00"
+    },
+    "IONQ": {
+      "start_bar": "2026-09-24T10:30:00-04:00"
+    },
+    "AAON": {
+      "start_bar": "2026-09-24T10:30:00-04:00"
+    },
+    "RRC": {
+      "start_bar": "2026-09-24T10:30:00-04:00"
+    },
+    "CLS": {
+      "start_bar": "2026-09-24T10:30:00-04:00"
+    },
+    "TUYA": {
+      "start_bar": "2026-09-24T10:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,9 +370,6 @@
     "INTC": "most_actives",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "EMBC": "small_cap_gainers",
-    "RYAM": "small_cap_gainers",
-    "BAND": "small_cap_gainers",
     "PYXS": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
@@ -401,7 +407,7 @@
     "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
-    "PLTR": "most_actives+day_gainers",
+    "PLTR": "most_actives",
     "DOCU": "day_gainers",
     "MEI": "small_cap_gainers",
     "TSLA": "most_actives",
@@ -579,7 +585,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives",
+    "META": "most_actives+day_gainers",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -653,6 +659,10 @@
     "RIVN": "most_actives",
     "CHRN": "day_gainers",
     "CIFR": "most_actives",
-    "MMLP": "small_cap_gainers"
+    "MMLP": "small_cap_gainers",
+    "WIX": "day_gainers",
+    "PPLI": "day_gainers",
+    "RSKD": "small_cap_gainers",
+    "FEAM": "small_cap_gainers"
   }
 }
