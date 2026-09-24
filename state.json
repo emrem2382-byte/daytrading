@@ -23,7 +23,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "VEEV",
     "CDNS",
     "TEAM",
     "AI",
@@ -317,7 +316,8 @@
     "GRAL",
     "WLTH",
     "LOCL",
-    "CRT"
+    "CRT",
+    "OPTU"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -344,6 +344,12 @@
     },
     "SOS": {
       "start_bar": "2026-09-24T11:55:00-04:00"
+    },
+    "SSL": {
+      "start_bar": "2026-09-24T11:55:00-04:00"
+    },
+    "ACDC": {
+      "start_bar": "2026-09-24T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,7 +358,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "VEEV": "day_gainers",
     "CDNS": "day_gainers",
     "TEAM": "day_gainers",
     "AI": "most_shorted_stocks",
@@ -537,7 +542,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -646,6 +651,7 @@
     "GRAL": "day_gainers",
     "WLTH": "small_cap_gainers",
     "LOCL": "small_cap_gainers",
-    "CRT": "small_cap_gainers"
+    "CRT": "small_cap_gainers",
+    "OPTU": "small_cap_gainers"
   }
 }
