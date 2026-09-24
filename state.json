@@ -22,7 +22,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "RGTI",
     "QBTS",
     "KVYO",
     "PLTR",
@@ -317,19 +316,11 @@
     "SAIL",
     "SES",
     "UNFI",
-    "VEON"
+    "VEON",
+    "SOUN"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "RRR": {
-      "start_bar": "2026-09-24T11:55:00-04:00"
-    },
-    "SOS": {
-      "start_bar": "2026-09-24T11:55:00-04:00"
-    },
-    "ACDC": {
-      "start_bar": "2026-09-24T11:55:00-04:00"
-    },
     "LOCL": {
       "start_bar": "2026-09-24T11:50:00-04:00"
     },
@@ -338,6 +329,27 @@
     },
     "DSX": {
       "start_bar": "2026-09-24T12:05:00-04:00"
+    },
+    "MYRG": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
+    },
+    "ICUI": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
+    },
+    "IOVA": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
+    },
+    "DG": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
+    },
+    "BB": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
+    },
+    "ALVO": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
+    },
+    "ONDS": {
+      "start_bar": "2026-09-24T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -345,7 +357,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "RGTI": "most_actives",
     "QBTS": "most_actives",
     "KVYO": "day_gainers",
     "PLTR": "most_actives",
@@ -640,6 +651,7 @@
     "SAIL": "day_gainers",
     "SES": "small_cap_gainers",
     "UNFI": "day_gainers",
-    "VEON": "day_gainers"
+    "VEON": "day_gainers",
+    "SOUN": "most_shorted_stocks"
   }
 }
