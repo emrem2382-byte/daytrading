@@ -18,13 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "GT",
-    "RARE",
-    "MBC",
-    "ABSI",
-    "SRFM",
-    "CPRI",
-    "CNXC",
     "PACB",
     "FEAM",
     "CAPR",
@@ -317,39 +310,19 @@
     "TMC",
     "SRPT",
     "HTZ",
-    "CLSK"
+    "CLSK",
+    "BB",
+    "TWST",
+    "INFQ",
+    "BZUN",
+    "CSTE",
+    "MCHX",
+    "KPTI"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
-    },
-    "SECZ": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "LU": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "HLN": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "SAIC": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "SM": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "CRGY": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "OVV": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "CRM": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
     },
     "FLX": {
       "start_bar": "2026-09-24T09:30:00-04:00"
@@ -358,9 +331,6 @@
       "start_bar": "2026-09-24T09:35:00-04:00"
     },
     "T": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "NFLX": {
       "start_bar": "2026-09-24T09:35:00-04:00"
     },
     "VZ": {
@@ -387,12 +357,6 @@
     "CDNA": {
       "start_bar": "2026-09-24T09:35:00-04:00"
     },
-    "VERA": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "IONQ": {
-      "start_bar": "2026-09-24T09:40:00-04:00"
-    },
     "VG": {
       "start_bar": "2026-09-24T09:40:00-04:00"
     },
@@ -407,6 +371,21 @@
     },
     "MGY": {
       "start_bar": "2026-09-24T09:40:00-04:00"
+    },
+    "VIAV": {
+      "start_bar": "2026-09-24T09:45:00-04:00"
+    },
+    "DAIC": {
+      "start_bar": "2026-09-24T09:45:00-04:00"
+    },
+    "GEO": {
+      "start_bar": "2026-09-24T09:45:00-04:00"
+    },
+    "TWLO": {
+      "start_bar": "2026-09-24T09:45:00-04:00"
+    },
+    "BB": {
+      "start_bar": "2026-09-24T09:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -417,13 +396,6 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "GT": "small_cap_gainers",
-    "RARE": "small_cap_gainers",
-    "MBC": "small_cap_gainers",
-    "ABSI": "small_cap_gainers",
-    "SRFM": "small_cap_gainers",
-    "CPRI": "small_cap_gainers",
-    "CNXC": "small_cap_gainers",
     "PACB": "small_cap_gainers",
     "FEAM": "small_cap_gainers",
     "CAPR": "small_cap_gainers+most_shorted_stocks",
@@ -707,6 +679,13 @@
     "TMC": "aggressive_small_caps",
     "SRPT": "aggressive_small_caps",
     "HTZ": "most_shorted_stocks",
-    "CLSK": "most_shorted_stocks"
+    "CLSK": "most_shorted_stocks",
+    "BB": "most_actives",
+    "TWST": "day_gainers",
+    "INFQ": "day_gainers",
+    "BZUN": "small_cap_gainers",
+    "CSTE": "small_cap_gainers",
+    "MCHX": "small_cap_gainers",
+    "KPTI": "most_shorted_stocks"
   }
 }
