@@ -22,19 +22,6 @@
     "SECZ",
     "GRAL",
     "INTC",
-    "NFLX",
-    "KEEL",
-    "VZ",
-    "HYMC",
-    "TRLV",
-    "KLIC",
-    "SRRK",
-    "ROG",
-    "AYA",
-    "VERA",
-    "FORM",
-    "GENI",
-    "CTMX",
     "SANA",
     "ORIC",
     "BKKT",
@@ -317,7 +304,20 @@
     "ASST",
     "PACB",
     "FLX",
-    "ULH"
+    "ULH",
+    "NVO",
+    "GOOGL",
+    "WAT",
+    "WGS",
+    "AVTR",
+    "QGEN",
+    "ALMR",
+    "ICLR",
+    "NTAP",
+    "MTD",
+    "GBLI",
+    "SOS",
+    "ACDC"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -338,6 +338,15 @@
     },
     "BMNR": {
       "start_bar": "2026-09-24T10:10:00-04:00"
+    },
+    "GDDY": {
+      "start_bar": "2026-09-24T10:10:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-09-24T10:15:00-04:00"
+    },
+    "ACDC": {
+      "start_bar": "2026-09-24T10:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,19 +355,6 @@
     "INTC": "most_actives",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "NFLX": "most_actives",
-    "KEEL": "most_actives",
-    "VZ": "most_actives",
-    "HYMC": "day_gainers",
-    "TRLV": "day_gainers",
-    "KLIC": "day_gainers",
-    "SRRK": "day_gainers",
-    "ROG": "day_gainers",
-    "AYA": "day_gainers",
-    "VERA": "most_shorted_stocks",
-    "FORM": "day_gainers",
-    "GENI": "aggressive_small_caps",
-    "CTMX": "small_cap_gainers",
     "SANA": "small_cap_gainers",
     "ORIC": "small_cap_gainers",
     "BKKT": "small_cap_gainers",
@@ -638,6 +634,19 @@
     "ASST": "day_gainers",
     "PACB": "small_cap_gainers",
     "FLX": "small_cap_gainers",
-    "ULH": "small_cap_gainers"
+    "ULH": "small_cap_gainers",
+    "NVO": "most_actives",
+    "GOOGL": "most_actives",
+    "WAT": "day_gainers",
+    "WGS": "day_gainers",
+    "AVTR": "day_gainers",
+    "QGEN": "day_gainers",
+    "ALMR": "day_gainers",
+    "ICLR": "day_gainers",
+    "NTAP": "day_gainers",
+    "MTD": "day_gainers",
+    "GBLI": "small_cap_gainers",
+    "SOS": "aggressive_small_caps",
+    "ACDC": "aggressive_small_caps"
   }
 }
