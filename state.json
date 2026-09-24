@@ -22,13 +22,8 @@
     "SECZ",
     "GRAL",
     "INTC",
-    "PYXS",
     "KOS",
-    "VISN",
     "NAT",
-    "NFE",
-    "WOLF",
-    "RUN",
     "XPON",
     "RSKD",
     "CDE",
@@ -317,51 +312,35 @@
     "MMLP",
     "WIX",
     "PPLI",
-    "FEAM"
+    "FEAM",
+    "TARS",
+    "LQDA",
+    "MRNA",
+    "WTI",
+    "GOSS"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "XRXDW": {
-      "start_bar": "2026-09-24T10:05:00-04:00"
-    },
-    "CLBK": {
-      "start_bar": "2026-09-24T10:20:00-04:00"
-    },
-    "TRVG": {
-      "start_bar": "2026-09-24T10:15:00-04:00"
-    },
-    "GOOGL": {
-      "start_bar": "2026-09-24T10:20:00-04:00"
-    },
-    "PLTR": {
-      "start_bar": "2026-09-24T10:25:00-04:00"
-    },
-    "CRM": {
-      "start_bar": "2026-09-24T10:25:00-04:00"
-    },
-    "CRCL": {
-      "start_bar": "2026-09-24T10:25:00-04:00"
-    },
-    "SOS": {
-      "start_bar": "2026-09-24T10:20:00-04:00"
-    },
-    "IONQ": {
-      "start_bar": "2026-09-24T10:30:00-04:00"
-    },
     "AAON": {
       "start_bar": "2026-09-24T10:30:00-04:00"
     },
-    "RRC": {
-      "start_bar": "2026-09-24T10:30:00-04:00"
+    "QBTS": {
+      "start_bar": "2026-09-24T10:40:00-04:00"
     },
-    "CLS": {
-      "start_bar": "2026-09-24T10:30:00-04:00"
+    "PANW": {
+      "start_bar": "2026-09-24T10:45:00-04:00"
     },
-    "TUYA": {
-      "start_bar": "2026-09-24T10:25:00-04:00"
+    "MNDY": {
+      "start_bar": "2026-09-24T10:45:00-04:00"
+    },
+    "DAIC": {
+      "start_bar": "2026-09-24T10:40:00-04:00"
+    },
+    "INVA": {
+      "start_bar": "2026-09-24T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -370,13 +349,8 @@
     "INTC": "most_actives",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "PYXS": "small_cap_gainers",
-    "KOS": "aggressive_small_caps",
-    "VISN": "aggressive_small_caps",
+    "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
-    "NFE": "aggressive_small_caps",
-    "WOLF": "most_shorted_stocks",
-    "RUN": "most_shorted_stocks",
     "XPON": "most_shorted_stocks",
     "IONQ": "most_actives",
     "WOR": "day_gainers",
@@ -585,7 +559,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -663,6 +637,11 @@
     "WIX": "day_gainers",
     "PPLI": "day_gainers",
     "RSKD": "small_cap_gainers",
-    "FEAM": "small_cap_gainers"
+    "FEAM": "small_cap_gainers",
+    "TARS": "day_gainers",
+    "LQDA": "day_gainers",
+    "MRNA": "day_gainers",
+    "WTI": "small_cap_gainers",
+    "GOSS": "small_cap_gainers"
   }
 }
