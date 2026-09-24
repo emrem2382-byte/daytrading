@@ -23,11 +23,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "IMSRW",
-    "IQMXW",
-    "PAL",
-    "CAI",
-    "WDFC",
     "VEEV",
     "CDNS",
     "TEAM",
@@ -317,25 +312,15 @@
     "XPON",
     "FANG",
     "PBF",
-    "LIFE"
+    "LIFE",
+    "INTC",
+    "GRAL",
+    "WLTH",
+    "LOCL",
+    "CRT"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "SSL": {
-      "start_bar": "2026-09-24T11:35:00-04:00"
-    },
-    "VIA": {
-      "start_bar": "2026-09-24T11:35:00-04:00"
-    },
-    "FIP": {
-      "start_bar": "2026-09-24T11:40:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-09-24T11:40:00-04:00"
-    },
-    "U": {
-      "start_bar": "2026-09-24T11:45:00-04:00"
-    },
     "SPCX": {
       "start_bar": "2026-09-24T11:50:00-04:00"
     },
@@ -344,6 +329,21 @@
     },
     "CLBK": {
       "start_bar": "2026-09-24T11:50:00-04:00"
+    },
+    "CRWD": {
+      "start_bar": "2026-09-24T11:55:00-04:00"
+    },
+    "EGHT": {
+      "start_bar": "2026-09-24T11:50:00-04:00"
+    },
+    "MYRG": {
+      "start_bar": "2026-09-24T11:50:00-04:00"
+    },
+    "RRR": {
+      "start_bar": "2026-09-24T11:55:00-04:00"
+    },
+    "SOS": {
+      "start_bar": "2026-09-24T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,11 +352,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "IMSRW": "small_cap_gainers",
-    "IQMXW": "small_cap_gainers",
-    "PAL": "aggressive_small_caps",
-    "CAI": "day_gainers",
-    "WDFC": "day_gainers",
     "VEEV": "day_gainers",
     "CDNS": "day_gainers",
     "TEAM": "day_gainers",
@@ -542,7 +537,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives",
+    "META": "most_actives+day_gainers",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -646,6 +641,11 @@
     "XPON": "most_shorted_stocks",
     "FANG": "day_gainers",
     "PBF": "day_gainers",
-    "LIFE": "day_gainers"
+    "LIFE": "day_gainers",
+    "INTC": "most_actives",
+    "GRAL": "day_gainers",
+    "WLTH": "small_cap_gainers",
+    "LOCL": "small_cap_gainers",
+    "CRT": "small_cap_gainers"
   }
 }
