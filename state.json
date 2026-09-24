@@ -22,8 +22,6 @@
     "SECZ",
     "GRAL",
     "INTC",
-    "SBH",
-    "KLRA",
     "EMBC",
     "RYAM",
     "BAND",
@@ -317,27 +315,17 @@
     "ACDC",
     "ONDS",
     "RIVN",
-    "CHRN"
+    "CHRN",
+    "CIFR",
+    "MMLP"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "NVAX": {
-      "start_bar": "2026-09-24T10:10:00-04:00"
-    },
     "XRXDW": {
       "start_bar": "2026-09-24T10:05:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-09-24T10:10:00-04:00"
-    },
-    "GDDY": {
-      "start_bar": "2026-09-24T10:10:00-04:00"
-    },
-    "HTZ": {
-      "start_bar": "2026-09-24T10:15:00-04:00"
     },
     "ACDC": {
       "start_bar": "2026-09-24T10:15:00-04:00"
@@ -350,6 +338,21 @@
     },
     "GOOGL": {
       "start_bar": "2026-09-24T10:20:00-04:00"
+    },
+    "PLTR": {
+      "start_bar": "2026-09-24T10:25:00-04:00"
+    },
+    "XPO": {
+      "start_bar": "2026-09-24T10:25:00-04:00"
+    },
+    "CRM": {
+      "start_bar": "2026-09-24T10:25:00-04:00"
+    },
+    "CRCL": {
+      "start_bar": "2026-09-24T10:25:00-04:00"
+    },
+    "SOS": {
+      "start_bar": "2026-09-24T10:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,8 +361,6 @@
     "INTC": "most_actives",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "SBH": "small_cap_gainers",
-    "KLRA": "small_cap_gainers",
     "EMBC": "small_cap_gainers",
     "RYAM": "small_cap_gainers",
     "BAND": "small_cap_gainers",
@@ -577,7 +578,7 @@
     "ANGX": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
-    "MARA": "most_shorted_stocks",
+    "MARA": "most_actives+most_shorted_stocks",
     "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
@@ -650,6 +651,8 @@
     "ACDC": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "RIVN": "most_actives",
-    "CHRN": "day_gainers"
+    "CHRN": "day_gainers",
+    "CIFR": "most_actives",
+    "MMLP": "small_cap_gainers"
   }
 }
