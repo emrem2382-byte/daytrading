@@ -25,9 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "CRGY",
-    "OVV",
-    "ICUI",
     "PSKY",
     "VIA",
     "INIO",
@@ -317,16 +314,13 @@
     "QDEL",
     "ABX",
     "SITM",
-    "XENE"
+    "XENE",
+    "RGEN",
+    "NC",
+    "DFNS"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "CRGY": {
-      "start_bar": "2026-09-24T15:10:00-04:00"
-    },
-    "BJ": {
-      "start_bar": "2026-09-24T15:10:00-04:00"
-    },
     "EQNR": {
       "start_bar": "2026-09-24T15:15:00-04:00"
     },
@@ -357,13 +351,25 @@
     "DUOL": {
       "start_bar": "2026-09-24T15:15:00-04:00"
     },
-    "SB": {
-      "start_bar": "2026-09-24T15:20:00-04:00"
-    },
     "LLY": {
       "start_bar": "2026-09-24T15:20:00-04:00"
     },
     "FANG": {
+      "start_bar": "2026-09-24T15:20:00-04:00"
+    },
+    "VIA": {
+      "start_bar": "2026-09-24T15:25:00-04:00"
+    },
+    "MNDY": {
+      "start_bar": "2026-09-24T15:25:00-04:00"
+    },
+    "DPC": {
+      "start_bar": "2026-09-24T15:25:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-24T15:25:00-04:00"
+    },
+    "WTI": {
       "start_bar": "2026-09-24T15:20:00-04:00"
     }
   },
@@ -375,9 +381,6 @@
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "CRGY": "day_gainers",
-    "OVV": "day_gainers",
-    "ICUI": "day_gainers",
     "PSKY": "day_gainers",
     "VIA": "day_gainers",
     "INIO": "day_gainers",
@@ -667,6 +670,9 @@
     "QDEL": "small_cap_gainers",
     "ABX": "small_cap_gainers",
     "SITM": "day_gainers",
-    "XENE": "day_gainers"
+    "XENE": "day_gainers",
+    "RGEN": "day_gainers",
+    "NC": "small_cap_gainers",
+    "DFNS": "most_shorted_stocks"
   }
 }
