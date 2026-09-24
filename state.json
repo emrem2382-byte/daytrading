@@ -18,13 +18,7 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "CTKB",
-    "METC",
-    "HLLY",
-    "NMRA",
     "DNA",
-    "JELD",
-    "FDMT",
     "VLN",
     "ASPN",
     "FLWS",
@@ -317,30 +311,18 @@
     "VCYT",
     "SPRU",
     "DWSN",
-    "SB"
+    "SB",
+    "EDU",
+    "BJ",
+    "CTAS",
+    "MANU",
+    "NXTC",
+    "AMTD"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
-    },
-    "SVCO": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "UHS": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "ENOV": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "DVN": {
-      "start_bar": "2026-09-24T09:40:00-04:00"
-    },
-    "LOPE": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
-    "MUR": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
     },
     "MGY": {
       "start_bar": "2026-09-24T09:40:00-04:00"
@@ -354,9 +336,6 @@
     "GEO": {
       "start_bar": "2026-09-24T09:45:00-04:00"
     },
-    "AXTI": {
-      "start_bar": "2026-09-24T09:50:00-04:00"
-    },
     "CDNS": {
       "start_bar": "2026-09-24T09:50:00-04:00"
     },
@@ -364,6 +343,12 @@
       "start_bar": "2026-09-24T09:50:00-04:00"
     },
     "INVA": {
+      "start_bar": "2026-09-24T09:50:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-09-24T09:50:00-04:00"
+    },
+    "TWLO": {
       "start_bar": "2026-09-24T09:50:00-04:00"
     }
   },
@@ -375,13 +360,7 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "CTKB": "small_cap_gainers",
-    "METC": "small_cap_gainers",
-    "HLLY": "small_cap_gainers",
-    "NMRA": "small_cap_gainers",
     "DNA": "small_cap_gainers",
-    "JELD": "aggressive_small_caps",
-    "FDMT": "small_cap_gainers",
     "VLN": "small_cap_gainers",
     "ASPN": "small_cap_gainers",
     "FLWS": "small_cap_gainers",
@@ -619,7 +598,7 @@
     "SPCX": "most_actives",
     "P": "day_gainers",
     "FRVO": "day_gainers",
-    "NBIS": "day_gainers",
+    "NBIS": "most_actives+day_gainers",
     "IOVA": "day_gainers",
     "KNF": "day_gainers",
     "HTFL": "day_gainers",
@@ -665,6 +644,12 @@
     "VCYT": "day_gainers",
     "SPRU": "small_cap_gainers",
     "DWSN": "small_cap_gainers",
-    "SB": "aggressive_small_caps"
+    "SB": "aggressive_small_caps",
+    "EDU": "day_gainers",
+    "BJ": "day_gainers",
+    "CTAS": "day_gainers",
+    "MANU": "small_cap_gainers",
+    "NXTC": "small_cap_gainers",
+    "AMTD": "small_cap_gainers"
   }
 }
