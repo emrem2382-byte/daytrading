@@ -321,12 +321,6 @@
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "LLY": {
-      "start_bar": "2026-09-24T14:10:00-04:00"
-    },
-    "SOS": {
-      "start_bar": "2026-09-24T14:10:00-04:00"
-    },
     "AAON": {
       "start_bar": "2026-09-24T14:15:00-04:00"
     },
@@ -351,9 +345,6 @@
     "VNET": {
       "start_bar": "2026-09-24T14:15:00-04:00"
     },
-    "ICUI": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
     "KSS": {
       "start_bar": "2026-09-24T14:20:00-04:00"
     },
@@ -364,6 +355,27 @@
       "start_bar": "2026-09-24T14:20:00-04:00"
     },
     "TARS": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "WEX": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "SANM": {
+      "start_bar": "2026-09-24T14:25:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "CLSK": {
+      "start_bar": "2026-09-24T14:25:00-04:00"
+    },
+    "SB": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "NTRA": {
+      "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "NMM": {
       "start_bar": "2026-09-24T14:20:00-04:00"
     }
   },
@@ -572,7 +584,7 @@
     "NTAP": "day_gainers",
     "MTD": "day_gainers",
     "GBLI": "small_cap_gainers",
-    "SOS": "aggressive_small_caps",
+    "SOS": "small_cap_gainers+aggressive_small_caps",
     "ACDC": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "RIVN": "most_actives",
