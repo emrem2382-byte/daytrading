@@ -18,18 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "GME",
-    "BHE",
-    "GLBE",
-    "INOD",
-    "LEN-B",
-    "ESTA",
-    "TLX",
-    "RGC",
-    "ARQT",
-    "NOVT",
-    "PONY",
-    "FIGR",
     "GT",
     "RARE",
     "MBC",
@@ -317,7 +305,19 @@
     "ANGX",
     "SERV",
     "GRPN",
-    "MARA"
+    "MARA",
+    "META",
+    "CRL",
+    "DUOL",
+    "RMBS",
+    "BCYC",
+    "TCI",
+    "NWCLW",
+    "JBLU",
+    "TMC",
+    "SRPT",
+    "HTZ",
+    "CLSK"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -378,9 +378,6 @@
     "ENOV": {
       "start_bar": "2026-09-24T09:30:00-04:00"
     },
-    "BFAM": {
-      "start_bar": "2026-09-24T09:35:00-04:00"
-    },
     "PRDO": {
       "start_bar": "2026-09-24T09:30:00-04:00"
     },
@@ -389,6 +386,27 @@
     },
     "CDNA": {
       "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "VERA": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "IONQ": {
+      "start_bar": "2026-09-24T09:40:00-04:00"
+    },
+    "VG": {
+      "start_bar": "2026-09-24T09:40:00-04:00"
+    },
+    "DVN": {
+      "start_bar": "2026-09-24T09:40:00-04:00"
+    },
+    "LOPE": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "MUR": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "MGY": {
+      "start_bar": "2026-09-24T09:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -399,18 +417,6 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "GME": "day_gainers",
-    "BHE": "day_gainers",
-    "GLBE": "day_gainers",
-    "INOD": "day_gainers",
-    "LEN-B": "day_gainers",
-    "ESTA": "day_gainers",
-    "TLX": "day_gainers",
-    "RGC": "day_gainers",
-    "ARQT": "day_gainers",
-    "NOVT": "day_gainers",
-    "PONY": "day_gainers",
-    "FIGR": "day_gainers",
     "GT": "small_cap_gainers",
     "RARE": "small_cap_gainers",
     "MBC": "small_cap_gainers",
@@ -463,7 +469,7 @@
     "SRRK": "day_gainers",
     "ROG": "day_gainers",
     "AYA": "day_gainers",
-    "VERA": "day_gainers",
+    "VERA": "most_shorted_stocks",
     "FORM": "day_gainers",
     "GENI": "aggressive_small_caps",
     "CTMX": "small_cap_gainers",
@@ -483,7 +489,7 @@
     "WOLF": "most_shorted_stocks",
     "RUN": "most_shorted_stocks",
     "XPON": "most_shorted_stocks",
-    "IONQ": "most_actives+day_gainers",
+    "IONQ": "most_actives",
     "WOR": "day_gainers",
     "QNT": "day_gainers",
     "MAAS": "day_gainers",
@@ -689,6 +695,18 @@
     "ANGX": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
-    "MARA": "most_shorted_stocks"
+    "MARA": "most_shorted_stocks",
+    "META": "most_actives",
+    "CRL": "day_gainers",
+    "DUOL": "day_gainers",
+    "RMBS": "day_gainers",
+    "BCYC": "small_cap_gainers",
+    "TCI": "small_cap_gainers",
+    "NWCLW": "small_cap_gainers",
+    "JBLU": "aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
+    "SRPT": "aggressive_small_caps",
+    "HTZ": "most_shorted_stocks",
+    "CLSK": "most_shorted_stocks"
   }
 }
