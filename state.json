@@ -24,10 +24,6 @@
     "CRWV",
     "LU",
     "VBIO",
-    "EFXT",
-    "HUBS",
-    "EGHT",
-    "XRXDW",
     "APA",
     "AVT",
     "MYRG",
@@ -317,17 +313,15 @@
     "SPNT",
     "LX",
     "WS",
-    "ULCC"
+    "ULCC",
+    "HIMS",
+    "GME",
+    "SRFM",
+    "SLS"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "AAON": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "DAIC": {
-      "start_bar": "2026-09-24T14:10:00-04:00"
-    },
-    "KR": {
       "start_bar": "2026-09-24T14:15:00-04:00"
     },
     "SRPT": {
@@ -337,9 +331,6 @@
       "start_bar": "2026-09-24T14:15:00-04:00"
     },
     "MTD": {
-      "start_bar": "2026-09-24T14:15:00-04:00"
-    },
-    "MRNA": {
       "start_bar": "2026-09-24T14:15:00-04:00"
     },
     "VNET": {
@@ -369,14 +360,32 @@
     "CLSK": {
       "start_bar": "2026-09-24T14:25:00-04:00"
     },
-    "SB": {
-      "start_bar": "2026-09-24T14:20:00-04:00"
-    },
     "NTRA": {
       "start_bar": "2026-09-24T14:20:00-04:00"
     },
     "NMM": {
       "start_bar": "2026-09-24T14:20:00-04:00"
+    },
+    "ACMR": {
+      "start_bar": "2026-09-24T14:30:00-04:00"
+    },
+    "RBRK": {
+      "start_bar": "2026-09-24T14:30:00-04:00"
+    },
+    "BAC": {
+      "start_bar": "2026-09-24T14:25:00-04:00"
+    },
+    "BMNR": {
+      "start_bar": "2026-09-24T14:30:00-04:00"
+    },
+    "PRGO": {
+      "start_bar": "2026-09-24T14:30:00-04:00"
+    },
+    "BFH": {
+      "start_bar": "2026-09-24T14:25:00-04:00"
+    },
+    "OPTU": {
+      "start_bar": "2026-09-24T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -386,10 +395,6 @@
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "EFXT": "day_gainers",
-    "HUBS": "day_gainers",
-    "EGHT": "small_cap_gainers",
-    "XRXDW": "small_cap_gainers",
     "APA": "day_gainers",
     "AVT": "day_gainers",
     "MYRG": "day_gainers",
@@ -679,6 +684,10 @@
     "SPNT": "day_gainers",
     "LX": "small_cap_gainers",
     "WS": "small_cap_gainers",
-    "ULCC": "aggressive_small_caps"
+    "ULCC": "aggressive_small_caps",
+    "HIMS": "day_gainers",
+    "GME": "day_gainers",
+    "SRFM": "small_cap_gainers",
+    "SLS": "most_shorted_stocks"
   }
 }
