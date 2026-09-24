@@ -2,19 +2,17 @@
   "premarket_watchlist": [
     "AIFU",
     "SNX",
-    "LU",
     "VBIO",
+    "LU",
     "LGO",
     "ACMR",
-    "PLBL",
     "VICR",
-    "FLNC",
-    "FORM",
+    "JACK",
+    "PLBL",
     "AAON",
+    "FORM",
     "FPS",
-    "ILMN",
-    "FRSH",
-    "NNBR"
+    "FRSH"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
