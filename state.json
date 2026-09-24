@@ -25,8 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "TALO",
-    "VIAV",
     "BSY",
     "MGY",
     "CHKP",
@@ -317,16 +315,12 @@
     "BRKRP",
     "OUST",
     "RELY",
-    "ABSI"
+    "ABSI",
+    "ENHA",
+    "ANVS"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "ULH": {
-      "start_bar": "2026-09-24T14:45:00-04:00"
-    },
-    "QGEN": {
-      "start_bar": "2026-09-24T14:45:00-04:00"
-    },
     "DT": {
       "start_bar": "2026-09-24T14:55:00-04:00"
     },
@@ -339,17 +333,11 @@
     "SANM": {
       "start_bar": "2026-09-24T14:50:00-04:00"
     },
-    "RRR": {
-      "start_bar": "2026-09-24T14:50:00-04:00"
-    },
     "ASAN": {
       "start_bar": "2026-09-24T15:00:00-04:00"
     },
-    "WGS": {
-      "start_bar": "2026-09-24T15:00:00-04:00"
-    },
-    "OPENZ": {
-      "start_bar": "2026-09-24T14:55:00-04:00"
+    "KR": {
+      "start_bar": "2026-09-24T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,8 +348,6 @@
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "TALO": "day_gainers",
-    "VIAV": "day_gainers",
     "BSY": "day_gainers",
     "MGY": "day_gainers",
     "CHKP": "day_gainers",
@@ -652,6 +638,8 @@
     "BRKRP": "small_cap_gainers",
     "OUST": "day_gainers",
     "RELY": "day_gainers",
-    "ABSI": "small_cap_gainers"
+    "ABSI": "small_cap_gainers",
+    "ENHA": "small_cap_gainers",
+    "ANVS": "small_cap_gainers"
   }
 }
