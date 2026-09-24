@@ -19,18 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "DNA",
-    "VLN",
-    "ASPN",
-    "FLWS",
-    "KYTX",
-    "TRAX",
-    "OSUR",
-    "TLYS",
-    "GWH",
-    "OPENL",
-    "BBW",
-    "SPRO",
-    "CAL",
     "FLX",
     "SVCO",
     "BRSL",
@@ -317,24 +305,24 @@
     "CTAS",
     "MANU",
     "NXTC",
-    "AMTD"
+    "AMTD",
+    "AMD",
+    "BMNR",
+    "PRGO",
+    "BLLN",
+    "TXG",
+    "A",
+    "NTRA",
+    "AZO",
+    "BRKR",
+    "RVTY",
+    "TRVG",
+    "YQ"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
-    },
-    "MGY": {
-      "start_bar": "2026-09-24T09:40:00-04:00"
-    },
-    "VIAV": {
-      "start_bar": "2026-09-24T09:45:00-04:00"
-    },
-    "DAIC": {
-      "start_bar": "2026-09-24T09:45:00-04:00"
-    },
-    "GEO": {
-      "start_bar": "2026-09-24T09:45:00-04:00"
     },
     "CDNS": {
       "start_bar": "2026-09-24T09:50:00-04:00"
@@ -358,21 +346,9 @@
     "YSS": "small_cap_gainers",
     "INTC": "most_actives",
     "AXTI": "day_gainers",
-    "SOS": "small_cap_gainers+aggressive_small_caps",
+    "SOS": "aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "VLN": "small_cap_gainers",
-    "ASPN": "small_cap_gainers",
-    "FLWS": "small_cap_gainers",
-    "KYTX": "small_cap_gainers",
-    "TRAX": "small_cap_gainers",
-    "OSUR": "small_cap_gainers",
-    "TLYS": "small_cap_gainers",
-    "GWH": "small_cap_gainers",
-    "OPENL": "small_cap_gainers",
-    "BBW": "small_cap_gainers",
-    "SPRO": "small_cap_gainers",
-    "CAL": "small_cap_gainers",
     "FLX": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
     "BRSL": "aggressive_small_caps",
@@ -650,6 +626,18 @@
     "CTAS": "day_gainers",
     "MANU": "small_cap_gainers",
     "NXTC": "small_cap_gainers",
-    "AMTD": "small_cap_gainers"
+    "AMTD": "small_cap_gainers",
+    "AMD": "most_actives",
+    "BMNR": "most_actives",
+    "PRGO": "day_gainers",
+    "BLLN": "day_gainers",
+    "TXG": "day_gainers",
+    "A": "day_gainers",
+    "NTRA": "day_gainers",
+    "AZO": "day_gainers",
+    "BRKR": "day_gainers",
+    "RVTY": "day_gainers",
+    "TRVG": "small_cap_gainers",
+    "YQ": "small_cap_gainers"
   }
 }
