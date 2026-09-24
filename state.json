@@ -23,8 +23,6 @@
     "NAT",
     "RSKD",
     "IONQ",
-    "BXC",
-    "ASPSW",
     "ASPSZ",
     "IMSRW",
     "IQMXW",
@@ -317,13 +315,12 @@
     "MPC",
     "DNA",
     "HBB",
-    "XPON"
+    "XPON",
+    "FANG",
+    "PBF"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "ASPSW": {
-      "start_bar": "2026-09-23T15:50:00-04:00"
-    },
     "SSL": {
       "start_bar": "2026-09-24T11:35:00-04:00"
     },
@@ -335,9 +332,6 @@
     },
     "BMNR": {
       "start_bar": "2026-09-24T11:40:00-04:00"
-    },
-    "WAT": {
-      "start_bar": "2026-09-24T11:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,8 +340,6 @@
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "BXC": "small_cap_gainers",
-    "ASPSW": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
     "IMSRW": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
@@ -607,7 +599,7 @@
     "NTAP": "day_gainers",
     "MTD": "day_gainers",
     "GBLI": "small_cap_gainers",
-    "SOS": "small_cap_gainers+aggressive_small_caps",
+    "SOS": "aggressive_small_caps",
     "ACDC": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "RIVN": "most_actives",
@@ -640,6 +632,8 @@
     "MPC": "day_gainers",
     "DNA": "small_cap_gainers",
     "HBB": "small_cap_gainers",
-    "XPON": "most_shorted_stocks"
+    "XPON": "most_shorted_stocks",
+    "FANG": "day_gainers",
+    "PBF": "day_gainers"
   }
 }
