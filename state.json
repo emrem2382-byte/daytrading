@@ -19,16 +19,10 @@
   "last_session": "open",
   "tracked_tickers": [
     "SECZ",
-    "GRAL",
     "KOS",
     "NAT",
     "RSKD",
     "IONQ",
-    "GPK",
-    "DINO",
-    "NNBR",
-    "SST",
-    "TBI",
     "BXC",
     "ASPSW",
     "ASPSZ",
@@ -317,38 +311,41 @@
     "KNDI",
     "MUSA",
     "GTN-A",
-    "VNOM"
+    "VNOM",
+    "WRBY",
+    "RML",
+    "MPC",
+    "DNA",
+    "HBB",
+    "XPON"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "FUN": {
-      "start_bar": "2026-09-24T11:20:00-04:00"
+    "SSL": {
+      "start_bar": "2026-09-24T11:35:00-04:00"
     },
-    "VIAV": {
-      "start_bar": "2026-09-24T11:25:00-04:00"
+    "VIA": {
+      "start_bar": "2026-09-24T11:35:00-04:00"
     },
-    "NSIT": {
-      "start_bar": "2026-09-24T11:20:00-04:00"
+    "FIP": {
+      "start_bar": "2026-09-24T11:40:00-04:00"
     },
-    "SANM": {
-      "start_bar": "2026-09-24T11:20:00-04:00"
+    "BMNR": {
+      "start_bar": "2026-09-24T11:40:00-04:00"
+    },
+    "WAT": {
+      "start_bar": "2026-09-24T11:40:00-04:00"
     }
   },
   "ticker_sources": {
     "SECZ": "day_gainers",
-    "GRAL": "day_gainers",
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "IONQ": "most_actives",
-    "GPK": "day_gainers",
-    "DINO": "day_gainers",
-    "NNBR": "small_cap_gainers",
-    "SST": "small_cap_gainers",
-    "TBI": "small_cap_gainers",
     "BXC": "small_cap_gainers",
     "ASPSW": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
@@ -542,7 +539,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives",
+    "META": "most_actives+day_gainers",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -637,6 +634,12 @@
     "KNDI": "small_cap_gainers",
     "MUSA": "day_gainers",
     "GTN-A": "small_cap_gainers",
-    "VNOM": "day_gainers"
+    "VNOM": "day_gainers",
+    "WRBY": "day_gainers",
+    "RML": "day_gainers",
+    "MPC": "day_gainers",
+    "DNA": "small_cap_gainers",
+    "HBB": "small_cap_gainers",
+    "XPON": "most_shorted_stocks"
   }
 }
