@@ -25,7 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "CHKP",
     "NSIT",
     "DT",
     "CRGY",
@@ -317,7 +316,8 @@
     "ENHA",
     "ANVS",
     "NCNO",
-    "QDEL"
+    "QDEL",
+    "ABX"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -330,22 +330,30 @@
     "CRGY": {
       "start_bar": "2026-09-24T15:10:00-04:00"
     },
-    "BCYC": {
-      "start_bar": "2026-09-24T15:05:00-04:00"
-    },
     "BJ": {
       "start_bar": "2026-09-24T15:10:00-04:00"
+    },
+    "EQNR": {
+      "start_bar": "2026-09-24T15:15:00-04:00"
+    },
+    "FLX": {
+      "start_bar": "2026-09-24T15:10:00-04:00"
+    },
+    "KRMN": {
+      "start_bar": "2026-09-24T15:15:00-04:00"
+    },
+    "SRFM": {
+      "start_bar": "2026-09-24T15:15:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives+day_gainers",
+    "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "CHKP": "day_gainers",
     "NSIT": "day_gainers",
     "DT": "day_gainers",
     "CRGY": "day_gainers",
@@ -637,6 +645,7 @@
     "ENHA": "small_cap_gainers",
     "ANVS": "small_cap_gainers",
     "NCNO": "day_gainers",
-    "QDEL": "small_cap_gainers"
+    "QDEL": "small_cap_gainers",
+    "ABX": "small_cap_gainers"
   }
 }
