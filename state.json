@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "KOS",
-    "NAT",
     "RSKD",
     "IONQ",
     "CRWV",
@@ -317,16 +316,11 @@
     "NET",
     "NFE",
     "AEHL",
-    "SONO"
+    "SONO",
+    "NYAX"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "MTD": {
-      "start_bar": "2026-09-24T12:40:00-04:00"
-    },
-    "TARS": {
-      "start_bar": "2026-09-24T12:40:00-04:00"
-    },
     "IOND": {
       "start_bar": "2026-09-24T12:45:00-04:00"
     },
@@ -344,14 +338,22 @@
     },
     "ALMR": {
       "start_bar": "2026-09-24T12:55:00-04:00"
+    },
+    "EFXT": {
+      "start_bar": "2026-09-24T12:55:00-04:00"
+    },
+    "KD": {
+      "start_bar": "2026-09-24T13:00:00-04:00"
+    },
+    "VLO": {
+      "start_bar": "2026-09-24T13:00:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
     "KOS": "aggressive_small_caps",
-    "NAT": "aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives",
+    "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "ENOV": "aggressive_small_caps",
@@ -646,6 +648,7 @@
     "NET": "day_gainers",
     "NFE": "aggressive_small_caps",
     "AEHL": "most_shorted_stocks",
-    "SONO": "day_gainers"
+    "SONO": "day_gainers",
+    "NYAX": "small_cap_gainers"
   }
 }
