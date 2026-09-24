@@ -25,7 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "EQNR",
     "WEX",
     "APPN",
     "CRK",
@@ -317,26 +316,15 @@
     "DFNS",
     "PS",
     "TRIP",
-    "NNE"
+    "NNE",
+    "SILC"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "PLBL": {
-      "start_bar": "2026-09-24T15:25:00-04:00"
-    },
     "PRDO": {
       "start_bar": "2026-09-24T15:35:00-04:00"
     },
-    "FIGS": {
-      "start_bar": "2026-09-24T15:35:00-04:00"
-    },
     "OPENL": {
-      "start_bar": "2026-09-24T15:30:00-04:00"
-    },
-    "PL": {
-      "start_bar": "2026-09-24T15:35:00-04:00"
-    },
-    "UFPT": {
       "start_bar": "2026-09-24T15:30:00-04:00"
     },
     "OI": {
@@ -351,34 +339,45 @@
     "ACHR": {
       "start_bar": "2026-09-24T15:40:00-04:00"
     },
-    "U": {
-      "start_bar": "2026-09-24T15:45:00-04:00"
-    },
     "KNF": {
       "start_bar": "2026-09-24T15:45:00-04:00"
     },
     "EDU": {
       "start_bar": "2026-09-24T15:40:00-04:00"
     },
-    "TARS": {
-      "start_bar": "2026-09-24T15:45:00-04:00"
-    },
     "VNOM": {
       "start_bar": "2026-09-24T15:45:00-04:00"
     },
     "SG": {
       "start_bar": "2026-09-24T15:45:00-04:00"
+    },
+    "IONQ": {
+      "start_bar": "2026-09-24T15:50:00-04:00"
+    },
+    "AMBA": {
+      "start_bar": "2026-09-24T15:50:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-09-24T15:50:00-04:00"
+    },
+    "DWSN": {
+      "start_bar": "2026-09-24T15:45:00-04:00"
+    },
+    "WGS": {
+      "start_bar": "2026-09-24T15:50:00-04:00"
+    },
+    "RCL": {
+      "start_bar": "2026-09-24T15:50:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
-    "KOS": "small_cap_gainers+aggressive_small_caps",
+    "KOS": "aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
-    "CRWV": "most_actives+day_gainers",
+    "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "EQNR": "day_gainers",
     "WEX": "day_gainers",
     "APPN": "day_gainers",
     "CRK": "day_gainers",
@@ -670,6 +669,7 @@
     "DFNS": "most_shorted_stocks",
     "PS": "day_gainers",
     "TRIP": "small_cap_gainers",
-    "NNE": "most_shorted_stocks"
+    "NNE": "most_shorted_stocks",
+    "SILC": "small_cap_gainers"
   }
 }
