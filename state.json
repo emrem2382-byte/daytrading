@@ -24,11 +24,8 @@
     "INTC",
     "KOS",
     "NAT",
-    "XPON",
     "RSKD",
     "IONQ",
-    "IRTC",
-    "LKFT",
     "NWCL",
     "PBF",
     "DELL",
@@ -317,7 +314,10 @@
     "BFH",
     "VLO",
     "SLDE",
-    "KLXE"
+    "KLXE",
+    "T",
+    "LPG",
+    "OPENW"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
@@ -327,11 +327,14 @@
     "BBBYW": {
       "start_bar": "2026-09-24T10:45:00-04:00"
     },
-    "HPE": {
-      "start_bar": "2026-09-24T11:00:00-04:00"
-    },
     "DT": {
       "start_bar": "2026-09-24T11:00:00-04:00"
+    },
+    "NOW": {
+      "start_bar": "2026-09-24T11:10:00-04:00"
+    },
+    "SAIC": {
+      "start_bar": "2026-09-24T11:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -342,10 +345,7 @@
     "DNA": "small_cap_gainers",
     "KOS": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
-    "XPON": "most_shorted_stocks",
     "IONQ": "most_actives",
-    "IRTC": "day_gainers",
-    "LKFT": "day_gainers",
     "NWCL": "day_gainers",
     "PBF": "day_gainers",
     "DELL": "day_gainers",
@@ -547,7 +547,7 @@
     "SERV": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "MARA": "most_actives+most_shorted_stocks",
-    "META": "most_actives+day_gainers",
+    "META": "most_actives",
     "CRL": "day_gainers",
     "DUOL": "day_gainers",
     "RMBS": "day_gainers",
@@ -634,6 +634,9 @@
     "BFH": "day_gainers",
     "VLO": "day_gainers",
     "SLDE": "day_gainers",
-    "KLXE": "small_cap_gainers"
+    "KLXE": "small_cap_gainers",
+    "T": "most_actives",
+    "LPG": "day_gainers",
+    "OPENW": "small_cap_gainers"
   }
 }
