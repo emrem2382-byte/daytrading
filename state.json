@@ -19,19 +19,9 @@
   "last_session": "open",
   "tracked_tickers": [
     "DNA",
-    "OLN",
-    "AEHL",
-    "LENZ",
-    "XRX",
-    "SLS",
-    "SOS",
     "SECZ",
-    "AXTI",
     "GRAL",
-    "YSS",
     "INTC",
-    "NOK",
-    "T",
     "NFLX",
     "KEEL",
     "VZ",
@@ -317,48 +307,45 @@
     "LLY",
     "ADPT",
     "MRP",
-    "OPENL"
+    "OPENL",
+    "NU",
+    "NEO",
+    "TEM",
+    "RL",
+    "NMM",
+    "INSW",
+    "ASST",
+    "PACB",
+    "FLX",
+    "ULH"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "CDNS": {
-      "start_bar": "2026-09-24T09:50:00-04:00"
-    },
-    "TEAD": {
-      "start_bar": "2026-09-24T09:50:00-04:00"
-    },
-    "AXTI": {
-      "start_bar": "2026-09-24T10:05:00-04:00"
-    },
     "VBIO": {
       "start_bar": "2026-09-24T10:05:00-04:00"
     },
-    "DAIC": {
+    "NVAX": {
+      "start_bar": "2026-09-24T10:10:00-04:00"
+    },
+    "DSX": {
       "start_bar": "2026-09-24T10:05:00-04:00"
     },
-    "OPENL": {
-      "start_bar": "2026-09-24T10:00:00-04:00"
+    "XRXDW": {
+      "start_bar": "2026-09-24T10:05:00-04:00"
+    },
+    "BMNR": {
+      "start_bar": "2026-09-24T10:10:00-04:00"
     }
   },
   "ticker_sources": {
     "SECZ": "day_gainers",
     "GRAL": "day_gainers",
-    "YSS": "small_cap_gainers",
     "INTC": "most_actives",
-    "AXTI": "day_gainers",
-    "SOS": "aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
     "DNA": "small_cap_gainers",
-    "OLN": "aggressive_small_caps",
-    "AEHL": "most_shorted_stocks",
-    "LENZ": "most_shorted_stocks",
-    "XRX": "most_shorted_stocks",
-    "SLS": "most_shorted_stocks",
-    "NOK": "most_actives",
-    "T": "most_actives",
     "NFLX": "most_actives",
     "KEEL": "most_actives",
     "VZ": "most_actives",
@@ -641,6 +628,16 @@
     "LLY": "day_gainers",
     "ADPT": "day_gainers",
     "MRP": "day_gainers",
-    "OPENL": "small_cap_gainers"
+    "OPENL": "small_cap_gainers",
+    "NU": "most_actives",
+    "NEO": "day_gainers",
+    "TEM": "day_gainers",
+    "RL": "day_gainers",
+    "NMM": "day_gainers",
+    "INSW": "day_gainers",
+    "ASST": "day_gainers",
+    "PACB": "small_cap_gainers",
+    "FLX": "small_cap_gainers",
+    "ULH": "small_cap_gainers"
   }
 }
