@@ -24,8 +24,6 @@
     "CRWV",
     "LU",
     "VBIO",
-    "CRWD",
-    "DDOG",
     "EFXT",
     "HUBS",
     "EGHT",
@@ -317,29 +315,13 @@
     "ACHR",
     "LAUR",
     "SPNT",
-    "LX"
+    "LX",
+    "WS",
+    "ULCC"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "EFXT": {
-      "start_bar": "2026-09-24T13:55:00-04:00"
-    },
     "CRK": {
-      "start_bar": "2026-09-24T14:00:00-04:00"
-    },
-    "RRC": {
-      "start_bar": "2026-09-24T13:55:00-04:00"
-    },
-    "DG": {
-      "start_bar": "2026-09-24T13:55:00-04:00"
-    },
-    "INVA": {
-      "start_bar": "2026-09-24T13:55:00-04:00"
-    },
-    "BRKR": {
-      "start_bar": "2026-09-24T13:55:00-04:00"
-    },
-    "LPG": {
       "start_bar": "2026-09-24T14:00:00-04:00"
     },
     "LLY": {
@@ -347,6 +329,30 @@
     },
     "SOS": {
       "start_bar": "2026-09-24T14:10:00-04:00"
+    },
+    "AAON": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "DAIC": {
+      "start_bar": "2026-09-24T14:10:00-04:00"
+    },
+    "KR": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "SRPT": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "MTD": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "MRNA": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
+    },
+    "VNET": {
+      "start_bar": "2026-09-24T14:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,8 +362,6 @@
     "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "CRWD": "day_gainers",
-    "DDOG": "day_gainers",
     "EFXT": "day_gainers",
     "HUBS": "day_gainers",
     "EGHT": "small_cap_gainers",
@@ -649,6 +653,8 @@
     "ACHR": "most_actives",
     "LAUR": "day_gainers",
     "SPNT": "day_gainers",
-    "LX": "small_cap_gainers"
+    "LX": "small_cap_gainers",
+    "WS": "small_cap_gainers",
+    "ULCC": "aggressive_small_caps"
   }
 }
