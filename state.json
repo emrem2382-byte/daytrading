@@ -16,23 +16,11 @@
     "QUBT",
     "FRSH"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
-    "QUBT",
-    "META",
-    "GPRO",
-    "MNRO",
-    "XPOF",
-    "TWI",
     "FLNC",
     "AEMD",
-    "VKTX",
-    "ONON",
     "PCG",
-    "HL",
-    "RIG",
-    "AAPL",
-    "PLUG",
     "DBRG",
     "BBD",
     "BFLY",
@@ -317,39 +305,69 @@
     "RRR",
     "RBRK",
     "FROG",
-    "ILMN"
+    "ILMN",
+    "WBD",
+    "CMCSA",
+    "BAC",
+    "DGICB",
+    "MOGU",
+    "ORC",
+    "GAB",
+    "SNX",
+    "FIGS",
+    "IVR",
+    "FUN",
+    "QUBT"
   ],
-  "tracked_day": "2026-09-23",
+  "tracked_day": "2026-09-24",
   "pending_bull": {
-    "PLBL": {
-      "start_bar": "2026-09-23T15:35:00-04:00"
-    },
-    "IR": {
-      "start_bar": "2026-09-23T15:45:00-04:00"
-    },
-    "ESTA": {
-      "start_bar": "2026-09-23T15:50:00-04:00"
-    },
-    "BRSL": {
-      "start_bar": "2026-09-23T15:50:00-04:00"
-    },
     "APPN": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "MDLN": {
-      "start_bar": "2026-09-23T15:55:00-04:00"
-    },
     "VERA": {
-      "start_bar": "2026-09-23T15:55:00-04:00"
-    },
-    "NWCL": {
       "start_bar": "2026-09-23T15:55:00-04:00"
     },
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "TSLA": {
-      "start_bar": "2026-09-23T15:55:00-04:00"
+    "TTAN": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "SECZ": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "AR": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "LU": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "HLN": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "SAIC": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "HUBS": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "SM": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "CRGY": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "OVV": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "SEI": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "CRM": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,20 +378,9 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "META": "most_actives",
-    "GPRO": "aggressive_small_caps",
-    "MNRO": "small_cap_gainers",
-    "XPOF": "small_cap_gainers",
-    "TWI": "small_cap_gainers",
     "FLNC": "aggressive_small_caps",
     "AEMD": "most_shorted_stocks",
-    "VKTX": "day_gainers",
-    "ONON": "day_gainers",
     "PCG": "most_actives",
-    "HL": "most_actives",
-    "RIG": "most_actives",
-    "AAPL": "most_actives",
-    "PLUG": "most_actives",
     "DBRG": "most_actives",
     "BBD": "most_actives",
     "BFLY": "day_gainers",
@@ -650,6 +657,17 @@
     "RRR": "day_gainers",
     "RBRK": "day_gainers",
     "FROG": "day_gainers",
-    "ILMN": "day_gainers"
+    "ILMN": "day_gainers",
+    "WBD": "most_actives",
+    "CMCSA": "most_actives",
+    "BAC": "most_actives",
+    "DGICB": "small_cap_gainers",
+    "MOGU": "small_cap_gainers",
+    "ORC": "aggressive_small_caps",
+    "GAB": "aggressive_small_caps",
+    "SNX": "aggressive_small_caps",
+    "FIGS": "aggressive_small_caps",
+    "IVR": "aggressive_small_caps",
+    "FUN": "aggressive_small_caps"
   }
 }
