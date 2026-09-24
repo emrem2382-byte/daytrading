@@ -25,8 +25,6 @@
     "LU",
     "VBIO",
     "SMCI",
-    "WEX",
-    "APPN",
     "CRK",
     "SLDPW",
     "GRAB",
@@ -317,33 +315,14 @@
     "PS",
     "TRIP",
     "NNE",
-    "SILC"
+    "SILC",
+    "SN",
+    "MRVI"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "PRDO": {
-      "start_bar": "2026-09-24T15:35:00-04:00"
-    },
-    "OPENL": {
-      "start_bar": "2026-09-24T15:30:00-04:00"
-    },
-    "OI": {
-      "start_bar": "2026-09-24T15:40:00-04:00"
-    },
-    "SOUN": {
-      "start_bar": "2026-09-24T15:40:00-04:00"
-    },
-    "FLY": {
-      "start_bar": "2026-09-24T15:40:00-04:00"
-    },
-    "ACHR": {
-      "start_bar": "2026-09-24T15:40:00-04:00"
-    },
     "KNF": {
       "start_bar": "2026-09-24T15:45:00-04:00"
-    },
-    "EDU": {
-      "start_bar": "2026-09-24T15:40:00-04:00"
     },
     "VNOM": {
       "start_bar": "2026-09-24T15:45:00-04:00"
@@ -368,18 +347,22 @@
     },
     "RCL": {
       "start_bar": "2026-09-24T15:50:00-04:00"
+    },
+    "INVA": {
+      "start_bar": "2026-09-24T15:55:00-04:00"
+    },
+    "LUXE": {
+      "start_bar": "2026-09-24T15:55:00-04:00"
     }
   },
   "ticker_sources": {
     "QUBT": "most_shorted_stocks",
-    "KOS": "aggressive_small_caps",
+    "KOS": "small_cap_gainers+aggressive_small_caps",
     "IONQ": "most_actives+day_gainers",
     "CRWV": "most_actives",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "WEX": "day_gainers",
-    "APPN": "day_gainers",
     "CRK": "day_gainers",
     "SLDPW": "small_cap_gainers",
     "GRAB": "most_actives",
@@ -670,6 +653,8 @@
     "PS": "day_gainers",
     "TRIP": "small_cap_gainers",
     "NNE": "most_shorted_stocks",
-    "SILC": "small_cap_gainers"
+    "SILC": "small_cap_gainers",
+    "SN": "day_gainers",
+    "MRVI": "small_cap_gainers"
   }
 }
