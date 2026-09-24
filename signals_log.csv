@@ -45,7 +45,7 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 44,OLN,aggressive_small_caps,2026-09-18 15:50:02,16.84,17.69,16.51,sl_hit,2026-09-21 11:04:46,16.43,-2.43
 45,AAL,most_actives,2026-09-18 15:50:06,13.02,13.68,12.76,open,,,
 46,HOOD,most_actives+day_gainers,2026-09-18 15:58:19,119.91,125.91,117.51,tp_hit,2026-09-23 09:50:05,126.37,5.39
-47,NOK,most_actives,2026-09-18 15:58:32,10.69,11.22,10.47,open,,,
+47,NOK,most_actives,2026-09-18 15:58:32,10.69,11.22,10.47,sl_hit,2026-09-24 09:35:08,10.22,-4.4
 48,BABA,day_gainers,2026-09-18 15:58:33,113.21,118.87,110.95,sl_hit,2026-09-23 12:35:04,110.86,-2.08
 49,SB,aggressive_small_caps,2026-09-18 15:58:34,9.14,9.6,8.96,sl_hit,2026-09-21 11:04:46,8.93,-2.3
 50,LUXE,small_cap_gainers,2026-09-18 15:58:35,10.05,10.55,9.85,sl_hit,2026-09-21 11:04:46,9.73,-3.18

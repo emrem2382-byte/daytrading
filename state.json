@@ -18,33 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "FLNC",
-    "AEMD",
-    "PCG",
-    "DBRG",
-    "BBD",
-    "BFLY",
-    "VICR",
-    "SGRY",
-    "BLLN",
-    "IBRX",
-    "TTAN",
-    "DKS",
-    "SRAD",
-    "TNGX",
-    "CE",
-    "SHOP",
-    "CELH",
-    "HIMS",
-    "AMR",
-    "BTU",
-    "MPWR",
-    "ERO",
-    "CXT",
-    "MDLN",
-    "AZO",
-    "TGB",
-    "LEN",
     "GME",
     "BHE",
     "GLBE",
@@ -317,26 +290,41 @@
     "FIGS",
     "IVR",
     "FUN",
-    "QUBT"
+    "QUBT",
+    "SPCX",
+    "P",
+    "FRVO",
+    "NBIS",
+    "IOVA",
+    "KNF",
+    "HTFL",
+    "CRCL",
+    "DG",
+    "KR",
+    "GDDY",
+    "CDNA",
+    "STRZ",
+    "UXIN",
+    "RVMDW",
+    "TUYA",
+    "INVA",
+    "KSS",
+    "CLBK",
+    "OI",
+    "FIP",
+    "TBLA",
+    "DSP",
+    "ANGX",
+    "SERV",
+    "GRPN",
+    "MARA"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "APPN": {
-      "start_bar": "2026-09-23T15:50:00-04:00"
-    },
-    "VERA": {
-      "start_bar": "2026-09-23T15:55:00-04:00"
-    },
     "ASPSW": {
       "start_bar": "2026-09-23T15:50:00-04:00"
     },
-    "TTAN": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
     "SECZ": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "AR": {
       "start_bar": "2026-09-24T09:30:00-04:00"
     },
     "LU": {
@@ -346,9 +334,6 @@
       "start_bar": "2026-09-24T09:30:00-04:00"
     },
     "SAIC": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
-    "HUBS": {
       "start_bar": "2026-09-24T09:30:00-04:00"
     },
     "SM": {
@@ -363,11 +348,47 @@
     "COUR": {
       "start_bar": "2026-09-24T09:30:00-04:00"
     },
-    "SEI": {
-      "start_bar": "2026-09-24T09:30:00-04:00"
-    },
     "CRM": {
       "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "FLX": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "SVCO": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "T": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "NFLX": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "VZ": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "CRWV": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "UHS": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "ENOV": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "BFAM": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "PRDO": {
+      "start_bar": "2026-09-24T09:30:00-04:00"
+    },
+    "NBIS": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
+    },
+    "CDNA": {
+      "start_bar": "2026-09-24T09:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -378,33 +399,6 @@
     "AXTI": "day_gainers",
     "SOS": "small_cap_gainers+aggressive_small_caps",
     "QUBT": "most_shorted_stocks",
-    "FLNC": "aggressive_small_caps",
-    "AEMD": "most_shorted_stocks",
-    "PCG": "most_actives",
-    "DBRG": "most_actives",
-    "BBD": "most_actives",
-    "BFLY": "day_gainers",
-    "VICR": "day_gainers",
-    "SGRY": "day_gainers",
-    "BLLN": "day_gainers",
-    "IBRX": "day_gainers",
-    "TTAN": "day_gainers",
-    "DKS": "day_gainers",
-    "SRAD": "day_gainers",
-    "TNGX": "day_gainers",
-    "CE": "day_gainers",
-    "SHOP": "day_gainers",
-    "CELH": "day_gainers",
-    "HIMS": "day_gainers",
-    "AMR": "day_gainers",
-    "BTU": "day_gainers",
-    "MPWR": "day_gainers",
-    "ERO": "day_gainers",
-    "CXT": "day_gainers",
-    "MDLN": "day_gainers",
-    "AZO": "day_gainers",
-    "TGB": "day_gainers",
-    "LEN": "day_gainers",
     "GME": "day_gainers",
     "BHE": "day_gainers",
     "GLBE": "day_gainers",
@@ -668,6 +662,33 @@
     "SNX": "aggressive_small_caps",
     "FIGS": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
-    "FUN": "aggressive_small_caps"
+    "FUN": "aggressive_small_caps",
+    "SPCX": "most_actives",
+    "P": "day_gainers",
+    "FRVO": "day_gainers",
+    "NBIS": "day_gainers",
+    "IOVA": "day_gainers",
+    "KNF": "day_gainers",
+    "HTFL": "day_gainers",
+    "CRCL": "day_gainers",
+    "DG": "day_gainers",
+    "KR": "day_gainers",
+    "GDDY": "day_gainers",
+    "CDNA": "day_gainers",
+    "STRZ": "small_cap_gainers",
+    "UXIN": "small_cap_gainers",
+    "RVMDW": "small_cap_gainers",
+    "TUYA": "aggressive_small_caps",
+    "INVA": "aggressive_small_caps",
+    "KSS": "aggressive_small_caps",
+    "CLBK": "aggressive_small_caps",
+    "OI": "aggressive_small_caps",
+    "FIP": "aggressive_small_caps",
+    "TBLA": "aggressive_small_caps",
+    "DSP": "aggressive_small_caps",
+    "ANGX": "aggressive_small_caps",
+    "SERV": "most_shorted_stocks",
+    "GRPN": "most_shorted_stocks",
+    "MARA": "most_shorted_stocks"
   }
 }
