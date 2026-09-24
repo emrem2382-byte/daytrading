@@ -24,8 +24,6 @@
     "CRWV",
     "LU",
     "VBIO",
-    "BVC",
-    "MORN",
     "PANW",
     "OKTA",
     "CNF",
@@ -317,13 +315,12 @@
     "LCUT",
     "GRABW",
     "ANF",
-    "OPENZ"
+    "OPENZ",
+    "BRVE",
+    "QBTS"
   ],
   "tracked_day": "2026-09-24",
   "pending_bull": {
-    "LQDA": {
-      "start_bar": "2026-09-24T13:30:00-04:00"
-    },
     "XRXDW": {
       "start_bar": "2026-09-24T13:35:00-04:00"
     },
@@ -339,11 +336,11 @@
     "TUYA": {
       "start_bar": "2026-09-24T13:35:00-04:00"
     },
-    "DSP": {
-      "start_bar": "2026-09-24T13:35:00-04:00"
-    },
     "TALO": {
       "start_bar": "2026-09-24T13:40:00-04:00"
+    },
+    "AMBA": {
+      "start_bar": "2026-09-24T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,8 +350,6 @@
     "CRWV": "most_actives+day_gainers",
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
-    "BVC": "day_gainers",
-    "MORN": "day_gainers",
     "PANW": "day_gainers",
     "OKTA": "day_gainers",
     "CNF": "small_cap_gainers",
@@ -561,7 +556,7 @@
     "GBLI": "small_cap_gainers",
     "SOS": "aggressive_small_caps",
     "ACDC": "aggressive_small_caps",
-    "ONDS": "most_actives+most_shorted_stocks",
+    "ONDS": "most_actives+day_gainers+most_shorted_stocks",
     "RIVN": "most_actives",
     "CHRN": "day_gainers",
     "CIFR": "most_actives",
@@ -646,6 +641,8 @@
     "LCUT": "small_cap_gainers",
     "GRABW": "small_cap_gainers",
     "ANF": "day_gainers",
-    "OPENZ": "small_cap_gainers"
+    "OPENZ": "small_cap_gainers",
+    "BRVE": "day_gainers",
+    "QBTS": "day_gainers"
   }
 }
