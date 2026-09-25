@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "FLX",
+    "UXIN",
+    "XPON",
+    "SECZ",
+    "GPMT",
+    "CSTE",
+    "TRVG",
+    "CXW",
+    "VBIO",
+    "SOS",
+    "MSC",
+    "BRVE",
+    "TBLA",
+    "NAT",
+    "FEAM"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "KOS",
     "RSKD",
