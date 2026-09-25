@@ -23,7 +23,6 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "OPENL",
     "NU",
     "NEO",
     "TEM",
@@ -317,23 +316,15 @@
     "HBAN",
     "PYPL",
     "AGL",
-    "BBAI"
+    "BBAI",
+    "IT"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "OPENZ": {
-      "start_bar": "2026-09-25T10:05:00-04:00"
-    },
-    "LENZ": {
-      "start_bar": "2026-09-25T10:10:00-04:00"
-    },
     "NU": {
       "start_bar": "2026-09-25T10:20:00-04:00"
     },
     "NMM": {
-      "start_bar": "2026-09-25T10:15:00-04:00"
-    },
-    "QNST": {
       "start_bar": "2026-09-25T10:15:00-04:00"
     },
     "RIVN": {
@@ -352,7 +343,6 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "OPENL": "small_cap_gainers",
     "NU": "most_actives",
     "NEO": "day_gainers",
     "TEM": "day_gainers",
@@ -450,7 +440,7 @@
     "RDW": "day_gainers",
     "AUROW": "small_cap_gainers",
     "NET": "day_gainers",
-    "NFE": "aggressive_small_caps",
+    "NFE": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
     "SONO": "day_gainers",
     "NYAX": "small_cap_gainers",
@@ -591,10 +581,10 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives",
+    "MSFT": "most_actives+day_gainers",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
@@ -646,6 +636,7 @@
     "HBAN": "most_actives",
     "PYPL": "day_gainers",
     "AGL": "small_cap_gainers",
-    "BBAI": "most_shorted_stocks"
+    "BBAI": "most_shorted_stocks",
+    "IT": "day_gainers"
   }
 }
