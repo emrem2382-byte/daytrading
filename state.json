@@ -324,9 +324,6 @@
     "BFH": {
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
-    "VLO": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
     "FANG": {
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
@@ -340,6 +337,9 @@
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
     "MRVI": {
+      "start_bar": "2026-09-25T11:45:00-04:00"
+    },
+    "MUSA": {
       "start_bar": "2026-09-25T11:45:00-04:00"
     }
   },
@@ -508,7 +508,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers",
+    "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -553,7 +553,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives+day_gainers",
+    "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives+day_gainers",
