@@ -32,9 +32,7 @@
     "GRABW",
     "ULCC",
     "SRFM",
-    "SJT",
     "NVAX",
-    "RVMD",
     "KOD",
     "HPE",
     "BRKRP",
@@ -317,18 +315,14 @@
     "SHOE",
     "PLAY",
     "LVWR",
-    "OPENL"
+    "OPENL",
+    "AAPL",
+    "BV"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "ESI": {
-      "start_bar": "2026-09-25T15:35:00-04:00"
-    },
     "MFG": {
       "start_bar": "2026-09-25T15:40:00-04:00"
-    },
-    "FFBC": {
-      "start_bar": "2026-09-25T15:35:00-04:00"
     },
     "EROC": {
       "start_bar": "2026-09-25T15:40:00-04:00"
@@ -356,6 +350,42 @@
     },
     "OPENL": {
       "start_bar": "2026-09-25T15:40:00-04:00"
+    },
+    "FLX": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "NNE": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "EVGO": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "NTLA": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "MU": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "PLSE": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "ACM": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "AGNC": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "TNON": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -373,9 +403,7 @@
     "GRABW": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
     "SRFM": "small_cap_gainers",
-    "SJT": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
-    "RVMD": "day_gainers",
     "KOD": "day_gainers",
     "HPE": "day_gainers",
     "BRKRP": "small_cap_gainers",
@@ -658,6 +686,8 @@
     "SHOE": "most_shorted_stocks",
     "PLAY": "most_shorted_stocks",
     "LVWR": "small_cap_gainers",
-    "OPENL": "small_cap_gainers"
+    "OPENL": "small_cap_gainers",
+    "AAPL": "most_actives",
+    "BV": "small_cap_gainers"
   }
 }
