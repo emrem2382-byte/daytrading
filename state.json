@@ -25,7 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "TARS",
     "LQDA",
     "MRNA",
     "WTI",
@@ -317,19 +316,11 @@
     "RGTI",
     "QNT",
     "FOIL",
-    "SRPT"
+    "SRPT",
+    "RYAN"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "KPTI": {
-      "start_bar": "2026-09-25T11:00:00-04:00"
-    },
-    "PRLB": {
-      "start_bar": "2026-09-25T11:10:00-04:00"
-    },
-    "NNE": {
-      "start_bar": "2026-09-25T11:15:00-04:00"
-    },
     "LUNR": {
       "start_bar": "2026-09-25T11:20:00-04:00"
     },
@@ -351,11 +342,20 @@
     "INGM": {
       "start_bar": "2026-09-25T11:20:00-04:00"
     },
-    "COUR": {
-      "start_bar": "2026-09-25T11:25:00-04:00"
-    },
     "SRPT": {
       "start_bar": "2026-09-25T11:20:00-04:00"
+    },
+    "KLXE": {
+      "start_bar": "2026-09-25T11:25:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-09-25T11:30:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-09-25T11:30:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-09-25T11:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -366,7 +366,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "TARS": "day_gainers",
     "LQDA": "day_gainers",
     "MRNA": "day_gainers",
     "WTI": "small_cap_gainers",
@@ -496,7 +495,7 @@
     "CRI": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
-    "EVGO": "small_cap_gainers+most_shorted_stocks",
+    "EVGO": "most_shorted_stocks",
     "RUN": "most_shorted_stocks",
     "AKAM": "most_actives+day_gainers",
     "PGEN": "day_gainers",
@@ -528,12 +527,12 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers+aggressive_small_caps",
+    "HEPS": "small_cap_gainers",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
-    "XRX": "small_cap_gainers+most_shorted_stocks",
+    "XRX": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
@@ -576,7 +575,7 @@
     "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives",
+    "MSFT": "most_actives+day_gainers",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
@@ -658,6 +657,7 @@
     "RGTI": "day_gainers",
     "QNT": "day_gainers",
     "FOIL": "small_cap_gainers",
-    "SRPT": "aggressive_small_caps"
+    "SRPT": "aggressive_small_caps",
+    "RYAN": "day_gainers"
   }
 }
