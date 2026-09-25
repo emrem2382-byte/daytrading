@@ -25,7 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "SOUN",
     "FLY",
     "AAL",
     "AUROW",
@@ -317,25 +316,11 @@
     "STKE",
     "CCIF",
     "DXYZ",
-    "SLDPW"
+    "SLDPW",
+    "SAH"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "BW-PA": {
-      "start_bar": "2026-09-25T15:05:00-04:00"
-    },
-    "SLS": {
-      "start_bar": "2026-09-25T15:10:00-04:00"
-    },
-    "CAPR": {
-      "start_bar": "2026-09-25T15:15:00-04:00"
-    },
-    "CTKB": {
-      "start_bar": "2026-09-25T15:15:00-04:00"
-    },
-    "MGN": {
-      "start_bar": "2026-09-25T15:10:00-04:00"
-    },
     "TRIP": {
       "start_bar": "2026-09-25T15:20:00-04:00"
     },
@@ -348,26 +333,20 @@
     "NXPI": {
       "start_bar": "2026-09-25T15:20:00-04:00"
     },
-    "AUR": {
-      "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "CVRX": {
-      "start_bar": "2026-09-25T15:15:00-04:00"
-    },
     "FLX": {
       "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "CRI": {
-      "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-25T15:25:00-04:00"
     },
     "BE": {
       "start_bar": "2026-09-25T15:25:00-04:00"
     },
     "SPCX": {
       "start_bar": "2026-09-25T15:25:00-04:00"
+    },
+    "FBIN": {
+      "start_bar": "2026-09-25T15:25:00-04:00"
+    },
+    "SUJA": {
+      "start_bar": "2026-09-25T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -378,7 +357,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "SOUN": "most_shorted_stocks",
     "FLY": "day_gainers",
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
@@ -435,7 +413,7 @@
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
-    "RUN": "small_cap_gainers+most_shorted_stocks",
+    "RUN": "most_shorted_stocks",
     "AKAM": "most_actives",
     "PGEN": "day_gainers",
     "DDOG": "day_gainers",
@@ -670,6 +648,7 @@
     "STKE": "small_cap_gainers",
     "CCIF": "small_cap_gainers",
     "DXYZ": "small_cap_gainers",
-    "SLDPW": "small_cap_gainers"
+    "SLDPW": "small_cap_gainers",
+    "SAH": "day_gainers"
   }
 }
