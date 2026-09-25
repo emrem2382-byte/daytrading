@@ -24,12 +24,6 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "A",
-    "NTRA",
-    "AZO",
-    "BRKR",
-    "RVTY",
-    "TRVG",
     "YQ",
     "IMOS",
     "ALVO",
@@ -317,7 +311,13 @@
     "BELFB",
     "MTR",
     "AMD",
-    "IVR"
+    "IVR",
+    "KLIC",
+    "MCHP",
+    "ADI",
+    "NXPI",
+    "OI",
+    "OLN"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
@@ -329,6 +329,12 @@
     },
     "RUN": {
       "start_bar": "2026-09-25T10:10:00-04:00"
+    },
+    "INSW": {
+      "start_bar": "2026-09-25T10:10:00-04:00"
+    },
+    "LENZ": {
+      "start_bar": "2026-09-25T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -338,12 +344,6 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "A": "day_gainers",
-    "NTRA": "day_gainers",
-    "AZO": "day_gainers",
-    "BRKR": "day_gainers",
-    "RVTY": "day_gainers",
-    "TRVG": "small_cap_gainers",
     "YQ": "small_cap_gainers",
     "IMOS": "day_gainers",
     "ALVO": "day_gainers",
@@ -631,6 +631,12 @@
     "BELFB": "day_gainers",
     "MTR": "small_cap_gainers",
     "AMD": "most_actives",
-    "IVR": "aggressive_small_caps"
+    "IVR": "aggressive_small_caps",
+    "KLIC": "day_gainers",
+    "MCHP": "day_gainers",
+    "ADI": "day_gainers",
+    "NXPI": "day_gainers",
+    "OI": "aggressive_small_caps",
+    "OLN": "aggressive_small_caps"
   }
 }
