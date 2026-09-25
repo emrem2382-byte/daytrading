@@ -8,13 +8,13 @@
     "CSTE",
     "TRVG",
     "CXW",
-    "VBIO",
     "SOS",
-    "MSC",
+    "BRKR",
     "BRVE",
+    "SITM",
     "TBLA",
-    "NAT",
-    "FEAM"
+    "MSC",
+    "NAT"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
