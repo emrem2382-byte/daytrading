@@ -24,8 +24,6 @@
     "TBLA",
     "GRPN",
     "FLX",
-    "WAT",
-    "WGS",
     "AVTR",
     "QGEN",
     "ALMR",
@@ -317,21 +315,29 @@
     "FDXF",
     "GFS",
     "OFIX",
-    "KPTI"
+    "KPTI",
+    "STDN",
+    "JBLU"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "AGMB": {
       "start_bar": "2026-09-25T10:35:00-04:00"
     },
-    "SOS": {
-      "start_bar": "2026-09-25T10:40:00-04:00"
-    },
     "AIFU": {
       "start_bar": "2026-09-25T10:40:00-04:00"
     },
     "XMTR": {
       "start_bar": "2026-09-25T10:40:00-04:00"
+    },
+    "NTAP": {
+      "start_bar": "2026-09-25T10:50:00-04:00"
+    },
+    "CRT": {
+      "start_bar": "2026-09-25T10:45:00-04:00"
+    },
+    "RCL": {
+      "start_bar": "2026-09-25T10:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -341,8 +347,6 @@
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "WAT": "day_gainers",
-    "WGS": "day_gainers",
     "AVTR": "day_gainers",
     "QGEN": "day_gainers",
     "ALMR": "day_gainers",
@@ -634,6 +638,8 @@
     "FDXF": "day_gainers",
     "GFS": "day_gainers",
     "OFIX": "small_cap_gainers",
-    "KPTI": "most_shorted_stocks"
+    "KPTI": "most_shorted_stocks",
+    "STDN": "day_gainers",
+    "JBLU": "aggressive_small_caps"
   }
 }
