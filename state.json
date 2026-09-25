@@ -29,8 +29,6 @@
     "AXTI",
     "FLY",
     "AAL",
-    "MOG-A",
-    "RXRX",
     "VERA",
     "KRMN",
     "RDW",
@@ -317,7 +315,9 @@
     "CDNA",
     "CEVA",
     "KMTS",
-    "EBON"
+    "EBON",
+    "LEA",
+    "SUJA"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
@@ -330,8 +330,14 @@
     "HIMS": {
       "start_bar": "2026-09-25T13:20:00-04:00"
     },
-    "LEU": {
-      "start_bar": "2026-09-25T13:15:00-04:00"
+    "RDW": {
+      "start_bar": "2026-09-25T13:25:00-04:00"
+    },
+    "DFNS": {
+      "start_bar": "2026-09-25T13:20:00-04:00"
+    },
+    "STDN": {
+      "start_bar": "2026-09-25T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,8 +352,6 @@
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
-    "MOG-A": "day_gainers",
-    "RXRX": "most_shorted_stocks",
     "VERA": "most_shorted_stocks",
     "KRMN": "day_gainers",
     "RDW": "day_gainers",
@@ -494,7 +498,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives+day_gainers",
+    "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -634,6 +638,8 @@
     "CDNA": "day_gainers",
     "CEVA": "small_cap_gainers",
     "KMTS": "small_cap_gainers",
-    "EBON": "small_cap_gainers"
+    "EBON": "small_cap_gainers",
+    "LEA": "day_gainers",
+    "SUJA": "small_cap_gainers"
   }
 }
