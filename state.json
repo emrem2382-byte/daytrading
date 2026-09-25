@@ -25,8 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "LQDA",
-    "MRNA",
     "WTI",
     "GOSS",
     "BFH",
@@ -317,16 +315,12 @@
     "QNT",
     "FOIL",
     "SRPT",
-    "RYAN"
+    "RYAN",
+    "HYMC",
+    "TIGO"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "LUNR": {
-      "start_bar": "2026-09-25T11:20:00-04:00"
-    },
-    "RXRX": {
-      "start_bar": "2026-09-25T11:20:00-04:00"
-    },
     "RKLB": {
       "start_bar": "2026-09-25T11:25:00-04:00"
     },
@@ -339,12 +333,6 @@
     "KOD": {
       "start_bar": "2026-09-25T11:20:00-04:00"
     },
-    "INGM": {
-      "start_bar": "2026-09-25T11:20:00-04:00"
-    },
-    "SRPT": {
-      "start_bar": "2026-09-25T11:20:00-04:00"
-    },
     "KLXE": {
       "start_bar": "2026-09-25T11:25:00-04:00"
     },
@@ -352,9 +340,6 @@
       "start_bar": "2026-09-25T11:30:00-04:00"
     },
     "NVDA": {
-      "start_bar": "2026-09-25T11:30:00-04:00"
-    },
-    "JBLU": {
       "start_bar": "2026-09-25T11:30:00-04:00"
     }
   },
@@ -366,8 +351,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "LQDA": "day_gainers",
-    "MRNA": "day_gainers",
     "WTI": "small_cap_gainers",
     "GOSS": "small_cap_gainers",
     "BFH": "day_gainers",
@@ -527,7 +510,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers",
+    "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -658,6 +641,8 @@
     "QNT": "day_gainers",
     "FOIL": "small_cap_gainers",
     "SRPT": "aggressive_small_caps",
-    "RYAN": "day_gainers"
+    "RYAN": "day_gainers",
+    "HYMC": "day_gainers",
+    "TIGO": "day_gainers"
   }
 }
