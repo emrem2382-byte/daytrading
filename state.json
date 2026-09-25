@@ -321,18 +321,6 @@
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "AGMB": {
-      "start_bar": "2026-09-25T10:35:00-04:00"
-    },
-    "CRT": {
-      "start_bar": "2026-09-25T10:45:00-04:00"
-    },
-    "QDEL": {
-      "start_bar": "2026-09-25T10:50:00-04:00"
-    },
-    "PGEN": {
-      "start_bar": "2026-09-25T10:55:00-04:00"
-    },
     "LPG": {
       "start_bar": "2026-09-25T10:55:00-04:00"
     },
@@ -341,12 +329,6 @@
     },
     "MYGN": {
       "start_bar": "2026-09-25T10:55:00-04:00"
-    },
-    "CTKB": {
-      "start_bar": "2026-09-25T10:55:00-04:00"
-    },
-    "WRBY": {
-      "start_bar": "2026-09-25T11:05:00-04:00"
     },
     "SES": {
       "start_bar": "2026-09-25T11:05:00-04:00"
@@ -374,6 +356,12 @@
     },
     "JBLU": {
       "start_bar": "2026-09-25T11:00:00-04:00"
+    },
+    "PBF": {
+      "start_bar": "2026-09-25T11:05:00-04:00"
+    },
+    "SOUN": {
+      "start_bar": "2026-09-25T11:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -522,7 +510,7 @@
     "CRI": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
-    "EVGO": "most_shorted_stocks",
+    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "RUN": "most_shorted_stocks",
     "AKAM": "most_actives+day_gainers",
     "PGEN": "day_gainers",
