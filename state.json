@@ -23,12 +23,6 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "YQ",
-    "IMOS",
-    "ALVO",
-    "LLY",
-    "ADPT",
-    "MRP",
     "OPENL",
     "NU",
     "NEO",
@@ -317,18 +311,18 @@
     "NXPI",
     "OI",
     "OLN",
-    "PATH"
+    "PATH",
+    "F",
+    "BAC",
+    "HBAN",
+    "PYPL",
+    "AGL",
+    "BBAI"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "OPENZ": {
       "start_bar": "2026-09-25T10:05:00-04:00"
-    },
-    "RUN": {
-      "start_bar": "2026-09-25T10:10:00-04:00"
-    },
-    "INSW": {
-      "start_bar": "2026-09-25T10:10:00-04:00"
     },
     "LENZ": {
       "start_bar": "2026-09-25T10:10:00-04:00"
@@ -341,6 +335,15 @@
     },
     "QNST": {
       "start_bar": "2026-09-25T10:15:00-04:00"
+    },
+    "RIVN": {
+      "start_bar": "2026-09-25T10:25:00-04:00"
+    },
+    "PCT": {
+      "start_bar": "2026-09-25T10:25:00-04:00"
+    },
+    "P": {
+      "start_bar": "2026-09-25T10:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -349,12 +352,6 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "YQ": "small_cap_gainers",
-    "IMOS": "day_gainers",
-    "ALVO": "day_gainers",
-    "LLY": "day_gainers",
-    "ADPT": "day_gainers",
-    "MRP": "day_gainers",
     "OPENL": "small_cap_gainers",
     "NU": "most_actives",
     "NEO": "day_gainers",
@@ -424,7 +421,7 @@
     "UNFI": "day_gainers",
     "VEON": "day_gainers",
     "SOUN": "most_shorted_stocks",
-    "PL": "day_gainers",
+    "PL": "most_actives",
     "CCC": "day_gainers",
     "RKLB": "most_actives",
     "AXTI": "day_gainers",
@@ -549,7 +546,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "aggressive_small_caps",
+    "HEPS": "small_cap_gainers",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -643,6 +640,12 @@
     "NXPI": "day_gainers",
     "OI": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
-    "PATH": "most_actives"
+    "PATH": "most_actives",
+    "F": "most_actives",
+    "BAC": "most_actives",
+    "HBAN": "most_actives",
+    "PYPL": "day_gainers",
+    "AGL": "small_cap_gainers",
+    "BBAI": "most_shorted_stocks"
   }
 }
