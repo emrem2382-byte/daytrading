@@ -24,8 +24,6 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "JBLU",
-    "KPTI",
     "A",
     "NTRA",
     "AZO",
@@ -317,15 +315,20 @@
     "SMTC",
     "VPG",
     "BELFB",
-    "MTR"
+    "MTR",
+    "AMD",
+    "IVR"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "CFND": {
-      "start_bar": "2026-09-25T09:30:00-04:00"
-    },
     "OPENL": {
       "start_bar": "2026-09-25T10:00:00-04:00"
+    },
+    "OPENZ": {
+      "start_bar": "2026-09-25T10:05:00-04:00"
+    },
+    "RUN": {
+      "start_bar": "2026-09-25T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -335,8 +338,6 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "JBLU": "aggressive_small_caps",
-    "KPTI": "most_shorted_stocks",
     "A": "day_gainers",
     "NTRA": "day_gainers",
     "AZO": "day_gainers",
@@ -420,7 +421,7 @@
     "SOUN": "most_shorted_stocks",
     "PL": "day_gainers",
     "CCC": "day_gainers",
-    "RKLB": "day_gainers",
+    "RKLB": "most_actives",
     "AXTI": "day_gainers",
     "CDNS": "day_gainers",
     "RCL": "day_gainers",
@@ -588,7 +589,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives+day_gainers",
+    "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -628,6 +629,8 @@
     "SMTC": "day_gainers",
     "VPG": "small_cap_gainers",
     "BELFB": "day_gainers",
-    "MTR": "small_cap_gainers"
+    "MTR": "small_cap_gainers",
+    "AMD": "most_actives",
+    "IVR": "aggressive_small_caps"
   }
 }
