@@ -33,11 +33,7 @@
     "ULCC",
     "SRFM",
     "NVAX",
-    "KOD",
-    "HPE",
-    "BRKRP",
     "OUST",
-    "RELY",
     "ABSI",
     "ENHA",
     "ANVS",
@@ -317,35 +313,24 @@
     "LVWR",
     "OPENL",
     "AAPL",
-    "BV"
+    "BV",
+    "ALGM",
+    "CAR",
+    "EAF",
+    "AZUL"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "MFG": {
-      "start_bar": "2026-09-25T15:40:00-04:00"
-    },
     "EROC": {
       "start_bar": "2026-09-25T15:40:00-04:00"
     },
-    "ANGX": {
-      "start_bar": "2026-09-25T15:35:00-04:00"
-    },
     "MERC": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
-    },
-    "WNC": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
-    },
-    "P": {
       "start_bar": "2026-09-25T15:45:00-04:00"
     },
     "AMD": {
       "start_bar": "2026-09-25T15:45:00-04:00"
     },
     "RRX": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
-    },
-    "PRGO": {
       "start_bar": "2026-09-25T15:45:00-04:00"
     },
     "OPENL": {
@@ -360,19 +345,7 @@
     "NVDA": {
       "start_bar": "2026-09-25T15:50:00-04:00"
     },
-    "CTKB": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
-    },
-    "NTLA": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
-    },
     "MU": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
-    },
-    "NU": {
       "start_bar": "2026-09-25T15:50:00-04:00"
     },
     "PLSE": {
@@ -384,8 +357,11 @@
     "AGNC": {
       "start_bar": "2026-09-25T15:50:00-04:00"
     },
-    "TNON": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
+    "BELFB": {
+      "start_bar": "2026-09-25T15:50:00-04:00"
+    },
+    "BBAI": {
+      "start_bar": "2026-09-25T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -401,14 +377,10 @@
     "AUROW": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
-    "ULCC": "aggressive_small_caps",
+    "ULCC": "small_cap_gainers+aggressive_small_caps",
     "SRFM": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
-    "KOD": "day_gainers",
-    "HPE": "day_gainers",
-    "BRKRP": "small_cap_gainers",
     "OUST": "day_gainers",
-    "RELY": "day_gainers",
     "ABSI": "small_cap_gainers",
     "ENHA": "small_cap_gainers",
     "ANVS": "small_cap_gainers",
@@ -438,7 +410,7 @@
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
-    "RUN": "small_cap_gainers+most_shorted_stocks",
+    "RUN": "most_shorted_stocks",
     "AKAM": "most_actives",
     "PGEN": "day_gainers",
     "DDOG": "day_gainers",
@@ -465,11 +437,11 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "small_cap_gainers+aggressive_small_caps",
+    "FLNC": "aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "aggressive_small_caps",
+    "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
@@ -688,6 +660,10 @@
     "LVWR": "small_cap_gainers",
     "OPENL": "small_cap_gainers",
     "AAPL": "most_actives",
-    "BV": "small_cap_gainers"
+    "BV": "small_cap_gainers",
+    "ALGM": "day_gainers",
+    "CAR": "day_gainers",
+    "EAF": "small_cap_gainers",
+    "AZUL": "small_cap_gainers"
   }
 }
