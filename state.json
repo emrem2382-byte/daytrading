@@ -24,9 +24,6 @@
     "TBLA",
     "GRPN",
     "FLX",
-    "ALMR",
-    "ICLR",
-    "NTAP",
     "MTD",
     "GBLI",
     "SOS",
@@ -317,18 +314,15 @@
     "STDN",
     "JBLU",
     "OLED",
-    "KURA"
+    "KURA",
+    "NU",
+    "PLSE",
+    "BHC"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "AGMB": {
       "start_bar": "2026-09-25T10:35:00-04:00"
-    },
-    "XMTR": {
-      "start_bar": "2026-09-25T10:40:00-04:00"
-    },
-    "NTAP": {
-      "start_bar": "2026-09-25T10:50:00-04:00"
     },
     "CRT": {
       "start_bar": "2026-09-25T10:45:00-04:00"
@@ -341,6 +335,18 @@
     },
     "PGEN": {
       "start_bar": "2026-09-25T10:55:00-04:00"
+    },
+    "LPG": {
+      "start_bar": "2026-09-25T10:55:00-04:00"
+    },
+    "HBB": {
+      "start_bar": "2026-09-25T10:55:00-04:00"
+    },
+    "MYGN": {
+      "start_bar": "2026-09-25T10:55:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-25T10:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -350,9 +356,6 @@
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "ALMR": "day_gainers",
-    "ICLR": "day_gainers",
-    "NTAP": "day_gainers",
     "MTD": "day_gainers",
     "GBLI": "small_cap_gainers",
     "SOS": "aggressive_small_caps",
@@ -572,7 +575,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives+day_gainers",
@@ -643,6 +646,9 @@
     "STDN": "day_gainers",
     "JBLU": "aggressive_small_caps",
     "OLED": "day_gainers",
-    "KURA": "aggressive_small_caps"
+    "KURA": "aggressive_small_caps",
+    "NU": "most_actives",
+    "PLSE": "day_gainers",
+    "BHC": "day_gainers"
   }
 }
