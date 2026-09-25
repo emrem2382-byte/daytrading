@@ -29,8 +29,6 @@
     "SOUN",
     "RKLB",
     "AXTI",
-    "AFRM",
-    "PRLB",
     "FLY",
     "SG",
     "ZH",
@@ -317,18 +315,14 @@
     "ABNB",
     "NCLH",
     "FBIN",
-    "MOBI"
+    "MOBI",
+    "ALAB",
+    "CSL"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "BELFB": {
-      "start_bar": "2026-09-25T12:10:00-04:00"
-    },
     "LX": {
       "start_bar": "2026-09-25T12:20:00-04:00"
-    },
-    "BW-PA": {
-      "start_bar": "2026-09-25T12:15:00-04:00"
     },
     "SONO": {
       "start_bar": "2026-09-25T12:30:00-04:00"
@@ -338,6 +332,12 @@
     },
     "HPE": {
       "start_bar": "2026-09-25T12:30:00-04:00"
+    },
+    "SRFM": {
+      "start_bar": "2026-09-25T12:30:00-04:00"
+    },
+    "AI": {
+      "start_bar": "2026-09-25T12:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,8 +352,6 @@
     "SOUN": "most_shorted_stocks",
     "RKLB": "most_actives",
     "AXTI": "day_gainers",
-    "AFRM": "day_gainers",
-    "PRLB": "day_gainers",
     "FLY": "day_gainers",
     "SG": "small_cap_gainers",
     "ZH": "small_cap_gainers",
@@ -640,6 +638,8 @@
     "ABNB": "day_gainers",
     "NCLH": "day_gainers",
     "FBIN": "day_gainers",
-    "MOBI": "small_cap_gainers"
+    "MOBI": "small_cap_gainers",
+    "ALAB": "day_gainers",
+    "CSL": "day_gainers"
   }
 }
