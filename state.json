@@ -28,14 +28,6 @@
     "GRPN",
     "JBLU",
     "KPTI",
-    "MANU",
-    "NXTC",
-    "AMTD",
-    "AMD",
-    "BMNR",
-    "PRGO",
-    "BLLN",
-    "TXG",
     "A",
     "NTRA",
     "AZO",
@@ -317,39 +309,23 @@
     "AIFU",
     "TMC",
     "KSS",
-    "RC"
+    "RC",
+    "MU",
+    "IONQ",
+    "AEHR",
+    "ACLS",
+    "VICR",
+    "ONTO",
+    "SMTC",
+    "VPG"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "CFND": {
       "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "HEPS": {
-      "start_bar": "2026-09-25T09:35:00-04:00"
-    },
-    "RKLB": {
-      "start_bar": "2026-09-25T09:40:00-04:00"
-    },
-    "BKSY": {
-      "start_bar": "2026-09-25T09:45:00-04:00"
-    },
-    "XRX": {
-      "start_bar": "2026-09-25T09:45:00-04:00"
-    },
-    "P": {
-      "start_bar": "2026-09-25T09:45:00-04:00"
-    },
-    "XRXDW": {
-      "start_bar": "2026-09-25T09:40:00-04:00"
-    },
     "ASTS": {
       "start_bar": "2026-09-25T09:50:00-04:00"
-    },
-    "ANF": {
-      "start_bar": "2026-09-25T09:45:00-04:00"
-    },
-    "NCNO": {
-      "start_bar": "2026-09-25T09:45:00-04:00"
     },
     "NOK": {
       "start_bar": "2026-09-25T09:50:00-04:00"
@@ -357,11 +333,11 @@
     "PLUG": {
       "start_bar": "2026-09-25T09:50:00-04:00"
     },
-    "ALMR": {
-      "start_bar": "2026-09-25T09:55:00-04:00"
+    "OPENL": {
+      "start_bar": "2026-09-25T10:00:00-04:00"
     },
-    "RCL": {
-      "start_bar": "2026-09-25T09:55:00-04:00"
+    "MOG-A": {
+      "start_bar": "2026-09-25T10:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -375,14 +351,6 @@
     "GRPN": "most_shorted_stocks",
     "JBLU": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
-    "MANU": "small_cap_gainers",
-    "NXTC": "small_cap_gainers",
-    "AMTD": "small_cap_gainers",
-    "AMD": "most_actives",
-    "BMNR": "most_actives",
-    "PRGO": "day_gainers",
-    "BLLN": "day_gainers",
-    "TXG": "day_gainers",
     "A": "day_gainers",
     "NTRA": "day_gainers",
     "AZO": "day_gainers",
@@ -664,6 +632,14 @@
     "AIFU": "small_cap_gainers",
     "TMC": "aggressive_small_caps",
     "KSS": "aggressive_small_caps",
-    "RC": "aggressive_small_caps"
+    "RC": "aggressive_small_caps",
+    "MU": "most_actives",
+    "IONQ": "most_actives",
+    "AEHR": "day_gainers",
+    "ACLS": "day_gainers",
+    "VICR": "day_gainers",
+    "ONTO": "day_gainers",
+    "SMTC": "day_gainers",
+    "VPG": "small_cap_gainers"
   }
 }
