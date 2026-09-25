@@ -16,7 +16,7 @@
     "MSC",
     "NAT"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
     "KOS",
     "RSKD",
@@ -25,25 +25,12 @@
     "LU",
     "VBIO",
     "SMCI",
-    "CRK",
     "SLDPW",
     "GRAB",
-    "MNDY",
-    "AAON",
     "CBRL",
-    "LBRT",
-    "RRC",
-    "JACK",
-    "ARW",
-    "FRSH",
-    "BFAM",
-    "TRI",
     "DAIC",
     "BBBYW",
     "PFE",
-    "KMX",
-    "GPOR",
-    "OCTV",
     "ASAN",
     "KD",
     "ZBRA",
@@ -317,42 +304,64 @@
     "NNE",
     "SILC",
     "SN",
-    "MRVI"
+    "MRVI",
+    "NVDA",
+    "DNN",
+    "MSC",
+    "ARL",
+    "CNF",
+    "CTKB",
+    "QNST",
+    "CMPS",
+    "CRI",
+    "CLM",
+    "ENOV",
+    "EVGO",
+    "RUN"
   ],
-  "tracked_day": "2026-09-24",
+  "tracked_day": "2026-09-25",
   "pending_bull": {
-    "KNF": {
-      "start_bar": "2026-09-24T15:45:00-04:00"
+    "GRAB": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "VNOM": {
-      "start_bar": "2026-09-24T15:45:00-04:00"
+    "FSLY": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "SG": {
-      "start_bar": "2026-09-24T15:45:00-04:00"
+    "SNX": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "IONQ": {
-      "start_bar": "2026-09-24T15:50:00-04:00"
+    "IVR": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "AMBA": {
-      "start_bar": "2026-09-24T15:50:00-04:00"
+    "SPCX": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "JBLU": {
-      "start_bar": "2026-09-24T15:50:00-04:00"
+    "FRVO": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "DWSN": {
-      "start_bar": "2026-09-24T15:45:00-04:00"
+    "STRZ": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "WGS": {
-      "start_bar": "2026-09-24T15:50:00-04:00"
-    },
-    "RCL": {
-      "start_bar": "2026-09-24T15:50:00-04:00"
-    },
-    "INVA": {
+    "ULH": {
       "start_bar": "2026-09-24T15:55:00-04:00"
     },
-    "LUXE": {
-      "start_bar": "2026-09-24T15:55:00-04:00"
+    "ONDS": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
+    },
+    "VEON": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
+    },
+    "RDW": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
+    },
+    "DNN": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
+    },
+    "CRI": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
+    },
+    "EVGO": {
+      "start_bar": "2026-09-25T09:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,25 +372,12 @@
     "LU": "small_cap_gainers",
     "VBIO": "most_shorted_stocks",
     "SMCI": "most_actives",
-    "CRK": "day_gainers",
     "SLDPW": "small_cap_gainers",
     "GRAB": "most_actives",
-    "MNDY": "day_gainers",
-    "AAON": "day_gainers",
     "CBRL": "small_cap_gainers",
-    "LBRT": "day_gainers",
-    "RRC": "day_gainers",
-    "JACK": "most_shorted_stocks",
-    "ARW": "day_gainers",
-    "FRSH": "day_gainers",
-    "BFAM": "day_gainers",
-    "TRI": "day_gainers",
     "DAIC": "most_shorted_stocks",
     "BBBYW": "small_cap_gainers",
     "PFE": "most_actives",
-    "KMX": "day_gainers",
-    "GPOR": "day_gainers",
-    "OCTV": "day_gainers",
     "ASAN": "day_gainers",
     "KD": "day_gainers",
     "ZBRA": "day_gainers",
@@ -568,7 +564,7 @@
     "WLTH": "small_cap_gainers",
     "LOCL": "small_cap_gainers",
     "CRT": "small_cap_gainers",
-    "OPTU": "small_cap_gainers",
+    "OPTU": "aggressive_small_caps",
     "SAIL": "day_gainers",
     "SES": "small_cap_gainers",
     "UNFI": "day_gainers",
@@ -655,6 +651,19 @@
     "NNE": "most_shorted_stocks",
     "SILC": "small_cap_gainers",
     "SN": "day_gainers",
-    "MRVI": "small_cap_gainers"
+    "MRVI": "small_cap_gainers",
+    "NVDA": "most_actives",
+    "DNN": "most_actives",
+    "MSC": "small_cap_gainers",
+    "ARL": "small_cap_gainers",
+    "CNF": "small_cap_gainers",
+    "CTKB": "aggressive_small_caps",
+    "QNST": "aggressive_small_caps",
+    "CMPS": "aggressive_small_caps",
+    "CRI": "aggressive_small_caps",
+    "CLM": "aggressive_small_caps",
+    "ENOV": "aggressive_small_caps",
+    "EVGO": "most_shorted_stocks",
+    "RUN": "most_shorted_stocks"
   }
 }
