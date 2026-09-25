@@ -31,7 +31,6 @@
     "AUROW",
     "AEHL",
     "NAT",
-    "LCUT",
     "GRABW",
     "ANF",
     "OPENZ",
@@ -317,30 +316,19 @@
     "ROAD",
     "MBLY",
     "NFE",
-    "KLXE"
+    "KLXE",
+    "EVEX"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "WTTR": {
-      "start_bar": "2026-09-25T14:50:00-04:00"
-    },
-    "OCGN": {
-      "start_bar": "2026-09-25T14:50:00-04:00"
-    },
     "ONTO": {
       "start_bar": "2026-09-25T14:50:00-04:00"
     },
     "FIGS": {
       "start_bar": "2026-09-25T14:55:00-04:00"
     },
-    "BKNG": {
-      "start_bar": "2026-09-25T14:55:00-04:00"
-    },
     "GFS": {
       "start_bar": "2026-09-25T14:55:00-04:00"
-    },
-    "STDN": {
-      "start_bar": "2026-09-25T14:50:00-04:00"
     },
     "NVAX": {
       "start_bar": "2026-09-25T15:00:00-04:00"
@@ -372,16 +360,10 @@
     "ANVS": {
       "start_bar": "2026-09-25T15:00:00-04:00"
     },
-    "CTKB": {
-      "start_bar": "2026-09-25T15:05:00-04:00"
-    },
     "TSEM": {
       "start_bar": "2026-09-25T15:00:00-04:00"
     },
     "BAND": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "XRXDW": {
       "start_bar": "2026-09-25T15:00:00-04:00"
     },
     "PENG": {
@@ -392,6 +374,18 @@
     },
     "QUBT": {
       "start_bar": "2026-09-25T15:00:00-04:00"
+    },
+    "RVMD": {
+      "start_bar": "2026-09-25T15:05:00-04:00"
+    },
+    "SITM": {
+      "start_bar": "2026-09-25T15:05:00-04:00"
+    },
+    "BW-PA": {
+      "start_bar": "2026-09-25T15:05:00-04:00"
+    },
+    "VPG": {
+      "start_bar": "2026-09-25T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -408,7 +402,6 @@
     "AUROW": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
-    "LCUT": "small_cap_gainers",
     "GRABW": "small_cap_gainers",
     "ANF": "day_gainers",
     "OPENZ": "small_cap_gainers",
@@ -694,6 +687,7 @@
     "ROAD": "day_gainers",
     "MBLY": "day_gainers",
     "NFE": "small_cap_gainers",
-    "KLXE": "small_cap_gainers"
+    "KLXE": "small_cap_gainers",
+    "EVEX": "small_cap_gainers"
   }
 }
