@@ -26,7 +26,6 @@
     "ONDS",
     "PPLI",
     "SOUN",
-    "AXTI",
     "FLY",
     "AAL",
     "AUROW",
@@ -317,18 +316,13 @@
     "LANV",
     "EQS",
     "ALTG",
-    "SIM"
+    "SIM",
+    "SMCIP"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "AGO": {
-      "start_bar": "2026-09-25T13:35:00-04:00"
-    },
     "LAUR": {
       "start_bar": "2026-09-25T13:40:00-04:00"
-    },
-    "AMBA": {
-      "start_bar": "2026-09-25T13:45:00-04:00"
     },
     "ADI": {
       "start_bar": "2026-09-25T13:45:00-04:00"
@@ -336,10 +330,16 @@
     "CYD": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
-    "VPG": {
+    "SPNT": {
+      "start_bar": "2026-09-25T13:55:00-04:00"
+    },
+    "NKTR": {
+      "start_bar": "2026-09-25T13:55:00-04:00"
+    },
+    "MGN": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
-    "AMD": {
+    "INGM": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     }
   },
@@ -352,7 +352,6 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
     "SOUN": "most_shorted_stocks",
-    "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
@@ -454,7 +453,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -497,7 +496,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -643,6 +642,7 @@
     "LANV": "small_cap_gainers",
     "EQS": "small_cap_gainers",
     "ALTG": "small_cap_gainers",
-    "SIM": "day_gainers"
+    "SIM": "day_gainers",
+    "SMCIP": "small_cap_gainers"
   }
 }
