@@ -321,15 +321,6 @@
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "BFH": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
-    "FANG": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
-    "GRAL": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
     "GPMT": {
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
@@ -341,6 +332,21 @@
     },
     "MUSA": {
       "start_bar": "2026-09-25T11:45:00-04:00"
+    },
+    "VSAT": {
+      "start_bar": "2026-09-25T11:50:00-04:00"
+    },
+    "CRI": {
+      "start_bar": "2026-09-25T11:50:00-04:00"
+    },
+    "AAON": {
+      "start_bar": "2026-09-25T11:55:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-09-25T11:55:00-04:00"
+    },
+    "BAC": {
+      "start_bar": "2026-09-25T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -556,7 +562,7 @@
     "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives+day_gainers",
+    "MSFT": "most_actives",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
