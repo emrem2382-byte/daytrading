@@ -23,10 +23,6 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "NEO",
-    "TEM",
-    "RL",
-    "NMM",
     "INSW",
     "ASST",
     "PACB",
@@ -317,18 +313,16 @@
     "AGL",
     "BBAI",
     "IT",
-    "FIGS"
+    "FIGS",
+    "OPEN",
+    "PRM",
+    "BETA",
+    "AGMB"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "RIVN": {
-      "start_bar": "2026-09-25T10:25:00-04:00"
-    },
-    "PCT": {
-      "start_bar": "2026-09-25T10:25:00-04:00"
-    },
-    "P": {
-      "start_bar": "2026-09-25T10:25:00-04:00"
+    "AGMB": {
+      "start_bar": "2026-09-25T10:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -337,10 +331,6 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "NEO": "day_gainers",
-    "TEM": "day_gainers",
-    "RL": "day_gainers",
-    "NMM": "day_gainers",
     "INSW": "day_gainers",
     "ASST": "day_gainers",
     "PACB": "small_cap_gainers",
@@ -631,6 +621,10 @@
     "AGL": "small_cap_gainers",
     "BBAI": "most_shorted_stocks",
     "IT": "day_gainers",
-    "FIGS": "day_gainers"
+    "FIGS": "day_gainers",
+    "OPEN": "most_actives",
+    "PRM": "day_gainers",
+    "BETA": "day_gainers",
+    "AGMB": "small_cap_gainers"
   }
 }
