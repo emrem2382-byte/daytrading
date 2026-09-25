@@ -32,8 +32,6 @@
     "AEHL",
     "NAT",
     "GRABW",
-    "ACHR",
-    "LAUR",
     "SPNT",
     "LX",
     "WS",
@@ -317,39 +315,20 @@
     "PCG",
     "PWP",
     "STKE",
-    "CCIF"
+    "CCIF",
+    "DXYZ",
+    "SLDPW"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "SBSW": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
     "ANVS": {
       "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "TSEM": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "PENG": {
-      "start_bar": "2026-09-25T15:05:00-04:00"
-    },
-    "IONQ": {
-      "start_bar": "2026-09-25T15:05:00-04:00"
-    },
-    "RVMD": {
-      "start_bar": "2026-09-25T15:05:00-04:00"
-    },
-    "SITM": {
-      "start_bar": "2026-09-25T15:05:00-04:00"
     },
     "BW-PA": {
       "start_bar": "2026-09-25T15:05:00-04:00"
     },
     "VPG": {
       "start_bar": "2026-09-25T15:05:00-04:00"
-    },
-    "LAUR": {
-      "start_bar": "2026-09-25T15:15:00-04:00"
     },
     "SLS": {
       "start_bar": "2026-09-25T15:10:00-04:00"
@@ -363,9 +342,6 @@
     "CTKB": {
       "start_bar": "2026-09-25T15:15:00-04:00"
     },
-    "CRI": {
-      "start_bar": "2026-09-25T15:15:00-04:00"
-    },
     "MGN": {
       "start_bar": "2026-09-25T15:10:00-04:00"
     },
@@ -374,6 +350,27 @@
     },
     "BLND": {
       "start_bar": "2026-09-25T15:10:00-04:00"
+    },
+    "TRIP": {
+      "start_bar": "2026-09-25T15:20:00-04:00"
+    },
+    "GENI": {
+      "start_bar": "2026-09-25T15:20:00-04:00"
+    },
+    "LEU": {
+      "start_bar": "2026-09-25T15:15:00-04:00"
+    },
+    "LSCC": {
+      "start_bar": "2026-09-25T15:20:00-04:00"
+    },
+    "NXPI": {
+      "start_bar": "2026-09-25T15:20:00-04:00"
+    },
+    "AUR": {
+      "start_bar": "2026-09-25T15:20:00-04:00"
+    },
+    "CVRX": {
+      "start_bar": "2026-09-25T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -391,8 +388,6 @@
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
-    "ACHR": "most_actives",
-    "LAUR": "day_gainers",
     "SPNT": "day_gainers",
     "LX": "small_cap_gainers",
     "WS": "small_cap_gainers",
@@ -444,7 +439,7 @@
     "ENOV": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
     "RUN": "small_cap_gainers+most_shorted_stocks",
-    "AKAM": "most_actives+day_gainers",
+    "AKAM": "most_actives",
     "PGEN": "day_gainers",
     "DDOG": "day_gainers",
     "ALM": "day_gainers",
@@ -676,6 +671,8 @@
     "PCG": "most_actives",
     "PWP": "small_cap_gainers",
     "STKE": "small_cap_gainers",
-    "CCIF": "small_cap_gainers"
+    "CCIF": "small_cap_gainers",
+    "DXYZ": "small_cap_gainers",
+    "SLDPW": "small_cap_gainers"
   }
 }
