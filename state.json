@@ -327,9 +327,6 @@
     "ENHA": {
       "start_bar": "2026-09-25T14:30:00-04:00"
     },
-    "QDEL": {
-      "start_bar": "2026-09-25T14:30:00-04:00"
-    },
     "PGEN": {
       "start_bar": "2026-09-25T14:30:00-04:00"
     },
@@ -353,6 +350,15 @@
     },
     "PRM": {
       "start_bar": "2026-09-25T14:35:00-04:00"
+    },
+    "ENOV": {
+      "start_bar": "2026-09-25T14:45:00-04:00"
+    },
+    "TIGO": {
+      "start_bar": "2026-09-25T14:45:00-04:00"
+    },
+    "DDD": {
+      "start_bar": "2026-09-25T14:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -455,7 +461,7 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
