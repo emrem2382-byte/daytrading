@@ -29,7 +29,6 @@
     "AXTI",
     "FLY",
     "AAL",
-    "LUXE",
     "BALY",
     "ASTS",
     "LUNR",
@@ -317,14 +316,12 @@
     "PRGO",
     "SES",
     "CVRX",
-    "FTK"
+    "FTK",
+    "CRT"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "WTTR": {
-      "start_bar": "2026-09-25T12:55:00-04:00"
-    },
-    "SANM": {
       "start_bar": "2026-09-25T12:55:00-04:00"
     },
     "PBYI": {
@@ -332,9 +329,6 @@
     },
     "MU": {
       "start_bar": "2026-09-25T13:05:00-04:00"
-    },
-    "STDN": {
-      "start_bar": "2026-09-25T13:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -349,7 +343,6 @@
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
-    "LUXE": "small_cap_gainers",
     "BALY": "small_cap_gainers",
     "ASTS": "day_gainers",
     "LUNR": "day_gainers",
@@ -637,6 +630,7 @@
     "PRGO": "day_gainers",
     "SES": "small_cap_gainers",
     "CVRX": "small_cap_gainers",
-    "FTK": "small_cap_gainers"
+    "FTK": "small_cap_gainers",
+    "CRT": "small_cap_gainers"
   }
 }
