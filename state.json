@@ -25,9 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "PBF",
-    "LIFE",
-    "INTC",
     "GRAL",
     "WLTH",
     "LOCL",
@@ -317,23 +314,14 @@
     "KNDI",
     "UAMY",
     "SERV",
-    "HTZ"
+    "HTZ",
+    "PLNT",
+    "SPTX",
+    "LESL"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "OI": {
-      "start_bar": "2026-09-25T11:55:00-04:00"
-    },
     "WS": {
-      "start_bar": "2026-09-25T11:55:00-04:00"
-    },
-    "CCCC": {
-      "start_bar": "2026-09-25T12:00:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-09-25T12:00:00-04:00"
-    },
-    "ONTO": {
       "start_bar": "2026-09-25T11:55:00-04:00"
     },
     "UNFI": {
@@ -348,20 +336,11 @@
     "ERAS": {
       "start_bar": "2026-09-25T12:05:00-04:00"
     },
-    "SILC": {
-      "start_bar": "2026-09-25T12:00:00-04:00"
-    },
     "JBL": {
       "start_bar": "2026-09-25T12:00:00-04:00"
     },
     "SNOW": {
       "start_bar": "2026-09-25T12:05:00-04:00"
-    },
-    "UXIN": {
-      "start_bar": "2026-09-25T12:00:00-04:00"
-    },
-    "ABSI": {
-      "start_bar": "2026-09-25T12:10:00-04:00"
     },
     "NTLA": {
       "start_bar": "2026-09-25T12:10:00-04:00"
@@ -369,7 +348,13 @@
     "NOK": {
       "start_bar": "2026-09-25T12:10:00-04:00"
     },
-    "SANM": {
+    "RGEN": {
+      "start_bar": "2026-09-25T12:10:00-04:00"
+    },
+    "DFNS": {
+      "start_bar": "2026-09-25T12:10:00-04:00"
+    },
+    "BELFB": {
       "start_bar": "2026-09-25T12:10:00-04:00"
     }
   },
@@ -381,9 +366,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "PBF": "day_gainers",
-    "LIFE": "day_gainers",
-    "INTC": "most_actives",
     "GRAL": "day_gainers",
     "WLTH": "small_cap_gainers",
     "LOCL": "small_cap_gainers",
@@ -488,7 +470,7 @@
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
-    "RUN": "small_cap_gainers+most_shorted_stocks",
+    "RUN": "most_shorted_stocks",
     "AKAM": "most_actives+day_gainers",
     "PGEN": "day_gainers",
     "DDOG": "day_gainers",
@@ -673,6 +655,9 @@
     "KNDI": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
-    "HTZ": "most_shorted_stocks"
+    "HTZ": "most_shorted_stocks",
+    "PLNT": "day_gainers",
+    "SPTX": "small_cap_gainers",
+    "LESL": "aggressive_small_caps"
   }
 }
