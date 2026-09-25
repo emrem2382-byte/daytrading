@@ -30,9 +30,7 @@
     "AAL",
     "AUROW",
     "AEHL",
-    "NYAX",
     "NAT",
-    "MYGN",
     "VSAT",
     "LCUT",
     "GRABW",
@@ -317,7 +315,9 @@
     "SIM",
     "SMCIP",
     "AXTI",
-    "ROAD"
+    "ROAD",
+    "MBLY",
+    "NFE"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
@@ -326,9 +326,6 @@
     },
     "HIMS": {
       "start_bar": "2026-09-25T14:10:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-09-25T14:05:00-04:00"
     },
     "HYMC": {
       "start_bar": "2026-09-25T14:10:00-04:00"
@@ -342,14 +339,17 @@
     "VKTX": {
       "start_bar": "2026-09-25T14:15:00-04:00"
     },
-    "SMFG": {
-      "start_bar": "2026-09-25T14:10:00-04:00"
-    },
-    "MXL": {
-      "start_bar": "2026-09-25T14:15:00-04:00"
-    },
     "SERV": {
       "start_bar": "2026-09-25T14:10:00-04:00"
+    },
+    "TBLA": {
+      "start_bar": "2026-09-25T14:15:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-25T14:20:00-04:00"
+    },
+    "CMCO": {
+      "start_bar": "2026-09-25T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -365,9 +365,7 @@
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
-    "NYAX": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "MYGN": "small_cap_gainers",
     "VSAT": "day_gainers",
     "LCUT": "small_cap_gainers",
     "GRABW": "small_cap_gainers",
@@ -506,7 +504,7 @@
     "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives",
+    "MSFT": "most_actives+day_gainers",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
@@ -652,6 +650,8 @@
     "SIM": "day_gainers",
     "SMCIP": "small_cap_gainers",
     "AXTI": "day_gainers",
-    "ROAD": "day_gainers"
+    "ROAD": "day_gainers",
+    "MBLY": "day_gainers",
+    "NFE": "small_cap_gainers"
   }
 }

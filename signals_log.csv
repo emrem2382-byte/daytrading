@@ -58,3 +58,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 57,GDDY,day_gainers,2026-09-24 10:25:31,102.28,104.33,101.26,tp_hit,2026-09-24 10:45:04,107.72,5.32
 58,BRKR,day_gainers,2026-09-24 12:35:37,61.6,62.83,60.98,tp_hit,2026-09-24 14:50:04,62.85,2.04
 59,AEHL,most_shorted_stocks,2026-09-24 12:55:34,8.8,8.98,8.71,sl_hit,2026-09-24 13:05:04,8.47,-3.81
+60,SMFG,day_gainers,2026-09-25 14:20:28,26.61,27.14,26.34,open,,,
