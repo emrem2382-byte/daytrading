@@ -23,13 +23,7 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "INSW",
-    "ASST",
-    "PACB",
     "FLX",
-    "ULH",
-    "NVO",
-    "GOOGL",
     "WAT",
     "WGS",
     "AVTR",
@@ -317,12 +311,27 @@
     "OPEN",
     "PRM",
     "BETA",
-    "AGMB"
+    "AGMB",
+    "XMTR",
+    "BKNG",
+    "FDXF",
+    "GFS",
+    "OFIX",
+    "KPTI"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "AGMB": {
       "start_bar": "2026-09-25T10:35:00-04:00"
+    },
+    "SOS": {
+      "start_bar": "2026-09-25T10:40:00-04:00"
+    },
+    "AIFU": {
+      "start_bar": "2026-09-25T10:40:00-04:00"
+    },
+    "XMTR": {
+      "start_bar": "2026-09-25T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -331,13 +340,7 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "INSW": "day_gainers",
-    "ASST": "day_gainers",
-    "PACB": "small_cap_gainers",
     "FLX": "small_cap_gainers",
-    "ULH": "small_cap_gainers",
-    "NVO": "most_actives",
-    "GOOGL": "most_actives",
     "WAT": "day_gainers",
     "WGS": "day_gainers",
     "AVTR": "day_gainers",
@@ -515,7 +518,7 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "small_cap_gainers+aggressive_small_caps",
+    "FLNC": "aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
@@ -617,7 +620,7 @@
     "F": "most_actives",
     "BAC": "most_actives",
     "HBAN": "most_actives",
-    "PYPL": "day_gainers",
+    "PYPL": "most_actives+day_gainers",
     "AGL": "small_cap_gainers",
     "BBAI": "most_shorted_stocks",
     "IT": "day_gainers",
@@ -625,6 +628,12 @@
     "OPEN": "most_actives",
     "PRM": "day_gainers",
     "BETA": "day_gainers",
-    "AGMB": "small_cap_gainers"
+    "AGMB": "small_cap_gainers",
+    "XMTR": "day_gainers",
+    "BKNG": "day_gainers",
+    "FDXF": "day_gainers",
+    "GFS": "day_gainers",
+    "OFIX": "small_cap_gainers",
+    "KPTI": "most_shorted_stocks"
   }
 }
