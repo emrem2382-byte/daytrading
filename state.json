@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "FLX",
-    "LCUT",
-    "XPON",
-    "SECZ",
-    "GPMT",
-    "CSTE",
-    "TRVG",
-    "UXIN",
-    "SILC",
-    "CXW",
-    "SOS",
-    "BRVE",
-    "TBLA",
-    "MSC",
-    "NAT"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "GAB",
     "CLBK",
