@@ -324,12 +324,6 @@
     "MGN": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
-    "CVS": {
-      "start_bar": "2026-09-25T14:25:00-04:00"
-    },
-    "BARK": {
-      "start_bar": "2026-09-25T14:25:00-04:00"
-    },
     "ENHA": {
       "start_bar": "2026-09-25T14:30:00-04:00"
     },
@@ -345,10 +339,19 @@
     "PTGX": {
       "start_bar": "2026-09-25T14:35:00-04:00"
     },
-    "OLN": {
+    "ABX": {
       "start_bar": "2026-09-25T14:35:00-04:00"
     },
-    "NU": {
+    "DFNS": {
+      "start_bar": "2026-09-25T14:35:00-04:00"
+    },
+    "SANM": {
+      "start_bar": "2026-09-25T14:40:00-04:00"
+    },
+    "HNGE": {
+      "start_bar": "2026-09-25T14:35:00-04:00"
+    },
+    "PRM": {
       "start_bar": "2026-09-25T14:35:00-04:00"
     }
   },
@@ -452,7 +455,7 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "small_cap_gainers+aggressive_small_caps",
+    "FLNC": "aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
@@ -501,7 +504,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives+day_gainers",
+    "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
