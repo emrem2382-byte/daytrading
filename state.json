@@ -31,7 +31,6 @@
     "AUROW",
     "AEHL",
     "NAT",
-    "VSAT",
     "LCUT",
     "GRABW",
     "ANF",
@@ -317,27 +316,16 @@
     "AXTI",
     "ROAD",
     "MBLY",
-    "NFE"
+    "NFE",
+    "KLXE"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "MGN": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
-    "ABX": {
-      "start_bar": "2026-09-25T14:35:00-04:00"
-    },
-    "DFNS": {
-      "start_bar": "2026-09-25T14:35:00-04:00"
-    },
     "SANM": {
       "start_bar": "2026-09-25T14:40:00-04:00"
-    },
-    "HNGE": {
-      "start_bar": "2026-09-25T14:35:00-04:00"
-    },
-    "PRM": {
-      "start_bar": "2026-09-25T14:35:00-04:00"
     },
     "TIGO": {
       "start_bar": "2026-09-25T14:45:00-04:00"
@@ -354,12 +342,6 @@
     "METC": {
       "start_bar": "2026-09-25T14:45:00-04:00"
     },
-    "MXL": {
-      "start_bar": "2026-09-25T14:50:00-04:00"
-    },
-    "OLN": {
-      "start_bar": "2026-09-25T14:50:00-04:00"
-    },
     "FOSL": {
       "start_bar": "2026-09-25T14:45:00-04:00"
     },
@@ -367,6 +349,39 @@
       "start_bar": "2026-09-25T14:45:00-04:00"
     },
     "ABNB": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "BW-PA": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "PDFS": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "NOK": {
+      "start_bar": "2026-09-25T14:55:00-04:00"
+    },
+    "ONTO": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-09-25T14:50:00-04:00"
+    },
+    "FIGS": {
+      "start_bar": "2026-09-25T14:55:00-04:00"
+    },
+    "BKNG": {
+      "start_bar": "2026-09-25T14:55:00-04:00"
+    },
+    "GFS": {
+      "start_bar": "2026-09-25T14:55:00-04:00"
+    },
+    "STDN": {
       "start_bar": "2026-09-25T14:50:00-04:00"
     }
   },
@@ -384,7 +399,6 @@
     "AUROW": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
-    "VSAT": "day_gainers",
     "LCUT": "small_cap_gainers",
     "GRABW": "small_cap_gainers",
     "ANF": "day_gainers",
@@ -670,6 +684,7 @@
     "AXTI": "day_gainers",
     "ROAD": "day_gainers",
     "MBLY": "day_gainers",
-    "NFE": "small_cap_gainers"
+    "NFE": "small_cap_gainers",
+    "KLXE": "small_cap_gainers"
   }
 }
