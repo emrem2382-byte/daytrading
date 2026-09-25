@@ -332,6 +332,15 @@
     },
     "AGO": {
       "start_bar": "2026-09-25T13:35:00-04:00"
+    },
+    "LAUR": {
+      "start_bar": "2026-09-25T13:40:00-04:00"
+    },
+    "AMBA": {
+      "start_bar": "2026-09-25T13:45:00-04:00"
+    },
+    "ADI": {
+      "start_bar": "2026-09-25T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -440,13 +449,13 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
