@@ -28,16 +28,10 @@
     "FLY",
     "AAL",
     "AUROW",
-    "AEHL",
     "NAT",
     "GRABW",
     "ULCC",
-    "GME",
     "SRFM",
-    "SLS",
-    "NKTR",
-    "PBYI",
-    "CAPR",
     "CORT",
     "ERAS",
     "SJT",
@@ -317,29 +311,29 @@
     "FN",
     "MGA",
     "EMBC",
-    "MCHPP"
+    "MCHPP",
+    "ESAB",
+    "ANGI",
+    "TNON",
+    "VEEA",
+    "SHOE",
+    "PLAY"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "LSCC": {
-      "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "BE": {
-      "start_bar": "2026-09-25T15:25:00-04:00"
-    },
-    "SPCX": {
-      "start_bar": "2026-09-25T15:25:00-04:00"
-    },
-    "FBIN": {
-      "start_bar": "2026-09-25T15:25:00-04:00"
-    },
-    "SUJA": {
-      "start_bar": "2026-09-25T15:30:00-04:00"
-    },
-    "MERC": {
+    "ESI": {
       "start_bar": "2026-09-25T15:35:00-04:00"
     },
-    "ESI": {
+    "MFG": {
+      "start_bar": "2026-09-25T15:40:00-04:00"
+    },
+    "FFBC": {
+      "start_bar": "2026-09-25T15:35:00-04:00"
+    },
+    "EROC": {
+      "start_bar": "2026-09-25T15:40:00-04:00"
+    },
+    "ANGX": {
       "start_bar": "2026-09-25T15:35:00-04:00"
     }
   },
@@ -354,16 +348,10 @@
     "FLY": "day_gainers",
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
-    "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
-    "GME": "day_gainers",
     "SRFM": "small_cap_gainers",
-    "SLS": "most_shorted_stocks",
-    "NKTR": "day_gainers",
-    "PBYI": "small_cap_gainers",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "CORT": "day_gainers",
     "ERAS": "day_gainers",
     "SJT": "small_cap_gainers",
@@ -403,7 +391,7 @@
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
-    "RUN": "most_shorted_stocks",
+    "RUN": "small_cap_gainers+most_shorted_stocks",
     "AKAM": "most_actives",
     "PGEN": "day_gainers",
     "DDOG": "day_gainers",
@@ -434,7 +422,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers+aggressive_small_caps",
+    "HEPS": "aggressive_small_caps",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
@@ -643,6 +631,12 @@
     "FN": "day_gainers",
     "MGA": "day_gainers",
     "EMBC": "small_cap_gainers",
-    "MCHPP": "small_cap_gainers"
+    "MCHPP": "small_cap_gainers",
+    "ESAB": "day_gainers",
+    "ANGI": "small_cap_gainers",
+    "TNON": "most_shorted_stocks",
+    "VEEA": "most_shorted_stocks",
+    "SHOE": "most_shorted_stocks",
+    "PLAY": "most_shorted_stocks"
   }
 }
