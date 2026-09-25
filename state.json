@@ -31,11 +31,7 @@
     "AEHL",
     "NAT",
     "GRABW",
-    "SPNT",
-    "LX",
-    "WS",
     "ULCC",
-    "HIMS",
     "GME",
     "SRFM",
     "SLS",
@@ -317,23 +313,15 @@
     "CCIF",
     "DXYZ",
     "SLDPW",
-    "SAH"
+    "SAH",
+    "FN",
+    "MGA",
+    "EMBC",
+    "MCHPP"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "TRIP": {
-      "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "LEU": {
-      "start_bar": "2026-09-25T15:15:00-04:00"
-    },
     "LSCC": {
-      "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "NXPI": {
-      "start_bar": "2026-09-25T15:20:00-04:00"
-    },
-    "FLX": {
       "start_bar": "2026-09-25T15:20:00-04:00"
     },
     "BE": {
@@ -347,6 +335,12 @@
     },
     "SUJA": {
       "start_bar": "2026-09-25T15:30:00-04:00"
+    },
+    "MERC": {
+      "start_bar": "2026-09-25T15:35:00-04:00"
+    },
+    "ESI": {
+      "start_bar": "2026-09-25T15:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,11 +357,7 @@
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
-    "SPNT": "day_gainers",
-    "LX": "small_cap_gainers",
-    "WS": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
-    "HIMS": "day_gainers",
     "GME": "day_gainers",
     "SRFM": "small_cap_gainers",
     "SLS": "most_shorted_stocks",
@@ -446,7 +436,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -649,6 +639,10 @@
     "CCIF": "small_cap_gainers",
     "DXYZ": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
-    "SAH": "day_gainers"
+    "SAH": "day_gainers",
+    "FN": "day_gainers",
+    "MGA": "day_gainers",
+    "EMBC": "small_cap_gainers",
+    "MCHPP": "small_cap_gainers"
   }
 }
