@@ -29,10 +29,6 @@
     "AXTI",
     "FLY",
     "AAL",
-    "ASTS",
-    "LUNR",
-    "BKSY",
-    "GPMT",
     "MOG-A",
     "RXRX",
     "VERA",
@@ -317,14 +313,24 @@
     "CVRX",
     "FTK",
     "CRT",
-    "ATRA"
+    "ATRA",
+    "CDNA",
+    "CEVA",
+    "KMTS",
+    "EBON"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "MU": {
-      "start_bar": "2026-09-25T13:05:00-04:00"
-    },
     "AMD": {
+      "start_bar": "2026-09-25T13:15:00-04:00"
+    },
+    "NAT": {
+      "start_bar": "2026-09-25T13:20:00-04:00"
+    },
+    "HIMS": {
+      "start_bar": "2026-09-25T13:20:00-04:00"
+    },
+    "LEU": {
       "start_bar": "2026-09-25T13:15:00-04:00"
     }
   },
@@ -340,10 +346,6 @@
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
-    "ASTS": "day_gainers",
-    "LUNR": "day_gainers",
-    "BKSY": "small_cap_gainers",
-    "GPMT": "small_cap_gainers",
     "MOG-A": "day_gainers",
     "RXRX": "most_shorted_stocks",
     "VERA": "most_shorted_stocks",
@@ -628,6 +630,10 @@
     "CVRX": "small_cap_gainers",
     "FTK": "small_cap_gainers",
     "CRT": "small_cap_gainers",
-    "ATRA": "small_cap_gainers"
+    "ATRA": "small_cap_gainers",
+    "CDNA": "day_gainers",
+    "CEVA": "small_cap_gainers",
+    "KMTS": "small_cap_gainers",
+    "EBON": "small_cap_gainers"
   }
 }
