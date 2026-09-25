@@ -324,20 +324,32 @@
     "MGN": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
-    "VKTX": {
-      "start_bar": "2026-09-25T14:15:00-04:00"
-    },
-    "TBLA": {
-      "start_bar": "2026-09-25T14:15:00-04:00"
-    },
-    "CMCO": {
-      "start_bar": "2026-09-25T14:20:00-04:00"
-    },
     "CVS": {
       "start_bar": "2026-09-25T14:25:00-04:00"
     },
     "BARK": {
       "start_bar": "2026-09-25T14:25:00-04:00"
+    },
+    "ENHA": {
+      "start_bar": "2026-09-25T14:30:00-04:00"
+    },
+    "QDEL": {
+      "start_bar": "2026-09-25T14:30:00-04:00"
+    },
+    "PGEN": {
+      "start_bar": "2026-09-25T14:30:00-04:00"
+    },
+    "EQPT": {
+      "start_bar": "2026-09-25T14:35:00-04:00"
+    },
+    "PTGX": {
+      "start_bar": "2026-09-25T14:35:00-04:00"
+    },
+    "OLN": {
+      "start_bar": "2026-09-25T14:35:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-25T14:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -492,7 +504,7 @@
     "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives+day_gainers",
+    "MSFT": "most_actives",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
