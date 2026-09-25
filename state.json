@@ -23,10 +23,7 @@
     "TBLA",
     "GRPN",
     "FLX",
-    "ACDC",
     "ONDS",
-    "RIVN",
-    "CHRN",
     "CIFR",
     "MMLP",
     "WIX",
@@ -317,30 +314,15 @@
     "STLA",
     "BWA",
     "BLND",
-    "FOSL"
+    "FOSL",
+    "ALHC",
+    "RVMDW",
+    "QUBT"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "SES": {
-      "start_bar": "2026-09-25T11:05:00-04:00"
-    },
-    "NFE": {
-      "start_bar": "2026-09-25T11:05:00-04:00"
-    },
-    "NAT": {
-      "start_bar": "2026-09-25T11:05:00-04:00"
-    },
-    "HIMS": {
-      "start_bar": "2026-09-25T11:05:00-04:00"
-    },
-    "TMC": {
-      "start_bar": "2026-09-25T11:00:00-04:00"
-    },
     "KPTI": {
       "start_bar": "2026-09-25T11:00:00-04:00"
-    },
-    "PBF": {
-      "start_bar": "2026-09-25T11:05:00-04:00"
     },
     "SOUN": {
       "start_bar": "2026-09-25T11:10:00-04:00"
@@ -357,8 +339,11 @@
     "NVDA": {
       "start_bar": "2026-09-25T11:15:00-04:00"
     },
-    "PLUG": {
-      "start_bar": "2026-09-25T11:10:00-04:00"
+    "LUNR": {
+      "start_bar": "2026-09-25T11:20:00-04:00"
+    },
+    "RXRX": {
+      "start_bar": "2026-09-25T11:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -367,10 +352,7 @@
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "ACDC": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
-    "RIVN": "most_actives",
-    "CHRN": "day_gainers",
     "CIFR": "most_actives",
     "MMLP": "small_cap_gainers",
     "WIX": "day_gainers",
@@ -506,7 +488,7 @@
     "CRI": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
-    "EVGO": "most_shorted_stocks",
+    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "RUN": "most_shorted_stocks",
     "AKAM": "most_actives+day_gainers",
     "PGEN": "day_gainers",
@@ -538,7 +520,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers",
+    "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -661,6 +643,9 @@
     "STLA": "most_actives",
     "BWA": "day_gainers",
     "BLND": "small_cap_gainers",
-    "FOSL": "small_cap_gainers"
+    "FOSL": "small_cap_gainers",
+    "ALHC": "small_cap_gainers",
+    "RVMDW": "small_cap_gainers",
+    "QUBT": "most_shorted_stocks"
   }
 }
