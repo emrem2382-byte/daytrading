@@ -29,8 +29,6 @@
     "AXTI",
     "FLY",
     "AAL",
-    "UFPT",
-    "SECZ",
     "LUXE",
     "BALY",
     "ASTS",
@@ -317,18 +315,26 @@
     "BXC",
     "RRX",
     "PRGO",
-    "SES"
+    "SES",
+    "CVRX",
+    "FTK"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "CORT": {
-      "start_bar": "2026-09-25T12:50:00-04:00"
-    },
     "WTTR": {
       "start_bar": "2026-09-25T12:55:00-04:00"
     },
     "SANM": {
       "start_bar": "2026-09-25T12:55:00-04:00"
+    },
+    "PBYI": {
+      "start_bar": "2026-09-25T13:00:00-04:00"
+    },
+    "MU": {
+      "start_bar": "2026-09-25T13:05:00-04:00"
+    },
+    "STDN": {
+      "start_bar": "2026-09-25T13:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -343,8 +349,6 @@
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
-    "UFPT": "day_gainers",
-    "SECZ": "day_gainers",
     "LUXE": "small_cap_gainers",
     "BALY": "small_cap_gainers",
     "ASTS": "day_gainers",
@@ -453,10 +457,10 @@
     "FLNC": "small_cap_gainers+aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
-    "CWH": "small_cap_gainers+aggressive_small_caps",
+    "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -499,10 +503,10 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives+day_gainers",
+    "MSFT": "most_actives",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
@@ -631,6 +635,8 @@
     "BXC": "small_cap_gainers",
     "RRX": "day_gainers",
     "PRGO": "day_gainers",
-    "SES": "small_cap_gainers"
+    "SES": "small_cap_gainers",
+    "CVRX": "small_cap_gainers",
+    "FTK": "small_cap_gainers"
   }
 }
