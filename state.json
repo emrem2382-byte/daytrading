@@ -321,20 +321,17 @@
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "AI": {
-      "start_bar": "2026-09-25T12:35:00-04:00"
-    },
-    "GME": {
-      "start_bar": "2026-09-25T12:40:00-04:00"
-    },
-    "SNPS": {
-      "start_bar": "2026-09-25T12:40:00-04:00"
-    },
-    "NET": {
-      "start_bar": "2026-09-25T12:40:00-04:00"
-    },
     "MERC": {
       "start_bar": "2026-09-25T12:40:00-04:00"
+    },
+    "CORT": {
+      "start_bar": "2026-09-25T12:50:00-04:00"
+    },
+    "WTTR": {
+      "start_bar": "2026-09-25T12:55:00-04:00"
+    },
+    "SANM": {
+      "start_bar": "2026-09-25T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -510,7 +507,7 @@
     "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives",
+    "MSFT": "most_actives+day_gainers",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
