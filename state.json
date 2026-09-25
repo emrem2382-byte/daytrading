@@ -321,15 +321,6 @@
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "LAUR": {
-      "start_bar": "2026-09-25T13:40:00-04:00"
-    },
-    "ADI": {
-      "start_bar": "2026-09-25T13:45:00-04:00"
-    },
-    "CYD": {
-      "start_bar": "2026-09-25T13:50:00-04:00"
-    },
     "SPNT": {
       "start_bar": "2026-09-25T13:55:00-04:00"
     },
@@ -341,6 +332,21 @@
     },
     "INGM": {
       "start_bar": "2026-09-25T13:50:00-04:00"
+    },
+    "AKAM": {
+      "start_bar": "2026-09-25T14:00:00-04:00"
+    },
+    "STEM": {
+      "start_bar": "2026-09-25T13:55:00-04:00"
+    },
+    "LBRT": {
+      "start_bar": "2026-09-25T14:00:00-04:00"
+    },
+    "MXL": {
+      "start_bar": "2026-09-25T14:00:00-04:00"
+    },
+    "HYMC": {
+      "start_bar": "2026-09-25T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -453,7 +459,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
