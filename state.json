@@ -29,9 +29,7 @@
     "FLY",
     "AAL",
     "AUROW",
-    "NFE",
     "AEHL",
-    "SONO",
     "NYAX",
     "NAT",
     "MYGN",
@@ -317,20 +315,16 @@
     "EQS",
     "ALTG",
     "SIM",
-    "SMCIP"
+    "SMCIP",
+    "AXTI",
+    "ROAD"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "SPNT": {
       "start_bar": "2026-09-25T13:55:00-04:00"
     },
-    "NKTR": {
-      "start_bar": "2026-09-25T13:55:00-04:00"
-    },
     "MGN": {
-      "start_bar": "2026-09-25T13:50:00-04:00"
-    },
-    "INGM": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
     "AKAM": {
@@ -342,11 +336,11 @@
     "LBRT": {
       "start_bar": "2026-09-25T14:00:00-04:00"
     },
-    "MXL": {
+    "CYD": {
       "start_bar": "2026-09-25T14:00:00-04:00"
     },
-    "HYMC": {
-      "start_bar": "2026-09-25T14:00:00-04:00"
+    "LESL": {
+      "start_bar": "2026-09-25T14:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,9 +355,7 @@
     "FLY": "day_gainers",
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
-    "NFE": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
-    "SONO": "day_gainers",
     "NYAX": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "MYGN": "small_cap_gainers",
@@ -649,6 +641,8 @@
     "EQS": "small_cap_gainers",
     "ALTG": "small_cap_gainers",
     "SIM": "day_gainers",
-    "SMCIP": "small_cap_gainers"
+    "SMCIP": "small_cap_gainers",
+    "AXTI": "day_gainers",
+    "ROAD": "day_gainers"
   }
 }
