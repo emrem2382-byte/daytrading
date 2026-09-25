@@ -25,11 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "MPC",
-    "DNA",
-    "HBB",
-    "XPON",
-    "FANG",
     "PBF",
     "LIFE",
     "INTC",
@@ -317,26 +312,16 @@
     "JELD",
     "CMCO",
     "PSQH",
-    "ANGX"
+    "ANGX",
+    "GSHD",
+    "KNDI",
+    "UAMY",
+    "SERV",
+    "HTZ"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "VSAT": {
-      "start_bar": "2026-09-25T11:50:00-04:00"
-    },
-    "CRI": {
-      "start_bar": "2026-09-25T11:50:00-04:00"
-    },
-    "AAON": {
-      "start_bar": "2026-09-25T11:55:00-04:00"
-    },
     "OI": {
-      "start_bar": "2026-09-25T11:55:00-04:00"
-    },
-    "BAC": {
-      "start_bar": "2026-09-25T11:55:00-04:00"
-    },
-    "SOFI": {
       "start_bar": "2026-09-25T11:55:00-04:00"
     },
     "WS": {
@@ -374,6 +359,18 @@
     },
     "UXIN": {
       "start_bar": "2026-09-25T12:00:00-04:00"
+    },
+    "ABSI": {
+      "start_bar": "2026-09-25T12:10:00-04:00"
+    },
+    "NTLA": {
+      "start_bar": "2026-09-25T12:10:00-04:00"
+    },
+    "NOK": {
+      "start_bar": "2026-09-25T12:10:00-04:00"
+    },
+    "SANM": {
+      "start_bar": "2026-09-25T12:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -384,11 +381,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "MPC": "day_gainers",
-    "DNA": "small_cap_gainers",
-    "HBB": "small_cap_gainers",
-    "XPON": "most_shorted_stocks",
-    "FANG": "day_gainers",
     "PBF": "day_gainers",
     "LIFE": "day_gainers",
     "INTC": "most_actives",
@@ -532,7 +524,7 @@
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
-    "XRX": "small_cap_gainers+most_shorted_stocks",
+    "XRX": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
@@ -676,6 +668,11 @@
     "JELD": "small_cap_gainers",
     "CMCO": "small_cap_gainers",
     "PSQH": "small_cap_gainers",
-    "ANGX": "aggressive_small_caps"
+    "ANGX": "aggressive_small_caps",
+    "GSHD": "small_cap_gainers",
+    "KNDI": "small_cap_gainers",
+    "UAMY": "aggressive_small_caps",
+    "SERV": "most_shorted_stocks",
+    "HTZ": "most_shorted_stocks"
   }
 }
