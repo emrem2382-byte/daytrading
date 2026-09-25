@@ -7,14 +7,14 @@
     "GPMT",
     "CSTE",
     "TRVG",
-    "CXW",
-    "SOS",
     "BRKR",
     "BRVE",
-    "SITM",
+    "CXW",
+    "SOS",
     "TBLA",
     "MSC",
-    "NAT"
+    "NAT",
+    "NBIS"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
