@@ -18,11 +18,9 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BBAI",
     "BETA",
     "GAB",
     "SNX",
-    "IVR",
     "CLBK",
     "TBLA",
     "GRPN",
@@ -317,35 +315,23 @@
     "VICR",
     "ONTO",
     "SMTC",
-    "VPG"
+    "VPG",
+    "BELFB",
+    "MTR"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "CFND": {
       "start_bar": "2026-09-25T09:30:00-04:00"
     },
-    "ASTS": {
-      "start_bar": "2026-09-25T09:50:00-04:00"
-    },
-    "NOK": {
-      "start_bar": "2026-09-25T09:50:00-04:00"
-    },
-    "PLUG": {
-      "start_bar": "2026-09-25T09:50:00-04:00"
-    },
     "OPENL": {
-      "start_bar": "2026-09-25T10:00:00-04:00"
-    },
-    "MOG-A": {
       "start_bar": "2026-09-25T10:00:00-04:00"
     }
   },
   "ticker_sources": {
-    "BBAI": "most_shorted_stocks",
     "BETA": "day_gainers",
     "GAB": "aggressive_small_caps",
     "SNX": "day_gainers",
-    "IVR": "aggressive_small_caps",
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
@@ -605,7 +591,7 @@
     "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives+day_gainers",
+    "MSFT": "most_actives",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
@@ -640,6 +626,8 @@
     "VICR": "day_gainers",
     "ONTO": "day_gainers",
     "SMTC": "day_gainers",
-    "VPG": "small_cap_gainers"
+    "VPG": "small_cap_gainers",
+    "BELFB": "day_gainers",
+    "MTR": "small_cap_gainers"
   }
 }
