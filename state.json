@@ -27,11 +27,8 @@
     "PPLI",
     "SES",
     "SOUN",
-    "CCC",
     "RKLB",
     "AXTI",
-    "CDNS",
-    "RCL",
     "AFRM",
     "PRLB",
     "FLY",
@@ -317,19 +314,13 @@
     "DMRC",
     "ACM",
     "NVTS",
-    "ABNB"
+    "ABNB",
+    "NCLH",
+    "FBIN",
+    "MOBI"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "NTLA": {
-      "start_bar": "2026-09-25T12:10:00-04:00"
-    },
-    "RGEN": {
-      "start_bar": "2026-09-25T12:10:00-04:00"
-    },
-    "DFNS": {
-      "start_bar": "2026-09-25T12:10:00-04:00"
-    },
     "BELFB": {
       "start_bar": "2026-09-25T12:10:00-04:00"
     },
@@ -338,6 +329,15 @@
     },
     "BW-PA": {
       "start_bar": "2026-09-25T12:15:00-04:00"
+    },
+    "SONO": {
+      "start_bar": "2026-09-25T12:30:00-04:00"
+    },
+    "NYAX": {
+      "start_bar": "2026-09-25T12:25:00-04:00"
+    },
+    "HPE": {
+      "start_bar": "2026-09-25T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -350,11 +350,8 @@
     "PPLI": "day_gainers",
     "SES": "small_cap_gainers",
     "SOUN": "most_shorted_stocks",
-    "CCC": "day_gainers",
     "RKLB": "most_actives",
     "AXTI": "day_gainers",
-    "CDNS": "day_gainers",
-    "RCL": "day_gainers",
     "AFRM": "day_gainers",
     "PRLB": "day_gainers",
     "FLY": "day_gainers",
@@ -640,6 +637,9 @@
     "DMRC": "small_cap_gainers",
     "ACM": "day_gainers",
     "NVTS": "day_gainers",
-    "ABNB": "day_gainers"
+    "ABNB": "day_gainers",
+    "NCLH": "day_gainers",
+    "FBIN": "day_gainers",
+    "MOBI": "small_cap_gainers"
   }
 }
