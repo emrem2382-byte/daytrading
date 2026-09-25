@@ -30,7 +30,6 @@
     "FLY",
     "AAL",
     "AUROW",
-    "NET",
     "NFE",
     "AEHL",
     "SONO",
@@ -317,19 +316,11 @@
     "SUJA",
     "LANV",
     "EQS",
-    "ALTG"
+    "ALTG",
+    "SIM"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "ANF": {
-      "start_bar": "2026-09-25T13:30:00-04:00"
-    },
-    "CTKB": {
-      "start_bar": "2026-09-25T13:30:00-04:00"
-    },
-    "CORT": {
-      "start_bar": "2026-09-25T13:35:00-04:00"
-    },
     "AGO": {
       "start_bar": "2026-09-25T13:35:00-04:00"
     },
@@ -341,6 +332,15 @@
     },
     "ADI": {
       "start_bar": "2026-09-25T13:45:00-04:00"
+    },
+    "CYD": {
+      "start_bar": "2026-09-25T13:50:00-04:00"
+    },
+    "VPG": {
+      "start_bar": "2026-09-25T13:50:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-09-25T13:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,7 +356,6 @@
     "FLY": "day_gainers",
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
-    "NET": "day_gainers",
     "NFE": "small_cap_gainers",
     "AEHL": "most_shorted_stocks",
     "SONO": "day_gainers",
@@ -643,6 +642,7 @@
     "SUJA": "small_cap_gainers",
     "LANV": "small_cap_gainers",
     "EQS": "small_cap_gainers",
-    "ALTG": "small_cap_gainers"
+    "ALTG": "small_cap_gainers",
+    "SIM": "day_gainers"
   }
 }
