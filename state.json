@@ -28,9 +28,7 @@
     "SOUN",
     "AXTI",
     "FLY",
-    "VNET",
     "AAL",
-    "SOFI",
     "UFPT",
     "SECZ",
     "LUXE",
@@ -317,13 +315,12 @@
     "AGNC",
     "AUR",
     "BXC",
-    "RRX"
+    "RRX",
+    "PRGO",
+    "SES"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "MERC": {
-      "start_bar": "2026-09-25T12:40:00-04:00"
-    },
     "CORT": {
       "start_bar": "2026-09-25T12:50:00-04:00"
     },
@@ -345,9 +342,7 @@
     "SOUN": "most_shorted_stocks",
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
-    "VNET": "aggressive_small_caps",
     "AAL": "most_actives",
-    "SOFI": "most_actives",
     "UFPT": "day_gainers",
     "SECZ": "day_gainers",
     "LUXE": "small_cap_gainers",
@@ -461,7 +456,7 @@
     "CWH": "small_cap_gainers+aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -634,6 +629,8 @@
     "AGNC": "most_actives",
     "AUR": "most_actives",
     "BXC": "small_cap_gainers",
-    "RRX": "day_gainers"
+    "RRX": "day_gainers",
+    "PRGO": "day_gainers",
+    "SES": "small_cap_gainers"
   }
 }
