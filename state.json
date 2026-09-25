@@ -29,8 +29,6 @@
     "AXTI",
     "FLY",
     "AAL",
-    "VERA",
-    "KRMN",
     "RDW",
     "AUROW",
     "NET",
@@ -317,27 +315,26 @@
     "KMTS",
     "EBON",
     "LEA",
-    "SUJA"
+    "SUJA",
+    "LANV",
+    "EQS"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "AMD": {
-      "start_bar": "2026-09-25T13:15:00-04:00"
-    },
     "NAT": {
       "start_bar": "2026-09-25T13:20:00-04:00"
-    },
-    "HIMS": {
-      "start_bar": "2026-09-25T13:20:00-04:00"
-    },
-    "RDW": {
-      "start_bar": "2026-09-25T13:25:00-04:00"
     },
     "DFNS": {
       "start_bar": "2026-09-25T13:20:00-04:00"
     },
-    "STDN": {
-      "start_bar": "2026-09-25T13:20:00-04:00"
+    "ANF": {
+      "start_bar": "2026-09-25T13:30:00-04:00"
+    },
+    "GPRO": {
+      "start_bar": "2026-09-25T13:30:00-04:00"
+    },
+    "VRT": {
+      "start_bar": "2026-09-25T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,8 +349,6 @@
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
-    "VERA": "most_shorted_stocks",
-    "KRMN": "day_gainers",
     "RDW": "day_gainers",
     "AUROW": "small_cap_gainers",
     "NET": "day_gainers",
@@ -455,7 +450,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -640,6 +635,8 @@
     "KMTS": "small_cap_gainers",
     "EBON": "small_cap_gainers",
     "LEA": "day_gainers",
-    "SUJA": "small_cap_gainers"
+    "SUJA": "small_cap_gainers",
+    "LANV": "small_cap_gainers",
+    "EQS": "small_cap_gainers"
   }
 }
