@@ -26,10 +26,7 @@
     "ONDS",
     "PPLI",
     "SES",
-    "UNFI",
-    "VEON",
     "SOUN",
-    "PL",
     "CCC",
     "RKLB",
     "AXTI",
@@ -317,20 +314,14 @@
     "NNBR",
     "JMIA",
     "MX",
-    "DMRC"
+    "DMRC",
+    "ACM",
+    "NVTS",
+    "ABNB"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "WS": {
-      "start_bar": "2026-09-25T11:55:00-04:00"
-    },
-    "UNFI": {
-      "start_bar": "2026-09-25T12:05:00-04:00"
-    },
     "NTLA": {
-      "start_bar": "2026-09-25T12:10:00-04:00"
-    },
-    "NOK": {
       "start_bar": "2026-09-25T12:10:00-04:00"
     },
     "RGEN": {
@@ -347,9 +338,6 @@
     },
     "BW-PA": {
       "start_bar": "2026-09-25T12:15:00-04:00"
-    },
-    "SANM": {
-      "start_bar": "2026-09-25T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,10 +349,7 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
     "SES": "small_cap_gainers",
-    "UNFI": "day_gainers",
-    "VEON": "day_gainers",
     "SOUN": "most_shorted_stocks",
-    "PL": "most_actives",
     "CCC": "day_gainers",
     "RKLB": "most_actives",
     "AXTI": "day_gainers",
@@ -491,7 +476,7 @@
     "CWH": "small_cap_gainers+aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -652,6 +637,9 @@
     "NNBR": "small_cap_gainers",
     "JMIA": "small_cap_gainers",
     "MX": "small_cap_gainers",
-    "DMRC": "small_cap_gainers"
+    "DMRC": "small_cap_gainers",
+    "ACM": "day_gainers",
+    "NVTS": "day_gainers",
+    "ABNB": "day_gainers"
   }
 }
