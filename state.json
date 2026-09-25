@@ -321,12 +321,6 @@
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "KLXE": {
-      "start_bar": "2026-09-25T11:25:00-04:00"
-    },
-    "ULCC": {
-      "start_bar": "2026-09-25T11:30:00-04:00"
-    },
     "BFH": {
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
@@ -339,14 +333,14 @@
     "GRAL": {
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
-    "CCC": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
     "GPMT": {
       "start_bar": "2026-09-25T11:35:00-04:00"
     },
     "PBYI": {
       "start_bar": "2026-09-25T11:35:00-04:00"
+    },
+    "MRVI": {
+      "start_bar": "2026-09-25T11:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -514,7 +508,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers+aggressive_small_caps",
+    "HEPS": "small_cap_gainers",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -562,7 +556,7 @@
     "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives",
+    "MSFT": "most_actives+day_gainers",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
