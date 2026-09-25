@@ -24,11 +24,7 @@
     "GRPN",
     "FLX",
     "ONDS",
-    "CIFR",
-    "MMLP",
-    "WIX",
     "PPLI",
-    "FEAM",
     "TARS",
     "LQDA",
     "MRNA",
@@ -317,18 +313,16 @@
     "FOSL",
     "ALHC",
     "RVMDW",
-    "QUBT"
+    "QUBT",
+    "RGTI",
+    "QNT",
+    "FOIL",
+    "SRPT"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
     "KPTI": {
       "start_bar": "2026-09-25T11:00:00-04:00"
-    },
-    "SOUN": {
-      "start_bar": "2026-09-25T11:10:00-04:00"
-    },
-    "AFRM": {
-      "start_bar": "2026-09-25T11:10:00-04:00"
     },
     "PRLB": {
       "start_bar": "2026-09-25T11:10:00-04:00"
@@ -336,13 +330,31 @@
     "NNE": {
       "start_bar": "2026-09-25T11:15:00-04:00"
     },
-    "NVDA": {
-      "start_bar": "2026-09-25T11:15:00-04:00"
-    },
     "LUNR": {
       "start_bar": "2026-09-25T11:20:00-04:00"
     },
     "RXRX": {
+      "start_bar": "2026-09-25T11:20:00-04:00"
+    },
+    "RKLB": {
+      "start_bar": "2026-09-25T11:25:00-04:00"
+    },
+    "BKSY": {
+      "start_bar": "2026-09-25T11:25:00-04:00"
+    },
+    "RDW": {
+      "start_bar": "2026-09-25T11:25:00-04:00"
+    },
+    "KOD": {
+      "start_bar": "2026-09-25T11:20:00-04:00"
+    },
+    "INGM": {
+      "start_bar": "2026-09-25T11:20:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-25T11:25:00-04:00"
+    },
+    "SRPT": {
       "start_bar": "2026-09-25T11:20:00-04:00"
     }
   },
@@ -353,11 +365,7 @@
     "GRPN": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
-    "CIFR": "most_actives",
-    "MMLP": "small_cap_gainers",
-    "WIX": "day_gainers",
     "PPLI": "day_gainers",
-    "FEAM": "small_cap_gainers",
     "TARS": "day_gainers",
     "LQDA": "day_gainers",
     "MRNA": "day_gainers",
@@ -525,7 +533,7 @@
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
-    "XRX": "most_shorted_stocks",
+    "XRX": "small_cap_gainers+most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
@@ -538,7 +546,7 @@
     "AAON": "day_gainers",
     "TSEM": "day_gainers",
     "FSLR": "day_gainers",
-    "BE": "most_actives+day_gainers",
+    "BE": "day_gainers",
     "VRT": "day_gainers",
     "PDFS": "day_gainers",
     "GNRC": "day_gainers",
@@ -568,7 +576,7 @@
     "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
-    "MSFT": "most_actives+day_gainers",
+    "MSFT": "most_actives",
     "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
@@ -646,6 +654,10 @@
     "FOSL": "small_cap_gainers",
     "ALHC": "small_cap_gainers",
     "RVMDW": "small_cap_gainers",
-    "QUBT": "most_shorted_stocks"
+    "QUBT": "most_shorted_stocks",
+    "RGTI": "day_gainers",
+    "QNT": "day_gainers",
+    "FOIL": "small_cap_gainers",
+    "SRPT": "aggressive_small_caps"
   }
 }
