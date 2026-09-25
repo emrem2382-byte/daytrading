@@ -350,6 +350,9 @@
     },
     "CMCO": {
       "start_bar": "2026-09-25T14:20:00-04:00"
+    },
+    "CVS": {
+      "start_bar": "2026-09-25T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -458,7 +461,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
