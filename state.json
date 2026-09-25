@@ -32,8 +32,6 @@
     "GRABW",
     "ULCC",
     "SRFM",
-    "CORT",
-    "ERAS",
     "SJT",
     "NVAX",
     "RVMD",
@@ -317,7 +315,9 @@
     "TNON",
     "VEEA",
     "SHOE",
-    "PLAY"
+    "PLAY",
+    "LVWR",
+    "OPENL"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
@@ -335,6 +335,27 @@
     },
     "ANGX": {
       "start_bar": "2026-09-25T15:35:00-04:00"
+    },
+    "MERC": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "WNC": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "P": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "RRX": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "PRGO": {
+      "start_bar": "2026-09-25T15:45:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-25T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,8 +373,6 @@
     "GRABW": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
     "SRFM": "small_cap_gainers",
-    "CORT": "day_gainers",
-    "ERAS": "day_gainers",
     "SJT": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "RVMD": "day_gainers",
@@ -424,7 +443,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -637,6 +656,8 @@
     "TNON": "most_shorted_stocks",
     "VEEA": "most_shorted_stocks",
     "SHOE": "most_shorted_stocks",
-    "PLAY": "most_shorted_stocks"
+    "PLAY": "most_shorted_stocks",
+    "LVWR": "small_cap_gainers",
+    "OPENL": "small_cap_gainers"
   }
 }
