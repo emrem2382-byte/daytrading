@@ -25,13 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "BFH",
-    "VLO",
-    "SLDE",
-    "KLXE",
-    "T",
-    "LPG",
-    "OPENW",
     "RIG",
     "KNDI",
     "MUSA",
@@ -317,16 +310,17 @@
     "HYMC",
     "TIGO",
     "LYG",
-    "CVS"
+    "CVS",
+    "AMZN",
+    "SMR",
+    "VALE",
+    "CDE",
+    "HHH",
+    "MTLS",
+    "FUN"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "GPMT": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
-    "PBYI": {
-      "start_bar": "2026-09-25T11:35:00-04:00"
-    },
     "MRVI": {
       "start_bar": "2026-09-25T11:45:00-04:00"
     },
@@ -347,6 +341,21 @@
     },
     "BAC": {
       "start_bar": "2026-09-25T11:55:00-04:00"
+    },
+    "SOFI": {
+      "start_bar": "2026-09-25T11:55:00-04:00"
+    },
+    "WS": {
+      "start_bar": "2026-09-25T11:55:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-09-25T12:00:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-25T12:00:00-04:00"
+    },
+    "ONTO": {
+      "start_bar": "2026-09-25T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,13 +366,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "BFH": "day_gainers",
-    "VLO": "day_gainers",
-    "SLDE": "day_gainers",
-    "KLXE": "small_cap_gainers",
-    "T": "most_actives",
-    "LPG": "day_gainers",
-    "OPENW": "small_cap_gainers",
     "RIG": "most_actives",
     "KNDI": "small_cap_gainers",
     "MUSA": "day_gainers",
@@ -510,11 +512,11 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers+aggressive_small_caps",
+    "HEPS": "small_cap_gainers",
     "MGN": "most_shorted_stocks",
     "WOLF": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
@@ -649,6 +651,13 @@
     "HYMC": "day_gainers",
     "TIGO": "day_gainers",
     "LYG": "most_actives",
-    "CVS": "day_gainers"
+    "CVS": "day_gainers",
+    "AMZN": "most_actives",
+    "SMR": "most_actives",
+    "VALE": "most_actives",
+    "CDE": "most_actives",
+    "HHH": "day_gainers",
+    "MTLS": "small_cap_gainers",
+    "FUN": "aggressive_small_caps"
   }
 }
