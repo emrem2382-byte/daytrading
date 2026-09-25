@@ -29,7 +29,6 @@
     "AXTI",
     "FLY",
     "AAL",
-    "BALY",
     "ASTS",
     "LUNR",
     "BKSY",
@@ -317,18 +316,16 @@
     "SES",
     "CVRX",
     "FTK",
-    "CRT"
+    "CRT",
+    "ATRA"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "WTTR": {
-      "start_bar": "2026-09-25T12:55:00-04:00"
-    },
-    "PBYI": {
-      "start_bar": "2026-09-25T13:00:00-04:00"
-    },
     "MU": {
       "start_bar": "2026-09-25T13:05:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-09-25T13:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -343,7 +340,6 @@
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
     "AAL": "most_actives",
-    "BALY": "small_cap_gainers",
     "ASTS": "day_gainers",
     "LUNR": "day_gainers",
     "BKSY": "small_cap_gainers",
@@ -631,6 +627,7 @@
     "SES": "small_cap_gainers",
     "CVRX": "small_cap_gainers",
     "FTK": "small_cap_gainers",
-    "CRT": "small_cap_gainers"
+    "CRT": "small_cap_gainers",
+    "ATRA": "small_cap_gainers"
   }
 }
