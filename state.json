@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
     "FLX",
-    "UXIN",
     "LCUT",
     "XPON",
     "SECZ",
     "GPMT",
     "CSTE",
     "TRVG",
-    "VBIO",
+    "UXIN",
     "CXW",
     "BRKR",
     "BRVE",
-    "NBIS",
-    "SITM",
-    "TBLA"
+    "TBLA",
+    "MSC",
+    "NAT",
+    "FEAM"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
