@@ -23,7 +23,6 @@
     "CLBK",
     "TBLA",
     "GRPN",
-    "NU",
     "NEO",
     "TEM",
     "RL",
@@ -317,16 +316,11 @@
     "PYPL",
     "AGL",
     "BBAI",
-    "IT"
+    "IT",
+    "FIGS"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "NU": {
-      "start_bar": "2026-09-25T10:20:00-04:00"
-    },
-    "NMM": {
-      "start_bar": "2026-09-25T10:15:00-04:00"
-    },
     "RIVN": {
       "start_bar": "2026-09-25T10:25:00-04:00"
     },
@@ -343,7 +337,6 @@
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
-    "NU": "most_actives",
     "NEO": "day_gainers",
     "TEM": "day_gainers",
     "RL": "day_gainers",
@@ -637,6 +630,7 @@
     "PYPL": "day_gainers",
     "AGL": "small_cap_gainers",
     "BBAI": "most_shorted_stocks",
-    "IT": "day_gainers"
+    "IT": "day_gainers",
+    "FIGS": "day_gainers"
   }
 }
