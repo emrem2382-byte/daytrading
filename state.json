@@ -24,9 +24,6 @@
     "TBLA",
     "GRPN",
     "FLX",
-    "MTD",
-    "GBLI",
-    "SOS",
     "ACDC",
     "ONDS",
     "RIVN",
@@ -317,7 +314,10 @@
     "KURA",
     "NU",
     "PLSE",
-    "BHC"
+    "BHC",
+    "STLA",
+    "BWA",
+    "BLND"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
@@ -326,9 +326,6 @@
     },
     "CRT": {
       "start_bar": "2026-09-25T10:45:00-04:00"
-    },
-    "RCL": {
-      "start_bar": "2026-09-25T10:50:00-04:00"
     },
     "QDEL": {
       "start_bar": "2026-09-25T10:50:00-04:00"
@@ -347,6 +344,36 @@
     },
     "CTKB": {
       "start_bar": "2026-09-25T10:55:00-04:00"
+    },
+    "WRBY": {
+      "start_bar": "2026-09-25T11:05:00-04:00"
+    },
+    "SES": {
+      "start_bar": "2026-09-25T11:05:00-04:00"
+    },
+    "NFE": {
+      "start_bar": "2026-09-25T11:05:00-04:00"
+    },
+    "SONO": {
+      "start_bar": "2026-09-25T11:00:00-04:00"
+    },
+    "NAT": {
+      "start_bar": "2026-09-25T11:05:00-04:00"
+    },
+    "HIMS": {
+      "start_bar": "2026-09-25T11:05:00-04:00"
+    },
+    "ANVS": {
+      "start_bar": "2026-09-25T11:00:00-04:00"
+    },
+    "TMC": {
+      "start_bar": "2026-09-25T11:00:00-04:00"
+    },
+    "KPTI": {
+      "start_bar": "2026-09-25T11:00:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-09-25T11:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,9 +383,6 @@
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "MTD": "day_gainers",
-    "GBLI": "small_cap_gainers",
-    "SOS": "aggressive_small_caps",
     "ACDC": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "RIVN": "most_actives",
@@ -649,6 +673,9 @@
     "KURA": "aggressive_small_caps",
     "NU": "most_actives",
     "PLSE": "day_gainers",
-    "BHC": "day_gainers"
+    "BHC": "day_gainers",
+    "STLA": "most_actives",
+    "BWA": "day_gainers",
+    "BLND": "small_cap_gainers"
   }
 }
