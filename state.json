@@ -27,11 +27,8 @@
     "PPLI",
     "SES",
     "SOUN",
-    "RKLB",
     "AXTI",
     "FLY",
-    "SG",
-    "ZH",
     "VNET",
     "AAL",
     "SOFI",
@@ -317,13 +314,13 @@
     "FBIN",
     "MOBI",
     "ALAB",
-    "CSL"
+    "CSL",
+    "AGNC",
+    "AUR",
+    "BXC"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "LX": {
-      "start_bar": "2026-09-25T12:20:00-04:00"
-    },
     "SONO": {
       "start_bar": "2026-09-25T12:30:00-04:00"
     },
@@ -338,6 +335,12 @@
     },
     "AI": {
       "start_bar": "2026-09-25T12:35:00-04:00"
+    },
+    "GME": {
+      "start_bar": "2026-09-25T12:40:00-04:00"
+    },
+    "SNPS": {
+      "start_bar": "2026-09-25T12:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -350,11 +353,8 @@
     "PPLI": "day_gainers",
     "SES": "small_cap_gainers",
     "SOUN": "most_shorted_stocks",
-    "RKLB": "most_actives",
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
-    "SG": "small_cap_gainers",
-    "ZH": "small_cap_gainers",
     "VNET": "aggressive_small_caps",
     "AAL": "most_actives",
     "SOFI": "most_actives",
@@ -514,7 +514,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -640,6 +640,9 @@
     "FBIN": "day_gainers",
     "MOBI": "small_cap_gainers",
     "ALAB": "day_gainers",
-    "CSL": "day_gainers"
+    "CSL": "day_gainers",
+    "AGNC": "most_actives",
+    "AUR": "most_actives",
+    "BXC": "small_cap_gainers"
   }
 }
