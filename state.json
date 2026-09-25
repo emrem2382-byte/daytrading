@@ -25,7 +25,6 @@
     "FLX",
     "ONDS",
     "PPLI",
-    "SES",
     "SOUN",
     "AXTI",
     "FLY",
@@ -317,16 +316,11 @@
     "CSL",
     "AGNC",
     "AUR",
-    "BXC"
+    "BXC",
+    "RRX"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "NYAX": {
-      "start_bar": "2026-09-25T12:25:00-04:00"
-    },
-    "SRFM": {
-      "start_bar": "2026-09-25T12:30:00-04:00"
-    },
     "AI": {
       "start_bar": "2026-09-25T12:35:00-04:00"
     },
@@ -337,9 +331,6 @@
       "start_bar": "2026-09-25T12:40:00-04:00"
     },
     "NET": {
-      "start_bar": "2026-09-25T12:40:00-04:00"
-    },
-    "LX": {
       "start_bar": "2026-09-25T12:40:00-04:00"
     },
     "MERC": {
@@ -354,7 +345,6 @@
     "FLX": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "SES": "small_cap_gainers",
     "SOUN": "most_shorted_stocks",
     "AXTI": "day_gainers",
     "FLY": "day_gainers",
@@ -475,7 +465,7 @@
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "LENZ": "most_shorted_stocks",
+    "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
@@ -517,7 +507,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives+day_gainers",
+    "SMCI": "most_actives",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -646,6 +636,7 @@
     "CSL": "day_gainers",
     "AGNC": "most_actives",
     "AUR": "most_actives",
-    "BXC": "small_cap_gainers"
+    "BXC": "small_cap_gainers",
+    "RRX": "day_gainers"
   }
 }
