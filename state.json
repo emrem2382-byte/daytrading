@@ -18,7 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "BETA",
     "GAB",
     "SNX",
     "CLBK",
@@ -317,13 +316,11 @@
     "ADI",
     "NXPI",
     "OI",
-    "OLN"
+    "OLN",
+    "PATH"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "OPENL": {
-      "start_bar": "2026-09-25T10:00:00-04:00"
-    },
     "OPENZ": {
       "start_bar": "2026-09-25T10:05:00-04:00"
     },
@@ -335,10 +332,18 @@
     },
     "LENZ": {
       "start_bar": "2026-09-25T10:10:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-25T10:20:00-04:00"
+    },
+    "NMM": {
+      "start_bar": "2026-09-25T10:15:00-04:00"
+    },
+    "QNST": {
+      "start_bar": "2026-09-25T10:15:00-04:00"
     }
   },
   "ticker_sources": {
-    "BETA": "day_gainers",
     "GAB": "aggressive_small_caps",
     "SNX": "day_gainers",
     "CLBK": "aggressive_small_caps",
@@ -540,7 +545,7 @@
     "ASPSZ": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
@@ -562,7 +567,7 @@
     "AAON": "day_gainers",
     "TSEM": "day_gainers",
     "FSLR": "day_gainers",
-    "BE": "day_gainers",
+    "BE": "most_actives+day_gainers",
     "VRT": "day_gainers",
     "PDFS": "day_gainers",
     "GNRC": "day_gainers",
@@ -637,6 +642,7 @@
     "ADI": "day_gainers",
     "NXPI": "day_gainers",
     "OI": "aggressive_small_caps",
-    "OLN": "aggressive_small_caps"
+    "OLN": "aggressive_small_caps",
+    "PATH": "most_actives"
   }
 }
