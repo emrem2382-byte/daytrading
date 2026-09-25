@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "GAB",
-    "SNX",
     "CLBK",
     "TBLA",
     "GRPN",
@@ -317,27 +316,16 @@
     "BHC",
     "STLA",
     "BWA",
-    "BLND"
+    "BLND",
+    "FOSL"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "LPG": {
-      "start_bar": "2026-09-25T10:55:00-04:00"
-    },
-    "HBB": {
-      "start_bar": "2026-09-25T10:55:00-04:00"
-    },
-    "MYGN": {
-      "start_bar": "2026-09-25T10:55:00-04:00"
-    },
     "SES": {
       "start_bar": "2026-09-25T11:05:00-04:00"
     },
     "NFE": {
       "start_bar": "2026-09-25T11:05:00-04:00"
-    },
-    "SONO": {
-      "start_bar": "2026-09-25T11:00:00-04:00"
     },
     "NAT": {
       "start_bar": "2026-09-25T11:05:00-04:00"
@@ -345,16 +333,10 @@
     "HIMS": {
       "start_bar": "2026-09-25T11:05:00-04:00"
     },
-    "ANVS": {
-      "start_bar": "2026-09-25T11:00:00-04:00"
-    },
     "TMC": {
       "start_bar": "2026-09-25T11:00:00-04:00"
     },
     "KPTI": {
-      "start_bar": "2026-09-25T11:00:00-04:00"
-    },
-    "JBLU": {
       "start_bar": "2026-09-25T11:00:00-04:00"
     },
     "PBF": {
@@ -362,11 +344,25 @@
     },
     "SOUN": {
       "start_bar": "2026-09-25T11:10:00-04:00"
+    },
+    "AFRM": {
+      "start_bar": "2026-09-25T11:10:00-04:00"
+    },
+    "PRLB": {
+      "start_bar": "2026-09-25T11:10:00-04:00"
+    },
+    "NNE": {
+      "start_bar": "2026-09-25T11:15:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-09-25T11:15:00-04:00"
+    },
+    "PLUG": {
+      "start_bar": "2026-09-25T11:10:00-04:00"
     }
   },
   "ticker_sources": {
     "GAB": "aggressive_small_caps",
-    "SNX": "day_gainers",
     "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
@@ -510,7 +506,7 @@
     "CRI": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
-    "EVGO": "small_cap_gainers+most_shorted_stocks",
+    "EVGO": "most_shorted_stocks",
     "RUN": "most_shorted_stocks",
     "AKAM": "most_actives+day_gainers",
     "PGEN": "day_gainers",
@@ -640,7 +636,7 @@
     "F": "most_actives",
     "BAC": "most_actives",
     "HBAN": "most_actives",
-    "PYPL": "most_actives+day_gainers",
+    "PYPL": "day_gainers",
     "AGL": "small_cap_gainers",
     "BBAI": "most_shorted_stocks",
     "IT": "day_gainers",
@@ -664,6 +660,7 @@
     "BHC": "day_gainers",
     "STLA": "most_actives",
     "BWA": "day_gainers",
-    "BLND": "small_cap_gainers"
+    "BLND": "small_cap_gainers",
+    "FOSL": "small_cap_gainers"
   }
 }
