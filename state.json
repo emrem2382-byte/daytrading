@@ -32,10 +32,6 @@
     "AEHL",
     "NAT",
     "GRABW",
-    "ANF",
-    "OPENZ",
-    "BRVE",
-    "QBTS",
     "ACHR",
     "LAUR",
     "SPNT",
@@ -317,44 +313,15 @@
     "MBLY",
     "NFE",
     "KLXE",
-    "EVEX"
+    "EVEX",
+    "PCG",
+    "PWP",
+    "STKE",
+    "CCIF"
   ],
   "tracked_day": "2026-09-25",
   "pending_bull": {
-    "ONTO": {
-      "start_bar": "2026-09-25T14:50:00-04:00"
-    },
-    "FIGS": {
-      "start_bar": "2026-09-25T14:55:00-04:00"
-    },
-    "GFS": {
-      "start_bar": "2026-09-25T14:55:00-04:00"
-    },
-    "NVAX": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "GPRO": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "NTLA": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "PCT": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "AAON": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
     "SBSW": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "RGTI": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "FUN": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
-    "BRVE": {
       "start_bar": "2026-09-25T15:00:00-04:00"
     },
     "ANVS": {
@@ -363,17 +330,11 @@
     "TSEM": {
       "start_bar": "2026-09-25T15:00:00-04:00"
     },
-    "BAND": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
-    },
     "PENG": {
       "start_bar": "2026-09-25T15:05:00-04:00"
     },
     "IONQ": {
       "start_bar": "2026-09-25T15:05:00-04:00"
-    },
-    "QUBT": {
-      "start_bar": "2026-09-25T15:00:00-04:00"
     },
     "RVMD": {
       "start_bar": "2026-09-25T15:05:00-04:00"
@@ -386,6 +347,33 @@
     },
     "VPG": {
       "start_bar": "2026-09-25T15:05:00-04:00"
+    },
+    "LAUR": {
+      "start_bar": "2026-09-25T15:15:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-09-25T15:10:00-04:00"
+    },
+    "CAPR": {
+      "start_bar": "2026-09-25T15:15:00-04:00"
+    },
+    "MRVI": {
+      "start_bar": "2026-09-25T15:10:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-25T15:15:00-04:00"
+    },
+    "CRI": {
+      "start_bar": "2026-09-25T15:15:00-04:00"
+    },
+    "MGN": {
+      "start_bar": "2026-09-25T15:10:00-04:00"
+    },
+    "BELFB": {
+      "start_bar": "2026-09-25T15:10:00-04:00"
+    },
+    "BLND": {
+      "start_bar": "2026-09-25T15:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -403,10 +391,6 @@
     "AEHL": "most_shorted_stocks",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
-    "ANF": "day_gainers",
-    "OPENZ": "small_cap_gainers",
-    "BRVE": "day_gainers",
-    "QBTS": "day_gainers",
     "ACHR": "most_actives",
     "LAUR": "day_gainers",
     "SPNT": "day_gainers",
@@ -688,6 +672,10 @@
     "MBLY": "day_gainers",
     "NFE": "small_cap_gainers",
     "KLXE": "small_cap_gainers",
-    "EVEX": "small_cap_gainers"
+    "EVEX": "small_cap_gainers",
+    "PCG": "most_actives",
+    "PWP": "small_cap_gainers",
+    "STKE": "small_cap_gainers",
+    "CCIF": "small_cap_gainers"
   }
 }
