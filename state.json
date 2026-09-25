@@ -324,34 +324,19 @@
     "MGN": {
       "start_bar": "2026-09-25T13:50:00-04:00"
     },
-    "HIMS": {
-      "start_bar": "2026-09-25T14:10:00-04:00"
-    },
-    "HYMC": {
-      "start_bar": "2026-09-25T14:10:00-04:00"
-    },
-    "LX": {
-      "start_bar": "2026-09-25T14:10:00-04:00"
-    },
-    "MFG": {
-      "start_bar": "2026-09-25T14:15:00-04:00"
-    },
     "VKTX": {
       "start_bar": "2026-09-25T14:15:00-04:00"
     },
-    "SERV": {
-      "start_bar": "2026-09-25T14:10:00-04:00"
-    },
     "TBLA": {
       "start_bar": "2026-09-25T14:15:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-25T14:20:00-04:00"
     },
     "CMCO": {
       "start_bar": "2026-09-25T14:20:00-04:00"
     },
     "CVS": {
+      "start_bar": "2026-09-25T14:25:00-04:00"
+    },
+    "BARK": {
       "start_bar": "2026-09-25T14:25:00-04:00"
     }
   },
@@ -461,7 +446,7 @@
     "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers+aggressive_small_caps",
     "MGN": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
     "NTLA": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
