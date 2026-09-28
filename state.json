@@ -21,7 +21,6 @@
     "NAT",
     "NVDA",
     "ASPSW",
-    "JACK",
     "CCCC",
     "HUM",
     "VECO",
@@ -317,7 +316,8 @@
     "PANW",
     "IONS",
     "ALXO",
-    "OCGN"
+    "OCGN",
+    "EC"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -333,7 +333,10 @@
     "IT": {
       "start_bar": "2026-09-28T11:30:00-04:00"
     },
-    "KURA": {
+    "EAF": {
+      "start_bar": "2026-09-28T11:30:00-04:00"
+    },
+    "NWCL": {
       "start_bar": "2026-09-28T11:30:00-04:00"
     }
   },
@@ -341,7 +344,6 @@
     "NAT": "aggressive_small_caps",
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
-    "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
@@ -637,6 +639,7 @@
     "PANW": "day_gainers",
     "IONS": "day_gainers",
     "ALXO": "small_cap_gainers",
-    "OCGN": "most_shorted_stocks"
+    "OCGN": "most_shorted_stocks",
+    "EC": "day_gainers"
   }
 }
