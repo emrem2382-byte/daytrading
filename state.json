@@ -21,17 +21,6 @@
     "NAT",
     "NVDA",
     "CTKB",
-    "SNPS",
-    "CRDO",
-    "LPLA",
-    "JBL",
-    "EQPT",
-    "AESI",
-    "MERC",
-    "STEM",
-    "BW-PA",
-    "CFND",
-    "BARK",
     "NATH",
     "ASPSW",
     "ASPSZ",
@@ -317,41 +306,44 @@
     "BMNR",
     "ZS",
     "ZLAB",
-    "LFCR"
+    "LFCR",
+    "STNG",
+    "ALVO",
+    "INSW",
+    "TRLV",
+    "GAP",
+    "TNK",
+    "TFX",
+    "BZ",
+    "SFIX",
+    "AMPH",
+    "CMPS"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "NKE": {
-      "start_bar": "2026-09-28T09:50:00-04:00"
-    },
     "KMTS": {
       "start_bar": "2026-09-28T09:45:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-09-28T09:50:00-04:00"
     },
     "WNC": {
       "start_bar": "2026-09-28T09:50:00-04:00"
     },
     "QNT": {
       "start_bar": "2026-09-28T09:55:00-04:00"
+    },
+    "NNBR": {
+      "start_bar": "2026-09-28T10:00:00-04:00"
+    },
+    "ABNB": {
+      "start_bar": "2026-09-28T10:05:00-04:00"
+    },
+    "GETY": {
+      "start_bar": "2026-09-28T10:00:00-04:00"
     }
   },
   "ticker_sources": {
     "NAT": "aggressive_small_caps",
-    "NVDA": "most_actives+day_gainers",
+    "NVDA": "most_actives",
     "CTKB": "aggressive_small_caps",
-    "SNPS": "day_gainers",
-    "CRDO": "day_gainers",
-    "LPLA": "day_gainers",
-    "JBL": "day_gainers",
-    "EQPT": "day_gainers",
-    "AESI": "small_cap_gainers",
-    "MERC": "small_cap_gainers",
-    "STEM": "small_cap_gainers",
-    "BW-PA": "small_cap_gainers",
-    "CFND": "small_cap_gainers",
-    "BARK": "small_cap_gainers",
     "NATH": "small_cap_gainers",
     "ASPSW": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
@@ -637,6 +629,17 @@
     "BMNR": "most_actives",
     "ZS": "day_gainers",
     "ZLAB": "day_gainers",
-    "LFCR": "small_cap_gainers"
+    "LFCR": "small_cap_gainers",
+    "STNG": "day_gainers",
+    "ALVO": "day_gainers",
+    "INSW": "day_gainers",
+    "TRLV": "day_gainers",
+    "GAP": "day_gainers",
+    "TNK": "day_gainers",
+    "TFX": "day_gainers",
+    "BZ": "day_gainers",
+    "SFIX": "small_cap_gainers",
+    "AMPH": "small_cap_gainers",
+    "CMPS": "aggressive_small_caps"
   }
 }
