@@ -23,10 +23,6 @@
     "ASPSW",
     "CCCC",
     "MAAS",
-    "AGO",
-    "BIRK",
-    "EROC",
-    "UXIN",
     "SPCX",
     "ESI",
     "SCGLY",
@@ -317,41 +313,18 @@
     "BWLP",
     "RGEN",
     "TWLO",
-    "RBRK"
+    "RBRK",
+    "PLBL",
+    "HUYA",
+    "VACI-UN",
+    "JACK"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "CRT": {
-      "start_bar": "2026-09-28T11:45:00-04:00"
-    },
-    "ADI": {
-      "start_bar": "2026-09-28T12:00:00-04:00"
-    },
-    "PLSE": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
-    },
-    "VALE": {
-      "start_bar": "2026-09-28T12:00:00-04:00"
-    },
-    "ALGM": {
-      "start_bar": "2026-09-28T12:00:00-04:00"
-    },
-    "BYND": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
-    },
-    "GPRO": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
-    },
-    "SRFM": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
-    },
     "CVRX": {
       "start_bar": "2026-09-28T12:00:00-04:00"
     },
     "RDY": {
-      "start_bar": "2026-09-28T12:05:00-04:00"
-    },
-    "SLS": {
       "start_bar": "2026-09-28T12:05:00-04:00"
     },
     "OI": {
@@ -362,6 +335,9 @@
     },
     "SUJA": {
       "start_bar": "2026-09-28T12:10:00-04:00"
+    },
+    "OLED": {
+      "start_bar": "2026-09-28T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -370,10 +346,6 @@
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "MAAS": "day_gainers",
-    "AGO": "day_gainers",
-    "BIRK": "day_gainers",
-    "EROC": "small_cap_gainers",
-    "UXIN": "small_cap_gainers",
     "SPCX": "most_actives",
     "ESI": "day_gainers",
     "SCGLY": "day_gainers",
@@ -641,7 +613,7 @@
     "MSB": "small_cap_gainers",
     "CDXS": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
-    "BB": "most_actives+day_gainers",
+    "BB": "most_actives",
     "NMRA": "small_cap_gainers",
     "IDYA": "day_gainers",
     "PANW": "day_gainers",
@@ -664,6 +636,10 @@
     "BWLP": "day_gainers",
     "RGEN": "day_gainers",
     "TWLO": "day_gainers",
-    "RBRK": "day_gainers"
+    "RBRK": "day_gainers",
+    "PLBL": "day_gainers",
+    "HUYA": "small_cap_gainers",
+    "VACI-UN": "small_cap_gainers",
+    "JACK": "most_shorted_stocks"
   }
 }
