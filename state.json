@@ -16,16 +16,11 @@
     "ALM",
     "PENG"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
-    "GAB",
-    "CLBK",
     "TBLA",
-    "GRPN",
     "FLX",
-    "ONDS",
     "PPLI",
-    "FLY",
     "AAL",
     "AUROW",
     "NAT",
@@ -317,62 +312,56 @@
     "ALGM",
     "CAR",
     "EAF",
-    "AZUL"
+    "AZUL",
+    "RIG",
+    "FEDU",
+    "KOS",
+    "LGO",
+    "TROX"
   ],
-  "tracked_day": "2026-09-25",
+  "tracked_day": "2026-09-28",
   "pending_bull": {
-    "EROC": {
-      "start_bar": "2026-09-25T15:40:00-04:00"
+    "MSC": {
+      "start_bar": "2026-09-25T15:55:00-04:00"
     },
-    "MERC": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
+    "SMFG": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "AMD": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
+    "WNC": {
+      "start_bar": "2026-09-25T15:55:00-04:00"
     },
-    "RRX": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
+    "SYNA": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "OPENL": {
-      "start_bar": "2026-09-25T15:40:00-04:00"
+    "IONQ": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "FLX": {
-      "start_bar": "2026-09-25T15:45:00-04:00"
+    "PRM": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "NNE": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
+    "STLA": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "NVDA": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
+    "RYAN": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "MU": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
+    "SERV": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "PLSE": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
+    "MX": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "ACM": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
+    "ATRA": {
+      "start_bar": "2026-09-25T15:55:00-04:00"
     },
-    "AGNC": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
-    },
-    "BELFB": {
-      "start_bar": "2026-09-25T15:50:00-04:00"
-    },
-    "BBAI": {
+    "SMCIP": {
       "start_bar": "2026-09-25T15:55:00-04:00"
     }
   },
   "ticker_sources": {
-    "GAB": "aggressive_small_caps",
-    "CLBK": "aggressive_small_caps",
     "TBLA": "aggressive_small_caps",
-    "GRPN": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "ONDS": "most_actives+most_shorted_stocks",
     "PPLI": "day_gainers",
-    "FLY": "day_gainers",
     "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
@@ -441,7 +430,7 @@
     "BRSL": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "HEPS": "small_cap_gainers+aggressive_small_caps",
+    "HEPS": "small_cap_gainers",
     "MGN": "most_shorted_stocks",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "LENZ": "small_cap_gainers+most_shorted_stocks",
@@ -486,7 +475,7 @@
     "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
-    "SMCI": "most_actives",
+    "SMCI": "day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -515,7 +504,7 @@
     "RFL": "small_cap_gainers",
     "AIFU": "small_cap_gainers",
     "TMC": "aggressive_small_caps",
-    "KSS": "aggressive_small_caps",
+    "KSS": "most_shorted_stocks",
     "RC": "aggressive_small_caps",
     "MU": "most_actives",
     "IONQ": "most_actives",
@@ -664,6 +653,11 @@
     "ALGM": "day_gainers",
     "CAR": "day_gainers",
     "EAF": "small_cap_gainers",
-    "AZUL": "small_cap_gainers"
+    "AZUL": "small_cap_gainers",
+    "RIG": "most_actives",
+    "FEDU": "small_cap_gainers",
+    "KOS": "aggressive_small_caps",
+    "LGO": "aggressive_small_caps",
+    "TROX": "aggressive_small_caps"
   }
 }
