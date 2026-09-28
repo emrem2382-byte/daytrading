@@ -23,10 +23,6 @@
     "ASPSW",
     "JACK",
     "CCCC",
-    "LSCC",
-    "PTGX",
-    "MXL",
-    "COHU",
     "HUM",
     "VECO",
     "SMCI",
@@ -317,23 +313,15 @@
     "OPTU",
     "BB",
     "NMRA",
-    "IDYA"
+    "IDYA",
+    "PANW",
+    "IONS",
+    "ALXO",
+    "OCGN"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "PATH": {
-      "start_bar": "2026-09-28T11:15:00-04:00"
-    },
-    "KMTS": {
-      "start_bar": "2026-09-28T11:10:00-04:00"
-    },
-    "GRAL": {
-      "start_bar": "2026-09-28T11:10:00-04:00"
-    },
     "QNST": {
-      "start_bar": "2026-09-28T11:20:00-04:00"
-    },
-    "MAAS": {
       "start_bar": "2026-09-28T11:20:00-04:00"
     },
     "CDNA": {
@@ -341,6 +329,12 @@
     },
     "CNK": {
       "start_bar": "2026-09-28T11:20:00-04:00"
+    },
+    "IT": {
+      "start_bar": "2026-09-28T11:30:00-04:00"
+    },
+    "KURA": {
+      "start_bar": "2026-09-28T11:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -349,10 +343,6 @@
     "ASPSW": "small_cap_gainers",
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
-    "LSCC": "day_gainers",
-    "PTGX": "day_gainers",
-    "MXL": "day_gainers",
-    "COHU": "day_gainers",
     "HUM": "day_gainers",
     "VECO": "day_gainers",
     "SMCI": "day_gainers",
@@ -641,8 +631,12 @@
     "MSB": "small_cap_gainers",
     "CDXS": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
-    "BB": "most_actives",
+    "BB": "most_actives+day_gainers",
     "NMRA": "small_cap_gainers",
-    "IDYA": "day_gainers"
+    "IDYA": "day_gainers",
+    "PANW": "day_gainers",
+    "IONS": "day_gainers",
+    "ALXO": "small_cap_gainers",
+    "OCGN": "most_shorted_stocks"
   }
 }
