@@ -25,7 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "OFIX",
     "KPTI",
     "STDN",
     "JBLU",
@@ -317,7 +316,8 @@
     "BLSM",
     "AMH-PH",
     "CRWD",
-    "TAC"
+    "TAC",
+    "AMH-PG"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -330,7 +330,13 @@
     "KNDI": {
       "start_bar": "2026-09-28T13:40:00-04:00"
     },
-    "CDXS": {
+    "BWA": {
+      "start_bar": "2026-09-28T13:45:00-04:00"
+    },
+    "HYMC": {
+      "start_bar": "2026-09-28T13:45:00-04:00"
+    },
+    "BJ": {
       "start_bar": "2026-09-28T13:40:00-04:00"
     }
   },
@@ -342,7 +348,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "OFIX": "small_cap_gainers",
     "KPTI": "most_shorted_stocks",
     "STDN": "day_gainers",
     "JBLU": "aggressive_small_caps",
@@ -634,6 +639,7 @@
     "BLSM": "small_cap_gainers",
     "AMH-PH": "day_gainers",
     "CRWD": "day_gainers",
-    "TAC": "day_gainers"
+    "TAC": "day_gainers",
+    "AMH-PG": "day_gainers"
   }
 }
