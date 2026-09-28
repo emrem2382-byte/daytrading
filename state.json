@@ -24,10 +24,6 @@
     "JACK",
     "CCCC",
     "OCGN",
-    "GNRC",
-    "DELL",
-    "ON",
-    "SNDK",
     "FLEX",
     "AVT",
     "VSH",
@@ -317,7 +313,11 @@
     "WBD",
     "BJ",
     "SDGR",
-    "HTZWW"
+    "HTZWW",
+    "SJT",
+    "FLX",
+    "BRSL",
+    "CAPR"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -325,9 +325,6 @@
       "start_bar": "2026-09-28T10:20:00-04:00"
     },
     "RFL": {
-      "start_bar": "2026-09-28T10:30:00-04:00"
-    },
-    "LVWR": {
       "start_bar": "2026-09-28T10:30:00-04:00"
     },
     "CAR": {
@@ -338,6 +335,9 @@
     },
     "MTLS": {
       "start_bar": "2026-09-28T10:40:00-04:00"
+    },
+    "CMPS": {
+      "start_bar": "2026-09-28T10:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -347,10 +347,6 @@
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "GNRC": "day_gainers",
-    "DELL": "day_gainers",
-    "ON": "day_gainers",
-    "SNDK": "day_gainers",
     "FLEX": "day_gainers",
     "AVT": "day_gainers",
     "VSH": "day_gainers",
@@ -640,6 +636,10 @@
     "WBD": "most_actives",
     "BJ": "day_gainers",
     "SDGR": "day_gainers",
-    "HTZWW": "small_cap_gainers"
+    "HTZWW": "small_cap_gainers",
+    "SJT": "small_cap_gainers",
+    "FLX": "small_cap_gainers",
+    "BRSL": "aggressive_small_caps",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks"
   }
 }
