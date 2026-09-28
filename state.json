@@ -26,7 +26,6 @@
     "IONQ",
     "KPTI",
     "STLA",
-    "QNT",
     "FOIL",
     "SRPT",
     "RYAN",
@@ -317,18 +316,13 @@
     "PVLA",
     "HAPN",
     "PCVX",
-    "LUCK"
+    "LUCK",
+    "AMRX"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "FN": {
       "start_bar": "2026-09-28T14:50:00-04:00"
-    },
-    "SDGR": {
-      "start_bar": "2026-09-28T14:50:00-04:00"
-    },
-    "BVC": {
-      "start_bar": "2026-09-28T14:45:00-04:00"
     },
     "CEVA": {
       "start_bar": "2026-09-28T14:50:00-04:00"
@@ -336,16 +330,16 @@
     "WOLF": {
       "start_bar": "2026-09-28T14:50:00-04:00"
     },
-    "BRSL": {
-      "start_bar": "2026-09-28T14:55:00-04:00"
-    },
     "CTNM": {
       "start_bar": "2026-09-28T14:55:00-04:00"
     },
     "ECO": {
       "start_bar": "2026-09-28T15:00:00-04:00"
     },
-    "ZIM": {
+    "WBD": {
+      "start_bar": "2026-09-28T15:05:00-04:00"
+    },
+    "OPENW": {
       "start_bar": "2026-09-28T15:00:00-04:00"
     }
   },
@@ -358,7 +352,6 @@
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
-    "QNT": "day_gainers",
     "FOIL": "small_cap_gainers",
     "SRPT": "aggressive_small_caps",
     "RYAN": "day_gainers",
@@ -649,6 +642,7 @@
     "PVLA": "day_gainers",
     "HAPN": "aggressive_small_caps",
     "PCVX": "day_gainers",
-    "LUCK": "small_cap_gainers"
+    "LUCK": "small_cap_gainers",
+    "AMRX": "day_gainers"
   }
 }
