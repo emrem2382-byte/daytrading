@@ -25,8 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "IVR",
-    "KLIC",
     "MCHP",
     "ADI",
     "NXPI",
@@ -317,21 +315,17 @@
     "VALN",
     "NVAX",
     "AGIO",
-    "MGNX"
+    "MGNX",
+    "IBRX",
+    "TSHA"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "CRT": {
       "start_bar": "2026-09-28T12:20:00-04:00"
     },
-    "ALAB": {
-      "start_bar": "2026-09-28T12:35:00-04:00"
-    },
     "SMCIP": {
       "start_bar": "2026-09-28T12:35:00-04:00"
-    },
-    "OCGN": {
-      "start_bar": "2026-09-28T12:40:00-04:00"
     },
     "BXC": {
       "start_bar": "2026-09-28T12:35:00-04:00"
@@ -341,6 +335,12 @@
     },
     "CDXS": {
       "start_bar": "2026-09-28T12:45:00-04:00"
+    },
+    "GETY": {
+      "start_bar": "2026-09-28T12:55:00-04:00"
+    },
+    "BJ": {
+      "start_bar": "2026-09-28T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -351,8 +351,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "IVR": "aggressive_small_caps",
-    "KLIC": "day_gainers",
     "MCHP": "day_gainers",
     "ADI": "day_gainers",
     "NXPI": "day_gainers",
@@ -643,6 +641,8 @@
     "VALN": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "AGIO": "day_gainers",
-    "MGNX": "small_cap_gainers"
+    "MGNX": "small_cap_gainers",
+    "IBRX": "day_gainers",
+    "TSHA": "small_cap_gainers"
   }
 }
