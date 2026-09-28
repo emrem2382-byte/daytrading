@@ -22,7 +22,6 @@
     "NVDA",
     "ASPSW",
     "CCCC",
-    "INGM",
     "FFBC",
     "MSFT",
     "DAVA",
@@ -317,21 +316,22 @@
     "EC",
     "PBLS",
     "CMG",
-    "LFT"
+    "LFT",
+    "TENB"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "IT": {
-      "start_bar": "2026-09-28T11:30:00-04:00"
-    },
-    "EAF": {
-      "start_bar": "2026-09-28T11:30:00-04:00"
-    },
-    "NWCL": {
-      "start_bar": "2026-09-28T11:30:00-04:00"
-    },
     "ONDS": {
       "start_bar": "2026-09-28T11:40:00-04:00"
+    },
+    "ACLS": {
+      "start_bar": "2026-09-28T11:50:00-04:00"
+    },
+    "CRT": {
+      "start_bar": "2026-09-28T11:45:00-04:00"
+    },
+    "WOLF": {
+      "start_bar": "2026-09-28T11:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -339,7 +339,6 @@
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
     "DAVA": "small_cap_gainers",
@@ -624,7 +623,7 @@
     "MSB": "small_cap_gainers",
     "CDXS": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
-    "BB": "most_actives",
+    "BB": "most_actives+day_gainers",
     "NMRA": "small_cap_gainers",
     "IDYA": "day_gainers",
     "PANW": "day_gainers",
@@ -634,6 +633,7 @@
     "EC": "day_gainers",
     "PBLS": "day_gainers",
     "CMG": "day_gainers",
-    "LFT": "small_cap_gainers"
+    "LFT": "small_cap_gainers",
+    "TENB": "day_gainers"
   }
 }
