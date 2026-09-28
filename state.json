@@ -23,8 +23,6 @@
     "ASPSW",
     "JACK",
     "CCCC",
-    "NOK",
-    "PLUG",
     "BAND",
     "P",
     "SANM",
@@ -317,26 +315,28 @@
     "LQDA",
     "PACB",
     "XERS",
-    "MSB"
+    "MSB",
+    "CDXS",
+    "OPTU"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "RFL": {
-      "start_bar": "2026-09-28T10:30:00-04:00"
-    },
-    "P": {
-      "start_bar": "2026-09-28T11:00:00-04:00"
-    },
-    "PTGX": {
-      "start_bar": "2026-09-28T10:55:00-04:00"
-    },
-    "KPTI": {
-      "start_bar": "2026-09-28T11:00:00-04:00"
-    },
     "RXRX": {
       "start_bar": "2026-09-28T11:05:00-04:00"
     },
     "GSHD": {
+      "start_bar": "2026-09-28T11:10:00-04:00"
+    },
+    "HUM": {
+      "start_bar": "2026-09-28T11:10:00-04:00"
+    },
+    "PATH": {
+      "start_bar": "2026-09-28T11:15:00-04:00"
+    },
+    "KMTS": {
+      "start_bar": "2026-09-28T11:10:00-04:00"
+    },
+    "GRAL": {
       "start_bar": "2026-09-28T11:10:00-04:00"
     }
   },
@@ -346,8 +346,6 @@
     "ASPSW": "small_cap_gainers",
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
-    "NOK": "most_actives",
-    "PLUG": "most_actives",
     "BAND": "day_gainers",
     "P": "day_gainers",
     "SANM": "day_gainers",
@@ -640,6 +638,8 @@
     "LQDA": "day_gainers",
     "PACB": "small_cap_gainers",
     "XERS": "small_cap_gainers",
-    "MSB": "small_cap_gainers"
+    "MSB": "small_cap_gainers",
+    "CDXS": "small_cap_gainers",
+    "OPTU": "aggressive_small_caps"
   }
 }
