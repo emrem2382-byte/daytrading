@@ -25,9 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "BKNG",
-    "FDXF",
-    "GFS",
     "OFIX",
     "KPTI",
     "STDN",
@@ -317,27 +314,24 @@
     "LKNCY",
     "P",
     "CURV",
-    "BLSM"
+    "BLSM",
+    "AMH-PH",
+    "CRWD",
+    "TAC"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "CMCO": {
-      "start_bar": "2026-09-28T13:15:00-04:00"
-    },
-    "PS": {
-      "start_bar": "2026-09-28T13:20:00-04:00"
-    },
-    "PRAX": {
-      "start_bar": "2026-09-28T13:25:00-04:00"
-    },
     "STDN": {
-      "start_bar": "2026-09-28T13:35:00-04:00"
-    },
-    "BJ": {
       "start_bar": "2026-09-28T13:35:00-04:00"
     },
     "OPTU": {
       "start_bar": "2026-09-28T13:30:00-04:00"
+    },
+    "KNDI": {
+      "start_bar": "2026-09-28T13:40:00-04:00"
+    },
+    "CDXS": {
+      "start_bar": "2026-09-28T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,9 +342,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "BKNG": "day_gainers",
-    "FDXF": "day_gainers",
-    "GFS": "day_gainers",
     "OFIX": "small_cap_gainers",
     "KPTI": "most_shorted_stocks",
     "STDN": "day_gainers",
@@ -640,6 +631,9 @@
     "LKNCY": "day_gainers",
     "P": "day_gainers",
     "CURV": "small_cap_gainers",
-    "BLSM": "small_cap_gainers"
+    "BLSM": "small_cap_gainers",
+    "AMH-PH": "day_gainers",
+    "CRWD": "day_gainers",
+    "TAC": "day_gainers"
   }
 }
