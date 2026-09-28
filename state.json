@@ -24,9 +24,6 @@
     "JACK",
     "CCCC",
     "OCGN",
-    "FLEX",
-    "AVT",
-    "VSH",
     "NMR",
     "SBSW",
     "EVTL",
@@ -317,27 +314,24 @@
     "SJT",
     "FLX",
     "BRSL",
-    "CAPR"
+    "CAPR",
+    "MBX",
+    "CPB",
+    "PRAX"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "BXC": {
-      "start_bar": "2026-09-28T10:20:00-04:00"
-    },
     "RFL": {
       "start_bar": "2026-09-28T10:30:00-04:00"
-    },
-    "CAR": {
-      "start_bar": "2026-09-28T10:35:00-04:00"
-    },
-    "RC": {
-      "start_bar": "2026-09-28T10:40:00-04:00"
     },
     "MTLS": {
       "start_bar": "2026-09-28T10:40:00-04:00"
     },
     "CMPS": {
       "start_bar": "2026-09-28T10:45:00-04:00"
+    },
+    "AGL": {
+      "start_bar": "2026-09-28T10:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -347,9 +341,6 @@
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "FLEX": "day_gainers",
-    "AVT": "day_gainers",
-    "VSH": "day_gainers",
     "NMR": "day_gainers",
     "SBSW": "day_gainers",
     "EVTL": "small_cap_gainers",
@@ -640,6 +631,9 @@
     "SJT": "small_cap_gainers",
     "FLX": "small_cap_gainers",
     "BRSL": "aggressive_small_caps",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks"
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "MBX": "day_gainers",
+    "CPB": "day_gainers",
+    "PRAX": "day_gainers"
   }
 }
