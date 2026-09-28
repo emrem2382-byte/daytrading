@@ -26,9 +26,6 @@
     "RFL",
     "KSS",
     "IONQ",
-    "VICR",
-    "ONTO",
-    "SMTC",
     "VPG",
     "BELFB",
     "MTR",
@@ -317,22 +314,13 @@
     "ZUMZ",
     "LENZ",
     "NAMS",
-    "TGE"
+    "TGE",
+    "LGND",
+    "PRTA",
+    "CTNM"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "SECZ": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "METC": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "VPG": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "LYG": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
     "AUR": {
       "start_bar": "2026-09-28T12:25:00-04:00"
     },
@@ -341,33 +329,6 @@
     },
     "CRT": {
       "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "FN": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "PLAY": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "CAR": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "TROX": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "ANNX": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "SG": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
-    "BBAI": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
-    "IT": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
     },
     "JBLU": {
       "start_bar": "2026-09-28T12:30:00-04:00"
@@ -384,9 +345,6 @@
     "CVRX": {
       "start_bar": "2026-09-28T12:25:00-04:00"
     },
-    "MBLY": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
     "PCG": {
       "start_bar": "2026-09-28T12:30:00-04:00"
     },
@@ -399,12 +357,6 @@
     "PSKY": {
       "start_bar": "2026-09-28T12:30:00-04:00"
     },
-    "ORC": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
-    "CMPS": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
     "ALAB": {
       "start_bar": "2026-09-28T12:35:00-04:00"
     },
@@ -413,6 +365,12 @@
     },
     "OPENZ": {
       "start_bar": "2026-09-28T12:30:00-04:00"
+    },
+    "VCEL": {
+      "start_bar": "2026-09-28T12:35:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-09-28T12:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -424,9 +382,6 @@
     "RFL": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
     "IONQ": "most_actives+day_gainers",
-    "VICR": "day_gainers",
-    "ONTO": "day_gainers",
-    "SMTC": "day_gainers",
     "VPG": "small_cap_gainers",
     "BELFB": "day_gainers",
     "MTR": "small_cap_gainers",
@@ -684,7 +639,7 @@
     "OCGN": "most_shorted_stocks",
     "EC": "day_gainers",
     "PBLS": "day_gainers",
-    "CMG": "day_gainers",
+    "CMG": "most_actives+day_gainers",
     "LFT": "small_cap_gainers",
     "TENB": "day_gainers",
     "ROIV": "day_gainers",
@@ -715,6 +670,9 @@
     "ZUMZ": "small_cap_gainers",
     "LENZ": "most_shorted_stocks",
     "NAMS": "day_gainers",
-    "TGE": "small_cap_gainers"
+    "TGE": "small_cap_gainers",
+    "LGND": "day_gainers",
+    "PRTA": "small_cap_gainers",
+    "CTNM": "small_cap_gainers"
   }
 }
