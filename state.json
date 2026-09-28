@@ -18,15 +18,8 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "AUROW",
     "NAT",
     "GRABW",
-    "PS",
-    "TRIP",
-    "NNE",
-    "SILC",
-    "SN",
-    "MRVI",
     "NVDA",
     "DNN",
     "MSC",
@@ -317,7 +310,14 @@
     "RCG",
     "SANG",
     "IQMXW",
-    "SFL"
+    "SFL",
+    "TRMD",
+    "XXI",
+    "WF",
+    "SG",
+    "FSSL",
+    "TEAD",
+    "SLS"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -333,12 +333,6 @@
     "MX": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "ATRA": {
-      "start_bar": "2026-09-25T15:55:00-04:00"
-    },
-    "AESI": {
-      "start_bar": "2026-09-28T09:35:00-04:00"
-    },
     "UXIN": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
@@ -350,19 +344,21 @@
     },
     "VIOT": {
       "start_bar": "2026-09-28T09:30:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-28T09:35:00-04:00"
+    },
+    "CRMT": {
+      "start_bar": "2026-09-28T09:40:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-09-28T09:35:00-04:00"
     }
   },
   "ticker_sources": {
-    "AUROW": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
-    "PS": "day_gainers",
-    "TRIP": "small_cap_gainers",
-    "NNE": "most_shorted_stocks",
-    "SILC": "small_cap_gainers",
-    "SN": "day_gainers",
-    "MRVI": "small_cap_gainers",
-    "NVDA": "most_actives+day_gainers",
+    "NVDA": "most_actives",
     "DNN": "most_actives",
     "MSC": "small_cap_gainers",
     "ARL": "small_cap_gainers",
@@ -652,6 +648,13 @@
     "RCG": "small_cap_gainers",
     "SANG": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "SFL": "aggressive_small_caps"
+    "SFL": "aggressive_small_caps",
+    "TRMD": "day_gainers",
+    "XXI": "day_gainers",
+    "WF": "day_gainers",
+    "SG": "small_cap_gainers",
+    "FSSL": "small_cap_gainers",
+    "TEAD": "small_cap_gainers",
+    "SLS": "most_shorted_stocks"
   }
 }
