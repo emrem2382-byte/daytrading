@@ -25,10 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "PRM",
-    "BETA",
-    "AGMB",
-    "XMTR",
     "BKNG",
     "FDXF",
     "GFS",
@@ -317,36 +313,31 @@
     "IVR",
     "ADRX",
     "STRZ",
-    "GOSS"
+    "GOSS",
+    "LKNCY",
+    "P",
+    "CURV",
+    "BLSM"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "QNST": {
-      "start_bar": "2026-09-28T13:15:00-04:00"
-    },
-    "JELD": {
-      "start_bar": "2026-09-28T13:15:00-04:00"
-    },
     "CMCO": {
       "start_bar": "2026-09-28T13:15:00-04:00"
-    },
-    "CEVA": {
-      "start_bar": "2026-09-28T13:15:00-04:00"
-    },
-    "STKE": {
-      "start_bar": "2026-09-28T13:15:00-04:00"
-    },
-    "SG": {
-      "start_bar": "2026-09-28T13:25:00-04:00"
     },
     "PS": {
       "start_bar": "2026-09-28T13:20:00-04:00"
     },
-    "NFE": {
-      "start_bar": "2026-09-28T13:25:00-04:00"
-    },
     "PRAX": {
       "start_bar": "2026-09-28T13:25:00-04:00"
+    },
+    "STDN": {
+      "start_bar": "2026-09-28T13:35:00-04:00"
+    },
+    "BJ": {
+      "start_bar": "2026-09-28T13:35:00-04:00"
+    },
+    "OPTU": {
+      "start_bar": "2026-09-28T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,10 +348,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "PRM": "day_gainers",
-    "BETA": "day_gainers",
-    "AGMB": "small_cap_gainers",
-    "XMTR": "day_gainers",
     "BKNG": "day_gainers",
     "FDXF": "day_gainers",
     "GFS": "day_gainers",
@@ -649,6 +636,10 @@
     "IVR": "aggressive_small_caps",
     "ADRX": "small_cap_gainers",
     "STRZ": "small_cap_gainers",
-    "GOSS": "small_cap_gainers"
+    "GOSS": "small_cap_gainers",
+    "LKNCY": "day_gainers",
+    "P": "day_gainers",
+    "CURV": "small_cap_gainers",
+    "BLSM": "small_cap_gainers"
   }
 }
