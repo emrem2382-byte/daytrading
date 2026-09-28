@@ -22,8 +22,6 @@
     "NVDA",
     "ASPSW",
     "CCCC",
-    "HNGE",
-    "PENG",
     "MAAS",
     "AGO",
     "BIRK",
@@ -317,24 +315,14 @@
     "VCYT",
     "OKTA",
     "BWLP",
-    "RGEN"
+    "RGEN",
+    "TWLO",
+    "RBRK"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "ACLS": {
-      "start_bar": "2026-09-28T11:50:00-04:00"
-    },
     "CRT": {
       "start_bar": "2026-09-28T11:45:00-04:00"
-    },
-    "NXPI": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
-    },
-    "RGTI": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
-    },
-    "TMC": {
-      "start_bar": "2026-09-28T11:55:00-04:00"
     },
     "ADI": {
       "start_bar": "2026-09-28T12:00:00-04:00"
@@ -365,6 +353,15 @@
     },
     "SLS": {
       "start_bar": "2026-09-28T12:05:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-09-28T12:10:00-04:00"
+    },
+    "QNT": {
+      "start_bar": "2026-09-28T12:10:00-04:00"
+    },
+    "SUJA": {
+      "start_bar": "2026-09-28T12:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,8 +369,6 @@
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "HNGE": "day_gainers",
-    "PENG": "day_gainers",
     "MAAS": "day_gainers",
     "AGO": "day_gainers",
     "BIRK": "day_gainers",
@@ -667,6 +662,8 @@
     "VCYT": "day_gainers",
     "OKTA": "day_gainers",
     "BWLP": "day_gainers",
-    "RGEN": "day_gainers"
+    "RGEN": "day_gainers",
+    "TWLO": "day_gainers",
+    "RBRK": "day_gainers"
   }
 }
