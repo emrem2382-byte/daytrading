@@ -26,9 +26,7 @@
     "IONQ",
     "KPTI",
     "STLA",
-    "FOIL",
     "SRPT",
-    "RYAN",
     "HYMC",
     "TIGO",
     "LYG",
@@ -317,13 +315,12 @@
     "HAPN",
     "PCVX",
     "LUCK",
-    "AMRX"
+    "AMRX",
+    "AVPT",
+    "STTK"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "CTNM": {
-      "start_bar": "2026-09-28T14:55:00-04:00"
-    },
     "ECO": {
       "start_bar": "2026-09-28T15:00:00-04:00"
     },
@@ -341,20 +338,27 @@
     },
     "LGO": {
       "start_bar": "2026-09-28T15:10:00-04:00"
+    },
+    "ESAB": {
+      "start_bar": "2026-09-28T15:15:00-04:00"
+    },
+    "PSKY": {
+      "start_bar": "2026-09-28T15:15:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-09-28T15:10:00-04:00"
     }
   },
   "ticker_sources": {
     "NAT": "aggressive_small_caps",
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
-    "CCCC": "most_shorted_stocks",
+    "CCCC": "small_cap_gainers+most_shorted_stocks",
     "MAAS": "day_gainers",
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
-    "FOIL": "small_cap_gainers",
     "SRPT": "aggressive_small_caps",
-    "RYAN": "day_gainers",
     "HYMC": "day_gainers",
     "TIGO": "day_gainers",
     "LYG": "most_actives",
@@ -643,6 +647,8 @@
     "HAPN": "aggressive_small_caps",
     "PCVX": "day_gainers",
     "LUCK": "small_cap_gainers",
-    "AMRX": "day_gainers"
+    "AMRX": "day_gainers",
+    "AVPT": "day_gainers",
+    "STTK": "small_cap_gainers"
   }
 }
