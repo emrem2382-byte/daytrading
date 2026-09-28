@@ -24,10 +24,7 @@
     "CCCC",
     "MAAS",
     "RFL",
-    "KSS",
     "IONQ",
-    "VPG",
-    "BELFB",
     "MTR",
     "AMD",
     "IVR",
@@ -317,44 +314,17 @@
     "TGE",
     "LGND",
     "PRTA",
-    "CTNM"
+    "CTNM",
+    "SHAK",
+    "VALN",
+    "NVAX"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "AUR": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "RRX": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
     "CRT": {
       "start_bar": "2026-09-28T12:20:00-04:00"
     },
-    "JBLU": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
-    "BLND": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "RKT": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
-    "JMIA": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "CVRX": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "PCG": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
     "DXYZ": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
-    "ANGI": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "PSKY": {
       "start_bar": "2026-09-28T12:30:00-04:00"
     },
     "ALAB": {
@@ -380,10 +350,7 @@
     "CCCC": "most_shorted_stocks",
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
-    "KSS": "most_shorted_stocks",
-    "IONQ": "most_actives+day_gainers",
-    "VPG": "small_cap_gainers",
-    "BELFB": "day_gainers",
+    "IONQ": "most_actives",
     "MTR": "small_cap_gainers",
     "AMD": "most_actives",
     "IVR": "aggressive_small_caps",
@@ -673,6 +640,9 @@
     "TGE": "small_cap_gainers",
     "LGND": "day_gainers",
     "PRTA": "small_cap_gainers",
-    "CTNM": "small_cap_gainers"
+    "CTNM": "small_cap_gainers",
+    "SHAK": "day_gainers",
+    "VALN": "small_cap_gainers",
+    "NVAX": "most_shorted_stocks"
   }
 }
