@@ -21,10 +21,7 @@
     "NAT",
     "NVDA",
     "ASPSW",
-    "NTLA",
-    "XRX",
     "JACK",
-    "EOSE",
     "CCCC",
     "AI",
     "OCGN",
@@ -317,24 +314,18 @@
     "VCEL",
     "ZIM",
     "NDLS",
-    "GPRO"
+    "GPRO",
+    "PACS",
+    "METC",
+    "WOLF"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "OLN": {
       "start_bar": "2026-09-28T10:10:00-04:00"
     },
-    "BKNG": {
-      "start_bar": "2026-09-28T10:10:00-04:00"
-    },
-    "FOSL": {
-      "start_bar": "2026-09-28T10:05:00-04:00"
-    },
     "RYAN": {
       "start_bar": "2026-09-28T10:10:00-04:00"
-    },
-    "KLXE": {
-      "start_bar": "2026-09-28T10:05:00-04:00"
     },
     "GSHD": {
       "start_bar": "2026-09-28T10:10:00-04:00"
@@ -353,16 +344,28 @@
     },
     "SHOE": {
       "start_bar": "2026-09-28T10:20:00-04:00"
+    },
+    "OFIX": {
+      "start_bar": "2026-09-28T10:25:00-04:00"
+    },
+    "BXC": {
+      "start_bar": "2026-09-28T10:20:00-04:00"
+    },
+    "ANGI": {
+      "start_bar": "2026-09-28T10:20:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-09-28T10:20:00-04:00"
+    },
+    "CMPS": {
+      "start_bar": "2026-09-28T10:25:00-04:00"
     }
   },
   "ticker_sources": {
     "NAT": "aggressive_small_caps",
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
-    "NTLA": "most_shorted_stocks",
-    "XRX": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "EOSE": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "AI": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
@@ -591,7 +594,7 @@
     "GRAL": "day_gainers",
     "BEKE": "day_gainers",
     "RDY": "day_gainers",
-    "GETY": "small_cap_gainers+aggressive_small_caps",
+    "GETY": "aggressive_small_caps",
     "AMPX": "small_cap_gainers",
     "ANNX": "small_cap_gainers",
     "BUR": "small_cap_gainers",
@@ -655,6 +658,9 @@
     "VCEL": "day_gainers",
     "ZIM": "day_gainers",
     "NDLS": "small_cap_gainers",
-    "GPRO": "aggressive_small_caps"
+    "GPRO": "aggressive_small_caps",
+    "PACS": "day_gainers",
+    "METC": "aggressive_small_caps",
+    "WOLF": "most_shorted_stocks"
   }
 }
