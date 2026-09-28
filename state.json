@@ -21,10 +21,6 @@
     "NAT",
     "NVDA",
     "CTKB",
-    "ARM",
-    "WTTR",
-    "SMFG",
-    "MUFG",
     "SNPS",
     "CRDO",
     "LPLA",
@@ -317,13 +313,14 @@
     "VG",
     "HAFN",
     "ECO",
-    "ORC"
+    "ORC",
+    "BMNR",
+    "ZS",
+    "ZLAB",
+    "LFCR"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "HUM": {
-      "start_bar": "2026-09-28T09:45:00-04:00"
-    },
     "NKE": {
       "start_bar": "2026-09-28T09:50:00-04:00"
     },
@@ -344,10 +341,6 @@
     "NAT": "aggressive_small_caps",
     "NVDA": "most_actives+day_gainers",
     "CTKB": "aggressive_small_caps",
-    "ARM": "day_gainers",
-    "WTTR": "day_gainers",
-    "SMFG": "day_gainers",
-    "MUFG": "day_gainers",
     "SNPS": "day_gainers",
     "CRDO": "day_gainers",
     "LPLA": "day_gainers",
@@ -640,6 +633,10 @@
     "VG": "day_gainers",
     "HAFN": "day_gainers",
     "ECO": "day_gainers",
-    "ORC": "aggressive_small_caps"
+    "ORC": "aggressive_small_caps",
+    "BMNR": "most_actives",
+    "ZS": "day_gainers",
+    "ZLAB": "day_gainers",
+    "LFCR": "small_cap_gainers"
   }
 }
