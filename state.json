@@ -19,17 +19,9 @@
   "last_session": "open",
   "tracked_tickers": [
     "NAT",
-    "GRABW",
     "NVDA",
-    "DNN",
-    "MSC",
-    "ARL",
     "CNF",
     "CTKB",
-    "QNST",
-    "CMPS",
-    "CRI",
-    "CLM",
     "ENOV",
     "EVGO",
     "RUN",
@@ -317,26 +309,22 @@
     "SG",
     "FSSL",
     "TEAD",
-    "SLS"
+    "SLS",
+    "AMC",
+    "SECZ",
+    "BURL",
+    "LPG",
+    "MAT",
+    "ECF",
+    "KELYB",
+    "BYND"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "SMFG": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "IONQ": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "STLA": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "MX": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
     "UXIN": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "MOBI": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
     "BEKE": {
@@ -348,26 +336,24 @@
     "CTKB": {
       "start_bar": "2026-09-28T09:35:00-04:00"
     },
-    "CRMT": {
+    "SLS": {
+      "start_bar": "2026-09-28T09:35:00-04:00"
+    },
+    "JBL": {
+      "start_bar": "2026-09-28T09:45:00-04:00"
+    },
+    "FSSL": {
       "start_bar": "2026-09-28T09:40:00-04:00"
     },
-    "SLS": {
+    "ECF": {
       "start_bar": "2026-09-28T09:35:00-04:00"
     }
   },
   "ticker_sources": {
     "NAT": "aggressive_small_caps",
-    "GRABW": "small_cap_gainers",
-    "NVDA": "most_actives",
-    "DNN": "most_actives",
-    "MSC": "small_cap_gainers",
-    "ARL": "small_cap_gainers",
+    "NVDA": "most_actives+day_gainers",
     "CNF": "small_cap_gainers",
     "CTKB": "aggressive_small_caps",
-    "QNST": "aggressive_small_caps",
-    "CMPS": "aggressive_small_caps",
-    "CRI": "aggressive_small_caps",
-    "CLM": "aggressive_small_caps",
     "ENOV": "aggressive_small_caps",
     "EVGO": "most_shorted_stocks",
     "RUN": "most_shorted_stocks",
@@ -478,7 +464,7 @@
     "KSS": "most_shorted_stocks",
     "RC": "aggressive_small_caps",
     "MU": "most_actives",
-    "IONQ": "day_gainers",
+    "IONQ": "most_actives+day_gainers",
     "AEHR": "day_gainers",
     "ACLS": "day_gainers",
     "VICR": "day_gainers",
@@ -655,6 +641,14 @@
     "SG": "small_cap_gainers",
     "FSSL": "small_cap_gainers",
     "TEAD": "small_cap_gainers",
-    "SLS": "most_shorted_stocks"
+    "SLS": "most_shorted_stocks",
+    "AMC": "most_actives",
+    "SECZ": "day_gainers",
+    "BURL": "day_gainers",
+    "LPG": "day_gainers",
+    "MAT": "day_gainers",
+    "ECF": "small_cap_gainers",
+    "KELYB": "small_cap_gainers",
+    "BYND": "most_shorted_stocks"
   }
 }
