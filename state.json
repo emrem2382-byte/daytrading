@@ -23,7 +23,6 @@
     "ASPSW",
     "JACK",
     "CCCC",
-    "SANM",
     "LSCC",
     "PTGX",
     "MXL",
@@ -317,13 +316,11 @@
     "CDXS",
     "OPTU",
     "BB",
-    "NMRA"
+    "NMRA",
+    "IDYA"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "HUM": {
-      "start_bar": "2026-09-28T11:10:00-04:00"
-    },
     "PATH": {
       "start_bar": "2026-09-28T11:15:00-04:00"
     },
@@ -333,10 +330,16 @@
     "GRAL": {
       "start_bar": "2026-09-28T11:10:00-04:00"
     },
-    "IT": {
+    "QNST": {
       "start_bar": "2026-09-28T11:20:00-04:00"
     },
-    "QNST": {
+    "MAAS": {
+      "start_bar": "2026-09-28T11:20:00-04:00"
+    },
+    "CDNA": {
+      "start_bar": "2026-09-28T11:20:00-04:00"
+    },
+    "CNK": {
       "start_bar": "2026-09-28T11:20:00-04:00"
     }
   },
@@ -346,7 +349,6 @@
     "ASPSW": "small_cap_gainers",
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
-    "SANM": "day_gainers",
     "LSCC": "day_gainers",
     "PTGX": "day_gainers",
     "MXL": "day_gainers",
@@ -640,6 +642,7 @@
     "CDXS": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
     "BB": "most_actives",
-    "NMRA": "small_cap_gainers"
+    "NMRA": "small_cap_gainers",
+    "IDYA": "day_gainers"
   }
 }
