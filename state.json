@@ -25,7 +25,6 @@
     "CCCC",
     "OCGN",
     "GRAB",
-    "AAON",
     "TSEM",
     "FSLR",
     "BE",
@@ -317,21 +316,13 @@
     "ONT",
     "STEM",
     "SI",
-    "TRIB"
+    "TRIB",
+    "ASPSZ"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "FSSL": {
       "start_bar": "2026-09-28T10:10:00-04:00"
-    },
-    "SES": {
-      "start_bar": "2026-09-28T10:20:00-04:00"
-    },
-    "EMBC": {
-      "start_bar": "2026-09-28T10:15:00-04:00"
-    },
-    "SHOE": {
-      "start_bar": "2026-09-28T10:20:00-04:00"
     },
     "OFIX": {
       "start_bar": "2026-09-28T10:25:00-04:00"
@@ -341,9 +332,6 @@
     },
     "ANGI": {
       "start_bar": "2026-09-28T10:20:00-04:00"
-    },
-    "CMPS": {
-      "start_bar": "2026-09-28T10:25:00-04:00"
     },
     "RFL": {
       "start_bar": "2026-09-28T10:30:00-04:00"
@@ -356,6 +344,15 @@
     },
     "EAF": {
       "start_bar": "2026-09-28T10:25:00-04:00"
+    },
+    "DMRC": {
+      "start_bar": "2026-09-28T10:30:00-04:00"
+    },
+    "CSL": {
+      "start_bar": "2026-09-28T10:30:00-04:00"
+    },
+    "LVWR": {
+      "start_bar": "2026-09-28T10:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -366,7 +363,6 @@
     "CCCC": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "GRAB": "most_actives",
-    "AAON": "day_gainers",
     "TSEM": "day_gainers",
     "FSLR": "day_gainers",
     "BE": "day_gainers",
@@ -658,6 +654,7 @@
     "ONT": "small_cap_gainers",
     "STEM": "small_cap_gainers",
     "SI": "small_cap_gainers",
-    "TRIB": "small_cap_gainers"
+    "TRIB": "small_cap_gainers",
+    "ASPSZ": "small_cap_gainers"
   }
 }
