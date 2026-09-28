@@ -26,8 +26,6 @@
     "IONQ",
     "KPTI",
     "STLA",
-    "QUBT",
-    "RGTI",
     "QNT",
     "FOIL",
     "SRPT",
@@ -317,26 +315,13 @@
     "SEER",
     "RFL",
     "PVLA",
-    "HAPN"
+    "HAPN",
+    "PCVX",
+    "LUCK"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "IONQ": {
-      "start_bar": "2026-09-28T14:40:00-04:00"
-    },
-    "FTK": {
-      "start_bar": "2026-09-28T14:35:00-04:00"
-    },
     "PRGO": {
-      "start_bar": "2026-09-28T14:45:00-04:00"
-    },
-    "PACS": {
-      "start_bar": "2026-09-28T14:40:00-04:00"
-    },
-    "FOIL": {
-      "start_bar": "2026-09-28T14:45:00-04:00"
-    },
-    "GSHD": {
       "start_bar": "2026-09-28T14:45:00-04:00"
     },
     "FN": {
@@ -347,6 +332,18 @@
     },
     "BVC": {
       "start_bar": "2026-09-28T14:45:00-04:00"
+    },
+    "CEVA": {
+      "start_bar": "2026-09-28T14:50:00-04:00"
+    },
+    "WOLF": {
+      "start_bar": "2026-09-28T14:50:00-04:00"
+    },
+    "BRSL": {
+      "start_bar": "2026-09-28T14:55:00-04:00"
+    },
+    "CTNM": {
+      "start_bar": "2026-09-28T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,8 +355,6 @@
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
-    "QUBT": "most_shorted_stocks",
-    "RGTI": "day_gainers",
     "QNT": "day_gainers",
     "FOIL": "small_cap_gainers",
     "SRPT": "aggressive_small_caps",
@@ -649,6 +644,8 @@
     "SEER": "small_cap_gainers",
     "RFL": "small_cap_gainers",
     "PVLA": "day_gainers",
-    "HAPN": "aggressive_small_caps"
+    "HAPN": "aggressive_small_caps",
+    "PCVX": "day_gainers",
+    "LUCK": "small_cap_gainers"
   }
 }
