@@ -27,7 +27,6 @@
     "KPTI",
     "STLA",
     "SRPT",
-    "CVS",
     "AMZN",
     "SMR",
     "VALE",
@@ -317,21 +316,13 @@
     "STTK",
     "ANTX",
     "CGON",
-    "BZUN"
+    "BZUN",
+    "BBBYW"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "ESAB": {
-      "start_bar": "2026-09-28T15:15:00-04:00"
-    },
-    "CRWD": {
-      "start_bar": "2026-09-28T15:20:00-04:00"
-    },
     "PRGO": {
       "start_bar": "2026-09-28T15:25:00-04:00"
-    },
-    "VEEA": {
-      "start_bar": "2026-09-28T15:20:00-04:00"
     },
     "SFL": {
       "start_bar": "2026-09-28T15:25:00-04:00"
@@ -356,19 +347,42 @@
     },
     "MGNX": {
       "start_bar": "2026-09-28T15:25:00-04:00"
+    },
+    "STLA": {
+      "start_bar": "2026-09-28T15:35:00-04:00"
+    },
+    "NKE": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "ANGX": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "UAMY": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "MHK": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "CDNA": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "SG": {
+      "start_bar": "2026-09-28T15:35:00-04:00"
+    },
+    "BIOA": {
+      "start_bar": "2026-09-28T15:35:00-04:00"
     }
   },
   "ticker_sources": {
     "NAT": "aggressive_small_caps",
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
-    "CCCC": "small_cap_gainers+most_shorted_stocks",
+    "CCCC": "most_shorted_stocks",
     "MAAS": "day_gainers",
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
     "SRPT": "aggressive_small_caps",
-    "CVS": "day_gainers",
     "AMZN": "most_actives",
     "SMR": "most_actives",
     "VALE": "most_actives",
@@ -658,6 +672,7 @@
     "STTK": "small_cap_gainers",
     "ANTX": "small_cap_gainers",
     "CGON": "day_gainers",
-    "BZUN": "small_cap_gainers"
+    "BZUN": "small_cap_gainers",
+    "BBBYW": "small_cap_gainers"
   }
 }
