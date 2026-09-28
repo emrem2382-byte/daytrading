@@ -26,8 +26,6 @@
     "RFL",
     "IONQ",
     "KPTI",
-    "NU",
-    "PLSE",
     "BHC",
     "STLA",
     "BWA",
@@ -317,30 +315,32 @@
     "RVI",
     "YETI",
     "WING",
-    "ABOS"
+    "ABOS",
+    "VFC",
+    "SN"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "CANG": {
-      "start_bar": "2026-09-28T13:50:00-04:00"
-    },
     "EVEX": {
       "start_bar": "2026-09-28T13:55:00-04:00"
     },
     "FOIL": {
       "start_bar": "2026-09-28T14:00:00-04:00"
     },
-    "NWCL": {
-      "start_bar": "2026-09-28T14:00:00-04:00"
-    },
-    "WBD": {
-      "start_bar": "2026-09-28T14:05:00-04:00"
-    },
     "GKOS": {
       "start_bar": "2026-09-28T14:05:00-04:00"
     },
     "NKTR": {
       "start_bar": "2026-09-28T14:00:00-04:00"
+    },
+    "LEA": {
+      "start_bar": "2026-09-28T14:05:00-04:00"
+    },
+    "ANNX": {
+      "start_bar": "2026-09-28T14:10:00-04:00"
+    },
+    "ONT": {
+      "start_bar": "2026-09-28T14:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,8 +352,6 @@
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
-    "NU": "most_actives",
-    "PLSE": "day_gainers",
     "BHC": "day_gainers",
     "STLA": "most_actives",
     "BWA": "day_gainers",
@@ -643,6 +641,8 @@
     "RVI": "small_cap_gainers",
     "YETI": "day_gainers",
     "WING": "day_gainers",
-    "ABOS": "small_cap_gainers"
+    "ABOS": "small_cap_gainers",
+    "VFC": "day_gainers",
+    "SN": "day_gainers"
   }
 }
