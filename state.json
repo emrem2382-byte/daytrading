@@ -22,8 +22,6 @@
     "NVDA",
     "CTKB",
     "ASPSW",
-    "METC",
-    "CWH",
     "HEPS",
     "MGN",
     "WOLF",
@@ -317,21 +315,14 @@
     "YOU",
     "FIVE",
     "QNST",
-    "SCNI"
+    "SCNI",
+    "CCL",
+    "ENHA"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "QNT": {
-      "start_bar": "2026-09-28T09:55:00-04:00"
-    },
-    "NNBR": {
-      "start_bar": "2026-09-28T10:00:00-04:00"
-    },
     "ABNB": {
       "start_bar": "2026-09-28T10:05:00-04:00"
-    },
-    "GETY": {
-      "start_bar": "2026-09-28T10:00:00-04:00"
     },
     "OLN": {
       "start_bar": "2026-09-28T10:10:00-04:00"
@@ -345,11 +336,17 @@
     "RYAN": {
       "start_bar": "2026-09-28T10:10:00-04:00"
     },
-    "DDD": {
-      "start_bar": "2026-09-28T10:10:00-04:00"
-    },
     "KLXE": {
       "start_bar": "2026-09-28T10:05:00-04:00"
+    },
+    "GSHD": {
+      "start_bar": "2026-09-28T10:10:00-04:00"
+    },
+    "MHK": {
+      "start_bar": "2026-09-28T10:15:00-04:00"
+    },
+    "FSSL": {
+      "start_bar": "2026-09-28T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,8 +354,6 @@
     "NVDA": "most_actives",
     "CTKB": "aggressive_small_caps",
     "ASPSW": "small_cap_gainers",
-    "METC": "aggressive_small_caps",
-    "CWH": "aggressive_small_caps",
     "HEPS": "small_cap_gainers",
     "MGN": "most_shorted_stocks",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
@@ -433,7 +428,7 @@
     "RFL": "small_cap_gainers",
     "AIFU": "small_cap_gainers",
     "TMC": "aggressive_small_caps",
-    "KSS": "most_shorted_stocks",
+    "KSS": "day_gainers+most_shorted_stocks",
     "RC": "aggressive_small_caps",
     "MU": "most_actives",
     "IONQ": "most_actives+day_gainers",
@@ -652,6 +647,8 @@
     "YOU": "day_gainers",
     "FIVE": "day_gainers",
     "QNST": "aggressive_small_caps",
-    "SCNI": "most_shorted_stocks"
+    "SCNI": "most_shorted_stocks",
+    "CCL": "most_actives",
+    "ENHA": "small_cap_gainers"
   }
 }
