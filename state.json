@@ -23,10 +23,6 @@
     "ASPSW",
     "CCCC",
     "MAAS",
-    "SPCX",
-    "ESI",
-    "SCGLY",
-    "SKHY",
     "QCOM",
     "HRI",
     "BHE",
@@ -317,16 +313,14 @@
     "PLBL",
     "HUYA",
     "VACI-UN",
-    "JACK"
+    "JACK",
+    "GKOS",
+    "ADMA",
+    "ABCL",
+    "GIL"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "CVRX": {
-      "start_bar": "2026-09-28T12:00:00-04:00"
-    },
-    "RDY": {
-      "start_bar": "2026-09-28T12:05:00-04:00"
-    },
     "OI": {
       "start_bar": "2026-09-28T12:10:00-04:00"
     },
@@ -338,6 +332,24 @@
     },
     "OLED": {
       "start_bar": "2026-09-28T12:15:00-04:00"
+    },
+    "GFS": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "NVTS": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-09-28T12:15:00-04:00"
+    },
+    "SECZ": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "CCL": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "METC": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,10 +358,6 @@
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "MAAS": "day_gainers",
-    "SPCX": "most_actives",
-    "ESI": "day_gainers",
-    "SCGLY": "day_gainers",
-    "SKHY": "day_gainers",
     "QCOM": "day_gainers",
     "HRI": "day_gainers",
     "BHE": "day_gainers",
@@ -359,7 +367,7 @@
     "KSS": "most_shorted_stocks",
     "RC": "aggressive_small_caps",
     "MU": "most_actives",
-    "IONQ": "most_actives",
+    "IONQ": "most_actives+day_gainers",
     "AEHR": "day_gainers",
     "ACLS": "day_gainers",
     "VICR": "day_gainers",
@@ -613,7 +621,7 @@
     "MSB": "small_cap_gainers",
     "CDXS": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
-    "BB": "most_actives",
+    "BB": "most_actives+day_gainers",
     "NMRA": "small_cap_gainers",
     "IDYA": "day_gainers",
     "PANW": "day_gainers",
@@ -640,6 +648,10 @@
     "PLBL": "day_gainers",
     "HUYA": "small_cap_gainers",
     "VACI-UN": "small_cap_gainers",
-    "JACK": "most_shorted_stocks"
+    "JACK": "most_shorted_stocks",
+    "GKOS": "day_gainers",
+    "ADMA": "day_gainers",
+    "ABCL": "day_gainers",
+    "GIL": "day_gainers"
   }
 }
