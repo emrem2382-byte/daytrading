@@ -25,7 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "MCHP",
     "ADI",
     "NXPI",
     "OI",
@@ -317,7 +316,8 @@
     "AGIO",
     "MGNX",
     "IBRX",
-    "TSHA"
+    "TSHA",
+    "DNLI"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -341,6 +341,21 @@
     },
     "BJ": {
       "start_bar": "2026-09-28T12:55:00-04:00"
+    },
+    "FOIL": {
+      "start_bar": "2026-09-28T13:00:00-04:00"
+    },
+    "RYAN": {
+      "start_bar": "2026-09-28T12:55:00-04:00"
+    },
+    "LESL": {
+      "start_bar": "2026-09-28T13:00:00-04:00"
+    },
+    "OPENZ": {
+      "start_bar": "2026-09-28T12:55:00-04:00"
+    },
+    "VCEL": {
+      "start_bar": "2026-09-28T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -351,7 +366,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "MCHP": "day_gainers",
     "ADI": "day_gainers",
     "NXPI": "day_gainers",
     "OI": "aggressive_small_caps",
@@ -498,7 +512,7 @@
     "GRAL": "day_gainers",
     "BEKE": "day_gainers",
     "RDY": "day_gainers",
-    "GETY": "aggressive_small_caps",
+    "GETY": "small_cap_gainers+aggressive_small_caps",
     "AMPX": "small_cap_gainers",
     "ANNX": "small_cap_gainers",
     "BUR": "small_cap_gainers",
@@ -643,6 +657,7 @@
     "AGIO": "day_gainers",
     "MGNX": "small_cap_gainers",
     "IBRX": "day_gainers",
-    "TSHA": "small_cap_gainers"
+    "TSHA": "small_cap_gainers",
+    "DNLI": "day_gainers"
   }
 }
