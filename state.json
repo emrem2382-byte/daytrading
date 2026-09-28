@@ -22,10 +22,6 @@
     "NVDA",
     "ASPSW",
     "CCCC",
-    "CYD",
-    "YSG",
-    "XRXDW",
-    "COUR",
     "SNOW",
     "AMBA",
     "SYNA",
@@ -317,7 +313,11 @@
     "TENB",
     "ROIV",
     "SLQT",
-    "TRAX"
+    "TRAX",
+    "ELVN",
+    "PTCT",
+    "DFTX",
+    "VCYT"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -338,6 +338,30 @@
     },
     "RGTI": {
       "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "TMC": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "ADI": {
+      "start_bar": "2026-09-28T12:00:00-04:00"
+    },
+    "PLSE": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "VALE": {
+      "start_bar": "2026-09-28T12:00:00-04:00"
+    },
+    "ALGM": {
+      "start_bar": "2026-09-28T12:00:00-04:00"
+    },
+    "BYND": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "GPRO": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "SRFM": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -345,10 +369,6 @@
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "CYD": "small_cap_gainers",
-    "YSG": "small_cap_gainers",
-    "XRXDW": "small_cap_gainers",
-    "COUR": "aggressive_small_caps",
     "SNOW": "day_gainers",
     "AMBA": "day_gainers",
     "SYNA": "day_gainers",
@@ -640,6 +660,10 @@
     "TENB": "day_gainers",
     "ROIV": "day_gainers",
     "SLQT": "small_cap_gainers",
-    "TRAX": "small_cap_gainers"
+    "TRAX": "small_cap_gainers",
+    "ELVN": "day_gainers",
+    "PTCT": "day_gainers",
+    "DFTX": "day_gainers",
+    "VCYT": "day_gainers"
   }
 }
