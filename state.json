@@ -24,10 +24,6 @@
     "JACK",
     "CCCC",
     "OCGN",
-    "FSLR",
-    "BE",
-    "VRT",
-    "PDFS",
     "GNRC",
     "DELL",
     "ON",
@@ -317,29 +313,18 @@
     "TRIB",
     "ASPSZ",
     "SRFM",
-    "TLYS"
+    "TLYS",
+    "WBD",
+    "BJ",
+    "SDGR",
+    "HTZWW"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "OFIX": {
-      "start_bar": "2026-09-28T10:25:00-04:00"
-    },
     "BXC": {
       "start_bar": "2026-09-28T10:20:00-04:00"
     },
     "RFL": {
-      "start_bar": "2026-09-28T10:30:00-04:00"
-    },
-    "VALE": {
-      "start_bar": "2026-09-28T10:30:00-04:00"
-    },
-    "FTK": {
-      "start_bar": "2026-09-28T10:25:00-04:00"
-    },
-    "DMRC": {
-      "start_bar": "2026-09-28T10:30:00-04:00"
-    },
-    "CSL": {
       "start_bar": "2026-09-28T10:30:00-04:00"
     },
     "LVWR": {
@@ -347,6 +332,12 @@
     },
     "CAR": {
       "start_bar": "2026-09-28T10:35:00-04:00"
+    },
+    "RC": {
+      "start_bar": "2026-09-28T10:40:00-04:00"
+    },
+    "MTLS": {
+      "start_bar": "2026-09-28T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,10 +347,6 @@
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "FSLR": "day_gainers",
-    "BE": "day_gainers",
-    "VRT": "day_gainers",
-    "PDFS": "day_gainers",
     "GNRC": "day_gainers",
     "DELL": "day_gainers",
     "ON": "day_gainers",
@@ -649,6 +636,10 @@
     "TRIB": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
     "SRFM": "small_cap_gainers",
-    "TLYS": "small_cap_gainers"
+    "TLYS": "small_cap_gainers",
+    "WBD": "most_actives",
+    "BJ": "day_gainers",
+    "SDGR": "day_gainers",
+    "HTZWW": "small_cap_gainers"
   }
 }
