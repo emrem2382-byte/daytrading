@@ -23,14 +23,8 @@
     "ASPSW",
     "CCCC",
     "MAAS",
-    "QCOM",
-    "HRI",
-    "BHE",
     "RFL",
-    "AIFU",
-    "TMC",
     "KSS",
-    "RC",
     "MU",
     "IONQ",
     "AEHR",
@@ -317,17 +311,17 @@
     "GKOS",
     "ADMA",
     "ABCL",
-    "GIL"
+    "GIL",
+    "VOYG",
+    "MSGS",
+    "TXG",
+    "NKTR",
+    "SUPN",
+    "ZUMZ"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "OI": {
-      "start_bar": "2026-09-28T12:10:00-04:00"
-    },
-    "QNT": {
-      "start_bar": "2026-09-28T12:10:00-04:00"
-    },
-    "SUJA": {
       "start_bar": "2026-09-28T12:10:00-04:00"
     },
     "OLED": {
@@ -350,6 +344,48 @@
     },
     "METC": {
       "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "VPG": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "LYG": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "MHK": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "CSL": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "AUR": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "RRX": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "CRT": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "FN": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "PLAY": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "CAR": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "TROX": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
+    },
+    "ANNX": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "SG": {
+      "start_bar": "2026-09-28T12:25:00-04:00"
+    },
+    "QNST": {
+      "start_bar": "2026-09-28T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,14 +394,8 @@
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "MAAS": "day_gainers",
-    "QCOM": "day_gainers",
-    "HRI": "day_gainers",
-    "BHE": "day_gainers",
     "RFL": "small_cap_gainers",
-    "AIFU": "small_cap_gainers",
-    "TMC": "aggressive_small_caps",
     "KSS": "most_shorted_stocks",
-    "RC": "aggressive_small_caps",
     "MU": "most_actives",
     "IONQ": "most_actives+day_gainers",
     "AEHR": "day_gainers",
@@ -652,6 +682,12 @@
     "GKOS": "day_gainers",
     "ADMA": "day_gainers",
     "ABCL": "day_gainers",
-    "GIL": "day_gainers"
+    "GIL": "day_gainers",
+    "VOYG": "day_gainers",
+    "MSGS": "day_gainers",
+    "TXG": "day_gainers",
+    "NKTR": "day_gainers",
+    "SUPN": "day_gainers",
+    "ZUMZ": "small_cap_gainers"
   }
 }
