@@ -22,8 +22,6 @@
     "NVDA",
     "ASPSW",
     "CCCC",
-    "VECO",
-    "SMCI",
     "INGM",
     "FFBC",
     "MSFT",
@@ -317,7 +315,9 @@
     "ALXO",
     "OCGN",
     "EC",
-    "PBLS"
+    "PBLS",
+    "CMG",
+    "LFT"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -339,8 +339,6 @@
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "VECO": "day_gainers",
-    "SMCI": "day_gainers",
     "INGM": "day_gainers",
     "FFBC": "day_gainers",
     "MSFT": "most_actives",
@@ -634,6 +632,8 @@
     "ALXO": "small_cap_gainers",
     "OCGN": "most_shorted_stocks",
     "EC": "day_gainers",
-    "PBLS": "day_gainers"
+    "PBLS": "day_gainers",
+    "CMG": "day_gainers",
+    "LFT": "small_cap_gainers"
   }
 }
