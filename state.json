@@ -26,7 +26,6 @@
     "IONQ",
     "KPTI",
     "STLA",
-    "ALHC",
     "RVMDW",
     "QUBT",
     "RGTI",
@@ -317,24 +316,25 @@
     "ENTA",
     "OPENW",
     "SEER",
-    "RFL"
+    "RFL",
+    "PVLA"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "MTLS": {
-      "start_bar": "2026-09-28T14:25:00-04:00"
-    },
-    "QNST": {
-      "start_bar": "2026-09-28T14:25:00-04:00"
-    },
-    "OPENW": {
-      "start_bar": "2026-09-28T14:20:00-04:00"
-    },
     "IONQ": {
       "start_bar": "2026-09-28T14:40:00-04:00"
     },
     "FTK": {
       "start_bar": "2026-09-28T14:35:00-04:00"
+    },
+    "PRGO": {
+      "start_bar": "2026-09-28T14:45:00-04:00"
+    },
+    "PACS": {
+      "start_bar": "2026-09-28T14:40:00-04:00"
+    },
+    "METC": {
+      "start_bar": "2026-09-28T14:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,7 +346,6 @@
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
-    "ALHC": "small_cap_gainers",
     "RVMDW": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
     "RGTI": "day_gainers",
@@ -637,6 +636,7 @@
     "ENTA": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
     "SEER": "small_cap_gainers",
-    "RFL": "small_cap_gainers"
+    "RFL": "small_cap_gainers",
+    "PVLA": "day_gainers"
   }
 }
