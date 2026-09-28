@@ -26,7 +26,6 @@
     "KPTI",
     "STLA",
     "SRPT",
-    "VALE",
     "CDE",
     "HHH",
     "MTLS",
@@ -317,13 +316,11 @@
     "BBBYW",
     "EQPT",
     "VRNS",
-    "ACRS"
+    "ACRS",
+    "NAVN"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "TNK": {
-      "start_bar": "2026-09-28T15:30:00-04:00"
-    },
     "VEEA": {
       "start_bar": "2026-09-28T15:35:00-04:00"
     },
@@ -333,11 +330,17 @@
     "SFIX": {
       "start_bar": "2026-09-28T15:40:00-04:00"
     },
-    "MBX": {
-      "start_bar": "2026-09-28T15:40:00-04:00"
-    },
     "PLBL": {
       "start_bar": "2026-09-28T15:40:00-04:00"
+    },
+    "WF": {
+      "start_bar": "2026-09-28T15:45:00-04:00"
+    },
+    "ZS": {
+      "start_bar": "2026-09-28T15:50:00-04:00"
+    },
+    "ADRX": {
+      "start_bar": "2026-09-28T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -349,7 +352,6 @@
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
     "SRPT": "aggressive_small_caps",
-    "VALE": "most_actives",
     "CDE": "most_actives",
     "HHH": "day_gainers",
     "MTLS": "small_cap_gainers",
@@ -640,6 +642,7 @@
     "BBBYW": "small_cap_gainers",
     "EQPT": "day_gainers",
     "VRNS": "day_gainers",
-    "ACRS": "small_cap_gainers"
+    "ACRS": "small_cap_gainers",
+    "NAVN": "day_gainers"
   }
 }
