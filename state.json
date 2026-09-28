@@ -26,7 +26,6 @@
     "RFL",
     "IONQ",
     "KPTI",
-    "JBLU",
     "OLED",
     "KURA",
     "NU",
@@ -317,7 +316,8 @@
     "CRWD",
     "TAC",
     "AMH-PG",
-    "RVI"
+    "RVI",
+    "YETI"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -327,11 +327,11 @@
     "HYMC": {
       "start_bar": "2026-09-28T13:45:00-04:00"
     },
-    "NVTS": {
-      "start_bar": "2026-09-28T13:50:00-04:00"
-    },
     "CDXS": {
       "start_bar": "2026-09-28T13:45:00-04:00"
+    },
+    "CANG": {
+      "start_bar": "2026-09-28T13:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -343,7 +343,6 @@
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
-    "JBLU": "aggressive_small_caps",
     "OLED": "day_gainers",
     "KURA": "aggressive_small_caps",
     "NU": "most_actives",
@@ -634,6 +633,7 @@
     "CRWD": "day_gainers",
     "TAC": "day_gainers",
     "AMH-PG": "day_gainers",
-    "RVI": "small_cap_gainers"
+    "RVI": "small_cap_gainers",
+    "YETI": "day_gainers"
   }
 }
