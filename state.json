@@ -27,8 +27,6 @@
     "KPTI",
     "STLA",
     "SRPT",
-    "TIGO",
-    "LYG",
     "CVS",
     "AMZN",
     "SMR",
@@ -317,15 +315,14 @@
     "AMRX",
     "AVPT",
     "STTK",
-    "ANTX"
+    "ANTX",
+    "CGON",
+    "BZUN"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "ESAB": {
       "start_bar": "2026-09-28T15:15:00-04:00"
-    },
-    "OCGN": {
-      "start_bar": "2026-09-28T15:10:00-04:00"
     },
     "CRWD": {
       "start_bar": "2026-09-28T15:20:00-04:00"
@@ -336,14 +333,29 @@
     "VEEA": {
       "start_bar": "2026-09-28T15:20:00-04:00"
     },
-    "BV": {
-      "start_bar": "2026-09-28T15:25:00-04:00"
-    },
     "SFL": {
       "start_bar": "2026-09-28T15:25:00-04:00"
     },
     "FIVE": {
       "start_bar": "2026-09-28T15:20:00-04:00"
+    },
+    "PLNT": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "NIO": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "TNK": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "FLX": {
+      "start_bar": "2026-09-28T15:25:00-04:00"
+    },
+    "ZUMZ": {
+      "start_bar": "2026-09-28T15:30:00-04:00"
+    },
+    "MGNX": {
+      "start_bar": "2026-09-28T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,8 +368,6 @@
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
     "SRPT": "aggressive_small_caps",
-    "TIGO": "day_gainers",
-    "LYG": "most_actives",
     "CVS": "day_gainers",
     "AMZN": "most_actives",
     "SMR": "most_actives",
@@ -646,6 +656,8 @@
     "AMRX": "day_gainers",
     "AVPT": "day_gainers",
     "STTK": "small_cap_gainers",
-    "ANTX": "small_cap_gainers"
+    "ANTX": "small_cap_gainers",
+    "CGON": "day_gainers",
+    "BZUN": "small_cap_gainers"
   }
 }
