@@ -25,9 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "ADI",
-    "NXPI",
-    "OI",
     "OLN",
     "PATH",
     "F",
@@ -317,7 +314,10 @@
     "MGNX",
     "IBRX",
     "TSHA",
-    "DNLI"
+    "DNLI",
+    "WAY",
+    "SEAT",
+    "CTKB"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -327,14 +327,8 @@
     "SMCIP": {
       "start_bar": "2026-09-28T12:35:00-04:00"
     },
-    "BXC": {
-      "start_bar": "2026-09-28T12:35:00-04:00"
-    },
     "ANGI": {
       "start_bar": "2026-09-28T12:50:00-04:00"
-    },
-    "CDXS": {
-      "start_bar": "2026-09-28T12:45:00-04:00"
     },
     "GETY": {
       "start_bar": "2026-09-28T12:55:00-04:00"
@@ -342,20 +336,17 @@
     "BJ": {
       "start_bar": "2026-09-28T12:55:00-04:00"
     },
-    "FOIL": {
-      "start_bar": "2026-09-28T13:00:00-04:00"
-    },
     "RYAN": {
-      "start_bar": "2026-09-28T12:55:00-04:00"
-    },
-    "LESL": {
-      "start_bar": "2026-09-28T13:00:00-04:00"
-    },
-    "OPENZ": {
       "start_bar": "2026-09-28T12:55:00-04:00"
     },
     "VCEL": {
       "start_bar": "2026-09-28T12:55:00-04:00"
+    },
+    "PYPL": {
+      "start_bar": "2026-09-28T13:05:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-28T13:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -366,9 +357,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "ADI": "day_gainers",
-    "NXPI": "day_gainers",
-    "OI": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
     "PATH": "most_actives",
     "F": "most_actives",
@@ -658,6 +646,9 @@
     "MGNX": "small_cap_gainers",
     "IBRX": "day_gainers",
     "TSHA": "small_cap_gainers",
-    "DNLI": "day_gainers"
+    "DNLI": "day_gainers",
+    "WAY": "day_gainers",
+    "SEAT": "small_cap_gainers",
+    "CTKB": "aggressive_small_caps"
   }
 }
