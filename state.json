@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "FLX",
-    "HEPS",
-    "NU",
-    "STKE",
-    "ALHC",
-    "AIFU",
-    "STEM",
-    "AUROW",
-    "DDOG",
-    "CDE",
-    "EVTL",
-    "AEHR",
-    "CEVA",
-    "ALM",
-    "PENG"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "NAT",
     "NVDA",
