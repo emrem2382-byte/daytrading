@@ -22,9 +22,6 @@
     "NVDA",
     "ASPSW",
     "CCCC",
-    "SNOW",
-    "AMBA",
-    "SYNA",
     "HNGE",
     "PENG",
     "MAAS",
@@ -317,7 +314,10 @@
     "ELVN",
     "PTCT",
     "DFTX",
-    "VCYT"
+    "VCYT",
+    "OKTA",
+    "BWLP",
+    "RGEN"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
@@ -326,12 +326,6 @@
     },
     "CRT": {
       "start_bar": "2026-09-28T11:45:00-04:00"
-    },
-    "WOLF": {
-      "start_bar": "2026-09-28T11:50:00-04:00"
-    },
-    "ONTO": {
-      "start_bar": "2026-09-28T11:50:00-04:00"
     },
     "NXPI": {
       "start_bar": "2026-09-28T11:55:00-04:00"
@@ -362,6 +356,15 @@
     },
     "SRFM": {
       "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "CVRX": {
+      "start_bar": "2026-09-28T12:00:00-04:00"
+    },
+    "RDY": {
+      "start_bar": "2026-09-28T12:05:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-09-28T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -369,9 +372,6 @@
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "SNOW": "day_gainers",
-    "AMBA": "day_gainers",
-    "SYNA": "day_gainers",
     "HNGE": "day_gainers",
     "PENG": "day_gainers",
     "MAAS": "day_gainers",
@@ -664,6 +664,9 @@
     "ELVN": "day_gainers",
     "PTCT": "day_gainers",
     "DFTX": "day_gainers",
-    "VCYT": "day_gainers"
+    "VCYT": "day_gainers",
+    "OKTA": "day_gainers",
+    "BWLP": "day_gainers",
+    "RGEN": "day_gainers"
   }
 }
