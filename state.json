@@ -26,8 +26,6 @@
     "RFL",
     "KSS",
     "IONQ",
-    "AEHR",
-    "ACLS",
     "VICR",
     "ONTO",
     "SMTC",
@@ -317,23 +315,13 @@
     "NKTR",
     "SUPN",
     "ZUMZ",
-    "LENZ"
+    "LENZ",
+    "NAMS",
+    "TGE"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "OLED": {
-      "start_bar": "2026-09-28T12:15:00-04:00"
-    },
-    "GFS": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "NVTS": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
     "SECZ": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "CCL": {
       "start_bar": "2026-09-28T12:20:00-04:00"
     },
     "METC": {
@@ -344,12 +332,6 @@
     },
     "LYG": {
       "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "MHK": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "CSL": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
     },
     "AUR": {
       "start_bar": "2026-09-28T12:25:00-04:00"
@@ -377,9 +359,6 @@
     },
     "SG": {
       "start_bar": "2026-09-28T12:25:00-04:00"
-    },
-    "QNST": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
     },
     "KSS": {
       "start_bar": "2026-09-28T12:30:00-04:00"
@@ -414,9 +393,6 @@
     "DXYZ": {
       "start_bar": "2026-09-28T12:30:00-04:00"
     },
-    "MGA": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
-    },
     "ANGI": {
       "start_bar": "2026-09-28T12:25:00-04:00"
     },
@@ -429,11 +405,14 @@
     "CMPS": {
       "start_bar": "2026-09-28T12:25:00-04:00"
     },
-    "VCEL": {
-      "start_bar": "2026-09-28T12:30:00-04:00"
+    "ALAB": {
+      "start_bar": "2026-09-28T12:35:00-04:00"
     },
-    "BJ": {
-      "start_bar": "2026-09-28T12:25:00-04:00"
+    "SMCIP": {
+      "start_bar": "2026-09-28T12:35:00-04:00"
+    },
+    "OPENZ": {
+      "start_bar": "2026-09-28T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -445,8 +424,6 @@
     "RFL": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
     "IONQ": "most_actives+day_gainers",
-    "AEHR": "day_gainers",
-    "ACLS": "day_gainers",
     "VICR": "day_gainers",
     "ONTO": "day_gainers",
     "SMTC": "day_gainers",
@@ -736,6 +713,8 @@
     "NKTR": "day_gainers",
     "SUPN": "day_gainers",
     "ZUMZ": "small_cap_gainers",
-    "LENZ": "most_shorted_stocks"
+    "LENZ": "most_shorted_stocks",
+    "NAMS": "day_gainers",
+    "TGE": "small_cap_gainers"
   }
 }
