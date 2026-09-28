@@ -26,8 +26,6 @@
     "RFL",
     "IONQ",
     "KPTI",
-    "OLED",
-    "KURA",
     "NU",
     "PLSE",
     "BHC",
@@ -317,24 +315,32 @@
     "TAC",
     "AMH-PG",
     "RVI",
-    "YETI"
+    "YETI",
+    "WING",
+    "ABOS"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "BWA": {
-      "start_bar": "2026-09-28T13:45:00-04:00"
-    },
-    "HYMC": {
-      "start_bar": "2026-09-28T13:45:00-04:00"
-    },
-    "CDXS": {
-      "start_bar": "2026-09-28T13:45:00-04:00"
-    },
     "CANG": {
       "start_bar": "2026-09-28T13:50:00-04:00"
     },
     "EVEX": {
       "start_bar": "2026-09-28T13:55:00-04:00"
+    },
+    "FOIL": {
+      "start_bar": "2026-09-28T14:00:00-04:00"
+    },
+    "NWCL": {
+      "start_bar": "2026-09-28T14:00:00-04:00"
+    },
+    "WBD": {
+      "start_bar": "2026-09-28T14:05:00-04:00"
+    },
+    "GKOS": {
+      "start_bar": "2026-09-28T14:05:00-04:00"
+    },
+    "NKTR": {
+      "start_bar": "2026-09-28T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,8 +352,6 @@
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
     "KPTI": "most_shorted_stocks",
-    "OLED": "day_gainers",
-    "KURA": "aggressive_small_caps",
     "NU": "most_actives",
     "PLSE": "day_gainers",
     "BHC": "day_gainers",
@@ -637,6 +641,8 @@
     "TAC": "day_gainers",
     "AMH-PG": "day_gainers",
     "RVI": "small_cap_gainers",
-    "YETI": "day_gainers"
+    "YETI": "day_gainers",
+    "WING": "day_gainers",
+    "ABOS": "small_cap_gainers"
   }
 }
