@@ -22,9 +22,6 @@
     "NVDA",
     "ASPSW",
     "CCCC",
-    "FFBC",
-    "MSFT",
-    "DAVA",
     "CYD",
     "YSG",
     "XRXDW",
@@ -317,13 +314,13 @@
     "PBLS",
     "CMG",
     "LFT",
-    "TENB"
+    "TENB",
+    "ROIV",
+    "SLQT",
+    "TRAX"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "ONDS": {
-      "start_bar": "2026-09-28T11:40:00-04:00"
-    },
     "ACLS": {
       "start_bar": "2026-09-28T11:50:00-04:00"
     },
@@ -332,6 +329,15 @@
     },
     "WOLF": {
       "start_bar": "2026-09-28T11:50:00-04:00"
+    },
+    "ONTO": {
+      "start_bar": "2026-09-28T11:50:00-04:00"
+    },
+    "NXPI": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
+    },
+    "RGTI": {
+      "start_bar": "2026-09-28T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -339,9 +345,6 @@
     "NVDA": "most_actives",
     "ASPSW": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "FFBC": "day_gainers",
-    "MSFT": "most_actives",
-    "DAVA": "small_cap_gainers",
     "CYD": "small_cap_gainers",
     "YSG": "small_cap_gainers",
     "XRXDW": "small_cap_gainers",
@@ -634,6 +637,9 @@
     "PBLS": "day_gainers",
     "CMG": "day_gainers",
     "LFT": "small_cap_gainers",
-    "TENB": "day_gainers"
+    "TENB": "day_gainers",
+    "ROIV": "day_gainers",
+    "SLQT": "small_cap_gainers",
+    "TRAX": "small_cap_gainers"
   }
 }
