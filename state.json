@@ -25,8 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "IT",
-    "FIGS",
     "OPEN",
     "PRM",
     "BETA",
@@ -317,20 +315,13 @@
     "BIOA",
     "ULH",
     "ULCC",
-    "IVR"
+    "IVR",
+    "ADRX",
+    "STRZ"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "CRT": {
-      "start_bar": "2026-09-28T12:20:00-04:00"
-    },
     "FOIL": {
-      "start_bar": "2026-09-28T13:05:00-04:00"
-    },
-    "ABNB": {
-      "start_bar": "2026-09-28T13:05:00-04:00"
-    },
-    "MAT": {
       "start_bar": "2026-09-28T13:05:00-04:00"
     },
     "XMTR": {
@@ -351,9 +342,6 @@
     "NVTS": {
       "start_bar": "2026-09-28T13:15:00-04:00"
     },
-    "NFE": {
-      "start_bar": "2026-09-28T13:15:00-04:00"
-    },
     "FSSL": {
       "start_bar": "2026-09-28T13:10:00-04:00"
     },
@@ -362,6 +350,24 @@
     },
     "VCEL": {
       "start_bar": "2026-09-28T13:10:00-04:00"
+    },
+    "BETA": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "JELD": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "CMCO": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "CEVA": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "STKE": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "ESAB": {
+      "start_bar": "2026-09-28T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,8 +378,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "IT": "day_gainers",
-    "FIGS": "day_gainers",
     "OPEN": "most_actives",
     "PRM": "day_gainers",
     "BETA": "day_gainers",
@@ -664,6 +668,8 @@
     "BIOA": "small_cap_gainers",
     "ULH": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
-    "IVR": "aggressive_small_caps"
+    "IVR": "aggressive_small_caps",
+    "ADRX": "small_cap_gainers",
+    "STRZ": "small_cap_gainers"
   }
 }
