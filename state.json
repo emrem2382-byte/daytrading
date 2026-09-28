@@ -20,13 +20,7 @@
   "tracked_tickers": [
     "NAT",
     "NVDA",
-    "CNF",
     "CTKB",
-    "ENOV",
-    "EVGO",
-    "RUN",
-    "AKAM",
-    "PGEN",
     "DDOG",
     "ALM",
     "MFG",
@@ -317,48 +311,30 @@
     "MAT",
     "ECF",
     "KELYB",
-    "BYND"
+    "BYND",
+    "NIO",
+    "CAAP",
+    "ABVX",
+    "PS",
+    "PSKY",
+    "VSXY"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "SMFG": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "UXIN": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "BEKE": {
-      "start_bar": "2026-09-28T09:35:00-04:00"
-    },
-    "VIOT": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "CTKB": {
-      "start_bar": "2026-09-28T09:35:00-04:00"
-    },
-    "SLS": {
-      "start_bar": "2026-09-28T09:35:00-04:00"
-    },
-    "JBL": {
+    "HUM": {
       "start_bar": "2026-09-28T09:45:00-04:00"
     },
-    "FSSL": {
-      "start_bar": "2026-09-28T09:40:00-04:00"
+    "NKE": {
+      "start_bar": "2026-09-28T09:50:00-04:00"
     },
-    "ECF": {
-      "start_bar": "2026-09-28T09:35:00-04:00"
+    "KMTS": {
+      "start_bar": "2026-09-28T09:45:00-04:00"
     }
   },
   "ticker_sources": {
     "NAT": "aggressive_small_caps",
     "NVDA": "most_actives+day_gainers",
-    "CNF": "small_cap_gainers",
     "CTKB": "aggressive_small_caps",
-    "ENOV": "aggressive_small_caps",
-    "EVGO": "most_shorted_stocks",
-    "RUN": "most_shorted_stocks",
-    "AKAM": "most_actives",
-    "PGEN": "day_gainers",
     "DDOG": "day_gainers",
     "ALM": "day_gainers",
     "MFG": "day_gainers",
@@ -649,6 +625,12 @@
     "MAT": "day_gainers",
     "ECF": "small_cap_gainers",
     "KELYB": "small_cap_gainers",
-    "BYND": "most_shorted_stocks"
+    "BYND": "most_shorted_stocks",
+    "NIO": "most_actives",
+    "CAAP": "day_gainers",
+    "ABVX": "day_gainers",
+    "PS": "day_gainers",
+    "PSKY": "day_gainers",
+    "VSXY": "day_gainers"
   }
 }
