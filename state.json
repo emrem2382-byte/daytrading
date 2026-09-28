@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "FLX",
+    "HEPS",
+    "SRFM",
+    "AIFU",
+    "NU",
+    "STEM",
+    "AUROW",
+    "CDE",
+    "ADRX",
+    "DDOG",
+    "ALM",
+    "STKE",
+    "PENG",
+    "VEEA",
+    "FCEL"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "GAB",
     "CLBK",
