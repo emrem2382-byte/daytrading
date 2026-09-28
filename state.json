@@ -27,7 +27,6 @@
     "KPTI",
     "STLA",
     "SRPT",
-    "HYMC",
     "TIGO",
     "LYG",
     "CVS",
@@ -317,23 +316,15 @@
     "LUCK",
     "AMRX",
     "AVPT",
-    "STTK"
+    "STTK",
+    "ANTX"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "ECO": {
-      "start_bar": "2026-09-28T15:00:00-04:00"
-    },
-    "WBD": {
-      "start_bar": "2026-09-28T15:05:00-04:00"
-    },
     "NAT": {
       "start_bar": "2026-09-28T15:10:00-04:00"
     },
     "JMIA": {
-      "start_bar": "2026-09-28T15:05:00-04:00"
-    },
-    "MX": {
       "start_bar": "2026-09-28T15:05:00-04:00"
     },
     "LGO": {
@@ -342,11 +333,11 @@
     "ESAB": {
       "start_bar": "2026-09-28T15:15:00-04:00"
     },
-    "PSKY": {
-      "start_bar": "2026-09-28T15:15:00-04:00"
-    },
     "OCGN": {
       "start_bar": "2026-09-28T15:10:00-04:00"
+    },
+    "CRWD": {
+      "start_bar": "2026-09-28T15:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,7 +350,6 @@
     "KPTI": "most_shorted_stocks",
     "STLA": "most_actives",
     "SRPT": "aggressive_small_caps",
-    "HYMC": "day_gainers",
     "TIGO": "day_gainers",
     "LYG": "most_actives",
     "CVS": "day_gainers",
@@ -567,7 +557,7 @@
     "OCGN": "most_shorted_stocks",
     "EC": "day_gainers",
     "PBLS": "day_gainers",
-    "CMG": "most_actives+day_gainers",
+    "CMG": "most_actives",
     "LFT": "small_cap_gainers",
     "TENB": "day_gainers",
     "ROIV": "day_gainers",
@@ -649,6 +639,7 @@
     "LUCK": "small_cap_gainers",
     "AMRX": "day_gainers",
     "AVPT": "day_gainers",
-    "STTK": "small_cap_gainers"
+    "STTK": "small_cap_gainers",
+    "ANTX": "small_cap_gainers"
   }
 }
