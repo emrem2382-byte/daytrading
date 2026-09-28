@@ -25,11 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "BAC",
-    "HBAN",
-    "PYPL",
-    "AGL",
-    "BBAI",
     "IT",
     "FIGS",
     "OPEN",
@@ -317,21 +312,17 @@
     "CTKB",
     "KMT",
     "CMCM",
-    "KSS"
+    "KSS",
+    "CBRL",
+    "BIOA",
+    "ULH",
+    "ULCC",
+    "IVR"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "CRT": {
       "start_bar": "2026-09-28T12:20:00-04:00"
-    },
-    "BJ": {
-      "start_bar": "2026-09-28T12:55:00-04:00"
-    },
-    "PYPL": {
-      "start_bar": "2026-09-28T13:05:00-04:00"
-    },
-    "OPENL": {
-      "start_bar": "2026-09-28T13:00:00-04:00"
     },
     "FOIL": {
       "start_bar": "2026-09-28T13:05:00-04:00"
@@ -341,6 +332,36 @@
     },
     "MAT": {
       "start_bar": "2026-09-28T13:05:00-04:00"
+    },
+    "XMTR": {
+      "start_bar": "2026-09-28T13:10:00-04:00"
+    },
+    "STLA": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "QNT": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "CDE": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "LESL": {
+      "start_bar": "2026-09-28T13:10:00-04:00"
+    },
+    "NVTS": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "NFE": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "FSSL": {
+      "start_bar": "2026-09-28T13:10:00-04:00"
+    },
+    "QNST": {
+      "start_bar": "2026-09-28T13:15:00-04:00"
+    },
+    "VCEL": {
+      "start_bar": "2026-09-28T13:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -351,11 +372,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "BAC": "most_actives",
-    "HBAN": "most_actives",
-    "PYPL": "day_gainers",
-    "AGL": "small_cap_gainers",
-    "BBAI": "most_shorted_stocks",
     "IT": "day_gainers",
     "FIGS": "day_gainers",
     "OPEN": "most_actives",
@@ -643,6 +659,11 @@
     "CTKB": "aggressive_small_caps",
     "KMT": "day_gainers",
     "CMCM": "small_cap_gainers",
-    "KSS": "most_shorted_stocks"
+    "KSS": "most_shorted_stocks",
+    "CBRL": "small_cap_gainers",
+    "BIOA": "small_cap_gainers",
+    "ULH": "small_cap_gainers",
+    "ULCC": "aggressive_small_caps",
+    "IVR": "aggressive_small_caps"
   }
 }
