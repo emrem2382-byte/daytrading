@@ -18,28 +18,9 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "TBLA",
-    "FLX",
-    "PPLI",
-    "AAL",
     "AUROW",
     "NAT",
     "GRABW",
-    "ULCC",
-    "SRFM",
-    "NVAX",
-    "OUST",
-    "ABSI",
-    "ENHA",
-    "ANVS",
-    "NCNO",
-    "QDEL",
-    "ABX",
-    "SITM",
-    "XENE",
-    "RGEN",
-    "NC",
-    "DFNS",
     "PS",
     "TRIP",
     "NNE",
@@ -317,35 +298,36 @@
     "FEDU",
     "KOS",
     "LGO",
-    "TROX"
+    "TROX",
+    "KOD",
+    "NWCL",
+    "NTES",
+    "PONY",
+    "GRAL",
+    "BEKE",
+    "RDY",
+    "GETY",
+    "AMPX",
+    "ANNX",
+    "BUR",
+    "CRMT",
+    "OPENZ",
+    "CANG",
+    "VIOT",
+    "RCG",
+    "SANG",
+    "IQMXW",
+    "SFL"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
-    "MSC": {
-      "start_bar": "2026-09-25T15:55:00-04:00"
-    },
     "SMFG": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "WNC": {
-      "start_bar": "2026-09-25T15:55:00-04:00"
-    },
-    "SYNA": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
     "IONQ": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
-    "PRM": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
     "STLA": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "RYAN": {
-      "start_bar": "2026-09-28T09:30:00-04:00"
-    },
-    "SERV": {
       "start_bar": "2026-09-28T09:30:00-04:00"
     },
     "MX": {
@@ -354,40 +336,33 @@
     "ATRA": {
       "start_bar": "2026-09-25T15:55:00-04:00"
     },
-    "SMCIP": {
-      "start_bar": "2026-09-25T15:55:00-04:00"
+    "AESI": {
+      "start_bar": "2026-09-28T09:35:00-04:00"
+    },
+    "UXIN": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
+    },
+    "MOBI": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
+    },
+    "BEKE": {
+      "start_bar": "2026-09-28T09:35:00-04:00"
+    },
+    "VIOT": {
+      "start_bar": "2026-09-28T09:30:00-04:00"
     }
   },
   "ticker_sources": {
-    "TBLA": "aggressive_small_caps",
-    "FLX": "small_cap_gainers",
-    "PPLI": "day_gainers",
-    "AAL": "most_actives",
     "AUROW": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "GRABW": "small_cap_gainers",
-    "ULCC": "small_cap_gainers+aggressive_small_caps",
-    "SRFM": "small_cap_gainers",
-    "NVAX": "most_shorted_stocks",
-    "OUST": "day_gainers",
-    "ABSI": "small_cap_gainers",
-    "ENHA": "small_cap_gainers",
-    "ANVS": "small_cap_gainers",
-    "NCNO": "day_gainers",
-    "QDEL": "small_cap_gainers",
-    "ABX": "small_cap_gainers",
-    "SITM": "day_gainers",
-    "XENE": "day_gainers",
-    "RGEN": "day_gainers",
-    "NC": "small_cap_gainers",
-    "DFNS": "most_shorted_stocks",
     "PS": "day_gainers",
     "TRIP": "small_cap_gainers",
     "NNE": "most_shorted_stocks",
     "SILC": "small_cap_gainers",
     "SN": "day_gainers",
     "MRVI": "small_cap_gainers",
-    "NVDA": "most_actives",
+    "NVDA": "most_actives+day_gainers",
     "DNN": "most_actives",
     "MSC": "small_cap_gainers",
     "ARL": "small_cap_gainers",
@@ -507,7 +482,7 @@
     "KSS": "most_shorted_stocks",
     "RC": "aggressive_small_caps",
     "MU": "most_actives",
-    "IONQ": "most_actives",
+    "IONQ": "day_gainers",
     "AEHR": "day_gainers",
     "ACLS": "day_gainers",
     "VICR": "day_gainers",
@@ -658,6 +633,25 @@
     "FEDU": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
     "LGO": "aggressive_small_caps",
-    "TROX": "aggressive_small_caps"
+    "TROX": "aggressive_small_caps",
+    "KOD": "most_actives+day_gainers",
+    "NWCL": "day_gainers",
+    "NTES": "day_gainers",
+    "PONY": "day_gainers",
+    "GRAL": "day_gainers",
+    "BEKE": "day_gainers",
+    "RDY": "day_gainers",
+    "GETY": "small_cap_gainers+aggressive_small_caps",
+    "AMPX": "small_cap_gainers",
+    "ANNX": "small_cap_gainers",
+    "BUR": "small_cap_gainers",
+    "CRMT": "small_cap_gainers",
+    "OPENZ": "small_cap_gainers",
+    "CANG": "small_cap_gainers",
+    "VIOT": "small_cap_gainers",
+    "RCG": "small_cap_gainers",
+    "SANG": "small_cap_gainers",
+    "IQMXW": "small_cap_gainers",
+    "SFL": "aggressive_small_caps"
   }
 }
