@@ -24,7 +24,6 @@
     "JACK",
     "CCCC",
     "OCGN",
-    "SBSW",
     "EVTL",
     "WNC",
     "SRL",
@@ -317,24 +316,28 @@
     "MBX",
     "CPB",
     "PRAX",
-    "ANVS"
+    "ANVS",
+    "RXRX"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "RFL": {
       "start_bar": "2026-09-28T10:30:00-04:00"
     },
-    "CMPS": {
-      "start_bar": "2026-09-28T10:45:00-04:00"
-    },
-    "AGL": {
-      "start_bar": "2026-09-28T10:50:00-04:00"
-    },
     "P": {
       "start_bar": "2026-09-28T11:00:00-04:00"
     },
     "PTGX": {
       "start_bar": "2026-09-28T10:55:00-04:00"
+    },
+    "KPTI": {
+      "start_bar": "2026-09-28T11:00:00-04:00"
+    },
+    "GRAL": {
+      "start_bar": "2026-09-28T11:00:00-04:00"
+    },
+    "RXRX": {
+      "start_bar": "2026-09-28T11:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -344,7 +347,6 @@
     "JACK": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "SBSW": "day_gainers",
     "EVTL": "small_cap_gainers",
     "WNC": "small_cap_gainers",
     "SRL": "small_cap_gainers",
@@ -637,6 +639,7 @@
     "MBX": "day_gainers",
     "CPB": "day_gainers",
     "PRAX": "day_gainers",
-    "ANVS": "small_cap_gainers"
+    "ANVS": "small_cap_gainers",
+    "RXRX": "most_shorted_stocks"
   }
 }
