@@ -2,19 +2,19 @@
   "premarket_watchlist": [
     "FLX",
     "HEPS",
-    "ALHC",
     "NU",
+    "STKE",
+    "ALHC",
     "AIFU",
     "STEM",
     "AUROW",
-    "CDE",
-    "STKE",
-    "SRFM",
-    "EVTL",
-    "MAAS",
     "DDOG",
+    "CDE",
+    "EVTL",
+    "AEHR",
+    "CEVA",
     "ALM",
-    "AEHR"
+    "PENG"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
