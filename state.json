@@ -25,9 +25,6 @@
     "MAAS",
     "RFL",
     "IONQ",
-    "OLN",
-    "PATH",
-    "F",
     "BAC",
     "HBAN",
     "PYPL",
@@ -317,29 +314,17 @@
     "DNLI",
     "WAY",
     "SEAT",
-    "CTKB"
+    "CTKB",
+    "KMT",
+    "CMCM",
+    "KSS"
   ],
   "tracked_day": "2026-09-28",
   "pending_bull": {
     "CRT": {
       "start_bar": "2026-09-28T12:20:00-04:00"
     },
-    "SMCIP": {
-      "start_bar": "2026-09-28T12:35:00-04:00"
-    },
-    "ANGI": {
-      "start_bar": "2026-09-28T12:50:00-04:00"
-    },
-    "GETY": {
-      "start_bar": "2026-09-28T12:55:00-04:00"
-    },
     "BJ": {
-      "start_bar": "2026-09-28T12:55:00-04:00"
-    },
-    "RYAN": {
-      "start_bar": "2026-09-28T12:55:00-04:00"
-    },
-    "VCEL": {
       "start_bar": "2026-09-28T12:55:00-04:00"
     },
     "PYPL": {
@@ -347,6 +332,15 @@
     },
     "OPENL": {
       "start_bar": "2026-09-28T13:00:00-04:00"
+    },
+    "FOIL": {
+      "start_bar": "2026-09-28T13:05:00-04:00"
+    },
+    "ABNB": {
+      "start_bar": "2026-09-28T13:05:00-04:00"
+    },
+    "MAT": {
+      "start_bar": "2026-09-28T13:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,9 +351,6 @@
     "MAAS": "day_gainers",
     "RFL": "small_cap_gainers",
     "IONQ": "most_actives",
-    "OLN": "aggressive_small_caps",
-    "PATH": "most_actives",
-    "F": "most_actives",
     "BAC": "most_actives",
     "HBAN": "most_actives",
     "PYPL": "day_gainers",
@@ -649,6 +640,9 @@
     "DNLI": "day_gainers",
     "WAY": "day_gainers",
     "SEAT": "small_cap_gainers",
-    "CTKB": "aggressive_small_caps"
+    "CTKB": "aggressive_small_caps",
+    "KMT": "day_gainers",
+    "CMCM": "small_cap_gainers",
+    "KSS": "most_shorted_stocks"
   }
 }
