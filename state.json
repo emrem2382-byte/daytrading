@@ -29,7 +29,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "YETI",
     "WING",
     "ABOS",
     "VFC",
@@ -317,62 +316,15 @@
     "BBD",
     "PACB",
     "ETI-P",
-    "SLS"
+    "SLS",
+    "ULCC"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "TVTX": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "AGX": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "NVMI": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "ASX": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "AAL": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "OPEN": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
     "FCEL": {
       "start_bar": "2026-09-29T14:05:00-04:00"
     },
-    "VVV": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "BWXT": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "FLNC": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "AFRM": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
     "RUN": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "VST": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "MXL": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "IREN": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "SNAP": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "CRWV": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "BTDR": {
       "start_bar": "2026-09-29T14:05:00-04:00"
     },
     "ENTG": {
@@ -390,9 +342,6 @@
     "UMC": {
       "start_bar": "2026-09-29T14:10:00-04:00"
     },
-    "INTC": {
-      "start_bar": "2026-09-29T14:15:00-04:00"
-    },
     "LRCX": {
       "start_bar": "2026-09-29T14:15:00-04:00"
     },
@@ -402,8 +351,20 @@
     "OI": {
       "start_bar": "2026-09-29T14:15:00-04:00"
     },
-    "AADX": {
-      "start_bar": "2026-09-29T14:10:00-04:00"
+    "KMX": {
+      "start_bar": "2026-09-29T14:20:00-04:00"
+    },
+    "CAMT": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "SMTC": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "CVNA": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "PMVP": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -418,7 +379,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "YETI": "day_gainers",
     "WING": "day_gainers",
     "ABOS": "small_cap_gainers",
     "VFC": "day_gainers",
@@ -706,6 +666,7 @@
     "BBD": "most_actives",
     "PACB": "small_cap_gainers",
     "ETI-P": "small_cap_gainers",
-    "SLS": "most_shorted_stocks"
+    "SLS": "most_shorted_stocks",
+    "ULCC": "aggressive_small_caps"
   }
 }
