@@ -31,10 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "TXG",
-    "NKTR",
-    "SUPN",
-    "ZUMZ",
     "LENZ",
     "NAMS",
     "TGE",
@@ -317,21 +313,28 @@
     "LYNX",
     "AHT-PI",
     "LESL",
-    "SHOE"
+    "SHOE",
+    "BTDR",
+    "YOU",
+    "TLYS",
+    "CAPR"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
     "P": {
       "start_bar": "2026-09-29T11:25:00-04:00"
     },
-    "COUR": {
-      "start_bar": "2026-09-29T11:30:00-04:00"
-    },
     "OPENL": {
       "start_bar": "2026-09-29T11:25:00-04:00"
     },
     "SHOE": {
       "start_bar": "2026-09-29T11:25:00-04:00"
+    },
+    "VECO": {
+      "start_bar": "2026-09-29T11:30:00-04:00"
+    },
+    "MRNA": {
+      "start_bar": "2026-09-29T11:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,10 +351,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "TXG": "day_gainers",
-    "NKTR": "day_gainers",
-    "SUPN": "day_gainers",
-    "ZUMZ": "small_cap_gainers",
     "LENZ": "most_shorted_stocks",
     "NAMS": "day_gainers",
     "TGE": "small_cap_gainers",
@@ -634,6 +633,10 @@
     "LYNX": "small_cap_gainers",
     "AHT-PI": "small_cap_gainers",
     "LESL": "aggressive_small_caps",
-    "SHOE": "most_shorted_stocks"
+    "SHOE": "most_shorted_stocks",
+    "BTDR": "most_actives",
+    "YOU": "day_gainers",
+    "TLYS": "small_cap_gainers",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks"
   }
 }
