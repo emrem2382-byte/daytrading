@@ -18,7 +18,6 @@
   ],
   "last_session": "open",
   "tracked_tickers": [
-    "NVDA",
     "AXTI",
     "TROX",
     "SANG",
@@ -317,35 +316,12 @@
     "GRABW",
     "RCUS",
     "DHX",
-    "LVWR"
+    "LVWR",
+    "KSS"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "JMKE": {
-      "start_bar": "2026-09-29T13:25:00-04:00"
-    },
-    "CRWD": {
-      "start_bar": "2026-09-29T13:30:00-04:00"
-    },
-    "CLSK": {
-      "start_bar": "2026-09-29T13:30:00-04:00"
-    },
     "KLIC": {
-      "start_bar": "2026-09-29T13:30:00-04:00"
-    },
-    "TSEM": {
-      "start_bar": "2026-09-29T13:30:00-04:00"
-    },
-    "TBLA": {
-      "start_bar": "2026-09-29T13:25:00-04:00"
-    },
-    "WULF": {
-      "start_bar": "2026-09-29T13:30:00-04:00"
-    },
-    "RIVN": {
-      "start_bar": "2026-09-29T13:30:00-04:00"
-    },
-    "BLSM": {
       "start_bar": "2026-09-29T13:30:00-04:00"
     },
     "FCEL": {
@@ -374,10 +350,33 @@
     },
     "ONTO": {
       "start_bar": "2026-09-29T13:40:00-04:00"
+    },
+    "PVLA": {
+      "start_bar": "2026-09-29T13:40:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-09-29T13:40:00-04:00"
+    },
+    "NAVN": {
+      "start_bar": "2026-09-29T13:45:00-04:00"
+    },
+    "NOK": {
+      "start_bar": "2026-09-29T13:45:00-04:00"
+    },
+    "MOD": {
+      "start_bar": "2026-09-29T13:40:00-04:00"
+    },
+    "CBRS": {
+      "start_bar": "2026-09-29T13:45:00-04:00"
+    },
+    "PCG": {
+      "start_bar": "2026-09-29T13:45:00-04:00"
+    },
+    "DASH": {
+      "start_bar": "2026-09-29T13:45:00-04:00"
     }
   },
   "ticker_sources": {
-    "NVDA": "most_actives",
     "AXTI": "day_gainers",
     "TROX": "aggressive_small_caps",
     "SANG": "small_cap_gainers",
@@ -676,6 +675,7 @@
     "GRABW": "small_cap_gainers",
     "RCUS": "day_gainers",
     "DHX": "small_cap_gainers",
-    "LVWR": "small_cap_gainers"
+    "LVWR": "small_cap_gainers",
+    "KSS": "most_shorted_stocks"
   }
 }
