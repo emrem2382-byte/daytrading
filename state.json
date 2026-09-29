@@ -321,9 +321,6 @@
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ASML": {
-      "start_bar": "2026-09-29T13:15:00-04:00"
-    },
     "ENVX": {
       "start_bar": "2026-09-29T13:20:00-04:00"
     },
@@ -336,14 +333,41 @@
     "VIAV": {
       "start_bar": "2026-09-29T13:25:00-04:00"
     },
-    "CBRS": {
-      "start_bar": "2026-09-29T13:25:00-04:00"
-    },
     "JMKE": {
       "start_bar": "2026-09-29T13:25:00-04:00"
     },
     "UMC": {
       "start_bar": "2026-09-29T13:25:00-04:00"
+    },
+    "CRWD": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-09-29T13:25:00-04:00"
+    },
+    "CLSK": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "ONTO": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "KLIC": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "TSEM": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "TBLA": {
+      "start_bar": "2026-09-29T13:25:00-04:00"
+    },
+    "WULF": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
+    },
+    "RIVN": {
+      "start_bar": "2026-09-29T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -577,7 +601,7 @@
     "MU": "most_actives",
     "APLD": "day_gainers",
     "HUT": "day_gainers",
-    "CIFR": "day_gainers",
+    "CIFR": "most_actives",
     "GWH": "small_cap_gainers",
     "XPOF": "small_cap_gainers",
     "WULF": "most_actives",
