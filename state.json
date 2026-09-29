@@ -34,9 +34,6 @@
     "CAPR",
     "RXRX",
     "OCGN",
-    "OKTA",
-    "BWLP",
-    "RGEN",
     "TWLO",
     "RBRK",
     "PLBL",
@@ -317,30 +314,18 @@
     "STDN",
     "OIG",
     "DLNG",
-    "SLDPW"
+    "SLDPW",
+    "CORZ",
+    "EBON",
+    "CORZW"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "SEER": {
-      "start_bar": "2026-09-29T10:20:00-04:00"
-    },
-    "BIOA": {
-      "start_bar": "2026-09-29T10:25:00-04:00"
-    },
-    "SPCX": {
-      "start_bar": "2026-09-29T10:30:00-04:00"
-    },
-    "WULF": {
-      "start_bar": "2026-09-29T10:30:00-04:00"
-    },
     "IBRX": {
       "start_bar": "2026-09-29T10:40:00-04:00"
     },
     "JACK": {
       "start_bar": "2026-09-29T10:40:00-04:00"
-    },
-    "HNGE": {
-      "start_bar": "2026-09-29T10:45:00-04:00"
     },
     "LGO": {
       "start_bar": "2026-09-29T10:40:00-04:00"
@@ -358,14 +343,11 @@
     "BMNR": "most_actives",
     "CCL": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "OKTA": "day_gainers",
-    "BWLP": "day_gainers",
-    "RGEN": "day_gainers",
     "TWLO": "day_gainers",
     "RBRK": "day_gainers",
     "PLBL": "day_gainers",
@@ -646,6 +628,9 @@
     "STDN": "small_cap_gainers",
     "OIG": "small_cap_gainers",
     "DLNG": "small_cap_gainers",
-    "SLDPW": "small_cap_gainers"
+    "SLDPW": "small_cap_gainers",
+    "CORZ": "day_gainers",
+    "EBON": "small_cap_gainers",
+    "CORZW": "small_cap_gainers"
   }
 }
