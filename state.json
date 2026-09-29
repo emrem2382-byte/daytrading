@@ -33,7 +33,6 @@
     "CAPR",
     "RXRX",
     "OCGN",
-    "JACK",
     "ABCL",
     "GIL",
     "VOYG",
@@ -317,18 +316,19 @@
     "ASPSZ",
     "WETO",
     "PCG",
-    "KNDI"
+    "KNDI",
+    "CCCC"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "CTNM": {
-      "start_bar": "2026-09-29T10:55:00-04:00"
-    },
-    "BZUN": {
-      "start_bar": "2026-09-29T11:00:00-04:00"
-    },
     "PCG": {
       "start_bar": "2026-09-29T11:05:00-04:00"
+    },
+    "STTK": {
+      "start_bar": "2026-09-29T11:15:00-04:00"
+    },
+    "NVTS": {
+      "start_bar": "2026-09-29T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -347,7 +347,6 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "JACK": "most_shorted_stocks",
     "ABCL": "day_gainers",
     "GIL": "day_gainers",
     "VOYG": "day_gainers",
@@ -631,6 +630,7 @@
     "ASPSZ": "small_cap_gainers",
     "WETO": "most_shorted_stocks",
     "PCG": "most_actives",
-    "KNDI": "small_cap_gainers"
+    "KNDI": "small_cap_gainers",
+    "CCCC": "most_shorted_stocks"
   }
 }
