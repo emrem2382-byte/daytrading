@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "NVDA",
-    "MX",
     "AXTI",
     "TROX",
     "SANG",
@@ -317,17 +316,20 @@
     "KNDI",
     "CCCC",
     "RBLX",
-    "JACK"
+    "JACK",
+    "LYNX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
     "STTK": {
       "start_bar": "2026-09-29T11:15:00-04:00"
+    },
+    "P": {
+      "start_bar": "2026-09-29T11:25:00-04:00"
     }
   },
   "ticker_sources": {
     "NVDA": "most_actives",
-    "MX": "small_cap_gainers",
     "AXTI": "day_gainers",
     "TROX": "aggressive_small_caps",
     "SANG": "small_cap_gainers",
@@ -625,6 +627,7 @@
     "KNDI": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "RBLX": "most_actives",
-    "JACK": "most_shorted_stocks"
+    "JACK": "most_shorted_stocks",
+    "LYNX": "small_cap_gainers"
   }
 }
