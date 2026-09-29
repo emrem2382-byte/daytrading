@@ -30,7 +30,6 @@
     "RXRX",
     "OCGN",
     "WING",
-    "LUCK",
     "AMRX",
     "AVPT",
     "STTK",
@@ -317,7 +316,8 @@
     "SHOP",
     "ANGI",
     "PATH",
-    "OPENW"
+    "OPENW",
+    "DQ"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
@@ -330,26 +330,11 @@
     "TSEM": {
       "start_bar": "2026-09-29T14:40:00-04:00"
     },
-    "FIGR": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
-    },
-    "CIFR": {
-      "start_bar": "2026-09-29T14:40:00-04:00"
-    },
-    "WOLF": {
-      "start_bar": "2026-09-29T14:40:00-04:00"
-    },
     "FEAM": {
       "start_bar": "2026-09-29T14:45:00-04:00"
     },
     "DJT": {
       "start_bar": "2026-09-29T14:45:00-04:00"
-    },
-    "CRWV": {
-      "start_bar": "2026-09-29T14:45:00-04:00"
-    },
-    "LUCK": {
-      "start_bar": "2026-09-29T14:50:00-04:00"
     },
     "BBBYW": {
       "start_bar": "2026-09-29T14:45:00-04:00"
@@ -362,6 +347,21 @@
     },
     "HTZ": {
       "start_bar": "2026-09-29T14:50:00-04:00"
+    },
+    "AXTI": {
+      "start_bar": "2026-09-29T14:55:00-04:00"
+    },
+    "BFLY": {
+      "start_bar": "2026-09-29T14:50:00-04:00"
+    },
+    "LITE": {
+      "start_bar": "2026-09-29T14:55:00-04:00"
+    },
+    "IESC": {
+      "start_bar": "2026-09-29T14:50:00-04:00"
+    },
+    "AAOI": {
+      "start_bar": "2026-09-29T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -377,7 +377,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
-    "LUCK": "small_cap_gainers",
     "AMRX": "day_gainers",
     "AVPT": "day_gainers",
     "STTK": "small_cap_gainers",
@@ -464,7 +463,7 @@
     "AIFU": "small_cap_gainers",
     "VACI": "small_cap_gainers",
     "JBLU": "aggressive_small_caps",
-    "FLNC": "aggressive_small_caps",
+    "FLNC": "small_cap_gainers+aggressive_small_caps",
     "NAT": "aggressive_small_caps",
     "KURA": "aggressive_small_caps",
     "FUN": "aggressive_small_caps",
@@ -664,6 +663,7 @@
     "SHOP": "day_gainers",
     "ANGI": "small_cap_gainers",
     "PATH": "most_actives",
-    "OPENW": "small_cap_gainers"
+    "OPENW": "small_cap_gainers",
+    "DQ": "small_cap_gainers"
   }
 }
