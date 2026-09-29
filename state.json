@@ -31,7 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "CTKB",
     "KMT",
     "CMCM",
     "KSS",
@@ -317,21 +316,19 @@
     "CAR",
     "ASPS",
     "HL",
-    "CCB"
+    "CCB",
+    "RIG"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "PAL": {
-      "start_bar": "2026-09-29T12:25:00-04:00"
-    },
-    "VECO": {
-      "start_bar": "2026-09-29T12:25:00-04:00"
-    },
     "LKNCY": {
       "start_bar": "2026-09-29T12:20:00-04:00"
     },
     "FLR": {
       "start_bar": "2026-09-29T12:40:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-29T12:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,7 +345,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "CTKB": "aggressive_small_caps",
     "KMT": "day_gainers",
     "CMCM": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
@@ -634,6 +630,7 @@
     "CAR": "day_gainers",
     "ASPS": "small_cap_gainers",
     "HL": "most_actives",
-    "CCB": "small_cap_gainers"
+    "CCB": "small_cap_gainers",
+    "RIG": "most_actives"
   }
 }
