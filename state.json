@@ -25,7 +25,6 @@
     "HAFN",
     "ORC",
     "CCL",
-    "GPRO",
     "FLX",
     "RXRX",
     "OCGN",
@@ -36,7 +35,6 @@
     "NFLX",
     "ORCL",
     "GENI",
-    "TMC",
     "EVH",
     "SOS",
     "PMT",
@@ -317,7 +315,9 @@
     "MXCT",
     "ASYS",
     "YELP",
-    "SOFI"
+    "SOFI",
+    "BAND",
+    "LEE"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
@@ -326,6 +326,27 @@
     },
     "APYX": {
       "start_bar": "2026-09-29T15:45:00-04:00"
+    },
+    "FPS": {
+      "start_bar": "2026-09-29T15:55:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-29T15:55:00-04:00"
+    },
+    "PMVP": {
+      "start_bar": "2026-09-29T15:50:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-09-29T15:55:00-04:00"
+    },
+    "FIGR": {
+      "start_bar": "2026-09-29T15:55:00-04:00"
+    },
+    "ORCL-PD": {
+      "start_bar": "2026-09-29T15:50:00-04:00"
+    },
+    "KNDI": {
+      "start_bar": "2026-09-29T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -336,7 +357,6 @@
     "HAFN": "day_gainers",
     "ORC": "aggressive_small_caps",
     "CCL": "most_actives+day_gainers",
-    "GPRO": "aggressive_small_caps",
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
@@ -347,7 +367,6 @@
     "NFLX": "most_actives",
     "ORCL": "most_actives+day_gainers",
     "GENI": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "SOS": "small_cap_gainers",
     "PMT": "aggressive_small_caps",
@@ -628,6 +647,8 @@
     "MXCT": "small_cap_gainers",
     "ASYS": "small_cap_gainers",
     "YELP": "small_cap_gainers",
-    "SOFI": "most_actives"
+    "SOFI": "most_actives",
+    "BAND": "day_gainers",
+    "LEE": "small_cap_gainers"
   }
 }
