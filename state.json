@@ -29,9 +29,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "CURV",
-    "BLSM",
-    "AMH-PH",
     "CRWD",
     "TAC",
     "AMH-PG",
@@ -317,16 +314,13 @@
     "GRAL",
     "SUJA",
     "INSG",
-    "OGC"
+    "OGC",
+    "PTON",
+    "PENG",
+    "JKS"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "SEB": {
-      "start_bar": "2026-09-29T13:50:00-04:00"
-    },
-    "SMMT": {
-      "start_bar": "2026-09-29T13:55:00-04:00"
-    },
     "YETI": {
       "start_bar": "2026-09-29T14:00:00-04:00"
     },
@@ -390,9 +384,6 @@
     "VVV": {
       "start_bar": "2026-09-29T14:00:00-04:00"
     },
-    "MTZ": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
     "BWXT": {
       "start_bar": "2026-09-29T14:05:00-04:00"
     },
@@ -402,22 +393,13 @@
     "GRAB": {
       "start_bar": "2026-09-29T14:00:00-04:00"
     },
-    "OI": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
     "AFRM": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "UAMY": {
       "start_bar": "2026-09-29T14:05:00-04:00"
     },
     "RUN": {
       "start_bar": "2026-09-29T14:05:00-04:00"
     },
     "VST": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "AADX": {
       "start_bar": "2026-09-29T14:05:00-04:00"
     },
     "MXL": {
@@ -434,6 +416,21 @@
     },
     "BTDR": {
       "start_bar": "2026-09-29T14:05:00-04:00"
+    },
+    "ENTG": {
+      "start_bar": "2026-09-29T14:05:00-04:00"
+    },
+    "TER": {
+      "start_bar": "2026-09-29T14:10:00-04:00"
+    },
+    "CLS": {
+      "start_bar": "2026-09-29T14:10:00-04:00"
+    },
+    "SMCI": {
+      "start_bar": "2026-09-29T14:10:00-04:00"
+    },
+    "UMC": {
+      "start_bar": "2026-09-29T14:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -448,9 +445,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "CURV": "small_cap_gainers",
-    "BLSM": "small_cap_gainers",
-    "AMH-PH": "day_gainers",
     "CRWD": "day_gainers",
     "TAC": "day_gainers",
     "AMH-PG": "day_gainers",
@@ -736,6 +730,9 @@
     "GRAL": "day_gainers",
     "SUJA": "small_cap_gainers",
     "INSG": "small_cap_gainers",
-    "OGC": "day_gainers"
+    "OGC": "day_gainers",
+    "PTON": "day_gainers",
+    "PENG": "day_gainers",
+    "JKS": "small_cap_gainers"
   }
 }
