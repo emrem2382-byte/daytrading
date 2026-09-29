@@ -30,7 +30,6 @@
     "RXRX",
     "OCGN",
     "WING",
-    "NAVN",
     "INTC",
     "SPCX",
     "PLUG",
@@ -38,8 +37,6 @@
     "SOFI",
     "NOK",
     "NFLX",
-    "TSLA",
-    "SMR",
     "ORCL",
     "OPEN",
     "SEB",
@@ -317,18 +314,15 @@
     "W",
     "AEO",
     "PGEN",
-    "CTKB"
+    "CTKB",
+    "MNSO",
+    "SEER",
+    "SB"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
     "GENI": {
       "start_bar": "2026-09-29T15:10:00-04:00"
-    },
-    "FUN": {
-      "start_bar": "2026-09-29T15:10:00-04:00"
-    },
-    "GRPN": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
     },
     "ORCL-PD": {
       "start_bar": "2026-09-29T15:05:00-04:00"
@@ -339,23 +333,17 @@
     "ITG": {
       "start_bar": "2026-09-29T15:10:00-04:00"
     },
-    "RXO": {
-      "start_bar": "2026-09-29T15:10:00-04:00"
-    },
-    "QUBT": {
-      "start_bar": "2026-09-29T15:15:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-09-29T15:15:00-04:00"
-    },
     "INBX": {
       "start_bar": "2026-09-29T15:15:00-04:00"
     },
-    "STDN": {
-      "start_bar": "2026-09-29T15:20:00-04:00"
-    },
     "CTKB": {
       "start_bar": "2026-09-29T15:15:00-04:00"
+    },
+    "LAC": {
+      "start_bar": "2026-09-29T15:25:00-04:00"
+    },
+    "TTAN": {
+      "start_bar": "2026-09-29T15:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -371,7 +359,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
-    "NAVN": "day_gainers",
     "INTC": "most_actives",
     "SPCX": "most_actives",
     "PLUG": "most_actives",
@@ -379,8 +366,6 @@
     "SOFI": "most_actives",
     "NOK": "most_actives",
     "NFLX": "most_actives",
-    "TSLA": "most_actives",
-    "SMR": "most_actives",
     "ORCL": "most_actives+day_gainers",
     "OPEN": "most_actives",
     "SEB": "day_gainers",
@@ -658,6 +643,9 @@
     "W": "day_gainers",
     "AEO": "day_gainers",
     "PGEN": "day_gainers",
-    "CTKB": "aggressive_small_caps"
+    "CTKB": "aggressive_small_caps",
+    "MNSO": "day_gainers",
+    "SEER": "small_cap_gainers",
+    "SB": "aggressive_small_caps"
   }
 }
