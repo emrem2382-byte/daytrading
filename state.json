@@ -30,9 +30,7 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "ULCC",
     "IVR",
-    "ADRX",
     "STRZ",
     "GOSS",
     "LKNCY",
@@ -317,27 +315,29 @@
     "IBRX",
     "WOLF",
     "CRSP",
-    "GRABW"
+    "GRABW",
+    "RCUS",
+    "DHX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ACRS": {
-      "start_bar": "2026-09-29T13:05:00-04:00"
-    },
     "GLW": {
       "start_bar": "2026-09-29T13:10:00-04:00"
     },
     "MU": {
       "start_bar": "2026-09-29T13:10:00-04:00"
     },
-    "PLUG": {
-      "start_bar": "2026-09-29T13:15:00-04:00"
-    },
     "ARM": {
       "start_bar": "2026-09-29T13:10:00-04:00"
     },
     "ASML": {
       "start_bar": "2026-09-29T13:15:00-04:00"
+    },
+    "ENVX": {
+      "start_bar": "2026-09-29T13:20:00-04:00"
+    },
+    "SKHY": {
+      "start_bar": "2026-09-29T13:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,9 +353,7 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "ULCC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
-    "ADRX": "small_cap_gainers",
     "STRZ": "small_cap_gainers",
     "GOSS": "small_cap_gainers",
     "LKNCY": "day_gainers",
@@ -640,6 +638,8 @@
     "IBRX": "day_gainers",
     "WOLF": "most_shorted_stocks",
     "CRSP": "day_gainers",
-    "GRABW": "small_cap_gainers"
+    "GRABW": "small_cap_gainers",
+    "RCUS": "day_gainers",
+    "DHX": "small_cap_gainers"
   }
 }
