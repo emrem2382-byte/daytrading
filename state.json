@@ -29,7 +29,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "LKNCY",
     "P",
     "CURV",
     "BLSM",
@@ -317,29 +316,15 @@
     "LVWR",
     "KSS",
     "GRAL",
-    "SUJA"
+    "SUJA",
+    "INSG"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ONTO": {
-      "start_bar": "2026-09-29T13:40:00-04:00"
-    },
-    "PVLA": {
-      "start_bar": "2026-09-29T13:40:00-04:00"
-    },
     "BBBYW": {
       "start_bar": "2026-09-29T13:40:00-04:00"
     },
-    "PCG": {
-      "start_bar": "2026-09-29T13:45:00-04:00"
-    },
-    "DASH": {
-      "start_bar": "2026-09-29T13:45:00-04:00"
-    },
     "OPENL": {
-      "start_bar": "2026-09-29T13:45:00-04:00"
-    },
-    "TBLA": {
       "start_bar": "2026-09-29T13:45:00-04:00"
     },
     "SEB": {
@@ -347,6 +332,60 @@
     },
     "SMMT": {
       "start_bar": "2026-09-29T13:55:00-04:00"
+    },
+    "YETI": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "VFC": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "TVTX": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "AMRX": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "BBAI": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "GLW": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "GFI": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "BLMN": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "AGX": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "NVMI": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "RDY": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "RKT": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "MU": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "CIFR": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "TE": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "INIO": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "ASX": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-09-29T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,7 +400,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "LKNCY": "day_gainers",
     "P": "day_gainers",
     "CURV": "small_cap_gainers",
     "BLSM": "small_cap_gainers",
@@ -649,6 +687,7 @@
     "LVWR": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
-    "SUJA": "small_cap_gainers"
+    "SUJA": "small_cap_gainers",
+    "INSG": "small_cap_gainers"
   }
 }
