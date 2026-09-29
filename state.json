@@ -21,20 +21,9 @@
     "NVDA",
     "MX",
     "AXTI",
-    "AZUL",
     "TROX",
     "SANG",
     "IQMXW",
-    "ECF",
-    "KELYB",
-    "BYND",
-    "NIO",
-    "CAAP",
-    "ABVX",
-    "PS",
-    "PSKY",
-    "VSXY",
-    "VG",
     "HAFN",
     "ECO",
     "ORC",
@@ -317,66 +306,26 @@
     "LGO",
     "CWH",
     "CSIQ",
-    "RUN"
+    "RUN",
+    "NU",
+    "ARM",
+    "NBIS",
+    "AAOI",
+    "VST",
+    "CEG",
+    "COHR",
+    "SG",
+    "OPENL",
+    "WBX",
+    "GETY"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "VOYG": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "WING": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "VSXY": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "AMPH": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "AEO": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "SDGR": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "VCYT": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "SN": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "OPENW": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
     "SOFI": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "NVTS": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "ACMR": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "FLNC": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "ECO": {
       "start_bar": "2026-09-29T09:35:00-04:00"
     },
     "ONDS": {
       "start_bar": "2026-09-29T09:40:00-04:00"
-    },
-    "CDXS": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "ALXO": {
-      "start_bar": "2026-09-29T09:40:00-04:00"
-    },
-    "CBRL": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
     },
     "BETA": {
       "start_bar": "2026-09-29T09:40:00-04:00"
@@ -391,9 +340,6 @@
       "start_bar": "2026-09-29T09:40:00-04:00"
     },
     "MSC": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "TSQ": {
       "start_bar": "2026-09-29T09:35:00-04:00"
     },
     "TROX": {
@@ -419,26 +365,36 @@
     },
     "EVGO": {
       "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "SCNI": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "LAC": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "PMT": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "AIFU": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-09-29T09:50:00-04:00"
+    },
+    "ITG": {
+      "start_bar": "2026-09-29T09:50:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-29T09:50:00-04:00"
     }
   },
   "ticker_sources": {
     "NVDA": "most_actives",
     "MX": "small_cap_gainers",
     "AXTI": "day_gainers",
-    "AZUL": "small_cap_gainers",
     "TROX": "aggressive_small_caps",
     "SANG": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "ECF": "small_cap_gainers",
-    "KELYB": "small_cap_gainers",
-    "BYND": "most_shorted_stocks",
-    "NIO": "most_actives",
-    "CAAP": "day_gainers",
-    "ABVX": "day_gainers",
-    "PS": "day_gainers",
-    "PSKY": "day_gainers",
-    "VSXY": "day_gainers",
-    "VG": "day_gainers",
     "HAFN": "day_gainers",
     "ECO": "day_gainers",
     "ORC": "aggressive_small_caps",
@@ -721,6 +677,17 @@
     "LGO": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
     "CSIQ": "aggressive_small_caps",
-    "RUN": "most_shorted_stocks"
+    "RUN": "most_shorted_stocks",
+    "NU": "most_actives",
+    "ARM": "day_gainers",
+    "NBIS": "day_gainers",
+    "AAOI": "day_gainers",
+    "VST": "day_gainers",
+    "CEG": "day_gainers",
+    "COHR": "day_gainers",
+    "SG": "small_cap_gainers",
+    "OPENL": "small_cap_gainers",
+    "WBX": "small_cap_gainers",
+    "GETY": "aggressive_small_caps"
   }
 }
