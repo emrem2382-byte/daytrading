@@ -27,7 +27,6 @@
     "ORC",
     "CCL",
     "GPRO",
-    "WOLF",
     "FLX",
     "RXRX",
     "OCGN",
@@ -317,18 +316,22 @@
     "RIG",
     "LBTYB",
     "ATI",
-    "DHT"
+    "DHT",
+    "IBRX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "FLR": {
-      "start_bar": "2026-09-29T12:40:00-04:00"
-    },
     "GRAB": {
       "start_bar": "2026-09-29T12:45:00-04:00"
     },
     "BA": {
       "start_bar": "2026-09-29T12:50:00-04:00"
+    },
+    "AGNC": {
+      "start_bar": "2026-09-29T12:55:00-04:00"
+    },
+    "RDY": {
+      "start_bar": "2026-09-29T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -341,7 +344,6 @@
     "ORC": "aggressive_small_caps",
     "CCL": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
-    "WOLF": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
@@ -631,6 +633,7 @@
     "RIG": "most_actives",
     "LBTYB": "day_gainers",
     "ATI": "day_gainers",
-    "DHT": "day_gainers"
+    "DHT": "day_gainers",
+    "IBRX": "day_gainers"
   }
 }
