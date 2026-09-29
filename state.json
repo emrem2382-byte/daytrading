@@ -31,8 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "TSHA",
-    "DNLI",
     "WAY",
     "SEAT",
     "CTKB",
@@ -317,18 +315,14 @@
     "SKHY",
     "PLBL",
     "ABCL",
-    "ANNX"
+    "ANNX",
+    "CAR",
+    "ASPS"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ANTX": {
-      "start_bar": "2026-09-29T11:50:00-04:00"
-    },
     "SOS": {
       "start_bar": "2026-09-29T11:50:00-04:00"
-    },
-    "RXRX": {
-      "start_bar": "2026-09-29T12:05:00-04:00"
     },
     "CTKB": {
       "start_bar": "2026-09-29T12:05:00-04:00"
@@ -347,6 +341,12 @@
     },
     "PLAY": {
       "start_bar": "2026-09-29T12:10:00-04:00"
+    },
+    "MRNA": {
+      "start_bar": "2026-09-29T12:20:00-04:00"
+    },
+    "PCG": {
+      "start_bar": "2026-09-29T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,8 +363,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "TSHA": "small_cap_gainers",
-    "DNLI": "day_gainers",
     "WAY": "day_gainers",
     "SEAT": "small_cap_gainers",
     "CTKB": "aggressive_small_caps",
@@ -453,7 +451,7 @@
     "ASTS": "most_actives",
     "LIND": "day_gainers",
     "BFLY": "day_gainers",
-    "NCLH": "most_actives+day_gainers",
+    "NCLH": "day_gainers",
     "CAMT": "day_gainers",
     "PRIM": "day_gainers",
     "MGNI": "day_gainers",
@@ -649,6 +647,8 @@
     "SKHY": "day_gainers",
     "PLBL": "day_gainers",
     "ABCL": "day_gainers",
-    "ANNX": "small_cap_gainers"
+    "ANNX": "small_cap_gainers",
+    "CAR": "day_gainers",
+    "ASPS": "small_cap_gainers"
   }
 }
