@@ -31,10 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "NVAX",
-    "AGIO",
-    "MGNX",
-    "IBRX",
     "TSHA",
     "DNLI",
     "WAY",
@@ -317,15 +313,16 @@
     "WMG",
     "SST",
     "OPTU",
-    "REPL"
+    "REPL",
+    "SKHY",
+    "PLBL",
+    "ABCL",
+    "ANNX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
     "ANTX": {
       "start_bar": "2026-09-29T11:50:00-04:00"
-    },
-    "GOSS": {
-      "start_bar": "2026-09-29T11:55:00-04:00"
     },
     "SOS": {
       "start_bar": "2026-09-29T11:50:00-04:00"
@@ -341,6 +338,12 @@
     },
     "JELD": {
       "start_bar": "2026-09-29T12:00:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-29T12:05:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-09-29T12:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,10 +360,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "NVAX": "most_shorted_stocks",
-    "AGIO": "day_gainers",
-    "MGNX": "small_cap_gainers",
-    "IBRX": "day_gainers",
     "TSHA": "small_cap_gainers",
     "DNLI": "day_gainers",
     "WAY": "day_gainers",
@@ -643,6 +642,10 @@
     "WMG": "day_gainers",
     "SST": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
-    "REPL": "small_cap_gainers"
+    "REPL": "small_cap_gainers",
+    "SKHY": "day_gainers",
+    "PLBL": "day_gainers",
+    "ABCL": "day_gainers",
+    "ANNX": "small_cap_gainers"
   }
 }
