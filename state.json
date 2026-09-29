@@ -31,7 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "SEAT",
     "CTKB",
     "KMT",
     "CMCM",
@@ -317,24 +316,22 @@
     "ANNX",
     "CAR",
     "ASPS",
-    "HL"
+    "HL",
+    "CCB"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "MOD": {
-      "start_bar": "2026-09-29T12:20:00-04:00"
-    },
     "PAL": {
       "start_bar": "2026-09-29T12:25:00-04:00"
     },
     "VECO": {
       "start_bar": "2026-09-29T12:25:00-04:00"
     },
-    "BA": {
-      "start_bar": "2026-09-29T12:30:00-04:00"
+    "LKNCY": {
+      "start_bar": "2026-09-29T12:20:00-04:00"
     },
-    "ARXS": {
-      "start_bar": "2026-09-29T12:30:00-04:00"
+    "FLR": {
+      "start_bar": "2026-09-29T12:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -351,7 +348,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "SEAT": "small_cap_gainers",
     "CTKB": "aggressive_small_caps",
     "KMT": "day_gainers",
     "CMCM": "small_cap_gainers",
@@ -518,7 +514,7 @@
     "OLN": "aggressive_small_caps",
     "LGO": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
-    "CSIQ": "aggressive_small_caps",
+    "CSIQ": "small_cap_gainers+aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "NU": "most_actives",
     "ARM": "day_gainers",
@@ -637,6 +633,7 @@
     "ANNX": "small_cap_gainers",
     "CAR": "day_gainers",
     "ASPS": "small_cap_gainers",
-    "HL": "most_actives"
+    "HL": "most_actives",
+    "CCB": "small_cap_gainers"
   }
 }
