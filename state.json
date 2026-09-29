@@ -327,22 +327,25 @@
     "SOS": {
       "start_bar": "2026-09-29T11:50:00-04:00"
     },
-    "CEG": {
-      "start_bar": "2026-09-29T12:00:00-04:00"
-    },
     "RXRX": {
       "start_bar": "2026-09-29T12:05:00-04:00"
-    },
-    "TAC": {
-      "start_bar": "2026-09-29T12:00:00-04:00"
-    },
-    "JELD": {
-      "start_bar": "2026-09-29T12:00:00-04:00"
     },
     "CTKB": {
       "start_bar": "2026-09-29T12:05:00-04:00"
     },
     "JBLU": {
+      "start_bar": "2026-09-29T12:10:00-04:00"
+    },
+    "ENTA": {
+      "start_bar": "2026-09-29T12:10:00-04:00"
+    },
+    "FIGS": {
+      "start_bar": "2026-09-29T12:15:00-04:00"
+    },
+    "LGN": {
+      "start_bar": "2026-09-29T12:15:00-04:00"
+    },
+    "PLAY": {
       "start_bar": "2026-09-29T12:10:00-04:00"
     }
   },
@@ -450,7 +453,7 @@
     "ASTS": "most_actives",
     "LIND": "day_gainers",
     "BFLY": "day_gainers",
-    "NCLH": "day_gainers",
+    "NCLH": "most_actives+day_gainers",
     "CAMT": "day_gainers",
     "PRIM": "day_gainers",
     "MGNI": "day_gainers",
