@@ -30,8 +30,6 @@
     "RXRX",
     "OCGN",
     "WING",
-    "HAPN",
-    "PCVX",
     "LUCK",
     "AMRX",
     "AVPT",
@@ -317,30 +315,14 @@
     "OIA",
     "BRSL",
     "SHOP",
-    "ANGI"
+    "ANGI",
+    "PATH",
+    "OPENW"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "NU": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
-    },
-    "VRA": {
-      "start_bar": "2026-09-29T14:30:00-04:00"
-    },
-    "EVH": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
-    },
     "NNE": {
       "start_bar": "2026-09-29T14:40:00-04:00"
-    },
-    "UPST": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
-    },
-    "MOD": {
-      "start_bar": "2026-09-29T14:40:00-04:00"
-    },
-    "STRL": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
     },
     "CWH": {
       "start_bar": "2026-09-29T14:40:00-04:00"
@@ -351,25 +333,10 @@
     "FIGR": {
       "start_bar": "2026-09-29T14:35:00-04:00"
     },
-    "NNBR": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
-    },
     "CIFR": {
       "start_bar": "2026-09-29T14:40:00-04:00"
     },
-    "LBTYB": {
-      "start_bar": "2026-09-29T14:35:00-04:00"
-    },
     "WOLF": {
-      "start_bar": "2026-09-29T14:40:00-04:00"
-    },
-    "TROX": {
-      "start_bar": "2026-09-29T14:45:00-04:00"
-    },
-    "IDT": {
-      "start_bar": "2026-09-29T14:40:00-04:00"
-    },
-    "INBX": {
       "start_bar": "2026-09-29T14:40:00-04:00"
     },
     "FEAM": {
@@ -380,6 +347,21 @@
     },
     "CRWV": {
       "start_bar": "2026-09-29T14:45:00-04:00"
+    },
+    "LUCK": {
+      "start_bar": "2026-09-29T14:50:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-09-29T14:45:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-29T14:50:00-04:00"
+    },
+    "RC": {
+      "start_bar": "2026-09-29T14:45:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-09-29T14:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -395,8 +377,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
-    "HAPN": "aggressive_small_caps",
-    "PCVX": "day_gainers",
     "LUCK": "small_cap_gainers",
     "AMRX": "day_gainers",
     "AVPT": "day_gainers",
@@ -682,6 +662,8 @@
     "OIA": "small_cap_gainers",
     "BRSL": "aggressive_small_caps",
     "SHOP": "day_gainers",
-    "ANGI": "small_cap_gainers"
+    "ANGI": "small_cap_gainers",
+    "PATH": "most_actives",
+    "OPENW": "small_cap_gainers"
   }
 }
