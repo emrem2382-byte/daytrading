@@ -29,11 +29,8 @@
     "GPRO",
     "WOLF",
     "FLX",
-    "CAPR",
     "RXRX",
     "OCGN",
-    "ABCL",
-    "MSGS",
     "TXG",
     "NKTR",
     "SUPN",
@@ -317,14 +314,23 @@
     "CCCC",
     "RBLX",
     "JACK",
-    "LYNX"
+    "LYNX",
+    "AHT-PI",
+    "LESL",
+    "SHOE"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "STTK": {
-      "start_bar": "2026-09-29T11:15:00-04:00"
-    },
     "P": {
+      "start_bar": "2026-09-29T11:25:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-09-29T11:30:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-29T11:25:00-04:00"
+    },
+    "SHOE": {
       "start_bar": "2026-09-29T11:25:00-04:00"
     }
   },
@@ -340,11 +346,8 @@
     "GPRO": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "ABCL": "day_gainers",
-    "MSGS": "day_gainers",
     "TXG": "day_gainers",
     "NKTR": "day_gainers",
     "SUPN": "day_gainers",
@@ -628,6 +631,9 @@
     "CCCC": "most_shorted_stocks",
     "RBLX": "most_actives",
     "JACK": "most_shorted_stocks",
-    "LYNX": "small_cap_gainers"
+    "LYNX": "small_cap_gainers",
+    "AHT-PI": "small_cap_gainers",
+    "LESL": "aggressive_small_caps",
+    "SHOE": "most_shorted_stocks"
   }
 }
