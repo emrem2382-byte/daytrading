@@ -321,18 +321,6 @@
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "HTZ": {
-      "start_bar": "2026-09-29T14:50:00-04:00"
-    },
-    "AXTI": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
-    "LITE": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
-    "AAOI": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
     "ORC": {
       "start_bar": "2026-09-29T15:00:00-04:00"
     },
@@ -342,19 +330,10 @@
     "BBAI": {
       "start_bar": "2026-09-29T15:00:00-04:00"
     },
-    "EVGO": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
     "RXT": {
       "start_bar": "2026-09-29T15:00:00-04:00"
     },
-    "VCX": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
     "LESL": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
-    "CAPR": {
       "start_bar": "2026-09-29T14:55:00-04:00"
     },
     "MX": {
@@ -372,11 +351,26 @@
     "SWK": {
       "start_bar": "2026-09-29T15:00:00-04:00"
     },
-    "RXO": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
-    },
     "JACK": {
       "start_bar": "2026-09-29T15:00:00-04:00"
+    },
+    "GENI": {
+      "start_bar": "2026-09-29T15:10:00-04:00"
+    },
+    "PMT": {
+      "start_bar": "2026-09-29T15:05:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-09-29T15:10:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-09-29T15:05:00-04:00"
+    },
+    "ORCL-PD": {
+      "start_bar": "2026-09-29T15:05:00-04:00"
+    },
+    "HAPN": {
+      "start_bar": "2026-09-29T15:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -516,7 +510,7 @@
     "KOS": "aggressive_small_caps",
     "UAMY": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
-    "LGO": "aggressive_small_caps",
+    "LGO": "small_cap_gainers+aggressive_small_caps",
     "CWH": "aggressive_small_caps",
     "CSIQ": "small_cap_gainers+aggressive_small_caps",
     "RUN": "most_shorted_stocks",
