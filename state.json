@@ -31,10 +31,7 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "KMT",
-    "CMCM",
     "KSS",
-    "CBRL",
     "BIOA",
     "ULH",
     "ULCC",
@@ -317,18 +314,21 @@
     "ASPS",
     "HL",
     "CCB",
-    "RIG"
+    "RIG",
+    "LBTYB",
+    "ATI",
+    "DHT"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "LKNCY": {
-      "start_bar": "2026-09-29T12:20:00-04:00"
-    },
     "FLR": {
       "start_bar": "2026-09-29T12:40:00-04:00"
     },
     "GRAB": {
       "start_bar": "2026-09-29T12:45:00-04:00"
+    },
+    "BA": {
+      "start_bar": "2026-09-29T12:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -345,10 +345,7 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "KMT": "day_gainers",
-    "CMCM": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
-    "CBRL": "small_cap_gainers",
     "BIOA": "small_cap_gainers",
     "ULH": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
@@ -631,6 +628,9 @@
     "ASPS": "small_cap_gainers",
     "HL": "most_actives",
     "CCB": "small_cap_gainers",
-    "RIG": "most_actives"
+    "RIG": "most_actives",
+    "LBTYB": "day_gainers",
+    "ATI": "day_gainers",
+    "DHT": "day_gainers"
   }
 }
