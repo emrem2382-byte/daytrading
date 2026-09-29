@@ -36,7 +36,6 @@
     "NFLX",
     "ORCL",
     "GENI",
-    "VISN",
     "TMC",
     "EVH",
     "SOS",
@@ -317,20 +316,15 @@
     "RARE",
     "MXCT",
     "ASYS",
-    "YELP"
+    "YELP",
+    "SOFI"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "LGN": {
-      "start_bar": "2026-09-29T15:35:00-04:00"
-    },
-    "XRX": {
-      "start_bar": "2026-09-29T15:35:00-04:00"
-    },
-    "CCB": {
-      "start_bar": "2026-09-29T15:35:00-04:00"
-    },
     "GEN": {
+      "start_bar": "2026-09-29T15:45:00-04:00"
+    },
+    "APYX": {
       "start_bar": "2026-09-29T15:45:00-04:00"
     }
   },
@@ -353,7 +347,6 @@
     "NFLX": "most_actives",
     "ORCL": "most_actives+day_gainers",
     "GENI": "aggressive_small_caps",
-    "VISN": "aggressive_small_caps",
     "TMC": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "SOS": "small_cap_gainers",
@@ -634,6 +627,7 @@
     "RARE": "small_cap_gainers",
     "MXCT": "small_cap_gainers",
     "ASYS": "small_cap_gainers",
-    "YELP": "small_cap_gainers"
+    "YELP": "small_cap_gainers",
+    "SOFI": "most_actives"
   }
 }
