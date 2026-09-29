@@ -31,7 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "WAY",
     "SEAT",
     "CTKB",
     "KMT",
@@ -317,27 +316,31 @@
     "ABCL",
     "ANNX",
     "CAR",
-    "ASPS"
+    "ASPS",
+    "HL"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ENTA": {
-      "start_bar": "2026-09-29T12:10:00-04:00"
-    },
-    "FIGS": {
-      "start_bar": "2026-09-29T12:15:00-04:00"
-    },
     "LGN": {
       "start_bar": "2026-09-29T12:15:00-04:00"
     },
     "YETI": {
       "start_bar": "2026-09-29T12:20:00-04:00"
     },
-    "HTZ": {
-      "start_bar": "2026-09-29T12:25:00-04:00"
-    },
     "MOD": {
       "start_bar": "2026-09-29T12:20:00-04:00"
+    },
+    "PAL": {
+      "start_bar": "2026-09-29T12:25:00-04:00"
+    },
+    "SMTC": {
+      "start_bar": "2026-09-29T12:25:00-04:00"
+    },
+    "VECO": {
+      "start_bar": "2026-09-29T12:25:00-04:00"
+    },
+    "BA": {
+      "start_bar": "2026-09-29T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -354,7 +357,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "WAY": "day_gainers",
     "SEAT": "small_cap_gainers",
     "CTKB": "aggressive_small_caps",
     "KMT": "day_gainers",
@@ -640,6 +642,7 @@
     "ABCL": "day_gainers",
     "ANNX": "small_cap_gainers",
     "CAR": "day_gainers",
-    "ASPS": "small_cap_gainers"
+    "ASPS": "small_cap_gainers",
+    "HL": "most_actives"
   }
 }
