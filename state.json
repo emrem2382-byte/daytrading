@@ -37,8 +37,6 @@
     "NOK",
     "NFLX",
     "ORCL",
-    "OPEN",
-    "SEB",
     "GENI",
     "LAC",
     "COUR",
@@ -317,24 +315,26 @@
     "MNSO",
     "SEER",
     "SB",
-    "BOX"
+    "BOX",
+    "AAL",
+    "RLAY"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ORCL-PD": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
-    },
-    "CTKB": {
-      "start_bar": "2026-09-29T15:15:00-04:00"
-    },
-    "TTAN": {
-      "start_bar": "2026-09-29T15:20:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-09-29T15:25:00-04:00"
-    },
     "IESC": {
       "start_bar": "2026-09-29T15:25:00-04:00"
+    },
+    "LAC": {
+      "start_bar": "2026-09-29T15:35:00-04:00"
+    },
+    "ITG": {
+      "start_bar": "2026-09-29T15:30:00-04:00"
+    },
+    "GWH": {
+      "start_bar": "2026-09-29T15:30:00-04:00"
+    },
+    "HAPN": {
+      "start_bar": "2026-09-29T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,8 +357,6 @@
     "NOK": "most_actives",
     "NFLX": "most_actives",
     "ORCL": "most_actives+day_gainers",
-    "OPEN": "most_actives",
-    "SEB": "day_gainers",
     "GENI": "aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "COUR": "aggressive_small_caps",
@@ -381,7 +379,7 @@
     "IOVA": "most_actives+day_gainers",
     "SMMT": "most_actives+day_gainers",
     "KMX": "day_gainers",
-    "BE": "most_actives+day_gainers",
+    "BE": "day_gainers",
     "CBOE": "day_gainers",
     "RCL": "day_gainers",
     "ASTS": "most_actives",
@@ -637,6 +635,8 @@
     "MNSO": "day_gainers",
     "SEER": "small_cap_gainers",
     "SB": "aggressive_small_caps",
-    "BOX": "day_gainers"
+    "BOX": "day_gainers",
+    "AAL": "most_actives",
+    "RLAY": "day_gainers"
   }
 }
