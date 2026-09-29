@@ -34,13 +34,7 @@
     "CAPR",
     "RXRX",
     "OCGN",
-    "TWLO",
-    "RBRK",
-    "PLBL",
-    "HUYA",
-    "VACI-UN",
     "JACK",
-    "GKOS",
     "ADMA",
     "ABCL",
     "GIL",
@@ -317,18 +311,18 @@
     "SLDPW",
     "CORZ",
     "EBON",
-    "CORZW"
+    "CORZW",
+    "DPC",
+    "ARXS",
+    "ASX",
+    "MOBI",
+    "ASPSZ",
+    "WETO"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "IBRX": {
-      "start_bar": "2026-09-29T10:40:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-09-29T10:40:00-04:00"
-    },
-    "LGO": {
-      "start_bar": "2026-09-29T10:40:00-04:00"
+    "CTNM": {
+      "start_bar": "2026-09-29T10:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,13 +342,7 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "TWLO": "day_gainers",
-    "RBRK": "day_gainers",
-    "PLBL": "day_gainers",
-    "HUYA": "small_cap_gainers",
-    "VACI-UN": "small_cap_gainers",
     "JACK": "most_shorted_stocks",
-    "GKOS": "day_gainers",
     "ADMA": "day_gainers",
     "ABCL": "day_gainers",
     "GIL": "day_gainers",
@@ -631,6 +619,12 @@
     "SLDPW": "small_cap_gainers",
     "CORZ": "day_gainers",
     "EBON": "small_cap_gainers",
-    "CORZW": "small_cap_gainers"
+    "CORZW": "small_cap_gainers",
+    "DPC": "day_gainers",
+    "ARXS": "day_gainers",
+    "ASX": "day_gainers",
+    "MOBI": "small_cap_gainers",
+    "ASPSZ": "small_cap_gainers",
+    "WETO": "most_shorted_stocks"
   }
 }
