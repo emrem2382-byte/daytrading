@@ -31,7 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "TGE",
     "LGND",
     "PRTA",
     "CTNM",
@@ -317,7 +316,8 @@
     "TLYS",
     "CAPR",
     "RSI",
-    "CHPT"
+    "CHPT",
+    "MX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
@@ -330,11 +330,20 @@
     "MRNA": {
       "start_bar": "2026-09-29T11:35:00-04:00"
     },
-    "BLSM": {
-      "start_bar": "2026-09-29T11:40:00-04:00"
-    },
     "CGON": {
       "start_bar": "2026-09-29T11:35:00-04:00"
+    },
+    "ADRX": {
+      "start_bar": "2026-09-29T11:40:00-04:00"
+    },
+    "ABOS": {
+      "start_bar": "2026-09-29T11:40:00-04:00"
+    },
+    "VIAV": {
+      "start_bar": "2026-09-29T11:40:00-04:00"
+    },
+    "APLD": {
+      "start_bar": "2026-09-29T11:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -351,7 +360,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "TGE": "small_cap_gainers",
     "LGND": "day_gainers",
     "PRTA": "small_cap_gainers",
     "CTNM": "small_cap_gainers",
@@ -637,6 +645,7 @@
     "TLYS": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RSI": "day_gainers",
-    "CHPT": "small_cap_gainers"
+    "CHPT": "small_cap_gainers",
+    "MX": "small_cap_gainers"
   }
 }
