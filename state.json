@@ -31,7 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "VALN",
     "NVAX",
     "AGIO",
     "MGNX",
@@ -317,32 +316,12 @@
     "DASH",
     "WMG",
     "SST",
-    "OPTU"
+    "OPTU",
+    "REPL"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "HAPN": {
-      "start_bar": "2026-09-29T11:45:00-04:00"
-    },
-    "GEN": {
-      "start_bar": "2026-09-29T11:50:00-04:00"
-    },
-    "TWST": {
-      "start_bar": "2026-09-29T11:50:00-04:00"
-    },
-    "INBX": {
-      "start_bar": "2026-09-29T11:45:00-04:00"
-    },
-    "SNAP": {
-      "start_bar": "2026-09-29T11:50:00-04:00"
-    },
     "ANTX": {
-      "start_bar": "2026-09-29T11:50:00-04:00"
-    },
-    "QUBT": {
-      "start_bar": "2026-09-29T11:55:00-04:00"
-    },
-    "TBLA": {
       "start_bar": "2026-09-29T11:50:00-04:00"
     },
     "GOSS": {
@@ -351,13 +330,16 @@
     "SOS": {
       "start_bar": "2026-09-29T11:50:00-04:00"
     },
-    "KMX": {
-      "start_bar": "2026-09-29T12:00:00-04:00"
-    },
     "CEG": {
       "start_bar": "2026-09-29T12:00:00-04:00"
     },
-    "RBLX": {
+    "RXRX": {
+      "start_bar": "2026-09-29T12:05:00-04:00"
+    },
+    "TAC": {
+      "start_bar": "2026-09-29T12:00:00-04:00"
+    },
+    "JELD": {
       "start_bar": "2026-09-29T12:00:00-04:00"
     }
   },
@@ -375,7 +357,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "VALN": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "AGIO": "day_gainers",
     "MGNX": "small_cap_gainers",
@@ -661,6 +642,7 @@
     "DASH": "day_gainers",
     "WMG": "day_gainers",
     "SST": "small_cap_gainers",
-    "OPTU": "aggressive_small_caps"
+    "OPTU": "aggressive_small_caps",
+    "REPL": "small_cap_gainers"
   }
 }
