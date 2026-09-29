@@ -31,10 +31,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "LGND",
-    "PRTA",
-    "CTNM",
-    "SHAK",
     "VALN",
     "NVAX",
     "AGIO",
@@ -317,33 +313,16 @@
     "CAPR",
     "RSI",
     "CHPT",
-    "MX"
+    "MX",
+    "DASH",
+    "WMG",
+    "SST",
+    "OPTU"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "CGON": {
-      "start_bar": "2026-09-29T11:35:00-04:00"
-    },
-    "ADRX": {
-      "start_bar": "2026-09-29T11:40:00-04:00"
-    },
-    "ABOS": {
-      "start_bar": "2026-09-29T11:40:00-04:00"
-    },
-    "VIAV": {
-      "start_bar": "2026-09-29T11:40:00-04:00"
-    },
-    "APLD": {
-      "start_bar": "2026-09-29T11:45:00-04:00"
-    },
     "HAPN": {
       "start_bar": "2026-09-29T11:45:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-09-29T11:50:00-04:00"
-    },
-    "SOS": {
-      "start_bar": "2026-09-29T11:30:00-04:00"
     },
     "GEN": {
       "start_bar": "2026-09-29T11:50:00-04:00"
@@ -354,10 +333,16 @@
     "INBX": {
       "start_bar": "2026-09-29T11:45:00-04:00"
     },
-    "NRR": {
-      "start_bar": "2026-09-29T11:45:00-04:00"
-    },
     "SNAP": {
+      "start_bar": "2026-09-29T11:50:00-04:00"
+    },
+    "ANTX": {
+      "start_bar": "2026-09-29T11:50:00-04:00"
+    },
+    "QUBT": {
+      "start_bar": "2026-09-29T11:55:00-04:00"
+    },
+    "TBLA": {
       "start_bar": "2026-09-29T11:50:00-04:00"
     }
   },
@@ -375,10 +360,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "LGND": "day_gainers",
-    "PRTA": "small_cap_gainers",
-    "CTNM": "small_cap_gainers",
-    "SHAK": "day_gainers",
     "VALN": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "AGIO": "day_gainers",
@@ -474,7 +455,7 @@
     "ASTS": "most_actives",
     "LIND": "day_gainers",
     "BFLY": "day_gainers",
-    "NCLH": "most_actives+day_gainers",
+    "NCLH": "day_gainers",
     "CAMT": "day_gainers",
     "PRIM": "day_gainers",
     "MGNI": "day_gainers",
@@ -661,6 +642,10 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RSI": "day_gainers",
     "CHPT": "small_cap_gainers",
-    "MX": "small_cap_gainers"
+    "MX": "small_cap_gainers",
+    "DASH": "day_gainers",
+    "WMG": "day_gainers",
+    "SST": "small_cap_gainers",
+    "OPTU": "aggressive_small_caps"
   }
 }
