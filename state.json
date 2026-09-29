@@ -30,7 +30,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "BIOA",
     "ULH",
     "ULCC",
     "IVR",
@@ -317,18 +316,13 @@
     "ATI",
     "DHT",
     "IBRX",
-    "WOLF"
+    "WOLF",
+    "CRSP"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "BA": {
-      "start_bar": "2026-09-29T12:50:00-04:00"
-    },
-    "RDY": {
-      "start_bar": "2026-09-29T12:55:00-04:00"
-    },
-    "GEN": {
-      "start_bar": "2026-09-29T13:00:00-04:00"
+    "ACRS": {
+      "start_bar": "2026-09-29T13:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -344,7 +338,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "BIOA": "small_cap_gainers",
     "ULH": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
@@ -631,6 +624,7 @@
     "ATI": "day_gainers",
     "DHT": "day_gainers",
     "IBRX": "day_gainers",
-    "WOLF": "most_shorted_stocks"
+    "WOLF": "most_shorted_stocks",
+    "CRSP": "day_gainers"
   }
 }
