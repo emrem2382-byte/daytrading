@@ -33,12 +33,6 @@
     "FLX",
     "CAPR",
     "RXRX",
-    "OPTU",
-    "BB",
-    "NMRA",
-    "IDYA",
-    "PANW",
-    "IONS",
     "ALXO",
     "OCGN",
     "EC",
@@ -317,13 +311,16 @@
     "HUT",
     "CIFR",
     "GWH",
-    "XPOF"
+    "XPOF",
+    "WULF",
+    "ASML",
+    "APMD",
+    "BW-PA",
+    "SQNS",
+    "NWCLW"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "SNAP": {
-      "start_bar": "2026-09-29T10:20:00-04:00"
-    },
     "SEER": {
       "start_bar": "2026-09-29T10:20:00-04:00"
     },
@@ -342,9 +339,6 @@
     "BIOA": {
       "start_bar": "2026-09-29T10:25:00-04:00"
     },
-    "OPENW": {
-      "start_bar": "2026-09-29T10:25:00-04:00"
-    },
     "SPCX": {
       "start_bar": "2026-09-29T10:30:00-04:00"
     },
@@ -355,6 +349,9 @@
       "start_bar": "2026-09-29T10:30:00-04:00"
     },
     "MARA": {
+      "start_bar": "2026-09-29T10:30:00-04:00"
+    },
+    "WULF": {
       "start_bar": "2026-09-29T10:30:00-04:00"
     }
   },
@@ -370,16 +367,10 @@
     "BMNR": "most_actives",
     "CCL": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "FLX": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
-    "OPTU": "aggressive_small_caps",
-    "BB": "most_actives+day_gainers",
-    "NMRA": "small_cap_gainers",
-    "IDYA": "day_gainers",
-    "PANW": "day_gainers",
-    "IONS": "day_gainers",
     "ALXO": "small_cap_gainers",
     "OCGN": "most_shorted_stocks",
     "EC": "day_gainers",
@@ -480,7 +471,7 @@
     "PLUG": "most_actives",
     "AAL": "most_actives",
     "SOFI": "most_actives",
-    "NOK": "most_actives",
+    "NOK": "most_actives+day_gainers",
     "NFLX": "most_actives",
     "TSLA": "most_actives",
     "SMR": "most_actives",
@@ -658,6 +649,12 @@
     "HUT": "day_gainers",
     "CIFR": "day_gainers",
     "GWH": "small_cap_gainers",
-    "XPOF": "small_cap_gainers"
+    "XPOF": "small_cap_gainers",
+    "WULF": "most_actives",
+    "ASML": "day_gainers",
+    "APMD": "small_cap_gainers",
+    "BW-PA": "small_cap_gainers",
+    "SQNS": "small_cap_gainers",
+    "NWCLW": "small_cap_gainers"
   }
 }
