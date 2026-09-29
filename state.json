@@ -30,13 +30,7 @@
     "CCL",
     "GPRO",
     "WOLF",
-    "TRIB",
-    "ASPSZ",
-    "SRFM",
     "TLYS",
-    "WBD",
-    "BJ",
-    "SDGR",
     "HTZWW",
     "SJT",
     "FLX",
@@ -317,7 +311,13 @@
     "FIGR",
     "ENVX",
     "VRA",
-    "SCNI"
+    "SCNI",
+    "AMD",
+    "SMCI",
+    "AVGO",
+    "JMKE",
+    "DJT",
+    "CRMT"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
@@ -327,13 +327,7 @@
     "ELVN": {
       "start_bar": "2026-09-29T10:00:00-04:00"
     },
-    "EVH": {
-      "start_bar": "2026-09-29T10:00:00-04:00"
-    },
     "CWH": {
-      "start_bar": "2026-09-29T10:05:00-04:00"
-    },
-    "BWLP": {
       "start_bar": "2026-09-29T10:05:00-04:00"
     },
     "ULCC": {
@@ -350,6 +344,24 @@
     },
     "ZYME": {
       "start_bar": "2026-09-29T10:05:00-04:00"
+    },
+    "BRSL": {
+      "start_bar": "2026-09-29T10:15:00-04:00"
+    },
+    "GOSS": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
+    },
+    "RC": {
+      "start_bar": "2026-09-29T10:15:00-04:00"
+    },
+    "OPENL": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
+    },
+    "TBLA": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
+    },
+    "SCNI": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -365,13 +377,7 @@
     "CCL": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
-    "TRIB": "small_cap_gainers",
-    "ASPSZ": "small_cap_gainers",
-    "SRFM": "small_cap_gainers",
     "TLYS": "small_cap_gainers",
-    "WBD": "most_actives",
-    "BJ": "day_gainers",
-    "SDGR": "day_gainers",
     "HTZWW": "small_cap_gainers",
     "SJT": "small_cap_gainers",
     "FLX": "small_cap_gainers",
@@ -652,6 +658,12 @@
     "FIGR": "day_gainers",
     "ENVX": "small_cap_gainers",
     "VRA": "small_cap_gainers",
-    "SCNI": "most_shorted_stocks"
+    "SCNI": "most_shorted_stocks",
+    "AMD": "most_actives",
+    "SMCI": "most_actives",
+    "AVGO": "most_actives",
+    "JMKE": "day_gainers",
+    "DJT": "day_gainers",
+    "CRMT": "small_cap_gainers"
   }
 }
