@@ -29,8 +29,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "STRZ",
-    "GOSS",
     "LKNCY",
     "P",
     "CURV",
@@ -317,22 +315,12 @@
     "RCUS",
     "DHX",
     "LVWR",
-    "KSS"
+    "KSS",
+    "GRAL",
+    "SUJA"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ABOS": {
-      "start_bar": "2026-09-29T13:35:00-04:00"
-    },
-    "LIND": {
-      "start_bar": "2026-09-29T13:35:00-04:00"
-    },
-    "FIGS": {
-      "start_bar": "2026-09-29T13:35:00-04:00"
-    },
-    "KLAC": {
-      "start_bar": "2026-09-29T13:40:00-04:00"
-    },
     "ONTO": {
       "start_bar": "2026-09-29T13:40:00-04:00"
     },
@@ -340,12 +328,6 @@
       "start_bar": "2026-09-29T13:40:00-04:00"
     },
     "BBBYW": {
-      "start_bar": "2026-09-29T13:40:00-04:00"
-    },
-    "NOK": {
-      "start_bar": "2026-09-29T13:45:00-04:00"
-    },
-    "MOD": {
       "start_bar": "2026-09-29T13:40:00-04:00"
     },
     "PCG": {
@@ -359,6 +341,12 @@
     },
     "TBLA": {
       "start_bar": "2026-09-29T13:45:00-04:00"
+    },
+    "SEB": {
+      "start_bar": "2026-09-29T13:50:00-04:00"
+    },
+    "SMMT": {
+      "start_bar": "2026-09-29T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -373,8 +361,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "STRZ": "small_cap_gainers",
-    "GOSS": "small_cap_gainers",
     "LKNCY": "day_gainers",
     "P": "day_gainers",
     "CURV": "small_cap_gainers",
@@ -661,6 +647,8 @@
     "RCUS": "day_gainers",
     "DHX": "small_cap_gainers",
     "LVWR": "small_cap_gainers",
-    "KSS": "most_shorted_stocks"
+    "KSS": "most_shorted_stocks",
+    "GRAL": "day_gainers",
+    "SUJA": "small_cap_gainers"
   }
 }
