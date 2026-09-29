@@ -33,12 +33,7 @@
     "FLX",
     "CAPR",
     "RXRX",
-    "ALXO",
     "OCGN",
-    "EC",
-    "PBLS",
-    "CMG",
-    "LFT",
     "TENB",
     "ROIV",
     "SLQT",
@@ -317,18 +312,17 @@
     "APMD",
     "BW-PA",
     "SQNS",
-    "NWCLW"
+    "NWCLW",
+    "DOCN",
+    "TE",
+    "RXT",
+    "ORCL-PD",
+    "EMPD"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
     "SEER": {
       "start_bar": "2026-09-29T10:20:00-04:00"
-    },
-    "NTLA": {
-      "start_bar": "2026-09-29T10:25:00-04:00"
-    },
-    "SMCI": {
-      "start_bar": "2026-09-29T10:25:00-04:00"
     },
     "QNCX": {
       "start_bar": "2026-09-29T10:20:00-04:00"
@@ -353,6 +347,9 @@
     },
     "WULF": {
       "start_bar": "2026-09-29T10:30:00-04:00"
+    },
+    "IBRX": {
+      "start_bar": "2026-09-29T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -367,16 +364,11 @@
     "BMNR": "most_actives",
     "CCL": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "FLX": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
-    "ALXO": "small_cap_gainers",
     "OCGN": "most_shorted_stocks",
-    "EC": "day_gainers",
-    "PBLS": "day_gainers",
-    "CMG": "most_actives",
-    "LFT": "small_cap_gainers",
     "TENB": "day_gainers",
     "ROIV": "day_gainers",
     "SLQT": "small_cap_gainers",
@@ -471,7 +463,7 @@
     "PLUG": "most_actives",
     "AAL": "most_actives",
     "SOFI": "most_actives",
-    "NOK": "most_actives+day_gainers",
+    "NOK": "most_actives",
     "NFLX": "most_actives",
     "TSLA": "most_actives",
     "SMR": "most_actives",
@@ -655,6 +647,11 @@
     "APMD": "small_cap_gainers",
     "BW-PA": "small_cap_gainers",
     "SQNS": "small_cap_gainers",
-    "NWCLW": "small_cap_gainers"
+    "NWCLW": "small_cap_gainers",
+    "DOCN": "day_gainers",
+    "TE": "small_cap_gainers",
+    "RXT": "small_cap_gainers",
+    "ORCL-PD": "small_cap_gainers",
+    "EMPD": "small_cap_gainers"
   }
 }
