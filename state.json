@@ -30,7 +30,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "ULH",
     "ULCC",
     "IVR",
     "ADRX",
@@ -317,7 +316,8 @@
     "DHT",
     "IBRX",
     "WOLF",
-    "CRSP"
+    "CRSP",
+    "GRABW"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
@@ -327,11 +327,17 @@
     "GLW": {
       "start_bar": "2026-09-29T13:10:00-04:00"
     },
-    "TEM": {
-      "start_bar": "2026-09-29T13:10:00-04:00"
-    },
     "MU": {
       "start_bar": "2026-09-29T13:10:00-04:00"
+    },
+    "PLUG": {
+      "start_bar": "2026-09-29T13:15:00-04:00"
+    },
+    "ARM": {
+      "start_bar": "2026-09-29T13:10:00-04:00"
+    },
+    "ASML": {
+      "start_bar": "2026-09-29T13:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -347,7 +353,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "ULH": "small_cap_gainers",
     "ULCC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
     "ADRX": "small_cap_gainers",
@@ -634,6 +639,7 @@
     "DHT": "day_gainers",
     "IBRX": "day_gainers",
     "WOLF": "most_shorted_stocks",
-    "CRSP": "day_gainers"
+    "CRSP": "day_gainers",
+    "GRABW": "small_cap_gainers"
   }
 }
