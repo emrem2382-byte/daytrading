@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "BBBYW",
-    "VIOT",
-    "KNDI",
-    "KPTI",
-    "OPENZ",
-    "ZUMZ",
-    "BZ",
-    "SRFM",
-    "ACRS",
-    "LENZ",
-    "FLX",
-    "ENHA",
-    "KOD",
-    "PRTA",
-    "VOYG"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "AXTI",
     "TROX",
