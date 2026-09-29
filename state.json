@@ -28,15 +28,8 @@
     "ORC",
     "BMNR",
     "CCL",
-    "ZIM",
-    "NDLS",
     "GPRO",
-    "PACS",
-    "METC",
     "WOLF",
-    "ONT",
-    "STEM",
-    "SI",
     "TRIB",
     "ASPSZ",
     "SRFM",
@@ -317,22 +310,17 @@
     "EROC",
     "TEAD",
     "FOIL",
-    "RC-PC"
+    "RC-PC",
+    "SNAP",
+    "ZYME",
+    "TTAN",
+    "FIGR",
+    "ENVX",
+    "VRA",
+    "SCNI"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "STEM": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
-    "RFL": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
-    "TSQ": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
-    "CSIQ": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
     "MBX": {
       "start_bar": "2026-09-29T10:00:00-04:00"
     },
@@ -343,6 +331,24 @@
       "start_bar": "2026-09-29T10:00:00-04:00"
     },
     "CWH": {
+      "start_bar": "2026-09-29T10:05:00-04:00"
+    },
+    "BWLP": {
+      "start_bar": "2026-09-29T10:05:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
+    },
+    "SMR": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
+    },
+    "TRIP": {
+      "start_bar": "2026-09-29T10:10:00-04:00"
+    },
+    "KOS": {
+      "start_bar": "2026-09-29T10:05:00-04:00"
+    },
+    "ZYME": {
       "start_bar": "2026-09-29T10:05:00-04:00"
     }
   },
@@ -357,15 +363,8 @@
     "ORC": "aggressive_small_caps",
     "BMNR": "most_actives",
     "CCL": "most_actives+day_gainers",
-    "ZIM": "day_gainers",
-    "NDLS": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
-    "PACS": "day_gainers",
-    "METC": "aggressive_small_caps",
     "WOLF": "most_shorted_stocks",
-    "ONT": "small_cap_gainers",
-    "STEM": "small_cap_gainers",
-    "SI": "small_cap_gainers",
     "TRIB": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
     "SRFM": "small_cap_gainers",
@@ -646,6 +645,13 @@
     "EROC": "small_cap_gainers",
     "TEAD": "small_cap_gainers",
     "FOIL": "small_cap_gainers",
-    "RC-PC": "small_cap_gainers"
+    "RC-PC": "small_cap_gainers",
+    "SNAP": "most_actives",
+    "ZYME": "day_gainers",
+    "TTAN": "day_gainers",
+    "FIGR": "day_gainers",
+    "ENVX": "small_cap_gainers",
+    "VRA": "small_cap_gainers",
+    "SCNI": "most_shorted_stocks"
   }
 }
