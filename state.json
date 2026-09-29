@@ -30,12 +30,6 @@
     "RXRX",
     "OCGN",
     "WING",
-    "ABOS",
-    "SN",
-    "TVTX",
-    "ENTA",
-    "OPENW",
-    "SEER",
     "RFL",
     "PVLA",
     "HAPN",
@@ -317,30 +311,21 @@
     "ETI-P",
     "SLS",
     "ULCC",
-    "IVR"
+    "IVR",
+    "AIG",
+    "ABSI",
+    "CTMX",
+    "ADRX",
+    "OIA",
+    "BRSL"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "LRCX": {
-      "start_bar": "2026-09-29T14:15:00-04:00"
-    },
     "PAL": {
-      "start_bar": "2026-09-29T14:15:00-04:00"
-    },
-    "OI": {
       "start_bar": "2026-09-29T14:15:00-04:00"
     },
     "KMX": {
       "start_bar": "2026-09-29T14:20:00-04:00"
-    },
-    "CAMT": {
-      "start_bar": "2026-09-29T14:15:00-04:00"
-    },
-    "SMTC": {
-      "start_bar": "2026-09-29T14:15:00-04:00"
-    },
-    "CVNA": {
-      "start_bar": "2026-09-29T14:15:00-04:00"
     },
     "PMVP": {
       "start_bar": "2026-09-29T14:15:00-04:00"
@@ -351,11 +336,35 @@
     "VISN": {
       "start_bar": "2026-09-29T14:25:00-04:00"
     },
-    "ADPT": {
-      "start_bar": "2026-09-29T14:25:00-04:00"
-    },
     "MRNA": {
       "start_bar": "2026-09-29T14:25:00-04:00"
+    },
+    "SMR": {
+      "start_bar": "2026-09-29T14:30:00-04:00"
+    },
+    "WRBY": {
+      "start_bar": "2026-09-29T14:30:00-04:00"
+    },
+    "ARM": {
+      "start_bar": "2026-09-29T14:30:00-04:00"
+    },
+    "SG": {
+      "start_bar": "2026-09-29T14:30:00-04:00"
+    },
+    "NRR": {
+      "start_bar": "2026-09-29T14:25:00-04:00"
+    },
+    "FN": {
+      "start_bar": "2026-09-29T14:25:00-04:00"
+    },
+    "DPC": {
+      "start_bar": "2026-09-29T14:30:00-04:00"
+    },
+    "MOBI": {
+      "start_bar": "2026-09-29T14:25:00-04:00"
+    },
+    "SHOE": {
+      "start_bar": "2026-09-29T14:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -371,12 +380,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
-    "ABOS": "small_cap_gainers",
-    "SN": "day_gainers",
-    "TVTX": "day_gainers",
-    "ENTA": "small_cap_gainers",
-    "OPENW": "small_cap_gainers",
-    "SEER": "small_cap_gainers",
     "RFL": "small_cap_gainers",
     "PVLA": "day_gainers",
     "HAPN": "aggressive_small_caps",
@@ -658,6 +661,12 @@
     "ETI-P": "small_cap_gainers",
     "SLS": "most_shorted_stocks",
     "ULCC": "aggressive_small_caps",
-    "IVR": "aggressive_small_caps"
+    "IVR": "aggressive_small_caps",
+    "AIG": "day_gainers",
+    "ABSI": "small_cap_gainers",
+    "CTMX": "small_cap_gainers",
+    "ADRX": "small_cap_gainers",
+    "OIA": "small_cap_gainers",
+    "BRSL": "aggressive_small_caps"
   }
 }
