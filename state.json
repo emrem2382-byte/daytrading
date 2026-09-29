@@ -32,7 +32,6 @@
     "WING",
     "SPCX",
     "PLUG",
-    "SOFI",
     "NOK",
     "NFLX",
     "ORCL",
@@ -317,30 +316,22 @@
     "RLAY",
     "RARE",
     "MXCT",
-    "ASYS"
+    "ASYS",
+    "YELP"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ITG": {
-      "start_bar": "2026-09-29T15:30:00-04:00"
-    },
-    "GWH": {
-      "start_bar": "2026-09-29T15:30:00-04:00"
-    },
-    "HAPN": {
-      "start_bar": "2026-09-29T15:30:00-04:00"
-    },
     "LGN": {
       "start_bar": "2026-09-29T15:35:00-04:00"
     },
     "XRX": {
       "start_bar": "2026-09-29T15:35:00-04:00"
     },
-    "RDY": {
-      "start_bar": "2026-09-29T15:35:00-04:00"
-    },
     "CCB": {
       "start_bar": "2026-09-29T15:35:00-04:00"
+    },
+    "GEN": {
+      "start_bar": "2026-09-29T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,7 +349,6 @@
     "WING": "day_gainers",
     "SPCX": "most_actives",
     "PLUG": "most_actives",
-    "SOFI": "most_actives",
     "NOK": "most_actives",
     "NFLX": "most_actives",
     "ORCL": "most_actives+day_gainers",
@@ -366,7 +356,7 @@
     "VISN": "aggressive_small_caps",
     "TMC": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
-    "SOS": "aggressive_small_caps",
+    "SOS": "small_cap_gainers",
     "PMT": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "BTCT": "most_shorted_stocks",
@@ -643,6 +633,7 @@
     "RLAY": "day_gainers",
     "RARE": "small_cap_gainers",
     "MXCT": "small_cap_gainers",
-    "ASYS": "small_cap_gainers"
+    "ASYS": "small_cap_gainers",
+    "YELP": "small_cap_gainers"
   }
 }
