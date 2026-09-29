@@ -33,7 +33,6 @@
     "INTC",
     "SPCX",
     "PLUG",
-    "AAL",
     "SOFI",
     "NOK",
     "NFLX",
@@ -317,33 +316,25 @@
     "CTKB",
     "MNSO",
     "SEER",
-    "SB"
+    "SB",
+    "BOX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "GENI": {
-      "start_bar": "2026-09-29T15:10:00-04:00"
-    },
     "ORCL-PD": {
       "start_bar": "2026-09-29T15:05:00-04:00"
-    },
-    "ASTS": {
-      "start_bar": "2026-09-29T15:15:00-04:00"
-    },
-    "ITG": {
-      "start_bar": "2026-09-29T15:10:00-04:00"
-    },
-    "INBX": {
-      "start_bar": "2026-09-29T15:15:00-04:00"
     },
     "CTKB": {
       "start_bar": "2026-09-29T15:15:00-04:00"
     },
-    "LAC": {
-      "start_bar": "2026-09-29T15:25:00-04:00"
-    },
     "TTAN": {
       "start_bar": "2026-09-29T15:20:00-04:00"
+    },
+    "EVGO": {
+      "start_bar": "2026-09-29T15:25:00-04:00"
+    },
+    "IESC": {
+      "start_bar": "2026-09-29T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -362,7 +353,6 @@
     "INTC": "most_actives",
     "SPCX": "most_actives",
     "PLUG": "most_actives",
-    "AAL": "most_actives",
     "SOFI": "most_actives",
     "NOK": "most_actives",
     "NFLX": "most_actives",
@@ -646,6 +636,7 @@
     "CTKB": "aggressive_small_caps",
     "MNSO": "day_gainers",
     "SEER": "small_cap_gainers",
-    "SB": "aggressive_small_caps"
+    "SB": "aggressive_small_caps",
+    "BOX": "day_gainers"
   }
 }
