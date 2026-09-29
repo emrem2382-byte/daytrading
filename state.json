@@ -30,9 +30,6 @@
     "RXRX",
     "OCGN",
     "WING",
-    "EQPT",
-    "VRNS",
-    "ACRS",
     "NAVN",
     "INTC",
     "SPCX",
@@ -317,24 +314,15 @@
     "HAPN",
     "NVAX",
     "BRVE",
-    "W"
+    "W",
+    "AEO",
+    "PGEN",
+    "CTKB"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "LESL": {
-      "start_bar": "2026-09-29T14:55:00-04:00"
-    },
-    "SPCX": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
-    },
-    "PLUG": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
-    },
     "GENI": {
       "start_bar": "2026-09-29T15:10:00-04:00"
-    },
-    "PMT": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
     },
     "FUN": {
       "start_bar": "2026-09-29T15:10:00-04:00"
@@ -353,6 +341,21 @@
     },
     "RXO": {
       "start_bar": "2026-09-29T15:10:00-04:00"
+    },
+    "QUBT": {
+      "start_bar": "2026-09-29T15:15:00-04:00"
+    },
+    "EVGO": {
+      "start_bar": "2026-09-29T15:15:00-04:00"
+    },
+    "INBX": {
+      "start_bar": "2026-09-29T15:15:00-04:00"
+    },
+    "STDN": {
+      "start_bar": "2026-09-29T15:20:00-04:00"
+    },
+    "CTKB": {
+      "start_bar": "2026-09-29T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -368,9 +371,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
-    "EQPT": "day_gainers",
-    "VRNS": "day_gainers",
-    "ACRS": "small_cap_gainers",
     "NAVN": "day_gainers",
     "INTC": "most_actives",
     "SPCX": "most_actives",
@@ -655,6 +655,9 @@
     "HAPN": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
     "BRVE": "day_gainers",
-    "W": "day_gainers"
+    "W": "day_gainers",
+    "AEO": "day_gainers",
+    "PGEN": "day_gainers",
+    "CTKB": "aggressive_small_caps"
   }
 }
