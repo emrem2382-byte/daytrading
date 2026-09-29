@@ -32,10 +32,6 @@
     "WOLF",
     "FLX",
     "CAPR",
-    "MBX",
-    "CPB",
-    "PRAX",
-    "ANVS",
     "RXRX",
     "BVC",
     "LQDA",
@@ -317,27 +313,16 @@
     "RKT",
     "AUR",
     "NNBR",
-    "PSEC-PA"
+    "PSEC-PA",
+    "CRWV",
+    "ALAB",
+    "UMC",
+    "QNCX"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "CWH": {
-      "start_bar": "2026-09-29T10:05:00-04:00"
-    },
-    "ULCC": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
-    },
-    "SMR": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
-    },
     "TRIP": {
       "start_bar": "2026-09-29T10:10:00-04:00"
-    },
-    "KOS": {
-      "start_bar": "2026-09-29T10:05:00-04:00"
-    },
-    "ZYME": {
-      "start_bar": "2026-09-29T10:05:00-04:00"
     },
     "GOSS": {
       "start_bar": "2026-09-29T10:10:00-04:00"
@@ -359,6 +344,18 @@
     },
     "CRMT": {
       "start_bar": "2026-09-29T10:15:00-04:00"
+    },
+    "SEER": {
+      "start_bar": "2026-09-29T10:20:00-04:00"
+    },
+    "NTLA": {
+      "start_bar": "2026-09-29T10:25:00-04:00"
+    },
+    "SMCI": {
+      "start_bar": "2026-09-29T10:25:00-04:00"
+    },
+    "QNCX": {
+      "start_bar": "2026-09-29T10:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,10 +373,6 @@
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "FLX": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
-    "MBX": "day_gainers",
-    "CPB": "day_gainers",
-    "PRAX": "day_gainers",
-    "ANVS": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "BVC": "day_gainers",
     "LQDA": "day_gainers",
@@ -493,7 +486,7 @@
     "PLUG": "most_actives",
     "AAL": "most_actives",
     "SOFI": "most_actives",
-    "NOK": "most_actives",
+    "NOK": "most_actives+day_gainers",
     "NFLX": "most_actives",
     "TSLA": "most_actives",
     "SMR": "most_actives",
@@ -661,6 +654,10 @@
     "RKT": "most_actives",
     "AUR": "most_actives",
     "NNBR": "small_cap_gainers",
-    "PSEC-PA": "small_cap_gainers"
+    "PSEC-PA": "small_cap_gainers",
+    "CRWV": "day_gainers",
+    "ALAB": "day_gainers",
+    "UMC": "day_gainers",
+    "QNCX": "small_cap_gainers"
   }
 }
