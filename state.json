@@ -29,10 +29,6 @@
     "FLX",
     "RXRX",
     "OCGN",
-    "CRWD",
-    "TAC",
-    "AMH-PG",
-    "RVI",
     "YETI",
     "WING",
     "ABOS",
@@ -317,26 +313,15 @@
     "OGC",
     "PTON",
     "PENG",
-    "JKS"
+    "JKS",
+    "BBD",
+    "PACB",
+    "ETI-P",
+    "SLS"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "YETI": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "VFC": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
     "TVTX": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "BBAI": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "GLW": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "GFI": {
       "start_bar": "2026-09-29T14:00:00-04:00"
     },
     "AGX": {
@@ -345,32 +330,8 @@
     "NVMI": {
       "start_bar": "2026-09-29T14:00:00-04:00"
     },
-    "RDY": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "RKT": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "MU": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "CIFR": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "TE": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "INIO": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
     "ASX": {
       "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
-    },
-    "TAC": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
     },
     "AAL": {
       "start_bar": "2026-09-29T14:05:00-04:00"
@@ -389,9 +350,6 @@
     },
     "FLNC": {
       "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-29T14:00:00-04:00"
     },
     "AFRM": {
       "start_bar": "2026-09-29T14:05:00-04:00"
@@ -431,6 +389,21 @@
     },
     "UMC": {
       "start_bar": "2026-09-29T14:10:00-04:00"
+    },
+    "INTC": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "LRCX": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "PAL": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "AADX": {
+      "start_bar": "2026-09-29T14:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -445,10 +418,6 @@
     "FLX": "small_cap_gainers",
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
-    "CRWD": "day_gainers",
-    "TAC": "day_gainers",
-    "AMH-PG": "day_gainers",
-    "RVI": "small_cap_gainers",
     "YETI": "day_gainers",
     "WING": "day_gainers",
     "ABOS": "small_cap_gainers",
@@ -733,6 +702,10 @@
     "OGC": "day_gainers",
     "PTON": "day_gainers",
     "PENG": "day_gainers",
-    "JKS": "small_cap_gainers"
+    "JKS": "small_cap_gainers",
+    "BBD": "most_actives",
+    "PACB": "small_cap_gainers",
+    "ETI-P": "small_cap_gainers",
+    "SLS": "most_shorted_stocks"
   }
 }
