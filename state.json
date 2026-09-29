@@ -30,8 +30,6 @@
     "RXRX",
     "OCGN",
     "WING",
-    "BZUN",
-    "BBBYW",
     "EQPT",
     "VRNS",
     "ACRS",
@@ -317,42 +315,20 @@
     "EIX",
     "RWT",
     "HAPN",
-    "NVAX"
+    "NVAX",
+    "BRVE",
+    "W"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "ORC": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
-    },
-    "NAVN": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
-    },
-    "BBAI": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
-    },
-    "RXT": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
-    },
     "LESL": {
       "start_bar": "2026-09-29T14:55:00-04:00"
-    },
-    "MX": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
     },
     "SPCX": {
       "start_bar": "2026-09-29T15:05:00-04:00"
     },
     "PLUG": {
       "start_bar": "2026-09-29T15:05:00-04:00"
-    },
-    "NFLX": {
-      "start_bar": "2026-09-29T15:05:00-04:00"
-    },
-    "SWK": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-09-29T15:00:00-04:00"
     },
     "GENI": {
       "start_bar": "2026-09-29T15:10:00-04:00"
@@ -369,7 +345,13 @@
     "ORCL-PD": {
       "start_bar": "2026-09-29T15:05:00-04:00"
     },
-    "HAPN": {
+    "ASTS": {
+      "start_bar": "2026-09-29T15:15:00-04:00"
+    },
+    "ITG": {
+      "start_bar": "2026-09-29T15:10:00-04:00"
+    },
+    "RXO": {
       "start_bar": "2026-09-29T15:10:00-04:00"
     }
   },
@@ -386,8 +368,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
-    "BZUN": "small_cap_gainers",
-    "BBBYW": "small_cap_gainers",
     "EQPT": "day_gainers",
     "VRNS": "day_gainers",
     "ACRS": "small_cap_gainers",
@@ -510,7 +490,7 @@
     "KOS": "aggressive_small_caps",
     "UAMY": "aggressive_small_caps",
     "OLN": "aggressive_small_caps",
-    "LGO": "small_cap_gainers+aggressive_small_caps",
+    "LGO": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
     "CSIQ": "small_cap_gainers+aggressive_small_caps",
     "RUN": "most_shorted_stocks",
@@ -673,6 +653,8 @@
     "EIX": "day_gainers",
     "RWT": "small_cap_gainers",
     "HAPN": "aggressive_small_caps",
-    "NVAX": "most_shorted_stocks"
+    "NVAX": "most_shorted_stocks",
+    "BRVE": "day_gainers",
+    "W": "day_gainers"
   }
 }
