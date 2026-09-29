@@ -33,12 +33,6 @@
     "FLX",
     "CAPR",
     "RXRX",
-    "BVC",
-    "LQDA",
-    "PACB",
-    "XERS",
-    "MSB",
-    "CDXS",
     "OPTU",
     "BB",
     "NMRA",
@@ -317,33 +311,18 @@
     "CRWV",
     "ALAB",
     "UMC",
-    "QNCX"
+    "QNCX",
+    "MU",
+    "APLD",
+    "HUT",
+    "CIFR",
+    "GWH",
+    "XPOF"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "TRIP": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
-    },
-    "GOSS": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
-    },
-    "RC": {
-      "start_bar": "2026-09-29T10:15:00-04:00"
-    },
-    "OPENL": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
-    },
-    "TBLA": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
-    },
-    "SEB": {
-      "start_bar": "2026-09-29T10:15:00-04:00"
-    },
     "SNAP": {
       "start_bar": "2026-09-29T10:20:00-04:00"
-    },
-    "CRMT": {
-      "start_bar": "2026-09-29T10:15:00-04:00"
     },
     "SEER": {
       "start_bar": "2026-09-29T10:20:00-04:00"
@@ -356,6 +335,27 @@
     },
     "QNCX": {
       "start_bar": "2026-09-29T10:20:00-04:00"
+    },
+    "RBRK": {
+      "start_bar": "2026-09-29T10:30:00-04:00"
+    },
+    "BIOA": {
+      "start_bar": "2026-09-29T10:25:00-04:00"
+    },
+    "OPENW": {
+      "start_bar": "2026-09-29T10:25:00-04:00"
+    },
+    "SPCX": {
+      "start_bar": "2026-09-29T10:30:00-04:00"
+    },
+    "CLSK": {
+      "start_bar": "2026-09-29T10:30:00-04:00"
+    },
+    "IREN": {
+      "start_bar": "2026-09-29T10:30:00-04:00"
+    },
+    "MARA": {
+      "start_bar": "2026-09-29T10:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -374,12 +374,6 @@
     "FLX": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
-    "BVC": "day_gainers",
-    "LQDA": "day_gainers",
-    "PACB": "small_cap_gainers",
-    "XERS": "small_cap_gainers",
-    "MSB": "small_cap_gainers",
-    "CDXS": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
     "BB": "most_actives+day_gainers",
     "NMRA": "small_cap_gainers",
@@ -486,7 +480,7 @@
     "PLUG": "most_actives",
     "AAL": "most_actives",
     "SOFI": "most_actives",
-    "NOK": "most_actives+day_gainers",
+    "NOK": "most_actives",
     "NFLX": "most_actives",
     "TSLA": "most_actives",
     "SMR": "most_actives",
@@ -655,9 +649,15 @@
     "AUR": "most_actives",
     "NNBR": "small_cap_gainers",
     "PSEC-PA": "small_cap_gainers",
-    "CRWV": "day_gainers",
+    "CRWV": "most_actives+day_gainers",
     "ALAB": "day_gainers",
     "UMC": "day_gainers",
-    "QNCX": "small_cap_gainers"
+    "QNCX": "small_cap_gainers",
+    "MU": "most_actives",
+    "APLD": "day_gainers",
+    "HUT": "day_gainers",
+    "CIFR": "day_gainers",
+    "GWH": "small_cap_gainers",
+    "XPOF": "small_cap_gainers"
   }
 }
