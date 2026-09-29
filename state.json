@@ -31,7 +31,6 @@
     "OCGN",
     "WING",
     "ABOS",
-    "VFC",
     "SN",
     "TVTX",
     "ENTA",
@@ -317,31 +316,11 @@
     "PACB",
     "ETI-P",
     "SLS",
-    "ULCC"
+    "ULCC",
+    "IVR"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "FCEL": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "RUN": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "ENTG": {
-      "start_bar": "2026-09-29T14:05:00-04:00"
-    },
-    "TER": {
-      "start_bar": "2026-09-29T14:10:00-04:00"
-    },
-    "CLS": {
-      "start_bar": "2026-09-29T14:10:00-04:00"
-    },
-    "SMCI": {
-      "start_bar": "2026-09-29T14:10:00-04:00"
-    },
-    "UMC": {
-      "start_bar": "2026-09-29T14:10:00-04:00"
-    },
     "LRCX": {
       "start_bar": "2026-09-29T14:15:00-04:00"
     },
@@ -365,6 +344,18 @@
     },
     "PMVP": {
       "start_bar": "2026-09-29T14:15:00-04:00"
+    },
+    "VRNS": {
+      "start_bar": "2026-09-29T14:20:00-04:00"
+    },
+    "VISN": {
+      "start_bar": "2026-09-29T14:25:00-04:00"
+    },
+    "ADPT": {
+      "start_bar": "2026-09-29T14:25:00-04:00"
+    },
+    "MRNA": {
+      "start_bar": "2026-09-29T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -381,7 +372,6 @@
     "OCGN": "most_shorted_stocks",
     "WING": "day_gainers",
     "ABOS": "small_cap_gainers",
-    "VFC": "day_gainers",
     "SN": "day_gainers",
     "TVTX": "day_gainers",
     "ENTA": "small_cap_gainers",
@@ -667,6 +657,7 @@
     "PACB": "small_cap_gainers",
     "ETI-P": "small_cap_gainers",
     "SLS": "most_shorted_stocks",
-    "ULCC": "aggressive_small_caps"
+    "ULCC": "aggressive_small_caps",
+    "IVR": "aggressive_small_caps"
   }
 }
