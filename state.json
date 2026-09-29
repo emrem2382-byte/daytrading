@@ -21,24 +21,10 @@
     "NVDA",
     "MX",
     "AXTI",
-    "OPENL",
     "AZUL",
     "TROX",
-    "VIOT",
     "SANG",
     "IQMXW",
-    "TRMD",
-    "XXI",
-    "WF",
-    "SG",
-    "FSSL",
-    "TEAD",
-    "SLS",
-    "AMC",
-    "SECZ",
-    "BURL",
-    "LPG",
-    "MAT",
     "ECF",
     "KELYB",
     "BYND",
@@ -317,57 +303,32 @@
     "TSQ",
     "OI",
     "SERV",
-    "EVGO"
+    "EVGO",
+    "STRL",
+    "TLN",
+    "IESC",
+    "AFRM",
+    "LGN",
+    "NVMI",
+    "INBX",
+    "KOS",
+    "UAMY",
+    "OLN",
+    "LGO",
+    "CWH",
+    "CSIQ",
+    "RUN"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "HAFN": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "CCL": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "ZIM": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "WOLF": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
     "VOYG": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "P": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "CRWD": {
       "start_bar": "2026-09-29T09:30:00-04:00"
     },
     "WING": {
       "start_bar": "2026-09-29T09:30:00-04:00"
     },
-    "PLUG": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "AAL": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "NOK": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "NFLX": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "FCEL": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
-    "UPST": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
-    },
     "NVDA": {
       "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "TRMD": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
     },
     "VSXY": {
       "start_bar": "2026-09-29T09:35:00-04:00"
@@ -395,9 +356,6 @@
     },
     "NVTS": {
       "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "BWXT": {
-      "start_bar": "2026-09-29T09:30:00-04:00"
     },
     "ACMR": {
       "start_bar": "2026-09-29T09:30:00-04:00"
@@ -437,30 +395,40 @@
     },
     "TSQ": {
       "start_bar": "2026-09-29T09:35:00-04:00"
+    },
+    "TROX": {
+      "start_bar": "2026-09-29T09:40:00-04:00"
+    },
+    "MSB": {
+      "start_bar": "2026-09-29T09:40:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "ABOS": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "HAPN": {
+      "start_bar": "2026-09-29T09:40:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
+    },
+    "EVGO": {
+      "start_bar": "2026-09-29T09:45:00-04:00"
     }
   },
   "ticker_sources": {
     "NVDA": "most_actives",
     "MX": "small_cap_gainers",
     "AXTI": "day_gainers",
-    "OPENL": "small_cap_gainers",
     "AZUL": "small_cap_gainers",
     "TROX": "aggressive_small_caps",
-    "VIOT": "small_cap_gainers",
     "SANG": "small_cap_gainers",
     "IQMXW": "small_cap_gainers",
-    "TRMD": "day_gainers",
-    "XXI": "day_gainers",
-    "WF": "day_gainers",
-    "SG": "small_cap_gainers",
-    "FSSL": "small_cap_gainers",
-    "TEAD": "small_cap_gainers",
-    "SLS": "most_shorted_stocks",
-    "AMC": "most_actives",
-    "SECZ": "day_gainers",
-    "BURL": "day_gainers",
-    "LPG": "day_gainers",
-    "MAT": "day_gainers",
     "ECF": "small_cap_gainers",
     "KELYB": "small_cap_gainers",
     "BYND": "most_shorted_stocks",
@@ -739,6 +707,20 @@
     "TSQ": "small_cap_gainers",
     "OI": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
-    "EVGO": "most_shorted_stocks"
+    "EVGO": "most_shorted_stocks",
+    "STRL": "day_gainers",
+    "TLN": "day_gainers",
+    "IESC": "day_gainers",
+    "AFRM": "day_gainers",
+    "LGN": "day_gainers",
+    "NVMI": "day_gainers",
+    "INBX": "small_cap_gainers",
+    "KOS": "aggressive_small_caps",
+    "UAMY": "aggressive_small_caps",
+    "OLN": "aggressive_small_caps",
+    "LGO": "aggressive_small_caps",
+    "CWH": "aggressive_small_caps",
+    "CSIQ": "aggressive_small_caps",
+    "RUN": "most_shorted_stocks"
   }
 }
