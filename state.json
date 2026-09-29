@@ -27,17 +27,7 @@
     "HAFN",
     "ORC",
     "BMNR",
-    "CMPS",
-    "ONDS",
-    "AEO",
-    "YOU",
-    "FIVE",
-    "QNST",
-    "SCNI",
     "CCL",
-    "ENHA",
-    "CNK",
-    "VCEL",
     "ZIM",
     "NDLS",
     "GPRO",
@@ -317,29 +307,21 @@
     "XRX",
     "IREN",
     "RXO",
-    "FN"
+    "FN",
+    "MARA",
+    "AGNC",
+    "DUOL",
+    "FLR",
+    "RDY",
+    "BA",
+    "EROC",
+    "TEAD",
+    "FOIL",
+    "RC-PC"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "MSC": {
-      "start_bar": "2026-09-29T09:35:00-04:00"
-    },
-    "AIFU": {
-      "start_bar": "2026-09-29T09:45:00-04:00"
-    },
-    "HTZ": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
-    "ITG": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
-    "NU": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
     "STEM": {
-      "start_bar": "2026-09-29T09:50:00-04:00"
-    },
-    "TLYS": {
       "start_bar": "2026-09-29T09:50:00-04:00"
     },
     "RFL": {
@@ -356,6 +338,12 @@
     },
     "ELVN": {
       "start_bar": "2026-09-29T10:00:00-04:00"
+    },
+    "EVH": {
+      "start_bar": "2026-09-29T10:00:00-04:00"
+    },
+    "CWH": {
+      "start_bar": "2026-09-29T10:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -368,17 +356,7 @@
     "HAFN": "day_gainers",
     "ORC": "aggressive_small_caps",
     "BMNR": "most_actives",
-    "CMPS": "aggressive_small_caps",
-    "ONDS": "most_shorted_stocks",
-    "AEO": "day_gainers",
-    "YOU": "day_gainers",
-    "FIVE": "day_gainers",
-    "QNST": "aggressive_small_caps",
-    "SCNI": "most_shorted_stocks",
     "CCL": "most_actives+day_gainers",
-    "ENHA": "small_cap_gainers",
-    "CNK": "day_gainers",
-    "VCEL": "day_gainers",
     "ZIM": "day_gainers",
     "NDLS": "small_cap_gainers",
     "GPRO": "aggressive_small_caps",
@@ -517,7 +495,7 @@
     "PLUG": "most_actives",
     "AAL": "most_actives",
     "SOFI": "most_actives",
-    "NOK": "most_actives+day_gainers",
+    "NOK": "most_actives",
     "NFLX": "most_actives",
     "TSLA": "most_actives",
     "SMR": "most_actives",
@@ -658,6 +636,16 @@
     "XRX": "most_shorted_stocks",
     "IREN": "most_actives",
     "RXO": "day_gainers",
-    "FN": "day_gainers"
+    "FN": "day_gainers",
+    "MARA": "most_actives",
+    "AGNC": "most_actives",
+    "DUOL": "day_gainers",
+    "FLR": "day_gainers",
+    "RDY": "day_gainers",
+    "BA": "day_gainers",
+    "EROC": "small_cap_gainers",
+    "TEAD": "small_cap_gainers",
+    "FOIL": "small_cap_gainers",
+    "RC-PC": "small_cap_gainers"
   }
 }
