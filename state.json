@@ -34,8 +34,6 @@
     "RXRX",
     "OCGN",
     "ABCL",
-    "GIL",
-    "VOYG",
     "MSGS",
     "TXG",
     "NKTR",
@@ -317,17 +315,13 @@
     "WETO",
     "PCG",
     "KNDI",
-    "CCCC"
+    "CCCC",
+    "RBLX",
+    "JACK"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "PCG": {
-      "start_bar": "2026-09-29T11:05:00-04:00"
-    },
     "STTK": {
-      "start_bar": "2026-09-29T11:15:00-04:00"
-    },
-    "NVTS": {
       "start_bar": "2026-09-29T11:15:00-04:00"
     }
   },
@@ -348,8 +342,6 @@
     "RXRX": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "ABCL": "day_gainers",
-    "GIL": "day_gainers",
-    "VOYG": "day_gainers",
     "MSGS": "day_gainers",
     "TXG": "day_gainers",
     "NKTR": "day_gainers",
@@ -591,7 +583,7 @@
     "AUR": "most_actives",
     "NNBR": "small_cap_gainers",
     "PSEC-PA": "small_cap_gainers",
-    "CRWV": "most_actives+day_gainers",
+    "CRWV": "most_actives",
     "ALAB": "day_gainers",
     "UMC": "day_gainers",
     "QNCX": "small_cap_gainers",
@@ -631,6 +623,8 @@
     "WETO": "most_shorted_stocks",
     "PCG": "most_actives",
     "KNDI": "small_cap_gainers",
-    "CCCC": "most_shorted_stocks"
+    "CCCC": "most_shorted_stocks",
+    "RBLX": "most_actives",
+    "JACK": "most_shorted_stocks"
   }
 }
