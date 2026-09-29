@@ -30,11 +30,7 @@
     "CCL",
     "GPRO",
     "WOLF",
-    "TLYS",
-    "HTZWW",
-    "SJT",
     "FLX",
-    "BRSL",
     "CAPR",
     "MBX",
     "CPB",
@@ -317,16 +313,14 @@
     "AVGO",
     "JMKE",
     "DJT",
-    "CRMT"
+    "CRMT",
+    "RKT",
+    "AUR",
+    "NNBR",
+    "PSEC-PA"
   ],
   "tracked_day": "2026-09-29",
   "pending_bull": {
-    "MBX": {
-      "start_bar": "2026-09-29T10:00:00-04:00"
-    },
-    "ELVN": {
-      "start_bar": "2026-09-29T10:00:00-04:00"
-    },
     "CWH": {
       "start_bar": "2026-09-29T10:05:00-04:00"
     },
@@ -345,9 +339,6 @@
     "ZYME": {
       "start_bar": "2026-09-29T10:05:00-04:00"
     },
-    "BRSL": {
-      "start_bar": "2026-09-29T10:15:00-04:00"
-    },
     "GOSS": {
       "start_bar": "2026-09-29T10:10:00-04:00"
     },
@@ -360,8 +351,14 @@
     "TBLA": {
       "start_bar": "2026-09-29T10:10:00-04:00"
     },
-    "SCNI": {
-      "start_bar": "2026-09-29T10:10:00-04:00"
+    "SEB": {
+      "start_bar": "2026-09-29T10:15:00-04:00"
+    },
+    "SNAP": {
+      "start_bar": "2026-09-29T10:20:00-04:00"
+    },
+    "CRMT": {
+      "start_bar": "2026-09-29T10:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,12 +373,8 @@
     "BMNR": "most_actives",
     "CCL": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
-    "WOLF": "most_shorted_stocks",
-    "TLYS": "small_cap_gainers",
-    "HTZWW": "small_cap_gainers",
-    "SJT": "small_cap_gainers",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "FLX": "small_cap_gainers",
-    "BRSL": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "MBX": "day_gainers",
     "CPB": "day_gainers",
@@ -504,7 +497,7 @@
     "NFLX": "most_actives",
     "TSLA": "most_actives",
     "SMR": "most_actives",
-    "ORCL": "most_actives",
+    "ORCL": "most_actives+day_gainers",
     "OPEN": "most_actives",
     "SEB": "day_gainers",
     "GENI": "aggressive_small_caps",
@@ -532,7 +525,7 @@
     "BE": "most_actives+day_gainers",
     "CBOE": "day_gainers",
     "RCL": "day_gainers",
-    "ASTS": "day_gainers",
+    "ASTS": "most_actives",
     "LIND": "day_gainers",
     "BFLY": "day_gainers",
     "NCLH": "most_actives+day_gainers",
@@ -664,6 +657,10 @@
     "AVGO": "most_actives",
     "JMKE": "day_gainers",
     "DJT": "day_gainers",
-    "CRMT": "small_cap_gainers"
+    "CRMT": "small_cap_gainers",
+    "RKT": "most_actives",
+    "AUR": "most_actives",
+    "NNBR": "small_cap_gainers",
+    "PSEC-PA": "small_cap_gainers"
   }
 }
