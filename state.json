@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "BBBYW",
+    "KNDI",
+    "VIOT",
+    "KPTI",
+    "OPENZ",
+    "ZUMZ",
+    "ACRS",
+    "SFIX",
+    "FLX",
+    "ENHA",
+    "ABCL",
+    "PRTA",
+    "BZ",
+    "VOYG",
+    "MBX"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "NAT",
     "NVDA",
