@@ -20,7 +20,6 @@
   "tracked_tickers": [
     "SOUN",
     "BBAI",
-    "TRIP",
     "FORM",
     "PMVP",
     "OI",
@@ -317,15 +316,13 @@
     "GRAL",
     "CCOI",
     "ASPS",
-    "QUBT"
+    "QUBT",
+    "BIRD"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
     "TEAM": {
       "start_bar": "2026-09-30T14:30:00-04:00"
-    },
-    "RGNX": {
-      "start_bar": "2026-09-30T14:25:00-04:00"
     },
     "PATH": {
       "start_bar": "2026-09-30T14:35:00-04:00"
@@ -348,15 +345,6 @@
     "CAPR": {
       "start_bar": "2026-09-30T14:40:00-04:00"
     },
-    "UEC": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
-    "HBM": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
-    "TECK": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
     "CSIQ": {
       "start_bar": "2026-09-30T14:40:00-04:00"
     },
@@ -371,12 +359,23 @@
     },
     "TGE": {
       "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "IREN": {
+      "start_bar": "2026-09-30T14:45:00-04:00"
+    },
+    "SLDP": {
+      "start_bar": "2026-09-30T14:45:00-04:00"
+    },
+    "PAL": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "AUR": {
+      "start_bar": "2026-09-30T14:45:00-04:00"
     }
   },
   "ticker_sources": {
     "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
-    "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
     "PMVP": "small_cap_gainers",
     "OI": "aggressive_small_caps",
@@ -390,11 +389,11 @@
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
-    "IBRX": "most_actives+day_gainers",
+    "IBRX": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
-    "PATH": "most_actives",
+    "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
@@ -402,7 +401,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -673,6 +672,7 @@
     "GRAL": "day_gainers",
     "CCOI": "small_cap_gainers",
     "ASPS": "small_cap_gainers",
-    "QUBT": "most_shorted_stocks"
+    "QUBT": "most_shorted_stocks",
+    "BIRD": "small_cap_gainers"
   }
 }
