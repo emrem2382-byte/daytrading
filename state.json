@@ -50,12 +50,7 @@
     "BRSL",
     "PATH",
     "NVAX",
-    "MNSO",
-    "SEER",
     "SB",
-    "BOX",
-    "AAL",
-    "RLAY",
     "RARE",
     "MXCT",
     "ASYS",
@@ -317,30 +312,29 @@
     "ACMR",
     "CDNL",
     "EPRX",
-    "PSQH"
+    "PSQH",
+    "SDGR",
+    "ALMR",
+    "ABOS",
+    "ACR",
+    "FUN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "RLAY": {
-      "start_bar": "2026-09-30T11:00:00-04:00"
-    },
-    "GPRO": {
-      "start_bar": "2026-09-30T11:00:00-04:00"
-    },
-    "IOVA": {
-      "start_bar": "2026-09-30T11:00:00-04:00"
-    },
-    "PAL": {
-      "start_bar": "2026-09-30T10:55:00-04:00"
-    },
-    "VISN": {
-      "start_bar": "2026-09-30T11:00:00-04:00"
-    },
     "BTCT": {
       "start_bar": "2026-09-30T11:10:00-04:00"
     },
     "FRO": {
       "start_bar": "2026-09-30T11:10:00-04:00"
+    },
+    "ANDG": {
+      "start_bar": "2026-09-30T11:15:00-04:00"
+    },
+    "CELC": {
+      "start_bar": "2026-09-30T11:15:00-04:00"
+    },
+    "ECO": {
+      "start_bar": "2026-09-30T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,16 +366,11 @@
     "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
-    "SLS": "most_shorted_stocks",
+    "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
     "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
-    "MNSO": "day_gainers",
-    "SEER": "small_cap_gainers",
     "SB": "aggressive_small_caps",
-    "BOX": "day_gainers",
-    "AAL": "most_actives",
-    "RLAY": "day_gainers",
     "RARE": "small_cap_gainers",
     "MXCT": "small_cap_gainers",
     "ASYS": "small_cap_gainers",
@@ -527,7 +516,7 @@
     "WTTR": "day_gainers",
     "BSP": "day_gainers",
     "RDDT": "day_gainers",
-    "SMR": "day_gainers",
+    "SMR": "most_actives",
     "JOBY": "day_gainers",
     "SPIR": "small_cap_gainers",
     "CMS-PB": "small_cap_gainers",
@@ -643,6 +632,11 @@
     "ACMR": "day_gainers",
     "CDNL": "small_cap_gainers",
     "EPRX": "small_cap_gainers",
-    "PSQH": "small_cap_gainers"
+    "PSQH": "small_cap_gainers",
+    "SDGR": "day_gainers",
+    "ALMR": "day_gainers",
+    "ABOS": "small_cap_gainers",
+    "ACR": "small_cap_gainers",
+    "FUN": "aggressive_small_caps"
   }
 }
