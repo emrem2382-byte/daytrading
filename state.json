@@ -321,24 +321,6 @@
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "ERO": {
-      "start_bar": "2026-09-30T12:40:00-04:00"
-    },
-    "UAMY": {
-      "start_bar": "2026-09-30T12:40:00-04:00"
-    },
-    "VOYG": {
-      "start_bar": "2026-09-30T12:45:00-04:00"
-    },
-    "QBTS": {
-      "start_bar": "2026-09-30T12:45:00-04:00"
-    },
-    "USAR": {
-      "start_bar": "2026-09-30T12:45:00-04:00"
-    },
-    "CSIQ": {
-      "start_bar": "2026-09-30T12:40:00-04:00"
-    },
     "JACK": {
       "start_bar": "2026-09-30T12:45:00-04:00"
     },
@@ -347,6 +329,12 @@
     },
     "INN": {
       "start_bar": "2026-09-30T12:50:00-04:00"
+    },
+    "NVG": {
+      "start_bar": "2026-09-30T12:55:00-04:00"
+    },
+    "NKTR": {
+      "start_bar": "2026-09-30T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,7 +351,7 @@
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "SNAP": "most_actives",
+    "SNAP": "most_actives+day_gainers",
     "WETO": "most_shorted_stocks",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
