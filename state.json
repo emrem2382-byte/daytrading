@@ -67,7 +67,6 @@
     "UXIN",
     "METCB",
     "VIOT",
-    "VNET",
     "PENN",
     "EVH",
     "BTCT",
@@ -317,21 +316,13 @@
     "AESI",
     "WTI",
     "BMBL",
-    "SEER"
+    "SEER",
+    "XP"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "COOK": {
-      "start_bar": "2026-09-30T12:00:00-04:00"
-    },
     "STKE": {
       "start_bar": "2026-09-30T12:05:00-04:00"
-    },
-    "SEDG": {
-      "start_bar": "2026-09-30T12:15:00-04:00"
-    },
-    "CNDT": {
-      "start_bar": "2026-09-30T12:15:00-04:00"
     },
     "VALE": {
       "start_bar": "2026-09-30T12:25:00-04:00"
@@ -343,6 +334,12 @@
       "start_bar": "2026-09-30T12:30:00-04:00"
     },
     "ENPH": {
+      "start_bar": "2026-09-30T12:30:00-04:00"
+    },
+    "BWLP": {
+      "start_bar": "2026-09-30T12:30:00-04:00"
+    },
+    "PLUG": {
       "start_bar": "2026-09-30T12:30:00-04:00"
     }
   },
@@ -379,7 +376,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -396,7 +393,6 @@
     "UXIN": "small_cap_gainers",
     "METCB": "small_cap_gainers",
     "VIOT": "small_cap_gainers",
-    "VNET": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "BTCT": "most_shorted_stocks",
@@ -531,7 +527,7 @@
     "CNXC": "small_cap_gainers",
     "ETRA": "small_cap_gainers",
     "CMCM": "small_cap_gainers",
-    "ACDC": "small_cap_gainers+aggressive_small_caps",
+    "ACDC": "aggressive_small_caps",
     "CLF": "day_gainers",
     "BROS": "day_gainers",
     "BEKE": "day_gainers",
@@ -646,6 +642,7 @@
     "AESI": "small_cap_gainers",
     "WTI": "small_cap_gainers",
     "BMBL": "small_cap_gainers",
-    "SEER": "small_cap_gainers"
+    "SEER": "small_cap_gainers",
+    "XP": "day_gainers"
   }
 }
