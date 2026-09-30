@@ -35,7 +35,6 @@
     "CAPR",
     "CHPT",
     "IBRX",
-    "WOLF",
     "GRAL",
     "PACB",
     "SLS",
@@ -74,9 +73,7 @@
     "TENB",
     "HIMS",
     "DOCS",
-    "CVI",
     "PARR",
-    "FRO",
     "BWLP",
     "HUBS",
     "LPG",
@@ -317,19 +314,13 @@
     "EGHT",
     "TGE",
     "MH",
-    "ACN"
+    "ACN",
+    "EROK",
+    "DGICB",
+    "KURA"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "SMMT": {
-      "start_bar": "2026-09-30T13:20:00-04:00"
-    },
-    "CWH": {
-      "start_bar": "2026-09-30T13:15:00-04:00"
-    },
-    "CAPR": {
-      "start_bar": "2026-09-30T13:20:00-04:00"
-    },
     "WTTR": {
       "start_bar": "2026-09-30T13:25:00-04:00"
     },
@@ -341,6 +332,9 @@
     },
     "KPTI": {
       "start_bar": "2026-09-30T13:30:00-04:00"
+    },
+    "KOS": {
+      "start_bar": "2026-09-30T13:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,7 +355,6 @@
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
-    "WOLF": "most_shorted_stocks",
     "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
@@ -400,9 +393,7 @@
     "TENB": "day_gainers",
     "HIMS": "day_gainers",
     "DOCS": "day_gainers",
-    "CVI": "day_gainers",
     "PARR": "day_gainers",
-    "FRO": "day_gainers",
     "BWLP": "day_gainers",
     "HUBS": "day_gainers",
     "LPG": "day_gainers",
@@ -643,6 +634,9 @@
     "EGHT": "small_cap_gainers",
     "TGE": "small_cap_gainers",
     "MH": "day_gainers",
-    "ACN": "day_gainers"
+    "ACN": "day_gainers",
+    "EROK": "small_cap_gainers",
+    "DGICB": "small_cap_gainers",
+    "KURA": "aggressive_small_caps"
   }
 }
