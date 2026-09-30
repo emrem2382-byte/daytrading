@@ -27,7 +27,6 @@
     "PMVP",
     "OI",
     "SERV",
-    "EVGO",
     "UAMY",
     "RUN",
     "GETY",
@@ -47,7 +46,6 @@
     "NVAX",
     "SB",
     "NVDA",
-    "ONDS",
     "AAPL",
     "COUR",
     "LAC",
@@ -64,7 +62,6 @@
     "TRMD",
     "IONQ",
     "GME",
-    "XXI",
     "FLY",
     "TXG",
     "ORKA",
@@ -317,21 +314,21 @@
     "KSS",
     "IDT",
     "VRA",
-    "BHV"
+    "BHV",
+    "TWST",
+    "ADEA",
+    "SLDPW"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "SNPS": {
-      "start_bar": "2026-09-30T11:30:00-04:00"
-    },
-    "BYND": {
-      "start_bar": "2026-09-30T11:30:00-04:00"
-    },
     "ASST": {
       "start_bar": "2026-09-30T11:40:00-04:00"
     },
-    "NAT": {
-      "start_bar": "2026-09-30T11:40:00-04:00"
+    "IREN": {
+      "start_bar": "2026-09-30T11:50:00-04:00"
+    },
+    "BTU": {
+      "start_bar": "2026-09-30T11:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -344,14 +341,13 @@
     "PMVP": "small_cap_gainers",
     "OI": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
-    "EVGO": "most_shorted_stocks",
     "UAMY": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
     "WETO": "most_shorted_stocks",
-    "CCCC": "small_cap_gainers+most_shorted_stocks",
+    "CCCC": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
@@ -364,7 +360,6 @@
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
-    "ONDS": "most_actives+most_shorted_stocks",
     "AAPL": "most_actives",
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
@@ -381,7 +376,6 @@
     "TRMD": "day_gainers",
     "IONQ": "most_actives",
     "GME": "day_gainers",
-    "XXI": "day_gainers",
     "FLY": "day_gainers",
     "TXG": "day_gainers",
     "ORKA": "day_gainers",
@@ -634,6 +628,9 @@
     "KSS": "most_shorted_stocks",
     "IDT": "small_cap_gainers",
     "VRA": "small_cap_gainers",
-    "BHV": "small_cap_gainers"
+    "BHV": "small_cap_gainers",
+    "TWST": "day_gainers",
+    "ADEA": "day_gainers",
+    "SLDPW": "small_cap_gainers"
   }
 }
