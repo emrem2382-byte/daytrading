@@ -329,6 +329,21 @@
     },
     "RGNX": {
       "start_bar": "2026-09-30T14:25:00-04:00"
+    },
+    "PATH": {
+      "start_bar": "2026-09-30T14:35:00-04:00"
+    },
+    "VIOT": {
+      "start_bar": "2026-09-30T14:30:00-04:00"
+    },
+    "SMMT": {
+      "start_bar": "2026-09-30T14:35:00-04:00"
+    },
+    "ERO": {
+      "start_bar": "2026-09-30T14:35:00-04:00"
+    },
+    "SEER": {
+      "start_bar": "2026-09-30T14:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,7 +375,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
