@@ -81,11 +81,6 @@
     "SNPS",
     "ETSY",
     "AI",
-    "CCL",
-    "NCLH",
-    "OUST",
-    "WTTR",
-    "BSP",
     "RDDT",
     "SMR",
     "JOBY",
@@ -317,16 +312,15 @@
     "UAA",
     "NXTC",
     "VOR",
-    "STTK"
+    "STTK",
+    "SEI",
+    "KVYO",
+    "SSTK",
+    "HKD",
+    "LENZ"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "BTCT": {
-      "start_bar": "2026-09-30T15:20:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-09-30T15:20:00-04:00"
-    },
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
@@ -359,6 +353,12 @@
     },
     "MH": {
       "start_bar": "2026-09-30T15:35:00-04:00"
+    },
+    "INN": {
+      "start_bar": "2026-09-30T15:35:00-04:00"
+    },
+    "TWST": {
+      "start_bar": "2026-09-30T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -425,11 +425,6 @@
     "SNPS": "day_gainers",
     "ETSY": "day_gainers",
     "AI": "small_cap_gainers",
-    "CCL": "most_actives",
-    "NCLH": "most_actives",
-    "OUST": "day_gainers",
-    "WTTR": "day_gainers",
-    "BSP": "day_gainers",
     "RDDT": "day_gainers",
     "SMR": "most_actives",
     "JOBY": "day_gainers",
@@ -661,6 +656,11 @@
     "UAA": "small_cap_gainers",
     "NXTC": "small_cap_gainers",
     "VOR": "small_cap_gainers",
-    "STTK": "small_cap_gainers"
+    "STTK": "small_cap_gainers",
+    "SEI": "day_gainers",
+    "KVYO": "day_gainers",
+    "SSTK": "small_cap_gainers",
+    "HKD": "small_cap_gainers",
+    "LENZ": "most_shorted_stocks"
   }
 }
