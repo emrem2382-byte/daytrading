@@ -76,9 +76,6 @@
     "BRZE",
     "NTCT",
     "DK",
-    "DMRC",
-    "UPST",
-    "NVTS",
     "PLUG",
     "NIO",
     "RKLB",
@@ -317,23 +314,14 @@
     "LOT",
     "EVCM",
     "SILC",
-    "METC"
+    "METC",
+    "GTM",
+    "DXC",
+    "TRIP"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "CCCC": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
-    "CSIQ": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
     "IREN": {
-      "start_bar": "2026-09-30T14:45:00-04:00"
-    },
-    "SLDP": {
-      "start_bar": "2026-09-30T14:45:00-04:00"
-    },
-    "AUR": {
       "start_bar": "2026-09-30T14:45:00-04:00"
     },
     "LEU": {
@@ -348,7 +336,22 @@
     "TEAD": {
       "start_bar": "2026-09-30T14:50:00-04:00"
     },
-    "NVG": {
+    "BRSL": {
+      "start_bar": "2026-09-30T14:55:00-04:00"
+    },
+    "NCLH": {
+      "start_bar": "2026-09-30T15:00:00-04:00"
+    },
+    "NXE": {
+      "start_bar": "2026-09-30T14:55:00-04:00"
+    },
+    "ENVX": {
+      "start_bar": "2026-09-30T15:00:00-04:00"
+    },
+    "TTEC": {
+      "start_bar": "2026-09-30T14:55:00-04:00"
+    },
+    "EGHT": {
       "start_bar": "2026-09-30T14:55:00-04:00"
     }
   },
@@ -367,7 +370,7 @@
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
-    "IBRX": "day_gainers",
+    "IBRX": "most_actives+day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
@@ -411,9 +414,6 @@
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
     "DK": "day_gainers",
-    "DMRC": "small_cap_gainers",
-    "UPST": "most_shorted_stocks",
-    "NVTS": "most_actives",
     "PLUG": "most_actives",
     "NIO": "most_actives",
     "RKLB": "most_actives",
@@ -526,8 +526,8 @@
     "ESTC": "day_gainers",
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
-    "AUR": "most_actives",
-    "BB": "most_actives",
+    "AUR": "most_actives+day_gainers",
+    "BB": "most_actives+day_gainers",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -652,6 +652,9 @@
     "LOT": "small_cap_gainers",
     "EVCM": "small_cap_gainers",
     "SILC": "small_cap_gainers",
-    "METC": "aggressive_small_caps"
+    "METC": "aggressive_small_caps",
+    "GTM": "small_cap_gainers",
+    "DXC": "small_cap_gainers",
+    "TRIP": "most_shorted_stocks"
   }
 }
