@@ -63,7 +63,6 @@
     "IONQ",
     "LEGN",
     "ROG",
-    "KC",
     "LUNR",
     "LI",
     "ECO",
@@ -317,7 +316,8 @@
     "QNST",
     "FOSL",
     "SVCO",
-    "COOK"
+    "COOK",
+    "SM"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -332,6 +332,15 @@
     },
     "COOK": {
       "start_bar": "2026-09-30T12:00:00-04:00"
+    },
+    "WOLF": {
+      "start_bar": "2026-09-30T12:10:00-04:00"
+    },
+    "STKE": {
+      "start_bar": "2026-09-30T12:05:00-04:00"
+    },
+    "NU": {
+      "start_bar": "2026-09-30T12:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -367,7 +376,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -380,7 +389,6 @@
     "IONQ": "most_actives",
     "LEGN": "day_gainers",
     "ROG": "day_gainers",
-    "KC": "day_gainers",
     "LUNR": "day_gainers",
     "LI": "day_gainers",
     "ECO": "day_gainers",
@@ -634,6 +642,7 @@
     "QNST": "small_cap_gainers",
     "FOSL": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
-    "COOK": "small_cap_gainers"
+    "COOK": "small_cap_gainers",
+    "SM": "day_gainers"
   }
 }
