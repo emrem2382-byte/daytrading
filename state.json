@@ -71,17 +71,12 @@
     "ZETA",
     "DNA",
     "RXRX",
-    "PBF",
     "BRZE",
     "NTCT",
     "DK",
     "PLUG",
-    "VOR",
-    "OCGN",
     "GRAB",
-    "RDW",
     "MP",
-    "PL",
     "HCM",
     "SNPS",
     "ETSY",
@@ -317,42 +312,35 @@
     "CBOE",
     "DPC",
     "GKOS",
-    "PHI"
+    "PHI",
+    "PRAX",
+    "BZ",
+    "FDS",
+    "YSG",
+    "UPST"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "SYRE": {
-      "start_bar": "2026-09-30T15:10:00-04:00"
-    },
-    "HPE": {
-      "start_bar": "2026-09-30T15:10:00-04:00"
-    },
-    "BSP": {
-      "start_bar": "2026-09-30T15:10:00-04:00"
-    },
-    "BROS": {
-      "start_bar": "2026-09-30T15:10:00-04:00"
-    },
-    "CAPR": {
-      "start_bar": "2026-09-30T15:15:00-04:00"
-    },
     "SMMT": {
       "start_bar": "2026-09-30T15:15:00-04:00"
     },
     "OLN": {
       "start_bar": "2026-09-30T15:15:00-04:00"
     },
-    "ETSY": {
-      "start_bar": "2026-09-30T15:20:00-04:00"
-    },
     "NKTR": {
       "start_bar": "2026-09-30T15:15:00-04:00"
     },
-    "AESI": {
+    "BTCT": {
       "start_bar": "2026-09-30T15:20:00-04:00"
     },
-    "HTZ": {
-      "start_bar": "2026-09-30T15:15:00-04:00"
+    "DNA": {
+      "start_bar": "2026-09-30T15:20:00-04:00"
+    },
+    "EWTX": {
+      "start_bar": "2026-09-30T15:20:00-04:00"
+    },
+    "BHV": {
+      "start_bar": "2026-09-30T15:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -409,17 +397,12 @@
     "ZETA": "day_gainers",
     "DNA": "small_cap_gainers",
     "RXRX": "most_actives+most_shorted_stocks",
-    "PBF": "day_gainers",
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
     "DK": "day_gainers",
     "PLUG": "most_actives",
-    "VOR": "small_cap_gainers",
-    "OCGN": "most_shorted_stocks",
     "GRAB": "most_actives",
-    "RDW": "day_gainers",
     "MP": "day_gainers",
-    "PL": "day_gainers",
     "HCM": "day_gainers",
     "SNPS": "day_gainers",
     "ETSY": "day_gainers",
@@ -655,6 +638,11 @@
     "CBOE": "day_gainers",
     "DPC": "day_gainers",
     "GKOS": "day_gainers",
-    "PHI": "small_cap_gainers"
+    "PHI": "small_cap_gainers",
+    "PRAX": "day_gainers",
+    "BZ": "day_gainers",
+    "FDS": "day_gainers",
+    "YSG": "small_cap_gainers",
+    "UPST": "most_shorted_stocks"
   }
 }
