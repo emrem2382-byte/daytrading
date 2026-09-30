@@ -63,8 +63,6 @@
     "IONQ",
     "LEGN",
     "ROG",
-    "LUNR",
-    "LI",
     "ECO",
     "OGG",
     "GO",
@@ -317,7 +315,9 @@
     "FOSL",
     "SVCO",
     "COOK",
-    "SM"
+    "SM",
+    "NWCL",
+    "ATEN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -327,19 +327,25 @@
     "GO": {
       "start_bar": "2026-09-30T12:05:00-04:00"
     },
-    "BMNR": {
-      "start_bar": "2026-09-30T12:00:00-04:00"
-    },
     "COOK": {
       "start_bar": "2026-09-30T12:00:00-04:00"
-    },
-    "WOLF": {
-      "start_bar": "2026-09-30T12:10:00-04:00"
     },
     "STKE": {
       "start_bar": "2026-09-30T12:05:00-04:00"
     },
     "NU": {
+      "start_bar": "2026-09-30T12:10:00-04:00"
+    },
+    "HKD": {
+      "start_bar": "2026-09-30T12:10:00-04:00"
+    },
+    "TECK": {
+      "start_bar": "2026-09-30T12:10:00-04:00"
+    },
+    "SEDG": {
+      "start_bar": "2026-09-30T12:15:00-04:00"
+    },
+    "KRMN": {
       "start_bar": "2026-09-30T12:10:00-04:00"
     }
   },
@@ -389,8 +395,6 @@
     "IONQ": "most_actives",
     "LEGN": "day_gainers",
     "ROG": "day_gainers",
-    "LUNR": "day_gainers",
-    "LI": "day_gainers",
     "ECO": "day_gainers",
     "OGG": "small_cap_gainers",
     "GO": "small_cap_gainers",
@@ -643,6 +647,8 @@
     "FOSL": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
     "COOK": "small_cap_gainers",
-    "SM": "day_gainers"
+    "SM": "day_gainers",
+    "NWCL": "day_gainers",
+    "ATEN": "small_cap_gainers"
   }
 }
