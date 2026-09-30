@@ -321,22 +321,10 @@
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "TECK": {
-      "start_bar": "2026-09-30T14:50:00-04:00"
-    },
-    "TEAD": {
-      "start_bar": "2026-09-30T14:50:00-04:00"
-    },
     "BRSL": {
       "start_bar": "2026-09-30T14:55:00-04:00"
     },
-    "NCLH": {
-      "start_bar": "2026-09-30T15:00:00-04:00"
-    },
     "TTEC": {
-      "start_bar": "2026-09-30T14:55:00-04:00"
-    },
-    "EGHT": {
       "start_bar": "2026-09-30T14:55:00-04:00"
     },
     "INTC": {
@@ -347,6 +335,21 @@
     },
     "OMDA": {
       "start_bar": "2026-09-30T15:00:00-04:00"
+    },
+    "SYRE": {
+      "start_bar": "2026-09-30T15:10:00-04:00"
+    },
+    "HPE": {
+      "start_bar": "2026-09-30T15:10:00-04:00"
+    },
+    "BSP": {
+      "start_bar": "2026-09-30T15:10:00-04:00"
+    },
+    "IOVA": {
+      "start_bar": "2026-09-30T15:10:00-04:00"
+    },
+    "BROS": {
+      "start_bar": "2026-09-30T15:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,7 +379,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
