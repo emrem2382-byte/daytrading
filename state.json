@@ -67,10 +67,6 @@
     "UXIN",
     "METCB",
     "VIOT",
-    "CBNK",
-    "WEA",
-    "TGE",
-    "GPRO",
     "VNET",
     "PENN",
     "EVH",
@@ -317,7 +313,11 @@
     "ONDS",
     "PTEN",
     "MOBI",
-    "SENS"
+    "SENS",
+    "AESI",
+    "WTI",
+    "BMBL",
+    "SEER"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -327,16 +327,7 @@
     "STKE": {
       "start_bar": "2026-09-30T12:05:00-04:00"
     },
-    "HKD": {
-      "start_bar": "2026-09-30T12:10:00-04:00"
-    },
-    "TECK": {
-      "start_bar": "2026-09-30T12:10:00-04:00"
-    },
     "SEDG": {
-      "start_bar": "2026-09-30T12:15:00-04:00"
-    },
-    "KPTI": {
       "start_bar": "2026-09-30T12:15:00-04:00"
     },
     "CNDT": {
@@ -344,10 +335,19 @@
     },
     "VALE": {
       "start_bar": "2026-09-30T12:25:00-04:00"
+    },
+    "LPG": {
+      "start_bar": "2026-09-30T12:25:00-04:00"
+    },
+    "RDDT": {
+      "start_bar": "2026-09-30T12:30:00-04:00"
+    },
+    "ENPH": {
+      "start_bar": "2026-09-30T12:30:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "day_gainers+most_shorted_stocks",
+    "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -360,7 +360,7 @@
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "SNAP": "most_actives",
+    "SNAP": "most_actives+day_gainers",
     "WETO": "most_shorted_stocks",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
@@ -379,7 +379,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -396,10 +396,6 @@
     "UXIN": "small_cap_gainers",
     "METCB": "small_cap_gainers",
     "VIOT": "small_cap_gainers",
-    "CBNK": "small_cap_gainers",
-    "WEA": "small_cap_gainers",
-    "TGE": "small_cap_gainers",
-    "GPRO": "aggressive_small_caps",
     "VNET": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
@@ -535,7 +531,7 @@
     "CNXC": "small_cap_gainers",
     "ETRA": "small_cap_gainers",
     "CMCM": "small_cap_gainers",
-    "ACDC": "aggressive_small_caps",
+    "ACDC": "small_cap_gainers+aggressive_small_caps",
     "CLF": "day_gainers",
     "BROS": "day_gainers",
     "BEKE": "day_gainers",
@@ -642,10 +638,14 @@
     "COOK": "small_cap_gainers",
     "SM": "day_gainers",
     "NWCL": "day_gainers",
-    "ATEN": "small_cap_gainers",
+    "ATEN": "day_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PTEN": "day_gainers",
     "MOBI": "small_cap_gainers",
-    "SENS": "small_cap_gainers"
+    "SENS": "small_cap_gainers",
+    "AESI": "small_cap_gainers",
+    "WTI": "small_cap_gainers",
+    "BMBL": "small_cap_gainers",
+    "SEER": "small_cap_gainers"
   }
 }
