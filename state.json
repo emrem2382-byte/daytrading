@@ -35,7 +35,6 @@
     "CAPR",
     "CHPT",
     "IBRX",
-    "GRAL",
     "PACB",
     "SLS",
     "BRSL",
@@ -317,17 +316,12 @@
     "ALXO",
     "WOLF",
     "HTZ",
-    "GRPN"
+    "GRPN",
+    "CVI"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "HUBS": {
-      "start_bar": "2026-09-30T13:40:00-04:00"
-    },
     "GOSS": {
-      "start_bar": "2026-09-30T13:40:00-04:00"
-    },
-    "EVH": {
       "start_bar": "2026-09-30T13:40:00-04:00"
     },
     "PS": {
@@ -354,14 +348,14 @@
     "STUB": {
       "start_bar": "2026-09-30T13:45:00-04:00"
     },
-    "NN": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
     "FSLY": {
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
     "HTZ": {
       "start_bar": "2026-09-30T13:50:00-04:00"
+    },
+    "PL": {
+      "start_bar": "2026-09-30T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -378,11 +372,10 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
     "WETO": "most_shorted_stocks",
-    "CCCC": "small_cap_gainers+most_shorted_stocks",
+    "CCCC": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
-    "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
@@ -664,6 +657,7 @@
     "ALXO": "small_cap_gainers",
     "WOLF": "most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
-    "GRPN": "most_shorted_stocks"
+    "GRPN": "most_shorted_stocks",
+    "CVI": "day_gainers"
   }
 }
