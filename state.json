@@ -63,7 +63,6 @@
     "UXIN",
     "METCB",
     "VIOT",
-    "EVH",
     "BTCT",
     "NNE",
     "QUBT",
@@ -73,7 +72,6 @@
     "HIMS",
     "DOCS",
     "PARR",
-    "HUBS",
     "PS",
     "ZETA",
     "DNA",
@@ -82,7 +80,6 @@
     "CBOE",
     "BRZE",
     "NTCT",
-    "NTAP",
     "CAMT",
     "ICHR",
     "AVPT",
@@ -317,19 +314,13 @@
     "WOLF",
     "HTZ",
     "GRPN",
-    "CVI"
+    "CVI",
+    "KOD",
+    "SITC",
+    "ORCL-PD"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "GOSS": {
-      "start_bar": "2026-09-30T13:40:00-04:00"
-    },
-    "PS": {
-      "start_bar": "2026-09-30T13:40:00-04:00"
-    },
-    "RGNX": {
-      "start_bar": "2026-09-30T13:45:00-04:00"
-    },
     "SYRE": {
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
@@ -345,9 +336,6 @@
     "LEU": {
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
-    "STUB": {
-      "start_bar": "2026-09-30T13:45:00-04:00"
-    },
     "FSLY": {
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
@@ -355,6 +343,21 @@
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
     "PL": {
+      "start_bar": "2026-09-30T13:55:00-04:00"
+    },
+    "EOSE": {
+      "start_bar": "2026-09-30T14:00:00-04:00"
+    },
+    "VOR": {
+      "start_bar": "2026-09-30T13:55:00-04:00"
+    },
+    "ETSY": {
+      "start_bar": "2026-09-30T14:00:00-04:00"
+    },
+    "HBAN": {
+      "start_bar": "2026-09-30T13:55:00-04:00"
+    },
+    "ORCL-PD": {
       "start_bar": "2026-09-30T13:55:00-04:00"
     }
   },
@@ -372,7 +375,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
     "WETO": "most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
+    "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
@@ -404,7 +407,6 @@
     "UXIN": "small_cap_gainers",
     "METCB": "small_cap_gainers",
     "VIOT": "small_cap_gainers",
-    "EVH": "aggressive_small_caps",
     "BTCT": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
@@ -414,7 +416,6 @@
     "HIMS": "day_gainers",
     "DOCS": "day_gainers",
     "PARR": "day_gainers",
-    "HUBS": "day_gainers",
     "PS": "day_gainers",
     "ZETA": "day_gainers",
     "DNA": "small_cap_gainers",
@@ -423,7 +424,6 @@
     "CBOE": "day_gainers",
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
-    "NTAP": "day_gainers",
     "CAMT": "day_gainers",
     "ICHR": "day_gainers",
     "AVPT": "day_gainers",
@@ -658,6 +658,9 @@
     "WOLF": "most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
-    "CVI": "day_gainers"
+    "CVI": "day_gainers",
+    "KOD": "day_gainers",
+    "SITC": "small_cap_gainers",
+    "ORCL-PD": "aggressive_small_caps"
   }
 }
