@@ -74,9 +74,7 @@
     "HIMS",
     "DOCS",
     "PARR",
-    "BWLP",
     "HUBS",
-    "LPG",
     "PS",
     "ZETA",
     "ILMN",
@@ -317,14 +315,13 @@
     "ACN",
     "EROK",
     "DGICB",
-    "KURA"
+    "KURA",
+    "TSLA",
+    "SPTX"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
     "WTTR": {
-      "start_bar": "2026-09-30T13:25:00-04:00"
-    },
-    "CCCC": {
       "start_bar": "2026-09-30T13:25:00-04:00"
     },
     "INN": {
@@ -335,6 +332,12 @@
     },
     "KOS": {
       "start_bar": "2026-09-30T13:35:00-04:00"
+    },
+    "HUBS": {
+      "start_bar": "2026-09-30T13:40:00-04:00"
+    },
+    "GOSS": {
+      "start_bar": "2026-09-30T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -394,9 +397,7 @@
     "HIMS": "day_gainers",
     "DOCS": "day_gainers",
     "PARR": "day_gainers",
-    "BWLP": "day_gainers",
     "HUBS": "day_gainers",
-    "LPG": "day_gainers",
     "PS": "day_gainers",
     "ZETA": "day_gainers",
     "ILMN": "day_gainers",
@@ -637,6 +638,8 @@
     "ACN": "day_gainers",
     "EROK": "small_cap_gainers",
     "DGICB": "small_cap_gainers",
-    "KURA": "aggressive_small_caps"
+    "KURA": "aggressive_small_caps",
+    "TSLA": "most_actives",
+    "SPTX": "small_cap_gainers"
   }
 }
