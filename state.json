@@ -61,14 +61,8 @@
     "HPE",
     "TRMD",
     "IONQ",
-    "TXG",
-    "ORKA",
-    "HII",
     "LEGN",
     "ROG",
-    "ASST",
-    "RGTI",
-    "BLSH",
     "KC",
     "LUNR",
     "LI",
@@ -317,14 +311,26 @@
     "ADEA",
     "SLDPW",
     "WLTH",
-    "GME"
+    "GME",
+    "BMNR",
+    "FLY",
+    "QNST",
+    "FOSL",
+    "SVCO",
+    "COOK"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "BTU": {
-      "start_bar": "2026-09-30T11:45:00-04:00"
-    },
     "TGE": {
+      "start_bar": "2026-09-30T12:00:00-04:00"
+    },
+    "GO": {
+      "start_bar": "2026-09-30T12:05:00-04:00"
+    },
+    "BMNR": {
+      "start_bar": "2026-09-30T12:00:00-04:00"
+    },
+    "COOK": {
       "start_bar": "2026-09-30T12:00:00-04:00"
     }
   },
@@ -372,14 +378,8 @@
     "HPE": "most_actives+day_gainers",
     "TRMD": "day_gainers",
     "IONQ": "most_actives",
-    "TXG": "day_gainers",
-    "ORKA": "day_gainers",
-    "HII": "day_gainers",
     "LEGN": "day_gainers",
     "ROG": "day_gainers",
-    "ASST": "day_gainers",
-    "RGTI": "day_gainers",
-    "BLSH": "day_gainers",
     "KC": "day_gainers",
     "LUNR": "day_gainers",
     "LI": "day_gainers",
@@ -628,6 +628,12 @@
     "ADEA": "day_gainers",
     "SLDPW": "small_cap_gainers",
     "WLTH": "small_cap_gainers",
-    "GME": "day_gainers"
+    "GME": "day_gainers",
+    "BMNR": "most_actives",
+    "FLY": "day_gainers",
+    "QNST": "small_cap_gainers",
+    "FOSL": "small_cap_gainers",
+    "SVCO": "small_cap_gainers",
+    "COOK": "small_cap_gainers"
   }
 }
