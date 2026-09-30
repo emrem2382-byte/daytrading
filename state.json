@@ -81,7 +81,6 @@
     "NTCT",
     "AVPT",
     "DK",
-    "VIA",
     "DINO",
     "GAP",
     "OPENZ",
@@ -317,33 +316,19 @@
     "HUBS",
     "AVLN",
     "EVH",
-    "PCOR"
+    "PCOR",
+    "KYMR"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
     "ORCL-PD": {
       "start_bar": "2026-09-30T13:55:00-04:00"
     },
-    "CTNM": {
-      "start_bar": "2026-09-30T14:00:00-04:00"
-    },
     "VYX": {
       "start_bar": "2026-09-30T14:05:00-04:00"
     },
-    "DAO": {
-      "start_bar": "2026-09-30T14:00:00-04:00"
-    },
     "NVDA": {
       "start_bar": "2026-09-30T14:10:00-04:00"
-    },
-    "ETSY": {
-      "start_bar": "2026-09-30T14:05:00-04:00"
-    },
-    "DAVA": {
-      "start_bar": "2026-09-30T14:05:00-04:00"
-    },
-    "AAPL": {
-      "start_bar": "2026-09-30T14:15:00-04:00"
     },
     "AVPT": {
       "start_bar": "2026-09-30T14:15:00-04:00"
@@ -353,6 +338,12 @@
     },
     "NICE": {
       "start_bar": "2026-09-30T14:10:00-04:00"
+    },
+    "ABUS": {
+      "start_bar": "2026-09-30T14:20:00-04:00"
+    },
+    "ETRA": {
+      "start_bar": "2026-09-30T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -419,7 +410,6 @@
     "NTCT": "day_gainers",
     "AVPT": "day_gainers",
     "DK": "day_gainers",
-    "VIA": "day_gainers",
     "DINO": "day_gainers",
     "GAP": "day_gainers",
     "OPENZ": "small_cap_gainers",
@@ -655,6 +645,7 @@
     "HUBS": "day_gainers",
     "AVLN": "small_cap_gainers",
     "EVH": "aggressive_small_caps",
-    "PCOR": "day_gainers"
+    "PCOR": "day_gainers",
+    "KYMR": "day_gainers"
   }
 }
