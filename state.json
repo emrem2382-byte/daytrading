@@ -50,10 +50,6 @@
     "BRSL",
     "PATH",
     "NVAX",
-    "W",
-    "AEO",
-    "PGEN",
-    "CTKB",
     "MNSO",
     "SEER",
     "SB",
@@ -317,13 +313,14 @@
     "AUTL",
     "ARVN",
     "GOSS",
-    "AZUL"
+    "AZUL",
+    "ACMR",
+    "CDNL",
+    "EPRX",
+    "PSQH"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "CAMT": {
-      "start_bar": "2026-09-30T10:50:00-04:00"
-    },
     "RLAY": {
       "start_bar": "2026-09-30T11:00:00-04:00"
     },
@@ -338,6 +335,12 @@
     },
     "VISN": {
       "start_bar": "2026-09-30T11:00:00-04:00"
+    },
+    "BTCT": {
+      "start_bar": "2026-09-30T11:10:00-04:00"
+    },
+    "FRO": {
+      "start_bar": "2026-09-30T11:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,7 +364,7 @@
     "SNAP": "most_actives",
     "SQNS": "small_cap_gainers",
     "WETO": "most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
+    "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
@@ -371,12 +374,8 @@
     "PACB": "small_cap_gainers",
     "SLS": "most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
-    "PATH": "day_gainers",
+    "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
-    "W": "day_gainers",
-    "AEO": "day_gainers",
-    "PGEN": "day_gainers",
-    "CTKB": "aggressive_small_caps",
     "MNSO": "day_gainers",
     "SEER": "small_cap_gainers",
     "SB": "aggressive_small_caps",
@@ -501,7 +500,7 @@
     "NVTS": "most_actives",
     "PLUG": "most_actives",
     "NIO": "most_actives",
-    "RKLB": "most_actives+day_gainers",
+    "RKLB": "most_actives",
     "PSKY": "most_actives",
     "GDS": "day_gainers",
     "NAMS": "day_gainers",
@@ -640,6 +639,10 @@
     "AUTL": "small_cap_gainers",
     "ARVN": "small_cap_gainers",
     "GOSS": "small_cap_gainers",
-    "AZUL": "small_cap_gainers"
+    "AZUL": "small_cap_gainers",
+    "ACMR": "day_gainers",
+    "CDNL": "small_cap_gainers",
+    "EPRX": "small_cap_gainers",
+    "PSQH": "small_cap_gainers"
   }
 }
