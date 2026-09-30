@@ -77,15 +77,9 @@
     "HUBS",
     "PS",
     "ZETA",
-    "ILMN",
-    "QURE",
     "DNA",
-    "STKE",
     "RXRX",
-    "NOK",
-    "MSTR",
     "PBF",
-    "ASTS",
     "CBOE",
     "BRZE",
     "NTCT",
@@ -317,19 +311,16 @@
     "DGICB",
     "KURA",
     "TSLA",
-    "SPTX"
+    "SPTX",
+    "VKTX",
+    "NICE",
+    "ALXO",
+    "WOLF",
+    "HTZ",
+    "GRPN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "WTTR": {
-      "start_bar": "2026-09-30T13:25:00-04:00"
-    },
-    "INN": {
-      "start_bar": "2026-09-30T13:25:00-04:00"
-    },
-    "KPTI": {
-      "start_bar": "2026-09-30T13:30:00-04:00"
-    },
     "KOS": {
       "start_bar": "2026-09-30T13:35:00-04:00"
     },
@@ -338,6 +329,21 @@
     },
     "GOSS": {
       "start_bar": "2026-09-30T13:40:00-04:00"
+    },
+    "CTNM": {
+      "start_bar": "2026-09-30T13:45:00-04:00"
+    },
+    "EVH": {
+      "start_bar": "2026-09-30T13:40:00-04:00"
+    },
+    "PS": {
+      "start_bar": "2026-09-30T13:40:00-04:00"
+    },
+    "HBAN": {
+      "start_bar": "2026-09-30T13:45:00-04:00"
+    },
+    "RGNX": {
+      "start_bar": "2026-09-30T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -400,15 +406,9 @@
     "HUBS": "day_gainers",
     "PS": "day_gainers",
     "ZETA": "day_gainers",
-    "ILMN": "day_gainers",
-    "QURE": "small_cap_gainers",
     "DNA": "small_cap_gainers",
-    "STKE": "small_cap_gainers",
     "RXRX": "most_actives+most_shorted_stocks",
-    "NOK": "most_actives",
-    "MSTR": "most_actives",
     "PBF": "day_gainers",
-    "ASTS": "day_gainers",
     "CBOE": "day_gainers",
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
@@ -640,6 +640,12 @@
     "DGICB": "small_cap_gainers",
     "KURA": "aggressive_small_caps",
     "TSLA": "most_actives",
-    "SPTX": "small_cap_gainers"
+    "SPTX": "small_cap_gainers",
+    "VKTX": "day_gainers",
+    "NICE": "day_gainers",
+    "ALXO": "small_cap_gainers",
+    "WOLF": "most_shorted_stocks",
+    "HTZ": "most_shorted_stocks",
+    "GRPN": "most_shorted_stocks"
   }
 }
