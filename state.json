@@ -29,7 +29,6 @@
     "GETY",
     "TEAD",
     "SNAP",
-    "WETO",
     "CCCC",
     "CAPR",
     "CHPT",
@@ -78,7 +77,6 @@
     "NTCT",
     "DK",
     "DMRC",
-    "EOSE",
     "UPST",
     "NVTS",
     "PLUG",
@@ -317,35 +315,16 @@
     "BIRD",
     "AVPT",
     "LOT",
-    "EVCM"
+    "EVCM",
+    "SILC",
+    "METC"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "SEER": {
-      "start_bar": "2026-09-30T14:30:00-04:00"
-    },
-    "PMVP": {
-      "start_bar": "2026-09-30T14:35:00-04:00"
-    },
     "CCCC": {
       "start_bar": "2026-09-30T14:40:00-04:00"
     },
-    "CAPR": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
     "CSIQ": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
-    "TROX": {
-      "start_bar": "2026-09-30T14:35:00-04:00"
-    },
-    "UUUU": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
-    },
-    "TGE": {
       "start_bar": "2026-09-30T14:40:00-04:00"
     },
     "IREN": {
@@ -353,9 +332,6 @@
     },
     "SLDP": {
       "start_bar": "2026-09-30T14:45:00-04:00"
-    },
-    "PAL": {
-      "start_bar": "2026-09-30T14:40:00-04:00"
     },
     "AUR": {
       "start_bar": "2026-09-30T14:45:00-04:00"
@@ -368,6 +344,12 @@
     },
     "LOT": {
       "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-09-30T14:50:00-04:00"
+    },
+    "NVG": {
+      "start_bar": "2026-09-30T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -382,7 +364,6 @@
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
-    "WETO": "most_shorted_stocks",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
@@ -398,7 +379,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
@@ -431,7 +412,6 @@
     "NTCT": "day_gainers",
     "DK": "day_gainers",
     "DMRC": "small_cap_gainers",
-    "EOSE": "most_shorted_stocks",
     "UPST": "most_shorted_stocks",
     "NVTS": "most_actives",
     "PLUG": "most_actives",
@@ -670,6 +650,8 @@
     "BIRD": "small_cap_gainers",
     "AVPT": "day_gainers",
     "LOT": "small_cap_gainers",
-    "EVCM": "small_cap_gainers"
+    "EVCM": "small_cap_gainers",
+    "SILC": "small_cap_gainers",
+    "METC": "aggressive_small_caps"
   }
 }
