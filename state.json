@@ -47,7 +47,6 @@
     "VISN",
     "TMC",
     "INN",
-    "METC",
     "KPTI",
     "TNON",
     "INTC",
@@ -79,8 +78,6 @@
     "NTCT",
     "DK",
     "DMRC",
-    "ORC",
-    "CMPS",
     "EOSE",
     "UPST",
     "NVTS",
@@ -317,22 +314,13 @@
     "CCOI",
     "ASPS",
     "QUBT",
-    "BIRD"
+    "BIRD",
+    "AVPT",
+    "LOT",
+    "EVCM"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "TEAM": {
-      "start_bar": "2026-09-30T14:30:00-04:00"
-    },
-    "PATH": {
-      "start_bar": "2026-09-30T14:35:00-04:00"
-    },
-    "VIOT": {
-      "start_bar": "2026-09-30T14:30:00-04:00"
-    },
-    "ERO": {
-      "start_bar": "2026-09-30T14:35:00-04:00"
-    },
     "SEER": {
       "start_bar": "2026-09-30T14:30:00-04:00"
     },
@@ -371,6 +359,15 @@
     },
     "AUR": {
       "start_bar": "2026-09-30T14:45:00-04:00"
+    },
+    "LEU": {
+      "start_bar": "2026-09-30T14:45:00-04:00"
+    },
+    "TECK": {
+      "start_bar": "2026-09-30T14:50:00-04:00"
+    },
+    "LOT": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -401,9 +398,8 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
-    "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
     "INTC": "most_actives",
@@ -435,8 +431,6 @@
     "NTCT": "day_gainers",
     "DK": "day_gainers",
     "DMRC": "small_cap_gainers",
-    "ORC": "aggressive_small_caps",
-    "CMPS": "aggressive_small_caps",
     "EOSE": "most_shorted_stocks",
     "UPST": "most_shorted_stocks",
     "NVTS": "most_actives",
@@ -553,7 +547,7 @@
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
     "AUR": "most_actives",
-    "BB": "most_actives+day_gainers",
+    "BB": "most_actives",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -673,6 +667,9 @@
     "CCOI": "small_cap_gainers",
     "ASPS": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
-    "BIRD": "small_cap_gainers"
+    "BIRD": "small_cap_gainers",
+    "AVPT": "day_gainers",
+    "LOT": "small_cap_gainers",
+    "EVCM": "small_cap_gainers"
   }
 }
