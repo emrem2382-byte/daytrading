@@ -75,7 +75,6 @@
     "IMOS",
     "TENB",
     "HIMS",
-    "INSW",
     "DOCS",
     "TNK",
     "CVI",
@@ -317,16 +316,11 @@
     "CWH",
     "PENN",
     "PURR",
-    "AMBQ"
+    "AMBQ",
+    "EGHT"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "JACK": {
-      "start_bar": "2026-09-30T12:45:00-04:00"
-    },
-    "RDW": {
-      "start_bar": "2026-09-30T12:50:00-04:00"
-    },
     "INN": {
       "start_bar": "2026-09-30T12:50:00-04:00"
     },
@@ -351,7 +345,7 @@
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "SNAP": "most_actives+day_gainers",
+    "SNAP": "most_actives",
     "WETO": "most_shorted_stocks",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
@@ -395,7 +389,6 @@
     "IMOS": "day_gainers",
     "TENB": "day_gainers",
     "HIMS": "day_gainers",
-    "INSW": "day_gainers",
     "DOCS": "day_gainers",
     "TNK": "day_gainers",
     "CVI": "day_gainers",
@@ -637,6 +630,7 @@
     "CWH": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
     "PURR": "day_gainers",
-    "AMBQ": "small_cap_gainers"
+    "AMBQ": "small_cap_gainers",
+    "EGHT": "small_cap_gainers"
   }
 }
