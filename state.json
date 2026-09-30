@@ -67,7 +67,6 @@
     "UXIN",
     "METCB",
     "VIOT",
-    "NXTC",
     "CBNK",
     "WEA",
     "TGE",
@@ -317,7 +316,8 @@
     "ATEN",
     "ONDS",
     "PTEN",
-    "MOBI"
+    "MOBI",
+    "SENS"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -326,9 +326,6 @@
     },
     "STKE": {
       "start_bar": "2026-09-30T12:05:00-04:00"
-    },
-    "NU": {
-      "start_bar": "2026-09-30T12:10:00-04:00"
     },
     "HKD": {
       "start_bar": "2026-09-30T12:10:00-04:00"
@@ -339,21 +336,18 @@
     "SEDG": {
       "start_bar": "2026-09-30T12:15:00-04:00"
     },
-    "KRMN": {
-      "start_bar": "2026-09-30T12:10:00-04:00"
-    },
     "KPTI": {
       "start_bar": "2026-09-30T12:15:00-04:00"
     },
-    "GDS": {
-      "start_bar": "2026-09-30T12:20:00-04:00"
-    },
     "CNDT": {
       "start_bar": "2026-09-30T12:15:00-04:00"
+    },
+    "VALE": {
+      "start_bar": "2026-09-30T12:25:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "most_shorted_stocks",
+    "SOUN": "day_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -385,7 +379,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -402,7 +396,6 @@
     "UXIN": "small_cap_gainers",
     "METCB": "small_cap_gainers",
     "VIOT": "small_cap_gainers",
-    "NXTC": "small_cap_gainers",
     "CBNK": "small_cap_gainers",
     "WEA": "small_cap_gainers",
     "TGE": "small_cap_gainers",
@@ -574,7 +567,7 @@
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
     "AUR": "most_actives",
-    "BB": "most_actives",
+    "BB": "most_actives+day_gainers",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -652,6 +645,7 @@
     "ATEN": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PTEN": "day_gainers",
-    "MOBI": "small_cap_gainers"
+    "MOBI": "small_cap_gainers",
+    "SENS": "small_cap_gainers"
   }
 }
