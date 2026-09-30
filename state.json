@@ -41,7 +41,6 @@
     "CHPT",
     "IBRX",
     "WOLF",
-    "KSS",
     "GRAL",
     "PACB",
     "SLS",
@@ -52,10 +51,6 @@
     "NVDA",
     "ONDS",
     "AAPL",
-    "BMNR",
-    "INSP",
-    "ACLS",
-    "ANDG",
     "ASPSW",
     "COUR",
     "LAC",
@@ -317,13 +312,15 @@
     "SRFM",
     "ABSI",
     "RGNX",
-    "OLN"
+    "OLN",
+    "SOFI",
+    "VIR",
+    "ORIC",
+    "KOS",
+    "BYND"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "ANDG": {
-      "start_bar": "2026-09-30T11:15:00-04:00"
-    },
     "ECO": {
       "start_bar": "2026-09-30T11:20:00-04:00"
     },
@@ -331,6 +328,12 @@
       "start_bar": "2026-09-30T11:20:00-04:00"
     },
     "BTCT": {
+      "start_bar": "2026-09-30T11:30:00-04:00"
+    },
+    "SNPS": {
+      "start_bar": "2026-09-30T11:30:00-04:00"
+    },
+    "BYND": {
       "start_bar": "2026-09-30T11:30:00-04:00"
     }
   },
@@ -358,7 +361,6 @@
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
     "WOLF": "most_shorted_stocks",
-    "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "most_shorted_stocks",
@@ -369,10 +371,6 @@
     "NVDA": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
     "AAPL": "most_actives",
-    "BMNR": "most_actives",
-    "INSP": "day_gainers",
-    "ACLS": "day_gainers",
-    "ANDG": "small_cap_gainers",
     "ASPSW": "small_cap_gainers",
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
@@ -584,7 +582,7 @@
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
     "AUR": "most_actives",
-    "BB": "day_gainers",
+    "BB": "most_actives+day_gainers",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -634,6 +632,11 @@
     "SRFM": "small_cap_gainers",
     "ABSI": "small_cap_gainers",
     "RGNX": "small_cap_gainers",
-    "OLN": "aggressive_small_caps"
+    "OLN": "aggressive_small_caps",
+    "SOFI": "most_actives",
+    "VIR": "small_cap_gainers",
+    "ORIC": "small_cap_gainers",
+    "KOS": "aggressive_small_caps",
+    "BYND": "most_shorted_stocks"
   }
 }
