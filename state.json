@@ -75,7 +75,6 @@
     "TENB",
     "HIMS",
     "DOCS",
-    "TNK",
     "CVI",
     "PARR",
     "FRO",
@@ -317,22 +316,13 @@
     "PURR",
     "AMBQ",
     "EGHT",
-    "TGE"
+    "TGE",
+    "MH"
   ],
   "tracked_day": "2026-09-30",
-  "pending_bull": {
-    "NVG": {
-      "start_bar": "2026-09-30T12:55:00-04:00"
-    },
-    "NKTR": {
-      "start_bar": "2026-09-30T12:55:00-04:00"
-    },
-    "PTRN": {
-      "start_bar": "2026-09-30T13:05:00-04:00"
-    }
-  },
+  "pending_bull": {},
   "ticker_sources": {
-    "SOUN": "day_gainers+most_shorted_stocks",
+    "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -363,7 +353,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -389,7 +379,6 @@
     "TENB": "day_gainers",
     "HIMS": "day_gainers",
     "DOCS": "day_gainers",
-    "TNK": "day_gainers",
     "CVI": "day_gainers",
     "PARR": "day_gainers",
     "FRO": "day_gainers",
@@ -631,6 +620,7 @@
     "PURR": "day_gainers",
     "AMBQ": "small_cap_gainers",
     "EGHT": "small_cap_gainers",
-    "TGE": "small_cap_gainers"
+    "TGE": "small_cap_gainers",
+    "MH": "day_gainers"
   }
 }
