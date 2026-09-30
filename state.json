@@ -65,7 +65,6 @@
     "VIOT",
     "BTCT",
     "NNE",
-    "QUBT",
     "SPCX",
     "IMOS",
     "TENB",
@@ -317,13 +316,11 @@
     "ORCL-PD",
     "HUBS",
     "AVLN",
-    "EVH"
+    "EVH",
+    "PCOR"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "VOR": {
-      "start_bar": "2026-09-30T13:55:00-04:00"
-    },
     "ORCL-PD": {
       "start_bar": "2026-09-30T13:55:00-04:00"
     },
@@ -344,6 +341,18 @@
     },
     "DAVA": {
       "start_bar": "2026-09-30T14:05:00-04:00"
+    },
+    "AAPL": {
+      "start_bar": "2026-09-30T14:15:00-04:00"
+    },
+    "AVPT": {
+      "start_bar": "2026-09-30T14:15:00-04:00"
+    },
+    "BYND": {
+      "start_bar": "2026-09-30T14:10:00-04:00"
+    },
+    "NICE": {
+      "start_bar": "2026-09-30T14:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -375,7 +384,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -394,7 +403,6 @@
     "VIOT": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
-    "QUBT": "most_shorted_stocks",
     "SPCX": "most_actives",
     "IMOS": "day_gainers",
     "TENB": "day_gainers",
@@ -646,6 +654,7 @@
     "ORCL-PD": "aggressive_small_caps",
     "HUBS": "day_gainers",
     "AVLN": "small_cap_gainers",
-    "EVH": "aggressive_small_caps"
+    "EVH": "aggressive_small_caps",
+    "PCOR": "day_gainers"
   }
 }
