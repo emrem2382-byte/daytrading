@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "GRABW",
+    "ASPS",
+    "ASPSZ",
+    "ASPSW",
+    "SUJA",
+    "PMVP",
+    "OPENW",
+    "JELD",
+    "FEAM",
+    "GRPN",
+    "AIFU",
+    "FORM",
+    "PACB",
+    "COUR",
+    "BBD"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "AXTI",
     "TROX",
