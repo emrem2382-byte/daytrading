@@ -29,7 +29,6 @@
     "SERV",
     "EVGO",
     "UAMY",
-    "CWH",
     "RUN",
     "GETY",
     "TEAD",
@@ -61,11 +60,9 @@
     "INTC",
     "SYRE",
     "MDB",
-    "KOD",
     "HPE",
     "TRMD",
     "IONQ",
-    "RUM",
     "GME",
     "XXI",
     "FLY",
@@ -317,7 +314,10 @@
     "BYND",
     "BVC",
     "LOCL",
-    "KSS"
+    "KSS",
+    "IDT",
+    "VRA",
+    "BHV"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -330,7 +330,7 @@
     "ASST": {
       "start_bar": "2026-09-30T11:40:00-04:00"
     },
-    "OLN": {
+    "NAT": {
       "start_bar": "2026-09-30T11:40:00-04:00"
     }
   },
@@ -346,7 +346,6 @@
     "SERV": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "UAMY": "aggressive_small_caps",
-    "CWH": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
@@ -378,11 +377,9 @@
     "INTC": "most_actives",
     "SYRE": "day_gainers",
     "MDB": "day_gainers",
-    "KOD": "day_gainers",
     "HPE": "most_actives+day_gainers",
     "TRMD": "day_gainers",
     "IONQ": "most_actives",
-    "RUM": "day_gainers",
     "GME": "day_gainers",
     "XXI": "day_gainers",
     "FLY": "day_gainers",
@@ -634,6 +631,9 @@
     "BYND": "most_shorted_stocks",
     "BVC": "day_gainers",
     "LOCL": "small_cap_gainers",
-    "KSS": "most_shorted_stocks"
+    "KSS": "most_shorted_stocks",
+    "IDT": "small_cap_gainers",
+    "VRA": "small_cap_gainers",
+    "BHV": "small_cap_gainers"
   }
 }
