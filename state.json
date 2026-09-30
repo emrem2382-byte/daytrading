@@ -61,7 +61,6 @@
     "HPE",
     "TRMD",
     "IONQ",
-    "GME",
     "FLY",
     "TXG",
     "ORKA",
@@ -317,16 +316,11 @@
     "BHV",
     "TWST",
     "ADEA",
-    "SLDPW"
+    "SLDPW",
+    "WLTH"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "ASST": {
-      "start_bar": "2026-09-30T11:40:00-04:00"
-    },
-    "IREN": {
-      "start_bar": "2026-09-30T11:50:00-04:00"
-    },
     "BTU": {
       "start_bar": "2026-09-30T11:45:00-04:00"
     }
@@ -347,7 +341,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
     "WETO": "most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
+    "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
     "IBRX": "most_actives+day_gainers",
@@ -375,7 +369,6 @@
     "HPE": "most_actives+day_gainers",
     "TRMD": "day_gainers",
     "IONQ": "most_actives",
-    "GME": "day_gainers",
     "FLY": "day_gainers",
     "TXG": "day_gainers",
     "ORKA": "day_gainers",
@@ -631,6 +624,7 @@
     "BHV": "small_cap_gainers",
     "TWST": "day_gainers",
     "ADEA": "day_gainers",
-    "SLDPW": "small_cap_gainers"
+    "SLDPW": "small_cap_gainers",
+    "WLTH": "small_cap_gainers"
   }
 }
