@@ -76,12 +76,7 @@
     "NTCT",
     "DK",
     "PLUG",
-    "GDS",
-    "NAMS",
-    "PTRN",
     "VOR",
-    "YSG",
-    "AMTD",
     "OCGN",
     "GRAB",
     "RDW",
@@ -317,13 +312,15 @@
     "LOPE",
     "ALKT",
     "DMRC",
-    "INTR"
+    "INTR",
+    "WBD",
+    "CBOE",
+    "DPC",
+    "GKOS",
+    "PHI"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "INTC": {
-      "start_bar": "2026-09-30T15:05:00-04:00"
-    },
     "SYRE": {
       "start_bar": "2026-09-30T15:10:00-04:00"
     },
@@ -331,9 +328,6 @@
       "start_bar": "2026-09-30T15:10:00-04:00"
     },
     "BSP": {
-      "start_bar": "2026-09-30T15:10:00-04:00"
-    },
-    "IOVA": {
       "start_bar": "2026-09-30T15:10:00-04:00"
     },
     "BROS": {
@@ -346,6 +340,18 @@
       "start_bar": "2026-09-30T15:15:00-04:00"
     },
     "OLN": {
+      "start_bar": "2026-09-30T15:15:00-04:00"
+    },
+    "ETSY": {
+      "start_bar": "2026-09-30T15:20:00-04:00"
+    },
+    "NKTR": {
+      "start_bar": "2026-09-30T15:15:00-04:00"
+    },
+    "AESI": {
+      "start_bar": "2026-09-30T15:20:00-04:00"
+    },
+    "HTZ": {
       "start_bar": "2026-09-30T15:15:00-04:00"
     }
   },
@@ -368,7 +374,7 @@
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
@@ -376,7 +382,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
@@ -408,12 +414,7 @@
     "NTCT": "day_gainers",
     "DK": "day_gainers",
     "PLUG": "most_actives",
-    "GDS": "day_gainers",
-    "NAMS": "day_gainers",
-    "PTRN": "day_gainers",
     "VOR": "small_cap_gainers",
-    "YSG": "small_cap_gainers",
-    "AMTD": "small_cap_gainers",
     "OCGN": "most_shorted_stocks",
     "GRAB": "most_actives",
     "RDW": "day_gainers",
@@ -516,8 +517,8 @@
     "ESTC": "day_gainers",
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
-    "AUR": "most_actives+day_gainers",
-    "BB": "most_actives+day_gainers",
+    "AUR": "most_actives",
+    "BB": "most_actives",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -649,6 +650,11 @@
     "LOPE": "day_gainers",
     "ALKT": "small_cap_gainers",
     "DMRC": "small_cap_gainers",
-    "INTR": "day_gainers"
+    "INTR": "day_gainers",
+    "WBD": "most_actives",
+    "CBOE": "day_gainers",
+    "DPC": "day_gainers",
+    "GKOS": "day_gainers",
+    "PHI": "small_cap_gainers"
   }
 }
