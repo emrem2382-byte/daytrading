@@ -22,7 +22,6 @@
     "BBAI",
     "TRIP",
     "FORM",
-    "HTZ",
     "GRPN",
     "PMVP",
     "OI",
@@ -317,26 +316,26 @@
     "PENN",
     "PURR",
     "AMBQ",
-    "EGHT"
+    "EGHT",
+    "TGE"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "INN": {
-      "start_bar": "2026-09-30T12:50:00-04:00"
-    },
     "NVG": {
       "start_bar": "2026-09-30T12:55:00-04:00"
     },
     "NKTR": {
       "start_bar": "2026-09-30T12:55:00-04:00"
+    },
+    "PTRN": {
+      "start_bar": "2026-09-30T13:05:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "most_shorted_stocks",
+    "SOUN": "day_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
-    "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "PMVP": "small_cap_gainers",
     "OI": "aggressive_small_caps",
@@ -631,6 +630,7 @@
     "PENN": "aggressive_small_caps",
     "PURR": "day_gainers",
     "AMBQ": "small_cap_gainers",
-    "EGHT": "small_cap_gainers"
+    "EGHT": "small_cap_gainers",
+    "TGE": "small_cap_gainers"
   }
 }
