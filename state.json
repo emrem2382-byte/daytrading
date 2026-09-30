@@ -81,8 +81,6 @@
     "SNPS",
     "ETSY",
     "AI",
-    "HKD",
-    "IREN",
     "CCL",
     "NCLH",
     "OUST",
@@ -317,20 +315,16 @@
     "YSG",
     "UPST",
     "UAA",
-    "NXTC"
+    "NXTC",
+    "VOR",
+    "STTK"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "NKTR": {
-      "start_bar": "2026-09-30T15:15:00-04:00"
-    },
     "BTCT": {
       "start_bar": "2026-09-30T15:20:00-04:00"
     },
     "DNA": {
-      "start_bar": "2026-09-30T15:20:00-04:00"
-    },
-    "EWTX": {
       "start_bar": "2026-09-30T15:20:00-04:00"
     },
     "BHV": {
@@ -353,6 +347,18 @@
     },
     "TRIP": {
       "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "BHR-PB": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "KLRA": {
+      "start_bar": "2026-09-30T15:35:00-04:00"
+    },
+    "ENTA": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "MH": {
+      "start_bar": "2026-09-30T15:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -374,7 +380,7 @@
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
@@ -419,8 +425,6 @@
     "SNPS": "day_gainers",
     "ETSY": "day_gainers",
     "AI": "small_cap_gainers",
-    "HKD": "small_cap_gainers",
-    "IREN": "most_actives",
     "CCL": "most_actives",
     "NCLH": "most_actives",
     "OUST": "day_gainers",
@@ -655,6 +659,8 @@
     "YSG": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
     "UAA": "small_cap_gainers",
-    "NXTC": "small_cap_gainers"
+    "NXTC": "small_cap_gainers",
+    "VOR": "small_cap_gainers",
+    "STTK": "small_cap_gainers"
   }
 }
