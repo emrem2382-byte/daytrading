@@ -50,7 +50,6 @@
     "TNON",
     "INTC",
     "SYRE",
-    "MDB",
     "HPE",
     "TRMD",
     "LEGN",
@@ -81,7 +80,6 @@
     "SNPS",
     "ETSY",
     "AI",
-    "RDDT",
     "SMR",
     "JOBY",
     "SPIR",
@@ -317,29 +315,16 @@
     "KVYO",
     "SSTK",
     "HKD",
-    "LENZ"
+    "LENZ",
+    "EPR-PG",
+    "ICHR"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "SB": {
-      "start_bar": "2026-09-30T15:30:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-09-30T15:30:00-04:00"
-    },
-    "ZIP": {
-      "start_bar": "2026-09-30T15:25:00-04:00"
-    },
-    "DAO": {
-      "start_bar": "2026-09-30T15:30:00-04:00"
-    },
     "VIR": {
-      "start_bar": "2026-09-30T15:30:00-04:00"
-    },
-    "TRIP": {
       "start_bar": "2026-09-30T15:30:00-04:00"
     },
     "BHR-PB": {
@@ -348,17 +333,20 @@
     "KLRA": {
       "start_bar": "2026-09-30T15:35:00-04:00"
     },
-    "ENTA": {
-      "start_bar": "2026-09-30T15:30:00-04:00"
-    },
     "MH": {
       "start_bar": "2026-09-30T15:35:00-04:00"
     },
     "INN": {
       "start_bar": "2026-09-30T15:35:00-04:00"
     },
-    "TWST": {
-      "start_bar": "2026-09-30T15:40:00-04:00"
+    "SCCO": {
+      "start_bar": "2026-09-30T15:45:00-04:00"
+    },
+    "ASPN": {
+      "start_bar": "2026-09-30T15:45:00-04:00"
+    },
+    "GME": {
+      "start_bar": "2026-09-30T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,7 +364,7 @@
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
-    "IBRX": "most_actives+day_gainers",
+    "IBRX": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
@@ -394,7 +382,6 @@
     "TNON": "most_shorted_stocks",
     "INTC": "most_actives",
     "SYRE": "day_gainers",
-    "MDB": "day_gainers",
     "HPE": "most_actives+day_gainers",
     "TRMD": "day_gainers",
     "LEGN": "day_gainers",
@@ -425,7 +412,6 @@
     "SNPS": "day_gainers",
     "ETSY": "day_gainers",
     "AI": "small_cap_gainers",
-    "RDDT": "day_gainers",
     "SMR": "most_actives",
     "JOBY": "day_gainers",
     "SPIR": "small_cap_gainers",
@@ -661,6 +647,8 @@
     "KVYO": "day_gainers",
     "SSTK": "small_cap_gainers",
     "HKD": "small_cap_gainers",
-    "LENZ": "most_shorted_stocks"
+    "LENZ": "most_shorted_stocks",
+    "EPR-PG": "day_gainers",
+    "ICHR": "day_gainers"
   }
 }
