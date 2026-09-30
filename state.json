@@ -47,10 +47,6 @@
     "WOLF",
     "KSS",
     "GRAL",
-    "OGC",
-    "PTON",
-    "PENG",
-    "JKS",
     "BBD",
     "PACB",
     "ETI-P",
@@ -317,22 +313,26 @@
     "PEPG",
     "DAVA",
     "CNDT",
-    "TTEC"
+    "TTEC",
+    "VYX",
+    "MIST",
+    "OMDA",
+    "JACK"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
     "MLCO": {
       "start_bar": "2026-09-30T10:25:00-04:00"
     },
-    "ACDC": {
-      "start_bar": "2026-09-30T10:25:00-04:00"
-    },
     "PFE": {
       "start_bar": "2026-09-30T10:35:00-04:00"
+    },
+    "RC": {
+      "start_bar": "2026-09-30T10:40:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "most_shorted_stocks",
+    "SOUN": "day_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -361,10 +361,6 @@
     "WOLF": "most_shorted_stocks",
     "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
-    "OGC": "day_gainers",
-    "PTON": "day_gainers",
-    "PENG": "day_gainers",
-    "JKS": "small_cap_gainers",
     "BBD": "most_actives",
     "PACB": "small_cap_gainers",
     "ETI-P": "small_cap_gainers",
@@ -631,6 +627,10 @@
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
-    "TTEC": "small_cap_gainers"
+    "TTEC": "small_cap_gainers",
+    "VYX": "small_cap_gainers",
+    "MIST": "small_cap_gainers",
+    "OMDA": "small_cap_gainers",
+    "JACK": "most_shorted_stocks"
   }
 }
