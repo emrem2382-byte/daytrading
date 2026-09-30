@@ -82,7 +82,6 @@
     "NTCT",
     "AVPT",
     "DK",
-    "KVYO",
     "VIA",
     "DINO",
     "GAP",
@@ -317,29 +316,12 @@
     "SITC",
     "ORCL-PD",
     "HUBS",
-    "AVLN"
+    "AVLN",
+    "EVH"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "SYRE": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
-    "ROG": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
-    "LEU": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
-    "PL": {
-      "start_bar": "2026-09-30T13:55:00-04:00"
-    },
-    "EOSE": {
-      "start_bar": "2026-09-30T14:00:00-04:00"
-    },
     "VOR": {
-      "start_bar": "2026-09-30T13:55:00-04:00"
-    },
-    "HBAN": {
       "start_bar": "2026-09-30T13:55:00-04:00"
     },
     "ORCL-PD": {
@@ -354,10 +336,13 @@
     "DAO": {
       "start_bar": "2026-09-30T14:00:00-04:00"
     },
-    "ZBIO": {
-      "start_bar": "2026-09-30T14:00:00-04:00"
+    "NVDA": {
+      "start_bar": "2026-09-30T14:10:00-04:00"
     },
-    "BYND": {
+    "ETSY": {
+      "start_bar": "2026-09-30T14:05:00-04:00"
+    },
+    "DAVA": {
       "start_bar": "2026-09-30T14:05:00-04:00"
     }
   },
@@ -390,7 +375,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -426,7 +411,6 @@
     "NTCT": "day_gainers",
     "AVPT": "day_gainers",
     "DK": "day_gainers",
-    "KVYO": "day_gainers",
     "VIA": "day_gainers",
     "DINO": "day_gainers",
     "GAP": "day_gainers",
@@ -661,6 +645,7 @@
     "SITC": "small_cap_gainers",
     "ORCL-PD": "aggressive_small_caps",
     "HUBS": "day_gainers",
-    "AVLN": "small_cap_gainers"
+    "AVLN": "small_cap_gainers",
+    "EVH": "aggressive_small_caps"
   }
 }
