@@ -73,7 +73,6 @@
     "QUBT",
     "SPCX",
     "IMOS",
-    "MNDY",
     "TENB",
     "HIMS",
     "SXT",
@@ -317,19 +316,11 @@
     "XP",
     "SHAK",
     "CBNK",
-    "CWH"
+    "CWH",
+    "PENN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "LPG": {
-      "start_bar": "2026-09-30T12:25:00-04:00"
-    },
-    "RDDT": {
-      "start_bar": "2026-09-30T12:30:00-04:00"
-    },
-    "ENPH": {
-      "start_bar": "2026-09-30T12:30:00-04:00"
-    },
     "BWLP": {
       "start_bar": "2026-09-30T12:30:00-04:00"
     },
@@ -341,10 +332,34 @@
     },
     "ERO": {
       "start_bar": "2026-09-30T12:40:00-04:00"
+    },
+    "UAMY": {
+      "start_bar": "2026-09-30T12:40:00-04:00"
+    },
+    "DINO": {
+      "start_bar": "2026-09-30T12:40:00-04:00"
+    },
+    "PLUG": {
+      "start_bar": "2026-09-30T12:40:00-04:00"
+    },
+    "VOYG": {
+      "start_bar": "2026-09-30T12:45:00-04:00"
+    },
+    "QBTS": {
+      "start_bar": "2026-09-30T12:45:00-04:00"
+    },
+    "USAR": {
+      "start_bar": "2026-09-30T12:45:00-04:00"
+    },
+    "CSIQ": {
+      "start_bar": "2026-09-30T12:40:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-09-30T12:45:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "day_gainers+most_shorted_stocks",
+    "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -368,7 +383,7 @@
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
-    "PATH": "most_actives+day_gainers",
+    "PATH": "most_actives",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
@@ -399,7 +414,6 @@
     "QUBT": "most_shorted_stocks",
     "SPCX": "most_actives",
     "IMOS": "day_gainers",
-    "MNDY": "day_gainers",
     "TENB": "day_gainers",
     "HIMS": "day_gainers",
     "SXT": "day_gainers",
@@ -631,7 +645,7 @@
     "COOK": "small_cap_gainers",
     "SM": "day_gainers",
     "NWCL": "day_gainers",
-    "ATEN": "day_gainers",
+    "ATEN": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PTEN": "day_gainers",
     "MOBI": "small_cap_gainers",
@@ -643,6 +657,7 @@
     "XP": "day_gainers",
     "SHAK": "day_gainers",
     "CBNK": "small_cap_gainers",
-    "CWH": "aggressive_small_caps"
+    "CWH": "aggressive_small_caps",
+    "PENN": "aggressive_small_caps"
   }
 }
