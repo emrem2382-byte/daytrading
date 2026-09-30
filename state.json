@@ -63,9 +63,6 @@
     "IONQ",
     "LEGN",
     "ROG",
-    "ECO",
-    "OGG",
-    "GO",
     "CTNM",
     "UXIN",
     "METCB",
@@ -317,16 +314,13 @@
     "COOK",
     "SM",
     "NWCL",
-    "ATEN"
+    "ATEN",
+    "ONDS",
+    "PTEN",
+    "MOBI"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "TGE": {
-      "start_bar": "2026-09-30T12:00:00-04:00"
-    },
-    "GO": {
-      "start_bar": "2026-09-30T12:05:00-04:00"
-    },
     "COOK": {
       "start_bar": "2026-09-30T12:00:00-04:00"
     },
@@ -347,10 +341,19 @@
     },
     "KRMN": {
       "start_bar": "2026-09-30T12:10:00-04:00"
+    },
+    "KPTI": {
+      "start_bar": "2026-09-30T12:15:00-04:00"
+    },
+    "GDS": {
+      "start_bar": "2026-09-30T12:20:00-04:00"
+    },
+    "CNDT": {
+      "start_bar": "2026-09-30T12:15:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "day_gainers+most_shorted_stocks",
+    "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -395,9 +398,6 @@
     "IONQ": "most_actives",
     "LEGN": "day_gainers",
     "ROG": "day_gainers",
-    "ECO": "day_gainers",
-    "OGG": "small_cap_gainers",
-    "GO": "small_cap_gainers",
     "CTNM": "small_cap_gainers",
     "UXIN": "small_cap_gainers",
     "METCB": "small_cap_gainers",
@@ -574,7 +574,7 @@
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
     "AUR": "most_actives",
-    "BB": "most_actives+day_gainers",
+    "BB": "most_actives",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -649,6 +649,9 @@
     "COOK": "small_cap_gainers",
     "SM": "day_gainers",
     "NWCL": "day_gainers",
-    "ATEN": "small_cap_gainers"
+    "ATEN": "small_cap_gainers",
+    "ONDS": "most_actives+most_shorted_stocks",
+    "PTEN": "day_gainers",
+    "MOBI": "small_cap_gainers"
   }
 }
