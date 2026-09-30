@@ -49,14 +49,9 @@
     "PATH",
     "NVAX",
     "SB",
-    "SOFI",
     "NVDA",
     "ONDS",
-    "CDE",
-    "STLA",
     "AAPL",
-    "T",
-    "PFE",
     "BMNR",
     "INSP",
     "ACLS",
@@ -317,27 +312,26 @@
     "UTHR",
     "ZBIO",
     "ENTA",
-    "SQNS"
+    "SQNS",
+    "NKTR",
+    "SRFM",
+    "ABSI",
+    "RGNX",
+    "OLN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "FRO": {
-      "start_bar": "2026-09-30T11:10:00-04:00"
-    },
     "ANDG": {
       "start_bar": "2026-09-30T11:15:00-04:00"
-    },
-    "LPG": {
-      "start_bar": "2026-09-30T11:15:00-04:00"
-    },
-    "CELC": {
-      "start_bar": "2026-09-30T11:25:00-04:00"
     },
     "ECO": {
       "start_bar": "2026-09-30T11:20:00-04:00"
     },
     "BWLP": {
       "start_bar": "2026-09-30T11:20:00-04:00"
+    },
+    "BTCT": {
+      "start_bar": "2026-09-30T11:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,14 +366,9 @@
     "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
-    "SOFI": "most_actives",
     "NVDA": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
-    "CDE": "most_actives",
-    "STLA": "most_actives",
     "AAPL": "most_actives",
-    "T": "most_actives",
-    "PFE": "most_actives",
     "BMNR": "most_actives",
     "INSP": "day_gainers",
     "ACLS": "day_gainers",
@@ -640,6 +629,11 @@
     "UTHR": "day_gainers",
     "ZBIO": "small_cap_gainers",
     "ENTA": "small_cap_gainers",
-    "SQNS": "small_cap_gainers"
+    "SQNS": "small_cap_gainers",
+    "NKTR": "day_gainers",
+    "SRFM": "small_cap_gainers",
+    "ABSI": "small_cap_gainers",
+    "RGNX": "small_cap_gainers",
+    "OLN": "aggressive_small_caps"
   }
 }
