@@ -75,7 +75,6 @@
     "IMOS",
     "TENB",
     "HIMS",
-    "STNG",
     "INSW",
     "DOCS",
     "TNK",
@@ -317,20 +316,15 @@
     "CBNK",
     "CWH",
     "PENN",
-    "PURR"
+    "PURR",
+    "AMBQ"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "TNK": {
-      "start_bar": "2026-09-30T12:35:00-04:00"
-    },
     "ERO": {
       "start_bar": "2026-09-30T12:40:00-04:00"
     },
     "UAMY": {
-      "start_bar": "2026-09-30T12:40:00-04:00"
-    },
-    "DINO": {
       "start_bar": "2026-09-30T12:40:00-04:00"
     },
     "VOYG": {
@@ -351,12 +345,12 @@
     "RDW": {
       "start_bar": "2026-09-30T12:50:00-04:00"
     },
-    "CRMT": {
-      "start_bar": "2026-09-30T12:45:00-04:00"
+    "INN": {
+      "start_bar": "2026-09-30T12:50:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "day_gainers+most_shorted_stocks",
+    "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -413,7 +407,6 @@
     "IMOS": "day_gainers",
     "TENB": "day_gainers",
     "HIMS": "day_gainers",
-    "STNG": "day_gainers",
     "INSW": "day_gainers",
     "DOCS": "day_gainers",
     "TNK": "day_gainers",
@@ -655,6 +648,7 @@
     "CBNK": "small_cap_gainers",
     "CWH": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
-    "PURR": "day_gainers"
+    "PURR": "day_gainers",
+    "AMBQ": "small_cap_gainers"
   }
 }
