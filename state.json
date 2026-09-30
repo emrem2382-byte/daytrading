@@ -36,7 +36,6 @@
     "GETY",
     "TEAD",
     "SNAP",
-    "SQNS",
     "WETO",
     "CCCC",
     "CAPR",
@@ -51,8 +50,6 @@
     "PATH",
     "NVAX",
     "SB",
-    "RARE",
-    "MXCT",
     "ASYS",
     "YELP",
     "SOFI",
@@ -317,7 +314,10 @@
     "ALMR",
     "ABOS",
     "ACR",
-    "FUN"
+    "FUN",
+    "HBAN",
+    "PGEN",
+    "STRZ"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -330,10 +330,7 @@
     "ANDG": {
       "start_bar": "2026-09-30T11:15:00-04:00"
     },
-    "CELC": {
-      "start_bar": "2026-09-30T11:15:00-04:00"
-    },
-    "ECO": {
+    "LPG": {
       "start_bar": "2026-09-30T11:15:00-04:00"
     }
   },
@@ -356,7 +353,6 @@
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
-    "SQNS": "small_cap_gainers",
     "WETO": "most_shorted_stocks",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
@@ -366,13 +362,11 @@
     "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
-    "SLS": "day_gainers+most_shorted_stocks",
+    "SLS": "most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
     "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
-    "RARE": "small_cap_gainers",
-    "MXCT": "small_cap_gainers",
     "ASYS": "small_cap_gainers",
     "YELP": "small_cap_gainers",
     "SOFI": "most_actives",
@@ -637,6 +631,9 @@
     "ALMR": "day_gainers",
     "ABOS": "small_cap_gainers",
     "ACR": "small_cap_gainers",
-    "FUN": "aggressive_small_caps"
+    "FUN": "aggressive_small_caps",
+    "HBAN": "most_actives",
+    "PGEN": "day_gainers",
+    "STRZ": "small_cap_gainers"
   }
 }
