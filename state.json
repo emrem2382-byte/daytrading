@@ -48,10 +48,6 @@
     "GRAL",
     "PACB",
     "SLS",
-    "ABSI",
-    "CTMX",
-    "ADRX",
-    "OIA",
     "BRSL",
     "SHOP",
     "ANGI",
@@ -317,13 +313,14 @@
     "ERAS",
     "TEAM",
     "MLYS",
-    "NAT"
+    "NAT",
+    "QLYS",
+    "KLRA",
+    "CANG",
+    "ATRA"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "RC": {
-      "start_bar": "2026-09-30T10:40:00-04:00"
-    },
     "EVH": {
       "start_bar": "2026-09-30T10:40:00-04:00"
     },
@@ -332,6 +329,9 @@
     },
     "PFE": {
       "start_bar": "2026-09-30T10:45:00-04:00"
+    },
+    "CAMT": {
+      "start_bar": "2026-09-30T10:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,16 +359,12 @@
     "CCCC": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
-    "IBRX": "day_gainers",
+    "IBRX": "most_actives+day_gainers",
     "WOLF": "most_shorted_stocks",
     "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
-    "ABSI": "small_cap_gainers",
-    "CTMX": "small_cap_gainers",
-    "ADRX": "small_cap_gainers",
-    "OIA": "small_cap_gainers",
     "BRSL": "aggressive_small_caps",
     "SHOP": "day_gainers",
     "ANGI": "small_cap_gainers",
@@ -536,7 +532,7 @@
     "WTTR": "day_gainers",
     "BSP": "day_gainers",
     "RDDT": "day_gainers",
-    "SMR": "most_actives+day_gainers",
+    "SMR": "day_gainers",
     "JOBY": "day_gainers",
     "SPIR": "small_cap_gainers",
     "CMS-PB": "small_cap_gainers",
@@ -634,6 +630,10 @@
     "ERAS": "day_gainers",
     "TEAM": "day_gainers",
     "MLYS": "day_gainers",
-    "NAT": "aggressive_small_caps"
+    "NAT": "aggressive_small_caps",
+    "QLYS": "day_gainers",
+    "KLRA": "small_cap_gainers",
+    "CANG": "small_cap_gainers",
+    "ATRA": "small_cap_gainers"
   }
 }
