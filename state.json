@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "GRABW",
-    "ASPS",
-    "FLX",
-    "ASPSZ",
-    "ASPSW",
-    "SUJA",
-    "PMVP",
-    "OPENW",
-    "JELD",
-    "FEAM",
-    "AIFU",
-    "FORM",
-    "PACB",
-    "BBD",
-    "SOS"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "SOUN",
     "BBAI",
