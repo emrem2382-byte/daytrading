@@ -80,7 +80,6 @@
     "ETSY",
     "AI",
     "SMR",
-    "JOBY",
     "SPIR",
     "CMS-PB",
     "FLNC",
@@ -317,7 +316,8 @@
     "LENZ",
     "EPR-PG",
     "ICHR",
-    "SMCI"
+    "SMCI",
+    "TENB"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -327,11 +327,14 @@
     "BHR-PB": {
       "start_bar": "2026-09-30T15:30:00-04:00"
     },
-    "SCCO": {
-      "start_bar": "2026-09-30T15:45:00-04:00"
+    "TNON": {
+      "start_bar": "2026-09-30T15:55:00-04:00"
     },
-    "RXRX": {
-      "start_bar": "2026-09-30T15:50:00-04:00"
+    "GME": {
+      "start_bar": "2026-09-30T15:55:00-04:00"
+    },
+    "CBOE": {
+      "start_bar": "2026-09-30T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -397,7 +400,6 @@
     "ETSY": "day_gainers",
     "AI": "small_cap_gainers",
     "SMR": "most_actives",
-    "JOBY": "day_gainers",
     "SPIR": "small_cap_gainers",
     "CMS-PB": "small_cap_gainers",
     "FLNC": "aggressive_small_caps",
@@ -634,6 +636,7 @@
     "LENZ": "most_shorted_stocks",
     "EPR-PG": "day_gainers",
     "ICHR": "day_gainers",
-    "SMCI": "most_actives"
+    "SMCI": "most_actives",
+    "TENB": "day_gainers"
   }
 }
