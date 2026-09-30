@@ -46,14 +46,6 @@
     "JACK",
     "CAPR",
     "CHPT",
-    "SKHY",
-    "PLBL",
-    "ABCL",
-    "ANNX",
-    "CAR",
-    "ASPS",
-    "HL",
-    "CCB",
     "RIG",
     "LBTYB",
     "ATI",
@@ -317,21 +309,20 @@
     "IPHA",
     "AUROW",
     "PAL",
-    "NTLA"
+    "NTLA",
+    "AKAM",
+    "HAFN",
+    "FSLY",
+    "FROG",
+    "KRMN",
+    "BTU",
+    "CRMT",
+    "NWCLW"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "CRSP": {
-      "start_bar": "2026-09-30T10:05:00-04:00"
-    },
-    "CSIQ": {
-      "start_bar": "2026-09-30T10:10:00-04:00"
-    },
     "OLN": {
       "start_bar": "2026-09-30T10:15:00-04:00"
-    },
-    "CAR": {
-      "start_bar": "2026-09-30T10:10:00-04:00"
     },
     "ADRX": {
       "start_bar": "2026-09-30T10:10:00-04:00"
@@ -346,12 +337,6 @@
       "start_bar": "2026-09-30T10:15:00-04:00"
     },
     "NVAX": {
-      "start_bar": "2026-09-30T10:20:00-04:00"
-    },
-    "PFE": {
-      "start_bar": "2026-09-30T10:20:00-04:00"
-    },
-    "MLCO": {
       "start_bar": "2026-09-30T10:20:00-04:00"
     }
   },
@@ -374,7 +359,7 @@
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "EROC": "small_cap_gainers",
-    "TEAD": "small_cap_gainers+aggressive_small_caps",
+    "TEAD": "aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
     "CRWV": "most_actives",
     "SQNS": "small_cap_gainers",
@@ -384,14 +369,6 @@
     "JACK": "most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
-    "SKHY": "day_gainers",
-    "PLBL": "day_gainers",
-    "ABCL": "day_gainers",
-    "ANNX": "small_cap_gainers",
-    "CAR": "day_gainers",
-    "ASPS": "small_cap_gainers",
-    "HL": "most_actives",
-    "CCB": "small_cap_gainers",
     "RIG": "most_actives",
     "LBTYB": "day_gainers",
     "ATI": "day_gainers",
@@ -596,7 +573,7 @@
     "FLNC": "aggressive_small_caps",
     "GOOGL": "most_actives",
     "AMZN": "most_actives",
-    "ITUB": "most_actives",
+    "ITUB": "most_actives+day_gainers",
     "LEU": "day_gainers",
     "ENPH": "day_gainers",
     "QBTS": "day_gainers",
@@ -655,6 +632,14 @@
     "IPHA": "small_cap_gainers",
     "AUROW": "small_cap_gainers",
     "PAL": "aggressive_small_caps",
-    "NTLA": "most_shorted_stocks"
+    "NTLA": "most_shorted_stocks",
+    "AKAM": "day_gainers",
+    "HAFN": "day_gainers",
+    "FSLY": "day_gainers",
+    "FROG": "day_gainers",
+    "KRMN": "day_gainers",
+    "BTU": "day_gainers",
+    "CRMT": "small_cap_gainers",
+    "NWCLW": "small_cap_gainers"
   }
 }
