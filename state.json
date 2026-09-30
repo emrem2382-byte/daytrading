@@ -30,7 +30,6 @@
     "SERV",
     "EVGO",
     "UAMY",
-    "OLN",
     "CWH",
     "RUN",
     "GETY",
@@ -50,11 +49,7 @@
     "PATH",
     "NVAX",
     "SB",
-    "ASYS",
-    "YELP",
     "SOFI",
-    "BAND",
-    "LEE",
     "NVDA",
     "ONDS",
     "CDE",
@@ -317,13 +312,15 @@
     "FUN",
     "HBAN",
     "PGEN",
-    "STRZ"
+    "STRZ",
+    "BBD",
+    "UTHR",
+    "ZBIO",
+    "ENTA",
+    "SQNS"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "BTCT": {
-      "start_bar": "2026-09-30T11:10:00-04:00"
-    },
     "FRO": {
       "start_bar": "2026-09-30T11:10:00-04:00"
     },
@@ -332,10 +329,19 @@
     },
     "LPG": {
       "start_bar": "2026-09-30T11:15:00-04:00"
+    },
+    "CELC": {
+      "start_bar": "2026-09-30T11:25:00-04:00"
+    },
+    "ECO": {
+      "start_bar": "2026-09-30T11:20:00-04:00"
+    },
+    "BWLP": {
+      "start_bar": "2026-09-30T11:20:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "most_shorted_stocks",
+    "SOUN": "day_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -347,7 +353,6 @@
     "SERV": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "UAMY": "aggressive_small_caps",
-    "OLN": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
@@ -367,11 +372,7 @@
     "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
-    "ASYS": "small_cap_gainers",
-    "YELP": "small_cap_gainers",
     "SOFI": "most_actives",
-    "BAND": "day_gainers",
-    "LEE": "small_cap_gainers",
     "NVDA": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
     "CDE": "most_actives",
@@ -634,6 +635,11 @@
     "FUN": "aggressive_small_caps",
     "HBAN": "most_actives",
     "PGEN": "day_gainers",
-    "STRZ": "small_cap_gainers"
+    "STRZ": "small_cap_gainers",
+    "BBD": "most_actives",
+    "UTHR": "day_gainers",
+    "ZBIO": "small_cap_gainers",
+    "ENTA": "small_cap_gainers",
+    "SQNS": "small_cap_gainers"
   }
 }
