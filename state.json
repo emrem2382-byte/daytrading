@@ -72,7 +72,6 @@
     "DNA",
     "RXRX",
     "PBF",
-    "CBOE",
     "BRZE",
     "NTCT",
     "DK",
@@ -317,24 +316,13 @@
     "TRIP",
     "LOPE",
     "ALKT",
-    "DMRC"
+    "DMRC",
+    "INTR"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "BRSL": {
-      "start_bar": "2026-09-30T14:55:00-04:00"
-    },
-    "TTEC": {
-      "start_bar": "2026-09-30T14:55:00-04:00"
-    },
     "INTC": {
       "start_bar": "2026-09-30T15:05:00-04:00"
-    },
-    "XRX": {
-      "start_bar": "2026-09-30T15:00:00-04:00"
-    },
-    "OMDA": {
-      "start_bar": "2026-09-30T15:00:00-04:00"
     },
     "SYRE": {
       "start_bar": "2026-09-30T15:10:00-04:00"
@@ -350,6 +338,15 @@
     },
     "BROS": {
       "start_bar": "2026-09-30T15:10:00-04:00"
+    },
+    "CAPR": {
+      "start_bar": "2026-09-30T15:15:00-04:00"
+    },
+    "SMMT": {
+      "start_bar": "2026-09-30T15:15:00-04:00"
+    },
+    "OLN": {
+      "start_bar": "2026-09-30T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -407,7 +404,6 @@
     "DNA": "small_cap_gainers",
     "RXRX": "most_actives+most_shorted_stocks",
     "PBF": "day_gainers",
-    "CBOE": "day_gainers",
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
     "DK": "day_gainers",
@@ -520,7 +516,7 @@
     "ESTC": "day_gainers",
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
-    "AUR": "most_actives",
+    "AUR": "most_actives+day_gainers",
     "BB": "most_actives+day_gainers",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
@@ -652,6 +648,7 @@
     "TRIP": "most_shorted_stocks",
     "LOPE": "day_gainers",
     "ALKT": "small_cap_gainers",
-    "DMRC": "small_cap_gainers"
+    "DMRC": "small_cap_gainers",
+    "INTR": "day_gainers"
   }
 }
