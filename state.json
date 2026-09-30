@@ -22,7 +22,6 @@
     "BBAI",
     "TRIP",
     "FORM",
-    "NAT",
     "RC",
     "HTZ",
     "GRPN",
@@ -317,17 +316,15 @@
     "VYX",
     "MIST",
     "OMDA",
-    "JACK"
+    "JACK",
+    "ZIP"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "MLCO": {
-      "start_bar": "2026-09-30T10:25:00-04:00"
-    },
-    "PFE": {
-      "start_bar": "2026-09-30T10:35:00-04:00"
-    },
     "RC": {
+      "start_bar": "2026-09-30T10:40:00-04:00"
+    },
+    "EVH": {
       "start_bar": "2026-09-30T10:40:00-04:00"
     }
   },
@@ -336,7 +333,6 @@
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
-    "NAT": "aggressive_small_caps",
     "RC": "aggressive_small_caps",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
@@ -631,6 +627,7 @@
     "VYX": "small_cap_gainers",
     "MIST": "small_cap_gainers",
     "OMDA": "small_cap_gainers",
-    "JACK": "most_shorted_stocks"
+    "JACK": "most_shorted_stocks",
+    "ZIP": "small_cap_gainers"
   }
 }
