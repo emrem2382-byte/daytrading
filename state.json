@@ -22,7 +22,6 @@
     "BBAI",
     "TRIP",
     "FORM",
-    "RC",
     "HTZ",
     "GRPN",
     "PMVP",
@@ -51,7 +50,6 @@
     "NVDA",
     "ONDS",
     "AAPL",
-    "ASPSW",
     "COUR",
     "LAC",
     "VISN",
@@ -61,7 +59,6 @@
     "KPTI",
     "TNON",
     "INTC",
-    "CELC",
     "SYRE",
     "MDB",
     "KOD",
@@ -317,24 +314,24 @@
     "VIR",
     "ORIC",
     "KOS",
-    "BYND"
+    "BYND",
+    "BVC",
+    "LOCL",
+    "KSS"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "ECO": {
-      "start_bar": "2026-09-30T11:20:00-04:00"
-    },
-    "BWLP": {
-      "start_bar": "2026-09-30T11:20:00-04:00"
-    },
-    "BTCT": {
-      "start_bar": "2026-09-30T11:30:00-04:00"
-    },
     "SNPS": {
       "start_bar": "2026-09-30T11:30:00-04:00"
     },
     "BYND": {
       "start_bar": "2026-09-30T11:30:00-04:00"
+    },
+    "ASST": {
+      "start_bar": "2026-09-30T11:40:00-04:00"
+    },
+    "OLN": {
+      "start_bar": "2026-09-30T11:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -342,7 +339,6 @@
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
-    "RC": "aggressive_small_caps",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "PMVP": "small_cap_gainers",
@@ -371,7 +367,6 @@
     "NVDA": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
     "AAPL": "most_actives",
-    "ASPSW": "small_cap_gainers",
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
@@ -381,7 +376,6 @@
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
     "INTC": "most_actives",
-    "CELC": "day_gainers",
     "SYRE": "day_gainers",
     "MDB": "day_gainers",
     "KOD": "day_gainers",
@@ -637,6 +631,9 @@
     "VIR": "small_cap_gainers",
     "ORIC": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
-    "BYND": "most_shorted_stocks"
+    "BYND": "most_shorted_stocks",
+    "BVC": "day_gainers",
+    "LOCL": "small_cap_gainers",
+    "KSS": "most_shorted_stocks"
   }
 }
