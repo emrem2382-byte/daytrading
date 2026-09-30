@@ -45,14 +45,8 @@
     "CHPT",
     "IBRX",
     "WOLF",
-    "GRABW",
-    "RCUS",
-    "DHX",
-    "LVWR",
     "KSS",
     "GRAL",
-    "SUJA",
-    "INSG",
     "OGC",
     "PTON",
     "PENG",
@@ -317,18 +311,24 @@
     "FIG",
     "ESTC",
     "MITT-PA",
-    "GPMT-PA"
+    "GPMT-PA",
+    "AUR",
+    "BB",
+    "PEPG",
+    "DAVA",
+    "CNDT",
+    "TTEC"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "ADRX": {
-      "start_bar": "2026-09-30T10:10:00-04:00"
-    },
     "MLCO": {
       "start_bar": "2026-09-30T10:25:00-04:00"
     },
     "ACDC": {
       "start_bar": "2026-09-30T10:25:00-04:00"
+    },
+    "PFE": {
+      "start_bar": "2026-09-30T10:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,14 +359,8 @@
     "CHPT": "small_cap_gainers",
     "IBRX": "day_gainers",
     "WOLF": "most_shorted_stocks",
-    "GRABW": "small_cap_gainers",
-    "RCUS": "day_gainers",
-    "DHX": "small_cap_gainers",
-    "LVWR": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
     "GRAL": "day_gainers",
-    "SUJA": "small_cap_gainers",
-    "INSG": "small_cap_gainers",
     "OGC": "day_gainers",
     "PTON": "day_gainers",
     "PENG": "day_gainers",
@@ -631,6 +625,12 @@
     "FIG": "day_gainers",
     "ESTC": "day_gainers",
     "MITT-PA": "small_cap_gainers",
-    "GPMT-PA": "small_cap_gainers"
+    "GPMT-PA": "small_cap_gainers",
+    "AUR": "most_actives",
+    "BB": "day_gainers",
+    "PEPG": "small_cap_gainers",
+    "DAVA": "small_cap_gainers",
+    "CNDT": "small_cap_gainers",
+    "TTEC": "small_cap_gainers"
   }
 }
