@@ -81,8 +81,6 @@
     "SNPS",
     "ETSY",
     "AI",
-    "VOYG",
-    "STTK",
     "HKD",
     "IREN",
     "CCL",
@@ -317,16 +315,12 @@
     "BZ",
     "FDS",
     "YSG",
-    "UPST"
+    "UPST",
+    "UAA",
+    "NXTC"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "SMMT": {
-      "start_bar": "2026-09-30T15:15:00-04:00"
-    },
-    "OLN": {
-      "start_bar": "2026-09-30T15:15:00-04:00"
-    },
     "NKTR": {
       "start_bar": "2026-09-30T15:15:00-04:00"
     },
@@ -341,6 +335,24 @@
     },
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
+    },
+    "SB": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "ZIP": {
+      "start_bar": "2026-09-30T15:25:00-04:00"
+    },
+    "DAO": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "VIR": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
+    },
+    "TRIP": {
+      "start_bar": "2026-09-30T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -362,7 +374,7 @@
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
-    "PATH": "most_actives",
+    "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
@@ -370,7 +382,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "small_cap_gainers+aggressive_small_caps",
+    "TMC": "aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
@@ -407,8 +419,6 @@
     "SNPS": "day_gainers",
     "ETSY": "day_gainers",
     "AI": "small_cap_gainers",
-    "VOYG": "small_cap_gainers",
-    "STTK": "small_cap_gainers",
     "HKD": "small_cap_gainers",
     "IREN": "most_actives",
     "CCL": "most_actives",
@@ -643,6 +653,8 @@
     "BZ": "day_gainers",
     "FDS": "day_gainers",
     "YSG": "small_cap_gainers",
-    "UPST": "most_shorted_stocks"
+    "UPST": "most_shorted_stocks",
+    "UAA": "small_cap_gainers",
+    "NXTC": "small_cap_gainers"
   }
 }
