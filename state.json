@@ -39,28 +39,10 @@
     "EROC",
     "TEAD",
     "SNAP",
-    "AMD",
     "SMCI",
-    "AVGO",
-    "JMKE",
     "DJT",
     "CRMT",
-    "RKT",
-    "AUR",
-    "NNBR",
-    "PSEC-PA",
     "CRWV",
-    "ALAB",
-    "UMC",
-    "QNCX",
-    "MU",
-    "APLD",
-    "HUT",
-    "CIFR",
-    "GWH",
-    "XPOF",
-    "WULF",
-    "ASML",
     "APMD",
     "BW-PA",
     "SQNS",
@@ -317,16 +299,28 @@
     "JOBY",
     "SPIR",
     "CMS-PB",
-    "FLNC"
+    "FLNC",
+    "GOOGL",
+    "AMZN",
+    "ITUB",
+    "LEU",
+    "ENPH",
+    "QBTS",
+    "USAR",
+    "UEC",
+    "AMR",
+    "SMMT",
+    "XE",
+    "ABUS",
+    "SLDP",
+    "NFE",
+    "FEAM",
+    "OPENL",
+    "TRTX-PC",
+    "XRX"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "DMRC": {
-      "start_bar": "2026-09-30T09:45:00-04:00"
-    },
-    "CCCC": {
-      "start_bar": "2026-09-30T09:45:00-04:00"
-    },
     "HTZ": {
       "start_bar": "2026-09-30T09:55:00-04:00"
     },
@@ -335,11 +329,26 @@
     },
     "TE": {
       "start_bar": "2026-09-30T10:00:00-04:00"
+    },
+    "RIVN": {
+      "start_bar": "2026-09-30T10:05:00-04:00"
+    },
+    "DASH": {
+      "start_bar": "2026-09-30T10:05:00-04:00"
+    },
+    "HL": {
+      "start_bar": "2026-09-30T10:05:00-04:00"
+    },
+    "IREN": {
+      "start_bar": "2026-09-30T10:05:00-04:00"
+    },
+    "FLNC": {
+      "start_bar": "2026-09-30T10:05:00-04:00"
     }
   },
   "ticker_sources": {
     "HAFN": "day_gainers",
-    "SOUN": "most_shorted_stocks",
+    "SOUN": "day_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -359,28 +368,10 @@
     "EROC": "small_cap_gainers",
     "TEAD": "aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
-    "AMD": "most_actives",
     "SMCI": "most_actives",
-    "AVGO": "most_actives",
-    "JMKE": "day_gainers",
     "DJT": "day_gainers",
     "CRMT": "small_cap_gainers",
-    "RKT": "most_actives",
-    "AUR": "most_actives",
-    "NNBR": "small_cap_gainers",
-    "PSEC-PA": "small_cap_gainers",
     "CRWV": "most_actives",
-    "ALAB": "day_gainers",
-    "UMC": "day_gainers",
-    "QNCX": "small_cap_gainers",
-    "MU": "most_actives",
-    "APLD": "day_gainers",
-    "HUT": "day_gainers",
-    "CIFR": "most_actives",
-    "GWH": "small_cap_gainers",
-    "XPOF": "small_cap_gainers",
-    "WULF": "most_actives",
-    "ASML": "day_gainers",
     "APMD": "small_cap_gainers",
     "BW-PA": "small_cap_gainers",
     "SQNS": "small_cap_gainers",
@@ -410,7 +401,7 @@
     "PCG": "most_actives",
     "KNDI": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "RBLX": "most_actives",
+    "RBLX": "day_gainers",
     "JACK": "most_shorted_stocks",
     "LYNX": "small_cap_gainers",
     "AHT-PI": "small_cap_gainers",
@@ -637,6 +628,24 @@
     "JOBY": "day_gainers",
     "SPIR": "small_cap_gainers",
     "CMS-PB": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps"
+    "FLNC": "aggressive_small_caps",
+    "GOOGL": "most_actives",
+    "AMZN": "most_actives",
+    "ITUB": "most_actives",
+    "LEU": "day_gainers",
+    "ENPH": "day_gainers",
+    "QBTS": "day_gainers",
+    "USAR": "day_gainers",
+    "UEC": "day_gainers",
+    "AMR": "day_gainers",
+    "SMMT": "day_gainers",
+    "XE": "day_gainers",
+    "ABUS": "small_cap_gainers",
+    "SLDP": "small_cap_gainers",
+    "NFE": "small_cap_gainers",
+    "FEAM": "small_cap_gainers",
+    "OPENL": "small_cap_gainers",
+    "TRTX-PC": "small_cap_gainers",
+    "XRX": "most_shorted_stocks"
   }
 }
