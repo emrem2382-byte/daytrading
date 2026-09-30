@@ -27,8 +27,6 @@
     "RC",
     "HTZ",
     "GRPN",
-    "TWST",
-    "TEM",
     "PMVP",
     "OI",
     "SERV",
@@ -37,18 +35,8 @@
     "OLN",
     "CWH",
     "RUN",
-    "CEG",
-    "COHR",
-    "SG",
     "OPENL",
-    "WBX",
     "GETY",
-    "TSEM",
-    "VEON",
-    "AADX",
-    "SWK",
-    "MXL",
-    "PLAY",
     "PWP",
     "FEAM",
     "NRR",
@@ -317,74 +305,32 @@
     "ORC",
     "CMPS",
     "EOSE",
-    "UPST"
+    "UPST",
+    "NVTS",
+    "PLUG",
+    "NIO",
+    "RKLB",
+    "PSKY",
+    "GDS",
+    "NAMS",
+    "PTRN",
+    "VOR",
+    "YSG",
+    "AMTD",
+    "OCGN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "BA": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "GRAL": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
     "SOUN": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "MU": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "RIG": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "RCUS": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "JKS": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "DQ": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "SB": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "AAPL": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "KC": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "LUNR": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "VIOT": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "NXTC": {
-      "start_bar": "2026-09-30T09:30:00-04:00"
-    },
-    "PENN": {
       "start_bar": "2026-09-30T09:35:00-04:00"
     },
     "BTCT": {
       "start_bar": "2026-09-30T09:35:00-04:00"
     },
-    "NNE": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
     "OPENL": {
       "start_bar": "2026-09-30T09:35:00-04:00"
     },
-    "VEON": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "SWK": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
     "TBLA": {
-      "start_bar": "2026-09-30T09:35:00-04:00"
-    },
-    "PS": {
       "start_bar": "2026-09-30T09:35:00-04:00"
     },
     "METC": {
@@ -392,6 +338,15 @@
     },
     "DMRC": {
       "start_bar": "2026-09-30T09:45:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-09-30T09:45:00-04:00"
+    },
+    "T": {
+      "start_bar": "2026-09-30T09:50:00-04:00"
+    },
+    "CTNM": {
+      "start_bar": "2026-09-30T09:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -404,8 +359,6 @@
     "RC": "aggressive_small_caps",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
-    "TWST": "day_gainers",
-    "TEM": "day_gainers",
     "PMVP": "small_cap_gainers",
     "OI": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
@@ -414,18 +367,8 @@
     "OLN": "aggressive_small_caps",
     "CWH": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
-    "CEG": "day_gainers",
-    "COHR": "day_gainers",
-    "SG": "small_cap_gainers",
     "OPENL": "small_cap_gainers",
-    "WBX": "small_cap_gainers",
     "GETY": "aggressive_small_caps",
-    "TSEM": "day_gainers",
-    "VEON": "day_gainers",
-    "AADX": "day_gainers",
-    "SWK": "day_gainers",
-    "MXL": "day_gainers",
-    "PLAY": "small_cap_gainers",
     "PWP": "small_cap_gainers",
     "FEAM": "small_cap_gainers",
     "NRR": "small_cap_gainers",
@@ -444,7 +387,7 @@
     "TEAD": "aggressive_small_caps",
     "FOIL": "small_cap_gainers",
     "RC-PC": "small_cap_gainers",
-    "SNAP": "most_actives",
+    "SNAP": "most_actives+day_gainers",
     "ZYME": "day_gainers",
     "TTAN": "day_gainers",
     "FIGR": "day_gainers",
@@ -607,7 +550,7 @@
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
-    "INTC": "most_actives+day_gainers",
+    "INTC": "most_actives",
     "CELC": "day_gainers",
     "SYRE": "day_gainers",
     "MDB": "day_gainers",
@@ -694,6 +637,18 @@
     "ORC": "aggressive_small_caps",
     "CMPS": "aggressive_small_caps",
     "EOSE": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks"
+    "UPST": "most_shorted_stocks",
+    "NVTS": "most_actives+day_gainers",
+    "PLUG": "most_actives",
+    "NIO": "most_actives",
+    "RKLB": "day_gainers",
+    "PSKY": "day_gainers",
+    "GDS": "day_gainers",
+    "NAMS": "day_gainers",
+    "PTRN": "day_gainers",
+    "VOR": "small_cap_gainers",
+    "YSG": "small_cap_gainers",
+    "AMTD": "small_cap_gainers",
+    "OCGN": "most_shorted_stocks"
   }
 }
