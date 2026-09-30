@@ -56,7 +56,6 @@
     "MDB",
     "HPE",
     "TRMD",
-    "IONQ",
     "LEGN",
     "ROG",
     "CTNM",
@@ -80,9 +79,6 @@
     "BRZE",
     "NTCT",
     "DK",
-    "DINO",
-    "GAP",
-    "OPENZ",
     "DMRC",
     "ORC",
     "CMPS",
@@ -317,13 +313,14 @@
     "EVH",
     "PCOR",
     "KYMR",
-    "VIA"
+    "VIA",
+    "GRAL",
+    "CCOI",
+    "ASPS",
+    "QUBT"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "ETRA": {
-      "start_bar": "2026-09-30T14:20:00-04:00"
-    },
     "TEAM": {
       "start_bar": "2026-09-30T14:30:00-04:00"
     },
@@ -336,14 +333,44 @@
     "VIOT": {
       "start_bar": "2026-09-30T14:30:00-04:00"
     },
-    "SMMT": {
-      "start_bar": "2026-09-30T14:35:00-04:00"
-    },
     "ERO": {
       "start_bar": "2026-09-30T14:35:00-04:00"
     },
     "SEER": {
       "start_bar": "2026-09-30T14:30:00-04:00"
+    },
+    "PMVP": {
+      "start_bar": "2026-09-30T14:35:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "CAPR": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "UEC": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "HBM": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "TECK": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "CSIQ": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "TROX": {
+      "start_bar": "2026-09-30T14:35:00-04:00"
+    },
+    "UUUU": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
+    },
+    "TGE": {
+      "start_bar": "2026-09-30T14:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -385,7 +412,6 @@
     "MDB": "day_gainers",
     "HPE": "most_actives+day_gainers",
     "TRMD": "day_gainers",
-    "IONQ": "most_actives",
     "LEGN": "day_gainers",
     "ROG": "day_gainers",
     "CTNM": "small_cap_gainers",
@@ -409,9 +435,6 @@
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
     "DK": "day_gainers",
-    "DINO": "day_gainers",
-    "GAP": "day_gainers",
-    "OPENZ": "small_cap_gainers",
     "DMRC": "small_cap_gainers",
     "ORC": "aggressive_small_caps",
     "CMPS": "aggressive_small_caps",
@@ -646,6 +669,10 @@
     "EVH": "aggressive_small_caps",
     "PCOR": "day_gainers",
     "KYMR": "day_gainers",
-    "VIA": "day_gainers"
+    "VIA": "day_gainers",
+    "GRAL": "day_gainers",
+    "CCOI": "small_cap_gainers",
+    "ASPS": "small_cap_gainers",
+    "QUBT": "most_shorted_stocks"
   }
 }
