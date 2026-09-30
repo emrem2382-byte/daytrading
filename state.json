@@ -2,6 +2,7 @@
   "premarket_watchlist": [
     "GRABW",
     "ASPS",
+    "FLX",
     "ASPSZ",
     "ASPSW",
     "SUJA",
@@ -10,11 +11,10 @@
     "JELD",
     "FEAM",
     "GRPN",
+    "RLAY",
     "AIFU",
-    "FORM",
     "PACB",
-    "COUR",
-    "BBD"
+    "COUR"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
