@@ -12,9 +12,9 @@
     "FEAM",
     "GRPN",
     "AIFU",
-    "ABSI",
     "RLAY",
-    "FORM"
+    "FORM",
+    "SOS"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
