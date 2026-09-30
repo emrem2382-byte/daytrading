@@ -61,7 +61,6 @@
     "HPE",
     "TRMD",
     "IONQ",
-    "FLY",
     "TXG",
     "ORKA",
     "HII",
@@ -317,12 +316,16 @@
     "TWST",
     "ADEA",
     "SLDPW",
-    "WLTH"
+    "WLTH",
+    "GME"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
     "BTU": {
       "start_bar": "2026-09-30T11:45:00-04:00"
+    },
+    "TGE": {
+      "start_bar": "2026-09-30T12:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,7 +351,7 @@
     "WOLF": "most_shorted_stocks",
     "GRAL": "day_gainers",
     "PACB": "small_cap_gainers",
-    "SLS": "most_shorted_stocks",
+    "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
     "PATH": "most_actives+day_gainers",
     "NVAX": "most_shorted_stocks",
@@ -369,7 +372,6 @@
     "HPE": "most_actives+day_gainers",
     "TRMD": "day_gainers",
     "IONQ": "most_actives",
-    "FLY": "day_gainers",
     "TXG": "day_gainers",
     "ORKA": "day_gainers",
     "HII": "day_gainers",
@@ -625,6 +627,7 @@
     "TWST": "day_gainers",
     "ADEA": "day_gainers",
     "SLDPW": "small_cap_gainers",
-    "WLTH": "small_cap_gainers"
+    "WLTH": "small_cap_gainers",
+    "GME": "day_gainers"
   }
 }
