@@ -67,15 +67,12 @@
     "UXIN",
     "METCB",
     "VIOT",
-    "PENN",
     "EVH",
     "BTCT",
-    "LENZ",
     "NNE",
     "QUBT",
     "SPCX",
     "IMOS",
-    "NICE",
     "MNDY",
     "TENB",
     "HIMS",
@@ -317,16 +314,13 @@
     "WTI",
     "BMBL",
     "SEER",
-    "XP"
+    "XP",
+    "SHAK",
+    "CBNK",
+    "CWH"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "STKE": {
-      "start_bar": "2026-09-30T12:05:00-04:00"
-    },
-    "VALE": {
-      "start_bar": "2026-09-30T12:25:00-04:00"
-    },
     "LPG": {
       "start_bar": "2026-09-30T12:25:00-04:00"
     },
@@ -339,12 +333,18 @@
     "BWLP": {
       "start_bar": "2026-09-30T12:30:00-04:00"
     },
-    "PLUG": {
-      "start_bar": "2026-09-30T12:30:00-04:00"
+    "INSW": {
+      "start_bar": "2026-09-30T12:35:00-04:00"
+    },
+    "TNK": {
+      "start_bar": "2026-09-30T12:35:00-04:00"
+    },
+    "ERO": {
+      "start_bar": "2026-09-30T12:40:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "most_shorted_stocks",
+    "SOUN": "day_gainers+most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "FORM": "day_gainers",
@@ -357,7 +357,7 @@
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "SNAP": "most_actives+day_gainers",
+    "SNAP": "most_actives",
     "WETO": "most_shorted_stocks",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
@@ -393,15 +393,12 @@
     "UXIN": "small_cap_gainers",
     "METCB": "small_cap_gainers",
     "VIOT": "small_cap_gainers",
-    "PENN": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "BTCT": "most_shorted_stocks",
-    "LENZ": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
     "SPCX": "most_actives",
     "IMOS": "day_gainers",
-    "NICE": "day_gainers",
     "MNDY": "day_gainers",
     "TENB": "day_gainers",
     "HIMS": "day_gainers",
@@ -643,6 +640,9 @@
     "WTI": "small_cap_gainers",
     "BMBL": "small_cap_gainers",
     "SEER": "small_cap_gainers",
-    "XP": "day_gainers"
+    "XP": "day_gainers",
+    "SHAK": "day_gainers",
+    "CBNK": "small_cap_gainers",
+    "CWH": "aggressive_small_caps"
   }
 }
