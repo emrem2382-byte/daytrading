@@ -80,8 +80,6 @@
     "CBOE",
     "BRZE",
     "NTCT",
-    "CAMT",
-    "ICHR",
     "AVPT",
     "DK",
     "KVYO",
@@ -317,7 +315,9 @@
     "CVI",
     "KOD",
     "SITC",
-    "ORCL-PD"
+    "ORCL-PD",
+    "HUBS",
+    "AVLN"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
@@ -327,19 +327,7 @@
     "ROG": {
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
-    "CAMT": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
-    "AI": {
-      "start_bar": "2026-09-30T13:45:00-04:00"
-    },
     "LEU": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
-    "FSLY": {
-      "start_bar": "2026-09-30T13:50:00-04:00"
-    },
-    "HTZ": {
       "start_bar": "2026-09-30T13:50:00-04:00"
     },
     "PL": {
@@ -351,14 +339,26 @@
     "VOR": {
       "start_bar": "2026-09-30T13:55:00-04:00"
     },
-    "ETSY": {
-      "start_bar": "2026-09-30T14:00:00-04:00"
-    },
     "HBAN": {
       "start_bar": "2026-09-30T13:55:00-04:00"
     },
     "ORCL-PD": {
       "start_bar": "2026-09-30T13:55:00-04:00"
+    },
+    "CTNM": {
+      "start_bar": "2026-09-30T14:00:00-04:00"
+    },
+    "VYX": {
+      "start_bar": "2026-09-30T14:05:00-04:00"
+    },
+    "DAO": {
+      "start_bar": "2026-09-30T14:00:00-04:00"
+    },
+    "ZBIO": {
+      "start_bar": "2026-09-30T14:00:00-04:00"
+    },
+    "BYND": {
+      "start_bar": "2026-09-30T14:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -390,7 +390,7 @@
     "COUR": "small_cap_gainers+aggressive_small_caps",
     "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
-    "TMC": "aggressive_small_caps",
+    "TMC": "small_cap_gainers+aggressive_small_caps",
     "INN": "aggressive_small_caps",
     "METC": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
@@ -424,8 +424,6 @@
     "CBOE": "day_gainers",
     "BRZE": "day_gainers",
     "NTCT": "day_gainers",
-    "CAMT": "day_gainers",
-    "ICHR": "day_gainers",
     "AVPT": "day_gainers",
     "DK": "day_gainers",
     "KVYO": "day_gainers",
@@ -661,6 +659,8 @@
     "CVI": "day_gainers",
     "KOD": "day_gainers",
     "SITC": "small_cap_gainers",
-    "ORCL-PD": "aggressive_small_caps"
+    "ORCL-PD": "aggressive_small_caps",
+    "HUBS": "day_gainers",
+    "AVLN": "small_cap_gainers"
   }
 }
