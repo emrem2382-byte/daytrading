@@ -320,7 +320,14 @@
     "MH"
   ],
   "tracked_day": "2026-09-30",
-  "pending_bull": {},
+  "pending_bull": {
+    "SMMT": {
+      "start_bar": "2026-09-30T13:20:00-04:00"
+    },
+    "CWH": {
+      "start_bar": "2026-09-30T13:15:00-04:00"
+    }
+  },
   "ticker_sources": {
     "SOUN": "most_shorted_stocks",
     "BBAI": "most_shorted_stocks",
