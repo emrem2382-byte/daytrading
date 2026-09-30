@@ -44,22 +44,8 @@
     "WETO",
     "CCCC",
     "JACK",
-    "LYNX",
-    "AHT-PI",
-    "LESL",
-    "SHOE",
-    "BTDR",
-    "YOU",
-    "TLYS",
     "CAPR",
-    "RSI",
     "CHPT",
-    "MX",
-    "DASH",
-    "WMG",
-    "SST",
-    "OPTU",
-    "REPL",
     "SKHY",
     "PLBL",
     "ABCL",
@@ -317,19 +303,24 @@
     "CNXC",
     "ETRA",
     "CMCM",
-    "ACDC"
+    "ACDC",
+    "CLF",
+    "BROS",
+    "BEKE",
+    "SNOW",
+    "MAAS",
+    "SID",
+    "ENVX",
+    "SOC",
+    "BMEA",
+    "NYAX",
+    "IPHA",
+    "AUROW",
+    "PAL",
+    "NTLA"
   ],
   "tracked_day": "2026-09-30",
   "pending_bull": {
-    "DASH": {
-      "start_bar": "2026-09-30T10:05:00-04:00"
-    },
-    "HL": {
-      "start_bar": "2026-09-30T10:05:00-04:00"
-    },
-    "FLNC": {
-      "start_bar": "2026-09-30T10:05:00-04:00"
-    },
     "CRSP": {
       "start_bar": "2026-09-30T10:05:00-04:00"
     },
@@ -350,6 +341,18 @@
     },
     "NKE": {
       "start_bar": "2026-09-30T10:15:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-09-30T10:15:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-09-30T10:20:00-04:00"
+    },
+    "PFE": {
+      "start_bar": "2026-09-30T10:20:00-04:00"
+    },
+    "MLCO": {
+      "start_bar": "2026-09-30T10:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -371,30 +374,16 @@
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
     "EROC": "small_cap_gainers",
-    "TEAD": "aggressive_small_caps",
+    "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives+day_gainers",
     "CRWV": "most_actives",
     "SQNS": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "WETO": "most_shorted_stocks",
-    "CCCC": "small_cap_gainers+most_shorted_stocks",
+    "CCCC": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "LYNX": "small_cap_gainers",
-    "AHT-PI": "small_cap_gainers",
-    "LESL": "aggressive_small_caps",
-    "SHOE": "most_shorted_stocks",
-    "BTDR": "most_actives",
-    "YOU": "day_gainers",
-    "TLYS": "small_cap_gainers",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
-    "RSI": "day_gainers",
     "CHPT": "small_cap_gainers",
-    "MX": "small_cap_gainers",
-    "DASH": "day_gainers",
-    "WMG": "day_gainers",
-    "SST": "small_cap_gainers",
-    "OPTU": "aggressive_small_caps",
-    "REPL": "small_cap_gainers",
     "SKHY": "day_gainers",
     "PLBL": "day_gainers",
     "ABCL": "day_gainers",
@@ -652,6 +641,20 @@
     "CNXC": "small_cap_gainers",
     "ETRA": "small_cap_gainers",
     "CMCM": "small_cap_gainers",
-    "ACDC": "aggressive_small_caps"
+    "ACDC": "aggressive_small_caps",
+    "CLF": "day_gainers",
+    "BROS": "day_gainers",
+    "BEKE": "day_gainers",
+    "SNOW": "day_gainers",
+    "MAAS": "day_gainers",
+    "SID": "small_cap_gainers",
+    "ENVX": "small_cap_gainers",
+    "SOC": "small_cap_gainers",
+    "BMEA": "small_cap_gainers",
+    "NYAX": "small_cap_gainers",
+    "IPHA": "small_cap_gainers",
+    "AUROW": "small_cap_gainers",
+    "PAL": "aggressive_small_caps",
+    "NTLA": "most_shorted_stocks"
   }
 }
