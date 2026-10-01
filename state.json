@@ -27,13 +27,6 @@
     "DAVA",
     "NAT",
     "CANG",
-    "ASPN",
-    "AGMB",
-    "LFT",
-    "DAO",
-    "DBX",
-    "AUTL",
-    "ARVN",
     "GOSS",
     "AZUL",
     "ACMR",
@@ -317,7 +310,14 @@
     "VYLR",
     "MRNA",
     "VISN",
-    "SERV"
+    "SERV",
+    "FN",
+    "CIEN",
+    "J",
+    "MTSI",
+    "AEIS",
+    "VIAV",
+    "COUR"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -333,9 +333,6 @@
     "WTI": {
       "start_bar": "2026-10-01T10:25:00-04:00"
     },
-    "AMBQ": {
-      "start_bar": "2026-10-01T10:25:00-04:00"
-    },
     "TLN": {
       "start_bar": "2026-10-01T10:30:00-04:00"
     },
@@ -344,6 +341,9 @@
     },
     "TEAD": {
       "start_bar": "2026-10-01T10:30:00-04:00"
+    },
+    "JELD": {
+      "start_bar": "2026-10-01T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,13 +357,6 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "CANG": "small_cap_gainers",
-    "ASPN": "small_cap_gainers",
-    "AGMB": "small_cap_gainers",
-    "LFT": "small_cap_gainers",
-    "DAO": "small_cap_gainers",
-    "DBX": "day_gainers",
-    "AUTL": "small_cap_gainers",
-    "ARVN": "small_cap_gainers",
     "GOSS": "small_cap_gainers",
     "AZUL": "small_cap_gainers",
     "ACMR": "day_gainers",
@@ -646,6 +639,13 @@
     "VYLR": "day_gainers",
     "MRNA": "day_gainers",
     "VISN": "aggressive_small_caps",
-    "SERV": "most_shorted_stocks"
+    "SERV": "most_shorted_stocks",
+    "FN": "day_gainers",
+    "CIEN": "day_gainers",
+    "J": "day_gainers",
+    "MTSI": "day_gainers",
+    "AEIS": "day_gainers",
+    "VIAV": "day_gainers",
+    "COUR": "aggressive_small_caps"
   }
 }
