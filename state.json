@@ -41,10 +41,6 @@
     "DMRC",
     "UPST",
     "LENZ",
-    "MSC",
-    "GENI",
-    "GLAS",
-    "VNET",
     "RC",
     "VEEA",
     "SHOE",
@@ -317,16 +313,14 @@
     "NGL",
     "ANTX",
     "IOT",
-    "OM"
+    "OM",
+    "GTLB",
+    "SMWB",
+    "SRG",
+    "METC"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "ACN": {
-      "start_bar": "2026-10-01T15:30:00-04:00"
-    },
-    "EFOR": {
-      "start_bar": "2026-10-01T15:30:00-04:00"
-    },
     "NIQ": {
       "start_bar": "2026-10-01T15:35:00-04:00"
     },
@@ -335,6 +329,9 @@
     },
     "BBBYW": {
       "start_bar": "2026-10-01T15:35:00-04:00"
+    },
+    "VYLR": {
+      "start_bar": "2026-10-01T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -362,10 +359,6 @@
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
-    "MSC": "small_cap_gainers",
-    "GENI": "aggressive_small_caps",
-    "GLAS": "aggressive_small_caps",
-    "VNET": "aggressive_small_caps",
     "RC": "aggressive_small_caps",
     "VEEA": "most_shorted_stocks",
     "SHOE": "most_shorted_stocks",
@@ -431,7 +424,7 @@
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
-    "BBAI": "small_cap_gainers+most_shorted_stocks",
+    "BBAI": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "CAH": "day_gainers",
@@ -637,6 +630,10 @@
     "NGL": "small_cap_gainers",
     "ANTX": "small_cap_gainers",
     "IOT": "day_gainers",
-    "OM": "small_cap_gainers"
+    "OM": "small_cap_gainers",
+    "GTLB": "day_gainers",
+    "SMWB": "small_cap_gainers",
+    "SRG": "small_cap_gainers",
+    "METC": "aggressive_small_caps"
   }
 }
