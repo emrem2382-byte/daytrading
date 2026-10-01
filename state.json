@@ -20,18 +20,13 @@
   "tracked_tickers": [
     "GETY",
     "NVDA",
-    "COUR",
     "SNPS",
     "NU",
     "CNXC",
     "NTLA",
     "DAVA",
     "NAT",
-    "QLYS",
-    "KLRA",
     "CANG",
-    "ATRA",
-    "ASAN",
     "ASPN",
     "AGMB",
     "LFT",
@@ -317,18 +312,17 @@
     "U",
     "RDW",
     "ORN",
-    "NAZ"
+    "NAZ",
+    "NOK",
+    "VYLR",
+    "MRNA",
+    "VISN",
+    "SERV"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
-    },
-    "ALKT": {
-      "start_bar": "2026-10-01T10:15:00-04:00"
-    },
-    "KOS": {
-      "start_bar": "2026-10-01T10:20:00-04:00"
     },
     "APYX": {
       "start_bar": "2026-10-01T10:15:00-04:00"
@@ -347,12 +341,14 @@
     },
     "OPENW": {
       "start_bar": "2026-10-01T10:25:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-10-01T10:30:00-04:00"
     }
   },
   "ticker_sources": {
     "GETY": "aggressive_small_caps",
     "NVDA": "most_actives",
-    "COUR": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "SNPS": "day_gainers",
     "NU": "most_actives",
@@ -360,11 +356,7 @@
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "QLYS": "day_gainers",
-    "KLRA": "small_cap_gainers",
     "CANG": "small_cap_gainers",
-    "ATRA": "small_cap_gainers",
-    "ASAN": "day_gainers",
     "ASPN": "small_cap_gainers",
     "AGMB": "small_cap_gainers",
     "LFT": "small_cap_gainers",
@@ -421,7 +413,7 @@
     "SM": "day_gainers",
     "NWCL": "day_gainers",
     "ATEN": "small_cap_gainers",
-    "ONDS": "most_shorted_stocks",
+    "ONDS": "most_actives+most_shorted_stocks",
     "PTEN": "day_gainers",
     "MOBI": "small_cap_gainers",
     "SENS": "small_cap_gainers",
@@ -649,6 +641,11 @@
     "U": "day_gainers",
     "RDW": "day_gainers",
     "ORN": "small_cap_gainers",
-    "NAZ": "small_cap_gainers"
+    "NAZ": "small_cap_gainers",
+    "NOK": "most_actives",
+    "VYLR": "day_gainers",
+    "MRNA": "day_gainers",
+    "VISN": "aggressive_small_caps",
+    "SERV": "most_shorted_stocks"
   }
 }
