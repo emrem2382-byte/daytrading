@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "AGMB",
+    "ASPS",
+    "TNON",
+    "AVLN",
+    "DAVA",
+    "SNPS",
+    "SCNI",
+    "HKD",
+    "HUBS",
+    "MIST",
+    "PMVP",
+    "AMBQ",
+    "BRZE",
+    "VIOT",
+    "SYRE"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "SOUN",
     "BBAI",
