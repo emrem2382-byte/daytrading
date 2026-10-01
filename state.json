@@ -40,9 +40,6 @@
     "QUBT",
     "BIRD",
     "EVCM",
-    "SILC",
-    "METC",
-    "GTM",
     "DXC",
     "TRIP",
     "LOPE",
@@ -317,18 +314,15 @@
     "CNDT",
     "KLC",
     "MTW",
-    "EXFY"
+    "EXFY",
+    "HUBS",
+    "CVI",
+    "COOK"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "NVAX": {
-      "start_bar": "2026-10-01T13:40:00-04:00"
-    },
-    "MRNA": {
-      "start_bar": "2026-10-01T13:40:00-04:00"
     },
     "NXTC": {
       "start_bar": "2026-10-01T13:40:00-04:00"
@@ -337,6 +331,15 @@
       "start_bar": "2026-10-01T13:40:00-04:00"
     },
     "GOOGL": {
+      "start_bar": "2026-10-01T13:55:00-04:00"
+    },
+    "XRXDW": {
+      "start_bar": "2026-10-01T13:55:00-04:00"
+    },
+    "PXED": {
+      "start_bar": "2026-10-01T13:55:00-04:00"
+    },
+    "OPENW": {
       "start_bar": "2026-10-01T13:55:00-04:00"
     }
   },
@@ -364,9 +367,6 @@
     "QUBT": "most_shorted_stocks",
     "BIRD": "small_cap_gainers",
     "EVCM": "small_cap_gainers",
-    "SILC": "small_cap_gainers",
-    "METC": "aggressive_small_caps",
-    "GTM": "small_cap_gainers",
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
     "LOPE": "day_gainers",
@@ -640,6 +640,9 @@
     "CNDT": "small_cap_gainers",
     "KLC": "small_cap_gainers",
     "MTW": "small_cap_gainers",
-    "EXFY": "small_cap_gainers"
+    "EXFY": "small_cap_gainers",
+    "HUBS": "day_gainers",
+    "CVI": "day_gainers",
+    "COOK": "small_cap_gainers"
   }
 }
