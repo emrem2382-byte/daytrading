@@ -31,8 +31,6 @@
     "KSS",
     "VRA",
     "BMNR",
-    "QNST",
-    "FOSL",
     "SVCO",
     "COOK",
     "SM",
@@ -317,25 +315,12 @@
     "EOSE",
     "IPGP",
     "SNAP",
-    "TH"
+    "TH",
+    "SMR",
+    "AIFU"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "ELF": {
-      "start_bar": "2026-10-01T12:00:00-04:00"
-    },
-    "MOBI": {
-      "start_bar": "2026-10-01T12:00:00-04:00"
-    },
-    "GTM": {
-      "start_bar": "2026-10-01T12:05:00-04:00"
-    },
-    "CBRS": {
-      "start_bar": "2026-10-01T12:05:00-04:00"
-    },
-    "ULCC": {
-      "start_bar": "2026-10-01T12:05:00-04:00"
-    },
     "METC": {
       "start_bar": "2026-10-01T12:10:00-04:00"
     },
@@ -359,6 +344,27 @@
     },
     "OI": {
       "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "NICE": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "UPST": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "NIQ": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "ACMR": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "SNAP": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,8 +382,6 @@
     "KSS": "most_shorted_stocks",
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
-    "QNST": "small_cap_gainers",
-    "FOSL": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
     "COOK": "small_cap_gainers",
     "SM": "day_gainers",
@@ -661,6 +665,8 @@
     "EOSE": "most_shorted_stocks",
     "IPGP": "day_gainers",
     "SNAP": "most_actives",
-    "TH": "day_gainers"
+    "TH": "day_gainers",
+    "SMR": "most_actives",
+    "AIFU": "small_cap_gainers"
   }
 }
