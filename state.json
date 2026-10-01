@@ -35,16 +35,12 @@
     "TSLA",
     "WOLF",
     "HTZ",
-    "CCOI",
     "BIRD",
     "DXC",
     "TRIP",
     "DMRC",
     "UPST",
     "LENZ",
-    "PCG",
-    "CMCSA",
-    "BPYPP",
     "MSC",
     "AMTD",
     "VACI",
@@ -317,16 +313,14 @@
     "PLAY",
     "SITC",
     "SVCO",
-    "MERC"
+    "MERC",
+    "ARHS",
+    "CRSR",
+    "NGL",
+    "ANTX"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "BAK": {
-      "start_bar": "2026-10-01T15:10:00-04:00"
-    },
-    "STDN": {
-      "start_bar": "2026-10-01T15:10:00-04:00"
-    },
     "TDAY": {
       "start_bar": "2026-10-01T15:20:00-04:00"
     },
@@ -342,11 +336,17 @@
     "RIG": {
       "start_bar": "2026-10-01T15:20:00-04:00"
     },
-    "FUN": {
-      "start_bar": "2026-10-01T15:15:00-04:00"
+    "ACN": {
+      "start_bar": "2026-10-01T15:30:00-04:00"
     },
-    "EMBC": {
-      "start_bar": "2026-10-01T15:15:00-04:00"
+    "SHOE": {
+      "start_bar": "2026-10-01T15:30:00-04:00"
+    },
+    "EFOR": {
+      "start_bar": "2026-10-01T15:30:00-04:00"
+    },
+    "MAAS": {
+      "start_bar": "2026-10-01T15:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -368,16 +368,12 @@
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "small_cap_gainers+most_shorted_stocks",
-    "CCOI": "small_cap_gainers",
     "BIRD": "small_cap_gainers",
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
-    "PCG": "most_actives",
-    "CMCSA": "most_actives",
-    "BPYPP": "day_gainers",
     "MSC": "small_cap_gainers",
     "AMTD": "small_cap_gainers",
     "VACI": "small_cap_gainers",
@@ -445,11 +441,11 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "aggressive_small_caps",
+    "JELD": "small_cap_gainers+aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
-    "BBAI": "small_cap_gainers+most_shorted_stocks",
+    "BBAI": "most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "CAH": "day_gainers",
@@ -649,6 +645,10 @@
     "PLAY": "most_shorted_stocks",
     "SITC": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
-    "MERC": "small_cap_gainers"
+    "MERC": "small_cap_gainers",
+    "ARHS": "small_cap_gainers",
+    "CRSR": "small_cap_gainers",
+    "NGL": "small_cap_gainers",
+    "ANTX": "small_cap_gainers"
   }
 }
