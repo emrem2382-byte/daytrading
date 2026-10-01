@@ -25,19 +25,7 @@
     "SNPS",
     "NU",
     "CNXC",
-    "ENVX",
-    "SOC",
-    "BMEA",
-    "NYAX",
-    "IPHA",
-    "AUROW",
-    "PAL",
     "NTLA",
-    "AKAM",
-    "HAFN",
-    "FSLY",
-    "FROG",
-    "KRMN",
     "BTU",
     "CRMT",
     "NWCLW",
@@ -317,39 +305,27 @@
     "CACI",
     "RFL",
     "BBBYW",
-    "OI"
+    "OI",
+    "GOOGL",
+    "AMZN",
+    "RKLB",
+    "APPN",
+    "AXTI",
+    "PBF",
+    "MAAS",
+    "WGS",
+    "CRDO",
+    "NABL",
+    "INSG",
+    "OPENW"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "CANG": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "WLTH": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "AVPT": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "NIQ": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
     "NTLA": {
       "start_bar": "2026-10-01T09:40:00-04:00"
-    },
-    "SRFM": {
-      "start_bar": "2026-10-01T09:40:00-04:00"
-    },
-    "LOPE": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "WETO": {
-      "start_bar": "2026-10-01T09:40:00-04:00"
-    },
-    "APYX": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
     },
     "NVDA": {
       "start_bar": "2026-10-01T09:45:00-04:00"
@@ -362,6 +338,27 @@
     },
     "SM": {
       "start_bar": "2026-10-01T09:45:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-10-01T09:55:00-04:00"
+    },
+    "TWST": {
+      "start_bar": "2026-10-01T09:55:00-04:00"
+    },
+    "SPTX": {
+      "start_bar": "2026-10-01T09:50:00-04:00"
+    },
+    "SOUN": {
+      "start_bar": "2026-10-01T09:55:00-04:00"
+    },
+    "RKLB": {
+      "start_bar": "2026-10-01T09:55:00-04:00"
+    },
+    "WGS": {
+      "start_bar": "2026-10-01T09:50:00-04:00"
+    },
+    "OPENW": {
+      "start_bar": "2026-10-01T09:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -373,19 +370,7 @@
     "SNPS": "day_gainers",
     "NU": "most_actives+day_gainers",
     "CNXC": "small_cap_gainers",
-    "ENVX": "small_cap_gainers",
-    "SOC": "small_cap_gainers",
-    "BMEA": "small_cap_gainers",
-    "NYAX": "small_cap_gainers",
-    "IPHA": "small_cap_gainers",
-    "AUROW": "small_cap_gainers",
-    "PAL": "aggressive_small_caps",
     "NTLA": "most_shorted_stocks",
-    "AKAM": "day_gainers",
-    "HAFN": "day_gainers",
-    "FSLY": "day_gainers",
-    "FROG": "day_gainers",
-    "KRMN": "day_gainers",
     "BTU": "day_gainers",
     "CRMT": "small_cap_gainers",
     "NWCLW": "small_cap_gainers",
@@ -663,6 +648,19 @@
     "CACI": "day_gainers",
     "RFL": "small_cap_gainers",
     "BBBYW": "small_cap_gainers",
-    "OI": "aggressive_small_caps"
+    "OI": "aggressive_small_caps",
+    "GOOGL": "most_actives",
+    "AMZN": "most_actives",
+    "RKLB": "most_actives",
+    "APPN": "day_gainers",
+    "AXTI": "day_gainers",
+    "PBF": "day_gainers",
+    "MAAS": "day_gainers",
+    "WGS": "day_gainers",
+    "CRDO": "day_gainers",
+    "NABL": "small_cap_gainers",
+    "INSG": "small_cap_gainers",
+    "OPENW": "small_cap_gainers",
+    "SCNI": "most_shorted_stocks"
   }
 }
