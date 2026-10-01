@@ -42,8 +42,6 @@
     "UPST",
     "LENZ",
     "MSC",
-    "AMTD",
-    "VACI",
     "GENI",
     "GLAS",
     "VNET",
@@ -317,36 +315,26 @@
     "ARHS",
     "CRSR",
     "NGL",
-    "ANTX"
+    "ANTX",
+    "IOT",
+    "OM"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "TDAY": {
-      "start_bar": "2026-10-01T15:20:00-04:00"
-    },
-    "WETO": {
-      "start_bar": "2026-10-01T15:20:00-04:00"
-    },
-    "GOOGL": {
-      "start_bar": "2026-10-01T15:20:00-04:00"
-    },
-    "OPENW": {
-      "start_bar": "2026-10-01T15:15:00-04:00"
-    },
-    "RIG": {
-      "start_bar": "2026-10-01T15:20:00-04:00"
-    },
     "ACN": {
-      "start_bar": "2026-10-01T15:30:00-04:00"
-    },
-    "SHOE": {
       "start_bar": "2026-10-01T15:30:00-04:00"
     },
     "EFOR": {
       "start_bar": "2026-10-01T15:30:00-04:00"
     },
-    "MAAS": {
+    "NIQ": {
+      "start_bar": "2026-10-01T15:35:00-04:00"
+    },
+    "XRXDW": {
       "start_bar": "2026-10-01T15:30:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-10-01T15:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -375,8 +363,6 @@
     "UPST": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
     "MSC": "small_cap_gainers",
-    "AMTD": "small_cap_gainers",
-    "VACI": "small_cap_gainers",
     "GENI": "aggressive_small_caps",
     "GLAS": "aggressive_small_caps",
     "VNET": "aggressive_small_caps",
@@ -441,11 +427,11 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "small_cap_gainers+aggressive_small_caps",
+    "JELD": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
-    "BBAI": "most_shorted_stocks",
+    "BBAI": "small_cap_gainers+most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "CAH": "day_gainers",
@@ -474,7 +460,7 @@
     "PTC": "day_gainers",
     "UXIN": "small_cap_gainers",
     "SMCIP": "aggressive_small_caps",
-    "SB": "small_cap_gainers+aggressive_small_caps",
+    "SB": "aggressive_small_caps",
     "WIT": "most_actives",
     "OMC": "day_gainers",
     "CACI": "day_gainers",
@@ -649,6 +635,8 @@
     "ARHS": "small_cap_gainers",
     "CRSR": "small_cap_gainers",
     "NGL": "small_cap_gainers",
-    "ANTX": "small_cap_gainers"
+    "ANTX": "small_cap_gainers",
+    "IOT": "day_gainers",
+    "OM": "small_cap_gainers"
   }
 }
