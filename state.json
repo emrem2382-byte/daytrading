@@ -30,10 +30,6 @@
     "KOS",
     "KSS",
     "VRA",
-    "BHV",
-    "TWST",
-    "ADEA",
-    "SLDPW",
     "WLTH",
     "GME",
     "BMNR",
@@ -317,19 +313,14 @@
     "RUN",
     "KNDI",
     "PMVP",
-    "FLNC"
+    "FLNC",
+    "MTRN",
+    "GO",
+    "FLX",
+    "EOSE"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "BHV": {
-      "start_bar": "2026-09-30T15:25:00-04:00"
-    },
-    "LCID": {
-      "start_bar": "2026-10-01T11:45:00-04:00"
-    },
-    "COR": {
-      "start_bar": "2026-10-01T11:45:00-04:00"
-    },
     "WLTH": {
       "start_bar": "2026-10-01T11:55:00-04:00"
     },
@@ -356,6 +347,24 @@
     },
     "ALIT": {
       "start_bar": "2026-10-01T11:55:00-04:00"
+    },
+    "MOBI": {
+      "start_bar": "2026-10-01T12:00:00-04:00"
+    },
+    "GTM": {
+      "start_bar": "2026-10-01T12:05:00-04:00"
+    },
+    "PRAX": {
+      "start_bar": "2026-10-01T12:00:00-04:00"
+    },
+    "CBRS": {
+      "start_bar": "2026-10-01T12:05:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-10-01T12:05:00-04:00"
+    },
+    "RDW": {
+      "start_bar": "2026-10-01T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,10 +381,6 @@
     "KOS": "aggressive_small_caps",
     "KSS": "most_shorted_stocks",
     "VRA": "small_cap_gainers",
-    "BHV": "small_cap_gainers",
-    "TWST": "day_gainers",
-    "ADEA": "day_gainers",
-    "SLDPW": "small_cap_gainers",
     "WLTH": "small_cap_gainers",
     "GME": "day_gainers",
     "BMNR": "most_actives",
@@ -658,6 +663,10 @@
     "RUN": "most_shorted_stocks",
     "KNDI": "small_cap_gainers",
     "PMVP": "small_cap_gainers",
-    "FLNC": "aggressive_small_caps"
+    "FLNC": "aggressive_small_caps",
+    "MTRN": "day_gainers",
+    "GO": "small_cap_gainers",
+    "FLX": "small_cap_gainers",
+    "EOSE": "most_shorted_stocks"
   }
 }
