@@ -327,17 +327,11 @@
     "TWST": {
       "start_bar": "2026-10-01T09:55:00-04:00"
     },
-    "SOUN": {
-      "start_bar": "2026-10-01T09:55:00-04:00"
-    },
     "RKLB": {
       "start_bar": "2026-10-01T09:55:00-04:00"
     },
     "WGS": {
       "start_bar": "2026-10-01T09:50:00-04:00"
-    },
-    "QLYS": {
-      "start_bar": "2026-10-01T10:00:00-04:00"
     },
     "XRXDW": {
       "start_bar": "2026-10-01T09:55:00-04:00"
@@ -631,7 +625,7 @@
     "OI": "aggressive_small_caps",
     "GOOGL": "most_actives",
     "AMZN": "most_actives",
-    "RKLB": "most_actives+day_gainers",
+    "RKLB": "most_actives",
     "APPN": "day_gainers",
     "AXTI": "day_gainers",
     "PBF": "day_gainers",
