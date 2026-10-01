@@ -26,9 +26,7 @@
     "NU",
     "CNXC",
     "NTLA",
-    "BTU",
     "CRMT",
-    "NWCLW",
     "NVO",
     "DNN",
     "TU",
@@ -317,36 +315,17 @@
     "CRDO",
     "NABL",
     "INSG",
-    "OPENW"
+    "OPENW",
+    "LITE",
+    "COHR"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "NTLA": {
-      "start_bar": "2026-10-01T09:40:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-10-01T09:45:00-04:00"
-    },
-    "UXIN": {
-      "start_bar": "2026-10-01T09:40:00-04:00"
-    },
-    "SB": {
-      "start_bar": "2026-10-01T09:45:00-04:00"
-    },
-    "SM": {
-      "start_bar": "2026-10-01T09:45:00-04:00"
-    },
-    "NVAX": {
-      "start_bar": "2026-10-01T09:55:00-04:00"
-    },
     "TWST": {
       "start_bar": "2026-10-01T09:55:00-04:00"
-    },
-    "SPTX": {
-      "start_bar": "2026-10-01T09:50:00-04:00"
     },
     "SOUN": {
       "start_bar": "2026-10-01T09:55:00-04:00"
@@ -357,7 +336,10 @@
     "WGS": {
       "start_bar": "2026-10-01T09:50:00-04:00"
     },
-    "OPENW": {
+    "QLYS": {
+      "start_bar": "2026-10-01T10:00:00-04:00"
+    },
+    "XRXDW": {
       "start_bar": "2026-10-01T09:55:00-04:00"
     }
   },
@@ -368,12 +350,10 @@
     "COUR": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "SNPS": "day_gainers",
-    "NU": "most_actives+day_gainers",
+    "NU": "most_actives",
     "CNXC": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
-    "BTU": "day_gainers",
     "CRMT": "small_cap_gainers",
-    "NWCLW": "small_cap_gainers",
     "NVO": "most_actives",
     "DNN": "most_actives",
     "TU": "day_gainers",
@@ -651,7 +631,7 @@
     "OI": "aggressive_small_caps",
     "GOOGL": "most_actives",
     "AMZN": "most_actives",
-    "RKLB": "most_actives",
+    "RKLB": "most_actives+day_gainers",
     "APPN": "day_gainers",
     "AXTI": "day_gainers",
     "PBF": "day_gainers",
@@ -661,6 +641,8 @@
     "NABL": "small_cap_gainers",
     "INSG": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
-    "SCNI": "most_shorted_stocks"
+    "SCNI": "most_shorted_stocks",
+    "LITE": "day_gainers",
+    "COHR": "day_gainers"
   }
 }
