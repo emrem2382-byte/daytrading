@@ -32,9 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "COOK",
-    "SM",
-    "NWCL",
     "ATEN",
     "ONDS",
     "PTEN",
@@ -317,18 +314,15 @@
     "SNAP",
     "TH",
     "SMR",
-    "AIFU"
+    "AIFU",
+    "SPRO",
+    "TRIB",
+    "GTN-A"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "METC": {
       "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "HDB": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "YEXT": {
-      "start_bar": "2026-10-01T12:05:00-04:00"
     },
     "FUN": {
       "start_bar": "2026-10-01T12:10:00-04:00"
@@ -337,9 +331,6 @@
       "start_bar": "2026-10-01T12:10:00-04:00"
     },
     "DPC": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "RHI": {
       "start_bar": "2026-10-01T12:10:00-04:00"
     },
     "OI": {
@@ -365,6 +356,27 @@
     },
     "SNAP": {
       "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "LENZ": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "SHOE": {
+      "start_bar": "2026-10-01T12:20:00-04:00"
+    },
+    "IT": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "CRM": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "OMC": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "AMZN": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -383,9 +395,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "COOK": "small_cap_gainers",
-    "SM": "day_gainers",
-    "NWCL": "day_gainers",
     "ATEN": "small_cap_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "PTEN": "day_gainers",
@@ -537,7 +546,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "small_cap_gainers+aggressive_small_caps",
+    "JELD": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
@@ -667,6 +676,9 @@
     "SNAP": "most_actives",
     "TH": "day_gainers",
     "SMR": "most_actives",
-    "AIFU": "small_cap_gainers"
+    "AIFU": "small_cap_gainers",
+    "SPRO": "small_cap_gainers",
+    "TRIB": "small_cap_gainers",
+    "GTN-A": "small_cap_gainers"
   }
 }
