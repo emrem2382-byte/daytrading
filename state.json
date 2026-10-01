@@ -23,14 +23,8 @@
     "NVDA",
     "COUR",
     "SNPS",
-    "CMS-PB",
     "NU",
     "CNXC",
-    "CMCM",
-    "BEKE",
-    "SNOW",
-    "MAAS",
-    "SID",
     "ENVX",
     "SOC",
     "BMEA",
@@ -317,44 +311,20 @@
     "PTC",
     "UXIN",
     "SMCIP",
-    "SB"
+    "SB",
+    "WIT",
+    "OMC",
+    "CACI",
+    "RFL",
+    "BBBYW",
+    "OI"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "CRMT": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "TTEC": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "TEAM": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "UTHR": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "VIA": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "SID": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "ZIP": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "CANG": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "DAO": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "SOFI": {
       "start_bar": "2026-10-01T09:35:00-04:00"
     },
     "WLTH": {
@@ -363,25 +333,10 @@
     "AVPT": {
       "start_bar": "2026-10-01T09:35:00-04:00"
     },
-    "STTK": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "INTA": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "NIQ": {
       "start_bar": "2026-10-01T09:35:00-04:00"
     },
-    "XRXDW": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "MAAS": {
-      "start_bar": "2026-10-01T09:35:00-04:00"
-    },
     "NTLA": {
-      "start_bar": "2026-10-01T09:40:00-04:00"
-    },
-    "ZBIO": {
       "start_bar": "2026-10-01T09:40:00-04:00"
     },
     "SRFM": {
@@ -399,16 +354,13 @@
     "NVDA": {
       "start_bar": "2026-10-01T09:45:00-04:00"
     },
-    "COUR": {
-      "start_bar": "2026-10-01T09:45:00-04:00"
-    },
-    "ERAS": {
-      "start_bar": "2026-10-01T09:45:00-04:00"
-    },
     "UXIN": {
       "start_bar": "2026-10-01T09:40:00-04:00"
     },
     "SB": {
+      "start_bar": "2026-10-01T09:45:00-04:00"
+    },
+    "SM": {
       "start_bar": "2026-10-01T09:45:00-04:00"
     }
   },
@@ -419,14 +371,8 @@
     "COUR": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "SNPS": "day_gainers",
-    "CMS-PB": "small_cap_gainers",
     "NU": "most_actives+day_gainers",
     "CNXC": "small_cap_gainers",
-    "CMCM": "small_cap_gainers",
-    "BEKE": "day_gainers",
-    "SNOW": "day_gainers",
-    "MAAS": "day_gainers",
-    "SID": "small_cap_gainers",
     "ENVX": "small_cap_gainers",
     "SOC": "small_cap_gainers",
     "BMEA": "small_cap_gainers",
@@ -675,7 +621,7 @@
     "VACI-UN": "small_cap_gainers",
     "ASPSZ": "small_cap_gainers",
     "XRXDW": "small_cap_gainers",
-    "TEAD": "aggressive_small_caps",
+    "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
     "JELD": "aggressive_small_caps",
@@ -711,6 +657,12 @@
     "PTC": "day_gainers",
     "UXIN": "small_cap_gainers",
     "SMCIP": "aggressive_small_caps",
-    "SB": "aggressive_small_caps"
+    "SB": "aggressive_small_caps",
+    "WIT": "most_actives",
+    "OMC": "day_gainers",
+    "CACI": "day_gainers",
+    "RFL": "small_cap_gainers",
+    "BBBYW": "small_cap_gainers",
+    "OI": "aggressive_small_caps"
   }
 }
