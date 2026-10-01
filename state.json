@@ -26,7 +26,6 @@
     "NTLA",
     "DAVA",
     "NAT",
-    "PSQH",
     "SDGR",
     "ALMR",
     "ABOS",
@@ -317,7 +316,8 @@
     "DHT",
     "SNX",
     "ACMR",
-    "BHR-PB"
+    "BHR-PB",
+    "ECO"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -325,12 +325,6 @@
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
     "ALMR": {
-      "start_bar": "2026-10-01T10:50:00-04:00"
-    },
-    "ABOS": {
-      "start_bar": "2026-10-01T10:50:00-04:00"
-    },
-    "SERV": {
       "start_bar": "2026-10-01T10:50:00-04:00"
     },
     "KURA": {
@@ -350,7 +344,6 @@
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "PSQH": "small_cap_gainers",
     "SDGR": "day_gainers",
     "ALMR": "day_gainers",
     "ABOS": "small_cap_gainers",
@@ -421,7 +414,7 @@
     "VKTX": "day_gainers",
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
@@ -640,6 +633,7 @@
     "DHT": "day_gainers",
     "SNX": "day_gainers",
     "ACMR": "day_gainers",
-    "BHR-PB": "small_cap_gainers"
+    "BHR-PB": "small_cap_gainers",
+    "ECO": "day_gainers"
   }
 }
