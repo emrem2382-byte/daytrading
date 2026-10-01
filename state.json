@@ -36,14 +36,9 @@
     "TSLA",
     "WOLF",
     "HTZ",
-    "VIA",
-    "GRAL",
     "CCOI",
-    "ASPS",
     "QUBT",
     "BIRD",
-    "AVPT",
-    "LOT",
     "EVCM",
     "SILC",
     "METC",
@@ -317,17 +312,16 @@
     "EAF",
     "EMBC",
     "ANDG",
-    "GRPN"
+    "GRPN",
+    "STLA",
+    "CNDT",
+    "KLC",
+    "MTW",
+    "EXFY"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "VICR": {
-      "start_bar": "2026-10-01T13:30:00-04:00"
-    },
     "SMCIP": {
-      "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "PHI": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
     "UP": {
@@ -335,9 +329,6 @@
     },
     "DOX": {
       "start_bar": "2026-10-01T13:35:00-04:00"
-    },
-    "LTGO": {
-      "start_bar": "2026-10-01T13:40:00-04:00"
     },
     "NVAX": {
       "start_bar": "2026-10-01T13:40:00-04:00"
@@ -375,14 +366,9 @@
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "small_cap_gainers+most_shorted_stocks",
-    "VIA": "day_gainers",
-    "GRAL": "day_gainers",
     "CCOI": "small_cap_gainers",
-    "ASPS": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
     "BIRD": "small_cap_gainers",
-    "AVPT": "day_gainers",
-    "LOT": "small_cap_gainers",
     "EVCM": "small_cap_gainers",
     "SILC": "small_cap_gainers",
     "METC": "aggressive_small_caps",
@@ -655,6 +641,11 @@
     "EAF": "small_cap_gainers",
     "EMBC": "small_cap_gainers",
     "ANDG": "small_cap_gainers",
-    "GRPN": "most_shorted_stocks"
+    "GRPN": "most_shorted_stocks",
+    "STLA": "most_actives",
+    "CNDT": "small_cap_gainers",
+    "KLC": "small_cap_gainers",
+    "MTW": "small_cap_gainers",
+    "EXFY": "small_cap_gainers"
   }
 }
