@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "CCOI",
-    "OMDA",
-    "ASPS",
-    "TNON",
-    "DAVA",
-    "SCNI",
-    "DMRC",
-    "SNPS",
-    "HUBS",
-    "AGMB",
-    "MIST",
-    "PMVP",
-    "VIOT",
-    "SYRE",
-    "METCB"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "GETY",
     "NVDA",
