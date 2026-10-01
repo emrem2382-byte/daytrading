@@ -30,9 +30,7 @@
     "KOS",
     "KSS",
     "VRA",
-    "GME",
     "BMNR",
-    "FLY",
     "QNST",
     "FOSL",
     "SVCO",
@@ -317,22 +315,12 @@
     "GO",
     "FLX",
     "EOSE",
-    "IPGP"
+    "IPGP",
+    "SNAP",
+    "TH"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "PENN": {
-      "start_bar": "2026-10-01T12:00:00-04:00"
-    },
-    "LENZ": {
-      "start_bar": "2026-10-01T11:55:00-04:00"
-    },
-    "EPAM": {
-      "start_bar": "2026-10-01T11:55:00-04:00"
-    },
-    "APYX": {
-      "start_bar": "2026-10-01T11:55:00-04:00"
-    },
     "ELF": {
       "start_bar": "2026-10-01T12:00:00-04:00"
     },
@@ -342,16 +330,10 @@
     "GTM": {
       "start_bar": "2026-10-01T12:05:00-04:00"
     },
-    "PRAX": {
-      "start_bar": "2026-10-01T12:00:00-04:00"
-    },
     "CBRS": {
       "start_bar": "2026-10-01T12:05:00-04:00"
     },
     "ULCC": {
-      "start_bar": "2026-10-01T12:05:00-04:00"
-    },
-    "RDW": {
       "start_bar": "2026-10-01T12:05:00-04:00"
     },
     "METC": {
@@ -364,6 +346,18 @@
       "start_bar": "2026-10-01T12:05:00-04:00"
     },
     "FUN": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "ATEN": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "DPC": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "RHI": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "OI": {
       "start_bar": "2026-10-01T12:10:00-04:00"
     }
   },
@@ -381,9 +375,7 @@
     "KOS": "aggressive_small_caps",
     "KSS": "most_shorted_stocks",
     "VRA": "small_cap_gainers",
-    "GME": "day_gainers",
     "BMNR": "most_actives",
-    "FLY": "day_gainers",
     "QNST": "small_cap_gainers",
     "FOSL": "small_cap_gainers",
     "SVCO": "small_cap_gainers",
@@ -667,6 +659,8 @@
     "GO": "small_cap_gainers",
     "FLX": "small_cap_gainers",
     "EOSE": "most_shorted_stocks",
-    "IPGP": "day_gainers"
+    "IPGP": "day_gainers",
+    "SNAP": "most_actives",
+    "TH": "day_gainers"
   }
 }
