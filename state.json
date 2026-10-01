@@ -27,12 +27,6 @@
     "CNXC",
     "NTLA",
     "CRMT",
-    "TU",
-    "U",
-    "FIG",
-    "ESTC",
-    "MITT-PA",
-    "GPMT-PA",
     "AUR",
     "BB",
     "PEPG",
@@ -317,7 +311,13 @@
     "LITE",
     "COHR",
     "SYRE",
-    "STDN"
+    "STDN",
+    "BSTZ",
+    "AAOI",
+    "ROP",
+    "UI",
+    "SES",
+    "UP"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -327,8 +327,11 @@
     "XRXDW": {
       "start_bar": "2026-10-01T09:55:00-04:00"
     },
-    "UPST": {
-      "start_bar": "2026-10-01T10:10:00-04:00"
+    "ALKT": {
+      "start_bar": "2026-10-01T10:15:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-10-01T10:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -342,12 +345,6 @@
     "CNXC": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "CRMT": "small_cap_gainers",
-    "TU": "day_gainers",
-    "U": "day_gainers",
-    "FIG": "day_gainers",
-    "ESTC": "day_gainers",
-    "MITT-PA": "small_cap_gainers",
-    "GPMT-PA": "small_cap_gainers",
     "AUR": "most_actives",
     "BB": "day_gainers",
     "PEPG": "small_cap_gainers",
@@ -536,7 +533,7 @@
     "CDNS": "day_gainers",
     "EXLS": "day_gainers",
     "PEGA": "day_gainers",
-    "HDB": "day_gainers",
+    "HDB": "most_actives",
     "INTU": "day_gainers",
     "RHI": "day_gainers",
     "DOX": "day_gainers",
@@ -631,6 +628,12 @@
     "LITE": "day_gainers",
     "COHR": "day_gainers",
     "SYRE": "day_gainers",
-    "STDN": "small_cap_gainers"
+    "STDN": "small_cap_gainers",
+    "BSTZ": "day_gainers",
+    "AAOI": "day_gainers",
+    "ROP": "day_gainers",
+    "UI": "day_gainers",
+    "SES": "small_cap_gainers",
+    "UP": "small_cap_gainers"
   }
 }
