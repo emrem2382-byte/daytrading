@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "GETY",
-    "NVAX",
     "NVDA",
     "COUR",
     "SNPS",
@@ -27,12 +26,7 @@
     "CNXC",
     "NTLA",
     "CRMT",
-    "AUR",
-    "BB",
-    "PEPG",
     "DAVA",
-    "CNDT",
-    "TTEC",
     "VYX",
     "MIST",
     "OMDA",
@@ -317,7 +311,13 @@
     "ROP",
     "UI",
     "SES",
-    "UP"
+    "UP",
+    "CCL",
+    "NCNO",
+    "KNSL",
+    "CSQR",
+    "ALIT",
+    "LTGO"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -330,13 +330,15 @@
     "ALKT": {
       "start_bar": "2026-10-01T10:15:00-04:00"
     },
-    "ULCC": {
+    "KOS": {
+      "start_bar": "2026-10-01T10:20:00-04:00"
+    },
+    "APYX": {
       "start_bar": "2026-10-01T10:15:00-04:00"
     }
   },
   "ticker_sources": {
     "GETY": "aggressive_small_caps",
-    "NVAX": "most_shorted_stocks",
     "NVDA": "most_actives",
     "COUR": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
@@ -345,12 +347,7 @@
     "CNXC": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "CRMT": "small_cap_gainers",
-    "AUR": "most_actives",
-    "BB": "day_gainers",
-    "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
-    "CNDT": "small_cap_gainers",
-    "TTEC": "small_cap_gainers",
     "VYX": "small_cap_gainers",
     "MIST": "small_cap_gainers",
     "OMDA": "small_cap_gainers",
@@ -628,12 +625,18 @@
     "LITE": "day_gainers",
     "COHR": "day_gainers",
     "SYRE": "day_gainers",
-    "STDN": "small_cap_gainers",
+    "STDN": "day_gainers",
     "BSTZ": "day_gainers",
     "AAOI": "day_gainers",
     "ROP": "day_gainers",
     "UI": "day_gainers",
     "SES": "small_cap_gainers",
-    "UP": "small_cap_gainers"
+    "UP": "small_cap_gainers",
+    "CCL": "most_actives",
+    "NCNO": "day_gainers",
+    "KNSL": "day_gainers",
+    "CSQR": "day_gainers",
+    "ALIT": "small_cap_gainers",
+    "LTGO": "small_cap_gainers"
   }
 }
