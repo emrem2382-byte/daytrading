@@ -2,19 +2,19 @@
   "premarket_watchlist": [
     "CCOI",
     "OMDA",
-    "AGMB",
-    "AVLN",
     "ASPS",
-    "MIST",
     "TNON",
     "DAVA",
-    "SNPS",
     "SCNI",
     "DMRC",
+    "SNPS",
     "HUBS",
+    "AGMB",
+    "MIST",
     "PMVP",
     "VIOT",
-    "SYRE"
+    "SYRE",
+    "METCB"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
