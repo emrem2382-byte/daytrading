@@ -27,8 +27,6 @@
     "DAVA",
     "NAT",
     "UTHR",
-    "SOFI",
-    "VIR",
     "ORIC",
     "KOS",
     "BYND",
@@ -317,7 +315,9 @@
     "EBON",
     "FUN",
     "VIOT",
-    "NDLS"
+    "NDLS",
+    "TEAM",
+    "BJRI"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -329,9 +329,6 @@
     },
     "GKOS": {
       "start_bar": "2026-10-01T11:40:00-04:00"
-    },
-    "VNET": {
-      "start_bar": "2026-10-01T11:35:00-04:00"
     },
     "EVGO": {
       "start_bar": "2026-10-01T11:40:00-04:00"
@@ -363,8 +360,6 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "UTHR": "day_gainers",
-    "SOFI": "most_actives",
-    "VIR": "small_cap_gainers",
     "ORIC": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
     "BYND": "most_shorted_stocks",
@@ -652,6 +647,8 @@
     "EBON": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
     "VIOT": "small_cap_gainers",
-    "NDLS": "small_cap_gainers"
+    "NDLS": "small_cap_gainers",
+    "TEAM": "day_gainers",
+    "BJRI": "small_cap_gainers"
   }
 }
