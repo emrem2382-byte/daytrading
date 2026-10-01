@@ -44,14 +44,11 @@
     "VEEA",
     "SHOE",
     "FCEL",
-    "TNON",
-    "SCNI",
     "VICR",
     "EFXT",
     "CTSH",
     "EPAM",
     "INFY",
-    "IT",
     "GIB",
     "KD",
     "FICO",
@@ -317,33 +314,53 @@
     "SMWB",
     "SRG",
     "METC",
-    "MSC"
+    "MSC",
+    "SLDE",
+    "ADNT",
+    "VACI"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "NIQ": {
-      "start_bar": "2026-10-01T15:35:00-04:00"
-    },
     "XRXDW": {
       "start_bar": "2026-10-01T15:30:00-04:00"
     },
     "BBBYW": {
       "start_bar": "2026-10-01T15:35:00-04:00"
     },
-    "VYLR": {
-      "start_bar": "2026-10-01T15:40:00-04:00"
-    },
     "EFXT": {
       "start_bar": "2026-10-01T15:45:00-04:00"
     },
     "WAY": {
       "start_bar": "2026-10-01T15:45:00-04:00"
+    },
+    "XENE": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "CEG": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "WETO": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "CRDO": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "LITE": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "COHR": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "SERV": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "EOSE": {
+      "start_bar": "2026-10-01T15:50:00-04:00"
     }
   },
   "ticker_sources": {
     "GETY": "aggressive_small_caps",
     "NVDA": "most_actives",
-    "TNON": "most_shorted_stocks",
     "SNPS": "day_gainers",
     "NU": "most_actives",
     "CNXC": "small_cap_gainers",
@@ -358,7 +375,7 @@
     "ACN": "day_gainers",
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "small_cap_gainers+most_shorted_stocks",
+    "HTZ": "most_shorted_stocks",
     "BIRD": "small_cap_gainers",
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
@@ -372,8 +389,7 @@
     "EFXT": "day_gainers",
     "CTSH": "day_gainers",
     "EPAM": "day_gainers",
-    "INFY": "most_actives+day_gainers",
-    "IT": "day_gainers",
+    "INFY": "most_actives",
     "GIB": "day_gainers",
     "KD": "day_gainers",
     "FICO": "day_gainers",
@@ -458,7 +474,7 @@
     "PTC": "day_gainers",
     "UXIN": "small_cap_gainers",
     "SMCIP": "aggressive_small_caps",
-    "SB": "aggressive_small_caps",
+    "SB": "small_cap_gainers+aggressive_small_caps",
     "WIT": "most_actives",
     "OMC": "day_gainers",
     "CACI": "day_gainers",
@@ -477,7 +493,6 @@
     "NABL": "small_cap_gainers",
     "INSG": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
-    "SCNI": "most_shorted_stocks",
     "LITE": "day_gainers",
     "COHR": "day_gainers",
     "SYRE": "day_gainers",
@@ -640,6 +655,9 @@
     "SMWB": "small_cap_gainers",
     "SRG": "small_cap_gainers",
     "METC": "aggressive_small_caps",
-    "MSC": "small_cap_gainers"
+    "MSC": "small_cap_gainers",
+    "SLDE": "day_gainers",
+    "ADNT": "small_cap_gainers",
+    "VACI": "small_cap_gainers"
   }
 }
