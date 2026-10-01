@@ -42,7 +42,6 @@
     "DXC",
     "TRIP",
     "DMRC",
-    "GKOS",
     "PHI",
     "PRAX",
     "BZ",
@@ -317,24 +316,34 @@
     "INSP",
     "ADV",
     "QUBT",
-    "FRVO"
+    "FRVO",
+    "PACB"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
-    "LCID": {
-      "start_bar": "2026-10-01T14:15:00-04:00"
-    },
-    "LTGO": {
-      "start_bar": "2026-10-01T14:15:00-04:00"
-    },
     "REF": {
       "start_bar": "2026-10-01T14:20:00-04:00"
     },
     "VEEA": {
       "start_bar": "2026-10-01T14:30:00-04:00"
+    },
+    "DOX": {
+      "start_bar": "2026-10-01T14:35:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-10-01T14:35:00-04:00"
+    },
+    "WAY": {
+      "start_bar": "2026-10-01T14:35:00-04:00"
+    },
+    "CRDO": {
+      "start_bar": "2026-10-01T14:35:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-10-01T14:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,7 +372,6 @@
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
-    "GKOS": "day_gainers",
     "PHI": "small_cap_gainers",
     "PRAX": "day_gainers",
     "BZ": "day_gainers",
@@ -637,6 +645,7 @@
     "INSP": "day_gainers",
     "ADV": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
-    "FRVO": "day_gainers"
+    "FRVO": "day_gainers",
+    "PACB": "small_cap_gainers"
   }
 }
