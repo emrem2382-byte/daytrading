@@ -27,8 +27,6 @@
     "DAVA",
     "NAT",
     "CANG",
-    "GOSS",
-    "AZUL",
     "ACMR",
     "CDNL",
     "EPRX",
@@ -317,33 +315,26 @@
     "MTSI",
     "AEIS",
     "VIAV",
-    "COUR"
+    "COUR",
+    "MXL",
+    "ASAN"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "APYX": {
-      "start_bar": "2026-10-01T10:15:00-04:00"
-    },
-    "ZBIO": {
-      "start_bar": "2026-10-01T10:25:00-04:00"
-    },
-    "WTI": {
-      "start_bar": "2026-10-01T10:25:00-04:00"
-    },
-    "TLN": {
-      "start_bar": "2026-10-01T10:30:00-04:00"
-    },
-    "OPENW": {
-      "start_bar": "2026-10-01T10:25:00-04:00"
-    },
     "TEAD": {
       "start_bar": "2026-10-01T10:30:00-04:00"
     },
     "JELD": {
       "start_bar": "2026-10-01T10:40:00-04:00"
+    },
+    "SDGR": {
+      "start_bar": "2026-10-01T10:45:00-04:00"
+    },
+    "TNON": {
+      "start_bar": "2026-10-01T10:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -357,8 +348,6 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "CANG": "small_cap_gainers",
-    "GOSS": "small_cap_gainers",
-    "AZUL": "small_cap_gainers",
     "ACMR": "day_gainers",
     "CDNL": "small_cap_gainers",
     "EPRX": "small_cap_gainers",
@@ -646,6 +635,8 @@
     "MTSI": "day_gainers",
     "AEIS": "day_gainers",
     "VIAV": "day_gainers",
-    "COUR": "aggressive_small_caps"
+    "COUR": "aggressive_small_caps",
+    "MXL": "day_gainers",
+    "ASAN": "day_gainers"
   }
 }
