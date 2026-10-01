@@ -36,7 +36,6 @@
     "TSLA",
     "WOLF",
     "HTZ",
-    "GRPN",
     "ORCL-PD",
     "HUBS",
     "AVLN",
@@ -317,57 +316,37 @@
     "WNC",
     "MEI",
     "AGL",
-    "OLN"
+    "OLN",
+    "BL"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "TSLA": {
-      "start_bar": "2026-10-01T13:25:00-04:00"
-    },
-    "VOR": {
-      "start_bar": "2026-10-01T13:20:00-04:00"
-    },
-    "TENB": {
-      "start_bar": "2026-10-01T13:25:00-04:00"
-    },
-    "HDB": {
-      "start_bar": "2026-10-01T13:25:00-04:00"
-    },
-    "TDAY": {
-      "start_bar": "2026-10-01T13:25:00-04:00"
-    },
-    "SYRE": {
-      "start_bar": "2026-10-01T13:20:00-04:00"
-    },
-    "CSQR": {
-      "start_bar": "2026-10-01T13:25:00-04:00"
-    },
     "VICR": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
     "CTSH": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
-    "CEG": {
-      "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "CCCC": {
-      "start_bar": "2026-10-01T13:30:00-04:00"
-    },
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "ACN": {
-      "start_bar": "2026-10-01T13:35:00-04:00"
     },
     "PHI": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
-    "LITE": {
-      "start_bar": "2026-10-01T13:35:00-04:00"
-    },
     "UP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
+    },
+    "DOX": {
+      "start_bar": "2026-10-01T13:35:00-04:00"
+    },
+    "LTGO": {
+      "start_bar": "2026-10-01T13:40:00-04:00"
+    },
+    "NVAX": {
+      "start_bar": "2026-10-01T13:40:00-04:00"
+    },
+    "MRNA": {
+      "start_bar": "2026-10-01T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -390,7 +369,6 @@
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "small_cap_gainers+most_shorted_stocks",
-    "GRPN": "most_shorted_stocks",
     "ORCL-PD": "aggressive_small_caps",
     "HUBS": "day_gainers",
     "AVLN": "small_cap_gainers",
@@ -670,6 +648,7 @@
     "WNC": "small_cap_gainers",
     "MEI": "small_cap_gainers",
     "AGL": "small_cap_gainers",
-    "OLN": "aggressive_small_caps"
+    "OLN": "aggressive_small_caps",
+    "BL": "small_cap_gainers"
   }
 }
