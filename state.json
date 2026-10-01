@@ -26,7 +26,6 @@
     "NTLA",
     "DAVA",
     "NAT",
-    "SDGR",
     "ALMR",
     "ABOS",
     "ACR",
@@ -317,21 +316,13 @@
     "SNX",
     "ACMR",
     "BHR-PB",
-    "ECO"
+    "ECO",
+    "CRAI"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
-    },
-    "ALMR": {
-      "start_bar": "2026-10-01T10:50:00-04:00"
-    },
-    "KURA": {
-      "start_bar": "2026-10-01T10:55:00-04:00"
-    },
-    "STTK": {
-      "start_bar": "2026-10-01T10:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -344,7 +335,6 @@
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "SDGR": "day_gainers",
     "ALMR": "day_gainers",
     "ABOS": "small_cap_gainers",
     "ACR": "small_cap_gainers",
@@ -634,6 +624,7 @@
     "SNX": "day_gainers",
     "ACMR": "day_gainers",
     "BHR-PB": "small_cap_gainers",
-    "ECO": "day_gainers"
+    "ECO": "day_gainers",
+    "CRAI": "small_cap_gainers"
   }
 }
