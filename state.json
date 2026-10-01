@@ -42,7 +42,6 @@
     "TRIP",
     "DMRC",
     "UPST",
-    "SEI",
     "KVYO",
     "SSTK",
     "HKD",
@@ -317,33 +316,16 @@
     "RXRX",
     "EVCM",
     "CDE",
-    "MEC"
+    "MEC",
+    "WBD"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
-    "BAK": {
-      "start_bar": "2026-10-01T14:50:00-04:00"
-    },
-    "AXTI": {
-      "start_bar": "2026-10-01T14:55:00-04:00"
-    },
-    "COHR": {
-      "start_bar": "2026-10-01T14:55:00-04:00"
-    },
-    "VYLR": {
-      "start_bar": "2026-10-01T14:55:00-04:00"
-    },
-    "CAH": {
-      "start_bar": "2026-10-01T14:55:00-04:00"
-    },
     "LITE": {
       "start_bar": "2026-10-01T15:00:00-04:00"
-    },
-    "AEIS": {
-      "start_bar": "2026-10-01T14:55:00-04:00"
     },
     "TNON": {
       "start_bar": "2026-10-01T15:00:00-04:00"
@@ -381,7 +363,6 @@
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
-    "SEI": "day_gainers",
     "KVYO": "day_gainers",
     "SSTK": "small_cap_gainers",
     "HKD": "small_cap_gainers",
@@ -460,7 +441,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "small_cap_gainers+aggressive_small_caps",
+    "JELD": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
@@ -493,7 +474,7 @@
     "PTC": "day_gainers",
     "UXIN": "small_cap_gainers",
     "SMCIP": "aggressive_small_caps",
-    "SB": "aggressive_small_caps",
+    "SB": "small_cap_gainers+aggressive_small_caps",
     "WIT": "most_actives",
     "OMC": "day_gainers",
     "CACI": "day_gainers",
@@ -655,6 +636,7 @@
     "RXRX": "most_shorted_stocks",
     "EVCM": "small_cap_gainers",
     "CDE": "most_actives",
-    "MEC": "small_cap_gainers"
+    "MEC": "small_cap_gainers",
+    "WBD": "most_actives"
   }
 }
