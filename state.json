@@ -27,8 +27,6 @@
     "DAVA",
     "NAT",
     "UTHR",
-    "RGNX",
-    "OLN",
     "SOFI",
     "VIR",
     "ORIC",
@@ -317,23 +315,16 @@
     "STEP",
     "ZBIO",
     "EBON",
-    "FUN"
+    "FUN",
+    "VIOT",
+    "NDLS"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "KD": {
-      "start_bar": "2026-10-01T11:30:00-04:00"
-    },
-    "XXI": {
-      "start_bar": "2026-10-01T11:25:00-04:00"
-    },
     "CBNK": {
-      "start_bar": "2026-10-01T11:35:00-04:00"
-    },
-    "GRAL": {
       "start_bar": "2026-10-01T11:35:00-04:00"
     },
     "GKOS": {
@@ -346,6 +337,18 @@
       "start_bar": "2026-10-01T11:40:00-04:00"
     },
     "CCCC": {
+      "start_bar": "2026-10-01T11:40:00-04:00"
+    },
+    "LCID": {
+      "start_bar": "2026-10-01T11:45:00-04:00"
+    },
+    "COR": {
+      "start_bar": "2026-10-01T11:45:00-04:00"
+    },
+    "NSP": {
+      "start_bar": "2026-10-01T11:40:00-04:00"
+    },
+    "VIOT": {
       "start_bar": "2026-10-01T11:40:00-04:00"
     }
   },
@@ -360,8 +363,6 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "UTHR": "day_gainers",
-    "RGNX": "small_cap_gainers",
-    "OLN": "aggressive_small_caps",
     "SOFI": "most_actives",
     "VIR": "small_cap_gainers",
     "ORIC": "small_cap_gainers",
@@ -414,7 +415,7 @@
     "VKTX": "day_gainers",
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
-    "WOLF": "small_cap_gainers+most_shorted_stocks",
+    "WOLF": "most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
@@ -649,6 +650,8 @@
     "STEP": "day_gainers",
     "ZBIO": "small_cap_gainers",
     "EBON": "small_cap_gainers",
-    "FUN": "aggressive_small_caps"
+    "FUN": "aggressive_small_caps",
+    "VIOT": "small_cap_gainers",
+    "NDLS": "small_cap_gainers"
   }
 }
