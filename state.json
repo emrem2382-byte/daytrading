@@ -6,15 +6,15 @@
     "AVLN",
     "ASPS",
     "MIST",
-    "SNPS",
+    "TNON",
     "DAVA",
+    "SNPS",
     "SCNI",
     "DMRC",
     "HUBS",
-    "HKD",
     "PMVP",
-    "AMBQ",
-    "VIOT"
+    "VIOT",
+    "SYRE"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
