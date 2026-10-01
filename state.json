@@ -27,9 +27,7 @@
     "DAVA",
     "NAT",
     "UTHR",
-    "ORIC",
     "KOS",
-    "BYND",
     "BVC",
     "LOCL",
     "KSS",
@@ -317,20 +315,16 @@
     "VIOT",
     "NDLS",
     "TEAM",
-    "BJRI"
+    "BJRI",
+    "SJT",
+    "RUN"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "CBNK": {
-      "start_bar": "2026-10-01T11:35:00-04:00"
-    },
     "GKOS": {
-      "start_bar": "2026-10-01T11:40:00-04:00"
-    },
-    "EVGO": {
       "start_bar": "2026-10-01T11:40:00-04:00"
     },
     "CCCC": {
@@ -342,11 +336,14 @@
     "COR": {
       "start_bar": "2026-10-01T11:45:00-04:00"
     },
-    "NSP": {
-      "start_bar": "2026-10-01T11:40:00-04:00"
-    },
     "VIOT": {
       "start_bar": "2026-10-01T11:40:00-04:00"
+    },
+    "WLTH": {
+      "start_bar": "2026-10-01T11:55:00-04:00"
+    },
+    "CDW": {
+      "start_bar": "2026-10-01T11:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,9 +357,7 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "UTHR": "day_gainers",
-    "ORIC": "small_cap_gainers",
     "KOS": "aggressive_small_caps",
-    "BYND": "most_shorted_stocks",
     "BVC": "day_gainers",
     "LOCL": "small_cap_gainers",
     "KSS": "most_shorted_stocks",
@@ -410,7 +405,7 @@
     "VKTX": "day_gainers",
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
@@ -649,6 +644,8 @@
     "VIOT": "small_cap_gainers",
     "NDLS": "small_cap_gainers",
     "TEAM": "day_gainers",
-    "BJRI": "small_cap_gainers"
+    "BJRI": "small_cap_gainers",
+    "SJT": "small_cap_gainers",
+    "RUN": "most_shorted_stocks"
   }
 }
