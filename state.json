@@ -26,8 +26,6 @@
     "NTLA",
     "DAVA",
     "NAT",
-    "CDNL",
-    "EPRX",
     "PSQH",
     "SDGR",
     "ALMR",
@@ -317,18 +315,14 @@
     "MXL",
     "ASAN",
     "DHT",
-    "SNX"
+    "SNX",
+    "ACMR",
+    "BHR-PB"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
-    },
-    "JELD": {
-      "start_bar": "2026-10-01T10:40:00-04:00"
-    },
-    "TNON": {
-      "start_bar": "2026-10-01T10:45:00-04:00"
     },
     "ALMR": {
       "start_bar": "2026-10-01T10:50:00-04:00"
@@ -338,6 +332,12 @@
     },
     "SERV": {
       "start_bar": "2026-10-01T10:50:00-04:00"
+    },
+    "KURA": {
+      "start_bar": "2026-10-01T10:55:00-04:00"
+    },
+    "STTK": {
+      "start_bar": "2026-10-01T10:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -350,8 +350,6 @@
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "CDNL": "small_cap_gainers",
-    "EPRX": "small_cap_gainers",
     "PSQH": "small_cap_gainers",
     "SDGR": "day_gainers",
     "ALMR": "day_gainers",
@@ -423,7 +421,7 @@
     "VKTX": "day_gainers",
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
@@ -640,6 +638,8 @@
     "MXL": "day_gainers",
     "ASAN": "day_gainers",
     "DHT": "day_gainers",
-    "SNX": "day_gainers"
+    "SNX": "day_gainers",
+    "ACMR": "day_gainers",
+    "BHR-PB": "small_cap_gainers"
   }
 }
