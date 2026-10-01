@@ -32,7 +32,6 @@
     "VRA",
     "BMNR",
     "ACN",
-    "TSLA",
     "WOLF",
     "HTZ",
     "BIRD",
@@ -40,9 +39,7 @@
     "TRIP",
     "DMRC",
     "UPST",
-    "LENZ",
     "VEEA",
-    "SHOE",
     "FCEL",
     "VICR",
     "EFXT",
@@ -317,15 +314,15 @@
     "MSC",
     "SLDE",
     "ADNT",
-    "VACI"
+    "VACI",
+    "CCOI",
+    "NOMD",
+    "BH"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "XRXDW": {
       "start_bar": "2026-10-01T15:30:00-04:00"
-    },
-    "BBBYW": {
-      "start_bar": "2026-10-01T15:35:00-04:00"
     },
     "EFXT": {
       "start_bar": "2026-10-01T15:45:00-04:00"
@@ -333,22 +330,10 @@
     "WAY": {
       "start_bar": "2026-10-01T15:45:00-04:00"
     },
-    "XENE": {
-      "start_bar": "2026-10-01T15:50:00-04:00"
-    },
     "CEG": {
       "start_bar": "2026-10-01T15:50:00-04:00"
     },
-    "WETO": {
-      "start_bar": "2026-10-01T15:50:00-04:00"
-    },
     "CRDO": {
-      "start_bar": "2026-10-01T15:50:00-04:00"
-    },
-    "LITE": {
-      "start_bar": "2026-10-01T15:50:00-04:00"
-    },
-    "COHR": {
       "start_bar": "2026-10-01T15:50:00-04:00"
     },
     "SERV": {
@@ -356,6 +341,12 @@
     },
     "EOSE": {
       "start_bar": "2026-10-01T15:50:00-04:00"
+    },
+    "HCKT": {
+      "start_bar": "2026-10-01T15:55:00-04:00"
+    },
+    "TTEC": {
+      "start_bar": "2026-10-01T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -373,17 +364,14 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "ACN": "day_gainers",
-    "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "most_shorted_stocks",
+    "HTZ": "small_cap_gainers+most_shorted_stocks",
     "BIRD": "small_cap_gainers",
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
-    "LENZ": "most_shorted_stocks",
     "VEEA": "most_shorted_stocks",
-    "SHOE": "most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
     "VICR": "day_gainers",
     "EFXT": "day_gainers",
@@ -658,6 +646,9 @@
     "MSC": "small_cap_gainers",
     "SLDE": "day_gainers",
     "ADNT": "small_cap_gainers",
-    "VACI": "small_cap_gainers"
+    "VACI": "small_cap_gainers",
+    "CCOI": "small_cap_gainers",
+    "NOMD": "small_cap_gainers",
+    "BH": "small_cap_gainers"
   }
 }
