@@ -27,10 +27,6 @@
     "DAVA",
     "NAT",
     "UTHR",
-    "SQNS",
-    "NKTR",
-    "SRFM",
-    "ABSI",
     "RGNX",
     "OLN",
     "SOFI",
@@ -317,7 +313,11 @@
     "F",
     "MTRX",
     "GOTU",
-    "PARR"
+    "PARR",
+    "STEP",
+    "ZBIO",
+    "EBON",
+    "FUN"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -329,6 +329,24 @@
     },
     "XXI": {
       "start_bar": "2026-10-01T11:25:00-04:00"
+    },
+    "CBNK": {
+      "start_bar": "2026-10-01T11:35:00-04:00"
+    },
+    "GRAL": {
+      "start_bar": "2026-10-01T11:35:00-04:00"
+    },
+    "GKOS": {
+      "start_bar": "2026-10-01T11:40:00-04:00"
+    },
+    "VNET": {
+      "start_bar": "2026-10-01T11:35:00-04:00"
+    },
+    "EVGO": {
+      "start_bar": "2026-10-01T11:40:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-10-01T11:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -342,10 +360,6 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "UTHR": "day_gainers",
-    "SQNS": "small_cap_gainers",
-    "NKTR": "day_gainers",
-    "SRFM": "small_cap_gainers",
-    "ABSI": "small_cap_gainers",
     "RGNX": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SOFI": "most_actives",
@@ -631,6 +645,10 @@
     "F": "most_actives",
     "MTRX": "small_cap_gainers",
     "GOTU": "small_cap_gainers",
-    "PARR": "day_gainers"
+    "PARR": "day_gainers",
+    "STEP": "day_gainers",
+    "ZBIO": "small_cap_gainers",
+    "EBON": "small_cap_gainers",
+    "FUN": "aggressive_small_caps"
   }
 }
