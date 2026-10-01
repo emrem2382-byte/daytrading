@@ -26,11 +26,6 @@
     "CNXC",
     "NTLA",
     "DAVA",
-    "ZIP",
-    "VALE",
-    "ERAS",
-    "TEAM",
-    "MLYS",
     "NAT",
     "QLYS",
     "KLRA",
@@ -317,7 +312,12 @@
     "DINO",
     "VLO",
     "HCKT",
-    "NVAX"
+    "NVAX",
+    "PATH",
+    "U",
+    "RDW",
+    "ORN",
+    "NAZ"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -338,6 +338,15 @@
     },
     "WTI": {
       "start_bar": "2026-10-01T10:25:00-04:00"
+    },
+    "AMBQ": {
+      "start_bar": "2026-10-01T10:25:00-04:00"
+    },
+    "TLN": {
+      "start_bar": "2026-10-01T10:30:00-04:00"
+    },
+    "OPENW": {
+      "start_bar": "2026-10-01T10:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -350,11 +359,6 @@
     "CNXC": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
-    "ZIP": "small_cap_gainers",
-    "VALE": "most_actives",
-    "ERAS": "day_gainers",
-    "TEAM": "day_gainers",
-    "MLYS": "day_gainers",
     "NAT": "aggressive_small_caps",
     "QLYS": "day_gainers",
     "KLRA": "small_cap_gainers",
@@ -640,6 +644,11 @@
     "DINO": "day_gainers",
     "VLO": "day_gainers",
     "HCKT": "small_cap_gainers",
-    "NVAX": "most_shorted_stocks"
+    "NVAX": "most_shorted_stocks",
+    "PATH": "most_actives",
+    "U": "day_gainers",
+    "RDW": "day_gainers",
+    "ORN": "small_cap_gainers",
+    "NAZ": "small_cap_gainers"
   }
 }
