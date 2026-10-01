@@ -42,7 +42,6 @@
     "TRIP",
     "DMRC",
     "UPST",
-    "NXTC",
     "VOR",
     "STTK",
     "SEI",
@@ -317,21 +316,28 @@
     "GPI",
     "IIIV",
     "CPS",
-    "RXRX"
+    "RXRX",
+    "EVCM"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
-    "WAY": {
-      "start_bar": "2026-10-01T14:35:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-10-01T14:40:00-04:00"
-    },
     "BJRI": {
       "start_bar": "2026-10-01T14:40:00-04:00"
+    },
+    "BAK": {
+      "start_bar": "2026-10-01T14:50:00-04:00"
+    },
+    "AXTI": {
+      "start_bar": "2026-10-01T14:55:00-04:00"
+    },
+    "COHR": {
+      "start_bar": "2026-10-01T14:55:00-04:00"
+    },
+    "VYLR": {
+      "start_bar": "2026-10-01T14:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,7 +366,6 @@
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
-    "NXTC": "small_cap_gainers",
     "VOR": "small_cap_gainers",
     "STTK": "small_cap_gainers",
     "SEI": "day_gainers",
@@ -634,6 +639,7 @@
     "GPI": "day_gainers",
     "IIIV": "small_cap_gainers",
     "CPS": "small_cap_gainers",
-    "RXRX": "most_shorted_stocks"
+    "RXRX": "most_shorted_stocks",
+    "EVCM": "small_cap_gainers"
   }
 }
