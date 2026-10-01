@@ -42,8 +42,6 @@
     "EVCM",
     "DXC",
     "TRIP",
-    "LOPE",
-    "ALKT",
     "DMRC",
     "INTR",
     "WBD",
@@ -317,15 +315,14 @@
     "EXFY",
     "HUBS",
     "CVI",
-    "COOK"
+    "COOK",
+    "BLMN",
+    "BTCT"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "NXTC": {
-      "start_bar": "2026-10-01T13:40:00-04:00"
     },
     "HKD": {
       "start_bar": "2026-10-01T13:40:00-04:00"
@@ -362,15 +359,13 @@
     "ACN": "most_actives+day_gainers",
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "small_cap_gainers+most_shorted_stocks",
+    "HTZ": "most_shorted_stocks",
     "CCOI": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
     "BIRD": "small_cap_gainers",
     "EVCM": "small_cap_gainers",
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
-    "LOPE": "day_gainers",
-    "ALKT": "small_cap_gainers",
     "DMRC": "small_cap_gainers",
     "INTR": "day_gainers",
     "WBD": "most_actives",
@@ -643,6 +638,8 @@
     "EXFY": "small_cap_gainers",
     "HUBS": "day_gainers",
     "CVI": "day_gainers",
-    "COOK": "small_cap_gainers"
+    "COOK": "small_cap_gainers",
+    "BLMN": "small_cap_gainers",
+    "BTCT": "most_shorted_stocks"
   }
 }
