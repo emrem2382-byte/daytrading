@@ -27,7 +27,6 @@
     "DAVA",
     "NAT",
     "UTHR",
-    "ZBIO",
     "SQNS",
     "NKTR",
     "SRFM",
@@ -317,32 +316,15 @@
     "ASPSW",
     "F",
     "MTRX",
-    "GOTU"
+    "GOTU",
+    "PARR"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "LOPE": {
-      "start_bar": "2026-10-01T11:15:00-04:00"
-    },
-    "VISN": {
-      "start_bar": "2026-10-01T11:20:00-04:00"
-    },
-    "GRAL": {
-      "start_bar": "2026-10-01T11:25:00-04:00"
-    },
-    "SILC": {
-      "start_bar": "2026-10-01T11:20:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-10-01T11:30:00-04:00"
-    },
     "KD": {
-      "start_bar": "2026-10-01T11:30:00-04:00"
-    },
-    "GPRO": {
       "start_bar": "2026-10-01T11:30:00-04:00"
     },
     "XXI": {
@@ -360,7 +342,6 @@
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "UTHR": "day_gainers",
-    "ZBIO": "small_cap_gainers",
     "SQNS": "small_cap_gainers",
     "NKTR": "day_gainers",
     "SRFM": "small_cap_gainers",
@@ -649,6 +630,7 @@
     "ASPSW": "small_cap_gainers",
     "F": "most_actives",
     "MTRX": "small_cap_gainers",
-    "GOTU": "small_cap_gainers"
+    "GOTU": "small_cap_gainers",
+    "PARR": "day_gainers"
   }
 }
