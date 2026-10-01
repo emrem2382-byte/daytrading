@@ -32,8 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "AMBQ",
-    "EGHT",
     "TGE",
     "MH",
     "ACN",
@@ -317,27 +315,14 @@
     "FIVN",
     "SMTC",
     "INTC",
-    "MU"
+    "MU",
+    "OPEN",
+    "UAMY"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "UXIN": {
       "start_bar": "2026-10-01T12:50:00-04:00"
-    },
-    "GRPN": {
-      "start_bar": "2026-10-01T13:05:00-04:00"
-    },
-    "AMBQ": {
-      "start_bar": "2026-10-01T13:10:00-04:00"
-    },
-    "TGE": {
-      "start_bar": "2026-10-01T13:10:00-04:00"
-    },
-    "RDW": {
-      "start_bar": "2026-10-01T13:10:00-04:00"
-    },
-    "MH": {
-      "start_bar": "2026-10-01T13:05:00-04:00"
     },
     "PRAX": {
       "start_bar": "2026-10-01T13:10:00-04:00"
@@ -348,16 +333,10 @@
     "AMAT": {
       "start_bar": "2026-10-01T13:15:00-04:00"
     },
-    "BAH": {
-      "start_bar": "2026-10-01T13:15:00-04:00"
-    },
     "PTC": {
       "start_bar": "2026-10-01T13:10:00-04:00"
     },
     "RKLB": {
-      "start_bar": "2026-10-01T13:15:00-04:00"
-    },
-    "PBF": {
       "start_bar": "2026-10-01T13:15:00-04:00"
     },
     "SVCO": {
@@ -371,6 +350,27 @@
     },
     "MMS": {
       "start_bar": "2026-10-01T13:15:00-04:00"
+    },
+    "TSLA": {
+      "start_bar": "2026-10-01T13:25:00-04:00"
+    },
+    "VOR": {
+      "start_bar": "2026-10-01T13:20:00-04:00"
+    },
+    "TENB": {
+      "start_bar": "2026-10-01T13:25:00-04:00"
+    },
+    "HDB": {
+      "start_bar": "2026-10-01T13:25:00-04:00"
+    },
+    "TDAY": {
+      "start_bar": "2026-10-01T13:25:00-04:00"
+    },
+    "SYRE": {
+      "start_bar": "2026-10-01T13:20:00-04:00"
+    },
+    "CSQR": {
+      "start_bar": "2026-10-01T13:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -389,8 +389,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "AMBQ": "small_cap_gainers",
-    "EGHT": "small_cap_gainers",
     "TGE": "small_cap_gainers",
     "MH": "day_gainers",
     "ACN": "most_actives+day_gainers",
@@ -403,7 +401,7 @@
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "small_cap_gainers+most_shorted_stocks",
+    "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
     "KOD": "day_gainers",
@@ -673,6 +671,8 @@
     "FIVN": "day_gainers",
     "SMTC": "day_gainers",
     "INTC": "most_actives",
-    "MU": "most_actives"
+    "MU": "most_actives",
+    "OPEN": "most_actives",
+    "UAMY": "aggressive_small_caps"
   }
 }
