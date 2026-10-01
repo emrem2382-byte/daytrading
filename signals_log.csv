@@ -61,3 +61,4 @@ id,ticker,source,signal_time,entry_price,take_profit,stop_loss,status,close_time
 60,SMFG,day_gainers,2026-09-25 14:20:28,26.61,27.14,26.34,sl_hit,2026-09-29 09:35:04,25.9,-2.69
 61,IDT,small_cap_gainers,2026-09-29 14:50:33,76.69,78.23,75.93,sl_hit,2026-09-29 15:30:04,75.83,-1.12
 62,VCX,small_cap_gainers,2026-09-29 15:10:30,30.0,30.6,29.7,sl_hit,2026-09-30 09:35:06,29.66,-1.13
+63,SAH,day_gainers,2026-10-01 15:20:35,63.58,64.85,62.94,open,,,
