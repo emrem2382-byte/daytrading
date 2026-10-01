@@ -26,7 +26,6 @@
     "NTLA",
     "DAVA",
     "NAT",
-    "STRZ",
     "BBD",
     "UTHR",
     "ZBIO",
@@ -317,7 +316,8 @@
     "SITM",
     "CANG",
     "FRBT",
-    "ASPSW"
+    "ASPSW",
+    "F"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -325,9 +325,6 @@
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
     "FOSL": {
-      "start_bar": "2026-10-01T11:10:00-04:00"
-    },
-    "KYMR": {
       "start_bar": "2026-10-01T11:10:00-04:00"
     },
     "BBBYW": {
@@ -344,6 +341,12 @@
     },
     "VISN": {
       "start_bar": "2026-10-01T11:20:00-04:00"
+    },
+    "GRAL": {
+      "start_bar": "2026-10-01T11:25:00-04:00"
+    },
+    "SILC": {
+      "start_bar": "2026-10-01T11:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,7 +359,6 @@
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "STRZ": "small_cap_gainers",
     "BBD": "most_actives",
     "UTHR": "day_gainers",
     "ZBIO": "small_cap_gainers",
@@ -419,7 +421,7 @@
     "VKTX": "day_gainers",
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
@@ -646,6 +648,7 @@
     "SITM": "day_gainers",
     "CANG": "small_cap_gainers",
     "FRBT": "small_cap_gainers",
-    "ASPSW": "small_cap_gainers"
+    "ASPSW": "small_cap_gainers",
+    "F": "most_actives"
   }
 }
