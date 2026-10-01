@@ -32,8 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "PENN",
-    "PURR",
     "AMBQ",
     "EGHT",
     "TGE",
@@ -317,18 +315,14 @@
     "IDCC",
     "AN",
     "FIVN",
-    "SMTC"
+    "SMTC",
+    "INTC",
+    "MU"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "UXIN": {
       "start_bar": "2026-10-01T12:50:00-04:00"
-    },
-    "GENI": {
-      "start_bar": "2026-10-01T13:00:00-04:00"
-    },
-    "BMNR": {
-      "start_bar": "2026-10-01T13:05:00-04:00"
     },
     "GRPN": {
       "start_bar": "2026-10-01T13:05:00-04:00"
@@ -365,6 +359,18 @@
     },
     "PBF": {
       "start_bar": "2026-10-01T13:15:00-04:00"
+    },
+    "SVCO": {
+      "start_bar": "2026-10-01T13:15:00-04:00"
+    },
+    "ALXO": {
+      "start_bar": "2026-10-01T13:20:00-04:00"
+    },
+    "GIB": {
+      "start_bar": "2026-10-01T13:15:00-04:00"
+    },
+    "MMS": {
+      "start_bar": "2026-10-01T13:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -383,8 +389,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "PENN": "aggressive_small_caps",
-    "PURR": "day_gainers",
     "AMBQ": "small_cap_gainers",
     "EGHT": "small_cap_gainers",
     "TGE": "small_cap_gainers",
@@ -525,7 +529,7 @@
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
-    "BBAI": "most_shorted_stocks",
+    "BBAI": "small_cap_gainers+most_shorted_stocks",
     "OCGN": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
     "CAH": "day_gainers",
@@ -667,6 +671,8 @@
     "IDCC": "day_gainers",
     "AN": "day_gainers",
     "FIVN": "day_gainers",
-    "SMTC": "day_gainers"
+    "SMTC": "day_gainers",
+    "INTC": "most_actives",
+    "MU": "most_actives"
   }
 }
