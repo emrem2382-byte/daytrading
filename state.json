@@ -32,15 +32,8 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "TGE",
-    "MH",
     "ACN",
-    "EROK",
-    "DGICB",
-    "KURA",
     "TSLA",
-    "SPTX",
-    "VKTX",
     "NICE",
     "ALXO",
     "WOLF",
@@ -317,36 +310,19 @@
     "INTC",
     "MU",
     "OPEN",
-    "UAMY"
+    "UAMY",
+    "ONDS",
+    "WULF",
+    "VERX",
+    "FOSL",
+    "PAR",
+    "REF",
+    "CSIQ"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "UXIN": {
-      "start_bar": "2026-10-01T12:50:00-04:00"
-    },
-    "PRAX": {
-      "start_bar": "2026-10-01T13:10:00-04:00"
-    },
-    "BZ": {
-      "start_bar": "2026-10-01T13:10:00-04:00"
-    },
-    "AMAT": {
-      "start_bar": "2026-10-01T13:15:00-04:00"
-    },
-    "PTC": {
-      "start_bar": "2026-10-01T13:10:00-04:00"
-    },
-    "RKLB": {
-      "start_bar": "2026-10-01T13:15:00-04:00"
-    },
-    "SVCO": {
-      "start_bar": "2026-10-01T13:15:00-04:00"
-    },
     "ALXO": {
       "start_bar": "2026-10-01T13:20:00-04:00"
-    },
-    "GIB": {
-      "start_bar": "2026-10-01T13:15:00-04:00"
     },
     "MMS": {
       "start_bar": "2026-10-01T13:15:00-04:00"
@@ -371,6 +347,24 @@
     },
     "CSQR": {
       "start_bar": "2026-10-01T13:25:00-04:00"
+    },
+    "SEI": {
+      "start_bar": "2026-10-01T13:30:00-04:00"
+    },
+    "VICR": {
+      "start_bar": "2026-10-01T13:30:00-04:00"
+    },
+    "CTSH": {
+      "start_bar": "2026-10-01T13:30:00-04:00"
+    },
+    "CEG": {
+      "start_bar": "2026-10-01T13:30:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-10-01T13:30:00-04:00"
+    },
+    "SMCIP": {
+      "start_bar": "2026-10-01T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -389,19 +383,12 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "TGE": "small_cap_gainers",
-    "MH": "day_gainers",
     "ACN": "most_actives+day_gainers",
-    "EROK": "small_cap_gainers",
-    "DGICB": "small_cap_gainers",
-    "KURA": "aggressive_small_caps",
     "TSLA": "most_actives",
-    "SPTX": "small_cap_gainers",
-    "VKTX": "day_gainers",
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "most_shorted_stocks",
+    "HTZ": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
     "KOD": "day_gainers",
@@ -673,6 +660,13 @@
     "INTC": "most_actives",
     "MU": "most_actives",
     "OPEN": "most_actives",
-    "UAMY": "aggressive_small_caps"
+    "UAMY": "aggressive_small_caps",
+    "ONDS": "most_actives+most_shorted_stocks",
+    "WULF": "most_actives",
+    "VERX": "day_gainers",
+    "FOSL": "small_cap_gainers",
+    "PAR": "small_cap_gainers",
+    "REF": "small_cap_gainers",
+    "CSIQ": "aggressive_small_caps"
   }
 }
