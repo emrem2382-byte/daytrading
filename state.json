@@ -38,14 +38,10 @@
     "HTZ",
     "CCOI",
     "BIRD",
-    "EVCM",
     "DXC",
     "TRIP",
     "DMRC",
-    "FDS",
-    "YSG",
     "UPST",
-    "UAA",
     "NXTC",
     "VOR",
     "STTK",
@@ -317,15 +313,16 @@
     "PACB",
     "MAT",
     "NICE",
-    "EGHT"
+    "EGHT",
+    "GPI",
+    "IIIV",
+    "CPS",
+    "RXRX"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "VEEA": {
-      "start_bar": "2026-10-01T14:30:00-04:00"
     },
     "WAY": {
       "start_bar": "2026-10-01T14:35:00-04:00"
@@ -353,20 +350,16 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "ACN": "day_gainers",
+    "ACN": "most_actives+day_gainers",
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "small_cap_gainers+most_shorted_stocks",
     "CCOI": "small_cap_gainers",
     "BIRD": "small_cap_gainers",
-    "EVCM": "small_cap_gainers",
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
-    "FDS": "day_gainers",
-    "YSG": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
-    "UAA": "small_cap_gainers",
     "NXTC": "small_cap_gainers",
     "VOR": "small_cap_gainers",
     "STTK": "small_cap_gainers",
@@ -637,6 +630,10 @@
     "PACB": "small_cap_gainers",
     "MAT": "day_gainers",
     "NICE": "day_gainers",
-    "EGHT": "small_cap_gainers"
+    "EGHT": "small_cap_gainers",
+    "GPI": "day_gainers",
+    "IIIV": "small_cap_gainers",
+    "CPS": "small_cap_gainers",
+    "RXRX": "most_shorted_stocks"
   }
 }
