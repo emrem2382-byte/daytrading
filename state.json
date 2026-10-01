@@ -32,9 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "SENS",
-    "AESI",
-    "WTI",
     "BMBL",
     "SEER",
     "XP",
@@ -317,29 +314,17 @@
     "LIND",
     "INOD",
     "CVEO",
-    "LVWR"
+    "LVWR",
+    "SOFI",
+    "RKT",
+    "UTI"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "NVDA": {
-      "start_bar": "2026-10-01T12:20:00-04:00"
-    },
     "NICE": {
       "start_bar": "2026-10-01T12:20:00-04:00"
     },
-    "UPST": {
-      "start_bar": "2026-10-01T12:20:00-04:00"
-    },
     "NIQ": {
-      "start_bar": "2026-10-01T12:20:00-04:00"
-    },
-    "GRAB": {
-      "start_bar": "2026-10-01T12:20:00-04:00"
-    },
-    "ACMR": {
-      "start_bar": "2026-10-01T12:20:00-04:00"
-    },
-    "SNAP": {
       "start_bar": "2026-10-01T12:20:00-04:00"
     },
     "LENZ": {
@@ -362,6 +347,21 @@
     },
     "RC": {
       "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-10-01T12:30:00-04:00"
+    },
+    "VOR": {
+      "start_bar": "2026-10-01T12:35:00-04:00"
+    },
+    "SSTK": {
+      "start_bar": "2026-10-01T12:30:00-04:00"
+    },
+    "DOX": {
+      "start_bar": "2026-10-01T12:35:00-04:00"
+    },
+    "CACI": {
+      "start_bar": "2026-10-01T12:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -380,9 +380,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "SENS": "small_cap_gainers",
-    "AESI": "small_cap_gainers",
-    "WTI": "small_cap_gainers",
     "BMBL": "small_cap_gainers",
     "SEER": "small_cap_gainers",
     "XP": "day_gainers",
@@ -664,6 +661,9 @@
     "LIND": "day_gainers",
     "INOD": "day_gainers",
     "CVEO": "small_cap_gainers",
-    "LVWR": "small_cap_gainers"
+    "LVWR": "small_cap_gainers",
+    "SOFI": "most_actives",
+    "RKT": "most_actives",
+    "UTI": "small_cap_gainers"
   }
 }
