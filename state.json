@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
-    "NRR",
+    "CCOI",
     "OMDA",
     "AGMB",
-    "ASPS",
-    "DMRC",
     "AVLN",
+    "ASPS",
+    "MIST",
     "SNPS",
     "DAVA",
     "SCNI",
-    "TNON",
+    "DMRC",
     "HUBS",
     "HKD",
-    "MIST",
     "PMVP",
-    "AMBQ"
+    "AMBQ",
+    "VIOT"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
