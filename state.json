@@ -37,7 +37,6 @@
     "WOLF",
     "HTZ",
     "CCOI",
-    "QUBT",
     "BIRD",
     "EVCM",
     "DXC",
@@ -317,7 +316,8 @@
     "CVI",
     "COOK",
     "BLMN",
-    "BTCT"
+    "BTCT",
+    "FNKO"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -332,6 +332,12 @@
     },
     "VYLR": {
       "start_bar": "2026-10-01T14:10:00-04:00"
+    },
+    "STTK": {
+      "start_bar": "2026-10-01T14:10:00-04:00"
+    },
+    "LCID": {
+      "start_bar": "2026-10-01T14:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,9 +359,8 @@
     "ACN": "most_actives+day_gainers",
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "most_shorted_stocks",
+    "HTZ": "small_cap_gainers+most_shorted_stocks",
     "CCOI": "small_cap_gainers",
-    "QUBT": "most_shorted_stocks",
     "BIRD": "small_cap_gainers",
     "EVCM": "small_cap_gainers",
     "DXC": "small_cap_gainers",
@@ -634,6 +639,7 @@
     "CVI": "day_gainers",
     "COOK": "small_cap_gainers",
     "BLMN": "small_cap_gainers",
-    "BTCT": "most_shorted_stocks"
+    "BTCT": "most_shorted_stocks",
+    "FNKO": "small_cap_gainers"
   }
 }
