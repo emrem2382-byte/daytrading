@@ -42,9 +42,6 @@
     "TRIP",
     "DMRC",
     "UPST",
-    "KVYO",
-    "SSTK",
-    "HKD",
     "LENZ",
     "EPR-PG",
     "ICHR",
@@ -317,15 +314,15 @@
     "EVCM",
     "CDE",
     "MEC",
-    "WBD"
+    "WBD",
+    "VALE",
+    "DAVE",
+    "SCSC"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "LITE": {
-      "start_bar": "2026-10-01T15:00:00-04:00"
     },
     "TNON": {
       "start_bar": "2026-10-01T15:00:00-04:00"
@@ -333,8 +330,14 @@
     "MCK": {
       "start_bar": "2026-10-01T15:00:00-04:00"
     },
-    "TTEC": {
-      "start_bar": "2026-10-01T15:00:00-04:00"
+    "BAK": {
+      "start_bar": "2026-10-01T15:10:00-04:00"
+    },
+    "STDN": {
+      "start_bar": "2026-10-01T15:10:00-04:00"
+    },
+    "AEIS": {
+      "start_bar": "2026-10-01T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,7 +356,7 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "ACN": "most_actives+day_gainers",
+    "ACN": "day_gainers",
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "small_cap_gainers+most_shorted_stocks",
@@ -363,9 +366,6 @@
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
-    "KVYO": "day_gainers",
-    "SSTK": "small_cap_gainers",
-    "HKD": "small_cap_gainers",
     "LENZ": "most_shorted_stocks",
     "EPR-PG": "day_gainers",
     "ICHR": "day_gainers",
@@ -441,7 +441,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "aggressive_small_caps",
+    "JELD": "small_cap_gainers+aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
@@ -637,6 +637,9 @@
     "EVCM": "small_cap_gainers",
     "CDE": "most_actives",
     "MEC": "small_cap_gainers",
-    "WBD": "most_actives"
+    "WBD": "most_actives",
+    "VALE": "most_actives",
+    "DAVE": "day_gainers",
+    "SCSC": "small_cap_gainers"
   }
 }
