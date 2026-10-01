@@ -26,10 +26,8 @@
     "NTLA",
     "DAVA",
     "NAT",
-    "BBD",
     "UTHR",
     "ZBIO",
-    "ENTA",
     "SQNS",
     "NKTR",
     "SRFM",
@@ -317,26 +315,16 @@
     "CANG",
     "FRBT",
     "ASPSW",
-    "F"
+    "F",
+    "MTRX",
+    "GOTU"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "FOSL": {
-      "start_bar": "2026-10-01T11:10:00-04:00"
-    },
-    "BBBYW": {
-      "start_bar": "2026-10-01T11:10:00-04:00"
-    },
-    "HUBS": {
-      "start_bar": "2026-10-01T11:20:00-04:00"
-    },
     "LOPE": {
-      "start_bar": "2026-10-01T11:15:00-04:00"
-    },
-    "ICHR": {
       "start_bar": "2026-10-01T11:15:00-04:00"
     },
     "VISN": {
@@ -347,6 +335,18 @@
     },
     "SILC": {
       "start_bar": "2026-10-01T11:20:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-10-01T11:30:00-04:00"
+    },
+    "KD": {
+      "start_bar": "2026-10-01T11:30:00-04:00"
+    },
+    "GPRO": {
+      "start_bar": "2026-10-01T11:30:00-04:00"
+    },
+    "XXI": {
+      "start_bar": "2026-10-01T11:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,10 +359,8 @@
     "NTLA": "most_shorted_stocks",
     "DAVA": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
-    "BBD": "most_actives",
     "UTHR": "day_gainers",
     "ZBIO": "small_cap_gainers",
-    "ENTA": "small_cap_gainers",
     "SQNS": "small_cap_gainers",
     "NKTR": "day_gainers",
     "SRFM": "small_cap_gainers",
@@ -649,6 +647,8 @@
     "CANG": "small_cap_gainers",
     "FRBT": "small_cap_gainers",
     "ASPSW": "small_cap_gainers",
-    "F": "most_actives"
+    "F": "most_actives",
+    "MTRX": "small_cap_gainers",
+    "GOTU": "small_cap_gainers"
   }
 }
