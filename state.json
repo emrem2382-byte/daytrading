@@ -42,9 +42,6 @@
     "DXC",
     "TRIP",
     "DMRC",
-    "INTR",
-    "WBD",
-    "CBOE",
     "DPC",
     "GKOS",
     "PHI",
@@ -317,7 +314,10 @@
     "COOK",
     "BLMN",
     "BTCT",
-    "FNKO"
+    "FNKO",
+    "INSP",
+    "ADV",
+    "QUBT"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -337,6 +337,12 @@
       "start_bar": "2026-10-01T14:10:00-04:00"
     },
     "LCID": {
+      "start_bar": "2026-10-01T14:15:00-04:00"
+    },
+    "JELD": {
+      "start_bar": "2026-10-01T14:15:00-04:00"
+    },
+    "LTGO": {
       "start_bar": "2026-10-01T14:15:00-04:00"
     }
   },
@@ -366,9 +372,6 @@
     "DXC": "small_cap_gainers",
     "TRIP": "most_shorted_stocks",
     "DMRC": "small_cap_gainers",
-    "INTR": "day_gainers",
-    "WBD": "most_actives",
-    "CBOE": "day_gainers",
     "DPC": "day_gainers",
     "GKOS": "day_gainers",
     "PHI": "small_cap_gainers",
@@ -640,6 +643,9 @@
     "COOK": "small_cap_gainers",
     "BLMN": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
-    "FNKO": "small_cap_gainers"
+    "FNKO": "small_cap_gainers",
+    "INSP": "day_gainers",
+    "ADV": "small_cap_gainers",
+    "QUBT": "most_shorted_stocks"
   }
 }
