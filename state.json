@@ -32,7 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "XP",
     "SHAK",
     "CBNK",
     "CWH",
@@ -317,35 +316,30 @@
     "RKT",
     "UTI",
     "CXM",
-    "GEV"
+    "GEV",
+    "IDCC"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "VKTX": {
-      "start_bar": "2026-10-01T12:45:00-04:00"
-    },
     "CDNS": {
       "start_bar": "2026-10-01T12:45:00-04:00"
     },
-    "CEG": {
-      "start_bar": "2026-10-01T12:45:00-04:00"
-    },
-    "NABL": {
-      "start_bar": "2026-10-01T12:40:00-04:00"
-    },
     "RFL": {
       "start_bar": "2026-10-01T12:45:00-04:00"
-    },
-    "WBD": {
-      "start_bar": "2026-10-01T12:55:00-04:00"
-    },
-    "EFXT": {
-      "start_bar": "2026-10-01T12:55:00-04:00"
     },
     "IBM": {
       "start_bar": "2026-10-01T12:55:00-04:00"
     },
     "UXIN": {
+      "start_bar": "2026-10-01T12:50:00-04:00"
+    },
+    "AVLN": {
+      "start_bar": "2026-10-01T13:00:00-04:00"
+    },
+    "GENI": {
+      "start_bar": "2026-10-01T13:00:00-04:00"
+    },
+    "STDN": {
       "start_bar": "2026-10-01T12:50:00-04:00"
     }
   },
@@ -365,7 +359,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "XP": "day_gainers",
     "SHAK": "day_gainers",
     "CBNK": "small_cap_gainers",
     "CWH": "aggressive_small_caps",
@@ -385,7 +378,7 @@
     "NICE": "day_gainers",
     "ALXO": "small_cap_gainers",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
-    "HTZ": "most_shorted_stocks",
+    "HTZ": "small_cap_gainers+most_shorted_stocks",
     "GRPN": "most_shorted_stocks",
     "CVI": "day_gainers",
     "KOD": "day_gainers",
@@ -649,6 +642,7 @@
     "RKT": "most_actives",
     "UTI": "small_cap_gainers",
     "CXM": "small_cap_gainers",
-    "GEV": "day_gainers"
+    "GEV": "day_gainers",
+    "IDCC": "day_gainers"
   }
 }
