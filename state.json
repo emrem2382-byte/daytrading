@@ -32,10 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "ATEN",
-    "ONDS",
-    "PTEN",
-    "MOBI",
     "SENS",
     "AESI",
     "WTI",
@@ -317,25 +313,14 @@
     "AIFU",
     "SPRO",
     "TRIB",
-    "GTN-A"
+    "GTN-A",
+    "LIND",
+    "INOD",
+    "CVEO",
+    "LVWR"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "METC": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "FUN": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "ATEN": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "DPC": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
-    "OI": {
-      "start_bar": "2026-10-01T12:10:00-04:00"
-    },
     "NVDA": {
       "start_bar": "2026-10-01T12:20:00-04:00"
     },
@@ -357,17 +342,11 @@
     "SNAP": {
       "start_bar": "2026-10-01T12:20:00-04:00"
     },
-    "GRPN": {
-      "start_bar": "2026-10-01T12:25:00-04:00"
-    },
     "LENZ": {
       "start_bar": "2026-10-01T12:25:00-04:00"
     },
     "SHOE": {
       "start_bar": "2026-10-01T12:20:00-04:00"
-    },
-    "IT": {
-      "start_bar": "2026-10-01T12:25:00-04:00"
     },
     "CRM": {
       "start_bar": "2026-10-01T12:25:00-04:00"
@@ -376,6 +355,12 @@
       "start_bar": "2026-10-01T12:25:00-04:00"
     },
     "AMZN": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "KURA": {
+      "start_bar": "2026-10-01T12:25:00-04:00"
+    },
+    "RC": {
       "start_bar": "2026-10-01T12:25:00-04:00"
     }
   },
@@ -395,10 +380,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "ATEN": "small_cap_gainers",
-    "ONDS": "most_actives+most_shorted_stocks",
-    "PTEN": "day_gainers",
-    "MOBI": "small_cap_gainers",
     "SENS": "small_cap_gainers",
     "AESI": "small_cap_gainers",
     "WTI": "small_cap_gainers",
@@ -546,7 +527,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "aggressive_small_caps",
+    "JELD": "small_cap_gainers+aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
@@ -679,6 +660,10 @@
     "AIFU": "small_cap_gainers",
     "SPRO": "small_cap_gainers",
     "TRIB": "small_cap_gainers",
-    "GTN-A": "small_cap_gainers"
+    "GTN-A": "small_cap_gainers",
+    "LIND": "day_gainers",
+    "INOD": "day_gainers",
+    "CVEO": "small_cap_gainers",
+    "LVWR": "small_cap_gainers"
   }
 }
