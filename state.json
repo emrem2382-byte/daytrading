@@ -30,7 +30,6 @@
     "KOS",
     "KSS",
     "VRA",
-    "WLTH",
     "GME",
     "BMNR",
     "FLY",
@@ -317,16 +316,11 @@
     "MTRN",
     "GO",
     "FLX",
-    "EOSE"
+    "EOSE",
+    "IPGP"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "WLTH": {
-      "start_bar": "2026-10-01T11:55:00-04:00"
-    },
-    "CDW": {
-      "start_bar": "2026-10-01T11:50:00-04:00"
-    },
     "PENN": {
       "start_bar": "2026-10-01T12:00:00-04:00"
     },
@@ -336,17 +330,11 @@
     "EPAM": {
       "start_bar": "2026-10-01T11:55:00-04:00"
     },
-    "WK": {
-      "start_bar": "2026-10-01T11:55:00-04:00"
-    },
     "APYX": {
       "start_bar": "2026-10-01T11:55:00-04:00"
     },
     "ELF": {
       "start_bar": "2026-10-01T12:00:00-04:00"
-    },
-    "ALIT": {
-      "start_bar": "2026-10-01T11:55:00-04:00"
     },
     "MOBI": {
       "start_bar": "2026-10-01T12:00:00-04:00"
@@ -365,6 +353,18 @@
     },
     "RDW": {
       "start_bar": "2026-10-01T12:05:00-04:00"
+    },
+    "METC": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "HDB": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
+    },
+    "YEXT": {
+      "start_bar": "2026-10-01T12:05:00-04:00"
+    },
+    "FUN": {
+      "start_bar": "2026-10-01T12:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -381,7 +381,6 @@
     "KOS": "aggressive_small_caps",
     "KSS": "most_shorted_stocks",
     "VRA": "small_cap_gainers",
-    "WLTH": "small_cap_gainers",
     "GME": "day_gainers",
     "BMNR": "most_actives",
     "FLY": "day_gainers",
@@ -542,7 +541,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "aggressive_small_caps",
+    "JELD": "small_cap_gainers+aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
@@ -667,6 +666,7 @@
     "MTRN": "day_gainers",
     "GO": "small_cap_gainers",
     "FLX": "small_cap_gainers",
-    "EOSE": "most_shorted_stocks"
+    "EOSE": "most_shorted_stocks",
+    "IPGP": "day_gainers"
   }
 }
