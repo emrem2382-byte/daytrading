@@ -24,21 +24,9 @@
     "COUR",
     "SNPS",
     "CMS-PB",
-    "XRX",
     "NU",
-    "ALM",
-    "PLNT",
-    "EWTX",
-    "PPTA",
-    "ERO",
-    "SES",
-    "NXH",
     "CNXC",
-    "ETRA",
     "CMCM",
-    "ACDC",
-    "CLF",
-    "BROS",
     "BEKE",
     "SNOW",
     "MAAS",
@@ -317,20 +305,26 @@
     "BSET",
     "CCEC",
     "CCCC",
-    "NNE"
+    "NNE",
+    "NKE",
+    "SPCX",
+    "GRAB",
+    "TLN",
+    "ELF",
+    "XXI",
+    "RLAY",
+    "MSTR",
+    "PTC",
+    "UXIN",
+    "SMCIP",
+    "SB"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "PLNT": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "CRMT": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "FIG": {
       "start_bar": "2026-10-01T09:30:00-04:00"
     },
     "TTEC": {
@@ -339,41 +333,14 @@
     "TEAM": {
       "start_bar": "2026-10-01T09:30:00-04:00"
     },
-    "ASAN": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "UTHR": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "PENN": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "KURA": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "WOLF": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "HUBS": {
       "start_bar": "2026-10-01T09:30:00-04:00"
     },
     "VIA": {
       "start_bar": "2026-10-01T09:30:00-04:00"
     },
-    "GTM": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "VEEA": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "EWTX": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "SID": {
       "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "MIST": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
     },
     "JACK": {
       "start_bar": "2026-10-01T09:35:00-04:00"
@@ -393,41 +360,17 @@
     "WLTH": {
       "start_bar": "2026-10-01T09:35:00-04:00"
     },
-    "QNST": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "NICE": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "AVPT": {
       "start_bar": "2026-10-01T09:35:00-04:00"
     },
     "STTK": {
       "start_bar": "2026-10-01T09:35:00-04:00"
     },
-    "EPAM": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "IT": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "G": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "GWRE": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
-    "PAYC": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
-    },
     "INTA": {
       "start_bar": "2026-10-01T09:30:00-04:00"
     },
     "NIQ": {
       "start_bar": "2026-10-01T09:35:00-04:00"
-    },
-    "EXPO": {
-      "start_bar": "2026-10-01T09:30:00-04:00"
     },
     "XRXDW": {
       "start_bar": "2026-10-01T09:30:00-04:00"
@@ -452,6 +395,21 @@
     },
     "APYX": {
       "start_bar": "2026-10-01T09:35:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-10-01T09:45:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-10-01T09:45:00-04:00"
+    },
+    "ERAS": {
+      "start_bar": "2026-10-01T09:45:00-04:00"
+    },
+    "UXIN": {
+      "start_bar": "2026-10-01T09:40:00-04:00"
+    },
+    "SB": {
+      "start_bar": "2026-10-01T09:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -462,21 +420,9 @@
     "TNON": "most_shorted_stocks",
     "SNPS": "day_gainers",
     "CMS-PB": "small_cap_gainers",
-    "XRX": "most_shorted_stocks",
     "NU": "most_actives+day_gainers",
-    "ALM": "day_gainers",
-    "PLNT": "day_gainers",
-    "EWTX": "day_gainers",
-    "PPTA": "day_gainers",
-    "ERO": "day_gainers",
-    "SES": "small_cap_gainers",
-    "NXH": "small_cap_gainers",
     "CNXC": "small_cap_gainers",
-    "ETRA": "small_cap_gainers",
     "CMCM": "small_cap_gainers",
-    "ACDC": "aggressive_small_caps",
-    "CLF": "day_gainers",
-    "BROS": "day_gainers",
     "BEKE": "day_gainers",
     "SNOW": "day_gainers",
     "MAAS": "day_gainers",
@@ -753,6 +699,18 @@
     "BSET": "small_cap_gainers",
     "CCEC": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "NNE": "most_shorted_stocks"
+    "NNE": "most_shorted_stocks",
+    "NKE": "most_actives",
+    "SPCX": "most_actives",
+    "GRAB": "most_actives",
+    "TLN": "day_gainers",
+    "ELF": "day_gainers",
+    "XXI": "day_gainers",
+    "RLAY": "day_gainers",
+    "MSTR": "day_gainers",
+    "PTC": "day_gainers",
+    "UXIN": "small_cap_gainers",
+    "SMCIP": "aggressive_small_caps",
+    "SB": "aggressive_small_caps"
   }
 }
