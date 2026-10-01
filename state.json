@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
+    "OMDA",
     "AGMB",
     "ASPS",
-    "TNON",
     "AVLN",
-    "DAVA",
+    "TNON",
     "SNPS",
+    "DAVA",
     "SCNI",
-    "HKD",
     "HUBS",
+    "HKD",
     "MIST",
     "PMVP",
     "AMBQ",
     "BRZE",
-    "VIOT",
-    "SYRE"
+    "VIOT"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
