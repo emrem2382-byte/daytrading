@@ -36,12 +36,6 @@
     "TSLA",
     "WOLF",
     "HTZ",
-    "ORCL-PD",
-    "HUBS",
-    "AVLN",
-    "EVH",
-    "PCOR",
-    "KYMR",
     "VIA",
     "GRAL",
     "CCOI",
@@ -317,14 +311,17 @@
     "MEI",
     "AGL",
     "OLN",
-    "BL"
+    "BL",
+    "PDFS",
+    "SAH",
+    "EAF",
+    "EMBC",
+    "ANDG",
+    "GRPN"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "VICR": {
-      "start_bar": "2026-10-01T13:30:00-04:00"
-    },
-    "CTSH": {
       "start_bar": "2026-10-01T13:30:00-04:00"
     },
     "SMCIP": {
@@ -346,6 +343,15 @@
       "start_bar": "2026-10-01T13:40:00-04:00"
     },
     "MRNA": {
+      "start_bar": "2026-10-01T13:40:00-04:00"
+    },
+    "NXTC": {
+      "start_bar": "2026-10-01T13:40:00-04:00"
+    },
+    "HKD": {
+      "start_bar": "2026-10-01T13:40:00-04:00"
+    },
+    "RFL": {
       "start_bar": "2026-10-01T13:40:00-04:00"
     }
   },
@@ -369,12 +375,6 @@
     "TSLA": "most_actives",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "small_cap_gainers+most_shorted_stocks",
-    "ORCL-PD": "aggressive_small_caps",
-    "HUBS": "day_gainers",
-    "AVLN": "small_cap_gainers",
-    "EVH": "aggressive_small_caps",
-    "PCOR": "day_gainers",
-    "KYMR": "day_gainers",
     "VIA": "day_gainers",
     "GRAL": "day_gainers",
     "CCOI": "small_cap_gainers",
@@ -649,6 +649,12 @@
     "MEI": "small_cap_gainers",
     "AGL": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "BL": "small_cap_gainers"
+    "BL": "small_cap_gainers",
+    "PDFS": "day_gainers",
+    "SAH": "day_gainers",
+    "EAF": "small_cap_gainers",
+    "EMBC": "small_cap_gainers",
+    "ANDG": "small_cap_gainers",
+    "GRPN": "most_shorted_stocks"
   }
 }
