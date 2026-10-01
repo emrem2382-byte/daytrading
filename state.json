@@ -16,23 +16,18 @@
     "SYRE",
     "METCB"
   ],
-  "last_session": "premarket",
+  "last_session": "open",
   "tracked_tickers": [
-    "SOUN",
-    "BBAI",
     "FORM",
     "PMVP",
     "OI",
     "SERV",
-    "UAMY",
     "RUN",
     "GETY",
-    "TEAD",
     "SNAP",
     "CCCC",
     "CAPR",
     "CHPT",
-    "IBRX",
     "PACB",
     "SLS",
     "BRSL",
@@ -40,18 +35,13 @@
     "NVAX",
     "SB",
     "NVDA",
-    "AAPL",
     "COUR",
-    "LAC",
     "VISN",
     "TMC",
-    "INN",
     "KPTI",
-    "TNON",
     "INTC",
     "SYRE",
     "HPE",
-    "TRMD",
     "LEGN",
     "ROG",
     "CTNM",
@@ -60,19 +50,14 @@
     "VIOT",
     "BTCT",
     "NNE",
-    "SPCX",
     "IMOS",
     "HIMS",
     "DOCS",
     "PARR",
     "PS",
     "ZETA",
-    "DNA",
-    "RXRX",
     "BRZE",
-    "NTCT",
     "DK",
-    "PLUG",
     "GRAB",
     "MP",
     "HCM",
@@ -317,42 +302,91 @@
     "EPR-PG",
     "ICHR",
     "SMCI",
-    "TENB"
+    "TENB",
+    "PCG",
+    "CMCSA",
+    "BPYPP",
+    "MSC",
+    "AMTD",
+    "VACI",
+    "GENI",
+    "GLAS",
+    "VNET",
+    "RC",
+    "VEEA",
+    "SHOE",
+    "FCEL",
+    "TNON",
+    "SCNI"
   ],
-  "tracked_day": "2026-09-30",
+  "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "BHR-PB": {
-      "start_bar": "2026-09-30T15:30:00-04:00"
+    "METCB": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
     },
-    "TNON": {
-      "start_bar": "2026-09-30T15:55:00-04:00"
+    "ZETA": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
     },
-    "GME": {
-      "start_bar": "2026-09-30T15:55:00-04:00"
+    "NKE": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
     },
-    "CBOE": {
-      "start_bar": "2026-09-30T15:55:00-04:00"
+    "PLNT": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "CRMT": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "FIG": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "TTEC": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "TEAM": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "ASAN": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "UTHR": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "PENN": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "KURA": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "WOLF": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "HUBS": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "VIA": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "GTM": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
+    },
+    "VEEA": {
+      "start_bar": "2026-10-01T09:30:00-04:00"
     }
   },
   "ticker_sources": {
-    "SOUN": "most_shorted_stocks",
-    "BBAI": "most_shorted_stocks",
     "FORM": "day_gainers",
     "PMVP": "small_cap_gainers",
     "OI": "aggressive_small_caps",
     "SERV": "most_shorted_stocks",
-    "UAMY": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "GETY": "aggressive_small_caps",
-    "TEAD": "small_cap_gainers+aggressive_small_caps",
     "SNAP": "most_actives",
     "CCCC": "small_cap_gainers+most_shorted_stocks",
     "CAPR": "small_cap_gainers+aggressive_small_caps+most_shorted_stocks",
     "CHPT": "small_cap_gainers",
-    "IBRX": "day_gainers",
     "PACB": "small_cap_gainers",
     "SLS": "day_gainers+most_shorted_stocks",
     "BRSL": "aggressive_small_caps",
@@ -360,18 +394,14 @@
     "NVAX": "most_shorted_stocks",
     "SB": "aggressive_small_caps",
     "NVDA": "most_actives",
-    "AAPL": "most_actives",
     "COUR": "small_cap_gainers+aggressive_small_caps",
-    "LAC": "aggressive_small_caps",
     "VISN": "aggressive_small_caps",
     "TMC": "aggressive_small_caps",
-    "INN": "aggressive_small_caps",
     "KPTI": "most_shorted_stocks",
     "TNON": "most_shorted_stocks",
     "INTC": "most_actives",
     "SYRE": "day_gainers",
-    "HPE": "most_actives+day_gainers",
-    "TRMD": "day_gainers",
+    "HPE": "day_gainers",
     "LEGN": "day_gainers",
     "ROG": "day_gainers",
     "CTNM": "small_cap_gainers",
@@ -380,19 +410,14 @@
     "VIOT": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
-    "SPCX": "most_actives",
     "IMOS": "day_gainers",
     "HIMS": "day_gainers",
     "DOCS": "day_gainers",
     "PARR": "day_gainers",
     "PS": "day_gainers",
     "ZETA": "day_gainers",
-    "DNA": "small_cap_gainers",
-    "RXRX": "most_actives+most_shorted_stocks",
     "BRZE": "day_gainers",
-    "NTCT": "day_gainers",
     "DK": "day_gainers",
-    "PLUG": "most_actives",
     "GRAB": "most_actives",
     "MP": "day_gainers",
     "HCM": "day_gainers",
@@ -405,7 +430,7 @@
     "FLNC": "aggressive_small_caps",
     "GOOGL": "most_actives",
     "AMZN": "most_actives",
-    "ITUB": "most_actives+day_gainers",
+    "ITUB": "most_actives",
     "LEU": "day_gainers",
     "ENPH": "day_gainers",
     "QBTS": "day_gainers",
@@ -482,7 +507,7 @@
     "MITT-PA": "small_cap_gainers",
     "GPMT-PA": "small_cap_gainers",
     "AUR": "most_actives",
-    "BB": "most_actives",
+    "BB": "day_gainers",
     "PEPG": "small_cap_gainers",
     "DAVA": "small_cap_gainers",
     "CNDT": "small_cap_gainers",
@@ -637,6 +662,19 @@
     "EPR-PG": "day_gainers",
     "ICHR": "day_gainers",
     "SMCI": "most_actives",
-    "TENB": "day_gainers"
+    "TENB": "day_gainers",
+    "PCG": "most_actives",
+    "CMCSA": "most_actives",
+    "BPYPP": "day_gainers",
+    "MSC": "small_cap_gainers",
+    "AMTD": "small_cap_gainers",
+    "VACI": "small_cap_gainers",
+    "GENI": "aggressive_small_caps",
+    "GLAS": "aggressive_small_caps",
+    "VNET": "aggressive_small_caps",
+    "RC": "aggressive_small_caps",
+    "VEEA": "most_shorted_stocks",
+    "SHOE": "most_shorted_stocks",
+    "FCEL": "most_shorted_stocks"
   }
 }
