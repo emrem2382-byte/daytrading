@@ -27,8 +27,6 @@
     "CNXC",
     "NTLA",
     "CRMT",
-    "NVO",
-    "DNN",
     "TU",
     "U",
     "FIG",
@@ -317,24 +315,20 @@
     "INSG",
     "OPENW",
     "LITE",
-    "COHR"
+    "COHR",
+    "SYRE",
+    "STDN"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
     "BHV": {
       "start_bar": "2026-09-30T15:25:00-04:00"
     },
-    "TWST": {
-      "start_bar": "2026-10-01T09:55:00-04:00"
-    },
-    "RKLB": {
-      "start_bar": "2026-10-01T09:55:00-04:00"
-    },
-    "WGS": {
-      "start_bar": "2026-10-01T09:50:00-04:00"
-    },
     "XRXDW": {
       "start_bar": "2026-10-01T09:55:00-04:00"
+    },
+    "UPST": {
+      "start_bar": "2026-10-01T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,8 +342,6 @@
     "CNXC": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "CRMT": "small_cap_gainers",
-    "NVO": "most_actives",
-    "DNN": "most_actives",
     "TU": "day_gainers",
     "U": "day_gainers",
     "FIG": "day_gainers",
@@ -637,6 +629,8 @@
     "OPENW": "small_cap_gainers",
     "SCNI": "most_shorted_stocks",
     "LITE": "day_gainers",
-    "COHR": "day_gainers"
+    "COHR": "day_gainers",
+    "SYRE": "day_gainers",
+    "STDN": "small_cap_gainers"
   }
 }
