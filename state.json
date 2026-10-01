@@ -42,9 +42,6 @@
     "DMRC",
     "UPST",
     "LENZ",
-    "ICHR",
-    "SMCI",
-    "TENB",
     "PCG",
     "CMCSA",
     "BPYPP",
@@ -317,7 +314,10 @@
     "DAVE",
     "SCSC",
     "BYND",
-    "PLAY"
+    "PLAY",
+    "SITC",
+    "SVCO",
+    "MERC"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
@@ -326,9 +326,6 @@
     },
     "STDN": {
       "start_bar": "2026-10-01T15:10:00-04:00"
-    },
-    "AEIS": {
-      "start_bar": "2026-10-01T15:15:00-04:00"
     },
     "TDAY": {
       "start_bar": "2026-10-01T15:20:00-04:00"
@@ -378,9 +375,6 @@
     "DMRC": "small_cap_gainers",
     "UPST": "most_shorted_stocks",
     "LENZ": "most_shorted_stocks",
-    "ICHR": "day_gainers",
-    "SMCI": "most_actives",
-    "TENB": "day_gainers",
     "PCG": "most_actives",
     "CMCSA": "most_actives",
     "BPYPP": "day_gainers",
@@ -451,7 +445,7 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "GPRO": "aggressive_small_caps",
-    "JELD": "small_cap_gainers+aggressive_small_caps",
+    "JELD": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "WETO": "most_shorted_stocks",
@@ -637,7 +631,7 @@
     "QUBT": "most_shorted_stocks",
     "FRVO": "day_gainers",
     "PACB": "small_cap_gainers",
-    "MAT": "day_gainers",
+    "MAT": "most_actives+day_gainers",
     "NICE": "day_gainers",
     "EGHT": "small_cap_gainers",
     "GPI": "day_gainers",
@@ -652,6 +646,9 @@
     "DAVE": "day_gainers",
     "SCSC": "small_cap_gainers",
     "BYND": "most_shorted_stocks",
-    "PLAY": "most_shorted_stocks"
+    "PLAY": "most_shorted_stocks",
+    "SITC": "small_cap_gainers",
+    "SVCO": "small_cap_gainers",
+    "MERC": "small_cap_gainers"
   }
 }
