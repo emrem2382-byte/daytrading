@@ -32,7 +32,6 @@
     "VRA",
     "BMNR",
     "SVCO",
-    "SHAK",
     "CBNK",
     "CWH",
     "PENN",
@@ -317,16 +316,11 @@
     "UTI",
     "CXM",
     "GEV",
-    "IDCC"
+    "IDCC",
+    "AN"
   ],
   "tracked_day": "2026-10-01",
   "pending_bull": {
-    "CDNS": {
-      "start_bar": "2026-10-01T12:45:00-04:00"
-    },
-    "RFL": {
-      "start_bar": "2026-10-01T12:45:00-04:00"
-    },
     "IBM": {
       "start_bar": "2026-10-01T12:55:00-04:00"
     },
@@ -341,6 +335,18 @@
     },
     "STDN": {
       "start_bar": "2026-10-01T12:50:00-04:00"
+    },
+    "BMNR": {
+      "start_bar": "2026-10-01T13:05:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-10-01T13:05:00-04:00"
+    },
+    "INFY": {
+      "start_bar": "2026-10-01T13:00:00-04:00"
+    },
+    "BAH": {
+      "start_bar": "2026-10-01T13:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,7 +365,6 @@
     "VRA": "small_cap_gainers",
     "BMNR": "most_actives",
     "SVCO": "small_cap_gainers",
-    "SHAK": "day_gainers",
     "CBNK": "small_cap_gainers",
     "CWH": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
@@ -643,6 +648,7 @@
     "UTI": "small_cap_gainers",
     "CXM": "small_cap_gainers",
     "GEV": "day_gainers",
-    "IDCC": "day_gainers"
+    "IDCC": "day_gainers",
+    "AN": "day_gainers"
   }
 }
