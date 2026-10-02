@@ -64,13 +64,10 @@
     "IREN",
     "RXO",
     "PENG",
-    "TXN",
     "KLIC",
     "SOC",
     "UWMC",
     "MYGN",
-    "BKKT",
-    "CHPT",
     "FEAM",
     "BTGO",
     "CABO",
@@ -317,19 +314,13 @@
     "CAPR",
     "HL",
     "BULL",
-    "OUST"
+    "OUST",
+    "ARM",
+    "PICS",
+    "CURV"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "CRWV": {
-      "start_bar": "2026-10-02T13:55:00-04:00"
-    },
-    "BTCT": {
-      "start_bar": "2026-10-02T13:55:00-04:00"
-    },
-    "ORCL": {
-      "start_bar": "2026-10-02T14:00:00-04:00"
-    },
     "RC": {
       "start_bar": "2026-10-02T14:00:00-04:00"
     },
@@ -342,13 +333,7 @@
     "NPO": {
       "start_bar": "2026-10-02T14:00:00-04:00"
     },
-    "OCGN": {
-      "start_bar": "2026-10-02T14:10:00-04:00"
-    },
     "APLD": {
-      "start_bar": "2026-10-02T14:10:00-04:00"
-    },
-    "UWMC": {
       "start_bar": "2026-10-02T14:10:00-04:00"
     },
     "BE": {
@@ -359,6 +344,12 @@
     },
     "CARL": {
       "start_bar": "2026-10-02T14:05:00-04:00"
+    },
+    "ACLS": {
+      "start_bar": "2026-10-02T14:10:00-04:00"
+    },
+    "LIFE": {
+      "start_bar": "2026-10-02T14:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -408,13 +399,10 @@
     "IREN": "most_actives",
     "RXO": "day_gainers",
     "PENG": "day_gainers",
-    "TXN": "day_gainers",
     "KLIC": "day_gainers",
     "SOC": "small_cap_gainers",
     "UWMC": "small_cap_gainers",
     "MYGN": "small_cap_gainers",
-    "BKKT": "small_cap_gainers",
-    "CHPT": "small_cap_gainers",
     "FEAM": "small_cap_gainers",
     "BTGO": "small_cap_gainers",
     "CABO": "small_cap_gainers",
@@ -661,6 +649,9 @@
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "HL": "most_actives",
     "BULL": "day_gainers",
-    "OUST": "day_gainers"
+    "OUST": "day_gainers",
+    "ARM": "day_gainers",
+    "PICS": "small_cap_gainers",
+    "CURV": "small_cap_gainers"
   }
 }
