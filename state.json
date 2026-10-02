@@ -20,7 +20,6 @@
   "tracked_tickers": [
     "GETY",
     "NVDA",
-    "NTLA",
     "WOLF",
     "FCEL",
     "ULCC",
@@ -43,8 +42,6 @@
     "PLAY",
     "OM",
     "SRG",
-    "METC",
-    "MSC",
     "SLDE",
     "ADNT",
     "VACI",
@@ -317,33 +314,35 @@
     "YRD",
     "DWSN",
     "CTEV",
-    "HTZ"
+    "HTZ",
+    "CAMT",
+    "SEI",
+    "KSS"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "TRIP": {
       "start_bar": "2026-10-02T12:15:00-04:00"
     },
-    "GSIT": {
-      "start_bar": "2026-10-02T12:10:00-04:00"
-    },
-    "ULCC": {
-      "start_bar": "2026-10-02T12:15:00-04:00"
-    },
-    "SMCI": {
-      "start_bar": "2026-10-02T12:20:00-04:00"
-    },
     "BAC": {
       "start_bar": "2026-10-02T12:20:00-04:00"
     },
     "SOFI": {
       "start_bar": "2026-10-02T12:20:00-04:00"
+    },
+    "GLAS": {
+      "start_bar": "2026-10-02T12:20:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-10-02T12:20:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-10-02T12:25:00-04:00"
     }
   },
   "ticker_sources": {
     "GETY": "aggressive_small_caps",
     "NVDA": "most_actives",
-    "NTLA": "most_shorted_stocks",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
     "ULCC": "aggressive_small_caps",
@@ -366,8 +365,6 @@
     "PLAY": "most_shorted_stocks",
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
-    "METC": "aggressive_small_caps",
-    "MSC": "small_cap_gainers",
     "SLDE": "day_gainers",
     "ADNT": "small_cap_gainers",
     "VACI": "small_cap_gainers",
@@ -640,6 +637,9 @@
     "YRD": "small_cap_gainers",
     "DWSN": "small_cap_gainers",
     "CTEV": "small_cap_gainers",
-    "HTZ": "most_shorted_stocks"
+    "HTZ": "most_shorted_stocks",
+    "CAMT": "day_gainers",
+    "SEI": "day_gainers",
+    "KSS": "most_shorted_stocks"
   }
 }
