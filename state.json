@@ -51,8 +51,6 @@
     "WULF",
     "WNC",
     "OLN",
-    "PDFS",
-    "SAH",
     "EAF",
     "EMBC",
     "ANDG",
@@ -317,18 +315,17 @@
     "LDI",
     "CHGG",
     "OPENW",
-    "NWCLW"
+    "NWCLW",
+    "EROC",
+    "MEI"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "PLAY": {
-      "start_bar": "2026-10-02T10:20:00-04:00"
-    },
-    "MSC": {
-      "start_bar": "2026-10-02T10:20:00-04:00"
-    },
     "CRMT": {
       "start_bar": "2026-10-02T10:25:00-04:00"
+    },
+    "SMR": {
+      "start_bar": "2026-10-02T10:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -365,8 +362,6 @@
     "WULF": "most_actives+day_gainers",
     "WNC": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "PDFS": "day_gainers",
-    "SAH": "day_gainers",
     "EAF": "small_cap_gainers",
     "EMBC": "small_cap_gainers",
     "ANDG": "small_cap_gainers",
@@ -435,7 +430,7 @@
     "TMC": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "TROX": "aggressive_small_caps",
-    "QDEL": "aggressive_small_caps",
+    "QDEL": "small_cap_gainers+aggressive_small_caps",
     "HAPN": "aggressive_small_caps",
     "SLS": "most_shorted_stocks",
     "SYNA": "day_gainers",
@@ -497,7 +492,7 @@
     "CORZW": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "LAC": "aggressive_small_caps",
-    "GENI": "aggressive_small_caps",
+    "GENI": "small_cap_gainers+aggressive_small_caps",
     "ORC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
@@ -602,7 +597,7 @@
     "SSP": "small_cap_gainers",
     "GSIT": "small_cap_gainers",
     "SILC": "small_cap_gainers",
-    "EVH": "small_cap_gainers+aggressive_small_caps",
+    "EVH": "aggressive_small_caps",
     "JBS": "day_gainers",
     "PPC": "day_gainers",
     "AMRC": "small_cap_gainers",
@@ -631,6 +626,8 @@
     "LDI": "small_cap_gainers",
     "CHGG": "small_cap_gainers",
     "OPENW": "small_cap_gainers",
-    "NWCLW": "small_cap_gainers"
+    "NWCLW": "small_cap_gainers",
+    "EROC": "small_cap_gainers",
+    "MEI": "small_cap_gainers"
   }
 }
