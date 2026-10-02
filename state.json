@@ -324,9 +324,6 @@
     "MSC": {
       "start_bar": "2026-10-02T11:00:00-04:00"
     },
-    "OWL": {
-      "start_bar": "2026-10-02T11:50:00-04:00"
-    },
     "ULCC": {
       "start_bar": "2026-10-02T11:55:00-04:00"
     },
@@ -340,6 +337,12 @@
       "start_bar": "2026-10-02T12:00:00-04:00"
     },
     "CARL": {
+      "start_bar": "2026-10-02T12:00:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-10-02T12:05:00-04:00"
+    },
+    "EVH": {
       "start_bar": "2026-10-02T12:00:00-04:00"
     }
   },
@@ -358,7 +361,7 @@
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
     "MXL": "day_gainers",
-    "FUN": "aggressive_small_caps",
+    "FUN": "small_cap_gainers+aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "SMTC": "day_gainers",
