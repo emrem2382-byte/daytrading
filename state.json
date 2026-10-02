@@ -56,10 +56,8 @@
     "VSH",
     "HOOD",
     "IBRX",
-    "SBET",
     "ACLS",
     "DIOD",
-    "CRCL",
     "COIN",
     "ARM",
     "STM",
@@ -317,15 +315,14 @@
     "JAKK",
     "VSEC",
     "XX",
-    "AVT"
+    "AVT",
+    "INTC",
+    "MDT"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "IPHA": {
       "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "FIP": {
-      "start_bar": "2026-10-02T13:20:00-04:00"
     },
     "ULCC": {
       "start_bar": "2026-10-02T13:30:00-04:00"
@@ -335,6 +332,24 @@
     },
     "BBBYW": {
       "start_bar": "2026-10-02T13:35:00-04:00"
+    },
+    "ALGM": {
+      "start_bar": "2026-10-02T13:35:00-04:00"
+    },
+    "EFC": {
+      "start_bar": "2026-10-02T13:35:00-04:00"
+    },
+    "OPTU": {
+      "start_bar": "2026-10-02T13:35:00-04:00"
+    },
+    "TEAD": {
+      "start_bar": "2026-10-02T13:35:00-04:00"
+    },
+    "CTS": {
+      "start_bar": "2026-10-02T13:35:00-04:00"
+    },
+    "AMKR": {
+      "start_bar": "2026-10-02T13:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,10 +391,8 @@
     "VSH": "day_gainers",
     "HOOD": "most_actives",
     "IBRX": "most_actives+day_gainers",
-    "SBET": "day_gainers",
     "ACLS": "day_gainers",
     "DIOD": "day_gainers",
-    "CRCL": "day_gainers",
     "COIN": "day_gainers",
     "ARM": "day_gainers",
     "STM": "day_gainers",
@@ -471,7 +484,7 @@
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
-    "SEDG": "day_gainers",
+    "SEDG": "day_gainers+small_cap_gainers",
     "LUNR": "day_gainers",
     "INIO": "day_gainers",
     "NP": "day_gainers",
@@ -637,6 +650,8 @@
     "JAKK": "small_cap_gainers",
     "VSEC": "day_gainers",
     "XX": "small_cap_gainers",
-    "AVT": "day_gainers"
+    "AVT": "day_gainers",
+    "INTC": "most_actives",
+    "MDT": "most_actives"
   }
 }
