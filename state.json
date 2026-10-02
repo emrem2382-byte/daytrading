@@ -25,7 +25,6 @@
     "WOLF",
     "HTZ",
     "FCEL",
-    "JBLU",
     "ULCC",
     "OCGN",
     "EVGO",
@@ -317,13 +316,11 @@
     "CHRN",
     "MTRN",
     "NTAP",
-    "ATRA"
+    "ATRA",
+    "NPO"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "SVCO": {
-      "start_bar": "2026-10-02T11:00:00-04:00"
-    },
     "SITC": {
       "start_bar": "2026-10-02T11:10:00-04:00"
     },
@@ -332,6 +329,9 @@
     },
     "SCNI": {
       "start_bar": "2026-10-02T11:10:00-04:00"
+    },
+    "ATRA": {
+      "start_bar": "2026-10-02T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -342,7 +342,6 @@
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
-    "JBLU": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
@@ -357,7 +356,7 @@
     "SMTC": "day_gainers",
     "INTC": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
-    "WULF": "most_actives+day_gainers",
+    "WULF": "most_actives",
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
     "QUBT": "most_shorted_stocks",
@@ -419,7 +418,7 @@
     "ALGM": "day_gainers",
     "VECO": "day_gainers",
     "LIF": "day_gainers",
-    "APLD": "most_actives+day_gainers",
+    "APLD": "most_actives",
     "ON": "day_gainers",
     "BTDR": "day_gainers",
     "BLSH": "day_gainers",
@@ -487,7 +486,7 @@
     "EFC": "aggressive_small_caps",
     "UNIT": "day_gainers",
     "CLM": "aggressive_small_caps",
-    "FIP": "aggressive_small_caps",
+    "FIP": "small_cap_gainers+aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -524,7 +523,7 @@
     "ZEPP": "small_cap_gainers",
     "ARCO": "aggressive_small_caps",
     "GRAB": "most_actives",
-    "RKLB": "most_actives",
+    "RKLB": "most_actives+day_gainers",
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
@@ -634,6 +633,7 @@
     "CHRN": "day_gainers",
     "MTRN": "day_gainers",
     "NTAP": "day_gainers",
-    "ATRA": "small_cap_gainers"
+    "ATRA": "small_cap_gainers",
+    "NPO": "day_gainers"
   }
 }
