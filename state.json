@@ -60,7 +60,6 @@
     "IREN",
     "RXO",
     "PENG",
-    "KLIC",
     "SOC",
     "UWMC",
     "MYGN",
@@ -69,7 +68,6 @@
     "GHM",
     "CUVL",
     "GENI",
-    "ORC",
     "IVR",
     "PENN",
     "CMPS",
@@ -317,7 +315,9 @@
     "CDE",
     "FNKO",
     "AHT",
-    "CLSK"
+    "CLSK",
+    "LOCL",
+    "VISN"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -342,7 +342,16 @@
     "FEAM": {
       "start_bar": "2026-10-02T15:05:00-04:00"
     },
-    "NP": {
+    "CMPS": {
+      "start_bar": "2026-10-02T15:10:00-04:00"
+    },
+    "CTVA": {
+      "start_bar": "2026-10-02T15:10:00-04:00"
+    },
+    "AARD": {
+      "start_bar": "2026-10-02T15:05:00-04:00"
+    },
+    "NOVT": {
       "start_bar": "2026-10-02T15:05:00-04:00"
     }
   },
@@ -389,7 +398,6 @@
     "IREN": "most_actives",
     "RXO": "day_gainers",
     "PENG": "day_gainers",
-    "KLIC": "day_gainers",
     "SOC": "small_cap_gainers",
     "UWMC": "small_cap_gainers",
     "MYGN": "small_cap_gainers",
@@ -398,7 +406,6 @@
     "GHM": "small_cap_gainers",
     "CUVL": "small_cap_gainers",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "ORC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
     "CMPS": "aggressive_small_caps",
@@ -646,6 +653,8 @@
     "CDE": "most_actives",
     "FNKO": "small_cap_gainers",
     "AHT": "small_cap_gainers",
-    "CLSK": "most_shorted_stocks"
+    "CLSK": "most_shorted_stocks",
+    "LOCL": "small_cap_gainers",
+    "VISN": "aggressive_small_caps"
   }
 }
