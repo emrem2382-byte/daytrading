@@ -30,7 +30,6 @@
     "OCGN",
     "EVGO",
     "CCCC",
-    "MSTR",
     "CRDO",
     "NOK",
     "VISN",
@@ -39,7 +38,6 @@
     "RUN",
     "FLNC",
     "EOSE",
-    "SOFI",
     "RKT",
     "SMTC",
     "INTC",
@@ -317,7 +315,9 @@
     "CMCM",
     "LITB",
     "NVAX",
-    "SNAP"
+    "SNAP",
+    "EQPT",
+    "EXTR"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -338,7 +338,6 @@
     "OCGN": "most_shorted_stocks",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
-    "MSTR": "most_actives",
     "CRDO": "day_gainers",
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
@@ -347,7 +346,6 @@
     "RUN": "most_shorted_stocks",
     "FLNC": "aggressive_small_caps",
     "EOSE": "most_shorted_stocks",
-    "SOFI": "most_actives",
     "RKT": "most_actives",
     "SMTC": "day_gainers",
     "INTC": "most_actives",
@@ -409,7 +407,7 @@
     "TMC": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "TROX": "aggressive_small_caps",
-    "QDEL": "small_cap_gainers+aggressive_small_caps",
+    "QDEL": "aggressive_small_caps",
     "HAPN": "aggressive_small_caps",
     "SLS": "most_shorted_stocks",
     "SYNA": "day_gainers",
@@ -418,7 +416,7 @@
     "VECO": "day_gainers",
     "LIF": "day_gainers",
     "APLD": "most_actives+day_gainers",
-    "ON": "most_actives",
+    "ON": "day_gainers",
     "BTDR": "day_gainers",
     "BLSH": "day_gainers",
     "FPS": "day_gainers",
@@ -512,7 +510,7 @@
     "CTVA": "most_actives",
     "ORCL": "most_actives",
     "BGC": "day_gainers",
-    "NVTS": "most_actives+day_gainers",
+    "NVTS": "most_actives",
     "TER": "day_gainers",
     "OPENL": "small_cap_gainers",
     "OSG": "small_cap_gainers",
@@ -625,6 +623,8 @@
     "CMCM": "small_cap_gainers",
     "LITB": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
-    "SNAP": "most_actives"
+    "SNAP": "most_actives",
+    "EQPT": "day_gainers",
+    "EXTR": "day_gainers"
   }
 }
