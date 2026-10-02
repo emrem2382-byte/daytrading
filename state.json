@@ -42,8 +42,6 @@
     "SRG",
     "VACI",
     "PLUG",
-    "CMDB",
-    "UEIC",
     "VNET",
     "TMC",
     "CAPR",
@@ -317,22 +315,12 @@
     "ECHO",
     "CMCO",
     "CCCC",
-    "BYND"
+    "BYND",
+    "CIFR",
+    "HIMX"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "NOK": {
-      "start_bar": "2026-10-02T12:45:00-04:00"
-    },
-    "W": {
-      "start_bar": "2026-10-02T12:45:00-04:00"
-    },
-    "WK": {
-      "start_bar": "2026-10-02T12:45:00-04:00"
-    },
-    "VALE": {
-      "start_bar": "2026-10-02T12:45:00-04:00"
-    },
     "BTCT": {
       "start_bar": "2026-10-02T12:45:00-04:00"
     },
@@ -368,6 +356,30 @@
     },
     "AVEX": {
       "start_bar": "2026-10-02T12:50:00-04:00"
+    },
+    "LIF": {
+      "start_bar": "2026-10-02T12:55:00-04:00"
+    },
+    "HOOD": {
+      "start_bar": "2026-10-02T13:00:00-04:00"
+    },
+    "BKKT": {
+      "start_bar": "2026-10-02T12:55:00-04:00"
+    },
+    "TNON": {
+      "start_bar": "2026-10-02T12:55:00-04:00"
+    },
+    "OPENW": {
+      "start_bar": "2026-10-02T13:00:00-04:00"
+    },
+    "VOYG": {
+      "start_bar": "2026-10-02T13:00:00-04:00"
+    },
+    "IPHA": {
+      "start_bar": "2026-10-02T12:55:00-04:00"
+    },
+    "RKT": {
+      "start_bar": "2026-10-02T13:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -395,8 +407,6 @@
     "SRG": "small_cap_gainers",
     "VACI": "small_cap_gainers",
     "PLUG": "most_actives",
-    "CMDB": "small_cap_gainers",
-    "UEIC": "small_cap_gainers",
     "VNET": "aggressive_small_caps",
     "TMC": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
@@ -463,7 +473,7 @@
     "CORZW": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "LAC": "aggressive_small_caps",
-    "GENI": "aggressive_small_caps",
+    "GENI": "small_cap_gainers+aggressive_small_caps",
     "ORC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
@@ -670,6 +680,8 @@
     "ECHO": "day_gainers",
     "CMCO": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "BYND": "most_shorted_stocks"
+    "BYND": "most_shorted_stocks",
+    "CIFR": "most_actives",
+    "HIMX": "day_gainers"
   }
 }
