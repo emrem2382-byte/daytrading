@@ -43,7 +43,6 @@
     "RKT",
     "SMTC",
     "INTC",
-    "UAMY",
     "ONDS",
     "WULF",
     "WNC",
@@ -317,12 +316,13 @@
     "HMH",
     "CMCM",
     "LITB",
-    "NVAX"
+    "NVAX",
+    "SNAP"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "MGY": {
-      "start_bar": "2026-10-02T10:50:00-04:00"
+    "SVCO": {
+      "start_bar": "2026-10-02T11:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -351,7 +351,6 @@
     "RKT": "most_actives",
     "SMTC": "day_gainers",
     "INTC": "most_actives",
-    "UAMY": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "WULF": "most_actives+day_gainers",
     "WNC": "small_cap_gainers",
@@ -625,6 +624,7 @@
     "HMH": "small_cap_gainers",
     "CMCM": "small_cap_gainers",
     "LITB": "small_cap_gainers",
-    "NVAX": "most_shorted_stocks"
+    "NVAX": "most_shorted_stocks",
+    "SNAP": "most_actives"
   }
 }
