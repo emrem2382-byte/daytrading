@@ -55,8 +55,6 @@
     "APLD",
     "FPS",
     "VSH",
-    "HUT",
-    "ASST",
     "ONTO",
     "HOOD",
     "PURR",
@@ -317,30 +315,38 @@
     "WBX",
     "NU",
     "ITUB",
-    "CWST"
+    "CWST",
+    "AADX",
+    "RAIL"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "OPENW": {
       "start_bar": "2026-10-02T13:00:00-04:00"
     },
-    "VOYG": {
-      "start_bar": "2026-10-02T13:00:00-04:00"
-    },
     "IPHA": {
       "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "ERO": {
-      "start_bar": "2026-10-02T13:00:00-04:00"
-    },
-    "HBB": {
-      "start_bar": "2026-10-02T13:00:00-04:00"
     },
     "EFC": {
       "start_bar": "2026-10-02T13:05:00-04:00"
     },
     "KSS": {
       "start_bar": "2026-10-02T13:10:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-10-02T13:20:00-04:00"
+    },
+    "BRSL": {
+      "start_bar": "2026-10-02T13:20:00-04:00"
+    },
+    "FIP": {
+      "start_bar": "2026-10-02T13:20:00-04:00"
+    },
+    "PCG": {
+      "start_bar": "2026-10-02T13:20:00-04:00"
+    },
+    "ALMR": {
+      "start_bar": "2026-10-02T13:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -381,8 +387,6 @@
     "APLD": "most_actives",
     "FPS": "day_gainers",
     "VSH": "day_gainers",
-    "HUT": "day_gainers",
-    "ASST": "day_gainers",
     "ONTO": "day_gainers",
     "HOOD": "most_actives",
     "PURR": "day_gainers",
@@ -643,6 +647,8 @@
     "WBX": "small_cap_gainers",
     "NU": "most_actives",
     "ITUB": "most_actives",
-    "CWST": "day_gainers"
+    "CWST": "day_gainers",
+    "AADX": "day_gainers",
+    "RAIL": "small_cap_gainers"
   }
 }
