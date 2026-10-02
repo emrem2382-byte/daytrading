@@ -62,8 +62,6 @@
     "STM",
     "POWI",
     "CLSK",
-    "BMNR",
-    "NXT",
     "IREN",
     "RXO",
     "MKSI",
@@ -317,7 +315,9 @@
     "INTC",
     "MDT",
     "ACCV",
-    "MEC"
+    "MEC",
+    "MARA",
+    "IBTA"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -325,9 +325,6 @@
       "start_bar": "2026-10-02T12:55:00-04:00"
     },
     "BBBYW": {
-      "start_bar": "2026-10-02T13:35:00-04:00"
-    },
-    "ALGM": {
       "start_bar": "2026-10-02T13:35:00-04:00"
     },
     "EFC": {
@@ -339,13 +336,7 @@
     "TEAD": {
       "start_bar": "2026-10-02T13:35:00-04:00"
     },
-    "CTS": {
-      "start_bar": "2026-10-02T13:35:00-04:00"
-    },
     "AMKR": {
-      "start_bar": "2026-10-02T13:40:00-04:00"
-    },
-    "BTCT": {
       "start_bar": "2026-10-02T13:40:00-04:00"
     },
     "FPS": {
@@ -365,6 +356,12 @@
     },
     "SES": {
       "start_bar": "2026-10-02T13:45:00-04:00"
+    },
+    "HUMA": {
+      "start_bar": "2026-10-02T13:50:00-04:00"
+    },
+    "QGEN": {
+      "start_bar": "2026-10-02T13:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -412,8 +409,6 @@
     "STM": "day_gainers",
     "POWI": "day_gainers",
     "CLSK": "most_shorted_stocks",
-    "BMNR": "most_actives",
-    "NXT": "day_gainers",
     "IREN": "most_actives",
     "RXO": "day_gainers",
     "MKSI": "day_gainers",
@@ -667,6 +662,8 @@
     "INTC": "most_actives",
     "MDT": "most_actives",
     "ACCV": "day_gainers",
-    "MEC": "small_cap_gainers"
+    "MEC": "small_cap_gainers",
+    "MARA": "most_actives",
+    "IBTA": "small_cap_gainers"
   }
 }
