@@ -25,7 +25,6 @@
     "WOLF",
     "HTZ",
     "FCEL",
-    "ASPSZ",
     "TEAD",
     "JBLU",
     "ULCC",
@@ -35,32 +34,10 @@
     "NNE",
     "MSTR",
     "CRDO",
-    "CCL",
-    "NCNO",
-    "KNSL",
-    "CSQR",
-    "ALIT",
-    "LTGO",
-    "MPC",
-    "DINO",
-    "VLO",
-    "HCKT",
     "NVAX",
-    "PATH",
-    "U",
-    "RDW",
-    "ORN",
-    "NAZ",
     "NOK",
-    "VYLR",
-    "MRNA",
     "VISN",
-    "SERV",
-    "FN",
-    "CIEN",
-    "J",
     "MTSI",
-    "AEIS",
     "VIAV",
     "COUR",
     "MXL",
@@ -317,57 +294,38 @@
     "HBB",
     "BSET",
     "ZEPP",
-    "ARCO"
+    "ARCO",
+    "GRAB",
+    "RKLB",
+    "CRWV",
+    "AMZN",
+    "SMCI",
+    "SEDG",
+    "LUNR",
+    "INIO",
+    "NP",
+    "WK",
+    "TE",
+    "GCTS",
+    "NNBR",
+    "FTK",
+    "STKE",
+    "BBBYW",
+    "SUJA",
+    "AARD",
+    "SDHC",
+    "CORZZ",
+    "OI",
+    "MLCO",
+    "OPTU"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "AEIS": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "ACMR": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "INOD": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "IDCC": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "INTC": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "FOSL": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "BTCT": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "CAPR": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "NTLA": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "CSQR": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "RDW": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
     "WNC": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "SOC": {
       "start_bar": "2026-10-02T09:35:00-04:00"
     },
     "BTGO": {
       "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "FIP": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-10-02T09:40:00-04:00"
     },
     "GO": {
       "start_bar": "2026-10-02T09:40:00-04:00"
@@ -392,6 +350,21 @@
     },
     "HBB": {
       "start_bar": "2026-10-02T09:40:00-04:00"
+    },
+    "SNX": {
+      "start_bar": "2026-10-02T09:45:00-04:00"
+    },
+    "UTI": {
+      "start_bar": "2026-10-02T09:45:00-04:00"
+    },
+    "AN": {
+      "start_bar": "2026-10-02T09:50:00-04:00"
+    },
+    "CSIQ": {
+      "start_bar": "2026-10-02T09:45:00-04:00"
+    },
+    "OI": {
+      "start_bar": "2026-10-02T09:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -402,7 +375,6 @@
     "WOLF": "most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
-    "ASPSZ": "small_cap_gainers",
     "TEAD": "aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
@@ -410,34 +382,12 @@
     "EVGO": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
-    "MSTR": "most_actives+day_gainers",
+    "MSTR": "most_actives",
     "CRDO": "day_gainers",
-    "CCL": "most_actives",
-    "NCNO": "day_gainers",
-    "KNSL": "day_gainers",
-    "CSQR": "day_gainers",
-    "ALIT": "small_cap_gainers",
-    "LTGO": "small_cap_gainers",
-    "MPC": "day_gainers",
-    "DINO": "day_gainers",
-    "VLO": "day_gainers",
-    "HCKT": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
-    "PATH": "most_actives",
-    "U": "day_gainers",
-    "RDW": "day_gainers",
-    "ORN": "small_cap_gainers",
-    "NAZ": "small_cap_gainers",
     "NOK": "most_actives",
-    "VYLR": "day_gainers",
-    "MRNA": "day_gainers",
     "VISN": "aggressive_small_caps",
-    "SERV": "most_shorted_stocks",
-    "FN": "day_gainers",
-    "CIEN": "day_gainers",
-    "J": "day_gainers",
     "MTSI": "day_gainers",
-    "AEIS": "day_gainers",
     "VIAV": "day_gainers",
     "COUR": "aggressive_small_caps",
     "MXL": "day_gainers",
@@ -488,7 +438,7 @@
     "CVEO": "small_cap_gainers",
     "LVWR": "small_cap_gainers",
     "SOFI": "most_actives",
-    "RKT": "day_gainers",
+    "RKT": "most_actives",
     "UTI": "small_cap_gainers",
     "CXM": "small_cap_gainers",
     "GEV": "day_gainers",
@@ -665,7 +615,7 @@
     "XRX": "most_shorted_stocks",
     "UPST": "most_shorted_stocks",
     "TSLA": "most_actives",
-    "SPCX": "most_actives",
+    "SPCX": "most_actives+day_gainers",
     "PCG": "most_actives",
     "VIRT": "day_gainers",
     "BE": "day_gainers",
@@ -694,6 +644,29 @@
     "HBB": "small_cap_gainers",
     "BSET": "small_cap_gainers",
     "ZEPP": "small_cap_gainers",
-    "ARCO": "aggressive_small_caps"
+    "ARCO": "aggressive_small_caps",
+    "GRAB": "most_actives",
+    "RKLB": "most_actives+day_gainers",
+    "CRWV": "most_actives",
+    "AMZN": "most_actives",
+    "SMCI": "most_actives",
+    "SEDG": "day_gainers",
+    "LUNR": "day_gainers",
+    "INIO": "day_gainers",
+    "NP": "day_gainers",
+    "WK": "day_gainers",
+    "TE": "small_cap_gainers",
+    "GCTS": "small_cap_gainers",
+    "NNBR": "small_cap_gainers",
+    "FTK": "small_cap_gainers",
+    "STKE": "small_cap_gainers",
+    "BBBYW": "small_cap_gainers",
+    "SUJA": "small_cap_gainers",
+    "AARD": "small_cap_gainers",
+    "SDHC": "small_cap_gainers",
+    "CORZZ": "small_cap_gainers",
+    "OI": "aggressive_small_caps",
+    "MLCO": "aggressive_small_caps",
+    "OPTU": "aggressive_small_caps"
   }
 }
