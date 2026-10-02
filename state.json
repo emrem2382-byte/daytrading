@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "TEAD",
-    "VIOT",
-    "OPEN",
-    "VEEA",
-    "RKT",
-    "BAK",
-    "FCEL",
-    "EVCM",
-    "WETO",
-    "INSG",
-    "SES",
-    "VISN",
-    "RFL",
-    "LIND",
-    "MTSI"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "GETY",
     "NVDA",
