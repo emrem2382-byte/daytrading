@@ -58,11 +58,9 @@
     "IBRX",
     "ACLS",
     "DIOD",
-    "COIN",
     "ARM",
     "STM",
     "POWI",
-    "MBX",
     "CLSK",
     "BMNR",
     "NXT",
@@ -317,18 +315,14 @@
     "XX",
     "AVT",
     "INTC",
-    "MDT"
+    "MDT",
+    "ACCV",
+    "MEC"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "IPHA": {
       "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "ULCC": {
-      "start_bar": "2026-10-02T13:30:00-04:00"
-    },
-    "BKSY": {
-      "start_bar": "2026-10-02T13:25:00-04:00"
     },
     "BBBYW": {
       "start_bar": "2026-10-02T13:35:00-04:00"
@@ -350,6 +344,27 @@
     },
     "AMKR": {
       "start_bar": "2026-10-02T13:40:00-04:00"
+    },
+    "BTCT": {
+      "start_bar": "2026-10-02T13:40:00-04:00"
+    },
+    "FPS": {
+      "start_bar": "2026-10-02T13:45:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-10-02T13:45:00-04:00"
+    },
+    "RKLB": {
+      "start_bar": "2026-10-02T13:45:00-04:00"
+    },
+    "AARD": {
+      "start_bar": "2026-10-02T13:40:00-04:00"
+    },
+    "JBLU": {
+      "start_bar": "2026-10-02T13:45:00-04:00"
+    },
+    "SES": {
+      "start_bar": "2026-10-02T13:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -393,11 +408,9 @@
     "IBRX": "most_actives+day_gainers",
     "ACLS": "day_gainers",
     "DIOD": "day_gainers",
-    "COIN": "day_gainers",
     "ARM": "day_gainers",
     "STM": "day_gainers",
     "POWI": "day_gainers",
-    "MBX": "day_gainers",
     "CLSK": "most_shorted_stocks",
     "BMNR": "most_actives",
     "NXT": "day_gainers",
@@ -484,7 +497,7 @@
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
-    "SEDG": "day_gainers+small_cap_gainers",
+    "SEDG": "small_cap_gainers",
     "LUNR": "day_gainers",
     "INIO": "day_gainers",
     "NP": "day_gainers",
@@ -652,6 +665,8 @@
     "XX": "small_cap_gainers",
     "AVT": "day_gainers",
     "INTC": "most_actives",
-    "MDT": "most_actives"
+    "MDT": "most_actives",
+    "ACCV": "day_gainers",
+    "MEC": "small_cap_gainers"
   }
 }
