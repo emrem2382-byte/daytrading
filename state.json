@@ -69,7 +69,6 @@
     "UWMC",
     "MYGN",
     "FEAM",
-    "BTGO",
     "CABO",
     "MCRB",
     "AOUT",
@@ -317,21 +316,13 @@
     "OUST",
     "ARM",
     "PICS",
-    "CURV"
+    "CURV",
+    "OLN"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "RC": {
-      "start_bar": "2026-10-02T14:00:00-04:00"
-    },
     "SOUN": {
       "start_bar": "2026-10-02T14:05:00-04:00"
-    },
-    "TRU": {
-      "start_bar": "2026-10-02T14:05:00-04:00"
-    },
-    "NPO": {
-      "start_bar": "2026-10-02T14:00:00-04:00"
     },
     "APLD": {
       "start_bar": "2026-10-02T14:10:00-04:00"
@@ -350,6 +341,18 @@
     },
     "LIFE": {
       "start_bar": "2026-10-02T14:15:00-04:00"
+    },
+    "PRGO": {
+      "start_bar": "2026-10-02T14:15:00-04:00"
+    },
+    "TE": {
+      "start_bar": "2026-10-02T14:20:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-10-02T14:20:00-04:00"
+    },
+    "EQPT": {
+      "start_bar": "2026-10-02T14:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -404,7 +407,6 @@
     "UWMC": "small_cap_gainers",
     "MYGN": "small_cap_gainers",
     "FEAM": "small_cap_gainers",
-    "BTGO": "small_cap_gainers",
     "CABO": "small_cap_gainers",
     "MCRB": "small_cap_gainers",
     "AOUT": "small_cap_gainers",
@@ -652,6 +654,7 @@
     "OUST": "day_gainers",
     "ARM": "day_gainers",
     "PICS": "small_cap_gainers",
-    "CURV": "small_cap_gainers"
+    "CURV": "small_cap_gainers",
+    "OLN": "aggressive_small_caps"
   }
 }
