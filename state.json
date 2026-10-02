@@ -55,7 +55,6 @@
     "FPS",
     "VSH",
     "HOOD",
-    "GLXY",
     "IBRX",
     "SBET",
     "ACLS",
@@ -317,26 +316,15 @@
     "RAIL",
     "JAKK",
     "VSEC",
-    "XX"
+    "XX",
+    "AVT"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "IPHA": {
       "start_bar": "2026-10-02T12:55:00-04:00"
     },
-    "BRSL": {
-      "start_bar": "2026-10-02T13:20:00-04:00"
-    },
     "FIP": {
-      "start_bar": "2026-10-02T13:20:00-04:00"
-    },
-    "PCG": {
-      "start_bar": "2026-10-02T13:20:00-04:00"
-    },
-    "ALMR": {
-      "start_bar": "2026-10-02T13:15:00-04:00"
-    },
-    "MYGN": {
       "start_bar": "2026-10-02T13:20:00-04:00"
     },
     "ULCC": {
@@ -344,6 +332,9 @@
     },
     "BKSY": {
       "start_bar": "2026-10-02T13:25:00-04:00"
+    },
+    "BBBYW": {
+      "start_bar": "2026-10-02T13:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -384,7 +375,6 @@
     "FPS": "day_gainers",
     "VSH": "day_gainers",
     "HOOD": "most_actives",
-    "GLXY": "day_gainers",
     "IBRX": "most_actives+day_gainers",
     "SBET": "day_gainers",
     "ACLS": "day_gainers",
@@ -646,6 +636,7 @@
     "RAIL": "small_cap_gainers",
     "JAKK": "small_cap_gainers",
     "VSEC": "day_gainers",
-    "XX": "small_cap_gainers"
+    "XX": "small_cap_gainers",
+    "AVT": "day_gainers"
   }
 }
