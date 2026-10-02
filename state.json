@@ -58,15 +58,12 @@
     "IBRX",
     "ACLS",
     "DIOD",
-    "ARM",
     "STM",
     "POWI",
     "CLSK",
     "IREN",
     "RXO",
     "PENG",
-    "SECZ",
-    "W",
     "TXN",
     "KLIC",
     "SOC",
@@ -317,13 +314,13 @@
     "OEC",
     "CANG",
     "EBON",
-    "CAPR"
+    "CAPR",
+    "HL",
+    "BULL",
+    "OUST"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "IVR": {
-      "start_bar": "2026-10-02T13:45:00-04:00"
-    },
     "QGEN": {
       "start_bar": "2026-10-02T13:50:00-04:00"
     },
@@ -345,26 +342,26 @@
     "EQPT": {
       "start_bar": "2026-10-02T13:55:00-04:00"
     },
-    "CTS": {
-      "start_bar": "2026-10-02T13:50:00-04:00"
-    },
-    "DNN": {
-      "start_bar": "2026-10-02T13:55:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-10-02T13:50:00-04:00"
-    },
     "BTCT": {
       "start_bar": "2026-10-02T13:55:00-04:00"
-    },
-    "SECZ": {
-      "start_bar": "2026-10-02T14:00:00-04:00"
     },
     "ORCL": {
       "start_bar": "2026-10-02T14:00:00-04:00"
     },
     "CAPR": {
       "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "RC": {
+      "start_bar": "2026-10-02T14:00:00-04:00"
+    },
+    "SOUN": {
+      "start_bar": "2026-10-02T14:05:00-04:00"
+    },
+    "TRU": {
+      "start_bar": "2026-10-02T14:05:00-04:00"
+    },
+    "NPO": {
+      "start_bar": "2026-10-02T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -408,15 +405,12 @@
     "IBRX": "most_actives+day_gainers",
     "ACLS": "day_gainers",
     "DIOD": "day_gainers",
-    "ARM": "day_gainers",
     "STM": "day_gainers",
     "POWI": "day_gainers",
     "CLSK": "most_shorted_stocks",
     "IREN": "most_actives",
     "RXO": "day_gainers",
     "PENG": "day_gainers",
-    "SECZ": "day_gainers",
-    "W": "day_gainers",
     "TXN": "day_gainers",
     "KLIC": "day_gainers",
     "SOC": "small_cap_gainers",
@@ -667,6 +661,9 @@
     "OEC": "small_cap_gainers",
     "CANG": "small_cap_gainers",
     "EBON": "small_cap_gainers",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks"
+    "CAPR": "aggressive_small_caps+most_shorted_stocks",
+    "HL": "most_actives",
+    "BULL": "day_gainers",
+    "OUST": "day_gainers"
   }
 }
