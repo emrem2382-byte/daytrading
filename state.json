@@ -43,9 +43,6 @@
     "WNC",
     "BTCT",
     "RXRX",
-    "WBD",
-    "VALE",
-    "DAVE",
     "SCSC",
     "BYND",
     "PLAY",
@@ -317,7 +314,10 @@
     "ARCB",
     "CRT",
     "QUBT",
-    "CBRL"
+    "CBRL",
+    "DXPE",
+    "ADCT",
+    "CTS"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -327,9 +327,6 @@
     "SCNI": {
       "start_bar": "2026-10-02T11:10:00-04:00"
     },
-    "ATRA": {
-      "start_bar": "2026-10-02T11:15:00-04:00"
-    },
     "CRMT": {
       "start_bar": "2026-10-02T11:30:00-04:00"
     },
@@ -338,9 +335,6 @@
     },
     "OPENW": {
       "start_bar": "2026-10-02T11:30:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-10-02T11:40:00-04:00"
     },
     "MGY": {
       "start_bar": "2026-10-02T11:35:00-04:00"
@@ -372,9 +366,6 @@
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
-    "WBD": "most_actives",
-    "VALE": "most_actives",
-    "DAVE": "day_gainers",
     "SCSC": "small_cap_gainers",
     "BYND": "most_shorted_stocks",
     "PLAY": "most_shorted_stocks",
@@ -412,7 +403,7 @@
     "TROX": "aggressive_small_caps",
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "HAPN": "aggressive_small_caps",
-    "SLS": "day_gainers+most_shorted_stocks",
+    "SLS": "most_shorted_stocks",
     "SYNA": "day_gainers",
     "IMOS": "day_gainers",
     "ALGM": "day_gainers",
@@ -646,6 +637,9 @@
     "ARCB": "day_gainers",
     "CRT": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
-    "CBRL": "small_cap_gainers"
+    "CBRL": "small_cap_gainers",
+    "DXPE": "day_gainers",
+    "ADCT": "small_cap_gainers",
+    "CTS": "small_cap_gainers"
   }
 }
