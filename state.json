@@ -37,18 +37,7 @@
     "NVAX",
     "NOK",
     "VISN",
-    "MTSI",
-    "VIAV",
-    "COUR",
     "MXL",
-    "ASAN",
-    "DHT",
-    "SNX",
-    "ACMR",
-    "BHR-PB",
-    "ECO",
-    "CRAI",
-    "TTEC",
     "RIG",
     "SITM",
     "CANG",
@@ -317,30 +306,23 @@
     "CORZZ",
     "OI",
     "MLCO",
-    "OPTU"
+    "OPTU",
+    "HLN",
+    "PL",
+    "GPGI",
+    "RDW",
+    "NBIS",
+    "RXT",
+    "DFH",
+    "SQNS",
+    "NAT",
+    "SOUN",
+    "TRIP"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "WNC": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "BTGO": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
     "GO": {
       "start_bar": "2026-10-02T09:40:00-04:00"
-    },
-    "SLS": {
-      "start_bar": "2026-10-02T09:40:00-04:00"
-    },
-    "MBX": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "MYGN": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "OCGN": {
-      "start_bar": "2026-10-02T09:45:00-04:00"
     },
     "RUN": {
       "start_bar": "2026-10-02T09:45:00-04:00"
@@ -350,9 +332,6 @@
     },
     "HBB": {
       "start_bar": "2026-10-02T09:40:00-04:00"
-    },
-    "SNX": {
-      "start_bar": "2026-10-02T09:45:00-04:00"
     },
     "UTI": {
       "start_bar": "2026-10-02T09:45:00-04:00"
@@ -365,6 +344,12 @@
     },
     "OI": {
       "start_bar": "2026-10-02T09:50:00-04:00"
+    },
+    "PMVP": {
+      "start_bar": "2026-10-02T09:50:00-04:00"
+    },
+    "AGL": {
+      "start_bar": "2026-10-02T09:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,14 +357,14 @@
     "NVDA": "most_actives",
     "NTLA": "most_shorted_stocks",
     "KSS": "most_shorted_stocks",
-    "WOLF": "most_shorted_stocks",
+    "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
-    "EVGO": "most_shorted_stocks",
+    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
     "MSTR": "most_actives",
@@ -387,18 +372,7 @@
     "NVAX": "most_shorted_stocks",
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
-    "MTSI": "day_gainers",
-    "VIAV": "day_gainers",
-    "COUR": "aggressive_small_caps",
     "MXL": "day_gainers",
-    "ASAN": "day_gainers",
-    "DHT": "day_gainers",
-    "SNX": "day_gainers",
-    "ACMR": "day_gainers",
-    "BHR-PB": "small_cap_gainers",
-    "ECO": "day_gainers",
-    "CRAI": "small_cap_gainers",
-    "TTEC": "small_cap_gainers",
     "RIG": "most_actives",
     "SITM": "day_gainers",
     "CANG": "small_cap_gainers",
@@ -450,8 +424,8 @@
     "MU": "most_actives",
     "OPEN": "most_actives",
     "UAMY": "aggressive_small_caps",
-    "ONDS": "most_shorted_stocks",
-    "WULF": "day_gainers",
+    "ONDS": "most_actives+most_shorted_stocks",
+    "WULF": "most_actives+day_gainers",
     "VERX": "day_gainers",
     "FOSL": "small_cap_gainers",
     "PAR": "small_cap_gainers",
@@ -522,7 +496,7 @@
     "NOMD": "small_cap_gainers",
     "BH": "small_cap_gainers",
     "PLUG": "most_actives",
-    "CIFR": "day_gainers",
+    "CIFR": "most_actives",
     "AAPL": "most_actives",
     "MARA": "most_actives+day_gainers",
     "HRI": "day_gainers",
@@ -541,8 +515,8 @@
     "ALGM": "day_gainers",
     "VECO": "day_gainers",
     "LIF": "day_gainers",
-    "APLD": "day_gainers",
-    "ON": "day_gainers",
+    "APLD": "most_actives+day_gainers",
+    "ON": "most_actives+day_gainers",
     "BTDR": "day_gainers",
     "BLSH": "day_gainers",
     "FPS": "day_gainers",
@@ -551,7 +525,7 @@
     "HUT": "day_gainers",
     "ASST": "day_gainers",
     "ONTO": "day_gainers",
-    "HOOD": "most_actives+day_gainers",
+    "HOOD": "most_actives",
     "PURR": "day_gainers",
     "GLXY": "day_gainers",
     "IBRX": "day_gainers",
@@ -636,7 +610,7 @@
     "CTVA": "most_actives",
     "ORCL": "most_actives",
     "BGC": "day_gainers",
-    "NVTS": "day_gainers",
+    "NVTS": "most_actives+day_gainers",
     "TER": "day_gainers",
     "OPENL": "small_cap_gainers",
     "OSG": "small_cap_gainers",
@@ -667,6 +641,17 @@
     "CORZZ": "small_cap_gainers",
     "OI": "aggressive_small_caps",
     "MLCO": "aggressive_small_caps",
-    "OPTU": "aggressive_small_caps"
+    "OPTU": "aggressive_small_caps",
+    "HLN": "most_actives",
+    "PL": "day_gainers",
+    "GPGI": "day_gainers",
+    "RDW": "day_gainers",
+    "NBIS": "day_gainers",
+    "RXT": "small_cap_gainers",
+    "DFH": "small_cap_gainers",
+    "SQNS": "small_cap_gainers",
+    "NAT": "aggressive_small_caps",
+    "SOUN": "most_shorted_stocks",
+    "TRIP": "most_shorted_stocks"
   }
 }
