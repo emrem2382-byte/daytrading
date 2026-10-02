@@ -68,7 +68,6 @@
     "GHM",
     "CUVL",
     "GENI",
-    "IVR",
     "PENN",
     "CMPS",
     "BRSL",
@@ -317,23 +316,12 @@
     "AHT",
     "CLSK",
     "LOCL",
-    "VISN"
+    "VISN",
+    "PRCH"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "XRX": {
-      "start_bar": "2026-10-02T15:00:00-04:00"
-    },
     "GCTS": {
-      "start_bar": "2026-10-02T15:00:00-04:00"
-    },
-    "CDNL": {
-      "start_bar": "2026-10-02T14:55:00-04:00"
-    },
-    "AMRC": {
-      "start_bar": "2026-10-02T15:00:00-04:00"
-    },
-    "PRKS": {
       "start_bar": "2026-10-02T15:00:00-04:00"
     },
     "OCGN": {
@@ -341,9 +329,6 @@
     },
     "FEAM": {
       "start_bar": "2026-10-02T15:05:00-04:00"
-    },
-    "CMPS": {
-      "start_bar": "2026-10-02T15:10:00-04:00"
     },
     "CTVA": {
       "start_bar": "2026-10-02T15:10:00-04:00"
@@ -353,6 +338,24 @@
     },
     "NOVT": {
       "start_bar": "2026-10-02T15:05:00-04:00"
+    },
+    "DNA": {
+      "start_bar": "2026-10-02T15:15:00-04:00"
+    },
+    "LDI": {
+      "start_bar": "2026-10-02T15:15:00-04:00"
+    },
+    "TTMI": {
+      "start_bar": "2026-10-02T15:15:00-04:00"
+    },
+    "YRD": {
+      "start_bar": "2026-10-02T15:10:00-04:00"
+    },
+    "SEI": {
+      "start_bar": "2026-10-02T15:15:00-04:00"
+    },
+    "CIFR": {
+      "start_bar": "2026-10-02T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -406,7 +409,6 @@
     "GHM": "small_cap_gainers",
     "CUVL": "small_cap_gainers",
     "GENI": "small_cap_gainers+aggressive_small_caps",
-    "IVR": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
     "CMPS": "aggressive_small_caps",
     "BRSL": "aggressive_small_caps",
@@ -655,6 +657,7 @@
     "AHT": "small_cap_gainers",
     "CLSK": "most_shorted_stocks",
     "LOCL": "small_cap_gainers",
-    "VISN": "aggressive_small_caps"
+    "VISN": "aggressive_small_caps",
+    "PRCH": "day_gainers"
   }
 }
