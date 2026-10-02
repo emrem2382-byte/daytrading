@@ -31,19 +31,12 @@
     "OCGN",
     "EVGO",
     "CCCC",
-    "NNE",
     "MSTR",
     "CRDO",
     "NVAX",
     "NOK",
     "VISN",
     "MXL",
-    "RIG",
-    "SITM",
-    "CANG",
-    "FRBT",
-    "ASPSW",
-    "F",
     "MTRX",
     "GOTU",
     "PARR",
@@ -317,21 +310,19 @@
     "SQNS",
     "NAT",
     "SOUN",
-    "TRIP"
+    "TRIP",
+    "AMD",
+    "MTSI",
+    "AZTA",
+    "ABX",
+    "CDNL",
+    "KWY",
+    "COUR"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "GO": {
-      "start_bar": "2026-10-02T09:40:00-04:00"
-    },
-    "RUN": {
-      "start_bar": "2026-10-02T09:45:00-04:00"
-    },
     "ONDS": {
       "start_bar": "2026-10-02T09:45:00-04:00"
-    },
-    "HBB": {
-      "start_bar": "2026-10-02T09:40:00-04:00"
     },
     "UTI": {
       "start_bar": "2026-10-02T09:45:00-04:00"
@@ -339,17 +330,20 @@
     "AN": {
       "start_bar": "2026-10-02T09:50:00-04:00"
     },
-    "CSIQ": {
-      "start_bar": "2026-10-02T09:45:00-04:00"
-    },
-    "OI": {
-      "start_bar": "2026-10-02T09:50:00-04:00"
-    },
     "PMVP": {
       "start_bar": "2026-10-02T09:50:00-04:00"
     },
     "AGL": {
       "start_bar": "2026-10-02T09:50:00-04:00"
+    },
+    "KSS": {
+      "start_bar": "2026-10-02T10:00:00-04:00"
+    },
+    "FIVN": {
+      "start_bar": "2026-10-02T10:00:00-04:00"
+    },
+    "PRGO": {
+      "start_bar": "2026-10-02T10:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -366,19 +360,12 @@
     "OCGN": "most_shorted_stocks",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
-    "NNE": "most_shorted_stocks",
     "MSTR": "most_actives",
     "CRDO": "day_gainers",
     "NVAX": "most_shorted_stocks",
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
     "MXL": "day_gainers",
-    "RIG": "most_actives",
-    "SITM": "day_gainers",
-    "CANG": "small_cap_gainers",
-    "FRBT": "small_cap_gainers",
-    "ASPSW": "small_cap_gainers",
-    "F": "most_actives",
     "MTRX": "small_cap_gainers",
     "GOTU": "small_cap_gainers",
     "PARR": "day_gainers",
@@ -652,6 +639,13 @@
     "SQNS": "small_cap_gainers",
     "NAT": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
-    "TRIP": "most_shorted_stocks"
+    "TRIP": "most_shorted_stocks",
+    "AMD": "most_actives",
+    "MTSI": "day_gainers",
+    "AZTA": "small_cap_gainers",
+    "ABX": "small_cap_gainers",
+    "CDNL": "small_cap_gainers",
+    "KWY": "small_cap_gainers",
+    "COUR": "aggressive_small_caps"
   }
 }
