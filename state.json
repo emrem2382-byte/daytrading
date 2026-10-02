@@ -42,11 +42,6 @@
     "SRG",
     "VACI",
     "PLUG",
-    "CIFR",
-    "AAPL",
-    "MARA",
-    "HRI",
-    "SLQT",
     "CMDB",
     "UEIC",
     "VNET",
@@ -317,7 +312,12 @@
     "RXRX",
     "VALE",
     "STRL",
-    "TWIN"
+    "TWIN",
+    "RKT",
+    "ECHO",
+    "CMCO",
+    "CCCC",
+    "BYND"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -347,6 +347,27 @@
     },
     "SNAP": {
       "start_bar": "2026-10-02T12:45:00-04:00"
+    },
+    "TROX": {
+      "start_bar": "2026-10-02T12:50:00-04:00"
+    },
+    "AMZN": {
+      "start_bar": "2026-10-02T12:55:00-04:00"
+    },
+    "MLCO": {
+      "start_bar": "2026-10-02T12:50:00-04:00"
+    },
+    "BKSY": {
+      "start_bar": "2026-10-02T12:50:00-04:00"
+    },
+    "VEON": {
+      "start_bar": "2026-10-02T12:50:00-04:00"
+    },
+    "SPIR": {
+      "start_bar": "2026-10-02T12:55:00-04:00"
+    },
+    "AVEX": {
+      "start_bar": "2026-10-02T12:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -374,11 +395,6 @@
     "SRG": "small_cap_gainers",
     "VACI": "small_cap_gainers",
     "PLUG": "most_actives",
-    "CIFR": "most_actives",
-    "AAPL": "most_actives",
-    "MARA": "most_actives",
-    "HRI": "day_gainers",
-    "SLQT": "small_cap_gainers",
     "CMDB": "small_cap_gainers",
     "UEIC": "small_cap_gainers",
     "VNET": "aggressive_small_caps",
@@ -649,6 +665,11 @@
     "RXRX": "most_shorted_stocks",
     "VALE": "most_actives",
     "STRL": "day_gainers",
-    "TWIN": "small_cap_gainers"
+    "TWIN": "small_cap_gainers",
+    "RKT": "most_actives",
+    "ECHO": "day_gainers",
+    "CMCO": "small_cap_gainers",
+    "CCCC": "most_shorted_stocks",
+    "BYND": "most_shorted_stocks"
   }
 }
