@@ -64,10 +64,7 @@
     "CLSK",
     "IREN",
     "RXO",
-    "MCHP",
-    "DOCN",
     "PENG",
-    "CORZ",
     "SECZ",
     "W",
     "TXN",
@@ -317,23 +314,14 @@
     "MARA",
     "IBTA",
     "PRKS",
-    "OEC"
+    "OEC",
+    "CANG",
+    "EBON",
+    "CAPR"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "FPS": {
-      "start_bar": "2026-10-02T13:45:00-04:00"
-    },
     "IVR": {
-      "start_bar": "2026-10-02T13:45:00-04:00"
-    },
-    "RKLB": {
-      "start_bar": "2026-10-02T13:45:00-04:00"
-    },
-    "JBLU": {
-      "start_bar": "2026-10-02T13:45:00-04:00"
-    },
-    "SES": {
       "start_bar": "2026-10-02T13:45:00-04:00"
     },
     "QGEN": {
@@ -365,6 +353,18 @@
     },
     "KSS": {
       "start_bar": "2026-10-02T13:50:00-04:00"
+    },
+    "BTCT": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "SECZ": {
+      "start_bar": "2026-10-02T14:00:00-04:00"
+    },
+    "ORCL": {
+      "start_bar": "2026-10-02T14:00:00-04:00"
+    },
+    "CAPR": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -414,10 +414,7 @@
     "CLSK": "most_shorted_stocks",
     "IREN": "most_actives",
     "RXO": "day_gainers",
-    "MCHP": "day_gainers",
-    "DOCN": "day_gainers",
     "PENG": "day_gainers",
-    "CORZ": "day_gainers",
     "SECZ": "day_gainers",
     "W": "day_gainers",
     "TXN": "day_gainers",
@@ -493,7 +490,7 @@
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
-    "SEDG": "small_cap_gainers",
+    "SEDG": "day_gainers",
     "LUNR": "day_gainers",
     "INIO": "day_gainers",
     "NP": "day_gainers",
@@ -667,6 +664,9 @@
     "MARA": "most_actives",
     "IBTA": "small_cap_gainers",
     "PRKS": "small_cap_gainers",
-    "OEC": "small_cap_gainers"
+    "OEC": "small_cap_gainers",
+    "CANG": "small_cap_gainers",
+    "EBON": "small_cap_gainers",
+    "CAPR": "aggressive_small_caps+most_shorted_stocks"
   }
 }
