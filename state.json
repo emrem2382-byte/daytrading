@@ -42,10 +42,7 @@
     "PLAY",
     "OM",
     "SRG",
-    "SLDE",
-    "ADNT",
     "VACI",
-    "CCOI",
     "NOMD",
     "BH",
     "PLUG",
@@ -317,13 +314,13 @@
     "HTZ",
     "CAMT",
     "SEI",
-    "KSS"
+    "KSS",
+    "BBD",
+    "ASPSZ",
+    "NTLA"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "TRIP": {
-      "start_bar": "2026-10-02T12:15:00-04:00"
-    },
     "BAC": {
       "start_bar": "2026-10-02T12:20:00-04:00"
     },
@@ -337,6 +334,9 @@
       "start_bar": "2026-10-02T12:20:00-04:00"
     },
     "HTZ": {
+      "start_bar": "2026-10-02T12:25:00-04:00"
+    },
+    "SQNS": {
       "start_bar": "2026-10-02T12:25:00-04:00"
     }
   },
@@ -365,10 +365,7 @@
     "PLAY": "most_shorted_stocks",
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
-    "SLDE": "day_gainers",
-    "ADNT": "small_cap_gainers",
     "VACI": "small_cap_gainers",
-    "CCOI": "small_cap_gainers",
     "NOMD": "small_cap_gainers",
     "BH": "small_cap_gainers",
     "PLUG": "most_actives",
@@ -640,6 +637,9 @@
     "HTZ": "most_shorted_stocks",
     "CAMT": "day_gainers",
     "SEI": "day_gainers",
-    "KSS": "most_shorted_stocks"
+    "KSS": "most_shorted_stocks",
+    "BBD": "most_actives",
+    "ASPSZ": "small_cap_gainers",
+    "NTLA": "most_shorted_stocks"
   }
 }
