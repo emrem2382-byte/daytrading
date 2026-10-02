@@ -71,7 +71,6 @@
     "UNIT",
     "CLM",
     "FIP",
-    "XRX",
     "UPST",
     "TSLA",
     "SPCX",
@@ -317,23 +316,12 @@
     "WULF",
     "BLSM",
     "VACI",
-    "CUVL"
+    "CUVL",
+    "MRVI"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "DIOD": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
-    },
-    "ASPS": {
-      "start_bar": "2026-10-02T15:25:00-04:00"
-    },
     "GEMI": {
-      "start_bar": "2026-10-02T15:35:00-04:00"
-    },
-    "NBIS": {
-      "start_bar": "2026-10-02T15:35:00-04:00"
-    },
-    "ASX": {
       "start_bar": "2026-10-02T15:35:00-04:00"
     },
     "EOSE": {
@@ -351,14 +339,17 @@
     "MSTR": {
       "start_bar": "2026-10-02T15:40:00-04:00"
     },
-    "UWMC": {
-      "start_bar": "2026-10-02T15:45:00-04:00"
-    },
     "CVRX": {
       "start_bar": "2026-10-02T15:40:00-04:00"
     },
-    "VEON": {
-      "start_bar": "2026-10-02T15:45:00-04:00"
+    "EVGO": {
+      "start_bar": "2026-10-02T15:50:00-04:00"
+    },
+    "NP": {
+      "start_bar": "2026-10-02T15:50:00-04:00"
+    },
+    "DIN": {
+      "start_bar": "2026-10-02T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -415,7 +406,6 @@
     "UNIT": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "FIP": "aggressive_small_caps",
-    "XRX": "most_shorted_stocks",
     "UPST": "most_shorted_stocks",
     "TSLA": "most_actives",
     "SPCX": "most_actives+day_gainers",
@@ -661,6 +651,7 @@
     "WULF": "most_actives",
     "BLSM": "small_cap_gainers",
     "VACI": "small_cap_gainers",
-    "CUVL": "small_cap_gainers"
+    "CUVL": "small_cap_gainers",
+    "MRVI": "small_cap_gainers"
   }
 }
