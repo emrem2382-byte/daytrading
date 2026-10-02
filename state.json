@@ -1,6 +1,5 @@
 {
   "premarket_watchlist": [
-    "LIND",
     "SES",
     "TEAD",
     "VIOT",
@@ -10,11 +9,12 @@
     "INSG",
     "BAK",
     "FCEL",
-    "METC",
+    "VEEA",
     "EVCM",
     "WETO",
     "RFL",
-    "MTSI"
+    "MTSI",
+    "LIND"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
