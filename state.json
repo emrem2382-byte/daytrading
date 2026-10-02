@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
-    "SES",
     "TEAD",
-    "VIOT",
+    "SES",
+    "RKT",
     "OPEN",
     "VISN",
-    "RKT",
-    "INSG",
-    "BAK",
     "VEEA",
-    "SID",
+    "BAK",
     "PBF",
-    "EVCM",
     "FCEL",
+    "EVCM",
     "RFL",
-    "LIND"
+    "EOSE",
+    "LIND",
+    "MTSI",
+    "STLA"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
