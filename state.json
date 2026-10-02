@@ -36,7 +36,6 @@
     "PLAY",
     "OM",
     "SRG",
-    "VACI",
     "PLUG",
     "TMC",
     "TROX",
@@ -66,10 +65,8 @@
     "GHM",
     "GENI",
     "PENN",
-    "BRSL",
     "PMT",
     "GLAS",
-    "SRPT",
     "PRGO",
     "RC",
     "EFC",
@@ -317,16 +314,13 @@
     "GRABW",
     "ASPS",
     "ON",
-    "FLNC"
+    "FLNC",
+    "NXT",
+    "DDD",
+    "CGEM"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "CLSK": {
-      "start_bar": "2026-10-02T15:20:00-04:00"
-    },
-    "TE": {
-      "start_bar": "2026-10-02T15:25:00-04:00"
-    },
     "AZTA": {
       "start_bar": "2026-10-02T15:25:00-04:00"
     },
@@ -362,6 +356,21 @@
     },
     "CEVA": {
       "start_bar": "2026-10-02T15:30:00-04:00"
+    },
+    "EOSE": {
+      "start_bar": "2026-10-02T15:40:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-10-02T15:40:00-04:00"
+    },
+    "RIOT": {
+      "start_bar": "2026-10-02T15:40:00-04:00"
+    },
+    "VIAV": {
+      "start_bar": "2026-10-02T15:40:00-04:00"
+    },
+    "MSTR": {
+      "start_bar": "2026-10-02T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -383,7 +392,6 @@
     "PLAY": "most_shorted_stocks",
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
-    "VACI": "small_cap_gainers",
     "PLUG": "most_actives",
     "TMC": "aggressive_small_caps",
     "TROX": "aggressive_small_caps",
@@ -413,10 +421,8 @@
     "GHM": "small_cap_gainers",
     "GENI": "small_cap_gainers+aggressive_small_caps",
     "PENN": "aggressive_small_caps",
-    "BRSL": "aggressive_small_caps",
     "PMT": "aggressive_small_caps",
     "GLAS": "aggressive_small_caps",
-    "SRPT": "aggressive_small_caps",
     "PRGO": "aggressive_small_caps",
     "RC": "aggressive_small_caps",
     "EFC": "aggressive_small_caps",
@@ -664,6 +670,9 @@
     "GRABW": "small_cap_gainers",
     "ASPS": "small_cap_gainers",
     "ON": "day_gainers",
-    "FLNC": "aggressive_small_caps"
+    "FLNC": "aggressive_small_caps",
+    "NXT": "day_gainers",
+    "DDD": "small_cap_gainers",
+    "CGEM": "small_cap_gainers"
   }
 }
