@@ -21,7 +21,6 @@
     "GETY",
     "NVDA",
     "NTLA",
-    "KSS",
     "WOLF",
     "FCEL",
     "ULCC",
@@ -44,7 +43,6 @@
     "RXRX",
     "PLAY",
     "OM",
-    "SMWB",
     "SRG",
     "METC",
     "MSC",
@@ -317,19 +315,12 @@
     "SES",
     "IPHA",
     "COHR",
-    "YRD"
+    "YRD",
+    "DWSN",
+    "CTEV"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "MSC": {
-      "start_bar": "2026-10-02T11:00:00-04:00"
-    },
-    "SOC": {
-      "start_bar": "2026-10-02T12:00:00-04:00"
-    },
-    "PENN": {
-      "start_bar": "2026-10-02T12:00:00-04:00"
-    },
     "CARL": {
       "start_bar": "2026-10-02T12:00:00-04:00"
     },
@@ -342,7 +333,10 @@
     "MBX": {
       "start_bar": "2026-10-02T12:10:00-04:00"
     },
-    "ERO": {
+    "TRIP": {
+      "start_bar": "2026-10-02T12:15:00-04:00"
+    },
+    "GSIT": {
       "start_bar": "2026-10-02T12:10:00-04:00"
     }
   },
@@ -350,7 +344,6 @@
     "GETY": "aggressive_small_caps",
     "NVDA": "most_actives",
     "NTLA": "most_shorted_stocks",
-    "KSS": "most_shorted_stocks",
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
     "ULCC": "aggressive_small_caps",
@@ -373,7 +366,6 @@
     "RXRX": "most_shorted_stocks",
     "PLAY": "most_shorted_stocks",
     "OM": "small_cap_gainers",
-    "SMWB": "small_cap_gainers",
     "SRG": "small_cap_gainers",
     "METC": "aggressive_small_caps",
     "MSC": "small_cap_gainers",
@@ -646,6 +638,8 @@
     "SES": "small_cap_gainers",
     "IPHA": "small_cap_gainers",
     "COHR": "day_gainers",
-    "YRD": "small_cap_gainers"
+    "YRD": "small_cap_gainers",
+    "DWSN": "small_cap_gainers",
+    "CTEV": "small_cap_gainers"
   }
 }
