@@ -36,7 +36,6 @@
     "PLAY",
     "OM",
     "SRG",
-    "PLUG",
     "TMC",
     "TROX",
     "QDEL",
@@ -69,12 +68,9 @@
     "GLAS",
     "PRGO",
     "RC",
-    "EFC",
     "UNIT",
     "CLM",
     "FIP",
-    "TNON",
-    "JACK",
     "XRX",
     "UPST",
     "TSLA",
@@ -317,33 +313,19 @@
     "FLNC",
     "NXT",
     "DDD",
-    "CGEM"
+    "CGEM",
+    "WULF",
+    "BLSM",
+    "VACI",
+    "CUVL"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "AZTA": {
-      "start_bar": "2026-10-02T15:25:00-04:00"
-    },
     "DIOD": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
-    },
-    "IREN": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
-    },
-    "CRWV": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
-    },
-    "MARA": {
       "start_bar": "2026-10-02T15:30:00-04:00"
     },
     "ASPS": {
       "start_bar": "2026-10-02T15:25:00-04:00"
-    },
-    "ACLS": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
-    },
-    "AEHR": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
     },
     "GEMI": {
       "start_bar": "2026-10-02T15:35:00-04:00"
@@ -353,9 +335,6 @@
     },
     "ASX": {
       "start_bar": "2026-10-02T15:35:00-04:00"
-    },
-    "CEVA": {
-      "start_bar": "2026-10-02T15:30:00-04:00"
     },
     "EOSE": {
       "start_bar": "2026-10-02T15:40:00-04:00"
@@ -371,6 +350,15 @@
     },
     "MSTR": {
       "start_bar": "2026-10-02T15:40:00-04:00"
+    },
+    "UWMC": {
+      "start_bar": "2026-10-02T15:45:00-04:00"
+    },
+    "CVRX": {
+      "start_bar": "2026-10-02T15:40:00-04:00"
+    },
+    "VEON": {
+      "start_bar": "2026-10-02T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -392,7 +380,6 @@
     "PLAY": "most_shorted_stocks",
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
-    "PLUG": "most_actives",
     "TMC": "aggressive_small_caps",
     "TROX": "aggressive_small_caps",
     "QDEL": "aggressive_small_caps",
@@ -425,12 +412,9 @@
     "GLAS": "aggressive_small_caps",
     "PRGO": "aggressive_small_caps",
     "RC": "aggressive_small_caps",
-    "EFC": "aggressive_small_caps",
     "UNIT": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "FIP": "aggressive_small_caps",
-    "TNON": "most_shorted_stocks",
-    "JACK": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "UPST": "most_shorted_stocks",
     "TSLA": "most_actives",
@@ -673,6 +657,10 @@
     "FLNC": "aggressive_small_caps",
     "NXT": "day_gainers",
     "DDD": "small_cap_gainers",
-    "CGEM": "small_cap_gainers"
+    "CGEM": "small_cap_gainers",
+    "WULF": "most_actives",
+    "BLSM": "small_cap_gainers",
+    "VACI": "small_cap_gainers",
+    "CUVL": "small_cap_gainers"
   }
 }
