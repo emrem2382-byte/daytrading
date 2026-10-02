@@ -30,7 +30,6 @@
     "FUN",
     "RUN",
     "EOSE",
-    "SMTC",
     "ONDS",
     "WULF",
     "WNC",
@@ -317,15 +316,13 @@
     "CURV",
     "OLN",
     "LW",
-    "DXYZ"
+    "DXYZ",
+    "CEVA"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "SMCIP": {
       "start_bar": "2026-10-02T14:20:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-10-02T14:25:00-04:00"
     },
     "UWMC": {
       "start_bar": "2026-10-02T14:35:00-04:00"
@@ -338,6 +335,18 @@
     },
     "BJRI": {
       "start_bar": "2026-10-02T14:35:00-04:00"
+    },
+    "UPST": {
+      "start_bar": "2026-10-02T14:45:00-04:00"
+    },
+    "MPWR": {
+      "start_bar": "2026-10-02T14:45:00-04:00"
+    },
+    "AMD": {
+      "start_bar": "2026-10-02T14:45:00-04:00"
+    },
+    "OWL": {
+      "start_bar": "2026-10-02T14:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,7 +362,6 @@
     "FUN": "small_cap_gainers+aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
-    "SMTC": "day_gainers",
     "ONDS": "most_actives+most_shorted_stocks",
     "WULF": "most_actives",
     "WNC": "small_cap_gainers",
@@ -640,6 +648,7 @@
     "CURV": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "LW": "day_gainers",
-    "DXYZ": "small_cap_gainers"
+    "DXYZ": "small_cap_gainers",
+    "CEVA": "small_cap_gainers"
   }
 }
