@@ -31,7 +31,6 @@
     "RUN",
     "EOSE",
     "ONDS",
-    "WULF",
     "WNC",
     "BTCT",
     "PLAY",
@@ -317,39 +316,13 @@
     "LOCL",
     "VISN",
     "PRCH",
-    "GRABW"
+    "GRABW",
+    "ASPS"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "CTVA": {
-      "start_bar": "2026-10-02T15:10:00-04:00"
-    },
-    "NOVT": {
-      "start_bar": "2026-10-02T15:05:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-10-02T15:15:00-04:00"
-    },
-    "TTMI": {
-      "start_bar": "2026-10-02T15:15:00-04:00"
-    },
-    "YRD": {
-      "start_bar": "2026-10-02T15:10:00-04:00"
-    },
-    "SEI": {
-      "start_bar": "2026-10-02T15:15:00-04:00"
-    },
-    "CIFR": {
-      "start_bar": "2026-10-02T15:15:00-04:00"
-    },
-    "WULF": {
-      "start_bar": "2026-10-02T15:20:00-04:00"
-    },
     "RC": {
       "start_bar": "2026-10-02T15:20:00-04:00"
-    },
-    "NP": {
-      "start_bar": "2026-10-02T15:15:00-04:00"
     },
     "BBAI": {
       "start_bar": "2026-10-02T15:20:00-04:00"
@@ -360,13 +333,31 @@
     "VISN": {
       "start_bar": "2026-10-02T15:20:00-04:00"
     },
-    "ACLS": {
-      "start_bar": "2026-10-02T15:25:00-04:00"
-    },
     "TE": {
       "start_bar": "2026-10-02T15:25:00-04:00"
     },
     "AZTA": {
+      "start_bar": "2026-10-02T15:25:00-04:00"
+    },
+    "IBRX": {
+      "start_bar": "2026-10-02T15:30:00-04:00"
+    },
+    "DIOD": {
+      "start_bar": "2026-10-02T15:30:00-04:00"
+    },
+    "IREN": {
+      "start_bar": "2026-10-02T15:30:00-04:00"
+    },
+    "CRWV": {
+      "start_bar": "2026-10-02T15:30:00-04:00"
+    },
+    "AARD": {
+      "start_bar": "2026-10-02T15:25:00-04:00"
+    },
+    "MARA": {
+      "start_bar": "2026-10-02T15:30:00-04:00"
+    },
+    "ASPS": {
       "start_bar": "2026-10-02T15:25:00-04:00"
     }
   },
@@ -384,7 +375,6 @@
     "RUN": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "ONDS": "most_actives+most_shorted_stocks",
-    "WULF": "most_actives",
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
     "PLAY": "most_shorted_stocks",
@@ -670,6 +660,7 @@
     "LOCL": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "PRCH": "day_gainers",
-    "GRABW": "small_cap_gainers"
+    "GRABW": "small_cap_gainers",
+    "ASPS": "small_cap_gainers"
   }
 }
