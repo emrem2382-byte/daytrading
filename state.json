@@ -40,11 +40,7 @@
     "FUN",
     "RUN",
     "FLNC",
-    "FLX",
     "EOSE",
-    "IPGP",
-    "SNAP",
-    "TH",
     "SMR",
     "AIFU",
     "SPRO",
@@ -317,19 +313,14 @@
     "SSP",
     "GSIT",
     "SILC",
-    "EVH"
+    "EVH",
+    "JBS",
+    "PPC",
+    "AMRC",
+    "FOA"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "KSS": {
-      "start_bar": "2026-10-02T10:00:00-04:00"
-    },
-    "FIVN": {
-      "start_bar": "2026-10-02T10:00:00-04:00"
-    },
-    "PRGO": {
-      "start_bar": "2026-10-02T10:00:00-04:00"
-    },
     "AAL": {
       "start_bar": "2026-10-02T10:05:00-04:00"
     },
@@ -337,6 +328,12 @@
       "start_bar": "2026-10-02T10:05:00-04:00"
     },
     "EVH": {
+      "start_bar": "2026-10-02T10:10:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-10-02T10:10:00-04:00"
+    },
+    "CVRX": {
       "start_bar": "2026-10-02T10:10:00-04:00"
     }
   },
@@ -350,10 +347,10 @@
     "FCEL": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers+aggressive_small_caps",
+    "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
     "EVGO": "most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
+    "CCCC": "small_cap_gainers+most_shorted_stocks",
     "MSTR": "most_actives",
     "CRDO": "day_gainers",
     "NVAX": "most_shorted_stocks",
@@ -363,11 +360,7 @@
     "FUN": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
     "FLNC": "aggressive_small_caps",
-    "FLX": "small_cap_gainers",
     "EOSE": "most_shorted_stocks",
-    "IPGP": "day_gainers",
-    "SNAP": "most_actives",
-    "TH": "day_gainers",
     "SMR": "most_actives",
     "AIFU": "small_cap_gainers",
     "SPRO": "small_cap_gainers",
@@ -462,7 +455,7 @@
     "NOMD": "small_cap_gainers",
     "BH": "small_cap_gainers",
     "PLUG": "most_actives",
-    "CIFR": "most_actives+day_gainers",
+    "CIFR": "most_actives",
     "AAPL": "most_actives",
     "MARA": "most_actives+day_gainers",
     "HRI": "day_gainers",
@@ -549,7 +542,7 @@
     "EFC": "aggressive_small_caps",
     "UNIT": "day_gainers",
     "CLM": "aggressive_small_caps",
-    "FIP": "aggressive_small_caps",
+    "FIP": "small_cap_gainers+aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -640,6 +633,10 @@
     "SSP": "small_cap_gainers",
     "GSIT": "small_cap_gainers",
     "SILC": "small_cap_gainers",
-    "EVH": "aggressive_small_caps"
+    "EVH": "aggressive_small_caps",
+    "JBS": "day_gainers",
+    "PPC": "day_gainers",
+    "AMRC": "small_cap_gainers",
+    "FOA": "small_cap_gainers"
   }
 }
