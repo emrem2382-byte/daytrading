@@ -69,7 +69,6 @@
     "MYGN",
     "FEAM",
     "CABO",
-    "MCRB",
     "AOUT",
     "GHM",
     "CUVL",
@@ -317,17 +316,12 @@
     "PICS",
     "CURV",
     "OLN",
-    "LW"
+    "LW",
+    "DXYZ"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "LIFE": {
-      "start_bar": "2026-10-02T14:15:00-04:00"
-    },
     "TE": {
-      "start_bar": "2026-10-02T14:20:00-04:00"
-    },
-    "EQPT": {
       "start_bar": "2026-10-02T14:20:00-04:00"
     },
     "SMCIP": {
@@ -395,7 +389,6 @@
     "MYGN": "small_cap_gainers",
     "FEAM": "small_cap_gainers",
     "CABO": "small_cap_gainers",
-    "MCRB": "small_cap_gainers",
     "AOUT": "small_cap_gainers",
     "GHM": "small_cap_gainers",
     "CUVL": "small_cap_gainers",
@@ -643,6 +636,7 @@
     "PICS": "small_cap_gainers",
     "CURV": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "LW": "day_gainers"
+    "LW": "day_gainers",
+    "DXYZ": "small_cap_gainers"
   }
 }
