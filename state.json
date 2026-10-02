@@ -42,7 +42,6 @@
     "WULF",
     "WNC",
     "BTCT",
-    "QUBT",
     "FRVO",
     "PACB",
     "MAT",
@@ -317,7 +316,8 @@
     "MTRN",
     "NTAP",
     "ATRA",
-    "NPO"
+    "NPO",
+    "ARW"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -359,7 +359,6 @@
     "WULF": "most_actives",
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
-    "QUBT": "most_shorted_stocks",
     "FRVO": "day_gainers",
     "PACB": "small_cap_gainers",
     "MAT": "most_actives+day_gainers",
@@ -410,7 +409,7 @@
     "TMC": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "TROX": "aggressive_small_caps",
-    "QDEL": "aggressive_small_caps",
+    "QDEL": "small_cap_gainers+aggressive_small_caps",
     "HAPN": "aggressive_small_caps",
     "SLS": "most_shorted_stocks",
     "SYNA": "day_gainers",
@@ -486,12 +485,12 @@
     "EFC": "aggressive_small_caps",
     "UNIT": "day_gainers",
     "CLM": "aggressive_small_caps",
-    "FIP": "small_cap_gainers+aggressive_small_caps",
+    "FIP": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
     "UPST": "most_shorted_stocks",
-    "TSLA": "most_actives",
+    "TSLA": "most_actives+day_gainers",
     "SPCX": "most_actives+day_gainers",
     "PCG": "most_actives",
     "VIRT": "day_gainers",
@@ -523,7 +522,7 @@
     "ZEPP": "small_cap_gainers",
     "ARCO": "aggressive_small_caps",
     "GRAB": "most_actives",
-    "RKLB": "most_actives+day_gainers",
+    "RKLB": "most_actives",
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
@@ -634,6 +633,7 @@
     "MTRN": "day_gainers",
     "NTAP": "day_gainers",
     "ATRA": "small_cap_gainers",
-    "NPO": "day_gainers"
+    "NPO": "day_gainers",
+    "ARW": "day_gainers"
   }
 }
