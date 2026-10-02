@@ -43,9 +43,7 @@
     "BTCT",
     "RXRX",
     "PLAY",
-    "IOT",
     "OM",
-    "GTLB",
     "SMWB",
     "SRG",
     "METC",
@@ -317,18 +315,14 @@
     "RRGB",
     "NOVT",
     "SES",
-    "IPHA"
+    "IPHA",
+    "COHR",
+    "YRD"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "MSC": {
       "start_bar": "2026-10-02T11:00:00-04:00"
-    },
-    "ULCC": {
-      "start_bar": "2026-10-02T11:55:00-04:00"
-    },
-    "ARCO": {
-      "start_bar": "2026-10-02T11:55:00-04:00"
     },
     "SOC": {
       "start_bar": "2026-10-02T12:00:00-04:00"
@@ -344,6 +338,12 @@
     },
     "EVH": {
       "start_bar": "2026-10-02T12:00:00-04:00"
+    },
+    "MBX": {
+      "start_bar": "2026-10-02T12:10:00-04:00"
+    },
+    "ERO": {
+      "start_bar": "2026-10-02T12:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,9 +372,7 @@
     "BTCT": "most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
     "PLAY": "most_shorted_stocks",
-    "IOT": "day_gainers",
     "OM": "small_cap_gainers",
-    "GTLB": "day_gainers",
     "SMWB": "small_cap_gainers",
     "SRG": "small_cap_gainers",
     "METC": "aggressive_small_caps",
@@ -646,6 +644,8 @@
     "RRGB": "small_cap_gainers",
     "NOVT": "day_gainers",
     "SES": "small_cap_gainers",
-    "IPHA": "small_cap_gainers"
+    "IPHA": "small_cap_gainers",
+    "COHR": "day_gainers",
+    "YRD": "small_cap_gainers"
   }
 }
