@@ -44,9 +44,6 @@
     "SMR",
     "SOFI",
     "RKT",
-    "GEV",
-    "IDCC",
-    "AN",
     "FIVN",
     "SMTC",
     "INTC",
@@ -317,13 +314,13 @@
     "SPIR",
     "FWRD",
     "SMCIP",
-    "AUROW"
+    "AUROW",
+    "LIFE",
+    "TXG",
+    "ANGX"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "EVH": {
-      "start_bar": "2026-10-02T10:10:00-04:00"
-    },
     "COUR": {
       "start_bar": "2026-10-02T10:10:00-04:00"
     },
@@ -333,13 +330,16 @@
     "HTZ": {
       "start_bar": "2026-10-02T10:20:00-04:00"
     },
-    "BL": {
-      "start_bar": "2026-10-02T10:20:00-04:00"
-    },
     "GPI": {
       "start_bar": "2026-10-02T10:15:00-04:00"
     },
     "PLAY": {
+      "start_bar": "2026-10-02T10:20:00-04:00"
+    },
+    "MSC": {
+      "start_bar": "2026-10-02T10:20:00-04:00"
+    },
+    "CMDB": {
       "start_bar": "2026-10-02T10:20:00-04:00"
     }
   },
@@ -353,7 +353,7 @@
     "FCEL": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
-    "ULCC": "small_cap_gainers+aggressive_small_caps",
+    "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
@@ -370,9 +370,6 @@
     "SMR": "most_actives",
     "SOFI": "most_actives",
     "RKT": "most_actives",
-    "GEV": "day_gainers",
-    "IDCC": "day_gainers",
-    "AN": "day_gainers",
     "FIVN": "day_gainers",
     "SMTC": "day_gainers",
     "INTC": "most_actives",
@@ -524,7 +521,7 @@
     "CORZW": "small_cap_gainers",
     "SLDPW": "small_cap_gainers",
     "LAC": "aggressive_small_caps",
-    "GENI": "small_cap_gainers+aggressive_small_caps",
+    "GENI": "aggressive_small_caps",
     "ORC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
@@ -538,7 +535,7 @@
     "EFC": "aggressive_small_caps",
     "UNIT": "day_gainers",
     "CLM": "aggressive_small_caps",
-    "FIP": "small_cap_gainers+aggressive_small_caps",
+    "FIP": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -643,6 +640,9 @@
     "SPIR": "small_cap_gainers",
     "FWRD": "small_cap_gainers",
     "SMCIP": "small_cap_gainers",
-    "AUROW": "small_cap_gainers"
+    "AUROW": "small_cap_gainers",
+    "LIFE": "day_gainers",
+    "TXG": "day_gainers",
+    "ANGX": "aggressive_small_caps"
   }
 }
