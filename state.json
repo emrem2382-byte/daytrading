@@ -66,7 +66,6 @@
     "MYGN",
     "FEAM",
     "CABO",
-    "AOUT",
     "GHM",
     "CUVL",
     "AHT-PD",
@@ -317,29 +316,15 @@
     "DXYZ",
     "CEVA",
     "SMTC",
-    "SHOE"
+    "SHOE",
+    "HRI"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "AEHR": {
-      "start_bar": "2026-10-02T14:40:00-04:00"
-    },
     "FTK": {
       "start_bar": "2026-10-02T14:35:00-04:00"
     },
     "UPST": {
-      "start_bar": "2026-10-02T14:45:00-04:00"
-    },
-    "MPWR": {
-      "start_bar": "2026-10-02T14:45:00-04:00"
-    },
-    "AMD": {
-      "start_bar": "2026-10-02T14:45:00-04:00"
-    },
-    "OWL": {
-      "start_bar": "2026-10-02T14:45:00-04:00"
-    },
-    "TROX": {
       "start_bar": "2026-10-02T14:45:00-04:00"
     },
     "CLM": {
@@ -353,6 +338,24 @@
     },
     "EVH": {
       "start_bar": "2026-10-02T14:50:00-04:00"
+    },
+    "XRX": {
+      "start_bar": "2026-10-02T15:00:00-04:00"
+    },
+    "GCTS": {
+      "start_bar": "2026-10-02T15:00:00-04:00"
+    },
+    "CDNL": {
+      "start_bar": "2026-10-02T14:55:00-04:00"
+    },
+    "AMRC": {
+      "start_bar": "2026-10-02T15:00:00-04:00"
+    },
+    "CAR": {
+      "start_bar": "2026-10-02T15:00:00-04:00"
+    },
+    "PRKS": {
+      "start_bar": "2026-10-02T15:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -404,7 +407,6 @@
     "MYGN": "small_cap_gainers",
     "FEAM": "small_cap_gainers",
     "CABO": "small_cap_gainers",
-    "AOUT": "small_cap_gainers",
     "GHM": "small_cap_gainers",
     "CUVL": "small_cap_gainers",
     "AHT-PD": "small_cap_gainers",
@@ -655,6 +657,7 @@
     "DXYZ": "small_cap_gainers",
     "CEVA": "small_cap_gainers",
     "SMTC": "day_gainers",
-    "SHOE": "most_shorted_stocks"
+    "SHOE": "most_shorted_stocks",
+    "HRI": "day_gainers"
   }
 }
