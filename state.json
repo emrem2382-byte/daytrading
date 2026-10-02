@@ -25,7 +25,6 @@
     "WOLF",
     "HTZ",
     "FCEL",
-    "TEAD",
     "JBLU",
     "ULCC",
     "OCGN",
@@ -33,7 +32,6 @@
     "CCCC",
     "MSTR",
     "CRDO",
-    "NVAX",
     "NOK",
     "VISN",
     "MXL",
@@ -317,13 +315,12 @@
     "OPENW",
     "NWCLW",
     "EROC",
-    "MEI"
+    "MEI",
+    "AGL",
+    "SCNI"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "CRMT": {
-      "start_bar": "2026-10-02T10:25:00-04:00"
-    },
     "SMR": {
       "start_bar": "2026-10-02T10:40:00-04:00"
     }
@@ -336,7 +333,6 @@
     "WOLF": "small_cap_gainers+most_shorted_stocks",
     "HTZ": "most_shorted_stocks",
     "FCEL": "most_shorted_stocks",
-    "TEAD": "aggressive_small_caps",
     "JBLU": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
@@ -344,7 +340,6 @@
     "CCCC": "most_shorted_stocks",
     "MSTR": "most_actives",
     "CRDO": "day_gainers",
-    "NVAX": "most_shorted_stocks",
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
     "MXL": "day_gainers",
@@ -628,6 +623,8 @@
     "OPENW": "small_cap_gainers",
     "NWCLW": "small_cap_gainers",
     "EROC": "small_cap_gainers",
-    "MEI": "small_cap_gainers"
+    "MEI": "small_cap_gainers",
+    "AGL": "small_cap_gainers",
+    "SCNI": "most_shorted_stocks"
   }
 }
