@@ -26,7 +26,6 @@
     "OCGN",
     "EVGO",
     "NOK",
-    "VISN",
     "MXL",
     "FUN",
     "RUN",
@@ -317,13 +316,11 @@
     "ARM",
     "PICS",
     "CURV",
-    "OLN"
+    "OLN",
+    "LW"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "ACLS": {
-      "start_bar": "2026-10-02T14:10:00-04:00"
-    },
     "LIFE": {
       "start_bar": "2026-10-02T14:15:00-04:00"
     },
@@ -333,14 +330,17 @@
     "EQPT": {
       "start_bar": "2026-10-02T14:20:00-04:00"
     },
-    "AEHR": {
-      "start_bar": "2026-10-02T14:25:00-04:00"
-    },
     "SMCIP": {
       "start_bar": "2026-10-02T14:20:00-04:00"
     },
     "ARXS": {
       "start_bar": "2026-10-02T14:20:00-04:00"
+    },
+    "DNA": {
+      "start_bar": "2026-10-02T14:25:00-04:00"
+    },
+    "NTLA": {
+      "start_bar": "2026-10-02T14:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,7 +352,6 @@
     "OCGN": "most_shorted_stocks",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
     "NOK": "most_actives",
-    "VISN": "aggressive_small_caps",
     "MXL": "day_gainers",
     "FUN": "small_cap_gainers+aggressive_small_caps",
     "RUN": "most_shorted_stocks",
@@ -643,6 +642,7 @@
     "ARM": "day_gainers",
     "PICS": "small_cap_gainers",
     "CURV": "small_cap_gainers",
-    "OLN": "aggressive_small_caps"
+    "OLN": "aggressive_small_caps",
+    "LW": "day_gainers"
   }
 }
