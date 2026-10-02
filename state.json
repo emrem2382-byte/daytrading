@@ -68,10 +68,6 @@
     "CABO",
     "GHM",
     "CUVL",
-    "AHT-PD",
-    "CORZW",
-    "SLDPW",
-    "LAC",
     "GENI",
     "ORC",
     "IVR",
@@ -317,28 +313,14 @@
     "CEVA",
     "SMTC",
     "SHOE",
-    "HRI"
+    "HRI",
+    "CDE",
+    "FNKO",
+    "AHT",
+    "CLSK"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "FTK": {
-      "start_bar": "2026-10-02T14:35:00-04:00"
-    },
-    "UPST": {
-      "start_bar": "2026-10-02T14:45:00-04:00"
-    },
-    "CLM": {
-      "start_bar": "2026-10-02T14:50:00-04:00"
-    },
-    "ENTG": {
-      "start_bar": "2026-10-02T14:50:00-04:00"
-    },
-    "TWST": {
-      "start_bar": "2026-10-02T14:50:00-04:00"
-    },
-    "EVH": {
-      "start_bar": "2026-10-02T14:50:00-04:00"
-    },
     "XRX": {
       "start_bar": "2026-10-02T15:00:00-04:00"
     },
@@ -351,11 +333,17 @@
     "AMRC": {
       "start_bar": "2026-10-02T15:00:00-04:00"
     },
-    "CAR": {
-      "start_bar": "2026-10-02T15:00:00-04:00"
-    },
     "PRKS": {
       "start_bar": "2026-10-02T15:00:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-10-02T15:00:00-04:00"
+    },
+    "FEAM": {
+      "start_bar": "2026-10-02T15:05:00-04:00"
+    },
+    "NP": {
+      "start_bar": "2026-10-02T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -409,10 +397,6 @@
     "CABO": "small_cap_gainers",
     "GHM": "small_cap_gainers",
     "CUVL": "small_cap_gainers",
-    "AHT-PD": "small_cap_gainers",
-    "CORZW": "small_cap_gainers",
-    "SLDPW": "small_cap_gainers",
-    "LAC": "aggressive_small_caps",
     "GENI": "small_cap_gainers+aggressive_small_caps",
     "ORC": "aggressive_small_caps",
     "IVR": "aggressive_small_caps",
@@ -658,6 +642,10 @@
     "CEVA": "small_cap_gainers",
     "SMTC": "day_gainers",
     "SHOE": "most_shorted_stocks",
-    "HRI": "day_gainers"
+    "HRI": "day_gainers",
+    "CDE": "most_actives",
+    "FNKO": "small_cap_gainers",
+    "AHT": "small_cap_gainers",
+    "CLSK": "most_shorted_stocks"
   }
 }
