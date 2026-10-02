@@ -42,11 +42,6 @@
     "WULF",
     "WNC",
     "BTCT",
-    "FRVO",
-    "PACB",
-    "MAT",
-    "NICE",
-    "EGHT",
     "GPI",
     "IIIV",
     "CPS",
@@ -317,13 +312,15 @@
     "NTAP",
     "ATRA",
     "NPO",
-    "ARW"
+    "ARW",
+    "LSCC",
+    "LFUS",
+    "MCHPP",
+    "NSTR-WT",
+    "JBLU"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "SITC": {
-      "start_bar": "2026-10-02T11:10:00-04:00"
-    },
     "MSC": {
       "start_bar": "2026-10-02T11:00:00-04:00"
     },
@@ -332,6 +329,9 @@
     },
     "ATRA": {
       "start_bar": "2026-10-02T11:15:00-04:00"
+    },
+    "CRMT": {
+      "start_bar": "2026-10-02T11:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,11 +359,6 @@
     "WULF": "most_actives",
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
-    "FRVO": "day_gainers",
-    "PACB": "small_cap_gainers",
-    "MAT": "most_actives+day_gainers",
-    "NICE": "day_gainers",
-    "EGHT": "small_cap_gainers",
     "GPI": "day_gainers",
     "IIIV": "small_cap_gainers",
     "CPS": "small_cap_gainers",
@@ -526,7 +521,7 @@
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
-    "SEDG": "day_gainers",
+    "SEDG": "small_cap_gainers",
     "LUNR": "day_gainers",
     "INIO": "day_gainers",
     "NP": "day_gainers",
@@ -634,6 +629,11 @@
     "NTAP": "day_gainers",
     "ATRA": "small_cap_gainers",
     "NPO": "day_gainers",
-    "ARW": "day_gainers"
+    "ARW": "day_gainers",
+    "LSCC": "day_gainers",
+    "LFUS": "day_gainers",
+    "MCHPP": "small_cap_gainers",
+    "NSTR-WT": "small_cap_gainers",
+    "JBLU": "aggressive_small_caps"
   }
 }
