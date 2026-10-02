@@ -64,8 +64,6 @@
     "CLSK",
     "IREN",
     "RXO",
-    "MKSI",
-    "BULL",
     "MCHP",
     "DOCN",
     "PENG",
@@ -317,28 +315,12 @@
     "ACCV",
     "MEC",
     "MARA",
-    "IBTA"
+    "IBTA",
+    "PRKS",
+    "OEC"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "IPHA": {
-      "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "BBBYW": {
-      "start_bar": "2026-10-02T13:35:00-04:00"
-    },
-    "EFC": {
-      "start_bar": "2026-10-02T13:35:00-04:00"
-    },
-    "OPTU": {
-      "start_bar": "2026-10-02T13:35:00-04:00"
-    },
-    "TEAD": {
-      "start_bar": "2026-10-02T13:35:00-04:00"
-    },
-    "AMKR": {
-      "start_bar": "2026-10-02T13:40:00-04:00"
-    },
     "FPS": {
       "start_bar": "2026-10-02T13:45:00-04:00"
     },
@@ -348,19 +330,40 @@
     "RKLB": {
       "start_bar": "2026-10-02T13:45:00-04:00"
     },
-    "AARD": {
-      "start_bar": "2026-10-02T13:40:00-04:00"
-    },
     "JBLU": {
       "start_bar": "2026-10-02T13:45:00-04:00"
     },
     "SES": {
       "start_bar": "2026-10-02T13:45:00-04:00"
     },
-    "HUMA": {
+    "QGEN": {
       "start_bar": "2026-10-02T13:50:00-04:00"
     },
-    "QGEN": {
+    "NOK": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "CRWV": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "SMCI": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "ABX": {
+      "start_bar": "2026-10-02T13:50:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "EQPT": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "CTS": {
+      "start_bar": "2026-10-02T13:50:00-04:00"
+    },
+    "DNN": {
+      "start_bar": "2026-10-02T13:55:00-04:00"
+    },
+    "KSS": {
       "start_bar": "2026-10-02T13:50:00-04:00"
     }
   },
@@ -411,8 +414,6 @@
     "CLSK": "most_shorted_stocks",
     "IREN": "most_actives",
     "RXO": "day_gainers",
-    "MKSI": "day_gainers",
-    "BULL": "day_gainers",
     "MCHP": "day_gainers",
     "DOCN": "day_gainers",
     "PENG": "day_gainers",
@@ -664,6 +665,8 @@
     "ACCV": "day_gainers",
     "MEC": "small_cap_gainers",
     "MARA": "most_actives",
-    "IBTA": "small_cap_gainers"
+    "IBTA": "small_cap_gainers",
+    "PRKS": "small_cap_gainers",
+    "OEC": "small_cap_gainers"
   }
 }
