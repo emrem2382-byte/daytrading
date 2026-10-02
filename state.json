@@ -40,7 +40,6 @@
     "WULF",
     "WNC",
     "BTCT",
-    "RXRX",
     "PLAY",
     "OM",
     "SRG",
@@ -317,27 +316,28 @@
     "COHR",
     "YRD",
     "DWSN",
-    "CTEV"
+    "CTEV",
+    "HTZ"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "CARL": {
-      "start_bar": "2026-10-02T12:00:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-10-02T12:05:00-04:00"
-    },
-    "EVH": {
-      "start_bar": "2026-10-02T12:00:00-04:00"
-    },
-    "MBX": {
-      "start_bar": "2026-10-02T12:10:00-04:00"
-    },
     "TRIP": {
       "start_bar": "2026-10-02T12:15:00-04:00"
     },
     "GSIT": {
       "start_bar": "2026-10-02T12:10:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-10-02T12:15:00-04:00"
+    },
+    "SMCI": {
+      "start_bar": "2026-10-02T12:20:00-04:00"
+    },
+    "BAC": {
+      "start_bar": "2026-10-02T12:20:00-04:00"
+    },
+    "SOFI": {
+      "start_bar": "2026-10-02T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,7 +363,6 @@
     "WULF": "most_actives",
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
-    "RXRX": "most_shorted_stocks",
     "PLAY": "most_shorted_stocks",
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
@@ -640,6 +639,7 @@
     "COHR": "day_gainers",
     "YRD": "small_cap_gainers",
     "DWSN": "small_cap_gainers",
-    "CTEV": "small_cap_gainers"
+    "CTEV": "small_cap_gainers",
+    "HTZ": "most_shorted_stocks"
   }
 }
