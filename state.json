@@ -49,12 +49,6 @@
     "WULF",
     "WNC",
     "OLN",
-    "EAF",
-    "EMBC",
-    "ANDG",
-    "GRPN",
-    "STLA",
-    "CNDT",
     "KLC",
     "MTW",
     "EXFY",
@@ -317,7 +311,13 @@
     "EROC",
     "MEI",
     "AGL",
-    "SCNI"
+    "SCNI",
+    "OWL",
+    "TTMI",
+    "INSG",
+    "VOYG",
+    "RYZ",
+    "TEAD"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
@@ -357,12 +357,6 @@
     "WULF": "most_actives+day_gainers",
     "WNC": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "EAF": "small_cap_gainers",
-    "EMBC": "small_cap_gainers",
-    "ANDG": "small_cap_gainers",
-    "GRPN": "most_shorted_stocks",
-    "STLA": "most_actives",
-    "CNDT": "small_cap_gainers",
     "KLC": "small_cap_gainers",
     "MTW": "small_cap_gainers",
     "EXFY": "small_cap_gainers",
@@ -625,6 +619,12 @@
     "EROC": "small_cap_gainers",
     "MEI": "small_cap_gainers",
     "AGL": "small_cap_gainers",
-    "SCNI": "most_shorted_stocks"
+    "SCNI": "most_shorted_stocks",
+    "OWL": "most_actives",
+    "TTMI": "day_gainers",
+    "INSG": "small_cap_gainers",
+    "VOYG": "small_cap_gainers",
+    "RYZ": "small_cap_gainers",
+    "TEAD": "aggressive_small_caps"
   }
 }
