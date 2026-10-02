@@ -32,7 +32,6 @@
     "RUN",
     "EOSE",
     "SMTC",
-    "INTC",
     "ONDS",
     "WULF",
     "WNC",
@@ -56,7 +55,6 @@
     "FPS",
     "VSH",
     "HOOD",
-    "PURR",
     "GLXY",
     "IBRX",
     "SBET",
@@ -317,15 +315,14 @@
     "CWST",
     "AADX",
     "RAIL",
-    "JAKK"
+    "JAKK",
+    "VSEC",
+    "XX"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "IPHA": {
       "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "KSS": {
-      "start_bar": "2026-10-02T13:10:00-04:00"
     },
     "BRSL": {
       "start_bar": "2026-10-02T13:20:00-04:00"
@@ -341,6 +338,12 @@
     },
     "MYGN": {
       "start_bar": "2026-10-02T13:20:00-04:00"
+    },
+    "ULCC": {
+      "start_bar": "2026-10-02T13:30:00-04:00"
+    },
+    "BKSY": {
+      "start_bar": "2026-10-02T13:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,7 +361,6 @@
     "RUN": "most_shorted_stocks",
     "EOSE": "most_shorted_stocks",
     "SMTC": "day_gainers",
-    "INTC": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
     "WULF": "most_actives",
     "WNC": "small_cap_gainers",
@@ -382,7 +384,6 @@
     "FPS": "day_gainers",
     "VSH": "day_gainers",
     "HOOD": "most_actives",
-    "PURR": "day_gainers",
     "GLXY": "day_gainers",
     "IBRX": "most_actives+day_gainers",
     "SBET": "day_gainers",
@@ -480,7 +481,7 @@
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
-    "SEDG": "small_cap_gainers",
+    "SEDG": "day_gainers",
     "LUNR": "day_gainers",
     "INIO": "day_gainers",
     "NP": "day_gainers",
@@ -643,6 +644,8 @@
     "CWST": "day_gainers",
     "AADX": "day_gainers",
     "RAIL": "small_cap_gainers",
-    "JAKK": "small_cap_gainers"
+    "JAKK": "small_cap_gainers",
+    "VSEC": "day_gainers",
+    "XX": "small_cap_gainers"
   }
 }
