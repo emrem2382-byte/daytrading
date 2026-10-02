@@ -53,10 +53,7 @@
     "VECO",
     "LIF",
     "APLD",
-    "BTDR",
-    "BLSH",
     "FPS",
-    "BAND",
     "VSH",
     "HUT",
     "ASST",
@@ -317,25 +314,13 @@
     "HIMX",
     "CAR",
     "PMVP",
-    "WBX"
+    "WBX",
+    "NU",
+    "ITUB",
+    "CWST"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "VEON": {
-      "start_bar": "2026-10-02T12:50:00-04:00"
-    },
-    "SPIR": {
-      "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "HOOD": {
-      "start_bar": "2026-10-02T13:00:00-04:00"
-    },
-    "BKKT": {
-      "start_bar": "2026-10-02T12:55:00-04:00"
-    },
-    "TNON": {
-      "start_bar": "2026-10-02T12:55:00-04:00"
-    },
     "OPENW": {
       "start_bar": "2026-10-02T13:00:00-04:00"
     },
@@ -345,17 +330,11 @@
     "IPHA": {
       "start_bar": "2026-10-02T12:55:00-04:00"
     },
-    "RKT": {
-      "start_bar": "2026-10-02T13:00:00-04:00"
-    },
     "ERO": {
       "start_bar": "2026-10-02T13:00:00-04:00"
     },
     "HBB": {
       "start_bar": "2026-10-02T13:00:00-04:00"
-    },
-    "IVR": {
-      "start_bar": "2026-10-02T13:05:00-04:00"
     },
     "EFC": {
       "start_bar": "2026-10-02T13:05:00-04:00"
@@ -400,10 +379,7 @@
     "VECO": "day_gainers",
     "LIF": "day_gainers",
     "APLD": "most_actives",
-    "BTDR": "day_gainers",
-    "BLSH": "day_gainers",
     "FPS": "day_gainers",
-    "BAND": "day_gainers",
     "VSH": "day_gainers",
     "HUT": "day_gainers",
     "ASST": "day_gainers",
@@ -664,6 +640,9 @@
     "HIMX": "day_gainers",
     "CAR": "day_gainers",
     "PMVP": "small_cap_gainers",
-    "WBX": "small_cap_gainers"
+    "WBX": "small_cap_gainers",
+    "NU": "most_actives",
+    "ITUB": "most_actives",
+    "CWST": "day_gainers"
   }
 }
