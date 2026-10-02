@@ -36,18 +36,13 @@
     "MXL",
     "FUN",
     "RUN",
-    "FLNC",
     "EOSE",
-    "RKT",
     "SMTC",
     "INTC",
     "ONDS",
     "WULF",
     "WNC",
-    "OLN",
     "BTCT",
-    "INSP",
-    "ADV",
     "QUBT",
     "FRVO",
     "PACB",
@@ -317,12 +312,26 @@
     "NVAX",
     "SNAP",
     "EQPT",
-    "EXTR"
+    "EXTR",
+    "MSTR",
+    "CHRN",
+    "MTRN",
+    "NTAP",
+    "ATRA"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
     "SVCO": {
       "start_bar": "2026-10-02T11:00:00-04:00"
+    },
+    "SITC": {
+      "start_bar": "2026-10-02T11:10:00-04:00"
+    },
+    "MSC": {
+      "start_bar": "2026-10-02T11:00:00-04:00"
+    },
+    "SCNI": {
+      "start_bar": "2026-10-02T11:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -344,18 +353,13 @@
     "MXL": "day_gainers",
     "FUN": "aggressive_small_caps",
     "RUN": "most_shorted_stocks",
-    "FLNC": "aggressive_small_caps",
     "EOSE": "most_shorted_stocks",
-    "RKT": "most_actives",
     "SMTC": "day_gainers",
     "INTC": "most_actives",
     "ONDS": "most_actives+most_shorted_stocks",
     "WULF": "most_actives+day_gainers",
     "WNC": "small_cap_gainers",
-    "OLN": "aggressive_small_caps",
     "BTCT": "most_shorted_stocks",
-    "INSP": "day_gainers",
-    "ADV": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
     "FRVO": "day_gainers",
     "PACB": "small_cap_gainers",
@@ -483,7 +487,7 @@
     "EFC": "aggressive_small_caps",
     "UNIT": "day_gainers",
     "CLM": "aggressive_small_caps",
-    "FIP": "small_cap_gainers+aggressive_small_caps",
+    "FIP": "aggressive_small_caps",
     "TNON": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
     "XRX": "most_shorted_stocks",
@@ -520,7 +524,7 @@
     "ZEPP": "small_cap_gainers",
     "ARCO": "aggressive_small_caps",
     "GRAB": "most_actives",
-    "RKLB": "most_actives+day_gainers",
+    "RKLB": "most_actives",
     "CRWV": "most_actives",
     "AMZN": "most_actives",
     "SMCI": "most_actives",
@@ -625,6 +629,11 @@
     "NVAX": "most_shorted_stocks",
     "SNAP": "most_actives",
     "EQPT": "day_gainers",
-    "EXTR": "day_gainers"
+    "EXTR": "day_gainers",
+    "MSTR": "most_actives",
+    "CHRN": "day_gainers",
+    "MTRN": "day_gainers",
+    "NTAP": "day_gainers",
+    "ATRA": "small_cap_gainers"
   }
 }
