@@ -34,21 +34,7 @@
     "CCCC",
     "NNE",
     "MSTR",
-    "OI",
     "CRDO",
-    "NABL",
-    "INSG",
-    "OPENW",
-    "LITE",
-    "COHR",
-    "SYRE",
-    "STDN",
-    "BSTZ",
-    "AAOI",
-    "ROP",
-    "UI",
-    "SES",
-    "UP",
     "CCL",
     "NCNO",
     "KNSL",
@@ -317,38 +303,28 @@
     "DNA",
     "GEMI",
     "CRMT",
-    "GPRO"
+    "GPRO",
+    "AAL",
+    "MGY",
+    "CTVA",
+    "ORCL",
+    "BGC",
+    "NVTS",
+    "TER",
+    "OPENL",
+    "OSG",
+    "VPG",
+    "HBB",
+    "BSET",
+    "ZEPP",
+    "ARCO"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "ULCC": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "INSG": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "LITE": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "BSTZ": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "NVAX": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
     "AEIS": {
       "start_bar": "2026-10-02T09:30:00-04:00"
     },
-    "MXL": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
     "ACMR": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "SITM": {
       "start_bar": "2026-10-02T09:30:00-04:00"
     },
     "INOD": {
@@ -360,37 +336,13 @@
     "INTC": {
       "start_bar": "2026-10-02T09:30:00-04:00"
     },
-    "UAMY": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "WULF": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
     "FOSL": {
       "start_bar": "2026-10-02T09:30:00-04:00"
     },
     "BTCT": {
       "start_bar": "2026-10-02T09:30:00-04:00"
     },
-    "QUBT": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "RXRX": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "CDE": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "PLUG": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "TMC": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
     "CAPR": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "TROX": {
       "start_bar": "2026-10-02T09:30:00-04:00"
     },
     "NTLA": {
@@ -402,41 +354,8 @@
     "RDW": {
       "start_bar": "2026-10-02T09:35:00-04:00"
     },
-    "VYLR": {
-      "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "VIAV": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
     "WNC": {
       "start_bar": "2026-10-02T09:35:00-04:00"
-    },
-    "MEI": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "MTW": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "BAND": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "CRCL": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "POWI": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "MKSI": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "MCHP": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "W": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
-    },
-    "TXN": {
-      "start_bar": "2026-10-02T09:30:00-04:00"
     },
     "SOC": {
       "start_bar": "2026-10-02T09:35:00-04:00"
@@ -448,12 +367,6 @@
       "start_bar": "2026-10-02T09:35:00-04:00"
     },
     "KSS": {
-      "start_bar": "2026-10-02T09:40:00-04:00"
-    },
-    "COHR": {
-      "start_bar": "2026-10-01T14:55:00-04:00"
-    },
-    "SNX": {
       "start_bar": "2026-10-02T09:40:00-04:00"
     },
     "GO": {
@@ -468,7 +381,16 @@
     "MYGN": {
       "start_bar": "2026-10-02T09:35:00-04:00"
     },
-    "TWST": {
+    "OCGN": {
+      "start_bar": "2026-10-02T09:45:00-04:00"
+    },
+    "RUN": {
+      "start_bar": "2026-10-02T09:45:00-04:00"
+    },
+    "ONDS": {
+      "start_bar": "2026-10-02T09:45:00-04:00"
+    },
+    "HBB": {
       "start_bar": "2026-10-02T09:40:00-04:00"
     }
   },
@@ -488,22 +410,8 @@
     "EVGO": "most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "NNE": "most_shorted_stocks",
-    "MSTR": "day_gainers",
-    "OI": "aggressive_small_caps",
+    "MSTR": "most_actives+day_gainers",
     "CRDO": "day_gainers",
-    "NABL": "small_cap_gainers",
-    "INSG": "small_cap_gainers",
-    "OPENW": "small_cap_gainers",
-    "LITE": "day_gainers",
-    "COHR": "day_gainers",
-    "SYRE": "day_gainers",
-    "STDN": "day_gainers",
-    "BSTZ": "day_gainers",
-    "AAOI": "day_gainers",
-    "ROP": "day_gainers",
-    "UI": "day_gainers",
-    "SES": "small_cap_gainers",
-    "UP": "small_cap_gainers",
     "CCL": "most_actives",
     "NCNO": "day_gainers",
     "KNSL": "day_gainers",
@@ -666,7 +574,7 @@
     "PLUG": "most_actives",
     "CIFR": "day_gainers",
     "AAPL": "most_actives",
-    "MARA": "day_gainers",
+    "MARA": "most_actives+day_gainers",
     "HRI": "day_gainers",
     "SLQT": "small_cap_gainers",
     "CMDB": "small_cap_gainers",
@@ -707,9 +615,9 @@
     "POWI": "day_gainers",
     "MBX": "day_gainers",
     "CLSK": "day_gainers+most_shorted_stocks",
-    "BMNR": "most_actives+day_gainers",
+    "BMNR": "most_actives",
     "NXT": "day_gainers",
-    "IREN": "day_gainers",
+    "IREN": "most_actives+day_gainers",
     "RXO": "day_gainers",
     "MKSI": "day_gainers",
     "BULL": "day_gainers",
@@ -772,6 +680,20 @@
     "DNA": "small_cap_gainers",
     "GEMI": "small_cap_gainers",
     "CRMT": "small_cap_gainers",
-    "GPRO": "aggressive_small_caps"
+    "GPRO": "aggressive_small_caps",
+    "AAL": "most_actives",
+    "MGY": "most_actives",
+    "CTVA": "most_actives",
+    "ORCL": "most_actives",
+    "BGC": "day_gainers",
+    "NVTS": "day_gainers",
+    "TER": "day_gainers",
+    "OPENL": "small_cap_gainers",
+    "OSG": "small_cap_gainers",
+    "VPG": "small_cap_gainers",
+    "HBB": "small_cap_gainers",
+    "BSET": "small_cap_gainers",
+    "ZEPP": "small_cap_gainers",
+    "ARCO": "aggressive_small_caps"
   }
 }
