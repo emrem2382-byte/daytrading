@@ -49,13 +49,8 @@
     "UAMY",
     "ONDS",
     "WULF",
-    "CSIQ",
-    "SID",
     "WNC",
-    "MEI",
-    "AGL",
     "OLN",
-    "BL",
     "PDFS",
     "SAH",
     "EAF",
@@ -317,27 +312,23 @@
     "AVEX",
     "CARL",
     "CSTE",
-    "CINT"
+    "CINT",
+    "NVA",
+    "LDI",
+    "CHGG",
+    "OPENW",
+    "NWCLW"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "HTZ": {
-      "start_bar": "2026-10-02T10:20:00-04:00"
-    },
     "PLAY": {
       "start_bar": "2026-10-02T10:20:00-04:00"
     },
     "MSC": {
       "start_bar": "2026-10-02T10:20:00-04:00"
     },
-    "BL": {
-      "start_bar": "2026-10-02T10:30:00-04:00"
-    },
     "CRMT": {
       "start_bar": "2026-10-02T10:25:00-04:00"
-    },
-    "SMCIP": {
-      "start_bar": "2026-10-01T13:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,7 +343,7 @@
     "JBLU": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
-    "EVGO": "most_shorted_stocks",
+    "EVGO": "small_cap_gainers+most_shorted_stocks",
     "CCCC": "most_shorted_stocks",
     "MSTR": "most_actives",
     "CRDO": "day_gainers",
@@ -372,13 +363,8 @@
     "UAMY": "aggressive_small_caps",
     "ONDS": "most_actives+most_shorted_stocks",
     "WULF": "most_actives+day_gainers",
-    "CSIQ": "aggressive_small_caps",
-    "SID": "small_cap_gainers",
     "WNC": "small_cap_gainers",
-    "MEI": "small_cap_gainers",
-    "AGL": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "BL": "small_cap_gainers",
     "PDFS": "day_gainers",
     "SAH": "day_gainers",
     "EAF": "small_cap_gainers",
@@ -440,7 +426,7 @@
     "PLUG": "most_actives",
     "CIFR": "most_actives",
     "AAPL": "most_actives",
-    "MARA": "most_actives+day_gainers",
+    "MARA": "most_actives",
     "HRI": "day_gainers",
     "SLQT": "small_cap_gainers",
     "CMDB": "small_cap_gainers",
@@ -449,7 +435,7 @@
     "TMC": "aggressive_small_caps",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "TROX": "aggressive_small_caps",
-    "QDEL": "small_cap_gainers+aggressive_small_caps",
+    "QDEL": "aggressive_small_caps",
     "HAPN": "aggressive_small_caps",
     "SLS": "most_shorted_stocks",
     "SYNA": "day_gainers",
@@ -480,7 +466,7 @@
     "STM": "day_gainers",
     "POWI": "day_gainers",
     "MBX": "day_gainers",
-    "CLSK": "day_gainers+most_shorted_stocks",
+    "CLSK": "most_shorted_stocks",
     "BMNR": "most_actives",
     "NXT": "day_gainers",
     "IREN": "most_actives+day_gainers",
@@ -521,7 +507,7 @@
     "GLAS": "aggressive_small_caps",
     "SRPT": "aggressive_small_caps",
     "PRGO": "aggressive_small_caps",
-    "RC": "small_cap_gainers+aggressive_small_caps",
+    "RC": "aggressive_small_caps",
     "EFC": "aggressive_small_caps",
     "UNIT": "day_gainers",
     "CLM": "aggressive_small_caps",
@@ -616,7 +602,7 @@
     "SSP": "small_cap_gainers",
     "GSIT": "small_cap_gainers",
     "SILC": "small_cap_gainers",
-    "EVH": "aggressive_small_caps",
+    "EVH": "small_cap_gainers+aggressive_small_caps",
     "JBS": "day_gainers",
     "PPC": "day_gainers",
     "AMRC": "small_cap_gainers",
@@ -640,6 +626,11 @@
     "AVEX": "small_cap_gainers",
     "CARL": "small_cap_gainers",
     "CSTE": "small_cap_gainers",
-    "CINT": "small_cap_gainers"
+    "CINT": "small_cap_gainers",
+    "NVA": "day_gainers",
+    "LDI": "small_cap_gainers",
+    "CHGG": "small_cap_gainers",
+    "OPENW": "small_cap_gainers",
+    "NWCLW": "small_cap_gainers"
   }
 }
