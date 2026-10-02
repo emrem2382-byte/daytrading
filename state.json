@@ -71,11 +71,9 @@
     "UNIT",
     "CLM",
     "FIP",
-    "UPST",
     "TSLA",
     "SPCX",
     "PCG",
-    "VIRT",
     "BE",
     "GRAL",
     "HPE",
@@ -317,39 +315,35 @@
     "BLSM",
     "VACI",
     "CUVL",
-    "MRVI"
+    "MRVI",
+    "PLUG",
+    "PSKY"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "GEMI": {
-      "start_bar": "2026-10-02T15:35:00-04:00"
-    },
-    "EOSE": {
-      "start_bar": "2026-10-02T15:40:00-04:00"
-    },
-    "SLS": {
-      "start_bar": "2026-10-02T15:40:00-04:00"
-    },
-    "RIOT": {
-      "start_bar": "2026-10-02T15:40:00-04:00"
-    },
-    "VIAV": {
-      "start_bar": "2026-10-02T15:40:00-04:00"
-    },
     "MSTR": {
       "start_bar": "2026-10-02T15:40:00-04:00"
-    },
-    "CVRX": {
-      "start_bar": "2026-10-02T15:40:00-04:00"
-    },
-    "EVGO": {
-      "start_bar": "2026-10-02T15:50:00-04:00"
     },
     "NP": {
       "start_bar": "2026-10-02T15:50:00-04:00"
     },
     "DIN": {
       "start_bar": "2026-10-02T15:50:00-04:00"
+    },
+    "IBRX": {
+      "start_bar": "2026-10-02T15:55:00-04:00"
+    },
+    "HTZ": {
+      "start_bar": "2026-10-02T15:55:00-04:00"
+    },
+    "BYND": {
+      "start_bar": "2026-10-02T15:55:00-04:00"
+    },
+    "ACCV": {
+      "start_bar": "2026-10-02T15:55:00-04:00"
+    },
+    "SHOE": {
+      "start_bar": "2026-10-02T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -368,7 +362,7 @@
     "ONDS": "most_actives+most_shorted_stocks",
     "WNC": "small_cap_gainers",
     "BTCT": "most_shorted_stocks",
-    "PLAY": "most_shorted_stocks",
+    "PLAY": "small_cap_gainers+most_shorted_stocks",
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
     "TMC": "aggressive_small_caps",
@@ -406,11 +400,9 @@
     "UNIT": "aggressive_small_caps",
     "CLM": "aggressive_small_caps",
     "FIP": "aggressive_small_caps",
-    "UPST": "most_shorted_stocks",
     "TSLA": "most_actives",
     "SPCX": "most_actives+day_gainers",
     "PCG": "most_actives",
-    "VIRT": "day_gainers",
     "BE": "day_gainers",
     "GRAL": "day_gainers",
     "HPE": "day_gainers",
@@ -652,6 +644,8 @@
     "BLSM": "small_cap_gainers",
     "VACI": "small_cap_gainers",
     "CUVL": "small_cap_gainers",
-    "MRVI": "small_cap_gainers"
+    "MRVI": "small_cap_gainers",
+    "PLUG": "most_actives",
+    "PSKY": "most_actives"
   }
 }
