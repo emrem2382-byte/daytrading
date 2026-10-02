@@ -37,14 +37,7 @@
     "NOK",
     "VISN",
     "MXL",
-    "MTRX",
-    "GOTU",
-    "PARR",
-    "STEP",
-    "ZBIO",
-    "EBON",
     "FUN",
-    "VIOT",
     "NDLS",
     "TEAM",
     "BJRI",
@@ -317,22 +310,17 @@
     "ABX",
     "CDNL",
     "KWY",
-    "COUR"
+    "COUR",
+    "AAOI",
+    "TGB",
+    "ASX",
+    "BIRD",
+    "AP",
+    "BBAI",
+    "NNE"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "ONDS": {
-      "start_bar": "2026-10-02T09:45:00-04:00"
-    },
-    "UTI": {
-      "start_bar": "2026-10-02T09:45:00-04:00"
-    },
-    "AN": {
-      "start_bar": "2026-10-02T09:50:00-04:00"
-    },
-    "PMVP": {
-      "start_bar": "2026-10-02T09:50:00-04:00"
-    },
     "AGL": {
       "start_bar": "2026-10-02T09:50:00-04:00"
     },
@@ -344,6 +332,12 @@
     },
     "PRGO": {
       "start_bar": "2026-10-02T10:00:00-04:00"
+    },
+    "CNDT": {
+      "start_bar": "2026-10-02T10:05:00-04:00"
+    },
+    "AAL": {
+      "start_bar": "2026-10-02T10:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,22 +352,15 @@
     "JBLU": "aggressive_small_caps",
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
-    "EVGO": "small_cap_gainers+most_shorted_stocks",
-    "CCCC": "most_shorted_stocks",
+    "EVGO": "most_shorted_stocks",
+    "CCCC": "small_cap_gainers+most_shorted_stocks",
     "MSTR": "most_actives",
     "CRDO": "day_gainers",
     "NVAX": "most_shorted_stocks",
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
     "MXL": "day_gainers",
-    "MTRX": "small_cap_gainers",
-    "GOTU": "small_cap_gainers",
-    "PARR": "day_gainers",
-    "STEP": "day_gainers",
-    "ZBIO": "small_cap_gainers",
-    "EBON": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
-    "VIOT": "small_cap_gainers",
     "NDLS": "small_cap_gainers",
     "TEAM": "day_gainers",
     "BJRI": "small_cap_gainers",
@@ -610,7 +597,7 @@
     "RKLB": "most_actives+day_gainers",
     "CRWV": "most_actives",
     "AMZN": "most_actives",
-    "SMCI": "most_actives",
+    "SMCI": "most_actives+day_gainers",
     "SEDG": "day_gainers",
     "LUNR": "day_gainers",
     "INIO": "day_gainers",
@@ -646,6 +633,13 @@
     "ABX": "small_cap_gainers",
     "CDNL": "small_cap_gainers",
     "KWY": "small_cap_gainers",
-    "COUR": "aggressive_small_caps"
+    "COUR": "aggressive_small_caps",
+    "AAOI": "day_gainers",
+    "TGB": "day_gainers",
+    "ASX": "day_gainers",
+    "BIRD": "small_cap_gainers",
+    "AP": "small_cap_gainers",
+    "BBAI": "most_shorted_stocks",
+    "NNE": "most_shorted_stocks"
   }
 }
