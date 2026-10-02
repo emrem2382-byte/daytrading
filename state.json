@@ -25,7 +25,6 @@
     "ULCC",
     "OCGN",
     "EVGO",
-    "CRDO",
     "NOK",
     "VISN",
     "MXL",
@@ -42,7 +41,6 @@
     "OM",
     "SRG",
     "VACI",
-    "BH",
     "PLUG",
     "CIFR",
     "AAPL",
@@ -317,16 +315,12 @@
     "ASPSZ",
     "NTLA",
     "RXRX",
-    "VALE"
+    "VALE",
+    "STRL",
+    "TWIN"
   ],
   "tracked_day": "2026-10-02",
   "pending_bull": {
-    "ANGX": {
-      "start_bar": "2026-10-02T12:30:00-04:00"
-    },
-    "PMT": {
-      "start_bar": "2026-10-02T12:35:00-04:00"
-    },
     "NOK": {
       "start_bar": "2026-10-02T12:45:00-04:00"
     },
@@ -338,6 +332,21 @@
     },
     "VALE": {
       "start_bar": "2026-10-02T12:45:00-04:00"
+    },
+    "BTCT": {
+      "start_bar": "2026-10-02T12:45:00-04:00"
+    },
+    "STKE": {
+      "start_bar": "2026-10-02T12:45:00-04:00"
+    },
+    "CDNL": {
+      "start_bar": "2026-10-02T12:45:00-04:00"
+    },
+    "TRU": {
+      "start_bar": "2026-10-02T12:50:00-04:00"
+    },
+    "SNAP": {
+      "start_bar": "2026-10-02T12:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -348,7 +357,6 @@
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
     "EVGO": "small_cap_gainers+most_shorted_stocks",
-    "CRDO": "day_gainers",
     "NOK": "most_actives",
     "VISN": "aggressive_small_caps",
     "MXL": "day_gainers",
@@ -365,7 +373,6 @@
     "OM": "small_cap_gainers",
     "SRG": "small_cap_gainers",
     "VACI": "small_cap_gainers",
-    "BH": "small_cap_gainers",
     "PLUG": "most_actives",
     "CIFR": "most_actives",
     "AAPL": "most_actives",
@@ -640,6 +647,8 @@
     "ASPSZ": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
-    "VALE": "most_actives"
+    "VALE": "most_actives",
+    "STRL": "day_gainers",
+    "TWIN": "small_cap_gainers"
   }
 }
