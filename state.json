@@ -23,7 +23,6 @@
     "BTCT",
     "QDEL",
     "RXO",
-    "GENI",
     "SPCX",
     "GPRO",
     "ARCO",
@@ -46,7 +45,6 @@
     "NU",
     "ITUB",
     "MDT",
-    "HL",
     "PICS",
     "OLN",
     "SHOE",
@@ -317,13 +315,12 @@
     "ASO",
     "SLDB",
     "CERT",
-    "EOSE"
+    "EOSE",
+    "NABL",
+    "NAT"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "IOT": {
-      "start_bar": "2026-10-05T15:30:00-04:00"
-    },
     "AMX": {
       "start_bar": "2026-10-05T15:35:00-04:00"
     },
@@ -332,6 +329,15 @@
     },
     "PTC": {
       "start_bar": "2026-10-05T15:40:00-04:00"
+    },
+    "MDT": {
+      "start_bar": "2026-10-05T15:45:00-04:00"
+    },
+    "BDORY": {
+      "start_bar": "2026-10-05T15:25:00-04:00"
+    },
+    "FUTU": {
+      "start_bar": "2026-10-05T15:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -340,7 +346,6 @@
     "BTCT": "most_shorted_stocks",
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
-    "GENI": "aggressive_small_caps",
     "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
@@ -363,7 +368,6 @@
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
     "MDT": "most_actives",
-    "HL": "most_actives",
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
@@ -393,7 +397,7 @@
     "PCVX": "day_gainers",
     "PTC": "most_actives+day_gainers",
     "XP": "most_actives+day_gainers",
-    "INTR": "day_gainers",
+    "INTR": "most_actives+day_gainers",
     "PAGS": "day_gainers",
     "STNE": "most_actives+day_gainers",
     "SBS": "most_actives+day_gainers",
@@ -455,7 +459,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -634,6 +638,8 @@
     "ASO": "day_gainers",
     "SLDB": "small_cap_gainers",
     "CERT": "small_cap_gainers",
-    "EOSE": "most_shorted_stocks"
+    "EOSE": "most_shorted_stocks",
+    "NABL": "small_cap_gainers",
+    "NAT": "aggressive_small_caps"
   }
 }
