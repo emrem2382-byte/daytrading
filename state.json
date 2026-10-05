@@ -43,7 +43,6 @@
     "NTLA",
     "RXRX",
     "VALE",
-    "ECHO",
     "CMCO",
     "CCCC",
     "BYND",
@@ -317,13 +316,11 @@
     "FTRE",
     "INN",
     "LSAK",
-    "DWSN"
+    "DWSN",
+    "CRESY"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "GDS": {
-      "start_bar": "2026-10-05T12:15:00-04:00"
-    },
     "AARD": {
       "start_bar": "2026-10-05T12:10:00-04:00"
     },
@@ -347,7 +344,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -366,7 +363,6 @@
     "NTLA": "most_shorted_stocks",
     "RXRX": "most_actives+most_shorted_stocks",
     "VALE": "most_actives",
-    "ECHO": "day_gainers",
     "CMCO": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
     "BYND": "most_shorted_stocks",
@@ -640,6 +636,7 @@
     "FTRE": "day_gainers",
     "INN": "aggressive_small_caps",
     "LSAK": "small_cap_gainers",
-    "DWSN": "small_cap_gainers"
+    "DWSN": "small_cap_gainers",
+    "CRESY": "small_cap_gainers"
   }
 }
