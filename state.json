@@ -50,7 +50,6 @@
     "PICS",
     "OLN",
     "SHOE",
-    "VISN",
     "PRCH",
     "GRABW",
     "ASPS",
@@ -317,45 +316,19 @@
     "UAMY",
     "IART",
     "FOSL",
-    "IIIV"
+    "IIIV",
+    "RUN"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "NXT": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "EMBJ": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "OCGN": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "IHRT": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "BBWI": {
-      "start_bar": "2026-10-05T15:05:00-04:00"
-    },
-    "AGNC": {
-      "start_bar": "2026-10-05T15:05:00-04:00"
-    },
-    "VAL": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
     "SOUN": {
       "start_bar": "2026-10-05T15:10:00-04:00"
     },
     "BMA": {
       "start_bar": "2026-10-05T15:10:00-04:00"
     },
-    "VTEX": {
-      "start_bar": "2026-10-05T15:05:00-04:00"
-    },
     "CRESY": {
       "start_bar": "2026-10-05T15:05:00-04:00"
-    },
-    "SRPT": {
-      "start_bar": "2026-10-05T14:15:00-04:00"
     },
     "CTVA": {
       "start_bar": "2026-10-05T15:15:00-04:00"
@@ -364,6 +337,12 @@
       "start_bar": "2026-10-05T15:15:00-04:00"
     },
     "FTRE": {
+      "start_bar": "2026-10-05T15:15:00-04:00"
+    },
+    "OPTU": {
+      "start_bar": "2026-10-05T15:15:00-04:00"
+    },
+    "NBR": {
       "start_bar": "2026-10-05T15:15:00-04:00"
     }
   },
@@ -400,7 +379,6 @@
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
-    "VISN": "aggressive_small_caps",
     "PRCH": "day_gainers",
     "GRABW": "small_cap_gainers",
     "ASPS": "small_cap_gainers",
@@ -667,6 +645,7 @@
     "UAMY": "aggressive_small_caps",
     "IART": "small_cap_gainers",
     "FOSL": "small_cap_gainers",
-    "IIIV": "small_cap_gainers"
+    "IIIV": "small_cap_gainers",
+    "RUN": "most_shorted_stocks"
   }
 }
