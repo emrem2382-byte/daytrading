@@ -44,8 +44,6 @@
     "RXRX",
     "VALE",
     "CCCC",
-    "HIMX",
-    "CAR",
     "PMVP",
     "WBX",
     "NU",
@@ -317,30 +315,23 @@
     "CRESY",
     "ABUS",
     "TIGR",
-    "LOMA"
+    "LOMA",
+    "FIP",
+    "PLAY"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "AARD": {
-      "start_bar": "2026-10-05T12:10:00-04:00"
-    },
-    "ALEC": {
-      "start_bar": "2026-10-05T12:30:00-04:00"
-    },
-    "MSFT": {
-      "start_bar": "2026-10-05T12:30:00-04:00"
-    },
     "VALE": {
-      "start_bar": "2026-10-05T12:40:00-04:00"
-    },
-    "UGP": {
       "start_bar": "2026-10-05T12:40:00-04:00"
     },
     "ANF": {
       "start_bar": "2026-10-05T12:35:00-04:00"
     },
-    "GRAB": {
+    "MTUS": {
       "start_bar": "2026-10-05T12:40:00-04:00"
+    },
+    "GETY": {
+      "start_bar": "2026-10-05T12:25:00-04:00"
     }
   },
   "ticker_sources": {
@@ -370,8 +361,6 @@
     "RXRX": "most_actives+most_shorted_stocks",
     "VALE": "most_actives",
     "CCCC": "most_shorted_stocks",
-    "HIMX": "day_gainers",
-    "CAR": "day_gainers",
     "PMVP": "small_cap_gainers",
     "WBX": "small_cap_gainers",
     "NU": "most_actives+day_gainers",
@@ -506,7 +495,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -643,6 +632,8 @@
     "CRESY": "small_cap_gainers",
     "ABUS": "small_cap_gainers",
     "TIGR": "small_cap_gainers",
-    "LOMA": "small_cap_gainers"
+    "LOMA": "small_cap_gainers",
+    "FIP": "aggressive_small_caps",
+    "PLAY": "most_shorted_stocks"
   }
 }
