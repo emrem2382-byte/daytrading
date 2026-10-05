@@ -321,13 +321,7 @@
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "AMX": {
-      "start_bar": "2026-10-05T15:35:00-04:00"
-    },
     "SRPT": {
-      "start_bar": "2026-10-05T15:40:00-04:00"
-    },
-    "PTC": {
       "start_bar": "2026-10-05T15:40:00-04:00"
     },
     "MDT": {
@@ -338,6 +332,18 @@
     },
     "FUTU": {
       "start_bar": "2026-10-05T15:45:00-04:00"
+    },
+    "TMC": {
+      "start_bar": "2026-10-05T15:50:00-04:00"
+    },
+    "TEO": {
+      "start_bar": "2026-10-05T15:50:00-04:00"
+    },
+    "GETY": {
+      "start_bar": "2026-10-05T15:30:00-04:00"
+    },
+    "PRKS": {
+      "start_bar": "2026-10-05T15:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -346,16 +352,16 @@
     "BTCT": "most_shorted_stocks",
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
-    "SPCX": "most_actives",
+    "SPCX": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "COUR": "aggressive_small_caps",
-    "EVH": "aggressive_small_caps",
+    "EVH": "small_cap_gainers+aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "NVAX": "day_gainers+most_shorted_stocks",
+    "NVAX": "most_actives+day_gainers+most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
@@ -459,7 +465,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "day_gainers+most_shorted_stocks",
+    "UPST": "most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -514,7 +520,7 @@
     "ULCC": "aggressive_small_caps",
     "OCGN": "most_shorted_stocks",
     "FUTU": "day_gainers",
-    "RIG": "most_actives+day_gainers",
+    "RIG": "most_actives",
     "VAL": "day_gainers",
     "THRM": "small_cap_gainers",
     "DXC": "small_cap_gainers",
@@ -589,7 +595,7 @@
     "RES": "small_cap_gainers",
     "KLXE": "small_cap_gainers",
     "PYXS": "small_cap_gainers",
-    "FTRE": "day_gainers",
+    "FTRE": "small_cap_gainers",
     "INN": "aggressive_small_caps",
     "LSAK": "small_cap_gainers",
     "DWSN": "small_cap_gainers",
