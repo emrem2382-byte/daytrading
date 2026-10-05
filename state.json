@@ -48,9 +48,6 @@
     "PICS",
     "OLN",
     "SHOE",
-    "NXT",
-    "DDD",
-    "CGEM",
     "WULF",
     "BLSM",
     "VACI",
@@ -317,24 +314,15 @@
     "CERT",
     "EOSE",
     "NABL",
-    "NAT"
+    "NAT",
+    "EMBC",
+    "ABOS",
+    "FLNC"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "SRPT": {
-      "start_bar": "2026-10-05T15:40:00-04:00"
-    },
     "MDT": {
       "start_bar": "2026-10-05T15:45:00-04:00"
-    },
-    "BDORY": {
-      "start_bar": "2026-10-05T15:25:00-04:00"
-    },
-    "FUTU": {
-      "start_bar": "2026-10-05T15:45:00-04:00"
-    },
-    "TMC": {
-      "start_bar": "2026-10-05T15:50:00-04:00"
     },
     "TEO": {
       "start_bar": "2026-10-05T15:50:00-04:00"
@@ -344,6 +332,9 @@
     },
     "PRKS": {
       "start_bar": "2026-10-05T15:50:00-04:00"
+    },
+    "THRM": {
+      "start_bar": "2026-10-05T15:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,7 +350,7 @@
     "SOUN": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "COUR": "aggressive_small_caps",
-    "EVH": "small_cap_gainers+aggressive_small_caps",
+    "EVH": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "NVAX": "most_actives+day_gainers+most_shorted_stocks",
     "SOFI": "most_actives",
@@ -377,9 +368,6 @@
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
-    "NXT": "day_gainers",
-    "DDD": "small_cap_gainers",
-    "CGEM": "small_cap_gainers",
     "WULF": "most_actives",
     "BLSM": "small_cap_gainers",
     "VACI": "small_cap_gainers",
@@ -403,7 +391,7 @@
     "PCVX": "day_gainers",
     "PTC": "most_actives+day_gainers",
     "XP": "most_actives+day_gainers",
-    "INTR": "most_actives+day_gainers",
+    "INTR": "day_gainers",
     "PAGS": "day_gainers",
     "STNE": "most_actives+day_gainers",
     "SBS": "most_actives+day_gainers",
@@ -646,6 +634,9 @@
     "CERT": "small_cap_gainers",
     "EOSE": "most_shorted_stocks",
     "NABL": "small_cap_gainers",
-    "NAT": "aggressive_small_caps"
+    "NAT": "aggressive_small_caps",
+    "EMBC": "small_cap_gainers",
+    "ABOS": "small_cap_gainers",
+    "FLNC": "aggressive_small_caps"
   }
 }
