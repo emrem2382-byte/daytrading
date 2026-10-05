@@ -48,9 +48,7 @@
     "MDT",
     "HL",
     "PICS",
-    "CURV",
     "OLN",
-    "LW",
     "DXYZ",
     "CEVA",
     "SMTC",
@@ -317,21 +315,17 @@
     "F",
     "ALHC",
     "ZVRA",
-    "PRKS"
+    "PRKS",
+    "LIFE",
+    "VIR"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
     "AHT": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
-    "BSY": {
-      "start_bar": "2026-10-05T14:25:00-04:00"
-    },
     "AZUL": {
       "start_bar": "2026-10-05T14:05:00-04:00"
-    },
-    "DXC": {
-      "start_bar": "2026-10-05T14:25:00-04:00"
     },
     "ASAN": {
       "start_bar": "2026-10-05T14:30:00-04:00"
@@ -354,7 +348,22 @@
     "VAL": {
       "start_bar": "2026-10-05T14:30:00-04:00"
     },
-    "EHTH": {
+    "PCOR": {
+      "start_bar": "2026-10-05T14:40:00-04:00"
+    },
+    "HNVR": {
+      "start_bar": "2026-10-05T14:35:00-04:00"
+    },
+    "APPF": {
+      "start_bar": "2026-10-05T14:40:00-04:00"
+    },
+    "FOUR": {
+      "start_bar": "2026-10-05T14:35:00-04:00"
+    },
+    "ANGX": {
+      "start_bar": "2026-10-05T14:35:00-04:00"
+    },
+    "PYXS": {
       "start_bar": "2026-10-05T14:35:00-04:00"
     }
   },
@@ -389,9 +398,7 @@
     "MDT": "most_actives",
     "HL": "most_actives",
     "PICS": "small_cap_gainers",
-    "CURV": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "LW": "day_gainers",
     "DXYZ": "small_cap_gainers",
     "CEVA": "small_cap_gainers",
     "SMTC": "day_gainers",
@@ -496,7 +503,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -658,6 +665,8 @@
     "F": "most_actives",
     "ALHC": "small_cap_gainers",
     "ZVRA": "small_cap_gainers",
-    "PRKS": "small_cap_gainers"
+    "PRKS": "small_cap_gainers",
+    "LIFE": "day_gainers",
+    "VIR": "small_cap_gainers"
   }
 }
