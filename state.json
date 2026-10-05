@@ -347,6 +347,12 @@
     },
     "FOUR": {
       "start_bar": "2026-10-05T12:55:00-04:00"
+    },
+    "NVDA": {
+      "start_bar": "2026-10-05T13:00:00-04:00"
+    },
+    "CANG": {
+      "start_bar": "2026-10-05T12:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -356,7 +362,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives",
+    "SPCX": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -366,7 +372,7 @@
     "EVH": "aggressive_small_caps",
     "BAC": "most_actives",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "NVAX": "small_cap_gainers+most_shorted_stocks",
+    "NVAX": "most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
