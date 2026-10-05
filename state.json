@@ -321,12 +321,6 @@
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "FNKO": {
-      "start_bar": "2026-10-05T13:55:00-04:00"
-    },
-    "STLA": {
-      "start_bar": "2026-10-05T13:55:00-04:00"
-    },
     "GEO": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
@@ -339,14 +333,41 @@
     "SID": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
-    "VIA": {
-      "start_bar": "2026-10-05T14:00:00-04:00"
-    },
     "THRM": {
       "start_bar": "2026-10-05T14:05:00-04:00"
     },
     "HOS": {
       "start_bar": "2026-10-05T14:00:00-04:00"
+    },
+    "COUR": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "SRPT": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "XP": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "IOT": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "TDAY": {
+      "start_bar": "2026-10-05T14:10:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-10-05T14:10:00-04:00"
+    },
+    "NIO": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "TPB": {
+      "start_bar": "2026-10-05T14:10:00-04:00"
+    },
+    "CRL": {
+      "start_bar": "2026-10-05T14:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -365,7 +386,7 @@
     "COUR": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "NVAX": "small_cap_gainers+most_shorted_stocks",
+    "NVAX": "day_gainers+most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
