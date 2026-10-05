@@ -49,7 +49,6 @@
     "HL",
     "PICS",
     "OLN",
-    "DXYZ",
     "CEVA",
     "SMTC",
     "SHOE",
@@ -317,21 +316,13 @@
     "ZVRA",
     "PRKS",
     "LIFE",
-    "VIR"
+    "VIR",
+    "XZO"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
     "AHT": {
       "start_bar": "2026-10-05T14:00:00-04:00"
-    },
-    "AZUL": {
-      "start_bar": "2026-10-05T14:05:00-04:00"
-    },
-    "ASAN": {
-      "start_bar": "2026-10-05T14:30:00-04:00"
-    },
-    "PSFE": {
-      "start_bar": "2026-10-05T14:25:00-04:00"
     },
     "TRIP": {
       "start_bar": "2026-10-05T14:35:00-04:00"
@@ -365,6 +356,9 @@
     },
     "PYXS": {
       "start_bar": "2026-10-05T14:35:00-04:00"
+    },
+    "GPRO": {
+      "start_bar": "2026-10-05T14:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -399,7 +393,6 @@
     "HL": "most_actives",
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "DXYZ": "small_cap_gainers",
     "CEVA": "small_cap_gainers",
     "SMTC": "day_gainers",
     "SHOE": "most_shorted_stocks",
@@ -503,7 +496,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "day_gainers+most_shorted_stocks",
+    "UPST": "most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -667,6 +660,7 @@
     "ZVRA": "small_cap_gainers",
     "PRKS": "small_cap_gainers",
     "LIFE": "day_gainers",
-    "VIR": "small_cap_gainers"
+    "VIR": "small_cap_gainers",
+    "XZO": "small_cap_gainers"
   }
 }
