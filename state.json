@@ -36,18 +36,8 @@
     "BAC",
     "LIFE",
     "ANGX",
-    "CSTE",
     "CINT",
-    "NVA",
-    "LDI",
-    "CHGG",
-    "OPENW",
-    "NWCLW",
-    "EROC",
-    "MEI",
-    "AGL",
     "SCNI",
-    "OWL",
     "TTMI",
     "INSG",
     "VOYG",
@@ -317,23 +307,21 @@
     "KOS",
     "EFC",
     "XRX",
-    "SLS"
+    "SLS",
+    "STLA",
+    "FOUR",
+    "CRCL",
+    "FMC",
+    "REAL",
+    "ACDC",
+    "ORC",
+    "GETY",
+    "PRGO",
+    "NNE"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CCCC": {
-      "start_bar": "2026-10-05T10:00:00-04:00"
-    },
-    "BRSL": {
-      "start_bar": "2026-10-05T10:00:00-04:00"
-    },
     "EVH": {
-      "start_bar": "2026-10-05T10:00:00-04:00"
-    },
-    "CHGG": {
-      "start_bar": "2026-10-05T10:00:00-04:00"
-    },
-    "OPENW": {
       "start_bar": "2026-10-05T10:00:00-04:00"
     },
     "ANGX": {
@@ -356,6 +344,18 @@
     },
     "PMT": {
       "start_bar": "2026-10-05T10:05:00-04:00"
+    },
+    "QGEN": {
+      "start_bar": "2026-10-05T10:15:00-04:00"
+    },
+    "CHRN": {
+      "start_bar": "2026-10-05T10:10:00-04:00"
+    },
+    "DXPE": {
+      "start_bar": "2026-10-05T10:10:00-04:00"
+    },
+    "UNIT": {
+      "start_bar": "2026-10-05T10:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -377,18 +377,8 @@
     "BAC": "most_actives",
     "LIFE": "day_gainers",
     "ANGX": "aggressive_small_caps",
-    "CSTE": "small_cap_gainers",
     "CINT": "small_cap_gainers",
-    "NVA": "day_gainers",
-    "LDI": "small_cap_gainers",
-    "CHGG": "small_cap_gainers",
-    "OPENW": "small_cap_gainers",
-    "NWCLW": "small_cap_gainers",
-    "EROC": "small_cap_gainers",
-    "MEI": "small_cap_gainers",
-    "AGL": "small_cap_gainers",
     "SCNI": "most_shorted_stocks",
-    "OWL": "most_actives",
     "TTMI": "day_gainers",
     "INSG": "small_cap_gainers",
     "VOYG": "small_cap_gainers",
@@ -563,7 +553,7 @@
     "CAAP": "day_gainers",
     "GEO": "day_gainers",
     "ADSK": "day_gainers",
-    "DKNG": "most_actives",
+    "DKNG": "most_actives+day_gainers",
     "IOT": "day_gainers",
     "ANF": "day_gainers",
     "APP": "day_gainers",
@@ -658,6 +648,16 @@
     "KOS": "aggressive_small_caps",
     "EFC": "aggressive_small_caps",
     "XRX": "most_shorted_stocks",
-    "SLS": "most_shorted_stocks"
+    "SLS": "most_shorted_stocks",
+    "STLA": "most_actives",
+    "FOUR": "day_gainers",
+    "CRCL": "day_gainers",
+    "FMC": "small_cap_gainers",
+    "REAL": "small_cap_gainers",
+    "ACDC": "small_cap_gainers",
+    "ORC": "aggressive_small_caps",
+    "GETY": "aggressive_small_caps",
+    "PRGO": "aggressive_small_caps",
+    "NNE": "most_shorted_stocks"
   }
 }
