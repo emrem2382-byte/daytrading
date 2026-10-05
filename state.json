@@ -19,7 +19,6 @@
   "last_session": "open",
   "tracked_tickers": [
     "NVDA",
-    "ULCC",
     "ONDS",
     "BTCT",
     "QDEL",
@@ -34,11 +33,7 @@
     "SOUN",
     "TRIP",
     "COUR",
-    "GSIT",
-    "SILC",
     "EVH",
-    "JBS",
-    "PPC",
     "AMRC",
     "FOA",
     "BAC",
@@ -317,19 +312,15 @@
     "PAC",
     "RGNX",
     "AARD",
-    "PRPL"
+    "PRPL",
+    "BMNR",
+    "NIO",
+    "PACB",
+    "LTM",
+    "MTUS"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "OPTU": {
-      "start_bar": "2026-10-05T09:40:00-04:00"
-    },
-    "COUR": {
-      "start_bar": "2026-10-05T09:40:00-04:00"
-    },
-    "SNAP": {
-      "start_bar": "2026-10-05T09:45:00-04:00"
-    },
     "CTVA": {
       "start_bar": "2026-10-05T09:45:00-04:00"
     },
@@ -345,16 +336,18 @@
     "NVA": {
       "start_bar": "2026-10-05T09:50:00-04:00"
     },
-    "OPENW": {
-      "start_bar": "2026-10-05T09:50:00-04:00"
-    },
     "MDT": {
       "start_bar": "2026-10-05T09:55:00-04:00"
+    },
+    "CCCC": {
+      "start_bar": "2026-10-05T10:00:00-04:00"
+    },
+    "BRSL": {
+      "start_bar": "2026-10-05T10:00:00-04:00"
     }
   },
   "ticker_sources": {
     "NVDA": "most_actives",
-    "ULCC": "aggressive_small_caps",
     "ONDS": "most_actives+day_gainers+most_shorted_stocks",
     "BTCT": "most_shorted_stocks",
     "QDEL": "aggressive_small_caps",
@@ -369,11 +362,7 @@
     "SOUN": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "COUR": "aggressive_small_caps",
-    "GSIT": "small_cap_gainers",
-    "SILC": "small_cap_gainers",
     "EVH": "aggressive_small_caps",
-    "JBS": "day_gainers",
-    "PPC": "day_gainers",
     "AMRC": "small_cap_gainers",
     "FOA": "small_cap_gainers",
     "BAC": "most_actives",
@@ -558,13 +547,13 @@
     "TIMB": "day_gainers",
     "VIV": "day_gainers",
     "PBR-A": "most_actives+day_gainers",
-    "CBRS": "day_gainers",
+    "CBRS": "most_actives+day_gainers",
     "UGP": "day_gainers",
     "GGB": "day_gainers",
     "DLO": "day_gainers",
     "WDC": "day_gainers",
     "MELI": "day_gainers",
-    "BSBR": "day_gainers",
+    "BSBR": "most_actives+day_gainers",
     "PURR": "day_gainers",
     "BSY": "day_gainers",
     "GGAL": "day_gainers",
@@ -580,7 +569,7 @@
     "CAAP": "day_gainers",
     "GEO": "day_gainers",
     "ADSK": "day_gainers",
-    "DKNG": "day_gainers",
+    "DKNG": "most_actives",
     "IOT": "day_gainers",
     "ANF": "day_gainers",
     "APP": "day_gainers",
@@ -652,6 +641,11 @@
     "PAC": "day_gainers",
     "RGNX": "small_cap_gainers",
     "AARD": "small_cap_gainers",
-    "PRPL": "small_cap_gainers"
+    "PRPL": "small_cap_gainers",
+    "BMNR": "most_actives",
+    "NIO": "most_actives",
+    "PACB": "small_cap_gainers",
+    "LTM": "small_cap_gainers",
+    "MTUS": "small_cap_gainers"
   }
 }
