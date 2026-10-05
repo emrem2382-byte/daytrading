@@ -45,7 +45,6 @@
     "CCCC",
     "NU",
     "ITUB",
-    "AVT",
     "INTC",
     "MDT",
     "ACCV",
@@ -317,14 +316,12 @@
     "AMZN",
     "CARL",
     "VYLR",
-    "GRAL"
+    "GRAL",
+    "ILMN"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
     "ACCV": {
-      "start_bar": "2026-10-05T13:25:00-04:00"
-    },
-    "GGB": {
       "start_bar": "2026-10-05T13:25:00-04:00"
     },
     "GDS": {
@@ -333,22 +330,28 @@
     "FLNC": {
       "start_bar": "2026-10-05T13:30:00-04:00"
     },
-    "STX": {
-      "start_bar": "2026-10-05T13:25:00-04:00"
-    },
-    "BAK": {
-      "start_bar": "2026-10-05T13:25:00-04:00"
-    },
-    "PCVX": {
-      "start_bar": "2026-10-05T13:35:00-04:00"
-    },
     "SOHU": {
       "start_bar": "2026-10-05T13:30:00-04:00"
     },
-    "CRCL": {
+    "CAI": {
       "start_bar": "2026-10-05T13:35:00-04:00"
     },
-    "CAI": {
+    "SMTC": {
+      "start_bar": "2026-10-05T13:35:00-04:00"
+    },
+    "LCUT": {
+      "start_bar": "2026-10-05T13:35:00-04:00"
+    },
+    "DKNG": {
+      "start_bar": "2026-10-05T13:40:00-04:00"
+    },
+    "AGBK": {
+      "start_bar": "2026-10-05T13:35:00-04:00"
+    },
+    "AZUL": {
+      "start_bar": "2026-10-05T13:35:00-04:00"
+    },
+    "HMH": {
       "start_bar": "2026-10-05T13:35:00-04:00"
     }
   },
@@ -380,7 +383,6 @@
     "CCCC": "most_shorted_stocks",
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
-    "AVT": "day_gainers",
     "INTC": "most_actives",
     "MDT": "most_actives",
     "ACCV": "day_gainers",
@@ -652,6 +654,7 @@
     "AMZN": "most_actives",
     "CARL": "small_cap_gainers",
     "VYLR": "day_gainers",
-    "GRAL": "day_gainers"
+    "GRAL": "day_gainers",
+    "ILMN": "day_gainers"
   }
 }
