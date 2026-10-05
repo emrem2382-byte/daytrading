@@ -47,7 +47,6 @@
     "ITUB",
     "MDT",
     "PRKS",
-    "OEC",
     "CANG",
     "EBON",
     "CAPR",
@@ -317,19 +316,11 @@
     "BZUN",
     "ALMR",
     "EDIT",
-    "BAC"
+    "BAC",
+    "LAB"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "NXT": {
-      "start_bar": "2026-10-05T13:45:00-04:00"
-    },
-    "VNET": {
-      "start_bar": "2026-10-05T13:45:00-04:00"
-    },
-    "ANGX": {
-      "start_bar": "2026-10-05T13:40:00-04:00"
-    },
     "CEVA": {
       "start_bar": "2026-10-05T13:45:00-04:00"
     },
@@ -342,14 +333,20 @@
     "MLCO": {
       "start_bar": "2026-10-05T13:45:00-04:00"
     },
-    "FTRE": {
-      "start_bar": "2026-10-05T13:50:00-04:00"
-    },
     "FNKO": {
       "start_bar": "2026-10-05T13:55:00-04:00"
     },
     "STLA": {
       "start_bar": "2026-10-05T13:55:00-04:00"
+    },
+    "GEO": {
+      "start_bar": "2026-10-05T14:00:00-04:00"
+    },
+    "APP": {
+      "start_bar": "2026-10-05T14:00:00-04:00"
+    },
+    "BMNR": {
+      "start_bar": "2026-10-05T14:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,7 +356,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -382,7 +379,6 @@
     "ITUB": "most_actives+day_gainers",
     "MDT": "most_actives",
     "PRKS": "small_cap_gainers",
-    "OEC": "small_cap_gainers",
     "CANG": "small_cap_gainers",
     "EBON": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
@@ -607,7 +603,7 @@
     "ONT": "small_cap_gainers",
     "EVTC": "small_cap_gainers",
     "SOS": "small_cap_gainers",
-    "FUN": "aggressive_small_caps",
+    "FUN": "small_cap_gainers+aggressive_small_caps",
     "WLTH": "small_cap_gainers",
     "EHTH": "small_cap_gainers",
     "NVA": "day_gainers",
@@ -652,6 +648,7 @@
     "BZUN": "small_cap_gainers",
     "ALMR": "day_gainers",
     "EDIT": "small_cap_gainers",
-    "BAC": "most_actives"
+    "BAC": "most_actives",
+    "LAB": "small_cap_gainers"
   }
 }
