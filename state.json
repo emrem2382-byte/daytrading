@@ -321,18 +321,6 @@
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "GETY": {
-      "start_bar": "2026-10-05T12:25:00-04:00"
-    },
-    "PAC": {
-      "start_bar": "2026-10-05T12:45:00-04:00"
-    },
-    "RAIL": {
-      "start_bar": "2026-10-05T12:50:00-04:00"
-    },
-    "SHOP": {
-      "start_bar": "2026-10-05T12:50:00-04:00"
-    },
     "EFC": {
       "start_bar": "2026-10-05T12:55:00-04:00"
     },
@@ -350,6 +338,12 @@
     },
     "PRPL": {
       "start_bar": "2026-10-05T13:00:00-04:00"
+    },
+    "DNA": {
+      "start_bar": "2026-10-05T13:10:00-04:00"
+    },
+    "PACB": {
+      "start_bar": "2026-10-05T13:10:00-04:00"
     }
   },
   "ticker_sources": {
@@ -359,7 +353,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
