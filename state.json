@@ -49,7 +49,6 @@
     "HL",
     "PICS",
     "OLN",
-    "SMTC",
     "SHOE",
     "HRI",
     "CDE",
@@ -317,21 +316,13 @@
     "LIFE",
     "VIR",
     "XZO",
-    "EXFY"
+    "EXFY",
+    "GMAB"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
     "AHT": {
       "start_bar": "2026-10-05T14:00:00-04:00"
-    },
-    "STGW": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "PCOR": {
-      "start_bar": "2026-10-05T14:40:00-04:00"
-    },
-    "HNVR": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
     },
     "APPF": {
       "start_bar": "2026-10-05T14:40:00-04:00"
@@ -346,6 +337,30 @@
       "start_bar": "2026-10-05T14:50:00-04:00"
     },
     "DNN": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
+    },
+    "LCUT": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
+    },
+    "SERV": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
+    },
+    "TGE": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
+    },
+    "GPMT": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
+    },
+    "TMC": {
+      "start_bar": "2026-10-05T14:55:00-04:00"
+    },
+    "UNIT": {
+      "start_bar": "2026-10-05T14:55:00-04:00"
+    },
+    "NIO": {
+      "start_bar": "2026-10-05T14:55:00-04:00"
+    },
+    "PYXS": {
       "start_bar": "2026-10-05T14:50:00-04:00"
     }
   },
@@ -381,7 +396,6 @@
     "HL": "most_actives",
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "SMTC": "day_gainers",
     "SHOE": "most_shorted_stocks",
     "HRI": "day_gainers",
     "CDE": "most_actives",
@@ -649,6 +663,7 @@
     "LIFE": "day_gainers",
     "VIR": "small_cap_gainers",
     "XZO": "small_cap_gainers",
-    "EXFY": "small_cap_gainers"
+    "EXFY": "small_cap_gainers",
+    "GMAB": "day_gainers"
   }
 }
