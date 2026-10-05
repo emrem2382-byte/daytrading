@@ -1,22 +1,6 @@
 {
-  "premarket_watchlist": [
-    "RXO",
-    "BBD",
-    "ITUB",
-    "PICS",
-    "NU",
-    "NFE",
-    "ARCO",
-    "VALE",
-    "PPC",
-    "RRGB",
-    "JBS",
-    "CRMT",
-    "QGEN",
-    "IBRX",
-    "ACLS"
-  ],
-  "last_session": "open",
+  "premarket_watchlist": [],
+  "last_session": "closed",
   "tracked_tickers": [
     "NVDA",
     "ONDS",
