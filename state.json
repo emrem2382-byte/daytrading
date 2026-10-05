@@ -32,7 +32,6 @@
     "TRIP",
     "COUR",
     "EVH",
-    "BAC",
     "TEAD",
     "NVAX",
     "SOFI",
@@ -317,22 +316,11 @@
     "PLAY",
     "WS",
     "ZYME",
-    "RYZ"
+    "RYZ",
+    "MRNA"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "EFC": {
-      "start_bar": "2026-10-05T12:55:00-04:00"
-    },
-    "FOUR": {
-      "start_bar": "2026-10-05T12:55:00-04:00"
-    },
-    "NVDA": {
-      "start_bar": "2026-10-05T13:00:00-04:00"
-    },
-    "CANG": {
-      "start_bar": "2026-10-05T12:55:00-04:00"
-    },
     "LCUT": {
       "start_bar": "2026-10-05T13:00:00-04:00"
     },
@@ -353,7 +341,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives",
+    "SPCX": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -361,7 +349,6 @@
     "TRIP": "most_shorted_stocks",
     "COUR": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
-    "BAC": "most_actives",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "NVAX": "small_cap_gainers+most_shorted_stocks",
     "SOFI": "most_actives",
@@ -473,7 +460,7 @@
     "CAAP": "day_gainers",
     "GEO": "day_gainers",
     "ADSK": "day_gainers",
-    "DKNG": "most_actives+day_gainers",
+    "DKNG": "day_gainers",
     "IOT": "day_gainers",
     "ANF": "day_gainers",
     "APP": "day_gainers",
@@ -646,6 +633,7 @@
     "PLAY": "most_shorted_stocks",
     "WS": "small_cap_gainers",
     "ZYME": "small_cap_gainers",
-    "RYZ": "small_cap_gainers"
+    "RYZ": "small_cap_gainers",
+    "MRNA": "day_gainers"
   }
 }
