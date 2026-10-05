@@ -50,8 +50,6 @@
     "PICS",
     "OLN",
     "SHOE",
-    "CLSK",
-    "LOCL",
     "VISN",
     "PRCH",
     "GRABW",
@@ -317,26 +315,13 @@
     "NEOG",
     "SEER",
     "UAMY",
-    "IART"
+    "IART",
+    "FOSL",
+    "IIIV"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "SERV": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
-    },
-    "TGE": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
-    },
-    "GPMT": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
-    },
     "TMC": {
-      "start_bar": "2026-10-05T14:55:00-04:00"
-    },
-    "UNIT": {
-      "start_bar": "2026-10-05T14:55:00-04:00"
-    },
-    "NIO": {
       "start_bar": "2026-10-05T14:55:00-04:00"
     },
     "FLNC": {
@@ -357,9 +342,6 @@
     "PMT": {
       "start_bar": "2026-10-05T14:55:00-04:00"
     },
-    "LTM": {
-      "start_bar": "2026-10-05T14:55:00-04:00"
-    },
     "OCGN": {
       "start_bar": "2026-10-05T15:00:00-04:00"
     },
@@ -372,14 +354,23 @@
     "BBWI": {
       "start_bar": "2026-10-05T15:05:00-04:00"
     },
-    "BAK": {
-      "start_bar": "2026-10-05T15:05:00-04:00"
-    },
     "AGNC": {
       "start_bar": "2026-10-05T15:05:00-04:00"
     },
     "VAL": {
       "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "SOUN": {
+      "start_bar": "2026-10-05T15:10:00-04:00"
+    },
+    "BMA": {
+      "start_bar": "2026-10-05T15:10:00-04:00"
+    },
+    "VTEX": {
+      "start_bar": "2026-10-05T15:05:00-04:00"
+    },
+    "CRESY": {
+      "start_bar": "2026-10-05T15:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -415,8 +406,6 @@
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
-    "CLSK": "most_shorted_stocks",
-    "LOCL": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
     "PRCH": "day_gainers",
     "GRABW": "small_cap_gainers",
@@ -511,7 +500,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "day_gainers+most_shorted_stocks",
+    "UPST": "most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -682,6 +671,8 @@
     "NEOG": "day_gainers",
     "SEER": "small_cap_gainers",
     "UAMY": "aggressive_small_caps",
-    "IART": "small_cap_gainers"
+    "IART": "small_cap_gainers",
+    "FOSL": "small_cap_gainers",
+    "IIIV": "small_cap_gainers"
   }
 }
