@@ -27,7 +27,6 @@
     "SPCX",
     "GPRO",
     "ARCO",
-    "BBBYW",
     "OPTU",
     "SOUN",
     "TRIP",
@@ -38,9 +37,6 @@
     "CINT",
     "SCNI",
     "TEAD",
-    "ALMR",
-    "VIAV",
-    "AOSL",
     "HMH",
     "CMCM",
     "LITB",
@@ -317,26 +313,15 @@
     "BBAI",
     "BRBR",
     "ATEC",
-    "SCOR"
+    "SCOR",
+    "HYPMY",
+    "FWONA",
+    "SSTK",
+    "IHRT"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "ANGX": {
-      "start_bar": "2026-10-05T10:10:00-04:00"
-    },
-    "METC": {
-      "start_bar": "2026-10-05T10:10:00-04:00"
-    },
-    "DXPE": {
-      "start_bar": "2026-10-05T10:10:00-04:00"
-    },
-    "MTRN": {
-      "start_bar": "2026-10-05T10:15:00-04:00"
-    },
     "CTS": {
-      "start_bar": "2026-10-05T10:15:00-04:00"
-    },
-    "CWST": {
       "start_bar": "2026-10-05T10:15:00-04:00"
     },
     "NXT": {
@@ -348,16 +333,13 @@
     "PRKS": {
       "start_bar": "2026-10-05T10:20:00-04:00"
     },
-    "CEVA": {
-      "start_bar": "2026-10-05T10:25:00-04:00"
-    },
     "SCOR": {
       "start_bar": "2026-10-05T10:20:00-04:00"
     }
   },
   "ticker_sources": {
     "NVDA": "most_actives",
-    "ONDS": "most_actives+day_gainers+most_shorted_stocks",
+    "ONDS": "most_actives+most_shorted_stocks",
     "BTCT": "most_shorted_stocks",
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
@@ -365,7 +347,6 @@
     "SPCX": "most_actives+day_gainers",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
-    "BBBYW": "small_cap_gainers",
     "OPTU": "aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
@@ -376,9 +357,6 @@
     "CINT": "small_cap_gainers",
     "SCNI": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
-    "ALMR": "day_gainers",
-    "VIAV": "day_gainers",
-    "AOSL": "small_cap_gainers",
     "HMH": "small_cap_gainers",
     "CMCM": "small_cap_gainers",
     "LITB": "small_cap_gainers",
@@ -655,6 +633,10 @@
     "BBAI": "most_shorted_stocks",
     "BRBR": "small_cap_gainers",
     "ATEC": "small_cap_gainers",
-    "SCOR": "small_cap_gainers"
+    "SCOR": "small_cap_gainers",
+    "HYPMY": "day_gainers",
+    "FWONA": "day_gainers",
+    "SSTK": "small_cap_gainers",
+    "IHRT": "small_cap_gainers"
   }
 }
