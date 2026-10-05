@@ -35,9 +35,6 @@
     "BAC",
     "TEAD",
     "NVAX",
-    "ARW",
-    "LSCC",
-    "LFUS",
     "MCHPP",
     "NSTR-WT",
     "JBLU",
@@ -317,23 +314,14 @@
     "OIS",
     "SDGR",
     "XPRO",
-    "HMH"
+    "HMH",
+    "KLAR",
+    "CAI",
+    "EE"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "OEC": {
-      "start_bar": "2026-10-05T10:55:00-04:00"
-    },
-    "NTLA": {
-      "start_bar": "2026-10-05T11:05:00-04:00"
-    },
-    "BLSM": {
-      "start_bar": "2026-10-05T11:00:00-04:00"
-    },
     "CMCO": {
-      "start_bar": "2026-10-05T11:05:00-04:00"
-    },
-    "FNKO": {
       "start_bar": "2026-10-05T11:05:00-04:00"
     },
     "ZETA": {
@@ -358,9 +346,6 @@
     "BAC": "most_actives",
     "TEAD": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
-    "ARW": "day_gainers",
-    "LSCC": "day_gainers",
-    "LFUS": "day_gainers",
     "MCHPP": "small_cap_gainers",
     "NSTR-WT": "small_cap_gainers",
     "JBLU": "aggressive_small_caps",
@@ -640,6 +625,9 @@
     "OIS": "small_cap_gainers",
     "SDGR": "day_gainers",
     "XPRO": "small_cap_gainers",
-    "HMH": "small_cap_gainers"
+    "HMH": "small_cap_gainers",
+    "KLAR": "day_gainers",
+    "CAI": "day_gainers",
+    "EE": "small_cap_gainers"
   }
 }
