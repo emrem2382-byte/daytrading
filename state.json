@@ -34,12 +34,6 @@
     "SOUN",
     "TRIP",
     "COUR",
-    "NNE",
-    "SITM",
-    "AKAM",
-    "CVRX",
-    "BKSY",
-    "SSP",
     "GSIT",
     "SILC",
     "EVH",
@@ -317,33 +311,21 @@
     "IVR",
     "PENN",
     "UNIT",
-    "PMT"
+    "PMT",
+    "U",
+    "HSAI",
+    "PAC",
+    "RGNX",
+    "AARD",
+    "PRPL"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CARL": {
-      "start_bar": "2026-10-05T09:30:00-04:00"
-    },
-    "BRSL": {
-      "start_bar": "2026-10-05T09:35:00-04:00"
-    },
     "OPTU": {
       "start_bar": "2026-10-05T09:40:00-04:00"
     },
     "COUR": {
       "start_bar": "2026-10-05T09:40:00-04:00"
-    },
-    "VEON": {
-      "start_bar": "2026-10-05T09:35:00-04:00"
-    },
-    "CINT": {
-      "start_bar": "2026-10-05T09:35:00-04:00"
-    },
-    "ADCT": {
-      "start_bar": "2026-10-05T09:40:00-04:00"
-    },
-    "APPF": {
-      "start_bar": "2026-10-05T09:35:00-04:00"
     },
     "SNAP": {
       "start_bar": "2026-10-05T09:45:00-04:00"
@@ -351,20 +333,23 @@
     "CTVA": {
       "start_bar": "2026-10-05T09:45:00-04:00"
     },
-    "EVH": {
-      "start_bar": "2026-10-05T09:45:00-04:00"
-    },
-    "ALMR": {
-      "start_bar": "2026-10-05T09:45:00-04:00"
-    },
-    "NFLX": {
-      "start_bar": "2026-10-05T09:50:00-04:00"
-    },
     "HAPN": {
       "start_bar": "2026-10-05T09:50:00-04:00"
     },
     "TSLA": {
       "start_bar": "2026-10-05T09:50:00-04:00"
+    },
+    "FRPT": {
+      "start_bar": "2026-10-05T09:50:00-04:00"
+    },
+    "NVA": {
+      "start_bar": "2026-10-05T09:50:00-04:00"
+    },
+    "OPENW": {
+      "start_bar": "2026-10-05T09:50:00-04:00"
+    },
+    "MDT": {
+      "start_bar": "2026-10-05T09:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -384,12 +369,6 @@
     "SOUN": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "COUR": "aggressive_small_caps",
-    "NNE": "most_shorted_stocks",
-    "SITM": "day_gainers",
-    "AKAM": "day_gainers",
-    "CVRX": "small_cap_gainers",
-    "BKSY": "small_cap_gainers",
-    "SSP": "small_cap_gainers",
     "GSIT": "small_cap_gainers",
     "SILC": "small_cap_gainers",
     "EVH": "aggressive_small_caps",
@@ -487,7 +466,7 @@
     "ASPSZ": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "RXRX": "most_shorted_stocks",
-    "VALE": "most_actives",
+    "VALE": "most_actives+day_gainers",
     "STRL": "day_gainers",
     "TWIN": "small_cap_gainers",
     "RKT": "most_actives",
@@ -667,6 +646,12 @@
     "IVR": "aggressive_small_caps",
     "PENN": "aggressive_small_caps",
     "UNIT": "aggressive_small_caps",
-    "PMT": "aggressive_small_caps"
+    "PMT": "aggressive_small_caps",
+    "U": "day_gainers",
+    "HSAI": "day_gainers",
+    "PAC": "day_gainers",
+    "RGNX": "small_cap_gainers",
+    "AARD": "small_cap_gainers",
+    "PRPL": "small_cap_gainers"
   }
 }
