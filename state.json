@@ -37,7 +37,6 @@
     "NVAX",
     "SOFI",
     "ADCT",
-    "COHR",
     "YRD",
     "DWSN",
     "CTEV",
@@ -317,19 +316,11 @@
     "METCB",
     "DNN",
     "CLB",
-    "EFOR"
+    "EFOR",
+    "DH"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "SID": {
-      "start_bar": "2026-10-05T11:45:00-04:00"
-    },
-    "TNON": {
-      "start_bar": "2026-10-05T11:45:00-04:00"
-    },
-    "TMC": {
-      "start_bar": "2026-10-05T11:50:00-04:00"
-    },
     "CIFR": {
       "start_bar": "2026-10-05T11:55:00-04:00"
     },
@@ -351,8 +342,8 @@
     "PRCH": {
       "start_bar": "2026-10-05T11:55:00-04:00"
     },
-    "PLUG": {
-      "start_bar": "2026-10-05T12:00:00-04:00"
+    "STLA": {
+      "start_bar": "2026-10-05T12:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -375,7 +366,6 @@
     "NVAX": "most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
-    "COHR": "day_gainers",
     "YRD": "small_cap_gainers",
     "DWSN": "small_cap_gainers",
     "CTEV": "small_cap_gainers",
@@ -532,7 +522,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -655,6 +645,7 @@
     "METCB": "small_cap_gainers",
     "DNN": "most_actives",
     "CLB": "small_cap_gainers",
-    "EFOR": "small_cap_gainers"
+    "EFOR": "small_cap_gainers",
+    "DH": "small_cap_gainers"
   }
 }
