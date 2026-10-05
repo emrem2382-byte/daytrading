@@ -50,7 +50,6 @@
     "PICS",
     "OLN",
     "SHOE",
-    "AHT",
     "CLSK",
     "LOCL",
     "VISN",
@@ -317,16 +316,11 @@
     "GMAB",
     "NEOG",
     "SEER",
-    "UAMY"
+    "UAMY",
+    "IART"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "ABEV": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
-    },
-    "DNN": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
-    },
     "SERV": {
       "start_bar": "2026-10-05T14:50:00-04:00"
     },
@@ -374,6 +368,18 @@
     },
     "IHRT": {
       "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "BBWI": {
+      "start_bar": "2026-10-05T15:05:00-04:00"
+    },
+    "BAK": {
+      "start_bar": "2026-10-05T15:05:00-04:00"
+    },
+    "AGNC": {
+      "start_bar": "2026-10-05T15:05:00-04:00"
+    },
+    "VAL": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -409,7 +415,6 @@
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
-    "AHT": "small_cap_gainers",
     "CLSK": "most_shorted_stocks",
     "LOCL": "small_cap_gainers",
     "VISN": "aggressive_small_caps",
@@ -676,6 +681,7 @@
     "GMAB": "day_gainers",
     "NEOG": "day_gainers",
     "SEER": "small_cap_gainers",
-    "UAMY": "aggressive_small_caps"
+    "UAMY": "aggressive_small_caps",
+    "IART": "small_cap_gainers"
   }
 }
