@@ -35,11 +35,7 @@
     "BAC",
     "TEAD",
     "NVAX",
-    "MCHPP",
-    "NSTR-WT",
-    "JBLU",
     "SOFI",
-    "COHU",
     "ARCB",
     "CRT",
     "QUBT",
@@ -317,13 +313,14 @@
     "HMH",
     "KLAR",
     "CAI",
-    "EE"
+    "EE",
+    "SAN",
+    "RELY",
+    "ONT",
+    "EVTC"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CMCO": {
-      "start_bar": "2026-10-05T11:05:00-04:00"
-    },
     "ZETA": {
       "start_bar": "2026-10-05T11:15:00-04:00"
     }
@@ -346,11 +343,7 @@
     "BAC": "most_actives",
     "TEAD": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
-    "MCHPP": "small_cap_gainers",
-    "NSTR-WT": "small_cap_gainers",
-    "JBLU": "aggressive_small_caps",
     "SOFI": "most_actives",
-    "COHU": "day_gainers",
     "ARCB": "day_gainers",
     "CRT": "small_cap_gainers",
     "QUBT": "most_shorted_stocks",
@@ -628,6 +621,10 @@
     "HMH": "small_cap_gainers",
     "KLAR": "day_gainers",
     "CAI": "day_gainers",
-    "EE": "small_cap_gainers"
+    "EE": "small_cap_gainers",
+    "SAN": "most_actives",
+    "RELY": "day_gainers",
+    "ONT": "small_cap_gainers",
+    "EVTC": "small_cap_gainers"
   }
 }
