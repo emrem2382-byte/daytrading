@@ -45,8 +45,6 @@
     "CCCC",
     "NU",
     "ITUB",
-    "RAIL",
-    "JAKK",
     "VSEC",
     "XX",
     "AVT",
@@ -317,16 +315,12 @@
     "ZYME",
     "RYZ",
     "MRNA",
-    "KLRA"
+    "KLRA",
+    "AMZN",
+    "CARL"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "PRPL": {
-      "start_bar": "2026-10-05T13:00:00-04:00"
-    },
-    "DNA": {
-      "start_bar": "2026-10-05T13:10:00-04:00"
-    },
     "AVT": {
       "start_bar": "2026-10-05T13:20:00-04:00"
     },
@@ -342,7 +336,13 @@
     "GDS": {
       "start_bar": "2026-10-05T13:25:00-04:00"
     },
-    "SOHU": {
+    "FLNC": {
+      "start_bar": "2026-10-05T13:30:00-04:00"
+    },
+    "STX": {
+      "start_bar": "2026-10-05T13:25:00-04:00"
+    },
+    "BAK": {
       "start_bar": "2026-10-05T13:25:00-04:00"
     }
   },
@@ -353,7 +353,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -374,8 +374,6 @@
     "CCCC": "most_shorted_stocks",
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
-    "RAIL": "small_cap_gainers",
-    "JAKK": "small_cap_gainers",
     "VSEC": "day_gainers",
     "XX": "small_cap_gainers",
     "AVT": "day_gainers",
@@ -646,6 +644,8 @@
     "ZYME": "small_cap_gainers",
     "RYZ": "small_cap_gainers",
     "MRNA": "day_gainers",
-    "KLRA": "small_cap_gainers"
+    "KLRA": "small_cap_gainers",
+    "AMZN": "most_actives",
+    "CARL": "small_cap_gainers"
   }
 }
