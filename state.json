@@ -1,6 +1,22 @@
 {
-  "premarket_watchlist": [],
-  "last_session": "closed",
+  "premarket_watchlist": [
+    "RXO",
+    "ITUB",
+    "BBD",
+    "NU",
+    "PICS",
+    "NFE",
+    "PLAY",
+    "CGEM",
+    "SCNI",
+    "ARCO",
+    "VALE",
+    "PPC",
+    "BTCT",
+    "QGEN",
+    "CRMT"
+  ],
+  "last_session": "premarket",
   "tracked_tickers": [
     "GETY",
     "NVDA",
