@@ -46,9 +46,7 @@
     "NU",
     "ITUB",
     "MDT",
-    "CAPR",
     "HL",
-    "BULL",
     "OUST",
     "ARM",
     "PICS",
@@ -317,7 +315,9 @@
     "LAB",
     "MOBI",
     "ENOV",
-    "MGNX"
+    "MGNX",
+    "F",
+    "ALHC"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
@@ -330,34 +330,10 @@
     "XP": {
       "start_bar": "2026-10-05T14:15:00-04:00"
     },
-    "TDAY": {
-      "start_bar": "2026-10-05T14:10:00-04:00"
-    },
-    "GRPN": {
-      "start_bar": "2026-10-05T14:10:00-04:00"
-    },
-    "NIO": {
-      "start_bar": "2026-10-05T14:15:00-04:00"
-    },
-    "TPB": {
-      "start_bar": "2026-10-05T14:10:00-04:00"
-    },
     "ARM": {
       "start_bar": "2026-10-05T14:20:00-04:00"
     },
     "PCVX": {
-      "start_bar": "2026-10-05T14:20:00-04:00"
-    },
-    "ADSK": {
-      "start_bar": "2026-10-05T14:15:00-04:00"
-    },
-    "WAY": {
-      "start_bar": "2026-10-05T14:15:00-04:00"
-    },
-    "BULL": {
-      "start_bar": "2026-10-05T14:20:00-04:00"
-    },
-    "DDD": {
       "start_bar": "2026-10-05T14:20:00-04:00"
     },
     "TIMB": {
@@ -366,14 +342,26 @@
     "BSY": {
       "start_bar": "2026-10-05T14:25:00-04:00"
     },
-    "RGNX": {
-      "start_bar": "2026-10-05T14:20:00-04:00"
-    },
     "AZUL": {
       "start_bar": "2026-10-05T14:05:00-04:00"
     },
     "DXC": {
       "start_bar": "2026-10-05T14:25:00-04:00"
+    },
+    "INTR": {
+      "start_bar": "2026-10-05T14:30:00-04:00"
+    },
+    "ASAN": {
+      "start_bar": "2026-10-05T14:30:00-04:00"
+    },
+    "UNIT": {
+      "start_bar": "2026-10-05T14:30:00-04:00"
+    },
+    "PSFE": {
+      "start_bar": "2026-10-05T14:25:00-04:00"
+    },
+    "FOUR": {
+      "start_bar": "2026-10-05T14:30:00-04:00"
     }
   },
   "ticker_sources": {
@@ -392,7 +380,7 @@
     "COUR": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "NVAX": "day_gainers+most_shorted_stocks",
+    "NVAX": "small_cap_gainers+most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
@@ -405,9 +393,7 @@
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
     "MDT": "most_actives",
-    "CAPR": "aggressive_small_caps+most_shorted_stocks",
     "HL": "most_actives",
-    "BULL": "day_gainers",
     "OUST": "day_gainers",
     "ARM": "day_gainers",
     "PICS": "small_cap_gainers",
@@ -627,7 +613,7 @@
     "ONT": "small_cap_gainers",
     "EVTC": "small_cap_gainers",
     "SOS": "small_cap_gainers",
-    "FUN": "aggressive_small_caps",
+    "FUN": "small_cap_gainers+aggressive_small_caps",
     "WLTH": "small_cap_gainers",
     "EHTH": "small_cap_gainers",
     "NVA": "day_gainers",
@@ -676,6 +662,8 @@
     "LAB": "small_cap_gainers",
     "MOBI": "small_cap_gainers",
     "ENOV": "small_cap_gainers",
-    "MGNX": "small_cap_gainers"
+    "MGNX": "small_cap_gainers",
+    "F": "most_actives",
+    "ALHC": "small_cap_gainers"
   }
 }
