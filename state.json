@@ -50,7 +50,6 @@
     "PICS",
     "OLN",
     "SHOE",
-    "FLNC",
     "NXT",
     "DDD",
     "CGEM",
@@ -317,7 +316,8 @@
     "HTFL",
     "ASO",
     "SLDB",
-    "CERT"
+    "CERT",
+    "EOSE"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
@@ -326,6 +326,12 @@
     },
     "AMX": {
       "start_bar": "2026-10-05T15:35:00-04:00"
+    },
+    "SRPT": {
+      "start_bar": "2026-10-05T15:40:00-04:00"
+    },
+    "PTC": {
+      "start_bar": "2026-10-05T15:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -335,7 +341,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -361,7 +367,6 @@
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
-    "FLNC": "aggressive_small_caps",
     "NXT": "day_gainers",
     "DDD": "small_cap_gainers",
     "CGEM": "small_cap_gainers",
@@ -590,7 +595,7 @@
     "LOMA": "small_cap_gainers",
     "FIP": "aggressive_small_caps",
     "PLAY": "most_shorted_stocks",
-    "WS": "small_cap_gainers",
+    "WS": "day_gainers",
     "ZYME": "small_cap_gainers",
     "RYZ": "small_cap_gainers",
     "MRNA": "day_gainers",
@@ -628,6 +633,7 @@
     "HTFL": "day_gainers",
     "ASO": "day_gainers",
     "SLDB": "small_cap_gainers",
-    "CERT": "small_cap_gainers"
+    "CERT": "small_cap_gainers",
+    "EOSE": "most_shorted_stocks"
   }
 }
