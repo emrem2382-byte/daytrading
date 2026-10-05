@@ -37,10 +37,7 @@
     "NVAX",
     "SOFI",
     "ADCT",
-    "DWSN",
-    "CTEV",
     "HTZ",
-    "CAMT",
     "SEI",
     "KSS",
     "BBD",
@@ -317,18 +314,15 @@
     "CLB",
     "EFOR",
     "DH",
-    "AZTA"
+    "AZTA",
+    "CRL",
+    "RES",
+    "KLXE"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "PMVP": {
-      "start_bar": "2026-10-05T11:55:00-04:00"
-    },
     "SHOE": {
       "start_bar": "2026-10-05T12:00:00-04:00"
-    },
-    "PRCH": {
-      "start_bar": "2026-10-05T11:55:00-04:00"
     },
     "STLA": {
       "start_bar": "2026-10-05T12:05:00-04:00"
@@ -350,6 +344,15 @@
     },
     "NMRA": {
       "start_bar": "2026-10-05T12:10:00-04:00"
+    },
+    "GDS": {
+      "start_bar": "2026-10-05T12:15:00-04:00"
+    },
+    "AARD": {
+      "start_bar": "2026-10-05T12:10:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-10-05T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,10 +375,7 @@
     "NVAX": "most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
-    "DWSN": "small_cap_gainers",
-    "CTEV": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
-    "CAMT": "day_gainers",
     "SEI": "day_gainers",
     "KSS": "most_shorted_stocks",
     "BBD": "most_actives",
@@ -652,6 +652,9 @@
     "CLB": "small_cap_gainers",
     "EFOR": "small_cap_gainers",
     "DH": "small_cap_gainers",
-    "AZTA": "small_cap_gainers"
+    "AZTA": "small_cap_gainers",
+    "CRL": "day_gainers",
+    "RES": "small_cap_gainers",
+    "KLXE": "small_cap_gainers"
   }
 }
