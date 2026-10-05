@@ -46,7 +46,6 @@
     "NU",
     "ITUB",
     "MDT",
-    "IBTA",
     "PRKS",
     "OEC",
     "CANG",
@@ -317,27 +316,13 @@
     "SLVM",
     "BZUN",
     "ALMR",
-    "EDIT"
+    "EDIT",
+    "BAC"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "SOHU": {
-      "start_bar": "2026-10-05T13:30:00-04:00"
-    },
-    "LCUT": {
-      "start_bar": "2026-10-05T13:35:00-04:00"
-    },
-    "DKNG": {
-      "start_bar": "2026-10-05T13:40:00-04:00"
-    },
-    "HMH": {
-      "start_bar": "2026-10-05T13:35:00-04:00"
-    },
     "NXT": {
       "start_bar": "2026-10-05T13:45:00-04:00"
-    },
-    "DLO": {
-      "start_bar": "2026-10-05T13:40:00-04:00"
     },
     "VNET": {
       "start_bar": "2026-10-05T13:45:00-04:00"
@@ -351,20 +336,20 @@
     "CLSK": {
       "start_bar": "2026-10-05T13:50:00-04:00"
     },
-    "APP": {
-      "start_bar": "2026-10-05T13:50:00-04:00"
-    },
     "SE": {
       "start_bar": "2026-10-05T13:50:00-04:00"
     },
     "MLCO": {
       "start_bar": "2026-10-05T13:45:00-04:00"
     },
-    "BBAI": {
-      "start_bar": "2026-10-05T13:50:00-04:00"
-    },
     "FTRE": {
       "start_bar": "2026-10-05T13:50:00-04:00"
+    },
+    "FNKO": {
+      "start_bar": "2026-10-05T13:55:00-04:00"
+    },
+    "STLA": {
+      "start_bar": "2026-10-05T13:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -396,7 +381,6 @@
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
     "MDT": "most_actives",
-    "IBTA": "small_cap_gainers",
     "PRKS": "small_cap_gainers",
     "OEC": "small_cap_gainers",
     "CANG": "small_cap_gainers",
@@ -667,6 +651,7 @@
     "SLVM": "small_cap_gainers",
     "BZUN": "small_cap_gainers",
     "ALMR": "day_gainers",
-    "EDIT": "small_cap_gainers"
+    "EDIT": "small_cap_gainers",
+    "BAC": "most_actives"
   }
 }
