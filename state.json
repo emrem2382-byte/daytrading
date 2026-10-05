@@ -35,7 +35,6 @@
     "BAC",
     "SCNI",
     "TEAD",
-    "CMCM",
     "LITB",
     "NVAX",
     "SNAP",
@@ -317,17 +316,21 @@
     "IHRT",
     "GWRE",
     "DAVE",
-    "FET"
+    "FET",
+    "INVX"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "NSTR-WT": {
-      "start_bar": "2026-10-05T10:15:00-04:00"
-    },
     "TWIN": {
       "start_bar": "2026-10-05T10:30:00-04:00"
     },
     "NFLX": {
+      "start_bar": "2026-10-05T10:40:00-04:00"
+    },
+    "RRGB": {
+      "start_bar": "2026-10-05T10:40:00-04:00"
+    },
+    "CAMT": {
       "start_bar": "2026-10-05T10:40:00-04:00"
     }
   },
@@ -338,10 +341,10 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
-    "OPTU": "aggressive_small_caps",
+    "OPTU": "small_cap_gainers+aggressive_small_caps",
     "SOUN": "most_shorted_stocks",
     "TRIP": "most_shorted_stocks",
     "COUR": "aggressive_small_caps",
@@ -349,7 +352,6 @@
     "BAC": "most_actives",
     "SCNI": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
-    "CMCM": "small_cap_gainers",
     "LITB": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
     "SNAP": "most_actives",
@@ -631,6 +633,7 @@
     "IHRT": "small_cap_gainers",
     "GWRE": "day_gainers",
     "DAVE": "day_gainers",
-    "FET": "small_cap_gainers"
+    "FET": "small_cap_gainers",
+    "INVX": "day_gainers"
   }
 }
