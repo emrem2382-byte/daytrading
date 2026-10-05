@@ -36,7 +36,6 @@
     "TEAD",
     "NVAX",
     "SOFI",
-    "DXPE",
     "ADCT",
     "CTS",
     "NCLH",
@@ -317,13 +316,11 @@
     "SOS",
     "FUN",
     "WLTH",
-    "EHTH"
+    "EHTH",
+    "NVA"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "ORC": {
-      "start_bar": "2026-10-05T11:25:00-04:00"
-    },
     "PRGO": {
       "start_bar": "2026-10-05T11:25:00-04:00"
     },
@@ -332,6 +329,15 @@
     },
     "NKE": {
       "start_bar": "2026-10-05T11:35:00-04:00"
+    },
+    "AMKR": {
+      "start_bar": "2026-10-05T11:35:00-04:00"
+    },
+    "MEC": {
+      "start_bar": "2026-10-05T11:35:00-04:00"
+    },
+    "CTVA": {
+      "start_bar": "2026-10-05T11:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -353,7 +359,6 @@
     "TEAD": "small_cap_gainers+aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
     "SOFI": "most_actives",
-    "DXPE": "day_gainers",
     "ADCT": "small_cap_gainers",
     "CTS": "small_cap_gainers",
     "NCLH": "most_actives",
@@ -634,6 +639,7 @@
     "SOS": "small_cap_gainers",
     "FUN": "aggressive_small_caps",
     "WLTH": "small_cap_gainers",
-    "EHTH": "small_cap_gainers"
+    "EHTH": "small_cap_gainers",
+    "NVA": "day_gainers"
   }
 }
