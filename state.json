@@ -324,16 +324,7 @@
     "GETY": {
       "start_bar": "2026-10-05T12:25:00-04:00"
     },
-    "ASAN": {
-      "start_bar": "2026-10-05T12:45:00-04:00"
-    },
-    "IVR": {
-      "start_bar": "2026-10-05T12:50:00-04:00"
-    },
     "PAC": {
-      "start_bar": "2026-10-05T12:45:00-04:00"
-    },
-    "AZUL": {
       "start_bar": "2026-10-05T12:45:00-04:00"
     },
     "RAIL": {
@@ -353,6 +344,12 @@
     },
     "CANG": {
       "start_bar": "2026-10-05T12:55:00-04:00"
+    },
+    "LCUT": {
+      "start_bar": "2026-10-05T13:00:00-04:00"
+    },
+    "PRPL": {
+      "start_bar": "2026-10-05T13:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -372,7 +369,7 @@
     "EVH": "aggressive_small_caps",
     "BAC": "most_actives",
     "TEAD": "small_cap_gainers+aggressive_small_caps",
-    "NVAX": "most_shorted_stocks",
+    "NVAX": "small_cap_gainers+most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
