@@ -321,9 +321,6 @@
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CLSK": {
-      "start_bar": "2026-10-05T13:50:00-04:00"
-    },
     "FNKO": {
       "start_bar": "2026-10-05T13:55:00-04:00"
     },
@@ -342,22 +339,13 @@
     "SID": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
-    "GRPN": {
-      "start_bar": "2026-10-05T14:05:00-04:00"
-    },
     "VIA": {
       "start_bar": "2026-10-05T14:00:00-04:00"
-    },
-    "NIO": {
-      "start_bar": "2026-10-05T14:05:00-04:00"
     },
     "THRM": {
       "start_bar": "2026-10-05T14:05:00-04:00"
     },
     "HOS": {
-      "start_bar": "2026-10-05T14:00:00-04:00"
-    },
-    "TPB": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     }
   },
@@ -505,7 +493,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "day_gainers+most_shorted_stocks",
+    "UPST": "most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
