@@ -38,7 +38,6 @@
     "SOFI",
     "ADCT",
     "HTZ",
-    "SEI",
     "KSS",
     "BBD",
     "ASPSZ",
@@ -317,16 +316,11 @@
     "AZTA",
     "CRL",
     "RES",
-    "KLXE"
+    "KLXE",
+    "PYXS"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "SHOE": {
-      "start_bar": "2026-10-05T12:00:00-04:00"
-    },
-    "STLA": {
-      "start_bar": "2026-10-05T12:05:00-04:00"
-    },
     "CCCC": {
       "start_bar": "2026-10-05T12:05:00-04:00"
     },
@@ -350,9 +344,6 @@
     },
     "AARD": {
       "start_bar": "2026-10-05T12:10:00-04:00"
-    },
-    "SLS": {
-      "start_bar": "2026-10-05T12:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -376,7 +367,6 @@
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
     "HTZ": "most_shorted_stocks",
-    "SEI": "day_gainers",
     "KSS": "most_shorted_stocks",
     "BBD": "most_actives",
     "ASPSZ": "small_cap_gainers",
@@ -655,6 +645,7 @@
     "AZTA": "small_cap_gainers",
     "CRL": "day_gainers",
     "RES": "small_cap_gainers",
-    "KLXE": "small_cap_gainers"
+    "KLXE": "small_cap_gainers",
+    "PYXS": "small_cap_gainers"
   }
 }
