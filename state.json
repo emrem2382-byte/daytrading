@@ -44,7 +44,6 @@
     "RXRX",
     "VALE",
     "CCCC",
-    "PMVP",
     "WBX",
     "NU",
     "ITUB",
@@ -317,13 +316,11 @@
     "TIGR",
     "LOMA",
     "FIP",
-    "PLAY"
+    "PLAY",
+    "WS"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "VALE": {
-      "start_bar": "2026-10-05T12:40:00-04:00"
-    },
     "ANF": {
       "start_bar": "2026-10-05T12:35:00-04:00"
     },
@@ -332,6 +329,18 @@
     },
     "GETY": {
       "start_bar": "2026-10-05T12:25:00-04:00"
+    },
+    "ASAN": {
+      "start_bar": "2026-10-05T12:45:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-10-05T12:50:00-04:00"
+    },
+    "PAC": {
+      "start_bar": "2026-10-05T12:45:00-04:00"
+    },
+    "AZUL": {
+      "start_bar": "2026-10-05T12:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -361,7 +370,6 @@
     "RXRX": "most_actives+most_shorted_stocks",
     "VALE": "most_actives",
     "CCCC": "most_shorted_stocks",
-    "PMVP": "small_cap_gainers",
     "WBX": "small_cap_gainers",
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
@@ -634,6 +642,7 @@
     "TIGR": "small_cap_gainers",
     "LOMA": "small_cap_gainers",
     "FIP": "aggressive_small_caps",
-    "PLAY": "most_shorted_stocks"
+    "PLAY": "most_shorted_stocks",
+    "WS": "small_cap_gainers"
   }
 }
