@@ -35,9 +35,7 @@
     "BAC",
     "SCNI",
     "TEAD",
-    "LITB",
     "NVAX",
-    "SNAP",
     "EQPT",
     "EXTR",
     "MSTR",
@@ -317,13 +315,12 @@
     "GWRE",
     "DAVE",
     "FET",
-    "INVX"
+    "INVX",
+    "EGIEY",
+    "LAC"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "NFLX": {
-      "start_bar": "2026-10-05T10:40:00-04:00"
-    },
     "RRGB": {
       "start_bar": "2026-10-05T10:40:00-04:00"
     },
@@ -338,6 +335,12 @@
     },
     "COHU": {
       "start_bar": "2026-10-05T10:45:00-04:00"
+    },
+    "CMCO": {
+      "start_bar": "2026-10-05T10:50:00-04:00"
+    },
+    "TMC": {
+      "start_bar": "2026-10-05T10:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -358,9 +361,7 @@
     "BAC": "most_actives",
     "SCNI": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
-    "LITB": "small_cap_gainers",
     "NVAX": "most_shorted_stocks",
-    "SNAP": "most_actives",
     "EQPT": "day_gainers",
     "EXTR": "day_gainers",
     "MSTR": "most_actives",
@@ -640,6 +641,8 @@
     "GWRE": "day_gainers",
     "DAVE": "day_gainers",
     "FET": "small_cap_gainers",
-    "INVX": "day_gainers"
+    "INVX": "day_gainers",
+    "EGIEY": "day_gainers",
+    "LAC": "aggressive_small_caps"
   }
 }
