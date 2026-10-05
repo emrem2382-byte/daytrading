@@ -43,10 +43,7 @@
     "NTLA",
     "RXRX",
     "VALE",
-    "CMCO",
     "CCCC",
-    "BYND",
-    "CIFR",
     "HIMX",
     "CAR",
     "PMVP",
@@ -317,24 +314,33 @@
     "INN",
     "LSAK",
     "DWSN",
-    "CRESY"
+    "CRESY",
+    "ABUS",
+    "TIGR",
+    "LOMA"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
     "AARD": {
       "start_bar": "2026-10-05T12:10:00-04:00"
     },
-    "JACK": {
-      "start_bar": "2026-10-05T12:20:00-04:00"
-    },
-    "SLS": {
-      "start_bar": "2026-10-05T12:20:00-04:00"
-    },
     "ALEC": {
       "start_bar": "2026-10-05T12:30:00-04:00"
     },
     "MSFT": {
       "start_bar": "2026-10-05T12:30:00-04:00"
+    },
+    "VALE": {
+      "start_bar": "2026-10-05T12:40:00-04:00"
+    },
+    "UGP": {
+      "start_bar": "2026-10-05T12:40:00-04:00"
+    },
+    "ANF": {
+      "start_bar": "2026-10-05T12:35:00-04:00"
+    },
+    "GRAB": {
+      "start_bar": "2026-10-05T12:40:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,10 +369,7 @@
     "NTLA": "most_shorted_stocks",
     "RXRX": "most_actives+most_shorted_stocks",
     "VALE": "most_actives",
-    "CMCO": "small_cap_gainers",
     "CCCC": "most_shorted_stocks",
-    "BYND": "most_shorted_stocks",
-    "CIFR": "most_actives",
     "HIMX": "day_gainers",
     "CAR": "day_gainers",
     "PMVP": "small_cap_gainers",
@@ -637,6 +640,9 @@
     "INN": "aggressive_small_caps",
     "LSAK": "small_cap_gainers",
     "DWSN": "small_cap_gainers",
-    "CRESY": "small_cap_gainers"
+    "CRESY": "small_cap_gainers",
+    "ABUS": "small_cap_gainers",
+    "TIGR": "small_cap_gainers",
+    "LOMA": "small_cap_gainers"
   }
 }
