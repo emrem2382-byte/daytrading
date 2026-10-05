@@ -37,8 +37,6 @@
     "NVAX",
     "SOFI",
     "ADCT",
-    "CTS",
-    "NCLH",
     "AMKR",
     "TITN",
     "DNN",
@@ -317,13 +315,12 @@
     "FUN",
     "WLTH",
     "EHTH",
-    "NVA"
+    "NVA",
+    "NE",
+    "TNON"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "PRGO": {
-      "start_bar": "2026-10-05T11:25:00-04:00"
-    },
     "FLNC": {
       "start_bar": "2026-10-05T11:35:00-04:00"
     },
@@ -338,6 +335,21 @@
     },
     "CTVA": {
       "start_bar": "2026-10-05T11:40:00-04:00"
+    },
+    "CWST": {
+      "start_bar": "2026-10-05T11:40:00-04:00"
+    },
+    "CDE": {
+      "start_bar": "2026-10-05T11:45:00-04:00"
+    },
+    "SID": {
+      "start_bar": "2026-10-05T11:45:00-04:00"
+    },
+    "NNE": {
+      "start_bar": "2026-10-05T11:45:00-04:00"
+    },
+    "TNON": {
+      "start_bar": "2026-10-05T11:45:00-04:00"
     }
   },
   "ticker_sources": {
@@ -360,8 +372,6 @@
     "NVAX": "most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
-    "CTS": "small_cap_gainers",
-    "NCLH": "most_actives",
     "AMKR": "day_gainers",
     "TITN": "small_cap_gainers",
     "DNN": "most_actives",
@@ -640,6 +650,8 @@
     "FUN": "aggressive_small_caps",
     "WLTH": "small_cap_gainers",
     "EHTH": "small_cap_gainers",
-    "NVA": "day_gainers"
+    "NVA": "day_gainers",
+    "NE": "day_gainers",
+    "TNON": "most_shorted_stocks"
   }
 }
