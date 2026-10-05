@@ -33,10 +33,8 @@
     "COUR",
     "EVH",
     "BAC",
-    "SCNI",
     "TEAD",
     "NVAX",
-    "EXTR",
     "MSTR",
     "CHRN",
     "MTRN",
@@ -317,20 +315,22 @@
     "INVX",
     "EGIEY",
     "LAC",
-    "EPRX"
+    "EPRX",
+    "DLTH",
+    "CNF"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CMCO": {
-      "start_bar": "2026-10-05T10:50:00-04:00"
-    },
     "TMC": {
       "start_bar": "2026-10-05T10:55:00-04:00"
     },
     "OEC": {
       "start_bar": "2026-10-05T10:55:00-04:00"
     },
-    "PLUG": {
+    "NTLA": {
+      "start_bar": "2026-10-05T11:05:00-04:00"
+    },
+    "BLSM": {
       "start_bar": "2026-10-05T11:00:00-04:00"
     }
   },
@@ -350,10 +350,8 @@
     "COUR": "aggressive_small_caps",
     "EVH": "aggressive_small_caps",
     "BAC": "most_actives",
-    "SCNI": "most_shorted_stocks",
     "TEAD": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
-    "EXTR": "day_gainers",
     "MSTR": "most_actives",
     "CHRN": "day_gainers",
     "MTRN": "day_gainers",
@@ -542,7 +540,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "day_gainers+most_shorted_stocks",
+    "UPST": "most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -634,6 +632,8 @@
     "INVX": "day_gainers",
     "EGIEY": "day_gainers",
     "LAC": "aggressive_small_caps",
-    "EPRX": "small_cap_gainers"
+    "EPRX": "small_cap_gainers",
+    "DLTH": "small_cap_gainers",
+    "CNF": "small_cap_gainers"
   }
 }
