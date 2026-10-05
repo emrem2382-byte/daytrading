@@ -50,9 +50,6 @@
     "PICS",
     "OLN",
     "SHOE",
-    "HRI",
-    "CDE",
-    "FNKO",
     "AHT",
     "CLSK",
     "LOCL",
@@ -317,29 +314,17 @@
     "VIR",
     "XZO",
     "EXFY",
-    "GMAB"
+    "GMAB",
+    "NEOG",
+    "SEER",
+    "UAMY"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "AHT": {
-      "start_bar": "2026-10-05T14:00:00-04:00"
-    },
-    "APPF": {
-      "start_bar": "2026-10-05T14:40:00-04:00"
-    },
-    "DDD": {
-      "start_bar": "2026-10-05T14:45:00-04:00"
-    },
-    "JACK": {
-      "start_bar": "2026-10-05T14:45:00-04:00"
-    },
     "ABEV": {
       "start_bar": "2026-10-05T14:50:00-04:00"
     },
     "DNN": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
-    },
-    "LCUT": {
       "start_bar": "2026-10-05T14:50:00-04:00"
     },
     "SERV": {
@@ -360,8 +345,35 @@
     "NIO": {
       "start_bar": "2026-10-05T14:55:00-04:00"
     },
-    "PYXS": {
-      "start_bar": "2026-10-05T14:50:00-04:00"
+    "FLNC": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "NXT": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "WULF": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "EMBJ": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "IVR": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "PMT": {
+      "start_bar": "2026-10-05T14:55:00-04:00"
+    },
+    "LTM": {
+      "start_bar": "2026-10-05T14:55:00-04:00"
+    },
+    "OCGN": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "ORC": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
+    },
+    "IHRT": {
+      "start_bar": "2026-10-05T15:00:00-04:00"
     }
   },
   "ticker_sources": {
@@ -397,9 +409,6 @@
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
     "SHOE": "most_shorted_stocks",
-    "HRI": "day_gainers",
-    "CDE": "most_actives",
-    "FNKO": "small_cap_gainers",
     "AHT": "small_cap_gainers",
     "CLSK": "most_shorted_stocks",
     "LOCL": "small_cap_gainers",
@@ -664,6 +673,9 @@
     "VIR": "small_cap_gainers",
     "XZO": "small_cap_gainers",
     "EXFY": "small_cap_gainers",
-    "GMAB": "day_gainers"
+    "GMAB": "day_gainers",
+    "NEOG": "day_gainers",
+    "SEER": "small_cap_gainers",
+    "UAMY": "aggressive_small_caps"
   }
 }
