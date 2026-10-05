@@ -1,20 +1,20 @@
 {
   "premarket_watchlist": [
     "RXO",
-    "ITUB",
     "BBD",
-    "NU",
+    "ITUB",
     "PICS",
-    "NFE",
+    "NU",
     "PLAY",
+    "NFE",
     "ARCO",
     "VALE",
-    "PPC",
     "IBRX",
-    "JBS",
-    "QGEN",
+    "PPC",
     "VIRT",
-    "RRGB"
+    "RRGB",
+    "BTCT",
+    "CRMT"
   ],
   "last_session": "premarket",
   "tracked_tickers": [
