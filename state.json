@@ -46,7 +46,6 @@
     "NU",
     "ITUB",
     "MDT",
-    "PRKS",
     "CANG",
     "EBON",
     "CAPR",
@@ -317,21 +316,13 @@
     "ALMR",
     "EDIT",
     "BAC",
-    "LAB"
+    "LAB",
+    "MOBI"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CEVA": {
-      "start_bar": "2026-10-05T13:45:00-04:00"
-    },
     "CLSK": {
       "start_bar": "2026-10-05T13:50:00-04:00"
-    },
-    "SE": {
-      "start_bar": "2026-10-05T13:50:00-04:00"
-    },
-    "MLCO": {
-      "start_bar": "2026-10-05T13:45:00-04:00"
     },
     "FNKO": {
       "start_bar": "2026-10-05T13:55:00-04:00"
@@ -342,10 +333,31 @@
     "GEO": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
-    "APP": {
+    "AHT": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
-    "BMNR": {
+    "WDC": {
+      "start_bar": "2026-10-05T14:05:00-04:00"
+    },
+    "SID": {
+      "start_bar": "2026-10-05T14:00:00-04:00"
+    },
+    "GRPN": {
+      "start_bar": "2026-10-05T14:05:00-04:00"
+    },
+    "VIA": {
+      "start_bar": "2026-10-05T14:00:00-04:00"
+    },
+    "NIO": {
+      "start_bar": "2026-10-05T14:05:00-04:00"
+    },
+    "THRM": {
+      "start_bar": "2026-10-05T14:05:00-04:00"
+    },
+    "HOS": {
+      "start_bar": "2026-10-05T14:00:00-04:00"
+    },
+    "TPB": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     }
   },
@@ -378,7 +390,6 @@
     "NU": "most_actives+day_gainers",
     "ITUB": "most_actives+day_gainers",
     "MDT": "most_actives",
-    "PRKS": "small_cap_gainers",
     "CANG": "small_cap_gainers",
     "EBON": "small_cap_gainers",
     "CAPR": "aggressive_small_caps+most_shorted_stocks",
@@ -603,7 +614,7 @@
     "ONT": "small_cap_gainers",
     "EVTC": "small_cap_gainers",
     "SOS": "small_cap_gainers",
-    "FUN": "small_cap_gainers+aggressive_small_caps",
+    "FUN": "aggressive_small_caps",
     "WLTH": "small_cap_gainers",
     "EHTH": "small_cap_gainers",
     "NVA": "day_gainers",
@@ -649,6 +660,7 @@
     "ALMR": "day_gainers",
     "EDIT": "small_cap_gainers",
     "BAC": "most_actives",
-    "LAB": "small_cap_gainers"
+    "LAB": "small_cap_gainers",
+    "MOBI": "small_cap_gainers"
   }
 }
