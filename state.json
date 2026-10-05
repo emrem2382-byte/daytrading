@@ -35,9 +35,6 @@
     "BAC",
     "TEAD",
     "NVAX",
-    "MSTR",
-    "CHRN",
-    "MTRN",
     "NTAP",
     "ATRA",
     "NPO",
@@ -317,13 +314,13 @@
     "LAC",
     "EPRX",
     "DLTH",
-    "CNF"
+    "CNF",
+    "TEM",
+    "BORR",
+    "OIS"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "TMC": {
-      "start_bar": "2026-10-05T10:55:00-04:00"
-    },
     "OEC": {
       "start_bar": "2026-10-05T10:55:00-04:00"
     },
@@ -332,6 +329,12 @@
     },
     "BLSM": {
       "start_bar": "2026-10-05T11:00:00-04:00"
+    },
+    "CMCO": {
+      "start_bar": "2026-10-05T11:05:00-04:00"
+    },
+    "FNKO": {
+      "start_bar": "2026-10-05T11:05:00-04:00"
     }
   },
   "ticker_sources": {
@@ -352,9 +355,6 @@
     "BAC": "most_actives",
     "TEAD": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
-    "MSTR": "most_actives",
-    "CHRN": "day_gainers",
-    "MTRN": "day_gainers",
     "NTAP": "day_gainers",
     "ATRA": "small_cap_gainers",
     "NPO": "day_gainers",
@@ -493,7 +493,7 @@
     "DLO": "day_gainers",
     "WDC": "day_gainers",
     "MELI": "day_gainers",
-    "BSBR": "most_actives+day_gainers",
+    "BSBR": "day_gainers",
     "PURR": "day_gainers",
     "BSY": "day_gainers",
     "GGAL": "day_gainers",
@@ -540,7 +540,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -634,6 +634,9 @@
     "LAC": "aggressive_small_caps",
     "EPRX": "small_cap_gainers",
     "DLTH": "small_cap_gainers",
-    "CNF": "small_cap_gainers"
+    "CNF": "small_cap_gainers",
+    "TEM": "day_gainers",
+    "BORR": "small_cap_gainers",
+    "OIS": "small_cap_gainers"
   }
 }
