@@ -37,9 +37,6 @@
     "NVAX",
     "SOFI",
     "ADCT",
-    "DNN",
-    "DIN",
-    "RRGB",
     "NOVT",
     "SES",
     "IPHA",
@@ -317,13 +314,13 @@
     "TNON",
     "PDS",
     "NBR",
-    "ANGX"
+    "ANGX",
+    "AAL",
+    "TPB",
+    "METCB"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CTVA": {
-      "start_bar": "2026-10-05T11:40:00-04:00"
-    },
     "CDE": {
       "start_bar": "2026-10-05T11:45:00-04:00"
     },
@@ -341,6 +338,18 @@
     },
     "ANGX": {
       "start_bar": "2026-10-05T11:45:00-04:00"
+    },
+    "CIFR": {
+      "start_bar": "2026-10-05T11:55:00-04:00"
+    },
+    "LW": {
+      "start_bar": "2026-10-05T11:55:00-04:00"
+    },
+    "VISN": {
+      "start_bar": "2026-10-05T11:55:00-04:00"
+    },
+    "AAL": {
+      "start_bar": "2026-10-05T11:55:00-04:00"
     }
   },
   "ticker_sources": {
@@ -363,9 +372,6 @@
     "NVAX": "most_shorted_stocks",
     "SOFI": "most_actives",
     "ADCT": "small_cap_gainers",
-    "DNN": "most_actives",
-    "DIN": "small_cap_gainers",
-    "RRGB": "small_cap_gainers",
     "NOVT": "day_gainers",
     "SES": "small_cap_gainers",
     "IPHA": "small_cap_gainers",
@@ -475,7 +481,7 @@
     "PBR-A": "most_actives+day_gainers",
     "CBRS": "day_gainers",
     "UGP": "day_gainers",
-    "GGB": "day_gainers",
+    "GGB": "most_actives",
     "DLO": "day_gainers",
     "WDC": "day_gainers",
     "MELI": "day_gainers",
@@ -643,6 +649,9 @@
     "TNON": "most_shorted_stocks",
     "PDS": "small_cap_gainers",
     "NBR": "small_cap_gainers",
-    "ANGX": "aggressive_small_caps"
+    "ANGX": "aggressive_small_caps",
+    "AAL": "most_actives",
+    "TPB": "small_cap_gainers",
+    "METCB": "small_cap_gainers"
   }
 }
