@@ -40,11 +40,9 @@
     "HTZ",
     "KSS",
     "BBD",
-    "ASPSZ",
     "NTLA",
     "RXRX",
     "VALE",
-    "STRL",
     "TWIN",
     "RKT",
     "ECHO",
@@ -317,25 +315,12 @@
     "CRL",
     "RES",
     "KLXE",
-    "PYXS"
+    "PYXS",
+    "FTRE",
+    "INN"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "CCCC": {
-      "start_bar": "2026-10-05T12:05:00-04:00"
-    },
-    "CWST": {
-      "start_bar": "2026-10-05T12:05:00-04:00"
-    },
-    "HRI": {
-      "start_bar": "2026-10-05T12:05:00-04:00"
-    },
-    "PLUG": {
-      "start_bar": "2026-10-05T12:05:00-04:00"
-    },
-    "CMPS": {
-      "start_bar": "2026-10-05T12:10:00-04:00"
-    },
     "NMRA": {
       "start_bar": "2026-10-05T12:10:00-04:00"
     },
@@ -344,6 +329,15 @@
     },
     "AARD": {
       "start_bar": "2026-10-05T12:10:00-04:00"
+    },
+    "RKT": {
+      "start_bar": "2026-10-05T12:25:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-10-05T12:20:00-04:00"
+    },
+    "SLS": {
+      "start_bar": "2026-10-05T12:20:00-04:00"
     }
   },
   "ticker_sources": {
@@ -369,11 +363,9 @@
     "HTZ": "most_shorted_stocks",
     "KSS": "most_shorted_stocks",
     "BBD": "most_actives",
-    "ASPSZ": "small_cap_gainers",
     "NTLA": "most_shorted_stocks",
     "RXRX": "most_actives+most_shorted_stocks",
     "VALE": "most_actives",
-    "STRL": "day_gainers",
     "TWIN": "small_cap_gainers",
     "RKT": "most_actives",
     "ECHO": "day_gainers",
@@ -646,6 +638,8 @@
     "CRL": "day_gainers",
     "RES": "small_cap_gainers",
     "KLXE": "small_cap_gainers",
-    "PYXS": "small_cap_gainers"
+    "PYXS": "small_cap_gainers",
+    "FTRE": "day_gainers",
+    "INN": "aggressive_small_caps"
   }
 }
