@@ -35,9 +35,6 @@
     "BAC",
     "TEAD",
     "NVAX",
-    "NTAP",
-    "ATRA",
-    "NPO",
     "ARW",
     "LSCC",
     "LFUS",
@@ -317,7 +314,10 @@
     "CNF",
     "TEM",
     "BORR",
-    "OIS"
+    "OIS",
+    "SDGR",
+    "XPRO",
+    "HMH"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
@@ -335,6 +335,9 @@
     },
     "FNKO": {
       "start_bar": "2026-10-05T11:05:00-04:00"
+    },
+    "ZETA": {
+      "start_bar": "2026-10-05T11:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -344,7 +347,7 @@
     "QDEL": "small_cap_gainers+aggressive_small_caps",
     "RXO": "day_gainers",
     "GENI": "aggressive_small_caps",
-    "SPCX": "most_actives+day_gainers",
+    "SPCX": "most_actives",
     "GPRO": "aggressive_small_caps",
     "ARCO": "small_cap_gainers+aggressive_small_caps",
     "OPTU": "small_cap_gainers+aggressive_small_caps",
@@ -355,9 +358,6 @@
     "BAC": "most_actives",
     "TEAD": "aggressive_small_caps",
     "NVAX": "most_shorted_stocks",
-    "NTAP": "day_gainers",
-    "ATRA": "small_cap_gainers",
-    "NPO": "day_gainers",
     "ARW": "day_gainers",
     "LSCC": "day_gainers",
     "LFUS": "day_gainers",
@@ -637,6 +637,9 @@
     "CNF": "small_cap_gainers",
     "TEM": "day_gainers",
     "BORR": "small_cap_gainers",
-    "OIS": "small_cap_gainers"
+    "OIS": "small_cap_gainers",
+    "SDGR": "day_gainers",
+    "XPRO": "small_cap_gainers",
+    "HMH": "small_cap_gainers"
   }
 }
