@@ -49,7 +49,6 @@
     "HL",
     "PICS",
     "OLN",
-    "CEVA",
     "SMTC",
     "SHOE",
     "HRI",
@@ -317,27 +316,16 @@
     "PRKS",
     "LIFE",
     "VIR",
-    "XZO"
+    "XZO",
+    "EXFY"
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
     "AHT": {
       "start_bar": "2026-10-05T14:00:00-04:00"
     },
-    "TRIP": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
     "STGW": {
       "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "TTAN": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "MSFT": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "VAL": {
-      "start_bar": "2026-10-05T14:30:00-04:00"
     },
     "PCOR": {
       "start_bar": "2026-10-05T14:40:00-04:00"
@@ -348,17 +336,17 @@
     "APPF": {
       "start_bar": "2026-10-05T14:40:00-04:00"
     },
-    "FOUR": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "ANGX": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "PYXS": {
-      "start_bar": "2026-10-05T14:35:00-04:00"
-    },
-    "GPRO": {
+    "DDD": {
       "start_bar": "2026-10-05T14:45:00-04:00"
+    },
+    "JACK": {
+      "start_bar": "2026-10-05T14:45:00-04:00"
+    },
+    "ABEV": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
+    },
+    "DNN": {
+      "start_bar": "2026-10-05T14:50:00-04:00"
     }
   },
   "ticker_sources": {
@@ -393,7 +381,6 @@
     "HL": "most_actives",
     "PICS": "small_cap_gainers",
     "OLN": "aggressive_small_caps",
-    "CEVA": "small_cap_gainers",
     "SMTC": "day_gainers",
     "SHOE": "most_shorted_stocks",
     "HRI": "day_gainers",
@@ -496,7 +483,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
@@ -605,7 +592,7 @@
     "ONT": "small_cap_gainers",
     "EVTC": "small_cap_gainers",
     "SOS": "small_cap_gainers",
-    "FUN": "small_cap_gainers+aggressive_small_caps",
+    "FUN": "aggressive_small_caps",
     "WLTH": "small_cap_gainers",
     "EHTH": "small_cap_gainers",
     "NVA": "day_gainers",
@@ -661,6 +648,7 @@
     "PRKS": "small_cap_gainers",
     "LIFE": "day_gainers",
     "VIR": "small_cap_gainers",
-    "XZO": "small_cap_gainers"
+    "XZO": "small_cap_gainers",
+    "EXFY": "small_cap_gainers"
   }
 }
