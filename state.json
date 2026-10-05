@@ -321,31 +321,13 @@
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "TMC": {
-      "start_bar": "2026-10-05T14:55:00-04:00"
-    },
-    "FLNC": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
     "NXT": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "WULF": {
       "start_bar": "2026-10-05T15:00:00-04:00"
     },
     "EMBJ": {
       "start_bar": "2026-10-05T15:00:00-04:00"
     },
-    "IVR": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "PMT": {
-      "start_bar": "2026-10-05T14:55:00-04:00"
-    },
     "OCGN": {
-      "start_bar": "2026-10-05T15:00:00-04:00"
-    },
-    "ORC": {
       "start_bar": "2026-10-05T15:00:00-04:00"
     },
     "IHRT": {
@@ -371,6 +353,18 @@
     },
     "CRESY": {
       "start_bar": "2026-10-05T15:05:00-04:00"
+    },
+    "SRPT": {
+      "start_bar": "2026-10-05T14:15:00-04:00"
+    },
+    "CTVA": {
+      "start_bar": "2026-10-05T15:15:00-04:00"
+    },
+    "LAC": {
+      "start_bar": "2026-10-05T15:15:00-04:00"
+    },
+    "FTRE": {
+      "start_bar": "2026-10-05T15:15:00-04:00"
     }
   },
   "ticker_sources": {
@@ -500,7 +494,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "most_shorted_stocks",
+    "UPST": "day_gainers+most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
