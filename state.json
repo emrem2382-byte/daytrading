@@ -321,17 +321,11 @@
   ],
   "tracked_day": "2026-10-05",
   "pending_bull": {
-    "OPTU": {
-      "start_bar": "2026-10-05T15:15:00-04:00"
-    },
-    "SRPT": {
-      "start_bar": "2026-10-05T15:20:00-04:00"
-    },
-    "PYXS": {
-      "start_bar": "2026-10-05T15:20:00-04:00"
-    },
     "IOT": {
       "start_bar": "2026-10-05T15:30:00-04:00"
+    },
+    "AMX": {
+      "start_bar": "2026-10-05T15:35:00-04:00"
     }
   },
   "ticker_sources": {
@@ -394,7 +388,7 @@
     "PCVX": "day_gainers",
     "PTC": "most_actives+day_gainers",
     "XP": "most_actives+day_gainers",
-    "INTR": "most_actives+day_gainers",
+    "INTR": "day_gainers",
     "PAGS": "day_gainers",
     "STNE": "most_actives+day_gainers",
     "SBS": "most_actives+day_gainers",
@@ -456,7 +450,7 @@
     "BRSL": "aggressive_small_caps",
     "GRPN": "most_shorted_stocks",
     "JACK": "most_shorted_stocks",
-    "UPST": "day_gainers+most_shorted_stocks",
+    "UPST": "most_shorted_stocks",
     "SHOP": "day_gainers",
     "ZETA": "day_gainers",
     "STDN": "day_gainers",
